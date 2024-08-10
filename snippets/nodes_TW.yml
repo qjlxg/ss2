@@ -1,14 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
   country: TW
-  name: 44,45,81,114|TW_1193
+  name: 44,45,114|TW_1076
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
-  country: 🇼TW
-  name: 44,45,81|Relay_TW-🇼TW_855
+  country: TW
+  name: 44,45|Relay_TW-TW_1367
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -19,10 +19,10 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 44,45,81|🇺🇸US_1851
+  name: 44,45,114| ZZ_1560
   network: ws
   port: 12945
   server: 154.40.60.172
@@ -34,10 +34,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  country: 🇼TW
+  country: TW
   h2-opts: {}
   http-opts: {}
-  name: 44,45,81|Pool_🇼TW_856
+  name: 44,45|Pool_TW_1369
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -55,7 +55,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 44,45,47,55,81,114,157|🆙55@oneclickvpnkeys
+  name: 44,45,47,55,114,157|🆙55@oneclickvpnkeys
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -73,9 +73,9 @@ proxies:
   country: KR
   h2-opts: {}
   http-opts: {}
-  name: 45,56,61,79,81,114|Relay_KR-TW_1047
+  name: 45,56,61,79,114|Relay_KR-TW_955
   network: tcp
-  port: 14153
+  port: 14152
   server: ooo.jjjbnode.top
   skip-cert-verify: true
   type: vmess
@@ -85,13 +85,22 @@ proxies:
   country: KR
   h2-opts: {}
   http-opts: {}
-  name: 45,56,61,79,81,114|Relay_KR-TW_1107
+  name: 45,56,61,79,114|Relay_KR-TW_956
   network: tcp
-  port: 14152
+  port: 14153
   server: ooo.jjjbnode.top
   skip-cert-verify: true
   type: vmess
   uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
+- alterId: 0
+  cipher: auto
+  name: 58|台湾|广州移动|Polo|1x
+  network: tcp
+  port: 39872
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 0
   cipher: auto
   name: 74|台湾省 中华电信(HiNet)数据中心
@@ -241,7 +250,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 1058b8c6-a1e1-439c-82f8-a18099151f9a
-- name: 114|Relay_-TW_883
+- name: 114,151|TW_speednode_0276
   network: ws
   password: CMLiu
   port: 443
@@ -249,12 +258,13 @@ proxies:
   skip-cert-verify: true
   sni: aliorg.filegear-sg.me
   type: trojan
+  udp: false
   ws-opts:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: TW
-  name: 114|Relay_TW-TW_1194
+  name: 114|Relay_TW-TW_1077
   network: ws
   password: auto
   port: 443
@@ -442,19 +452,3 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 151,156|🇨🇳 中国【付费推荐：https://a0a.xyz】96
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 32207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 151|15|🇹🇼 台湾2|@ripaojiedian
-  password: a4a8a2002a4fd6c5
-  port: 61931
-  server: 46.29.163.29
-  tfo: false
-  type: ss
