@@ -1,7 +1,14 @@
 proxies:
+- cipher: aes-256-cfb
+  country: 🇩ID
+  name: 44,45,81|ID_450
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 223.165.4.173
+  type: ss
 - cipher: rc4-md5
   country: 🇼TW
-  name: 44,45,77,81|Relay_TW-🇼TW_725
+  name: 44,45,77,81|Relay_TW-🇼TW_706
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -10,24 +17,6 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 64
-  cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 44,45,77,81,84,114|Pool_ TW_1068
-  network: ws
-  port: 30001
-  server: 61.220.129.190
-  servername: www.60548529.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.60548529.xyz
-    path: /path/003500111307
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -46,6 +35,24 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 44,45,77,81,84|Pool_TW_562
+  network: ws
+  port: 30001
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.60548529.xyz
+    path: /path/003500111307
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -61,13 +68,6 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  country: TW
-  name: 45,81,114|TW_1069
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 223.165.4.173
-  type: ss
 - alterId: 0
   cipher: auto
   name: 74|台湾省 中华电信(HiNet)数据中心
@@ -79,22 +79,8 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: chacha20-ietf-poly1305
-  name: 95|🇹🇼 台湾 A TW-1A
-  password: 346ff948-aa0f-42d8-b393-cd3ad43d5462
-  port: 35109
-  server: tw1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 95|🇹🇼 台湾 1-1I
-  password: a7e8bbfe-93b7-4585-80b3-5d98b61d4ff3
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 95|🇹🇼 台湾01-1D
-  password: 8881d249-693c-44fd-8945-4681282cf4c1
+  name: 95|🇹🇼 台湾01-1L
+  password: e2fe2c06-61f5-4b04-b7c1-a1c230b463c0
   port: 47564
   server: gd.xueyejiasu.com
   type: ss
@@ -107,55 +93,33 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 95|🇹🇼 台湾 C TW-1A
-  password: 346ff948-aa0f-42d8-b393-cd3ad43d5462
+  name: 95|🇹🇼 台湾 B TW-1C
+  password: 8032d848-e1d2-478e-818a-5803418b42ce
+  port: 35110
+  server: tw2.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 95|🇹🇼 台湾 1-1D
+  password: 4ac400e4-f676-4a71-a95e-325f1d33b74f
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 95|🇹🇼 台湾 C TW-1B
+  password: bd1562c4-e313-4b10-88d0-8a91ff8d8cc7
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 95|🇹🇼 台湾 B TW-1B
+  name: 95|🇹🇼 台湾 A TW-1B
   password: bd1562c4-e313-4b10-88d0-8a91ff8d8cc7
-  port: 35110
-  server: tw2.iepl.cooc.icu
+  port: 35109
+  server: tw1.iepl.cooc.icu
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 96|🇹🇼 台湾B-1A
-  network: tcp
-  port: '45059'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 87b6ec44-60f9-4bef-89a9-8ee00b96c83f
-- alterId: 0
-  cipher: auto
-  name: '96|🇹🇼 V3 台湾 华南专线-NF #1'
-  network: tcp
-  port: '31021'
-  server: azi.cm3.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
-- alterId: 0
-  cipher: auto
-  name: '96|🇹🇼 V1 台湾 移动专线 #1'
-  network: tcp
-  port: '31021'
-  server: azi.cm.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
-- alterId: 0
-  cipher: auto
-  name: 96|🇹🇼 台湾A-1C
-  network: tcp
-  port: '45058'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 027099f4-d8f6-492f-b947-ff224d478ef0
 - alterId: 0
   cipher: auto
   name: 96|🇹🇼 台湾2-1A
@@ -164,52 +128,55 @@ proxies:
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
+  uuid: cd2a100f-fcda-45c6-87e0-f7c7b2a21660
+- alterId: 0
+  cipher: auto
+  name: 96|🇹🇼 台湾A-1D
+  network: tcp
+  port: '45058'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   uuid: 87b6ec44-60f9-4bef-89a9-8ee00b96c83f
 - alterId: 0
   cipher: auto
-  name: '96|🇹🇼 V2 台湾 华南专线 #1'
-  network: tcp
-  port: '31021'
-  server: azi.cm2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
-- alterId: 0
-  cipher: auto
-  name: 96|🇹🇼 台湾1-1C
+  name: 96|🇹🇼 台湾1-1B
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 027099f4-d8f6-492f-b947-ff224d478ef0
+  uuid: 11539106-9a9d-440c-98e8-81fd6fbf243a
 - alterId: 0
   cipher: auto
-  name: '96|🇹🇼 V3 台湾 华中专线-NF #1'
+  name: 96|🇹🇼 台湾B-1A
   network: tcp
-  port: '31421'
-  server: azi.cn1.xiaomi-api.xyz
+  port: '45059'
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
-- alterId: 0
-  cipher: auto
-  name: '96|🇹🇼 V3 台湾 华东专线-NF #1'
-  network: tcp
-  port: '31421'
-  server: azi.cn2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
-- alterId: 0
-  cipher: auto
-  name: '96|🇹🇼 V2 台湾 华中专线 #1'
-  network: tcp
-  port: '31121'
-  server: azi.ct.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  uuid: ca647af1-be3e-4bee-bac3-165cd28cbd2e
+  uuid: cd2a100f-fcda-45c6-87e0-f7c7b2a21660
+- name: 114|Relay_-TW_793
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- country: TW
+  name: 114|Relay_TW-TW_1026
+  network: ws
+  password: auto
+  port: 443
+  server: 35.201.203.106
+  sni: vip.123789.pp.ua
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 143|🇬🇧 TW_AkariNetworks_188.253.11...
