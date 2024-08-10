@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
   country: TW
-  name: 44,45,81,114|TW_1000
+  name: 44,45,81,114|TW_973
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
@@ -34,10 +34,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  country: 🇼TW
+  country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 44,45,81,84|Pool_🇼TW_531
+  name: 44,45,81,84,114|Pool_ TW_972
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -52,10 +52,10 @@ proxies:
     path: /path/003500111307
 - alterId: 0
   cipher: auto
-  country: TW
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 44,45,47,55,81,84,157|🆙55@oneclickvpnkeys
+  name: 44,45,47,55,81,84,114,157|🆙55@oneclickvpnkeys
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -68,6 +68,44 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: '45,79|disney_netflix_TW #1'
+  network: tcp
+  port: 14153
+  server: ooo.jjjbnode.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 45,79|disney_netflix_TW
+  network: tcp
+  port: 14152
+  server: ooo.jjjbnode.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: 50,64|Relay_CN-IR_11
+  password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
+  port: 61005
+  server: 2.forlive.live
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 50|ChatGPT  TW_82
+  password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
+  port: 61005
+  server: 154.16.55.112
+  type: ss
 - alterId: 0
   cipher: auto
   name: 74|台湾省 中华电信(HiNet)数据中心
@@ -163,18 +201,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 51ec910c-d585-4fd8-b9bc-310c52a7e8d7
-- name: 114|Relay_-TW_790
+- country: TW
+  name: 114|Relay_TW-TW_974
   network: ws
-  password: CMLiu
+  password: auto
   port: 443
   server: 35.201.203.106
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
+  sni: vip.123789.pp.ua
   type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 143|🇬🇧 TW_AkariNetworks_188.253.11...
@@ -355,3 +390,16 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- name: 151|TW_speednode_0276
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048

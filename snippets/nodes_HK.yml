@@ -19,7 +19,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '0,6,7,8,11,12,13,18,19,20,23,24,25,28,29,30,34,35,36,40,41,42,56,61,68,69,70,103|二爷免费翻墙
+  name: '0,6,7,8,11,12,13,18,19,20,23,24,25,28,29,30,34,35,36,40,41,42,56,61,64,68,69,70,103|二爷免费翻墙
     https://1808.free.hr 节点... #78'
   network: tcp
   port: '54104'
@@ -63,21 +63,21 @@ proxies:
     path: /name
 - cipher: aes-256-gcm
   country: HK
-  name: 44,45,64|Relay_HK-HK_48
+  name: 44,45,56,64|Relay_HK-HK_62
   password: 328c867b-a9bb-41f2-be42-c7bff2b5f12d
   port: 50000
   server: a001.standard-nodes-chickenfarms.com
   type: ss
 - cipher: aes-128-gcm
-  country: ' ZZ'
-  name: 44,45,49,50,52,79,81,84,114| ZZ_1475
+  country: 🇰HK
+  name: 44,45,49,50,52,79,81,84|HK_390
   password: a-wym4ovY4Yw
   port: 81
   server: 218.250.217.111
   type: ss
 - cipher: aes-256-gcm
   country: HK
-  name: 44,45,114|Relay_HK-HK_881
+  name: 44,45|Relay_HK-HK_930
   password: 471f819a-7011-4a18-aba9-737fb1221f83
   port: 50000
   server: a002.standard-nodes-chickenfarms.com
@@ -114,7 +114,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇰HK
-  name: 44,45,59,61,64,81,84,118|Pool_HK_95
+  name: 44,45,49,59,61,64,81,84|Pool_🇰HK_391
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
@@ -126,7 +126,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 44,45,81,114|Relay_HK-HK_885
+  name: 44,45,81,114|Relay_HK-HK_875
   network: ws
   port: 80
   server: hk04.thomasina.buzz
@@ -160,7 +160,7 @@ proxies:
   country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 44,47,56,61,64,81,84,114,116|HK_20 |11.45Mb
+  name: 44,47,56,61,64,81,84,114,116|HK_24 |11.45Mb
   network: ws
   port: 443
   server: 103.212.98.234
@@ -178,7 +178,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 44,49,81,84,114| ZZ_1584
+  name: 44,49,81,84,114| ZZ_1385
   network: tcp
   port: 49879
   server: 206.237.31.203
@@ -188,10 +188,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: HK
   h2-opts: {}
   http-opts: {}
-  name: 44,45,81|Relay_🇺🇸US-🇰HK_1713
+  name: 44,45,81,114|Relay_HK-HK_871
   network: ws
   port: 80
   server: hk01.thomasina.buzz
@@ -240,10 +240,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: HK
+  country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 45,56,81,114|Relay_HK-HK_883
+  name: 45,81|Relay_🇭🇰HK-🇭🇰HK_442
   network: tcp
   port: 60001
   server: bgroup.node4.v.nodelist-airport.com
@@ -251,6 +251,42 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: '45,79|netflix_DE #7'
+  network: tcp
+  port: 14252
+  server: ooo.jjjbnode.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: '45,79|disney_netflix_HK #1'
+  network: tcp
+  port: 14255
+  server: ooo.jjjbnode.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: '45,79|netflix_DE #6'
+  network: tcp
+  port: 14253
+  server: ooo.jjjbnode.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
 - cipher: chacha20-ietf-poly1305
   name: 51,95|🇭🇰 1|香港02|X1|XD中港HKT-1C
   password: 761d2f99-f70b-4e08-96f2-3bee8afc4dd0
@@ -273,27 +309,26 @@ proxies:
     headers:
       Host: d84zxlca209ol.cloudfront.net
     path: /stream
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 56,64|Relay_CN-SG_16
-  network: tcp
-  port: 54002
-  server: 183.236.48.163
+- cipher: chacha20-ietf-poly1305
+  name: 56,151|CN_speednode_0024
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  type: ss
+- country: HK
+  name: 56,114|Relay_HK-US_879
+  network: ws
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 45.11.104.94
   skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 58|香港|徐州移动|Neko|1.5x
-  network: tcp
-  port: '13335'
-  server: jscm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 45.11.104.94
+    path: /gateway/connect
 - alterId: 64
   cipher: auto
   name: 76|🇭🇰HK-103.212.98.234-1146 | 5.1...
@@ -737,12 +772,34 @@ proxies:
   port: 13801
   server: nodes.xn--9kqs15ei25a.com
   type: ss
+- name: 114,151|HK_speednode_0160
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.76.26.26
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- country: HK
+  name: 114|Relay_HK-HK_869
+  password: 19cfd418-f845-43a6-9c96-d89645e1bbb3
+  port: 32065
+  server: mr.moonriver.sbs
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 114|Relay_HK-HK_882
+  name: 114|Relay_HK-HK_872
   network: ws
   port: 80
   server: hk03.thomasina.buzz
@@ -756,7 +813,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 114|Relay_HK-HK_886
+  name: 114|Relay_HK-HK_874
   network: ws
   port: 80
   server: hk02.thomasina.buzz
@@ -765,23 +822,16 @@ proxies:
   type: vmess
   uuid: e3dd1fbb-06ad-4467-8e02-bb8e9287ffa8
   ws-opts: {}
-- alterId: 64
-  cipher: auto
-  country: 🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 123| HK_610
+- country: HK
+  name: 114|Relay_HK-HK_878
   network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
+  password: moist
+  port: 2083
+  server: 47.243.67.28
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    HOST: www.59795160.xyz
-  ws-path: /path/011410073331
+  sni: trojan.freenods.sbs
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 143|🇬🇧 HK_AkariNetworks_188.253.11...
@@ -845,6 +895,71 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- name: 151|HK_speednode_0157
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 47.76.221.85
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 151|HK_speednode_0163
+  network: ws
+  password: CMLiu
+  port: 55330
+  server: 38.147.190.245
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 151|HK_speednode_0164
+  network: ws
+  password: CMLiu
+  port: 44689
+  server: 38.207.165.185
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 151|HK_speednode_0165
+  network: ws
+  password: CMLiu
+  port: 37578
+  server: 149.104.19.75
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 151|HK_speednode_0168
+  network: ws
+  password: CMLiu
+  port: 15957
+  server: 46.3.102.22
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 157|🇭🇰HK-182.16.1.194-11547
