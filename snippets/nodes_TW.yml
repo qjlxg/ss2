@@ -1,14 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
   country: TW
-  name: 44,45,114|TW_1076
+  name: 44,45,114|TW_1188
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 44,45|Relay_TW-TW_1367
+  name: 44,45|Relay_TW-TW_1389
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -17,27 +17,12 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 44,45,114| ZZ_1560
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 44,45|Pool_TW_1369
+  name: 44,45|Pool_TW_1390
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -50,6 +35,21 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 44,45|TW_1391
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -73,7 +73,7 @@ proxies:
   country: KR
   h2-opts: {}
   http-opts: {}
-  name: 45,56,61,79,114|Relay_KR-TW_955
+  name: 45,56,61,79,114|Relay_KR-TW_1022
   network: tcp
   port: 14152
   server: ooo.jjjbnode.top
@@ -85,22 +85,27 @@ proxies:
   country: KR
   h2-opts: {}
   http-opts: {}
-  name: 45,56,61,79,114|Relay_KR-TW_956
+  name: 45,56,61,79,114|Relay_KR-TW_1023
   network: tcp
   port: 14153
   server: ooo.jjjbnode.top
   skip-cert-verify: true
   type: vmess
   uuid: 2329c63f-e991-4a8a-9056-b6761c11912b
-- alterId: 0
-  cipher: auto
-  name: 58|台湾|广州移动|Polo|1x
-  network: tcp
-  port: 39872
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: 56|disney_TW
+  password: 40b68cad-d2b4-49c8-af60-2517fdfc3619
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: '56|disney_TW #1'
+  password: 40b68cad-d2b4-49c8-af60-2517fdfc3619
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 74|台湾省 中华电信(HiNet)数据中心
@@ -250,7 +255,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 1058b8c6-a1e1-439c-82f8-a18099151f9a
-- name: 114,151|TW_speednode_0276
+- name: 114|Relay_-TW_784
   network: ws
   password: CMLiu
   port: 443
@@ -258,13 +263,12 @@ proxies:
   skip-cert-verify: true
   sni: aliorg.filegear-sg.me
   type: trojan
-  udp: false
   ws-opts:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: TW
-  name: 114|Relay_TW-TW_1077
+  name: 114|Relay_TW-TW_1189
   network: ws
   password: auto
   port: 443
