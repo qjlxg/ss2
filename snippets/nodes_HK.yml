@@ -1,12 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,57,58,85,126|🇨🇳
+  client-fingerprint: chrome
+  name: 0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,57,58,85,121,125|🇨🇳
     中国【付费推荐：https://a0a.xyz】88
   network: ws
   port: 46001
   server: mmhk01.micloud.buzz
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
@@ -19,7 +22,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,53,57,58,59,85|二爷免费翻墙
+  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,53,55,57,58,59,85|二爷免费翻墙
     https://1808.free.hr 节点... #78'
   network: tcp
   port: '54104'
@@ -34,7 +37,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,49,53,57,58,60,85,133|中国【付费推荐：https://a0a.xyz】88
+  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,49,53,57,58,60,85,132|中国【付费推荐：https://a0a.xyz】88
     #1'
   network: ws
   port: '46001'
@@ -50,7 +53,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 4,6,9,11,20,22,25,27,30,32,62|HK5GPS看片专线@FMJD66
+  name: 4,6,20,22,25,27,30,32,62|HK5GPS看片专线@FMJD66
   network: ws
   port: 10184
   server: 36.139.183.164
@@ -79,7 +82,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: HK
-  name: 39,40|Relay_HK-HK_953
+  name: 39|HK_1350
   password: 471f819a-7011-4a18-aba9-737fb1221f83
   port: 50000
   server: a002.standard-nodes-chickenfarms.com
@@ -95,7 +98,7 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: HK
-  name: 39,40|Relay_HK-HK_957
+  name: 39,40|Relay_HK-HK_962
   obfs: plain
   password: haRBh7
   port: 3050
@@ -105,7 +108,7 @@ proxies:
   type: ssr
 - cipher: rc4-md5
   country: HK
-  name: 39,40|Relay_HK-HK_955
+  name: 39,40|Relay_HK-HK_960
   obfs: http_simple
   obfs-param: 29590-edE92DcI.download.microsoft.com
   password: passwd
@@ -115,7 +118,7 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: HK
-  name: 39,40|Relay_HK-HK_956
+  name: 39,40|Relay_HK-HK_961
   obfs: plain
   password: haRBh7
   port: 2860
@@ -128,7 +131,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 39,40|Relay_HK-HK_964
+  name: 39,40|Relay_HK-HK_968
   network: ws
   port: 80
   server: hk01.thomasina.buzz
@@ -163,7 +166,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 39,40|Relay_HK-US_963
+  name: 39,40|Relay_HK-HK_965
   network: ws
   port: 80
   server: hk02.thomasina.buzz
@@ -210,7 +213,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 39,40|Relay_HK-HK_959
+  name: 39,40|Relay_HK-HK_963
   network: ws
   port: 80
   server: hk03.thomasina.buzz
@@ -224,10 +227,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  country: HK
+  country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 39,49,53,71,94|HK_804
+  name: 39,49,53,71,94,95|HK_37 |16.08Mb
   network: ws
   port: 443
   server: 103.212.98.234
@@ -296,24 +299,26 @@ proxies:
     headers:
       Host: d84zxlca209ol.cloudfront.net
     path: /stream
-- name: '49,94|Relay_-US_684 #2'
+- client-fingerprint: chrome
+  name: 49,94,121|12|HK_speednode_0156
   network: ws
   password: CMLiu
   port: 38050
   server: 46.3.105.181
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: aliorg.filegear-sg.me
   type: trojan
   ws-opts:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 49|Relay_-HK_821
+- client-fingerprint: chrome
+  name: 49,121|12|HK_speednode_0159
   network: ws
   password: CMLiu
   port: 2087
   server: 47.76.227.128
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: aliorg.filegear-sg.me
   type: trojan
   ws-opts:
@@ -817,24 +822,26 @@ proxies:
   port: 13801
   server: nodes.xn--9kqs15ei25a.com
   type: ss
-- name: 94|Relay_-HK_687
+- client-fingerprint: chrome
+  name: 94,121|12|HK_speednode_0165
   network: ws
   password: CMLiu
   port: 37578
   server: 149.104.19.75
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: aliorg.filegear-sg.me
   type: trojan
   ws-opts:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 94|Relay_-HK_688
+- client-fingerprint: chrome
+  name: 94,121|12|HK_speednode_0160
   network: ws
   password: CMLiu
   port: 8443
   server: 47.76.26.26
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: aliorg.filegear-sg.me
   type: trojan
   ws-opts:
@@ -851,23 +858,6 @@ proxies:
   sni: trojan.freenods.sbs
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  country: 🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 99| HK_627
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    HOST: www.59795160.xyz
-  ws-path: /path/011410073331
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 116|🇬🇧 HK_AkariNetworks_188.253.11...
@@ -931,9 +921,61 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 121|12|HK_speednode_0157
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 47.76.221.85
+  skip-cert-verify: false
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 121|12|HK_speednode_0163
+  network: ws
+  password: CMLiu
+  port: 55330
+  server: 38.147.190.245
+  skip-cert-verify: false
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 121|12|HK_speednode_0164
+  network: ws
+  password: CMLiu
+  port: 44689
+  server: 38.207.165.185
+  skip-cert-verify: false
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 121|12|HK_speednode_0168
+  network: ws
+  password: CMLiu
+  port: 15957
+  server: 46.3.102.22
+  skip-cert-verify: false
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 127|🇭🇰HK-182.16.1.194-11547
+  name: 126|🇭🇰HK-182.16.1.194-11547
   network: ws
   port: 80
   server: 182.16.1.194
