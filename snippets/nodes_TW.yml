@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
   country: TW
-  name: 39,40,69,94|TW_905
+  name: 39,69,94|TW_1069
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
@@ -217,6 +217,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 18d93f1c-4876-4494-9a8f-507df9420b7a
+- name: 94|Relay_-TW_839
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- country: TW
+  name: 94|Relay_TW-TW_1070
+  network: ws
+  password: auto
+  port: 443
+  server: 35.201.203.106
+  sni: vip.123789.pp.ua
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 116|🇬🇧 TW_AkariNetworks_188.253.11...
@@ -397,3 +418,11 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 122|15|🇹🇼 台湾|@ripaojiedian
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
