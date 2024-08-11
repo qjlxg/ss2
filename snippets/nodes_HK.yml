@@ -34,7 +34,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,49,53,55,57,58,60,85,133|中国【付费推荐：https://a0a.xyz】88
+  name: '0,4,5,6,9,10,11,15,16,17,20,21,22,25,26,27,30,31,32,35,36,37,49,53,57,58,60,85,133|中国【付费推荐：https://a0a.xyz】88
     #1'
   network: ws
   port: '46001'
@@ -86,7 +86,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: 🇰HK
-  name: 39,40,42,51,53,55,69,71|Pool_🇰HK_432
+  name: 39,40,42,51,53,55,69,71,96|Pool_HK_96
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
@@ -95,7 +95,7 @@ proxies:
   type: ssr
 - cipher: rc4-md5
   country: 🇭🇰HK
-  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_466
+  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_483
   obfs: http_simple
   obfs-param: 29590-edE92DcI.download.microsoft.com
   password: passwd
@@ -104,8 +104,8 @@ proxies:
   server: oshk01.mynode.me
   type: ssr
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 39,40,69|Relay_🇰HK-🇰HK_465
+  country: 🇭🇰HK
+  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_484
   obfs: plain
   password: haRBh7
   port: 2860
@@ -115,7 +115,7 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: 🇭🇰HK
-  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_467
+  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_485
   obfs: plain
   password: haRBh7
   port: 3050
@@ -190,10 +190,10 @@ proxies:
     path: /path/011410073331
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
+  country: HK
   h2-opts: {}
   http-opts: {}
-  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_471
+  name: 39|HK_1251
   network: tcp
   port: 60001
   server: bgroup.node4.v.nodelist-airport.com
@@ -206,7 +206,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_474
+  name: 39,40,69|Relay_🇭🇰HK-🇭🇰HK_490
   network: ws
   port: 80
   server: hk02.thomasina.buzz
@@ -223,7 +223,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 39,40,69|Relay_🇺🇸US-HK_1771
+  name: 39,40,69|Relay_🇺🇸US-HK_1769
   network: ws
   port: 80
   server: hk01.thomasina.buzz
@@ -253,6 +253,20 @@ proxies:
     headers:
       HOST: 19.lwdh.us
     path: /
+- cipher: aes-256-gcm
+  country: HK
+  name: 40|Relay_HK-HK_940
+  password: 471f819a-7011-4a18-aba9-737fb1221f83
+  port: 50000
+  server: a002.standard-nodes-chickenfarms.com
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇭🇰HK
+  name: 40,69|Relay_🇰HK-🇰HK_482
+  password: 328c867b-a9bb-41f2-be42-c7bff2b5f12d
+  port: 50000
+  server: a001.standard-nodes-chickenfarms.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 44,78|🇭🇰 1|香港02|X1|XD中港HKT-1D
   password: 137b9623-407e-47e7-8029-402d8353a9d8
@@ -280,7 +294,7 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 49,71|Relay_🏁ZZ-🇸US_1711
+  name: 49,69,71|Relay_🏁ZZ-🇸US_1711
   network: ws
   port: 2095
   server: lzyjc.779917.xyz
@@ -869,97 +883,6 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- name: 122|HK_speednode_0156
-  network: ws
-  password: CMLiu
-  port: 38050
-  server: 46.3.105.181
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0157
-  network: ws
-  password: CMLiu
-  port: 443
-  server: 47.76.221.85
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0159
-  network: ws
-  password: CMLiu
-  port: 2087
-  server: 47.76.227.128
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0163
-  network: ws
-  password: CMLiu
-  port: 55330
-  server: 38.147.190.245
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0164
-  network: ws
-  password: CMLiu
-  port: 44689
-  server: 38.207.165.185
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0165
-  network: ws
-  password: CMLiu
-  port: 37578
-  server: 149.104.19.75
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 122|HK_speednode_0168
-  network: ws
-  password: CMLiu
-  port: 15957
-  server: 46.3.102.22
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 127|🇭🇰HK-182.16.1.194-11547
