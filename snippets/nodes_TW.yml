@@ -1,14 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
   country: TW
-  name: 39,69,94|TW_1069
+  name: 39,40|TW_1241
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
-  country: 🇼TW
-  name: 39,40,69|Relay_TW-🇼TW_801
+  country: TW
+  name: 39,40|Relay_TW-TW_1242
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -17,45 +17,12 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40,41,48,69,71,94,127|🆙55@oneclickvpnkeys
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '39,40,69,71|🇺🇸US_1379 #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   country: 🇼TW
   h2-opts: {}
   http-opts: {}
-  name: 39,40,69,71|Pool_🇼TW_595
+  name: 39,40,71|Pool_🇼TW_595
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -68,6 +35,39 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,40,71,94| ZZ_1329
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,40,41,48,71,94,127|🆙55@oneclickvpnkeys
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 63|台湾省 中华电信(HiNet)数据中心
@@ -217,27 +217,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 18d93f1c-4876-4494-9a8f-507df9420b7a
-- name: 94|Relay_-TW_839
-  network: ws
-  password: CMLiu
-  port: 443
-  server: 35.201.203.106
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- country: TW
-  name: 94|Relay_TW-TW_1070
-  network: ws
-  password: auto
-  port: 443
-  server: 35.201.203.106
-  sni: vip.123789.pp.ua
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 116|🇬🇧 TW_AkariNetworks_188.253.11...
@@ -418,11 +397,3 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 122|15|🇹🇼 台湾|@ripaojiedian
-  password: 713366e0-20b8-4d5d-be5d-988317e086c7
-  port: 39201
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
