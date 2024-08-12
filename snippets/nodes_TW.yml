@@ -1,14 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|10|🇹🇼 台湾2|@ripaojiedian
+  network: tcp
+  port: 29299
+  server: xdtw.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 8a25aadb-e034-43d0-a253-90c8077398f1
 - cipher: aes-256-cfb
-  country: 🇩ID
-  name: 39,53,57|ID_510
+  country: TW
+  name: 38,39,53,57,60|TW_1269
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: 🇼TW
-  name: 39,53,57|Relay_TW-🇼TW_817
+  name: 38,39,53,57|Relay_TW-🇼TW_766
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -22,7 +31,7 @@ proxies:
   country: 🇼TW
   h2-opts: {}
   http-opts: {}
-  name: 39,53,57,58|Pool_TW_605
+  name: 38,39,53,57,58|Pool_TW_585
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -37,10 +46,10 @@ proxies:
     path: /path/003500111307
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: '39,53,57,58|🇺🇸US_1515 #2'
+  name: '38,39,53,57,58,60| ZZ_1854 #1'
   network: ws
   port: 12945
   server: 154.40.60.172
@@ -50,28 +59,31 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: CN
-  name: 44|disney_TW
-  password: 8f5a3194-83d7-44ab-b7d8-eb1a56e950ea
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CN
-  name: '44|disney_TW #1'
-  password: 298c5217-f908-4f4e-87a4-34714c21564e
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CN
-  name: '44|disney_TW #2'
-  password: 298c5217-f908-4f4e-87a4-34714c21564e
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-- name: 60|Relay_-TW_1034
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: '38,40,53,57,58,60| ZZ_1853 #1'
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 45|台湾|广州移动|Polo|1x
+  network: tcp
+  port: 39872
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- name: 60|Relay_-TW_962
   network: ws
   password: CMLiu
   port: 443
@@ -84,7 +96,7 @@ proxies:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: TW
-  name: 60|Relay_TW-TW_1227
+  name: 60|Relay_TW-TW_1270
   network: ws
   password: auto
   port: 443
