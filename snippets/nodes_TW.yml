@@ -10,14 +10,14 @@ proxies:
   uuid: 8a25aadb-e034-43d0-a253-90c8077398f1
 - cipher: aes-256-cfb
   country: TW
-  name: 38,39,53,57,60|TW_1269
+  name: 38,39,53,60|TW_1374
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: 🇼TW
-  name: 38,39,53,57|Relay_TW-🇼TW_766
+  name: 38,39,53,57|Relay_TW-🇼TW_714
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -26,12 +26,27 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: 🇼TW
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 38,39,53,57,58|Pool_TW_585
+  name: '38,39,53,57,60| ZZ_1943 #1'
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 38,39,53,57|Pool_🇼TW_716
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -49,22 +64,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: '38,39,53,57,58,60| ZZ_1854 #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: '38,40,53,57,58,60| ZZ_1853 #1'
+  name: '38,39,40,53,57,60| ZZ_1936 #1'
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -74,16 +74,7 @@ proxies:
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 45|台湾|广州移动|Polo|1x
-  network: tcp
-  port: 39872
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- name: 60|Relay_-TW_962
+- name: 60|Relay_-TW_1100
   network: ws
   password: CMLiu
   port: 443
@@ -96,7 +87,7 @@ proxies:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: TW
-  name: 60|Relay_TW-TW_1270
+  name: 60|Relay_TW-TW_1375
   network: ws
   password: auto
   port: 443
