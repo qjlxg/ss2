@@ -22,7 +22,7 @@ proxies:
   country: FR
   h2-opts: {}
   http-opts: {}
-  name: 34,39,40,48,57,58,60,61|Relay_-🇷FR_05
+  name: 34,39,48,57,58,60,61|Relay_-🇷FR_05
   network: ws
   port: 443
   server: beyonddsz.cfd
@@ -219,7 +219,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: '39,40,41,42,43,53,57,58,64|_372 #3'
+  name: '39,40,41,42,43,53,57,58,64|_372 #2'
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 54.36.174.181
@@ -279,7 +279,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇫🇷FR
-  name: 39,46,47,60,62,64|_480
+  name: '39,46,47,60,62,64|_480 #1'
   password: G!yBwPWH3Vao
   port: 805
   server: 51.178.87.37
@@ -287,7 +287,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: '39,40,41,42,43,46,47,53,57,58,61,62,64|_13 #4'
+  name: 39,40,41,42,43,46,47,53,57,58,61,62,64,67|🇫🇷FR_05
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
@@ -345,7 +345,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: '39,40,41,42,43,53,57,58,64|_375 #1'
+  name: '39,40,41,42,43,53,57,58,64|_375 #2'
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 54.36.174.181
@@ -360,8 +360,8 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: '39,40,41,42,43,46,47,53,57,58,61,62,64|_172 #4'
+  country: 🇷FR
+  name: 39,40,41,42,43,46,47,53,57,58,61,62,64,67|FR_04
   password: KixLvKzwjekG00rm
   port: 8080
   server: 149.202.82.172
@@ -1151,28 +1151,10 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  country: 🇷🇺RU
-  h2-opts: {}
-  http-opts: {}
-  name: 40,48,57,58|Relay_🇺RU-🇸US_581
-  network: ws
-  port: 443
-  server: 185.221.160.163
-  servername: worker-mute-bar-1719.nifotok993.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      HOST: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 40,53,57,58,61|Relay_🏁ZZ-🇫🇷FR_329
+  name: 40,50,53,57,58,61|Relay_🏁ZZ-🇫🇷FR_329
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -1187,7 +1169,7 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 40,53,57,61|Relay_ZZ-🇷FR_322
+  name: 40,50,53,57,61|Relay_ZZ-🇷FR_322
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -1246,7 +1228,7 @@ proxies:
   country: 🇪SE
   h2-opts: {}
   http-opts: {}
-  name: 44,48,57,58|Relay_SE-🇺🇸US_586
+  name: 44,48,50,57,58|Relay_SE-🇺🇸US_586
   network: ws
   port: 80
   server: Back.MsV2ray.online
@@ -1280,7 +1262,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 44,57,60|Relay_ZZ-FR_1843
+  name: 44,50,57,60|Relay_ZZ-FR_1843
   network: ws
   port: 8880
   server: 104.16.68.38
@@ -1348,7 +1330,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 44,57,60|Relay_ZZ-FR_1923
+  name: 44,50,57,60|Relay_ZZ-FR_1923
   network: ws
   port: 2086
   server: 104.16.68.38
@@ -1394,13 +1376,23 @@ proxies:
   ws-headers:
     HOST: az05.beyondy.cfd
   ws-path: /link
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  name: 48,53,58|Relay_-HK_59
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 163.172.64.22
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_ZZ-FR_89
+  network: ws
+  port: 2052
+  server: 104.16.68.38
+  servername: square-snowflake-486a.beshir-beisel.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      HOST: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -1486,6 +1478,13 @@ proxies:
   password: aojgHO5Hiubicy4MfhOKCF
   port: 443
   server: 163.172.171.137
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  name: 53,58|Relay_-HK_59
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
   type: ss
 - alterId: 0
   cipher: auto
