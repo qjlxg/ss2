@@ -4,7 +4,8 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 0,3,4,6,8,9,11,14,15,17,19,20,22,24,25,27,29,30,32,34,35,37,44|Relay_CN-HK_1107
+  name: 0,3,4,6,8,9,11,14,15,17,19,20,22,24,25,27,29,30,32,35,36,37,48|Relay_CN-HK_68
+    | 2.84Mb
   network: tcp
   port: 54104
   server: 183.236.51.23
@@ -18,8 +19,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 0,3,4,6,8,9,11,14,15,17,19,20,22,24,25,27,29,30,32,34,35,37,44,48|Relay_CN-FR_63
-    | 2.27Mb
+  name: 0,3,4,6,8,9,11,14,15,17,19,20,22,24,25,27,29,30,32,35,37,48,50|Relay_CN-FR_24
   network: ws
   port: 46001
   server: mmhk01.micloud.buzz
@@ -33,7 +33,7 @@ proxies:
       HOST: mmhk01.micloud.buzz
     path: /zh-cn
 - country: HK
-  name: 38,60|Relay_HK-HK_998
+  name: 38|Relay_HK-HK_1654
   password: 19cfd418-f845-43a6-9c96-d89645e1bbb3
   port: 32065
   server: mr.moonriver.sbs
@@ -42,7 +42,7 @@ proxies:
   type: hysteria2
   udp: true
 - country: HK
-  name: 38,60|Relay_HK-HK_999
+  name: '38,60|Relay_HK-HK_981 #1'
   password: bcd65233-6633-4829-9517-818bc182d90e
   port: 20000
   server: hkyyds.bpjc.tgbpjc520.site
@@ -51,15 +51,15 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-128-gcm
-  country: ' ZZ'
-  name: 38,41,42,43,53,55,57,60| ZZ_1586
+  country: HK
+  name: 38,39,41,42,43,55|disney_HK
   password: a-wym4ovY4Yw
   port: 81
   server: 218.250.217.111
   type: ss
 - cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 38,53,57|Relay_🇰HK-🇭🇰HK_456
+  country: HK
+  name: 38,39|Relay_HK-HK_983
   obfs: plain
   password: haRBh7
   port: 3050
@@ -68,8 +68,8 @@ proxies:
   server: zzcm06.cacbce.com
   type: ssr
 - cipher: rc4-md5
-  country: 🇭🇰HK
-  name: 38,53,57|Relay_🇭🇰HK-🇭🇰HK_457
+  country: HK
+  name: 38,39|Relay_HK-HK_981
   obfs: http_simple
   obfs-param: 29590-edE92DcI.download.microsoft.com
   password: passwd
@@ -78,8 +78,8 @@ proxies:
   server: oshk01.mynode.me
   type: ssr
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 38,53,57|Relay_🇰HK-🇰HK_454
+  country: HK
+  name: 38,39|Relay_HK-HK_982
   obfs: plain
   password: haRBh7
   port: 2860
@@ -88,8 +88,8 @@ proxies:
   server: zzcm06.cacbce.com
   type: ssr
 - cipher: aes-256-cfb
-  country: 🇭🇰HK
-  name: 38,41,46,48,53,57|Pool_🇰HK_455
+  country: 🇰HK
+  name: 38,39,41,46,48,50,62|Pool_HK_62
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
@@ -101,7 +101,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 38,41,53,57,60| ZZ_1610
+  name: 38,41,60| ZZ_1579
   network: tcp
   port: 49879
   server: 206.237.31.203
@@ -114,7 +114,7 @@ proxies:
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 38,53,57,60|Relay_HK-HK_1001
+  name: '38,39,60|Relay_HK-HK_982 #1'
   network: ws
   port: 80
   server: hk04.thomasina.buzz
@@ -126,30 +126,12 @@ proxies:
     headers:
       HOST: hk04.thomasina.buzz
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 38,57|🇭🇰HK_460
-  network: ws
-  port: 12909
-  server: 210.0.158.219
-  servername: 19.lwdh.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      HOST: 19.lwdh.us
-    path: /
-- alterId: 64
-  cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,44,53,57,60|HK_1000
+  name: 38,39,40,60,61|HK_43 |17.48Mb
   network: ws
   port: 443
   server: 103.212.98.234
@@ -162,82 +144,25 @@ proxies:
     headers:
       HOST: www.59795160.xyz
     path: /path/011410073331
-- cipher: chacha20-ietf-poly1305
-  name: '44|disney_HK #7'
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  type: ss
-- name: 44,60|Relay_-HK_875
-  network: ws
-  password: CMLiu
-  port: 2083
-  server: 47.76.33.40
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: HK
   h2-opts: {}
   http-opts: {}
-  name: 44,53|Relay_🇨🇳CN-HK_697
-  network: tcp
-  port: 36002
-  server: 183.236.48.163
+  name: 38,39|HK_984
+  network: ws
+  port: 12909
+  server: 210.0.158.219
+  servername: 19.lwdh.us
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- country: US
-  name: 44,60|Relay_US-KR_1471
-  network: ws
-  password: moist
-  port: 8443
-  server: 172.64.154.219
-  skip-cert-verify: true
-  sni: trojan.freenods.sbs
-  type: trojan
-  udp: true
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
-      Host: trojan.freenods.sbs
+      HOST: 19.lwdh.us
     path: /
-- cipher: aes-256-gcm
-  country: 🇰HK
-  name: 53|Relay_🇰HK-🇰HK_893
-  password: 328c867b-a9bb-41f2-be42-c7bff2b5f12d
-  port: 50000
-  server: a001.standard-nodes-chickenfarms.com
-  type: ss
-- name: 60|Relay_-HK_863
-  network: ws
-  password: CMLiu
-  port: 37578
-  server: 149.104.19.75
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 60|Relay_-HK_868
-  network: ws
-  password: CMLiu
-  port: 8443
-  server: 47.76.26.26
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 60|Relay_-HK_873
+- name: 60|Relay_-HK_860
   network: ws
   password: CMLiu
   port: 2087
@@ -249,7 +174,19 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 60|Relay_-HK_898
+- name: 60|Relay_-HK_863
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.76.26.26
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 60|Relay_-HK_865
   network: ws
   password: CMLiu
   port: 34237
@@ -262,24 +199,21 @@ proxies:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: HK
-  name: 60|Relay_HK-HK_1003
+  name: 60|Relay_HK-HK_986
   network: ws
   password: moist
-  port: 2096
-  server: 47.238.0.114
+  port: 2083
+  server: 47.243.67.28
+  skip-cert-verify: true
   sni: trojan.freenods.sbs
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
 - alterId: 64
   cipher: auto
   country: 🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 64| HK_609
+  name: 64| HK_625
   network: ws
   port: 443
   server: 103.212.98.234
