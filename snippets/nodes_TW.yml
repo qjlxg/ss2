@@ -1,14 +1,74 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 38,45,86|Relay_KR-TW_1162
+  network: tcp
+  port: 14153
+  server: xxx.admoetb.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 38,45,86|Relay_KR-TW_1176
+  network: tcp
+  port: 14151
+  server: xxx.admoetb.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 38,45,86|Relay_KR-TW_1173
+  network: tcp
+  port: 14951
+  server: xxx.admoetb.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 38,45|Relay_KR-TW_1062
+  network: tcp
+  port: 14154
+  server: xxx.admoetb.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 38,45,86|KR_1172
+  network: tcp
+  port: 14152
+  server: xxx.admoetb.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
 - cipher: aes-256-cfb
   country: TW
-  name: 38,39,60,86|TW_1336
+  name: 38,39|TW_1126
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
-  country: 🇼TW
-  name: 38,39,60|Relay_TW-🇼TW_702
+  country: TW
+  name: 38,39|Relay_TW-TW_1127
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -22,22 +82,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: '38,39,60,86| ZZ_1870 #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: '38,40,60,86| ZZ_1867 #1'
+  name: '38,40,86| ZZ_1873 #1'
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -48,10 +93,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  country: 🇼TW
+  country: TW
   h2-opts: {}
   http-opts: {}
-  name: 38,39,60|Pool_🇼TW_703
+  name: 38,39|Pool_TW_1128
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -64,20 +109,35 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 38,39|TW_1129
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   country: ' TW'
-  name: 42|ChatGPT  TW_81
-  password: d52848a3-5101-3ccc-aed8-113ce65928a8
-  port: 61006
-  server: 154.16.55.112
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' TW'
-  name: 42|ChatGPT  TW_82
-  password: d52848a3-5101-3ccc-aed8-113ce65928a8
-  port: 61006
-  server: 2.forlive.live
-  type: ss
+  h2-opts: {}
+  http-opts: {}
+  name: 42|ChatGPT  TW_85
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 64|台湾TW01-高速-专线-1C
   password: 182424a5-aee3-4a0b-8666-8d4bfb904fbc
@@ -86,7 +146,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 64,77,78|🇼 2|台湾06|X1|上海LL-1C
+  name: 64,77,78|🇼 2|台湾06|X1|上海LL-1A
   password: e9dad4b4-17e4-47ef-8e9e-57f6f499dc2c
   port: 24092
   server: ll-sh1.bestdong.xyz
@@ -100,8 +160,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 64,72,73,77,78|🇼 台湾 1-1A
-  password: bd640341-5b86-4ed8-883b-25405466f5bf
+  name: 64,72,73,77,78|🇼 台湾 1-1I
+  password: e654a9a9-ab30-4aef-80c3-1be46bb58b73
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -114,8 +174,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '64,73,77,78|🇹🇼 台湾01-1E #1'
-  password: f4f7bb0f-42f0-445c-914e-8e2631d399b2
+  name: 64,73,77,78|🇼 台湾01-1Q
+  password: 08b04231-6a4d-4557-a953-4f260948e067
   port: 15632
   server: gdcub.yunnode.win
   type: ss
@@ -144,28 +204,28 @@ proxies:
     path: /t1a64wdea01c
 - cipher: aes-256-gcm
   name: 64,72,73,77|🇹🇼 TW 海外用户-1B
-  password: ef996c8e-90e1-458c-91c8-afe2a34807ac
+  password: d97696ca-03dd-4970-8014-b8fcf9eaf585
   port: 36881
   server: tw.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 64,72,73,77|🇹🇼 台湾 B TW-1B
-  password: ef996c8e-90e1-458c-91c8-afe2a34807ac
+  password: d97696ca-03dd-4970-8014-b8fcf9eaf585
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 64,72,73,77|🇹🇼 台湾 A TW-1A
-  password: d49ffb35-a034-46d3-8494-5a890dd17fd8
+  password: ef996c8e-90e1-458c-91c8-afe2a34807ac
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 64,72,73,77|🇹🇼 台湾 C TW-1A
-  password: d49ffb35-a034-46d3-8494-5a890dd17fd8
+  password: ef996c8e-90e1-458c-91c8-afe2a34807ac
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
@@ -246,33 +306,33 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 78|🇹🇼 台湾02
-  network: ws
-  port: 56292
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e2d6bcd9-b80b-427b-b2a8-1f353825e9b4
-  ws-opts:
-    headers:
-      Host: tw.cylink.tech
-    path: /www/wwwroot/tw.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 78|🇼 台湾03
+  name: 77,78|🇼 台湾03-1B
   network: ws
   port: 22481
   server: jscm.skycloud.lol
   tls: false
   type: vmess
   udp: true
-  uuid: e2d6bcd9-b80b-427b-b2a8-1f353825e9b4
+  uuid: a1b7a2ff-732e-400e-9111-013b5cd1b613
   ws-opts:
     headers:
       Host: tw.cylink.tech
     path: /www/wwwroot/tw.cylink.tech
-- name: 86|Relay_-TW_1111
+- alterId: 0
+  cipher: auto
+  name: 77,78|🇹🇼 台湾02-1B
+  network: ws
+  port: 56292
+  server: shcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a1b7a2ff-732e-400e-9111-013b5cd1b613
+  ws-opts:
+    headers:
+      Host: tw.cylink.tech
+    path: /www/wwwroot/tw.cylink.tech
+- name: 86|netflix_TW
   network: ws
   password: CMLiu
   port: 443
@@ -285,7 +345,7 @@ proxies:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - country: TW
-  name: 86|Relay_TW-TW_1337
+  name: 86|Relay_TW-TW_1247
   network: ws
   password: auto
   port: 443
