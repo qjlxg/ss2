@@ -10,14 +10,14 @@ proxies:
   uuid: 8a25aadb-e034-43d0-a253-90c8077398f1
 - cipher: aes-256-cfb
   country: TW
-  name: 38,39,60|TW_1256
+  name: 38,39,72|TW_1024
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 38,39|Relay_TW-TW_1267
+  name: 38,39|Relay_TW-TW_1255
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -31,36 +31,43 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 38,40,58,60| ZZ_1842
+  name: 38,40,72,123,205|🇹🇼TW-103.159.206.35-0342
   network: ws
   port: 31945
   server: 103.159.206.35
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: TW
   h2-opts: {}
   http-opts: {}
-  name: 38,39,58|🇺🇸US_1425
+  name: '38,39,100|@Hope_Net-join-us-on-Telegram #2'
   network: ws
-  port: 12945
+  port: '12945'
   server: 154.40.60.172
+  servername: 55.lwdh.us
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 64
   cipher: auto
-  country: 🇼TW
+  country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 38,39,58|Pool_🇼TW_573
+  name: 38,39,72|Pool_ TW_1023
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -73,8 +80,20 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
+- name: 72|Relay_-TW_792
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
 - country: TW
-  name: 60|Relay_TW-TW_1257
+  name: 72|Relay_TW-TW_1025
   network: ws
   password: auto
   port: 443
@@ -82,3 +101,547 @@ proxies:
   sni: vip.123789.pp.ua
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 83|🇹🇼_TW_台湾
+  network: ws
+  port: 888
+  server: fmhfa-1039-v2-1.tpe-d-hinet.nd.cjhh.mom
+  tls: true
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  ws-opts:
+    headers:
+      host: node.inforun.work
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 88|peasoft-9,13,15|🇹🇼_TW_台湾
+  network: tcp
+  port: '445'
+  server: tw99-hinet.mynodes001.one
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
+- alterId: '0'
+  cipher: auto
+  name: 99|400_台湾-2.65MB
+  network: ws
+  port: '443'
+  server: t3.bestcloud.tk
+  tls: 1
+  type: vmess
+  uuid: 29cda0f7-b34e-417f-968e-f6bc73fb6d1d
+  ws-headers:
+    host: er3.mybestjj.com
+  ws-path: /2
+- alterId: '0'
+  cipher: auto
+  name: 99|460_台湾-855.3KB
+  network: tcp
+  port: '56568'
+  server: polotw1.applebench.tech
+  tls: 0
+  type: vmess
+  uuid: cc73b2fd-6a45-4690-b0ad-ddb8df4fb333
+  ws-headers:
+    host: polotw1.applebench.tech
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '99,171,173|🇹🇼TW-45.121.51.103-1401 #1'
+  network: http
+  port: 20715
+  server: 45.121.51.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6406b6d-5487-46da-f793-46611269a306
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 100|🇹🇼TW-103.177.33.22-1304
+  network: ws
+  port: '30001'
+  server: 103.177.33.22
+  servername: www.35709620.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.35709620.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: '100,171,173|🇹🇼TW-211.72.35.110-5120 #1'
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woideneu7.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
+  ws-opts:
+    headers:
+      Host: woideneu7.jsworld.eu.org
+    path: /nishikata
+- alterId: 0
+  cipher: auto
+  name: 100|v1-台湾02|1x|v
+  network: ws
+  port: '6628'
+  server: v1.cdn.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a2c9e81-6ee5-394b-ba02-389b3ebc2332
+  ws-opts:
+    headers:
+      Host: ed8.bilibili.com
+    path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+- alterId: 64
+  cipher: auto
+  name: 102|台湾_081408001
+  network: ws
+  port: '30001'
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.60548529.xyz
+    path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  name: 103|台湾_121320002
+  network: ''
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: '103,123|PP|@Zyw_Channel #1'
+  network: ws
+  port: 443
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 103|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: '103,123|PP|@Zyw_Channel #4'
+  network: tcp
+  port: 10001
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 103|台湾_121320011
+  network: ''
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: 122|🇹🇼 v2rayfree.eu.org - 台湾省台北市中华...
+  network: tcp
+  port: '224'
+  server: hinet1261.gfwisbest.xyz
+  tls: false
+  type: vmess
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+- alterId: 0
+  cipher: auto
+  name: 122|🇹🇼 Relay 🇹🇼 Taiwan 01 TG:@nodp...
+  network: tcp
+  port: '18005'
+  server: p8wrw4sqhg7f.ulce4m0o.xyz
+  tls: false
+  type: vmess
+  uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
+- alterId: 0
+  cipher: auto
+  name: 122|🇹🇼 Taiwan 02 TG:@nodpai
+  network: ws
+  port: '45215'
+  server: 013.AP.POP.node-for-smallairport.win
+  tls: false
+  type: vmess
+  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
+  ws-opts:
+    headers:
+      Host: 013.AP.POP.node-for-smallairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 122|🇹🇼 Relay 🇹🇼 Taiwan 03 TG:@nodp...
+  network: tcp
+  port: '18004'
+  server: p8wrw4sqhg7f.ulce4m0o.xyz
+  tls: false
+  type: vmess
+  uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
+- alterId: 0
+  cipher: auto
+  name: '122,171,173|🇹🇼TW-114.43.155.173-2495 #1'
+  network: ws
+  port: 45215
+  server: 012.AP.POP.node-for-smallairport.win
+  servername: 012.AP.POP.node-for-smallairport.win
+  tls: false
+  type: vmess
+  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
+  ws-opts:
+    headers:
+      Host: 012.AP.POP.node-for-smallairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 122|🇹🇼 Relay 🇹🇼 Taiwan 05 TG:@nodp...
+  network: tcp
+  port: '13103'
+  server: fmtgw8mdc68x.b4s02m25.xyz
+  tls: false
+  type: vmess
+  uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 128,175,196|TW??SSRSUB_647238701
+  password: 6932d5e9-85b5-4b4e-9680-22926b3b9ae3
+  port: 36241
+  server: free.2weradf.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 128,188|🇹🇼 台湾|@ripaojiedian
+  password: 663e1816-6e95-4f9c-a90e-ba62b16ba9c1
+  port: 40018
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 133,167,185|🇹🇼 台湾01-1K
+  password: 9e044106-77aa-4441-8450-211e867bf705
+  port: 15632
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 133,167,185|🇹🇼 台湾 A TW-1B
+  password: 43ef4403-b01f-47cc-a84f-74f9c0a0ff26
+  port: 35109
+  server: tw1.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 133,167,185|🇹🇼 台湾 C TW-1A
+  password: 621b6224-df6e-4897-ae95-d183e3f1c714
+  port: 35111
+  server: tw3.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 133,167,185|🇹🇼 TW 海外用户-1B
+  password: 43ef4403-b01f-47cc-a84f-74f9c0a0ff26
+  port: 36881
+  server: tw.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 133,167,185|🇹🇼 台湾 1-1H
+  password: a05b431c-b87b-4286-8106-d069945836ab
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 133,167,185|🇹🇼 台湾 B TW-1B
+  password: 43ef4403-b01f-47cc-a84f-74f9c0a0ff26
+  port: 35110
+  server: tw2.iepl.cooc.icu
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '133,167|🇼 TW | 台湾 01 #1'
+  network: ws
+  port: 30003
+  server: gzog.runjustfast.com
+  servername: tw1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cbf7eca5-463e-4ed8-8464-2fcbe266d32b
+  ws-opts:
+    headers:
+      Host: tw1.runjustfast.com
+    path: /t1a64wdea01c
+- alterId: 0
+  cipher: auto
+  name: '133,167|🇼 TW | 台湾 02 #1'
+  network: ws
+  port: 30003
+  server: gzo.runjustfast.com
+  servername: tw1.runjustfast.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cbf7eca5-463e-4ed8-8464-2fcbe266d32b
+  ws-opts:
+    headers:
+      Host: tw1.runjustfast.com
+    path: /t1a64wdea01c
+- alterId: 0
+  cipher: auto
+  name: 137|github.com/freefq-台湾省公司2222
+  network: ws
+  port: 80
+  server: 103.118.29.229
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      host: 103.118.29.229
+    path: /5gtocdocao.com
+- cipher: chacha20-ietf-poly1305
+  name: 141|Taiwan-01
+  password: b94015c7-5989-4a9f-8918-ab51727bfe6c
+  port: 27305
+  server: yy.yingwuyun.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 141|Taiwan-02
+  password: b94015c7-5989-4a9f-8918-ab51727bfe6c
+  port: 27305
+  server: ly.yingwuyun.cyou
+  type: ss
+  udp: true
+- name: 151|台湾_【YouTube-VV科技】_2
+  network: tcp
+  password: 1e772fe7-b0dd-47d7-81d9-d4798ff6677c
+  port: 443
+  server: tw1.yihaobao.xyz
+  skip-cert-verify: true
+  sni: tls.yihaobao.xyz
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-165.154.246.71-2050 #1'
+  network: ws
+  port: 80
+  server: 165.154.246.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13581ae8-65c9-4fbe-9c78-77fac9ca503a
+  ws-opts:
+    headers:
+      Host: 165.154.246.71
+    path: ?ed=2048
+- alterId: 1
+  cipher: auto
+  name: '171,173|🇹🇼TW-1.161.186.146-2289 #1'
+  network: ws
+  port: 64443
+  server: 1.161.186.146
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-opts:
+    headers:
+      Host: ''
+    path: /clientarea
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-114.42.198.166-2365 #1'
+  network: ws
+  port: 80
+  server: tw1g.jeidian.xyz
+  servername: tms.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
+  ws-opts:
+    headers:
+      Host: tw1g.jeidian.xyz
+    path: /mugua
+- alterId: 0
+  cipher: auto
+  country: mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
+  name: '171,173,174,191|mattkaydiary.com|中国台湾(TW)Taiwa... #3'
+  network: ws
+  port: 33792
+  server: 61.222.202.140
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  ws-opts:
+    headers:
+      host: 61.222.202.140
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-211.72.35.110-5121 #1'
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: euserv1.aifx.eu.org
+  tls: true
+  type: vmess
+  uuid: 3953ce0d-25df-4427-8371-a8ac26cc36fe
+  ws-opts:
+    headers:
+      Host: euserv1.aifx.eu.org
+    path: /nishikata
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-211.72.35.110-5122 #1'
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woideneu4.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: cb6448e3-08e1-413d-bc17-d3b0dba9aae9
+  ws-opts:
+    headers:
+      Host: woideneu4.jsworld.eu.org
+    path: /nishikata
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-211.72.35.110-5123 #1'
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: haxeu7.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
+  ws-opts:
+    headers:
+      Host: haxeu7.jsworld.eu.org
+    path: /nishikata3
+- alterId: 0
+  cipher: auto
+  name: '171,173|🇹🇼TW-211.72.35.110-5124 #1'
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woidenca1.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: e87f326f-55ac-487f-a3d1-57c592bb663a
+  ws-opts:
+    headers:
+      Host: woidenca1.jsworld.eu.org
+    path: /nishikata3
+- alterId: -1
+  client-fingerprint: chrome
+  name: 196|TW??SSRSUB_888302506
+  network: ws
+  password: moist
+  port: 23555
+  server: 60.249.89.74
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 196|TW??SSRSUB_-680605057
+  network: ws
+  port: 2086
+  server: 104.19.47.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11-2.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 196|TW??SSRSUB_-1732463904
+  network: ws
+  port: 8080
+  server: 104.19.47.142
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 205|🇹🇼台湾 01
+  network: ws
+  port: '443'
+  server: cf.335570.xyz
+  servername: tw.appleid.bf
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: tw.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 205|🇹🇼台湾 02
+  network: ws
+  port: '13080'
+  server: 182.160.14.145
+  servername: tw.appleid.bf
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: tw.appleid.bf
+    path: /ws?ed=2048
