@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0,40|Relay_-US_535
+  name: 0,40|Relay_-US_355
   network: ws
   port: 80
   server: cfcdn3.sanfencdn9.com
@@ -62,7 +62,7 @@ proxies:
     path: /zh-cn
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  name: '40,41,42,43,50,61,85|_451 #1'
+  name: '40,41,42,43,50,61,85|_451 #2'
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: 8081
@@ -72,25 +72,32 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  country: JP
-  name: 40,81|JP_1150
+  country: ' JP'
+  name: 40,56|🇯🇵JP-18.183.186.14-0717 | 24.8...
   password: amazonskr05
   port: 443
-  server: 3.112.220.140
+  server: 18.183.186.14
   type: ss
 - cipher: aes-256-cfb
-  country: 🇯🇵JP
-  name: 40,46,52,61|🇯🇵JP_484
+  country: JP
+  name: 40,46,52,61,81|JP_1053
   password: amazonskr05
   port: 443
   server: 52.197.150.228
   type: ss
 - cipher: aes-256-cfb
-  country: 🇵JP
-  name: 40,56,61|🇯🇵JP_489
+  country: ' JP'
+  name: 40,56,61,81| JP_1051
   password: amazonskr05
   port: 443
   server: 52.194.188.15
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 40,52|JP_47
+  password: amazonskr05
+  port: 443
+  server: 52.194.250.138
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇵 JP
@@ -99,6 +106,20 @@ proxies:
   port: 443
   server: 3.112.45.126
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 40,42,43,48,78,83|🇸US_209
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
 - alterId: 0
   cipher: auto
   country: 🇵JP
@@ -128,25 +149,46 @@ proxies:
   ws-opts:
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 40,42,56,61,81|Pool_ ZZ_1769
+  country: JP
+  name: 40|Relay_JP-IR_903
+  password: 25cb8cd7-800f-359e-81b5-a12863e2018d
+  port: 50118
+  server: 154.16.55.112
+  type: ss
+- cipher: aes-256-cfb
+  country: ' JP'
+  name: 40,46,61,81| JP_1050
+  password: amazonskr05
+  port: 443
+  server: 52.69.182.181
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 40,61,81|JP_1056
+  password: amazonskr05
+  port: 443
+  server: 52.195.207.131
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 40,61,81|JP_1058
+  password: amazonskr05
+  port: 443
+  server: 52.194.223.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  name: 40,42,56,61|Pool_🇯🇵JP_496
   password: G!yBwPWH3Vao
   port: 811
   server: 185.172.113.182
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇯🇵JP
-  name: 40,42,43,61|Pool_🇯🇵JP_494
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 185.172.113.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 40,42,56,61,81|Pool_ ZZ_1782
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 185.172.113.182
+- cipher: aes-256-cfb
+  country: ' JP'
+  name: 40,46,61,81| JP_1048
+  password: amazonskr05
+  port: 443
+  server: 52.69.37.205
   type: ss
 - cipher: aes-256-cfb
   country: 🇯🇵JP
@@ -156,44 +198,33 @@ proxies:
   server: 52.69.70.123
   type: ss
 - cipher: aes-256-cfb
-  country: 🇵JP
-  name: 40,46,61|🇯🇵JP_483
-  password: amazonskr05
-  port: 443
-  server: 13.231.36.179
-  type: ss
-- cipher: aes-256-cfb
-  country: ' JP'
-  name: 40,46,61,81| JP_1143
-  password: amazonskr05
-  port: 443
-  server: 3.112.237.254
-  type: ss
-- cipher: aes-256-cfb
-  country: BE
-  name: 40,61|🇧BE_36
+  country: JP
+  name: 40,61,81|JP_1055
   password: amazonskr05
   port: 443
   server: 57.180.39.104
   type: ss
 - cipher: aes-256-cfb
-  country: JP
-  name: 40,61,81|JP_1152
+  country: 🇵JP
+  name: 40,46,61|🇯🇵JP_486
   password: amazonskr05
   port: 443
-  server: 52.195.207.131
+  server: 3.112.237.254
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 40,42,56,61,81|Pool_ ZZ_1666
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 185.172.113.182
   type: ss
 - cipher: aes-256-cfb
-  country: 🇯🇵JP
-  name: 40,61|Relay_🇵JP-🇯🇵JP_505
-  obfs: tls1.2_ticket_auth
-  obfs-param: PT09PQ==
-  password: eAokbaDN6
-  port: 8081
-  protocol: origin
-  protocol-param: PT09PQ==
-  server: jp-am48-6.eqnode.net
-  type: ssr
+  country: JP
+  name: 40,46,61,81|JP_1057
+  password: amazonskr05
+  port: 443
+  server: 13.231.36.179
+  type: ss
 - cipher: aes-256-cfb
   country: 🇯🇵JP
   name: 40,61|Relay_🇯🇵JP-🇯🇵JP_506
@@ -204,6 +235,26 @@ proxies:
   protocol: origin
   protocol-param: PT09JSXvv70=
   server: jp-am48-6.eqnode.net
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  name: 40,61|Relay_🇵JP-🇯🇵JP_503
+  obfs: tls1.2_ticket_auth
+  obfs-param: PT09PQ======
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  protocol-param: PT09PQ======
+  server: jp-am48-6.eqnode.net
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  name: 40,61|Pool_🇯🇵JP_509
+  obfs: plain
+  password: www.xbvpn.com
+  port: 443
+  protocol: origin
+  server: 5.181.5.146
   type: ssr
 - cipher: rc4-md5
   country: 🇵JP
@@ -225,6 +276,15 @@ proxies:
   protocol: origin
   server: 45.67.53.250
   type: ssr
+- cipher: aes-256-cfb
+  country: 🇵JP
+  name: 40,61|Pool_🇯🇵JP_501
+  obfs: plain
+  password: nHHpgf23ac3RSC
+  port: 443
+  protocol: origin
+  server: 5.181.5.9
+  type: ssr
 - cipher: rc4-md5
   country: 🇷IR
   name: 40,61|Relay_IR-🇮IR_471
@@ -237,53 +297,21 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  name: 40,61|Pool_🇯🇵JP_509
-  obfs: plain
-  password: www.xbvpn.com
-  port: 443
-  protocol: origin
-  server: 5.181.5.146
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  name: 40,61|Relay_🇵JP-🇯🇵JP_503
+  name: 40,61|Relay_🇵JP-🇯🇵JP_505
   obfs: tls1.2_ticket_auth
-  obfs-param: PT09PQ======
+  obfs-param: PT09PQ==
   password: eAokbaDN6
   port: 8081
   protocol: origin
-  protocol-param: PT09PQ======
+  protocol-param: PT09PQ==
   server: jp-am48-6.eqnode.net
   type: ssr
-- cipher: aes-256-cfb
-  country: 🇵JP
-  name: 40,61|Pool_🇯🇵JP_501
-  obfs: plain
-  password: nHHpgf23ac3RSC
-  port: 443
-  protocol: origin
-  server: 5.181.5.9
-  type: ssr
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 40,61|🇺🇸US_1713
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  skip-cert-verify: true
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    path: /bb
 - alterId: 0
   cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 40,61,81|Relay_JP-JP_1154
+  name: 40,61,81|Relay_JP-JP_1059
   network: ws
   port: 80
   server: jp04.thomasina.buzz
@@ -295,22 +323,16 @@ proxies:
     headers:
       HOST: jp04.thomasina.buzz
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 40,42|ChatGPT  ZZ_336
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node1.s.nodelist-airport.com
-  type: ss
 - alterId: 1
   cipher: auto
   country: 🇯🇵JP
   h2-opts: {}
   http-opts: {}
-  name: 41,61,85|🇵JP_592
+  name: 40,41,61,85|🇵JP_592
   network: tcp
   port: 21585
   server: jp01-alt-vm0.entry.srthdw.art
+  servername: <nil>
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -320,14 +342,29 @@ proxies:
   country: 🇵JP
   h2-opts: {}
   http-opts: {}
-  name: 41,85|🇵JP_591
+  name: 40,41,85|🇵JP_591
   network: tcp
   port: 21585
   server: jp03-alt-vm0.entry.srthdw.art
+  servername: <nil>
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 40,42|ChatGPT  ZZ_336
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node1.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' JP'
+  name: 43,56,61,81|Pool_ JP_1047
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.172.113.182
+  type: ss
 - alterId: 1
   cipher: auto
   country: 🇯🇵JP
@@ -343,47 +380,24 @@ proxies:
   uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
 - cipher: aes-256-cfb
   country: JP
-  name: 45,81|JP_1153
+  name: 45,81|JP_1054
   password: amazonskr05
   port: 443
   server: 18.183.77.249
   type: ss
 - cipher: aes-256-cfb
   country: ' JP'
-  name: 46,61,81| JP_1139
+  name: 45,81| JP_1049
   password: amazonskr05
   port: 443
-  server: 52.69.37.205
-  type: ss
-- cipher: aes-256-cfb
-  country: ' JP'
-  name: '46,61,81|netflix_JP #1'
-  password: amazonskr05
-  port: 443
-  server: 52.69.182.181
+  server: 176.34.0.69
   type: ss
 - alterId: 0
   cipher: auto
-  name: 47|日本|徐州移动|纸盒|1x
-  network: tcp
-  port: '26179'
-  server: jscm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- cipher: aes-256-cfb
   country: JP
-  name: 52,81|JP_1147
-  password: amazonskr05
-  port: 443
-  server: 52.194.250.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: PH
   h2-opts: {}
   http-opts: {}
-  name: 52,81|Relay_PH-PH_1204
+  name: 52|Relay_JP-JP_50
   network: ws
   port: 80
   server: 3h-philippines1.09vpn.com
@@ -392,20 +406,6 @@ proxies:
   uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
   ws-opts:
     path: /vmess/
-- cipher: aes-256-cfb
-  country: JP
-  name: 56,81|JP_1151
-  password: amazonskr05
-  port: 443
-  server: 18.183.186.14
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 61,81|JP_1148
-  password: amazonskr05
-  port: 443
-  server: 52.194.223.127
-  type: ss
 - cipher: aes-256-gcm
   country: 🇵JP
   name: 61|Relay_🇵JP-🇵JP_485
@@ -414,8 +414,8 @@ proxies:
   server: a013.standard-nodes-chickenfarms.com
   type: ss
 - cipher: aes-256-cfb
-  country: ' JP'
-  name: 61,81| JP_1140
+  country: 🇯🇵JP
+  name: 61|🇯🇵JP_491
   password: amazonskr05
   port: 443
   server: 3.112.216.172
@@ -667,39 +667,136 @@ proxies:
     headers:
       Host: 167.179.68.118
     path: /
-- alterId: 0
-  cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 81|Relay_KR-JP_1168
-  network: tcp
-  port: 14353
-  server: xxx.admoetb.top
+- country: JP
+  name: 81|Relay_JP-JP_1052
+  password: bcd65233-6633-4829-9517-818bc182d90e
+  port: 20000
+  server: bpjcjapan.tgbpjc520.site
   skip-cert-verify: true
-  type: vmess
-  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
-- alterId: 0
-  cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 81|Relay_KR-JP_1169
-  network: tcp
-  port: 14354
-  server: xxx.admoetb.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
-- alterId: 0
-  cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 81|Relay_KR-JP_1175
-  network: tcp
-  port: 14351
-  server: xxx.admoetb.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+  sni: bpjcjapan.tgbpjc520.site
+  type: hysteria2
+  udp: true
+- country: NL
+  name: 81|Relay_NL-JP_1082
+  network: ws
+  password: auto
+  port: 443
+  server: 188.114.99.222
+  sni: migekehcode27.kiwaja6458.workers.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: migekehcode27.kiwaja6458.workers.dev
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: '81,85|_438 #2'
+  password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c
+  port: 61001
+  server: 4.forlive.live
+  type: ss
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1841
+  network: ws
+  password: auto
+  port: 443
+  server: 104.26.12.54
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1856
+  network: ws
+  password: auto
+  port: 443
+  server: 104.26.13.54
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1860
+  network: ws
+  password: auto
+  port: 2083
+  server: 104.20.18.168
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1862
+  network: ws
+  password: 9yu6m5okr
+  port: 443
+  server: 104.21.50.5
+  sni: production.tj.ojan.workers.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: production.tj.ojan.workers.dev
+    path: /
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1871
+  network: ws
+  password: auto
+  port: 2083
+  server: 104.20.19.168
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1887
+  network: ws
+  password: auto
+  port: 443
+  server: 104.20.5.134
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: '@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan@free_shekan'
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1893
+  network: ws
+  password: 16ecb6dd-f6ca-57c6-928c-9634d3171f8e
+  port: 2053
+  server: 104.21.46.126
+  sni: ip-cf.hukinghumans-655.WorkeRs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ip-cf.hukinghumans-655.WorkeRs.dEv
+    path: trojan-ws/?ed
+- country: ZZ
+  name: 81|Relay_ZZ-JP_1920
+  network: ws
+  password: auto
+  port: 443
+  server: 104.20.6.134
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /

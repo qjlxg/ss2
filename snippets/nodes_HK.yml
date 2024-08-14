@@ -96,21 +96,12 @@ proxies:
       Host: ''
     path: /zh-cn
 - cipher: aes-128-gcm
-  country: 🇰HK
-  name: 40,42,43,45,59,61|HK_445
+  country: ' ZZ'
+  name: 40,42,43,45,59,61,81| ZZ_1665
   password: a-wym4ovY4Yw
   port: 81
   server: 218.250.217.111
   type: ss
-- cipher: aes-256-cfb
-  country: 🇰HK
-  name: 40,42,48,50,52,61,83|Pool_HK_63
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
 - cipher: chacha20-ietf
   country: 🇭🇰HK
   name: 40,61|Relay_🇰HK-🇭🇰HK_450
@@ -141,37 +132,15 @@ proxies:
   protocol: origin
   server: oshk01.mynode.me
   type: ssr
-- alterId: 64
-  cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 40,41,46,61,81|HK_1126
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.59795160.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 40,61|Relay_🇭🇰HK-🇭🇰HK_452
-  network: tcp
-  port: 60001
-  server: bgroup.node4.v.nodelist-airport.com
-  servername: bgroup.node4.v.nodelist-airport.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  name: 40,42,48,50,52,61,83|Pool_HK_63
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   country: 🇰HK
@@ -190,6 +159,24 @@ proxies:
     headers:
       HOST: 19.lwdh.us
     path: /
+- alterId: 64
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 40,41,46,61,81|HK_1033
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.59795160.xyz
+    path: /path/011410073331
 - cipher: chacha20-ietf-poly1305
   name: 44,64,67,71,73|🇭🇰 香港 A HK-1B
   password: 02963663-3f17-4fa7-9d64-b921453f4818
@@ -197,6 +184,15 @@ proxies:
   server: hk1.iepl.cooc.icu
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 47|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 64
   cipher: auto
   name: 56|🇭🇰HK-103.212.98.234-1132 | 6.5...
@@ -226,6 +222,19 @@ proxies:
   port: 50000
   server: a002.standard-nodes-chickenfarms.com
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 61|Relay_🇭🇰HK-🇭🇰HK_452
+  network: tcp
+  port: 60001
+  server: bgroup.node4.v.nodelist-airport.com
+  servername: bgroup.node4.v.nodelist-airport.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - cipher: chacha20-ietf-poly1305
   name: 64|香港HK01-高速-专线-1A
   password: 0721790d-1a44-4fe4-b31b-571a9cee2687
@@ -622,19 +631,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 508e3be6-3872-4a45-8a5f-0d6e42579eee
-- name: 81|Relay_-HK_994
-  network: ws
-  password: CMLiu
-  port: 8443
-  server: 47.76.26.26
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 81|Relay_-HK_997
+- name: 81|Relay_-HK_891
   network: ws
   password: CMLiu
   port: 2083
@@ -646,8 +643,44 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
+- name: 81|Relay_-HK_898
+  network: ws
+  password: CMLiu
+  port: 34237
+  server: 154.204.56.238
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 81|Relay_-HK_913
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.76.26.26
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 81|Relay_-HK_915
+  network: ws
+  password: CMLiu
+  port: 2087
+  server: 47.76.227.128
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
 - country: HK
-  name: 81|Relay_HK-HK_1124
+  name: 81|Relay_HK-HK_1032
   password: bcd65233-6633-4829-9517-818bc182d90e
   port: 20000
   server: hkyyds.bpjc.tgbpjc520.site
@@ -656,16 +689,7 @@ proxies:
   type: hysteria2
   udp: true
 - country: HK
-  name: 81|Relay_HK-HK_1125
-  password: 19cfd418-f845-43a6-9c96-d89645e1bbb3
-  port: 32065
-  server: mr.moonriver.sbs
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- country: HK
-  name: 81|Relay_HK-HK_1131
+  name: 81|Relay_HK-HK_1036
   network: ws
   password: moist
   port: 2083
@@ -674,18 +698,19 @@ proxies:
   sni: trojan.freenods.sbs
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 81|Relay_KR-HK_1184
-  network: tcp
-  port: 14251
-  server: xxx.admoetb.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: c7de94b0-7392-44bd-a366-1f9661741bef
+- country: HK
+  name: 81|Relay_HK-HK_1038
+  network: ws
+  password: moist
+  port: 2096
+  server: 47.238.0.114
+  sni: trojan.freenods.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   country: 🇰 HK
