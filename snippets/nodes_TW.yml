@@ -1,23 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '20,22,25,27|10|🇹🇼 台湾2|@ripaojiedian #3'
-  network: tcp
-  port: 29299
-  server: xdtw.cokecloud.top
-  tls: false
-  type: vmess
-  uuid: 8a25aadb-e034-43d0-a253-90c8077398f1
 - cipher: aes-256-cfb
-  country: 🇩ID
-  name: 38,39,60|ID_492
+  country: TW
+  name: 38,39,60,86|TW_1151
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: 🇼TW
-  name: 38,39,60|Relay_TW-🇼TW_778
+  name: 38,39,60|Relay_TW-🇼TW_767
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -31,7 +22,7 @@ proxies:
   country: 🇼TW
   h2-opts: {}
   http-opts: {}
-  name: 38,39,60,61|Pool_TW_581
+  name: 38,60,61|Pool_TW_581
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -64,7 +55,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 38,40,60,61,86| ZZ_1766
+  name: 38,40,60,61,86| ZZ_1792
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -74,11 +65,19 @@ proxies:
   ws-opts:
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: CN
-  name: 45,51|Relay_CN-IR_03
+  country: ' ZZ'
+  name: 42,86|Relay_ ZZ-AU_1730
   password: d52848a3-5101-3ccc-aed8-113ce65928a8
   port: 61006
   server: 2.forlive.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 42,86|Relay_ ZZ-AU_1687
+  password: d52848a3-5101-3ccc-aed8-113ce65928a8
+  port: 61006
+  server: 154.16.55.112
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 64|湾TW02-高速-稳定-1C
@@ -202,8 +201,20 @@ proxies:
   server: gstdnb.myfczy168.top
   type: ss
   udp: true
+- name: 86|Relay_-TW_923
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
 - country: TW
-  name: 86|Relay_TW-TW_1170
+  name: 86|Relay_TW-TW_1152
   network: ws
   password: auto
   port: 443
