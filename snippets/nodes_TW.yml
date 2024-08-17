@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,36,38|10,11|台湾|@ripaojiedian #2'
+  name: '0,2,36,38,50,51|美国 CloudFlare节点 #102'
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -24,40 +24,23 @@ proxies:
   server: 6bhz.6bnw.top
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 49,52|🇼 台湾 1-1E
+  password: ae9d289a-9cf8-463c-8959-b17a1bbb80c4
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 49|🇹🇼 台湾 A TW-1A
+  password: 5166aaa0-6ddf-4683-8e6c-7365082d1d6e
+  port: 35109
+  server: tw1.iepl.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🏁 ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 42,43,52|🏁 ZZ_1070
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: '44|disney_TW #2'
-  network: ws
-  port: 443
-  server: 103.208.196.227
-  servername: www.86538404.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.86538404.xyz
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 48,49|🇹🇼 台湾02-1F
+  name: '49,52,53|🇹🇼 台湾02-1F #1'
   network: ws
   port: '56292'
   server: shcm.skycloud.lol
@@ -70,50 +53,36 @@ proxies:
       Host: tw.cylink.tech
     path: /www/wwwroot/tw.cylink.tech
 - cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾 B TW-1B
-  password: 2bfb1043-b759-4233-a8ab-3296201686ae
-  port: 35110
-  server: tw2.iepl.cooc.icu
+  name: 49,52|🇼 台湾01-1B
+  password: b7e426c0-23fa-4767-8347-f8efee5a23d9
+  port: 47564
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 49|🇹🇼 TW 海外用户-1B
+  password: cddcacaa-bfac-4089-81a7-902702328301
+  port: 36881
+  server: tw.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾 C TW-1C
+  name: 49|🇹🇼 台湾 C TW-1A
   password: 5166aaa0-6ddf-4683-8e6c-7365082d1d6e
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾01-1C
-  password: 89d737c0-fd4c-469c-9f85-9847d129ec94
-  port: 47564
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾 A TW-1C
-  password: 5166aaa0-6ddf-4683-8e6c-7365082d1d6e
-  port: 35109
-  server: tw1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾 1-1B
-  password: f14563bb-c79b-4ec2-b3eb-7babe59243a9
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 48|🇹🇼 TW 海外用户-1A
-  password: 996841b0-284d-4181-be55-b03ccdedc000
-  port: 36881
-  server: tw.cooc.icu
+  name: 49|🇹🇼 台湾 B TW-1B
+  password: cddcacaa-bfac-4089-81a7-902702328301
+  port: 35110
+  server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '48,49|🇹🇼 台湾03-1B #1'
+  name: '49,52,53|🇹🇼 台湾03-1B #1'
   network: ws
   port: '22481'
   server: jscm.skycloud.lol
@@ -127,7 +96,131 @@ proxies:
     path: /www/wwwroot/tw.cylink.tech
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 台湾01-GHAT-1H
+  name: 50|GCP-台湾
+  network: ws
+  port: '8080'
+  server: 35.206.247.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '50,51|台湾 #1'
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- alterId: 0
+  cipher: auto
+  name: '50,51|台湾2 #1'
+  network: tcp
+  port: 228
+  server: twpaopao4.dskjahf.xyz
+  tls: false
+  type: vmess
+  uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf
+- alterId: 0
+  cipher: auto
+  name: '50,51|🇹🇼 TW 台湾 4 #1'
+  network: ws
+  port: '80'
+  server: 7cc02ab9-3478-1733-ea94-2b45d8e115a0.bugtik.ltd
+  tls: false
+  type: vmess
+  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '50,51|🇹🇼 TW 台湾 5 #1'
+  network: ws
+  port: '80'
+  server: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
+  tls: false
+  type: vmess
+  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '50,51|TG频道:@MTProto_666（台湾） #3'
+  network: tcp
+  port: '58539'
+  server: 210.79.155.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9976c89d-3054-41ec-92b5-bb157213bd2d
+- alterId: 0
+  cipher: auto
+  name: '50,51|v1-台湾02|1x|v #3'
+  network: ws
+  port: '6628'
+  server: v1.cdn.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a2c9e81-6ee5-394b-ba02-389b3ebc2332
+  ws-opts:
+    headers:
+      Host: ed8.bilibili.com
+    path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+- alterId: 0
+  cipher: auto
+  name: '50,51|TG频道:@MTProto_666（台湾） #2'
+  network: ws
+  port: '49878'
+  server: gyb.kd69.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb43a0da-08f0-4f79-a1ec-0dad839ce915
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 51|>🇹🇼 TW|Hs|0706|TG@FProxies|
+  network: tcp
+  port: '30893'
+  server: cctv.iepl01.yuntiair365.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
+- alterId: 0
+  cipher: auto
+  name: 51|🇹🇼 | @CLick_vpnn
+  network: ws
+  port: '80'
+  server: tw1g.forlive.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 台湾01-GHAT-1H #1'
   network: tcp
   port: '48002'
   server: szcm.skycloud.lol
@@ -136,7 +229,7 @@ proxies:
   uuid: 9615f260-b323-401e-bf2f-931a86b3d02a
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V1 台湾 移动专线
+  name: '53|🇹🇼 V1 台湾 移动专线 #1'
   network: tcp
   port: '31021'
   server: azi.cm.xiaomi-api.xyz
@@ -145,7 +238,7 @@ proxies:
   uuid: b729bc85-2435-4b3a-b970-537f9ef61b91
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V3 台湾 华南专线-NF
+  name: 53|🇹🇼 V3 台湾 华南专线-NF
   network: tcp
   port: '31021'
   server: azi.cm3.xiaomi-api.xyz
@@ -154,7 +247,7 @@ proxies:
   uuid: b729bc85-2435-4b3a-b970-537f9ef61b91
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V2 台湾 华南专线
+  name: 53|🇹🇼 V2 台湾 华南专线
   network: tcp
   port: '31021'
   server: azi.cm2.xiaomi-api.xyz
@@ -163,7 +256,7 @@ proxies:
   uuid: b729bc85-2435-4b3a-b970-537f9ef61b91
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 台湾A-1B
+  name: 53|🇹🇼 台湾A-1B
   network: tcp
   port: '45058'
   server: haa.dashuai.cyou
@@ -172,7 +265,7 @@ proxies:
   uuid: da55a113-b76e-4d6b-82d3-bb701604868f
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V2 台湾 华中专线
+  name: '53|🇹🇼 V2 台湾 华中专线 #1'
   network: tcp
   port: '31121'
   server: azi.ct.xiaomi-api.xyz
@@ -181,7 +274,7 @@ proxies:
   uuid: b729bc85-2435-4b3a-b970-537f9ef61b91
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 台湾2-1A
+  name: 53|🇹🇼 台湾2-1A
   network: tcp
   port: '45077'
   server: xdd.dashuai.cyou
@@ -190,7 +283,7 @@ proxies:
   uuid: 18ecbf24-ec05-4cbe-a9f9-ee052074a2b6
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 台湾B-1B
+  name: 53|🇹🇼 台湾B-1B
   network: tcp
   port: '45059'
   server: xdd.dashuai.cyou
@@ -199,7 +292,7 @@ proxies:
   uuid: da55a113-b76e-4d6b-82d3-bb701604868f
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 台湾1-1A
+  name: '53|🇹🇼 台湾1-1A #1'
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
@@ -208,7 +301,7 @@ proxies:
   uuid: 18ecbf24-ec05-4cbe-a9f9-ee052074a2b6
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V3 台湾 华东专线-NF
+  name: '53|🇹🇼 V3 台湾 华东专线-NF #1'
   network: tcp
   port: '31421'
   server: azi.cn2.xiaomi-api.xyz
@@ -217,7 +310,7 @@ proxies:
   uuid: b729bc85-2435-4b3a-b970-537f9ef61b91
 - alterId: 0
   cipher: auto
-  name: 49|🇹🇼 V3 台湾 华中专线-NF
+  name: 53|🇹🇼 V3 台湾 华中专线-NF
   network: tcp
   port: '31421'
   server: azi.cn1.xiaomi-api.xyz
