@@ -23,14 +23,14 @@ proxies:
     path: /video/GQ2qE5Us9g
 - cipher: aes-256-cfb
   country: TW
-  name: 39|TW_1943
+  name: 39|TW_1865
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_1944
+  name: 39|Relay_TW-TW_1866
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -39,6 +39,39 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|TW_1867
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Pool_TW_1868
+  network: ws
+  port: 30001
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.60548529.xyz
+    path: /path/003500111307
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -59,10 +92,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: TW
+  country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 39|TW_1946
+  name: 42|ChatGPT  TW_72
   network: ws
   port: 12945
   server: 154.40.60.172
@@ -70,46 +103,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Pool_TW_1947
-  network: ws
-  port: 30001
-  server: 61.220.129.190
-  servername: www.60548529.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.60548529.xyz
-    path: /path/003500111307
-- cipher: chacha20-ietf-poly1305
-  country: ' TW'
-  name: 42|ChatGPT  TW_70
-  password: 7b13c412-f540-3e7d-8a5f-e94af4cb5f4b
-  port: 61006
-  server: 2.forlive.live
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' TW'
-  name: 42|ChatGPT  TW_71
-  password: 7b13c412-f540-3e7d-8a5f-e94af4cb5f4b
-  port: 61006
-  server: 154.16.55.112
-  type: ss
+  ws-path: /
 - alterId: 0
   cipher: auto
   country: 🏁 ZZ
   h2-opts: {}
   http-opts: {}
-  name: 42,43,56|🏁 ZZ_1050
+  name: 42,43,56|🏁 ZZ_1026
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -117,9 +117,23 @@ proxies:
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 49,52|🇼 台湾01-1H
+  password: c3f7db8c-d93d-430b-b02e-841229f94196
+  port: 47564
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 49|🇹🇼 台湾 B TW-1A
+  password: d254f5b3-6881-479f-8c9a-b4fb950a9b72
+  port: 35110
+  server: tw2.iepl.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '49,52,53|🇹🇼 台湾02-1G #1'
+  name: '49,52,53|🇹🇼 台湾02-1E #1'
   network: ws
   port: '56292'
   server: shcm.skycloud.lol
@@ -131,67 +145,53 @@ proxies:
     headers:
       Host: tw.cylink.tech
     path: /www/wwwroot/tw.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 49|🇹🇼 台湾 B TW-1A
-  password: b254f341-e93c-4a15-8b34-34a7769a2cca
-  port: 35110
-  server: tw2.iepl.cooc.icu
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 49,52,53|🇹🇼 台湾03-1J
+  name: '49,52,53|🇹🇼 台湾03-1D #1'
   network: ws
   port: '22481'
   server: jscm.skycloud.lol
   tls: false
   type: vmess
   udp: true
-  uuid: a22c630e-5bdb-4858-8c4a-faea5f34b189
+  uuid: 24387814-0a96-4bda-8140-8b638dd572df
   ws-opts:
     headers:
       Host: tw.cylink.tech
     path: /www/wwwroot/tw.cylink.tech
 - cipher: chacha20-ietf-poly1305
-  name: 49,52|🇼 台湾01-1N
-  password: 034f2441-47e4-48b2-af58-bf3626fe79c7
-  port: 47564
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 49,52|🇼 台湾 1-1H
-  password: 6c8871e3-809f-4570-9753-622f54437c4c
+  name: 49,52|🇼 台湾 1-1B
+  password: 1cdd46b3-2e18-4418-af4e-3e59e8c3f8cf
   port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 49|🇹🇼 台湾 A TW-1A
-  password: b254f341-e93c-4a15-8b34-34a7769a2cca
-  port: 35109
-  server: tw1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 49,52|🇼 台湾01-1H
-  password: ed5f9b12-5d25-42ff-89cc-e7543083485c
+  name: 49,52|🇼 台湾01-1K
+  password: 116eeb9e-09fe-44e2-9252-1c3025ea25da
   port: 15632
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 49|🇹🇼 台湾 C TW-1A
-  password: b254f341-e93c-4a15-8b34-34a7769a2cca
+  name: 49|🇹🇼 TW 海外用户-1C
+  password: 804aa4ff-ec51-4481-95c1-c1a5c97e534d
+  port: 10001
+  server: tw.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 49|🇹🇼 台湾 C TW-1B
+  password: 27d63675-9251-4b0c-a9d4-8c44ec296c48
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 49|🇹🇼 TW 海外用户-1C
-  password: 27d63675-9251-4b0c-a9d4-8c44ec296c48
-  port: 10001
-  server: tw.cooc.icu
+  name: 49|🇹🇼 台湾 A TW-1C
+  password: 804aa4ff-ec51-4481-95c1-c1a5c97e534d
+  port: 35109
+  server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
@@ -306,7 +306,34 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 53|🇹🇼 台湾01-GHAT-1K
+  name: '53|🇹🇼 台湾A-1B #1'
+  network: tcp
+  port: '45058'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: b2777747-668c-4890-9b97-189ce7236b15
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 V3 台湾 华南专线-NF #1'
+  network: tcp
+  port: '31021'
+  server: azi.cm3.xiaomi-api.xyz
+  tls: false
+  type: vmess
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
+- alterId: 0
+  cipher: auto
+  name: 53|🇹🇼 台湾1-1C
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 4aee0c93-a6f7-4a08-8fee-85ac62407849
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 台湾01-GHAT-1D #1'
   network: tcp
   port: '48002'
   server: szcm.skycloud.lol
@@ -315,37 +342,64 @@ proxies:
   uuid: 24387814-0a96-4bda-8140-8b638dd572df
 - alterId: 0
   cipher: auto
-  name: '53|🇹🇼 台湾B-1D #1'
+  name: 53|🇹🇼 台湾B-1B
   network: tcp
   port: '45059'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 4aee0c93-a6f7-4a08-8fee-85ac62407849
-- alterId: 0
-  cipher: auto
-  name: 53|🇹🇼 台湾A-1C
-  network: tcp
-  port: '45058'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 0e7d12cd-6c0d-4fd3-b1dc-ff7e9aea981a
-- alterId: 0
-  cipher: auto
-  name: '53|🇹🇼 台湾2-1B #1'
-  network: tcp
-  port: '45077'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   uuid: b2777747-668c-4890-9b97-189ce7236b15
 - alterId: 0
   cipher: auto
-  name: '53|🇹🇼 台湾1-1C #1'
+  name: '53|🇹🇼 V1 台湾 移动专线 #1'
   network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
+  port: '31021'
+  server: azi.cm.xiaomi-api.xyz
   tls: false
   type: vmess
-  uuid: 0e7d12cd-6c0d-4fd3-b1dc-ff7e9aea981a
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 V3 台湾 华中专线-NF #2'
+  network: tcp
+  port: '31421'
+  server: azi.cn1.xiaomi-api.xyz
+  tls: false
+  type: vmess
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
+- alterId: 0
+  cipher: auto
+  name: 53|🇹🇼 台湾2-1C
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 4aee0c93-a6f7-4a08-8fee-85ac62407849
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 V2 台湾 华南专线 #2'
+  network: tcp
+  port: '31021'
+  server: azi.cm2.xiaomi-api.xyz
+  tls: false
+  type: vmess
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 V2 台湾 华中专线 #1'
+  network: tcp
+  port: '31121'
+  server: azi.ct.xiaomi-api.xyz
+  tls: false
+  type: vmess
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
+- alterId: 0
+  cipher: auto
+  name: '53|🇹🇼 V3 台湾 华东专线-NF #1'
+  network: tcp
+  port: '31421'
+  server: azi.cn2.xiaomi-api.xyz
+  tls: false
+  type: vmess
+  uuid: 5093799f-43ca-4038-943f-56aff9f39aa7
