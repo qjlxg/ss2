@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0,2,36,38,66,70,87,95|🇺🇸US | 🟢 | vmess | @mftizi | 1...
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - client-fingerprint: chrome
   name: 2|🇹🇼 台湾
   network: ws
@@ -20,33 +37,9 @@ proxies:
   server: 6bhz.6bnw.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2,66,70,87,95|🇺🇸US | 🟢 | vmess | @mftizi | 1...
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- cipher: aes-256-cfb
-  country: TW
-  name: 39|TW_2035
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 223.165.4.173
-  type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_2036
+  name: 39|Relay_TW-TW_1994
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -57,10 +50,22 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  country: ' ZZ'
+  country: TW
   h2-opts: {}
   http-opts: {}
-  name: 39,40,76,82,83,93|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+  name: '39,44|disney_netflix_TW #1'
+  network: tcp
+  port: 48115
+  server: xj02.zzxs.one
+  skip-cert-verify: true
+  type: vmess
+  uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39,82,83,93|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -73,6 +78,36 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Pool_TW_1997
+  network: ws
+  port: 30001
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.60548529.xyz
+    path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39,44|disney_netflix_TW
+  network: tcp
+  port: 48115
+  server: xj01.zzxs.one
+  skip-cert-verify: true
+  type: vmess
+  uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
 - alterId: 0
   cipher: auto
   country: TW
@@ -91,24 +126,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Pool_TW_2039
-  network: ws
-  port: 30001
-  server: 61.220.129.190
-  servername: www.60548529.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.60548529.xyz
-    path: /path/003500111307
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 42|ChatGPT Relay  TW_76
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20005
+  server: 183.233.187.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 42|ChatGPT Relay  TW_78
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20005
+  server: deepf.hjkdsak2.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 52,58|台湾中转 03
   password: 53e992c5-f8df-4873-8f85-57e3554dedc5
@@ -117,15 +148,15 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 52,53,68|🇹🇼 台湾01-1F
-  password: 373ab0a2-9566-48ad-9f80-ce0a65749dcc
+  name: '52,53,68|🇹🇼 台湾01-1C #1'
+  password: 852b3967-f903-49a8-8f96-21442d037ed8
   port: 15632
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '52,53,68,71|🇼 台湾01-1B #1'
-  password: 30efda62-45f4-4ebe-bb2a-11f5a86d458d
+  name: 52,53,68|🇹🇼 台湾01-1D
+  password: 214dccac-ac4c-4cbc-a974-e9df555892fb
   port: 47564
   server: gd.xueyejiasu.com
   type: ss
@@ -168,8 +199,8 @@ proxies:
       Host: twnat2.dackcf1.top
     path: /x2cloud?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 52,53,58,68,71|🇼 台湾 1-1E
-  password: 3313e6c7-00e4-4a24-8cbc-e8471c1cd5f6
+  name: 52,53,58,68|🇹🇼 台湾 1-1B
+  password: 04eb9f2c-056d-4bb9-82ec-8daeb6b4fc7d
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -214,21 +245,21 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 58,68|🇹🇼 台湾 A TW-1A
-  password: 26ebca1f-1895-4102-8cd4-02e6f9f8ed53
+  password: c6980fcb-e71f-4ec2-88ca-58672131e74f
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58,68|🇹🇼 台湾 B TW-1A
-  password: 26ebca1f-1895-4102-8cd4-02e6f9f8ed53
+  name: 58,68|🇹🇼 台湾 B TW-1B
+  password: a7bd465a-991f-4015-b5df-d1d98c8cd088
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 58,68|🇹🇼 台湾 C TW-1A
-  password: 26ebca1f-1895-4102-8cd4-02e6f9f8ed53
+  password: c6980fcb-e71f-4ec2-88ca-58672131e74f
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
@@ -274,65 +305,29 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 68|🇹🇼 TW 海外用户-1A
-  password: 26ebca1f-1895-4102-8cd4-02e6f9f8ed53
+  password: c6980fcb-e71f-4ec2-88ca-58672131e74f
   port: 10001
   server: tw.cooc.icu
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 71,72|🇹🇼 台湾03-1A
-  network: ws
-  port: '22481'
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 47cd6d1b-1e58-4502-8e4a-ea5d418e5f1e
-  ws-opts:
-    headers:
-      Host: tw.cylink.tech
-    path: /www/wwwroot/tw.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 72|🇹🇼 台湾01-GHAT-1A
-  network: tcp
-  port: '48002'
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  uuid: 47cd6d1b-1e58-4502-8e4a-ea5d418e5f1e
-- alterId: 0
-  cipher: auto
-  name: 72|🇹🇼 台湾02-1B
-  network: ws
-  port: '56292'
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  uuid: d19ed9f4-18ce-460e-b603-5ba68d200f62
-  ws-opts:
-    headers:
-      Host: tw.cylink.tech
-    path: /www/wwwroot/tw.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: '72|🇹🇼 台湾2 #2'
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: f1da8f87-fbe8-4744-9423-fbef9cf2770c
-- alterId: 0
-  cipher: auto
-  name: 72|🇹🇼 台湾1
+  name: 72|🇹🇼 台湾1-1A
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: f1da8f87-fbe8-4744-9423-fbef9cf2770c
+  uuid: 0fbe241d-4774-4150-9f13-0bca8408f1f7
+- alterId: 0
+  cipher: auto
+  name: 72|🇹🇼 台湾2-1A
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 0fbe241d-4774-4150-9f13-0bca8408f1f7
 - alterId: 0
   cipher: auto
   name: 83|v1-台湾02|1x|v
