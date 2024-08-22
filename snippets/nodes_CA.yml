@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '6,11,17,22,27,32,37|加拿大(yudou66.com 玉豆免费节点) #6'
+  name: 6,11,17,22,27,32,37,60|03-179-RELAY
   network: ws
-  port: '80'
+  port: 80
   server: 66.235.200.0
   servername: ''
   tls: false
@@ -14,32 +14,76 @@ proxies:
       Host: tr1-vmess.ctunnel.xyz
     path: /vmess#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro
 - cipher: chacha20-ietf-poly1305
-  country: 🇨🇦CA
-  name: 39,40,41,42,81|🇨🇦CA_474
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CA'
-  name: 39,40,41,42|ChatGPT  CA_33
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: CA
   name: 39,40,41,42,45,65,81,98|🇨🇦 加拿大【付费推荐：https://a0a.xyz】37
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇦CA
+  name: 39,40,41,42,81|🇨🇦CA_461
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 39|CA_752
+  network: http
+  port: 3389
+  server: 178.128.237.6
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,44,86|美国 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_CA-CA_384
+  name: 39|Relay_CA-CA_755
+  network: ws
+  port: 443
+  server: 145.724064.xyz
+  servername: 145.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
+  ws-opts:
+    headers:
+      HOST: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_CA-CA_757
   network: ws
   port: 443
   server: 142.724064.xyz
@@ -56,17 +100,70 @@ proxies:
   cipher: auto
   country: CA
   h2-opts: {}
+  http-opts: {}
+  name: 39|CA_758
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 158.51.121.36
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_CA-CA_760
+  network: ws
+  port: 443
+  server: 141.724064.xyz
+  servername: 141.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  ws-opts:
+    headers:
+      HOST: 141.724064.xyz
+    path: /gmvfvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
   http-opts:
     method: GET
     path:
     - /
-  name: 39|CA_386
+  name: 39|CA_761
   network: http
   port: 3389
-  server: 178.128.237.6
+  server: 142.93.144.99
   skip-cert-verify: true
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 39,44|CA_715
+  network: ws
+  port: 80
+  server: 23.227.38.145
+  servername: www.iransell.ir.127.0.0.1.dl3..mrarsha..wonkacapitano.buzz.
+  skip-cert-verify: true
+  type: vmess
+  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
+  ws-opts:
+    headers:
+      HOST: www.iransell.ir.127.0.0.1.dl3..mrarsha..wonkacapitano.buzz.
+    path: /vmess#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -92,86 +189,19 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_CA-CA_388
+  name: 39|CA_764
   network: ws
   port: 443
-  server: 141.724064.xyz
-  servername: 141.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
-  ws-opts:
-    headers:
-      HOST: 141.724064.xyz
-    path: /gmvfvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Relay_CA-CA_390
-  network: ws
-  port: 443
-  server: 145.724064.xyz
-  servername: 145.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
-  ws-opts:
-    headers:
-      HOST: 145.724064.xyz
-    path: /zrqrvws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 39,44,79|🏁ZZ_165 |30.84Mb
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 39|CA_394
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: 158.51.121.36
+  server: 134.195.198.61
+  servername: novia.makeup
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      HOST: 158.51.121.36
+      HOST: novia.makeup
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 39|CA_395
-  network: http
-  port: 3389
-  server: 142.93.144.99
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -191,7 +221,7 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 39|CA_397
+  name: 39|CA_767
   network: ws
   port: 443
   server: 134.195.198.147
@@ -203,87 +233,6 @@ proxies:
   ws-opts:
     headers:
       HOST: inna.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 39|CA_398
-  network: ws
-  port: 443
-  server: 134.195.198.61
-  servername: novia.makeup
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: novia.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 39,44|CA_410
-  network: ws
-  port: 80
-  server: 23.227.38.145
-  servername: www.iransell.ir.127.0.0.1.dl3..mrarsha..wonkacapitano.buzz.
-  skip-cert-verify: true
-  type: vmess
-  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
-  ws-opts:
-    headers:
-      HOST: www.iransell.ir.127.0.0.1.dl3..mrarsha..wonkacapitano.buzz.
-    path: /vmess#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '44,60|03-120-RELAY #1'
-  network: ws
-  port: 2086
-  server: 172.64.166.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 44,60,83|🏀46@oneclickvpnkeys
-  network: ws
-  port: '2086'
-  server: 104.19.38.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 60|03-010-CA
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.200.227
     path: /linkvws
 - cipher: aes-256-gcm
   name: 65|TG频道@mfbpn-0030-CA
@@ -393,6 +342,18 @@ proxies:
       Host: v2ray10.free4444.xyz
     path: /ray
 - alterId: 0
+  cipher: chacha20-poly1305
+  grpc-opts:
+    grpc-service-name: Av8czorIlYC5KffvrsN6rqb
+  name: 70,95|🇺🇸US | 🟢 | vmess | @DeamNet_Pr...
+  network: grpc
+  port: '443'
+  server: nodejs.org
+  servername: hdfy8c2.iraniancpi.uk
+  tls: true
+  type: vmess
+  uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1
+- alterId: 0
   cipher: auto
   name: '70|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
@@ -408,7 +369,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 70,83|🔶28@oneclickvpnkeys
+  name: 70,76,83|🔶28@oneclickvpnkeys
   network: ws
   port: '443'
   server: 104.21.94.64
@@ -478,10 +439,24 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '76,83|💕 @v2ray_configs_pool 💕 #16'
+  network: ws
+  port: '443'
+  server: 172.67.183.220
+  servername: jahfkjha.cfd
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
   country: 🇨🇦 CA
   h2-opts: {}
   http-opts: {}
-  name: 81| CA_473
+  name: 81| CA_460
   network: ws
   port: 443
   server: 68.168.31.196
