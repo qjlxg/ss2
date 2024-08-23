@@ -9,34 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '0,36,38|10,11|香港2|@ripaojiedian #2'
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '0,36,38|10,11|香港3|@ripaojiedian #2'
-  network: ws
-  port: '2052'
-  server: 33.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
 - alterId: 64
   cipher: auto
   name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,37,38,61,69,70,84|关注电报https://t.me/aifenxiang202...
@@ -48,6 +20,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 0|11|香港7|@ripaojiedian
+  network: tcp
+  port: '51000'
+  server: iepl2.airtcp.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -116,6 +98,34 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '36,38|10,11|香港2|@ripaojiedian #1'
+  network: ws
+  port: '2052'
+  server: 22.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '36,38|10,11|香港3|@ripaojiedian #1'
+  network: ws
+  port: '2052'
+  server: 33.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
 - country: HK
   name: 39|Relay_HK-HK_868
   password: be9e5eb1-76ab-40db-b164-6bc9b18bf118
@@ -134,7 +144,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: HK
-  name: 39,41,45|Pool_HK_62
+  name: 39,41,45|Pool_HK_65
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
@@ -234,6 +244,13 @@ proxies:
   uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' HK'
+  name: 42| HK_275
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
 - cipher: aes-128-gcm
   country: ' CN'
   name: '44|disney_netflix_HK #2'
