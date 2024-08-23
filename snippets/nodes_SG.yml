@@ -10,14 +10,14 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: JP
-  name: 2,39|JP_1174
+  name: 2,39|JP_1168
   password: amazonskr05
   port: 443
   server: 3.112.220.140
   tfo: false
   type: ss
 - country: SG
-  name: 39|SG_1438
+  name: 39|SG_1407
   password: '!!str 123456'
   port: 9443
   server: 185.151.146.128
@@ -26,64 +26,78 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-256-cfb
-  country: SG
-  name: 39|SG_1439
+  country: ' SG'
+  name: 39,42,46| SG_21
   password: amazonskr05
   port: 443
-  server: 13.229.243.64
+  server: 13.228.79.13
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 39,44|SG_825
-  password: amazonskr05
-  port: 443
-  server: 13.212.82.167
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 39,44,78|TG频道@mfbpn-1212-SG
-  password: amazonskr05
-  port: 443
-  server: 18.139.110.249
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 39,44|SG_820
-  password: amazonskr05
-  port: 443
-  server: 13.212.34.140
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 39,44|SG_821
+  name: 39|SG_1409
   password: amazonskr05
   port: 443
   server: 54.179.241.46
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 39,44|SG_822
-  password: amazonskr05
-  port: 443
-  server: 54.169.236.64
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 39,44|_663
+  name: 39|SG_1410
   password: amazonskr05
   port: 443
   server: 13.214.209.23
   type: ss
+- cipher: aes-256-gcm
+  country: SG
+  name: 39|SG_1411
+  password: 328c867b-a9bb-41f2-be42-c7bff2b5f12d
+  port: 50000
+  server: a005.standard-nodes-chickenfarms.com
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|SG_1412
+  password: amazonskr05
+  port: 443
+  server: 13.212.82.167
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39,78|TG频道@mfbpn-1211-SG
+  password: amazonskr05
+  port: 443
+  server: 13.250.14.224
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|SG_1414
+  password: amazonskr05
+  port: 443
+  server: 54.169.236.64
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇬 SG
-  name: 39,40,41,42,127| SG_586
+  country: ' SG'
+  name: 39,40,41,42|ChatGPT  SG_453
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 39|Pool_SG_1448
+  name: 39,78|TG频道@mfbpn-1212-SG
+  password: amazonskr05
+  port: 443
+  server: 18.139.110.249
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|SG_1417
+  password: amazonskr05
+  port: 443
+  server: 13.229.243.64
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|Pool_SG_1418
   obfs: plain
   password: VK9dhgualsL
   port: 443
@@ -92,10 +106,57 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,40,41,42,81|Singapore Green Floid
+  network: tcp
+  port: '57614'
+  server: 5.34.176.111
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+  ws-path: /
+- alterId: 0
+  cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39,44|SG_826
+  name: 39|Relay_SG-SG_1421
+  network: ws
+  port: 40000
+  server: ml1.333210.xyz
+  servername: ml1.333210.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  ws-opts:
+    headers:
+      HOST: ml1.333210.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,41,128|俄罗斯 V2CROSS.COM
+  network: tcp
+  port: '12954'
+  server: 31.192.234.7
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|SG_1427
   network: ws
   port: 80
   server: 213.35.113.150
@@ -109,25 +170,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇬 SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40,41,42,81,127|🇬 SG_587
-  network: tcp
-  port: 57614
-  server: 5.34.176.111
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-  ws-path: /
-- alterId: 0
-  cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_SG-SG_1451
+  name: 39|Relay_SG-SG_1428
   network: ws
   port: 80
   server: sg04.thomasina.buzz
@@ -139,30 +185,12 @@ proxies:
     headers:
       HOST: sg04.thomasina.buzz
     path: /
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Relay_SG-SG_1452
-  network: ws
-  port: 443
-  server: osg4.dean52.top
-  servername: osg4.dean52.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04198516-1acb-429e-f222-d344ed1cd9da
-  ws-opts:
-    headers:
-      HOST: osg4.dean52.top
-    path: /04198516-1acb-429e-f222-d344ed1cd9da
 - alterId: 64
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Pool_SG_1453
+  name: 39|Pool_SG_1429
   network: ws
   port: 443
   server: 134.122.139.79
@@ -180,86 +208,47 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_SG-SG_1454
+  name: 39|Relay_SG-SG_1430
   network: ws
   port: 443
-  server: sgdo.vipcasper.com
-  servername: sgdo.vipcasper.com
+  server: osg4.dean52.top
+  servername: osg4.dean52.top
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
+  uuid: 04198516-1acb-429e-f222-d344ed1cd9da
   ws-opts:
     headers:
-      HOST: sgdo.vipcasper.com
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,41,128|俄罗斯 V2CROSS.COM
-  network: tcp
-  port: '12954'
-  server: 31.192.234.7
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-path: /
+      HOST: osg4.dean52.top
+    path: /04198516-1acb-429e-f222-d344ed1cd9da
 - country: SG
-  fingerprint: randomized
-  name: '39,44|disney_SG #1'
+  name: 39|SG_1431
   network: ws
-  password: tg-dns68
-  port: 55740
-  server: 35.187.231.66
-  sni: vip.putata.eu.org
+  password: cf13832b-4ca0-4fee-8e85-2b2411104e75
+  port: 20230
+  server: sg006.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: vip.putata.eu.org
-    path: /?proxyip=proxyip.sg.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 39,72|09-503-RELAY
+  name: 39|Relay_ZZ-SG_2732
   network: ws
   port: 443
-  server: me.kalakatha.org
-  servername: me.kalakatha.org
-  skip-cert-verify: true
-  skip-cert-vertify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: me.kalakatha.org
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: ' US'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40|Relay_ US-US_603
-  network: ws
-  port: 443
-  server: max.mankadmu.com
-  servername: max.mankadmu.com
+  server: sg1.1vpn.sbs
+  servername: sg1.1vpn.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 1335b461-4941-4d13-936b-76a16eec9ad6
   ws-opts:
     headers:
-      HOST: max.mankadmu.com
-    path: /linkvws
+      HOST: sg1.1vpn.sbs
+    path: /oihuih6788
 - alterId: 0
   cipher: auto
   country: ZZ
@@ -280,12 +269,19 @@ proxies:
     headers:
       host: o.metuji.com
     path: /linkvws
-- cipher: aes-256-cfb
-  country: SG
-  name: 44,78|TG频道@mfbpn-1211-SG
-  password: amazonskr05
-  port: 443
-  server: 13.250.14.224
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 40,41,42|ChatGPT  SG_452
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 42|ChatGPT  SG_454
+  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
+  port: 50006
+  server: iepl2.forlive.live
   type: ss
 - cipher: aes-128-gcm
   name: 56|+Singapore<https://t.me/zhibei...
@@ -339,15 +335,15 @@ proxies:
   server: asiacdn2.housenetworkmp3.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 65,66,80|🇸🇬 新加坡01-1B
-  password: 7c2b3acb-fe64-4c0c-b2df-b62261f6ebc2
+  name: '65,66,80,83|🇬 新加坡01-1B #1'
+  password: 122e72c3-f837-416c-b804-6b52d66c2c7e
   port: 15636
   server: gdcub.yunnode.win
   type: ss
   udp: true
-- auth: 91a73fb5-43e0-4056-a927-370f68ee0adb
-  name: 65,80|🇸🇬 新加坡-1-1A
-  password: 91a73fb5-43e0-4056-a927-370f68ee0adb
+- auth: 5220c081-a93e-4912-8ab0-e401b3a649a6
+  name: 65,80,83|🇬 新加坡-1-1A
+  password: 5220c081-a93e-4912-8ab0-e401b3a649a6
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: false
@@ -355,8 +351,8 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 65,66,80|🇸🇬 新加坡02-1C
-  password: 01782186-b2ec-4cc5-9a99-cddf09d462f2
+  name: 65,66,80,83|🇬 新加坡02-1E
+  password: ae9d9810-a630-4c70-893a-9aebd2f4085c
   port: 15637
   server: gdcub.yunnode.win
   type: ss
@@ -385,15 +381,15 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 65,66,80|🇸🇬 新加坡03-1H
-  password: 68ba38aa-e7e7-4d5a-8595-d07324112630
+  name: 65,66,80,83|🇸🇬 新加坡03-1I
+  password: d69ddc20-3e9b-491a-a29a-b71c80a1a2c9
   port: 15627
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '66,73,80,84|🇸🇬 新加坡01-1I #1'
+  name: '66,73,80,83,84|🇸🇬 新加坡01-1I #1'
   network: ws
   port: '2082'
   server: cf.hy2.one
@@ -401,56 +397,56 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 096ae26f-70d0-4462-bc22-55b68bf3a721
+  uuid: d9550fd2-fcc8-4fb1-ae6d-62cfaa41b0be
   ws-opts:
     headers:
       Host: sg01.hy-2.top
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '66,80|🇸🇬 狮城03丨山东移动优化 #1'
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: 66,80,83|🇬 03丨东移动优化
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 24715
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 66,75,80|🇸🇬 新加坡1SS移动飞快-1A
-  password: 0a2ff73e-e5a4-4abb-b823-118d11dd3ce2
+  name: 66,75,80,83|🇬 新加坡1SS移动飞快-1A
+  password: d9550fd2-fcc8-4fb1-ae6d-62cfaa41b0be
   port: 23343
   server: sg6.hy2.one
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 66,80|🇸🇬 狮城03丨江苏移动优化
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: '66,80,83|🇸🇬 狮城03丨江苏移动优化 #1'
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 44055
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '66,80|🇸🇬 狮城01丨江苏移动优化 #1'
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: 66,80,83|🇬 狮城01移动优化
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 20010
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '66,80|🇸🇬 狮城02丨山东移动优化 #1'
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: 66,80,83|🇬 02优化
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 22189
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 66,80|🇸🇬 狮城02丨广东移动优化
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: 66,80,83|🇸🇬 02优化
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 30544
   server: gzgjc123.xiyunchen.cn
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '66,73,80,84|🇸🇬 新加坡02-V4-流媒体-1B #1'
+  name: '66,73,80,83,84|🇸🇬 新加坡02-V4-流媒体-1A #1'
   network: ws
   port: '2052'
   server: cf.hy2.one
@@ -458,7 +454,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 49523398-bf2c-433a-9f9a-21d08761012c
+  uuid: d9550fd2-fcc8-4fb1-ae6d-62cfaa41b0be
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
@@ -586,8 +582,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 80|🇸🇬 狮城02丨江苏移动优化
-  password: 32c5af4d-357c-4ad5-a4f8-5efd8ec7a3b5
+  name: '80,83|🇸🇬 狮城02丨江苏移动优化 #1'
+  password: fa3a7e04-301c-4f20-9293-b32f02ef6ebe
   port: 22189
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
@@ -608,7 +604,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '81|⚜️Telegram:@IP_CF #2'
+  name: 81|configkade👉@proxystore11
   network: ws
   port: '80'
   server: 172.64.154.211
@@ -1027,16 +1023,16 @@ proxies:
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: dae1792d-be8f-4e4c-8c1a-0d1e288bf401
+  uuid: a3537050-5599-449d-9387-b2f9a9bc1ae7
 - alterId: 0
   cipher: auto
-  name: 84|🇸🇬 新加坡NO.2-1A
+  name: '84|🇸🇬 新加坡NO.2-1A #1'
   network: tcp
   port: '45055'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: dae1792d-be8f-4e4c-8c1a-0d1e288bf401
+  uuid: a3537050-5599-449d-9387-b2f9a9bc1ae7
 - cipher: aes-256-cfb
   name: 96|_SG_
   password: amazonskr05
