@@ -1,24 +1,44 @@
 proxies:
 - cipher: aes-128-gcm
   country: CN
-  name: 39|Relay_CN-RU_451
+  name: 39|Relay_CN-GB_523
   password: a19a57a8-bf7d-4944-9680-212c7d374b30
-  port: 630
-  server: neweur.upperlay.xyz
+  port: 635
+  server: 111.29.58.27
   type: ss
 - cipher: chacha20-ietf
   country: CN
-  name: 39|Relay_CN-CN_453
+  name: 39|Relay_CN-CN_538
+  obfs: plain
+  password: mblank1port
+  port: 562
+  protocol: auth_aes128_md5
+  protocol-param: 25443:Jsnzkpg888
+  server: initest08.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_543
   obfs: plain
   password: mblank1port
   port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 39052:Lwjz965516244
+  server: cnhkall.debugex.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_528
+  obfs: plain
+  password: mblank1port
+  port: 561
   protocol: auth_aes128_md5
   protocol-param: 48530:LLLiuiuiu787878
   server: layercm05.initcloud.pro
   type: ssr
 - cipher: rc4-md5
   country: CN
-  name: 39|Relay_CN-CN_454
+  name: 39|Relay_CN-CN_529
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   password: miejump.com
@@ -27,89 +47,9 @@ proxies:
   protocol-param: 105860:2020931d-1126-3ea1-b931-b750f3ca563d
   server: iplc-ji.mielink-dns2.com
   type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_455
-  obfs: plain
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 25443:Jsnzkpg888
-  server: initest08.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_469
-  obfs: plain
-  password: mblank1port
-  port: 562
-  protocol: auth_aes128_md5
-  protocol-param: 38086:qwe123qwe
-  server: initest08.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_461
-  obfs: plain
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 38086:qwe123qwe
-  server: cnhkall.debugex.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_458
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 25443:Jsnzkpg888
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_465
-  obfs: plain
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 48530:LLLiuiuiu787878
-  server: 3layer03.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_468
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 48530:LLLiuiuiu787878
-  server: cnhkall.debugex.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_463
-  obfs: plain
-  password: mblank1port
-  port: 563
-  protocol: auth_aes128_md5
-  protocol-param: 48465:LLLiuiuiu787878
-  server: cmres.standpro.co
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 39|Relay_CN-CN_464
-  obfs: plain
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 48530:LLLiuiuiu787878
-  server: layercm05.initcloud.pro
-  type: ssr
 - cipher: rc4-md5
   country: CN
-  name: 39|Relay_CN-CN_466
+  name: 39|Relay_CN-CN_530
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   password: miejump.com
@@ -120,7 +60,17 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: CN
-  name: 39|Relay_CN-CN_467
+  name: 39|Relay_CN-CN_531
+  obfs: plain
+  password: mblank1port
+  port: 563
+  protocol: auth_aes128_md5
+  protocol-param: 48465:LLLiuiuiu787878
+  server: cmres.standpro.co
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_532
   obfs: plain
   password: mblank1port
   port: 560
@@ -128,25 +78,56 @@ proxies:
   protocol-param: 25443:Jsnzkpg888
   server: inlayer7.standurls.co
   type: ssr
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf
   country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 39,44,60|03-132-CN
-  network: tcp
-  port: 50002
-  server: 114.55.132.202
-  skip-cert-verify: true
-  skip-cert-vertify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: 114.55.132.202
-    path: None
+  name: 39|Relay_CN-CN_542
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 48530:LLLiuiuiu787878
+  server: layercm05.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_534
+  obfs: plain
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 25443:Jsnzkpg888
+  server: initest08.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_540
+  obfs: plain
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 38086:qwe123qwe
+  server: cnhkall.debugex.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_541
+  obfs: plain
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 48530:LLLiuiuiu787878
+  server: 3layer03.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 39|Relay_CN-CN_539
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 25443:Jsnzkpg888
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
 - alterId: 64
   cipher: auto
   country: CN
@@ -167,50 +148,30 @@ proxies:
     headers:
       host: 183.236.51.36
     path: None
-- alterId: 0
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,41| CN_01
-  network: tcp
-  port: 55218
-  server: 103.85.25.134
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
-  ws-path: /
 - alterId: 64
   cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '39,44|_344 #1'
+  name: 39,44|CN_406
+  network: tcp
+  port: 50002
+  server: 47.116.173.76
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '39,44|_374 #1'
   network: tcp
   port: 50002
   server: 47.92.152.169
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 39,44,60|03-113-CN
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: true
-  skip-cert-vertify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: 112.132.215.12
-    path: None
 - alterId: 64
   cipher: auto
   country: CN
@@ -236,28 +197,73 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|CN_382
+  name: 39,44,60|03-132-CN
   network: tcp
   port: 50002
-  server: 47.116.173.76
+  server: 114.55.132.202
+  skip-cert-verify: true
+  skip-cert-vertify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: 114.55.132.202
+    path: None
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 39,44,60|03-113-CN
+  network: tcp
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  skip-cert-vertify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: 112.132.215.12
+    path: None
+- alterId: 0
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 41| CN_01
+  network: tcp
+  port: 55218
+  server: 103.85.25.134
   skip-cert-verify: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  country: ' CN'
-  name: 42| CN_54
-  password: b1acd9bb-0925-4585-bb28-f74ca0b29d06
-  port: 14825
-  server: sntp.tw.jscm.as9929.uk
-  type: ss
-  udp: true
+  uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   country: CN
-  name: 44|CN_380
+  name: 44|Relay_CN-AU_403
   password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
   port: 10813
   server: yd1.qianggewangluo.buzz
   type: ss
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '44,69,70|不定期抽奖https://t.me/mftizi #12'
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
   country: CN
   name: 45|Relay_CN-CN_07
@@ -267,17 +273,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 2338:9tQfxMX(0S;40f
   server: cmlayer6.standurls.co
-  type: ssr
-- cipher: aes-256-cfb
-  country: CN
-  name: 45,82|Pool__01
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
   type: ssr
 - cipher: aes-256-cfb
   country: CN
@@ -2927,161 +2922,147 @@ proxies:
     path: None
 - alterId: 2
   cipher: auto
-  name: 61|04-377-CN
+  name: 61|04-460-CN
   network: ws
   port: 23616
   server: 16.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 16.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: 61|04-378-CN
+  name: 61|04-461-CN
   network: ws
   port: 23618
   server: 18.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 18.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-379-CN #1'
+  name: 61|04-462-CN
   network: ws
   port: 23612
   server: 12.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 12.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-380-CN #1'
+  name: 61|04-463-CN
   network: ws
   port: 23617
   server: 17.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 17.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-381-CN #1'
+  name: 61|04-464-CN
   network: ws
   port: 23614
   server: 14.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 14.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-382-CN #1'
+  name: 61|04-465-CN
   network: ws
   port: 23615
   server: 15.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 15.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-383-CN #1'
+  name: 61|04-466-CN
   network: ws
   port: 23605
   server: 5.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 5.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-384-CN #1'
+  name: 61|04-467-CN
   network: ws
   port: 23613
   server: 13.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 13.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-385-CN #1'
+  name: 61|04-468-CN
   network: ws
   port: 23611
   server: 11.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 11.v2-ray.cyou
     path: /
 - alterId: 2
   cipher: auto
-  name: '61|04-386-CN #1'
+  name: 61|04-469-CN
   network: ws
   port: 23619
   server: 19.v2-ray.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507
+  uuid: 24ad1780-ea51-3c3f-91a4-2d8ae1b51284
   ws-opts:
     headers:
       Host: 19.v2-ray.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: '61|04-438-CN #1'
-  network: ws
-  port: 20011
-  server: htsub-2024.899696998.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f727e2e5-09ec-4e1b-9d5f-06fed1b0e5e9
-  ws-opts:
-    headers:
-      Host: yyyt-hk-2024.mofaxw.top
-    path: /2024
-- alterId: 0
-  cipher: auto
-  name: 61|06-448-CN
+  name: 61|06-486-CN
   network: ws
   port: 20011
   server: htsub-2024.899696998.xyz
