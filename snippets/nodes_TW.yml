@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,61,69,70,84|🏀93@oneclickvpnkeys
+  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,69,70,84|🏀93@oneclickvpnkeys
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -29,25 +29,33 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2,88|🇨🇳 中国【付费推荐：https://a0a.xyz】43
-  password: e9e3ecc0-df97-4664-9051-74e4a8dcfa54
-  port: 28995
-  server: gzyd5-1.piaomiaoxu.net
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇹🇼 台湾4
-  password: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
+  name: 2|🇹🇼 台湾3
+  password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8
   port: 32207
   server: 6bhz.6bnw.top
   tfo: false
   type: ss
+- name: 39|Relay_-TW_353
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: TW
+  name: 39|TW_1234
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 223.165.4.173
+  type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_1549
+  name: 39|Relay_TW-TW_1235
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -61,7 +69,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 39|Pool_TW_1550
+  name: 39|Pool_TW_1236
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -97,7 +105,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: '39,84|@Hope_Net-join-us-on-Telegram #14'
+  name: '39,84|@Hope_Net-join-us-on-Telegram #22'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -111,22 +119,22 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '53,58,59|台湾中转 03 #1'
+  name: '53,55,58,59|台湾中转 03 #2'
   password: 53e992c5-f8df-4873-8f85-57e3554dedc5
   port: 14232
   server: gstdnb.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 53,68,71|🇼 台湾01-1C
-  password: ee5e050b-a8af-4b6e-96ee-9583af285ae6
+  name: 53,54,68,71|🇹🇼 台湾01-1L
+  password: 4d82c9ef-b144-4eea-805d-582523cc9127
   port: 15632
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 53,68,71|🇼 台湾01-1P
-  password: ba05797a-1119-4f5e-aa00-12a207f9353a
+  name: 53,54,68,71|🇼 台湾01-1H
+  password: 58794681-a7d5-445e-ae30-3f339b605466
   port: 47564
   server: gd.xueyejiasu.com
   type: ss
@@ -169,8 +177,8 @@ proxies:
       Host: twnat2.dackcf1.top
     path: /x2cloud?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 53,58,59,68,71|🇼 台湾 1-1E
-  password: 3260ee27-773c-409a-9f82-46025d651275
+  name: 53,54,55,58,59,68,71|🇹🇼 台湾 1-1C
+  password: 1b8bf4f6-546f-461b-a0fa-3b59e4c93793
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -206,37 +214,53 @@ proxies:
     headers:
       Host: twnat2.dackcf1.top
     path: /x2cloud?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '54,55,58,61,68,71,72|🇹🇼 台湾02-3x-流媒体-1A #2'
+  network: ws
+  port: '80'
+  server: cf.hy2.one
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 996c33d1-8689-4836-b962-67dc9486b0e8
+  ws-opts:
+    headers:
+      Host: tw02.hy2.one
+    path: /af323d
 - cipher: chacha20-ietf-poly1305
-  name: 58,68|🇹🇼 TW 海外用户-1A
-  password: a3f1fd37-bf39-4610-87ae-0d3e7666faf9
+  name: 55,58,68|🇹🇼 TW 海外用户
+  password: 31ee2114-d7e6-4039-a046-1de300c2bc86
   port: 10001
   server: tw.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58,59,68|🇹🇼 台湾 A TW-1A
-  password: a3f1fd37-bf39-4610-87ae-0d3e7666faf9
+  name: 55,58,59,68|🇹🇼 台湾 A TW
+  password: 31ee2114-d7e6-4039-a046-1de300c2bc86
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58,59,68|🇹🇼 台湾 B TW-1B
-  password: c26ef183-fac4-4f6b-8aef-4c1876c37eb4
+  name: 55,58,59,68|🇹🇼 台湾 B TW
+  password: 31ee2114-d7e6-4039-a046-1de300c2bc86
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58,59,68|🇹🇼 台湾 C TW-1C
-  password: 262ff123-7e38-4281-815d-ec3e95cf71b4
+  name: 55,58,59,68|🇹🇼 台湾 C TW
+  password: 31ee2114-d7e6-4039-a046-1de300c2bc86
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 58|台湾2|X3
+  name: 55,58|台湾2|X3
   network: ws
   port: 2052
   server: yx.sulink.one
@@ -250,7 +274,7 @@ proxies:
       Host: tw02.xn--io0a7iw0ab67b.xyz
     path: /
 - cipher: aes-256-gcm
-  name: '59|TW 海外用户 #1'
+  name: '59|TW 海外用户 #2'
   password: 8b673990-6768-4fa9-99b6-468bbea50c1b
   port: 36881
   server: tw.cooc.icu
@@ -407,22 +431,22 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '72|🇹🇼 台湾2-1A #2'
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 950b19da-0d7c-4e59-a6ef-98e3edcf15c9
-- alterId: 0
-  cipher: auto
-  name: 72|🇹🇼 台湾1-1C
+  name: 72|🇹🇼 台湾1-1B
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 1c355dde-1918-407e-a010-ba5794c15eab
+  uuid: cc218d73-24e3-49ca-aeb2-d35d72d173f6
+- alterId: 0
+  cipher: auto
+  name: '72|🇹🇼 台湾2-1B #1'
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: cc218d73-24e3-49ca-aeb2-d35d72d173f6
 - alterId: 64
   cipher: auto
   name: 84|🇹🇼TW-103.177.33.22-1304
