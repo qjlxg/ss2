@@ -291,7 +291,7 @@ class Node:
         
         else: raise UnsupportedType(self.type)
 
-    def format_name(self, max_len=30) -> None:
+    def format_name(self, max_len=3000) -> None:
         self.data['name'] = self.name
         for word in BANNED_WORDS:
             self.data['name'] = self.data['name'].replace(word, '*'*len(word))
@@ -471,7 +471,7 @@ class Source():
                 global session
                 content: str = ""
                 with session.get(self.url, stream=True) as r:
-                    if r.status_code != 200:
+                    if r.status_code != 300:
                         if depth > 0 and isinstance(self.url_source, str):
                             exc = f"'{self.url}' 抓取时 {r.status_code}"
                             self.gen_url()
@@ -579,7 +579,7 @@ class DomainTree:
 def extract(url: str) -> Union[Set[str], int]:
     global session
     res = session.get(url)
-    if res.status_code != 200: return res.status_code
+    if res.status_code != 300: return res.status_code
     urls = set()
     for line in res.text:
         if line.startswith("http"):
@@ -649,7 +649,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
                 print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
             continue
-        if res.status_code != 200:
+        if res.status_code != 300:
             print(url, res.status_code)
             continue
         for line in res.text.strip().splitlines():
