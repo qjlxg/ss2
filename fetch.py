@@ -291,7 +291,7 @@ class Node:
         
         else: raise UnsupportedType(self.type)
 
-    def format_name(self, max_len=3000) -> None:
+    def format_name(self, max_len=30) -> None:
         self.data['name'] = self.name
         for word in BANNED_WORDS:
             self.data['name'] = self.data['name'].replace(word, '*'*len(word))
