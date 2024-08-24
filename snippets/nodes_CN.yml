@@ -222,14 +222,19 @@ proxies:
     headers:
       host: 112.132.212.19
     path: None
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   country: ' CN'
-  name: '41,44|disney_netflix_JP #5'
-  password: b1acd9bb-0925-4585-bb28-f74ca0b29d06
-  port: 33861
-  server: sntp.jp.jscm.as9929.uk
-  type: ss
-  udp: true
+  h2-opts: {}
+  http-opts: {}
+  name: 41| CN_01
+  network: tcp
+  port: 55218
+  server: 103.85.25.134
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
+  ws-path: /
 - cipher: chacha20-ietf
   country: CN
   name: 45|Relay_CN-CN_07

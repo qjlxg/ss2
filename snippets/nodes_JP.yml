@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 1334
-  name: 0,5,7,10,12,16,18,21,23,26,28,31,33,36,38,62,70,71,79|日本 - Chiyoda - NEWALLESNET
-    - 8
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- alterId: 2
-  cipher: auto
-  name: '0,36,38|11|日本3|@ripaojiedian #2'
-  network: tcp
-  port: '10009'
-  server: cnah2.lanyunshi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 2|🇯🇵 日本
@@ -62,9 +34,37 @@ proxies:
   server: 13.230.97.225
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1334
+  name: 5,7,10,12,16,18,21,23,26,28,31,33,36,38,62,70,71,79|日本 - Chiyoda - NEWALLESNET
+    - 8
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 2
+  cipher: auto
+  name: '36,38|11|日本3|@ripaojiedian #1'
+  network: tcp
+  port: '10009'
+  server: cnah2.lanyunshi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - cipher: chacha20-ietf-poly1305
   country: ' JP'
-  name: '39,42,44|disney_JP #2'
+  name: '39,41,42,44|disney_JP #2'
   password: 95597817-57ba-43e9-b853-c9dab67c59ce
   port: 61001
   server: 4.forlive.live
@@ -133,7 +133,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' ZZ'
-  name: 39,41|ChatGPT  ZZ_404
+  name: 39,41|ChatGPT  ZZ_1225
   password: G!yBwPWH3Vao
   port: 809
   server: 185.172.113.182
@@ -147,7 +147,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: ' JP'
-  name: 39,41,42|ChatGPT  JP_300
+  name: 39,42|ChatGPT  JP_300
   password: 328c867b-a9bb-41f2-be42-c7bff2b5f12d
   port: 50000
   server: a003.standard-nodes-chickenfarms.com
@@ -176,7 +176,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇵JP
-  name: 39,40,44,91|🇵JP_544
+  name: 39,40,41,44,91|🇵JP_544
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node1.s.nodelist-airport.com
@@ -234,7 +234,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' ZZ'
-  name: 39,41|ChatGPT  ZZ_973
+  name: 39,41|ChatGPT  ZZ_1085
   password: G!yBwPWH3Vao
   port: 810
   server: 185.172.113.182
@@ -337,7 +337,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' ZZ'
-  name: 39,41|ChatGPT  ZZ_282
+  name: 39,41|ChatGPT  ZZ_872
   password: G!yBwPWH3Vao
   port: 812
   server: 185.172.113.182
@@ -523,7 +523,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 39,41,45,46,89,90|🇺🇸US_45
+  name: 39,41,45,46,89,90|🇺🇸US_48
   network: tcp
   port: 1069
   server: 152.69.197.60
@@ -651,6 +651,14 @@ proxies:
   ws-headers:
     HOST: tls.84.node-for-bigairport.win
   ws-path: /
+- cipher: aes-128-gcm
+  country: ' CN'
+  name: '44|disney_netflix_JP #5'
+  password: b1acd9bb-0925-4585-bb28-f74ca0b29d06
+  port: 33861
+  server: sntp.jp.jscm.as9929.uk
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   country: CN
   delay: 828
