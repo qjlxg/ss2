@@ -240,7 +240,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,37,38,62,63,64,72,73|关注电报https://t.me/mftizi
+  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,35,36,37,38,62,63,64,72,73|关注电报https://t.me/mftizi
     #28'
   network: tcp
   port: '54104'
@@ -1012,7 +1012,7 @@ proxies:
     path: /2024
 - alterId: 0
   cipher: auto
-  name: '6,11,17,22,27,32,37,62,63,64|加拿大(yudou66.com 玉豆免费节点) #9'
+  name: '6,11,17,22,27,32,35,37,62,63,64|加拿大(yudou66.com 玉豆免费节点) #9'
   network: ws
   port: '80'
   server: 66.235.200.0
@@ -1040,7 +1040,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,11,17,22,27,32,37,62,63,64,72|🇺🇸_US_美国 #17'
+  name: '6,11,17,22,27,32,35,37,62,63,64,72|🇺🇸_US_美国 #17'
   network: ws
   port: 8880
   server: russia.com
@@ -6782,7 +6782,7 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 48,81|Relay_ZZ-🇺🇸US_434 |63.00Mb
+  name: 48,81|Relay_🏁ZZ-🇺🇸US_434 |63.00Mb
   network: ws
   port: 2052
   server: 104.16.68.38
@@ -14650,34 +14650,17 @@ proxies:
     path: /0
 - alterId: 0
   cipher: auto
-  country: ' US'
-  h2-opts: {}
-  http-opts: {}
-  name: 52| US_01
+  name: 57|Node [152.70.53.233]
   network: ws
-  port: 443
-  server: 69.50.93.90
-  servername: 69.50.93.90
-  skip-cert-verify: true
-  tls: true
+  port: 11959
+  server: 152.70.53.233
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: 69.50.93.90
-  ws-path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 55|🇺🇸 US_01
-  network: ws
-  port: 443
-  server: 69.50.93.90
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
   ws-opts:
     headers:
-      Host: 69.50.93.90
-    path: /linkvws
+      Host: ''
+    path: /ws-path
 - alterId: 0
   cipher: auto
   name: '57,72|@v2ray24 ▷ Hong Kong 🇭🇰 #2'
@@ -14692,19 +14675,6 @@ proxies:
     headers:
       Host: ''
     path: /hax02
-- alterId: 0
-  cipher: auto
-  name: 57|Node [152.69.206.73]
-  network: ws
-  port: 12794
-  server: 152.69.206.73
-  tls: false
-  type: vmess
-  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-path
 - cipher: aes-256-cfb
   country: CN
   name: 58,81,82|Pool__02
@@ -40266,11 +40236,11 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 91|NL-CF-WARP-1
-  port: 3854
+  port: 8886
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.96.205
+  server: 188.114.98.239
   type: wireguard
   udp: true
 - dns:
@@ -40278,12 +40248,12 @@ proxies:
   - 1.0.0.1
   ip: 172.16.0.2
   mtu: 1280
-  name: 91|US-CF-WARP-2
+  name: 91|NL-CF-WARP-2
   port: 8886
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.192.43
+  server: 188.114.96.28
   type: wireguard
   udp: true
 - dns:
@@ -40296,32 +40266,6 @@ proxies:
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.195.176
-  type: wireguard
-  udp: true
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 91|US-CF-WARP-4
-  port: 8886
-  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.192.20
-  type: wireguard
-  udp: true
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 91|US-CF-WARP-5
-  port: 8886
-  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
   server: 162.159.195.129
   type: wireguard
   udp: true
@@ -40330,8 +40274,47 @@ proxies:
   - 1.0.0.1
   ip: 172.16.0.2
   mtu: 1280
-  name: 91|NL-CF-WARP-6
+  name: 91|NL-CF-WARP-4
   port: 8886
+  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 188.114.98.222
+  type: wireguard
+  udp: true
+- dns:
+  - 1.1.1.1
+  - 1.0.0.1
+  ip: 172.16.0.2
+  mtu: 1280
+  name: 91|NL-CF-WARP-5
+  port: 3854
+  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 188.114.98.68
+  type: wireguard
+  udp: true
+- dns:
+  - 1.1.1.1
+  - 1.0.0.1
+  ip: 172.16.0.2
+  mtu: 1280
+  name: 91|US-CF-WARP-6
+  port: 3854
+  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.243
+  type: wireguard
+  udp: true
+- dns:
+  - 1.1.1.1
+  - 1.0.0.1
+  ip: 172.16.0.2
+  mtu: 1280
+  name: 91|NL-CF-WARP-7
+  port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
@@ -40343,25 +40326,12 @@ proxies:
   - 1.0.0.1
   ip: 172.16.0.2
   mtu: 1280
-  name: 91|US-CF-WARP-7
+  name: 91|NL-CF-WARP-8
   port: 8886
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.192.52
-  type: wireguard
-  udp: true
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 91|NL-CF-WARP-8
-  port: 3854
-  private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 188.114.97.75
+  server: 188.114.98.68
   type: wireguard
   udp: true
 - dns:
@@ -40374,7 +40344,7 @@ proxies:
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.96.78
+  server: 188.114.96.235
   type: wireguard
   udp: true
 - dns:
@@ -40387,7 +40357,7 @@ proxies:
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.97.90
+  server: 188.114.99.244
   type: wireguard
   udp: true
 - alterId: 0
