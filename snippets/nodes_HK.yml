@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,37,38,62,63,72,73|免费梯子https://t.me/mftizi
+  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,38,62,63,64,72,73|免费梯子https://t.me/mftizi
     #41'
   network: tcp
   port: '45020'
@@ -12,7 +12,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,35,36,37,38,62,63,64,72,73|关注电报https://t.me/mftizi
+  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,35,36,38,62,63,64,72,73|关注电报https://t.me/mftizi
     #28'
   network: tcp
   port: '54104'
@@ -21,22 +21,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 2|🇭🇰 香港2
-  password: 355678dc-4015-4d4c-8f4a-69819269dacd
-  port: 26766
-  server: vole.wdy88.com
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇭🇰 香港3
-  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
-  port: 40011
-  server: gg01.6bnw.top
+  name: 2|🇭🇰 香港2
+  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
+  port: 19527
+  server: 6bhz.6bnw.top
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇭🇰 香港3
+  network: ws
+  port: 2052
+  server: 33.6bnw.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 25f6705c-16f0-4c34-b370-5e8e66fa3238
+  ws-opts:
+    headers:
+      Host: akhksm.6bnw.top
+    path: /?ed=2560
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 2|🇭🇰 香港6
@@ -45,20 +53,102 @@ proxies:
   server: zx.1010520.shop
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 2|🇭🇰 香港7
-  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
-  port: 39301
-  server: 6bhz.6bnw.top
+  password: 235dcf76-d202-4730-9e42-d8582646ca98
+  port: 563
+  server: cmrefhk1.exitlag.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇭🇰 香港8
+  network: ws
+  port: 10001
+  server: 62.72.163.54
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58d4a75a-cbae-4742-92fd-bff562422e25
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇦🇺AU
+  h2-opts: {}
+  http-opts: {}
+  name: 47,72,81|Relay_🇺AU-🇺🇸US_37 | 7.33Mb
+  network: ws
+  port: 33678
+  server: 103.192.179.18
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3056f62f-5fac-4767-a9b8-63abc970684d
+  ws-opts:
+    path: /
+- cipher: rc4-md5
+  country: HK
+  name: 47|Relay_HK-HK_1081
+  obfs: http_simple
+  obfs-param: 29590-edE92DcI.download.microsoft.com
+  password: passwd
+  port: 2000
+  protocol: origin
+  server: oshk01.mynode.me
+  type: ssr
+- cipher: chacha20-ietf
+  country: HK
+  name: 47|Relay_HK-HK_1082
+  obfs: plain
+  password: haRBh7
+  port: 2860
+  protocol: auth_aes128_sha1
+  protocol-param: 51591:YR8kgd
+  server: zzcm06.cacbce.com
+  type: ssr
+- cipher: chacha20-ietf
+  country: HK
+  name: 47|Relay_HK-HK_1083
+  obfs: plain
+  password: haRBh7
+  port: 3050
+  protocol: auth_aes128_sha1
+  protocol-param: 51591:YR8kgd
+  server: zzcm06.cacbce.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: HK
+  name: 47,49,58|Pool_HK_61
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 47|Relay_HK-HK_1087
+  network: ws
+  port: 40046
+  server: shhkt.cdn-sgp.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3576aac2-d531-4275-aa60-39498e035dbb
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   country: ' HK'
   h2-opts: {}
   http-opts: {}
-  name: 48,69|🇭🇰HK-103.30.76.172-0755 | 15.0...
+  name: 47,48,69|🇭🇰HK-103.30.76.172-0755 | 15.0...
   network: ws
   port: 33722
   server: 103.30.76.172
@@ -68,12 +158,37 @@ proxies:
   uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 47|HK_1088
+  network: ws
+  port: 12909
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      HOST: 19.lwdh.us
+    path: /
 - cipher: chacha20-ietf-poly1305
   country: ' HK'
-  name: 50| HK_308
+  name: 50| HK_293
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node4.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' HK'
+  name: 50|ChatGPT  HK_294
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50101
+  server: iepl1.forlive.live
   type: ss
 - alterId: 0
   cipher: auto
