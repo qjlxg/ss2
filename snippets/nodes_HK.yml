@@ -68,18 +68,13 @@ proxies:
   uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: ' HK'
-  h2-opts: {}
-  http-opts: {}
-  name: 50|ChatGPT  HK_305
-  network: tcp
-  port: 39589
-  server: line.acetace.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
+  name: 50| HK_308
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 51|HK |  LB-1U
@@ -375,20 +370,6 @@ proxies:
   uuid: 451d0d8d-6e0b-403c-9fab-937a92f211e2
 - alterId: 0
   cipher: auto
-  name: '72|@v2ray24 ▷ Hong Kong 🇭🇰 #2'
-  network: ws
-  port: '80'
-  server: hax.smely.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hax02
-- alterId: 0
-  cipher: auto
   name: 72|@VPNsuPPortFAST🇭🇰
   network: ws
   port: '443'
@@ -575,9 +556,39 @@ proxies:
   tls: false
   type: vmess
   uuid: 508e3be6-3872-4a45-8a5f-0d6e42579eee
+- cipher: rc4-md5
+  name: 78|🇭🇰 香港 IEPL [03] [Std]
+  password: ySG65873U4Psu9Or
+  port: 12250
+  server: iepl.std.7541.0tk8a3a1q4t94dler.com
+  type: ss
+- cipher: rc4-md5
+  name: 78|🇭🇰 香港 IEPL [04] [Std]
+  password: ySG65873U4Psu9Or
+  port: 12250
+  server: iepl.std.8932.0tk8a3a1q4t94dler.com
+  type: ss
+- cipher: rc4-md5
+  name: 78|🇭🇰 香港 IEPL [05] [Pro]
+  password: ySG65873U4Psu9Or
+  port: 12250
+  server: iepl.pro.6312.0tk8a3a1q4t94dler.com
+  type: ss
+- cipher: rc4-md5
+  name: 78|🇭🇰 香港 IEPL [06] [Pro]
+  password: ySG65873U4Psu9Or
+  port: 12250
+  server: iepl.pro.7353.0tk8a3a1q4t94dler.com
+  type: ss
+- cipher: aes-128-gcm
+  name: '78|🇭🇰 香港 #2'
+  password: ba0704cc-fb90-414b-b92b-8685b3e07dfd
+  port: 13801
+  server: nodes.xn--9kqs15ei25a.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 87|HK_AkariNetworks_188.253.112.1...
+  name: 88|HK_AkariNetworks_188.253.112.1...
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50001
   server: 36.158.206.107
@@ -586,7 +597,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #1'
+  name: '88|HK_AkariNetworks_188.253.112.1... #1'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50002
   server: 36.158.206.107
@@ -595,7 +606,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #2'
+  name: '88|HK_AkariNetworks_188.253.112.1... #2'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50101
   server: 36.158.206.107
@@ -604,7 +615,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #3'
+  name: '88|HK_AkariNetworks_188.253.112.1... #3'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50102
   server: 36.158.206.107
@@ -613,7 +624,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #4'
+  name: '88|HK_AkariNetworks_188.253.112.1... #4'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50002
   server: 59.37.144.235
@@ -622,7 +633,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #5'
+  name: '88|HK_AkariNetworks_188.253.112.1... #5'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50102
   server: 59.37.144.235
@@ -631,7 +642,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '87|HK_AkariNetworks_188.253.112.1... #6'
+  name: '88|HK_AkariNetworks_188.253.112.1... #6'
   password: 25cb8cd7-800f-359e-81b5-a12863e2018d
   port: 50102
   server: 59.37.144.236
@@ -640,7 +651,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 87|HongKong_HK_AkileLTD
+  name: 88|HongKong_HK_AkileLTD
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20001
   server: hk1.mhw7e2.online
@@ -649,7 +660,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 93|🇭🇰HK-182.16.1.194-11547
+  name: 94|🇭🇰HK-182.16.1.194-11547
   network: ws
   port: 80
   server: 182.16.1.194
