@@ -2,7 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,5,7,10,12,16,18,21,23,26,28,36,38,62,63,66,67|关注频道https://t.me/mftizi
+  h2-opts: {}
+  http-opts: {}
+  name: '0,2,5,7,10,12,16,18,21,23,26,28,36,38,45,62,63,66,67|关注频道https://t.me/mftizi
     #49'
   network: ws
   port: '2052'
@@ -27,28 +29,28 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: ' TW'
-  name: 40,42,43|ChatGPT  TW_25
+  name: 40,42,43|ChatGPT  TW_24
   password: f50389b3-b3fa-43f6-803a-c04e45b1d565
   port: 30040
   server: hh-01.cdn-sgp.xyz
   type: ss
 - cipher: aes-256-gcm
   country: TW
-  name: 40|TW_1523
+  name: 40|TW_1773
   password: 3576aac2-d531-4275-aa60-39498e035dbb
   port: 30040
   server: 1.175.192.10
   type: ss
 - cipher: aes-256-cfb
   country: TW
-  name: 40|TW_1524
+  name: 40|TW_1774
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 40|Relay_TW-TW_1526
+  name: 40|Relay_TW-TW_1775
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -57,12 +59,26 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 40|Relay_TW-TW_1777
+  network: ws
+  port: 40015
+  server: hh-01.cdn-sgp.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3576aac2-d531-4275-aa60-39498e035dbb
+  ws-opts:
+    path: /
 - alterId: 64
   cipher: auto
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 40|Pool_TW_1527
+  name: 40|Pool_TW_1778
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -95,20 +111,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 40|Relay_TW-TW_1530
-  network: ws
-  port: 40015
-  server: hh-01.cdn-sgp.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
@@ -126,14 +128,21 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 61,64|🇼 台湾01-1A
-  password: c10fd574-80d1-45dc-a547-450ff5892fbd
+  country: ' TW'
+  name: 43|ChatGPT Relay  TW_26
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20005
+  server: deepf.hjkdsak2.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 61,64|🇼 台湾01-1L
+  password: 5cf390f6-21d4-41bc-b5dc-e42665c8e956
   port: 15632
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 61,64|🇼 台湾01-1H
+  name: 61,64|🇼 台湾01-1E
   password: 41243cc0-3aaf-4133-ae94-f1cd3b2970ce
   port: 47564
   server: gd.xueyejiasu.com
@@ -147,8 +156,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 61,64|🇹🇼 台湾 1-1G
-  password: 3d505a6f-099a-42c2-a43b-a9ea27822065
+  name: 61,64|🇼 台湾 1-1D
+  password: 41243cc0-3aaf-4133-ae94-f1cd3b2970ce
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -286,19 +295,19 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 65|🇹🇼 台湾1-1A
+  name: '65|🇹🇼 台湾2-1A #1'
   network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
+  port: '45077'
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
   uuid: f1590e8e-635a-4afc-a956-08401868b59b
 - alterId: 0
   cipher: auto
-  name: 65|🇹🇼 台湾2-1A
+  name: 65|🇹🇼 台湾1-1A
   network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
+  port: '45078'
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
   uuid: f1590e8e-635a-4afc-a956-08401868b59b
