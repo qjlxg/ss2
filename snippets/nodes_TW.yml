@@ -25,15 +25,15 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  country: 🇼TW
-  name: 40,42,43,80|Relay_TW-🇹🇼TW_136 | 3.89Mb
+  country: ' TW'
+  name: 40,42,43|ChatGPT  TW_26
   password: f50389b3-b3fa-43f6-803a-c04e45b1d565
   port: 30040
   server: hh-01.cdn-sgp.xyz
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 40|Relay_TW-TW_2049
+  name: 40|Relay_TW-TW_877
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -47,14 +47,50 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 40|Relay_TW-TW_2051
+  name: 40|Relay_TW-TW_880
   network: ws
   port: 40015
   server: hh-01.cdn-sgp.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 3576aac2-d531-4275-aa60-39498e035dbb
+  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
   ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 40|Pool_TW_879
+  network: ws
+  port: 30001
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.60548529.xyz
+    path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 40,41,62,63,87,98|🆙55@oneclickvpnkeys
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -74,56 +110,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 40|Pool_TW_2053
-  network: ws
-  port: 30001
-  server: 61.220.129.190
-  servername: www.60548529.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.60548529.xyz
-    path: /path/003500111307
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 40,41,63,87,98|🆙55@oneclickvpnkeys
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 61,65|🇼 台湾01-1N
-  password: f5dc7bec-3579-43ca-a1c6-679fe1da334f
-  port: 15632
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 61|🇹🇼 TW 海外用户
-  password: 1763af88-cab8-4dfa-897d-fc2596f98851
-  port: 10001
-  server: tw.cooc.icu
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 61,65|🇼 台湾 1-1H
   password: a74411d2-dcee-49e9-bf06-fa16e7288118
@@ -133,16 +119,23 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 61|🇹🇼 台湾 B TW
-  password: 1763af88-cab8-4dfa-897d-fc2596f98851
+  password: 8c6fb5cb-0fc4-47e9-be1f-e35fc2a4fa9f
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 61|🇹🇼 台湾 A TW
-  password: 1763af88-cab8-4dfa-897d-fc2596f98851
-  port: 35109
-  server: tw1.iepl.cooc.icu
+  name: 61,65|🇼 台湾01-1N
+  password: f5dc7bec-3579-43ca-a1c6-679fe1da334f
+  port: 15632
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 61|🇹🇼 TW 海外用户
+  password: 8c6fb5cb-0fc4-47e9-be1f-e35fc2a4fa9f
+  port: 10001
+  server: tw.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -154,11 +147,36 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 61|🇹🇼 台湾 C TW
-  password: 1763af88-cab8-4dfa-897d-fc2596f98851
+  password: 8c6fb5cb-0fc4-47e9-be1f-e35fc2a4fa9f
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 61|🇹🇼 台湾 A TW
+  password: 8c6fb5cb-0fc4-47e9-be1f-e35fc2a4fa9f
+  port: 35109
+  server: tw1.iepl.cooc.icu
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '62,66|🇹🇼 台湾2-1C #1'
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 4fb37f7e-394b-4275-b244-551a6766dbf0
+- alterId: 0
+  cipher: auto
+  name: '62,66|🇹🇼 台湾1-1B #2'
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: c34192bb-a786-434b-a2fc-198eb9521b63
 - alterId: 0
   cipher: auto
   name: 63|GCP-台湾
@@ -269,24 +287,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: '66|🇹🇼 台湾1-1B #1'
-  network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: c34192bb-a786-434b-a2fc-198eb9521b63
-- alterId: 0
-  cipher: auto
-  name: 66|🇹🇼 台湾2-1C
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 4fb37f7e-394b-4275-b244-551a6766dbf0
 - alterId: 64
   cipher: auto
   name: 88|🇹🇼TW-103.177.33.22-1304
