@@ -1,7 +1,14 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 115|🇹🇭 泰国 TH BIZ
+  password: 19cc80c9-e206-4a10-bb0d-d202488cd37b
+  port: 35613
+  server: th.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 15|🇹🇭泰国01
+  name: 121|15|🇹🇭泰国01
   network: tcp
   port: '47222'
   server: th01.zzxs.one
@@ -10,62 +17,28 @@ proxies:
   uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
 - alterId: 0
   cipher: auto
-  name: 15|🇹🇭泰国02
+  name: 121|15|🇹🇭泰国02
   network: tcp
   port: '47225'
   server: th02.zzxs.one
   tls: false
   type: vmess
   uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
-- cipher: aes-128-ctr
-  name: 23|泰国-专线
-  obfs: tls1.2_ticket_auth
-  obfs-param: none
-  password: MunCloud
-  port: 62601
-  protocol: auth_aes128_md5
-  protocol-param: 24050:l77jzQ16Ya
-  server: dashijie.9527123.cc
-  type: ssr
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 47|🇹🇭 特殊｜泰国-A [1.0][gRPC]
-  network: grpc
-  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
-  port: 443
-  server: zhilian-th-a.cmydns2.com
-  sni: chimuni.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 52|🇹🇭 泰国 | V1 | 01
+  name: 121|52|🇹🇭 泰国 | V1 | 01
   network: tcp
   port: 11906
   server: bg.rscazvdbfpbyzqdvpylm.com
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- cipher: chacha20-ietf
-  name: 119|🇹🇭 泰国❤TH|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 20120
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 116.129.254.64
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 120|[VMess] 🇹🇭 泰国|TG@p2psharing
+  name: 121|120|[VMess] 🇹🇭 泰国|TG@p2psharin...
   network: ws
   port: 51527
   server: 120.233.24.222
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 37528bbb-59ae-3934-bb99-516a2c8be57b
@@ -73,69 +46,14 @@ proxies:
     headers:
       Host: telegram.channel.p2psharing
     path: /564dfa20/
-- cipher: aes-128-gcm
-  name: '133,153|🇹🇭 泰国 - 01 | 1.0x | NF #1'
-  password: 06OtiXalzeauqPNV
-  port: 21700
-  server: data.cu-slb-hd.xyz
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 133|🇹🇭 泰国-Netflix专线
+  name: 121|133|🇹🇭 泰国-Netflix专线
   network: ws
   port: 37111
   server: 122.195.12.36
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
   ws-opts:
     path: /qwe123321ewq
-- cipher: chacha20-ietf
-  name: 133,153|🇹🇭 泰国[x0.5|NF|SSR]@240Mbps
-  obfs: plain
-  obfs-param: 2f51e42274.wns.microsoft.com
-  password: fnf.xyz
-  port: 25041
-  protocol: auth_aes128_sha1
-  protocol-param: 42274:oSRZAa
-  server: csm-a03.stream.fnode.top
-  type: ssr
-- cipher: aes-256-gcm
-  name: 147|🇹🇭 泰国 | Thailand-01 ✩
-  password: 0962143a-f5ad-4565-b84e-89d9fb00324f
-  port: 52408
-  server: baifuu.cnn.bart.strawsbkeyrry.site
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 159|🇹🇭 泰国 A01 IDC 2x
-  password: 5c5ed740-a6cd-434b-8044-5307d6cdb9a6
-  port: 37129
-  server: ap-g.hinetwork.tw
-  type: ss
-- cipher: aes-128-gcm
-  name: 160|🇹🇭 Manifold-泰国01-标准
-  password: aa2cs/1a
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: 10012
-  server: 231103level4.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 181|🇹🇭 泰国 01
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22013
-  server: i.node1link.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 182|🇹🇭 H60 泰国
-  obfs: plain
-  obfs-param: bilivideo.com
-  password: GhQrDS
-  port: 39803
-  protocol: auth_aes128_sha1
-  protocol-param: 171340:NLAB1H
-  server: sp.0o0o0o0o0o0.tokyo
-  type: ssr

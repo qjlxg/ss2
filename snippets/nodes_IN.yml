@@ -1,20 +1,61 @@
 proxies:
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 47|🇮🇳 特殊｜印度-A [2.0][gRPC]
-  network: grpc
-  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
-  port: 443
-  server: zhilian-in-a.cmydns2.com
-  sni: chimuni.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 52|🇮🇳 印度 | V1 | 01
+  name: '116,120|🇮🇳 印度2-1D #1'
+  network: tcp
+  port: '45073'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 33ceff8a-cd91-46b6-a758-b2a5be53a58b
+- alterId: 0
+  cipher: auto
+  name: '116,120|🇮🇳 印度1-1C #1'
+  network: tcp
+  port: '45074'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 4fb37f7e-394b-4275-b244-551a6766dbf0
+- alterId: 0
+  cipher: auto
+  name: 117|印度 1
+  network: tcp
+  port: 19882
+  server: cm1-xg.go001.buzz
+  tls: false
+  type: vmess
+  uuid: deae1bc1-5035-362d-900e-523b5b92cca2
+- alterId: 0
+  cipher: auto
+  name: 117|印度3-海得拉巴 | 0.8x
+  network: ws
+  port: 2082
+  server: ydbb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 3a40c353-90f9-37a6-9f7b-68afb9cc13e0
+  ws-opts:
+    headers:
+      Host: ydb.76898102.xyz
+    path: /buiaebd
+- alterId: 0
+  cipher: auto
+  name: 117|🇮🇳 @vpn_irane
+  network: ws
+  port: '8081'
+  server: 165.232.181.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d462296-03e2-4c80-c8ee-8405213ff726
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 121|52|🇮🇳 印度 | V1 | 01
   network: tcp
   port: 11901
   server: bg.rscazvdbfpbyzqdvpylm.com
@@ -23,7 +64,7 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
-  name: '82,205|印度尼西亚 V2CROSS.COM #1'
+  name: '121|82,205|印度尼西亚 V2CROSS.COM #1'
   network: ws
   port: '80'
   server: id1.ubaistore.my.id
@@ -37,7 +78,7 @@ proxies:
     path: /vmessws
 - alterId: 0
   cipher: auto
-  name: '88,89|印度/رایگان - هند #1'
+  name: '121|88,89|印度/رایگان - هند #1'
   network: ws
   port: '8080'
   server: cfd.ipa.monster
@@ -50,11 +91,10 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: '117,121|🇮🇳 印度|TG@p2psharing #1'
+  name: '121|117,121|🇮🇳 印度|TG@p2psharing #1'
   network: ws
   port: 64965
   server: 36.139.115.13
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5cc53db3-4d0f-36c0-9d94-2bde0bc4cf0e
@@ -62,43 +102,12 @@ proxies:
     headers:
       Host: telegram.channel.p2psharing
     path: /
-- cipher: chacha20-ietf
-  name: 119|🇮🇳 印度❤IN|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 20116
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 120.241.236.205
-  type: ssr
-- cipher: chacha20-ietf
-  name: 119|🇮🇳 印度❤️IN➤2|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 20017
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 116.129.254.64
-  type: ssr
-- cipher: chacha20-ietf
-  name: 119|🇮🇳 印度❤️IN➤3|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 20118
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 120.241.236.205
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 120|[VMess] 🇮🇳 印度|TG@p2psharing
+  name: 121|120|[VMess] 🇮🇳 印度|TG@p2psharin...
   network: ws
   port: 51524
   server: 120.233.24.222
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 37528bbb-59ae-3934-bb99-516a2c8be57b
@@ -108,7 +117,7 @@ proxies:
     path: /564dfa20/
 - alterId: 0
   cipher: auto
-  name: 123|V2-印度01 中继A 1.7x
+  name: 121|123|V2-印度01 中继A 1.7x
   network: ws
   port: '64051'
   server: in01.my1188.org
@@ -122,7 +131,7 @@ proxies:
     path: /hls
 - alterId: 0
   cipher: auto
-  name: 123|V2-印度01 中继B 1.7x
+  name: 121|123|V2-印度01 中继B 1.7x
   network: ws
   port: '64051'
   server: in02.my1188.org
@@ -136,7 +145,7 @@ proxies:
     path: /hls
 - alterId: 0
   cipher: auto
-  name: 123|V2-印度01 中继C 1.7x
+  name: 121|123|V2-印度01 中继C 1.7x
   network: ws
   port: '64051'
   server: in03.my1188.org
@@ -150,7 +159,7 @@ proxies:
     path: /hls
 - alterId: 0
   cipher: auto
-  name: 123|V2-印度01 中继D 1.7x
+  name: 121|123|V2-印度01 中继D 1.7x
   network: ws
   port: '64051'
   server: in04.my1188.org
@@ -164,7 +173,7 @@ proxies:
     path: /hls
 - alterId: 0
   cipher: auto
-  name: 123|V2-印度01 中继E 1.7x
+  name: 121|123|V2-印度01 中继E 1.7x
   network: ws
   port: '64051'
   server: in05.my1188.org
@@ -178,81 +187,60 @@ proxies:
     path: /hls
 - alterId: 0
   cipher: auto
-  name: '126|V2-印度01 中继A 1.7x #1'
+  name: '121|126|V2-印度01 中继A 1.7x #1'
   network: ws
   port: 64051
   server: in01.my1188.org
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-  ws-headers:
-    Host: in01.my1188.org
-  ws-path: /hls
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '126|V2-印度01 中继B 1.7x #1'
+  name: '121|126|V2-印度01 中继B 1.7x #1'
   network: ws
   port: 64051
   server: in02.my1188.org
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-  ws-headers:
-    Host: in02.my1188.org
-  ws-path: /hls
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '126|V2-印度01 中继C 1.7x #1'
+  name: '121|126|V2-印度01 中继C 1.7x #1'
   network: ws
   port: 64051
   server: in03.my1188.org
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-  ws-headers:
-    Host: in03.my1188.org
-  ws-path: /hls
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '126|V2-印度01 中继D 1.7x #1'
+  name: '121|126|V2-印度01 中继D 1.7x #1'
   network: ws
   port: 64051
   server: in04.my1188.org
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-  ws-headers:
-    Host: in04.my1188.org
-  ws-path: /hls
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '126|V2-印度01 中继E 1.7x #1'
+  name: '121|126|V2-印度01 中继E 1.7x #1'
   network: ws
   port: 64051
   server: in05.my1188.org
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
-  ws-headers:
-    Host: in05.my1188.org
-  ws-path: /hls
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 131|🇮🇳 印度孟买 01
+  name: 121|131|🇮🇳 印度孟买 01
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 826507c2-65ec-42fe-add4-419c571017bd
@@ -262,11 +250,10 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: 133,153|🇮🇳 印度 | ✨全流媒体
+  name: 121|133,153|🇮🇳 印度 | ✨全流媒体
   network: ws
   port: 42601
   server: 120.238.118.241
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
@@ -274,98 +261,21 @@ proxies:
     path: /qwe123321ewq
 - alterId: 0
   cipher: auto
-  name: 133|🇮🇳 印度-Netflix专线
+  name: 121|133|🇮🇳 印度-Netflix专线
   network: ws
   port: 37109
   server: 122.195.12.36
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
   ws-opts:
     path: /qwe123321ewq
-- cipher: chacha20-ietf
-  name: 133,153|🇮🇳 印度Linode1[x0.75|SSR]@1Gbps
-  obfs: plain
-  obfs-param: 2f51e42274.wns.microsoft.com
-  password: fnf.xyz
-  port: 10501
-  protocol: auth_aes128_sha1
-  protocol-param: 42274:oSRZAa
-  server: csm-a03.stream.fnode.top
-  type: ssr
-- cipher: chacha20-ietf
-  name: 133,153|🇮🇩 印度尼西亚PT[x0.5|NF|SSR]@80Mbps
-  obfs: plain
-  obfs-param: 2f51e42274.wns.microsoft.com
-  password: fnf.xyz
-  port: 25033
-  protocol: auth_aes128_sha1
-  protocol-param: 42274:oSRZAa
-  server: csm-a03.stream.fnode.top
-  type: ssr
-- cipher: aes-128-gcm
-  name: 144|🇮🇳 印度 India
-  password: 84c3b283-664d-4c0c-9afb-19fd33a54165
-  port: 49102
-  server: lmlmlm.ajjpss.lol
-  type: ss
-- cipher: aes-256-gcm
-  name: 147|🇮🇳 印度 | India- 01 ✩
-  password: 0962143a-f5ad-4565-b84e-89d9fb00324f
-  port: 52414
-  server: baifuu.cnn.bart.strawsbkeyrry.site
-  type: ss
-- cipher: aes-256-gcm
-  name: 147|🇮🇳 印度 | India- 02 ✩
-  password: 0962143a-f5ad-4565-b84e-89d9fb00324f
-  port: 52415
-  server: baifuu.cnn.bart.strawsbkeyrry.site
-  type: ss
-- grpc-opts:
-    grpc-service-name: mm_grpc
-  name: '153|🇮🇳 特殊｜印度-A [2.0][gRPC] #1'
-  network: grpc
-  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
-  port: 443
-  server: zhilian-in-a.cmydns2.com
-  skip-cert-verify: false
-  sni: paydiu.com
-  tls: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 159|🇮🇳 印度 A01 IDC 1x
-  password: 5c5ed740-a6cd-434b-8044-5307d6cdb9a6
-  port: 37133
-  server: ap-c.hinetwork.tw
-  type: ss
-- cipher: aes-128-gcm
-  name: 160|🇮🇩 Manifold-印度尼西亚01-标准
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: 2209
-  server: 231103level4.unclemanco.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 160|🇮🇳 Web 印度I-通用
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: 816
-  server: 231103level1.unclemanco.com
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 179|[🇮🇳] 星河打杂的03 x1
+  name: 121|179|[🇮🇳] 星河打杂的03 x1
   network: ws
   port: 2053
   server: v15.583181.xyz
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
@@ -373,65 +283,9 @@ proxies:
     headers:
       Host: v15.583181.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 180|🇮🇳 IN印度-优化1
-  password: 9d35ca67-16ac-4ea5-90c5-6f70e4be51c9
-  port: 27203
-  server: fs.xianyuwangzhi.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 180|🇮🇳 IN印度-优化2
-  password: 9d35ca67-16ac-4ea5-90c5-6f70e4be51c9
-  port: 27203
-  server: jh.xianyuwangzhi.top
-  type: ss
-- cipher: chacha20-ietf
-  name: 182|🇮🇳 H60 印度
-  obfs: plain
-  obfs-param: bilivideo.com
-  password: GhQrDS
-  port: 39326
-  protocol: auth_aes128_sha1
-  protocol-param: 171340:NLAB1H
-  server: data.bilibili.com.v3-web.douyinvod.com.80fb9e6a.douyinvod.click
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 189|🇮🇳 印度-优化2
-  password: 6d2fcbf7-a00a-4e0e-a875-8a35854fa550
-  port: 26901
-  server: ydyh1.nanbeicloud.top
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 197|12|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 197|12|github.com/freefq - 印度  3
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 197|12|github.com/freefq - 印度  10
+  name: '121|197|12|github.com/freefq - 印度 ... #2'
   network: ws
   port: 443
   server: 202.78.162.5
@@ -443,27 +297,9 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /@forwardv2ray
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇮🇳 vip1 印度-01
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 45852
-  server: n00001.bzdqsmzngpyyng.sbs
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇮🇳 vip1 印度-02
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 45852
-  server: n00003.bzdqsmzngpyyng.sbs
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇮🇳 vip1 印度-03
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 45852
-  server: n00005.bzdqsmzngpyyng.sbs
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 240|🇮🇳 印度丨孟买
+  name: 121|240|🇮🇳 印度丨孟买
   network: tcp
   port: '62002'
   server: zz.zztannel.com
@@ -471,3 +307,2299 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_16 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_21 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.21
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_23 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_60 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_61 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_70 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_82 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_89 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_182 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_238 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_14 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_7 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_11 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_12 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_86 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_100 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_101 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.101
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_107 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_108 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_116 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_127 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_159 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.159
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_187 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.187
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_200 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.200
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_202 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_211 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_222 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_223 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.223
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_234 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_0 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.0
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_1 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_2 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.2
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_3 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_4 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.4
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_6 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_8 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_10 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_15 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_19 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_22 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_24 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_25 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_26 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_32 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_33 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_34 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_35 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_37 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_38 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_40 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_42 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_43 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_44 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_45 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_46 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_47 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_48 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_49 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_50 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_51 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_53 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_55 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_57 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_58 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_69 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_71 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_73 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_74 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_75 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_76 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_79 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_81 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.81
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_85 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_87 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_88 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_90 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_91 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.91
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_93 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_98 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_99 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_104 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_105 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_106 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_111 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_112 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_113 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_114 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_115 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.115
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_117 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_118 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_119 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_120 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_121 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.121
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_129 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.129
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_130 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_131 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_132 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_133 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_134 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.134
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_137 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_138 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_140 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_141 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_143 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_145 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_147 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_148 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.148
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_151 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_154 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_156 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_161 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_163 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_166 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_167 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_171 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_177 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_178 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_180 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_183 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_184 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_186 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_189 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_190 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_198 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_199 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.199
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_204 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.204
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_205 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_206 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_207 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_208 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_209 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_212 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_214 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_215 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_216 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_217 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.217
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_218 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_220 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_221 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_224 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.224
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_227 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_228 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.228
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_229 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_232 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_233 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_235 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_237 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_239 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_241 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_243 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_246 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_249 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.249
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_250 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_254 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.254
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_124 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.124
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_125 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.125
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_146 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_196 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_188 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_219 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_226 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_240 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_242 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '1124,1125|🇮🇳IN_248 @WangCai_8 #1'
+  network: ws
+  port: '80'
+  server: 104.19.52.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: in.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8

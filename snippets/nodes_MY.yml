@@ -1,7 +1,14 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 115|🇲🇾 马来西亚 MY | BIZ
+  password: 19cc80c9-e206-4a10-bb0d-d202488cd37b
+  port: 35603
+  server: mas.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 15|🇲🇾马来西亚01
+  name: 121|15|🇲🇾马来西亚01
   network: tcp
   port: '47155'
   server: my01.zzxs.one
@@ -10,50 +17,28 @@ proxies:
   uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
 - alterId: 0
   cipher: auto
-  name: 15|🇲🇾马来西亚02
+  name: 121|15|🇲🇾马来西亚02
   network: tcp
   port: '47158'
   server: my02.zzxs.one
   tls: false
   type: vmess
   uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
-- cipher: aes-128-ctr
-  name: 23|马来西亚-专线
-  obfs: tls1.2_ticket_auth
-  obfs-param: none
-  password: MunCloud
-  port: 62603
-  protocol: auth_aes128_md5
-  protocol-param: 24050:l77jzQ16Ya
-  server: dashijie.9527123.cc
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 52|🇲🇾 马来西亚 | V1 | 01
+  name: 121|52|🇲🇾 马来西亚 | V1 | 01
   network: tcp
   port: 13994
   server: bg.rscazvdbfpbyzqdvpylm.com
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- cipher: aes-256-cfb
-  name: 80|【L】马来西亚  VIP 1 - TMNet
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32000
-  protocol: auth_aes128_sha1
-  protocol-param: 428994:8fDXQ1
-  server: s101.boom.party
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '117,121|🇲🇾 马来西亚|TG@p2psharing #1'
+  name: 121|117,121|🇲🇾 马来西亚|TG@p2psharing ...
   network: ws
   port: 23582
   server: 36.139.115.13
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5cc53db3-4d0f-36c0-9d94-2bde0bc4cf0e
@@ -61,105 +46,12 @@ proxies:
     headers:
       Host: telegram.channel.p2psharing
     path: /
-- cipher: chacha20-ietf
-  name: 119|🇲🇾 马来西亚❤️MA|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 30222
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 116.129.254.64
-  type: ssr
-- cipher: chacha20-ietf
-  name: 119|🇲🇾 马来西亚❤️MA02|TG@p2psharing
-  obfs: http_simple
-  obfs-param: telegram.channel.p2psharing
-  password: download.microso
-  port: 30223
-  protocol: auth_aes128_sha1
-  protocol-param: 9892:W1QZ48
-  server: 120.241.236.205
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 125|🇲🇾 马来西亚01|高速EIP
-  password: 4ac6cd19-190a-4468-a0f8-04d888585f65
-  port: 44047
-  server: js.eip-cm.hongxing.pro
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 132|🇲🇾 马来西亚01IEPL①
-  password: a547892e-5ffa-491e-9f58-b57bbd149378
-  port: 40025
-  server: 120.241.42.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 132|🇲🇾 马来西亚01|IEPL②
-  password: a547892e-5ffa-491e-9f58-b57bbd149378
-  port: 41125
-  server: 120.241.42.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 132|🇲🇾 马来西亚01|IEPL③
-  password: a547892e-5ffa-491e-9f58-b57bbd149378
-  port: 41025
-  server: 120.241.42.218
-  type: ss
-- cipher: aes-128-gcm
-  name: "133,153|\U0001F1F2\U0001F1FE 马来西亚 • 01 | 1.0x | NF\t #1"
-  password: 06OtiXalzeauqPNV
-  port: 52369
-  server: updates.abcjsd.site
-  type: ss
-- cipher: chacha20-ietf
-  name: 133,153|🇲🇾 马来西亚TM1[x0.75|NF|SSR]@1Gbps
-  obfs: plain
-  obfs-param: 2f51e42274.wns.microsoft.com
-  password: fnf.xyz
-  port: 25051
-  protocol: auth_aes128_sha1
-  protocol-param: 42274:oSRZAa
-  server: csm-a03.stream.fnode.top
-  type: ssr
-- cipher: aes-256-gcm
-  name: 135|🇲🇾 Malaysia
-  password: d00888fc-e8f8-4503-bf86-4c77c99ea7a5
-  port: 44235
-  server: curcoyn.sfrae.net
-  type: ss
-- cipher: aes-128-gcm
-  name: 144|🇲🇾 马来西亚 Malaysia
-  password: 84c3b283-664d-4c0c-9afb-19fd33a54165
-  port: 49109
-  server: lmlmlm.ajjpss.lol
-  type: ss
-- cipher: aes-128-gcm
-  name: 160|🇲🇾 Manifold-马来西亚01-原生
-  password: dajkdkjda&dj23gsa
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: 36593
-  server: 231103level4.unclemanco.com
-  type: ss
-- cipher: chacha20-ietf
-  name: 165|🇲🇾 V4-马来西亚|GPT
-  obfs: plain
-  obfs-param: c6eec1637.microsoft.com
-  password: uEKj1A
-  port: 45510
-  protocol: auth_aes128_sha1
-  protocol-param: 1637:XIA9Fm
-  server: gz3.ddnsjj.xyz
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 165|🇲🇾 V4-马来西亚|GPT|V2RAY
+  name: 121|165|🇲🇾 V4-马来西亚|GPT|V2RAY
   network: ws
   port: 45511
   server: gz3.ddnsjj.xyz
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8086f571-7ee4-37d7-af75-249e0ffdf437
@@ -167,71 +59,3 @@ proxies:
     headers:
       Host: cmihk.bilibili.com
     path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
-- cipher: aes-128-gcm
-  name: 181|🇲🇾 马来西亚 01
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22004
-  server: ens.node1link.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 181|🇲🇾 马来西亚 02
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22005
-  server: ens.node1link.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 181|🇲🇾 马来西亚 03
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22006
-  server: ens.node1link.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 181|🇲🇾 马来西亚 04
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22007
-  server: ens.node1link.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 181|🇲🇾 马来西亚 05
-  password: ab277b37-8124-44fc-852c-13ce97cf49aa
-  port: 22008
-  server: ens.node1link.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 182|🇲🇾 D50 马来西亚
-  obfs: plain
-  obfs-param: bilivideo.com
-  password: GhQrDS
-  port: 39378
-  protocol: auth_aes128_sha1
-  protocol-param: 171340:NLAB1H
-  server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click
-  type: ssr
-- cipher: chacha20-ietf
-  name: 182|🇲🇾 D51 马来西亚
-  obfs: plain
-  obfs-param: bilivideo.com
-  password: GhQrDS
-  port: 39342
-  protocol: auth_aes128_sha1
-  protocol-param: 171340:NLAB1H
-  server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇲🇾 vip1 马来西亚-01
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 25881
-  server: n00001.bzdqsmzngpyyng.sbs
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇲🇾 vip1 马来西亚-02
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 25881
-  server: n00003.bzdqsmzngpyyng.sbs
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 208|🇲🇾 vip1 马来西亚-03
-  password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
-  port: 25881
-  server: n00005.bzdqsmzngpyyng.sbs
-  type: ss
