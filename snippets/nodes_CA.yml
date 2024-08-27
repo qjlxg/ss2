@@ -1,10 +1,24 @@
 proxies:
 - cipher: aes-256-gcm
   country: CA
-  name: 3|CA_50
+  name: 3|CA_48
   password: 7gaTTlW73G
   port: 49602
   server: 51.222.157.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CA
+  name: 3|CA_49
+  password: yVa180IrfXMNC6ziv0BHfq
+  port: 65305
+  server: 81.19.140.31
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CA
+  name: 3|Relay_CA-CA_50
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: CA
@@ -13,170 +27,6 @@ proxies:
   port: 80
   server: 142.4.216.225
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 3|CA_52
-  password: yVa180IrfXMNC6ziv0BHfq
-  port: 65305
-  server: 81.19.140.31
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 3|Relay_CA-CA_53
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 3|CA_54
-  network: http
-  port: 3389
-  server: 178.128.237.6
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 3|CA_55
-  network: ws
-  port: 443
-  server: 134.195.198.61
-  servername: novia.makeup
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: novia.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 3|Relay_CA-CA_56
-  network: ws
-  port: 443
-  server: 142.724064.xyz
-  servername: 142.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
-  ws-opts:
-    headers:
-      HOST: 142.724064.xyz
-    path: /pttnvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 3|CA_58
-  network: tcp
-  port: 22324
-  server: 23.162.200.182
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: '3,199,209|🇨🇦CA-23.162.200.227-1989 #1'
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: '3,199,209|🇨🇦CA-158.51.121.36-3173 #1'
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 3|CA_64
-  network: ws
-  port: 443
-  server: 23.162.200.94
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 3,64,217|CA_@JUZIBAIPIAO_94
-  network: ws
-  port: 443
-  server: 145.724064.xyz
-  servername: 145.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
-  ws-opts:
-    headers:
-      host: 145.724064.xyz
-    path: /zrqrvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 3|CA_67
-  network: http
-  port: 3389
-  server: 142.93.144.99
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   country: CA
@@ -200,7 +50,19 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 3|CA_69
+  name: 3|CA_53
+  network: tcp
+  port: 22324
+  server: 23.162.200.182
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 3|CA_54
   network: ws
   port: 443
   server: 134.195.198.147
@@ -218,7 +80,127 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 3|CA_70
+  name: 3|CA_55
+  network: ws
+  port: 443
+  server: 134.195.198.61
+  servername: novia.makeup
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: novia.makeup
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: '3,199,209|🇨🇦CA-23.162.200.227-1989 #1'
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 3|Relay_CA-CA_57
+  network: ws
+  port: 443
+  server: 142.724064.xyz
+  servername: 142.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
+  ws-opts:
+    headers:
+      HOST: 142.724064.xyz
+    path: /pttnvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 3,64,217|CA_@JUZIBAIPIAO_94
+  network: ws
+  port: 443
+  server: 145.724064.xyz
+  servername: 145.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
+  ws-opts:
+    headers:
+      host: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: '3,199,209|🇨🇦CA-158.51.121.36-3173 #1'
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 3|CA_62
+  network: http
+  port: 3389
+  server: 142.93.144.99
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 3|CA_63
+  network: http
+  port: 3389
+  server: 178.128.237.6
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 3|CA_64
   network: ws
   port: 80
   server: 23.227.38.145
@@ -232,23 +214,41 @@ proxies:
     path: /vmess#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro
 - alterId: 0
   cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 3|CA_66
+  network: ws
+  port: 443
+  server: 23.162.200.94
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   country: ????US
   grpc-opts:
     grpc-service-name: 12306
   h2-opts: {}
   http-opts: {}
-  name: 美国33
+  name: V3-PRO 香港HKT04 | 8x 原生IP
   network: grpc
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10824
-  server: 183.236.51.2
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 3203
+  server: pro01.dns202405.net
   servername: www.zitian.cn
   skip-cert-verify: true
   sni: cdn.alibaba.com
   tfo: false
   tls: true
-  type: trojan
+  type: vmess
   udp: true
   uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
   ws-opts: {}
@@ -593,11 +593,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34,35,55,72,84,86,92,196,199,210|None vmess 899
+  client-fingerprint: chrome
+  name: 34,35,55,72,84,86,92,195,196,197,199,210|None vmess 899
   network: ws
   port: 2086
   server: singapore.com
   servername: ip1.1789034.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   udp: true
@@ -904,11 +907,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34,35,55,72,84,86,92,193,196,210|None vmess 894
+  client-fingerprint: chrome
+  name: 34,35,55,72,84,86,92,193,195,196,197,210|None vmess 894
   network: ws
   port: 2086
   server: icook.tw
   servername: ip1.1789034.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   udp: true
@@ -1823,7 +1829,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 34,35,67,82,84,86,92,195,196,197,199,205,209,210|None vmess 33
+  name: 34,35,55,67,82,84,86,92,195,196,197,199,205,209,210|None vmess 33
   network: ws
   port: 2086
   server: 104.16.148.244
@@ -1840,7 +1846,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '34,84,92,196|加拿大 191 #3'
+  name: '34,55,84,92,196|加拿大 191 #4'
   network: ws
   port: 80
   server: jx.jixingnetwork.sbs
@@ -1854,7 +1860,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '34,84,92,196|加拿大 192 #3'
+  name: '34,55,84,92,196|加拿大 192 #4'
   network: ws
   port: 2052
   server: jx.jixingnetwork.sbs
@@ -1868,7 +1874,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34,84,92,196,200|RELAY-172.67.219.194-0525 | 27...
+  name: 34,55,84,92,196,200|RELAY-172.67.219.194-0525 | 27...
   network: ws
   port: 443
   server: denc36.xtooltech.cfd
@@ -1978,16 +1984,14 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: '35,67,82,195,197,199,205|美国 CloudFlare公司CDN节点(shopify) #6'
+  name: '35,67,82,199,205|美国 CloudFlare公司CDN节点(shopify) #6'
   network: ws
   port: '2086'
   server: 23.227.38.6
   servername: ''
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   udp: true
@@ -2240,6 +2244,23 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '81,204|CA??SSRSUB_-1575484830 #1'
+  network: ws
+  port: 2095
+  server: 104.19.45.70
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
   delay: 1225
   name: '81,82,204,205|美国 CloudFlare节点 #401'
   network: ws
@@ -2381,40 +2402,6 @@ proxies:
     headers:
       HOST: oiictw.yydsii.com
     path: /?ed=2048&Telegram???? @WangCai2
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '81,204|CA??SSRSUB_826561486 #1'
-  network: ws
-  port: 2095
-  server: 104.19.45.146
-  servername: onea.flha.ru
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      HOST: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '81,204|CA??SSRSUB_-1934330841 #1'
-  network: ws
-  port: 2095
-  server: 104.19.45.48
-  servername: onea.flha.ru
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      HOST: onea.flha.ru
-    path: /
 - alterId: 0
   cipher: auto
   country: ??ZZ
@@ -3429,6 +3416,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 09fb03a6-5e49-4a59-e268-dbd1720f5eb1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 193|🇨🇦CA(AzadNet.t.me)_010
+  network: ws
+  port: '50613'
+  server: 108.181.200.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 09e81eaa-d298-432c-e7b6-17add32d14fc
   ws-opts:
     headers:
       Host: ''
