@@ -14,19 +14,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 58|🇩🇪 德国2
-  network: ws
-  port: '80'
-  server: de02s.thomasina.buzz
-  tls: false
-  type: vmess
-  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
-  ws-opts:
-    headers:
-      Host: de02.thomasina.buzz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 58|🇩🇪 德国3
   network: ws
   port: '80'
@@ -138,45 +125,16 @@ proxies:
   tls: false
   type: vmess
   uuid: f5daaaea-8f52-4b8b-a1da-2a2005bccd13
-- alterId: 0
-  cipher: auto
-  name: 348|do德国1-解锁
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: dodg.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 348|do德国2-解锁
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: dodg.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 348|do德国3-解锁
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: dodg.chinayyds.xyz
-    path: /?ed=2048
+- cipher: aes-128-ctr
+  name: 202|德国-专线
+  obfs: tls1.2_ticket_auth
+  obfs-param: none
+  password: MunCloud
+  port: 62551
+  protocol: auth_aes128_md5
+  protocol-param: 24050:l77jzQ16Ya
+  server: dashijie.9527123.cc
+  type: ssr
 - alpn:
   - h2
   grpc-opts:

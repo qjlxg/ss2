@@ -1,14 +1,21 @@
 proxies:
 - cipher: aes-256-gcm
   country: TW
-  name: 3|Relay_TW-TW_876
-  password: 3576aac2-d531-4275-aa60-39498e035dbb
+  name: 3|Relay_TW-TW_825
+  password: f50389b3-b3fa-43f6-803a-c04e45b1d565
   port: 30040
   server: hh-01.cdn-sgp.xyz
   type: ss
+- cipher: aes-256-cfb
+  country: TW
+  name: 3|TW_826
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 223.165.4.173
+  type: ss
 - cipher: rc4-md5
   country: TW
-  name: 3|Relay_TW-TW_877
+  name: 3|Relay_TW-TW_827
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -22,13 +29,28 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 3|Relay_TW-TW_880
+  name: 3|Relay_TW-TW_831
   network: ws
   port: 40015
   server: hh-01.cdn-sgp.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  uuid: 3576aac2-d531-4275-aa60-39498e035dbb
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 3|TW_829
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
 - alterId: 64
@@ -36,7 +58,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 3|Pool_TW_879
+  name: 3|Pool_TW_830
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -49,35 +71,6 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 3|TW_881
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 3|TW_882
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 113|台湾01|IEPL
@@ -204,6 +197,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 0656313e-e3da-4c9a-8002-4fcb09702bef
+- cipher: aes-128-ctr
+  name: 202|台湾01-专线
+  obfs: tls1.2_ticket_auth
+  obfs-param: none
+  password: MunCloud
+  port: 50105
+  protocol: auth_aes128_md5
+  protocol-param: 24050:l77jzQ16Ya
+  server: dashijie.9527123.cc
+  type: ssr
+- cipher: aes-128-ctr
+  name: 202|台湾02-专线
+  obfs: tls1.2_ticket_auth
+  obfs-param: none
+  password: MunCloud
+  port: 50106
+  protocol: auth_aes128_md5
+  protocol-param: 24050:l77jzQ16Ya
+  server: dashijie.9527123.cc
+  type: ssr
+- cipher: aes-128-ctr
+  name: 202|台湾-非大陆使用
+  obfs: tls1.2_ticket_auth
+  obfs-param: none
+  password: MunCloud
+  port: 29507
+  protocol: auth_aes128_md5
+  protocol-param: 24050:l77jzQ16Ya
+  server: tw.517318.cc
+  type: ssr
 - cipher: rc4-md5
   name: 362|🇼🇸 IPLC｜冀台 [2.0][原生]
   obfs: http_simple
@@ -442,7 +465,7 @@ proxies:
     path: /?proxyip=proxyip.us.fxxk.dedyn.io
 - alterId: 0
   cipher: auto
-  name: '539,540|公益|台湾|V2|推荐 #1'
+  name: '539,540|公益|台湾|V2 #1'
   network: ws
   port: '40015'
   server: hh-01.cdn-sgp.xyz
@@ -849,7 +872,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.lu:25488
+    host: 502d36f.dl.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -859,7 +882,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.dk:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -869,7 +892,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.eu:25488
+    host: 502d36f.dl.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -879,7 +902,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ge:25488
+    host: 502d36f.dl.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -889,7 +912,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.xboxlive.com:25488
+    host: 502d36f.dl.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -899,7 +922,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.epicgames.com:25488
+    host: 502d36f.dl.microsoft.is:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
