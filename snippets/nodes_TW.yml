@@ -4,9 +4,9 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,77,81,84,118|🇹🇼 10,11|台湾|@ripaojiedian
+  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,77,81,84,118|11,15,16|台湾|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -18,6 +18,14 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,118|15|🇹🇼 台湾2|@ripaojiedian
+  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  port: 32207
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   country: TW
   name: 39|TW_751
@@ -101,20 +109,47 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   country: ' TW'
-  name: 40,41,42|ChatGPT  TW_29
-  password: f50389b3-b3fa-43f6-803a-c04e45b1d565
-  port: 30040
-  server: hh-01.cdn-sgp.xyz
+  name: 42|ChatGPT Relay  TW_26
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20005
+  server: 183.233.187.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 42|ChatGPT Relay  TW_27
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20005
+  server: deepf.hjkdsak2.com
   type: ss
 - cipher: aes-256-gcm
   country: ' TW'
-  name: 40,41,42|ChatGPT  TW_28
+  name: 42|ChatGPT  TW_28
   password: 3576aac2-d531-4275-aa60-39498e035dbb
   port: 30040
   server: 1.175.218.121
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 42|ChatGPT  TW_29
+  password: 7b13c412-f540-3e7d-8a5f-e94af4cb5f4b
+  port: 61006
+  server: 2.forlive.live
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 42|ChatGPT  TW_31
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
 - alterId: 1
   cipher: auto
   name: 76|台湾2 tg@freebaipiao
@@ -310,7 +345,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.fastly.net:25488
+    host: 502d36f.dl.nintendo.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -320,7 +355,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.jp:25488
+    host: 502d36f.dl.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -330,7 +365,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ch:25488
+    host: 502d36f.dl.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -340,7 +375,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.md:25488
+    host: 502d36f.dl.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -350,7 +385,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.it:25488
+    host: 502d36f.dl.nintendo.com:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -360,22 +395,8 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.is:25488
+    host: 502d36f.dl.microsoft.lu:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 123|012 ✂️-🇹🇼TW-last 32 total=891(...
-  network: ws
-  port: '12945'
-  server: 55.lwdh.us
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 154.40.60.172
-    path: ''

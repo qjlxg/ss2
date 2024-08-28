@@ -4,9 +4,9 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,77,81,84,118|🇸🇬 10,11|新加坡2|@ripaojiedian
+  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,77,81,84,118|11,15,16|新加坡2|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn2.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -19,8 +19,32 @@ proxies:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
 - cipher: chacha20-ietf-poly1305
-  country: KR
-  name: 39|Relay_KR-SG_457
+  client-fingerprint: chrome
+  name: 2,118|15|🇸🇬 新加坡|@ripaojiedian
+  password: 36935806-0524-4023-8ce0-9048bb0d3e63
+  port: 39505
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,118|15|🇸🇬 新加坡3|@ripaojiedian
+  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  port: 39204
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2,118|15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' US'
+  name: 39,40|Relay_ US-IR_585
   password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
   port: 50006
   server: iepl2.forlive.live
@@ -46,7 +70,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: SG
-  name: '39,44|netflix_SG #5'
+  name: '39,44|disney_netflix_SG #3'
   password: amazonskr05
   port: 443
   server: 54.179.241.46
@@ -80,15 +104,15 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' SG'
-  name: 39,40,41,42|ChatGPT  SG_476
+  name: 39,40,41,42|ChatGPT  SG_443
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
   type: ss
 - cipher: aes-256-gcm
   country: ' SG'
-  name: 39,41,42|ChatGPT  SG_474
-  password: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  name: 39,41,42|ChatGPT  SG_446
+  password: 3576aac2-d531-4275-aa60-39498e035dbb
   port: 30080
   server: sgp-01.cdn-sgp.xyz
   type: ss
@@ -104,7 +128,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: ' SG'
-  name: 39,41,44,46,78|🇸🇬SG-13.228.79.13-2997 | 24.79...
+  name: 39,46,78|🇸🇬SG-13.228.79.13-2997 | 24.79...
   password: amazonskr05
   port: 443
   server: 13.228.79.13
@@ -151,7 +175,7 @@ proxies:
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 39,41,42|ChatGPT  SG_482
+  name: 39,42|ChatGPT  SG_449
   network: tcp
   port: 443
   server: 159.65.10.19
@@ -165,7 +189,7 @@ proxies:
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 39,40,41,42,110|🇸🇬 SG_610
+  name: 39,40,41,42,110|🇸🇬 SG_602
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -197,7 +221,7 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39,44|SG_804
+  name: 39,44|SG_554
   network: ws
   port: 80
   server: 213.35.113.150
@@ -228,7 +252,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 39,41|ChatGPT  ZZ_1330
+  name: 39,41|ChatGPT  ZZ_1278
   network: tcp
   port: 12954
   server: 31.192.234.7
@@ -260,7 +284,7 @@ proxies:
   country: ' US'
   h2-opts: {}
   http-opts: {}
-  name: 39,40|Relay_ US-US_671
+  name: 39,40|Relay_ US-US_640
   network: ws
   port: 443
   server: max.mankadmu.com
@@ -311,17 +335,24 @@ proxies:
     path: /linkvws
 - cipher: aes-256-gcm
   country: ' SG'
-  name: 40,41,42|ChatGPT  SG_473
+  name: 40,41,42|ChatGPT  SG_447
   password: 3576aac2-d531-4275-aa60-39498e035dbb
   port: 30080
   server: 206.189.92.107
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: SG
-  name: 40,41,42,44|SG_798
+  country: ' SG'
+  name: 40,41,42|ChatGPT  SG_441
   password: h9kalrAMFjPX73UnFniRCL
   port: 18822
   server: 68.183.233.0
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 42|ChatGPT  SG_445
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -338,16 +369,34 @@ proxies:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
-- cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 44| SG_792
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node3.s.nodelist-airport.com
+- cipher: aes-256-gcm
+  country: CN
+  name: 44|disney_SG
+  password: 3f41b92f-9188-431c-be29-a7e5de2722dc
+  port: 53531
+  server: gzyd5-1.piaomiaoxu.net
   type: ss
+- alterId: 0
+  cipher: auto
+  country: CO
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_CO-SG_459
+  network: ws
+  port: 443
+  server: xjp.ailicf.us.kg
+  servername: xjp.ailicf.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 828d8bfd-fa0b-4823-89d7-a4a1e8251840
+  ws-opts:
+    headers:
+      HOST: xjp.ailicf.us.kg
+    path: /afwa
 - cipher: chacha20-ietf-poly1305
   country: SG
-  name: 44|SG_802
+  name: 44|SG_553
   password: pMa0kXlHF4Ja1CNsNEoMpt
   port: 3127
   server: 68.183.233.0
@@ -807,6 +856,15 @@ proxies:
     headers:
       Host: dl.kgvn.garenanow.com
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: '77,78,115|Singapore_SG_AmazonTechnologie... #2'
+  password: amazonskr05
+  port: 443
+  server: 13.214.209.23
+  tfo: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 78|🇸🇬SG-5.180.78.144-0735 | 24.42...
@@ -967,12 +1025,18 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 118|1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 122|GLaDOS-SG-01
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.de:25488
+    host: 502d36f.dl.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.s1.glados-config.net
@@ -982,7 +1046,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.eu:25488
+    host: 502d36f.dl.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.s2.glados-config.net
@@ -992,7 +1056,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.fi:25488
+    host: 502d36f.dl.nintendo.be:25488
     mode: tls
   port: 2377
   server: 502d36f.s3.glados-config.net
