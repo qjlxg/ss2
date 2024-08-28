@@ -2,8 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,77,81,84|10,11|新加坡2|@ripaojiedian
-    #16'
+  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,77,81,84,118|11,15,16|新加坡2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -19,7 +18,7 @@ proxies:
     path: /video/u4eCZTxW
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇸🇬 新加坡
+  name: 2,118|15|🇸🇬 新加坡|@ripaojiedian
   password: 36935806-0524-4023-8ce0-9048bb0d3e63
   port: 39505
   server: 6bhz.6bnw.top
@@ -27,7 +26,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇸🇬 新加坡3
+  name: 2,118|15|🇸🇬 新加坡3|@ripaojiedian
   password: 515fe89b-473a-4fee-bc39-6a797011e27e
   port: 39204
   server: 6bhz.6bnw.top
@@ -35,32 +34,32 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇸🇬 狮城特殊
+  name: 2,118|15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.183.186.14
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬 SG
-  name: 40,41,42,107|🇬 SG_562
-  password: ZdWZ9QvFlbOOGreMoE3Bq8
-  port: 18814
-  server: 159.65.129.128
-  type: ss
 - cipher: aes-256-gcm
-  country: 🇬 SG
-  name: 40,41,42,78,105,107| SG_561
+  country: ' SG'
+  name: 40,41,42,78|🇸🇬SG-206.189.92.107-0764 | 1.8...
   password: 3576aac2-d531-4275-aa60-39498e035dbb
   port: 30080
   server: 206.189.92.107
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 40,41,42|ChatGPT  SG_455
+  password: ZdWZ9QvFlbOOGreMoE3Bq8
+  port: 18814
+  server: 159.65.129.128
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇬 SG
+  country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 40,41,42,105,107,110|🇸🇬 SG_563
+  name: 40,41,42,110|🇸🇬 SG_595
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -69,36 +68,40 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 44,46| SG_21
+  network: tcp
+  port: 15002
+  server: 15002.kuaiyin02.top
+  servername: 15002.kuaiyin02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  ws-path: /
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 44,77,78,115,118|SG_speednode_0092
+  country: SG
+  name: 44|SG_701
   password: amazonskr05
   port: 443
-  server: 13.214.209.23
+  server: 13.250.14.224
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: SG
+  name: 44,115|Singapore_SG_AmazonTechnologie...
+  password: amazonskr05
+  port: 443
+  server: 13.229.243.64
   tfo: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇨CO
-  h2-opts: {}
-  http-opts: {}
-  name: 44,105|Relay_🇨CO-🇸🇬SG_48 |24.43Mb
-  network: ws
-  port: 443
-  server: xjp.ailicf.us.kg
-  servername: xjp.ailicf.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 828d8bfd-fa0b-4823-89d7-a4a1e8251840
-  ws-opts:
-    headers:
-      HOST: xjp.ailicf.us.kg
-    path: /afwa
 - cipher: aes-256-cfb
   country: SG
-  name: '44|disney_netflix_SG #1'
+  name: 44|SG_703
   password: amazonskr05
   port: 443
   server: 54.179.241.46
@@ -116,19 +119,26 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: SG
-  name: '44,115|Singapore_SG_AmazonTechnologie... #4'
+  name: '44,115|Singapore_SG_AmazonTechnologie... #3'
   password: amazonskr05
   port: 443
-  server: 18.139.110.249
+  server: 13.212.34.140
   tfo: true
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: 44|SG_706
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇸🇬SG
+  country: SG
   h2-opts: {}
   http-opts: {}
-  name: 44,105|Relay_🇸🇬SG-🇸🇬SG_152
+  name: 44|Relay_SG-RU_707
   network: ws
   port: 40045
   server: sgp.cdn-sgp.xyz
@@ -646,20 +656,6 @@ proxies:
     path: /lorgvdgnbhkx4zoj
 - alterId: 0
   cipher: auto
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: 105|🇬SG_153
-  network: ws
-  port: 40045
-  server: 5.180.78.144
-  skip-cert-verify: true
-  type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 112|V3-PRO 新加坡03 | 8x
   network: ws
   port: 3043
@@ -750,15 +746,6 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 115|Singapore_SG_AmazonTechnologie...
-  password: amazonskr05
-  port: 443
-  server: 13.229.243.64
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: '115|Singapore_SG_AmazonTechnologie... #1'
   password: amazonskr05
   port: 443
@@ -768,10 +755,10 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: '115|Singapore_SG_AmazonTechnologie... #3'
+  name: '115|Singapore_SG_AmazonTechnologie... #4'
   password: amazonskr05
   port: 443
-  server: 13.212.34.140
+  server: 18.139.110.249
   tfo: true
   type: ss
   udp: true
@@ -793,12 +780,18 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 118|1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 122|GLaDOS-SG-01
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.jp:25488
+    host: 502d36f.dl.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.s1.glados-config.net
@@ -808,7 +801,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.blizzard.com:25488
+    host: 502d36f.dl.nintendo.de:25488
     mode: tls
   port: 2377
   server: 502d36f.s2.glados-config.net
@@ -818,7 +811,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.xboxlive.com:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.s3.glados-config.net

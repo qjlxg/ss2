@@ -1,8 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '0,5,7,10,12,16,18,21,23,26,28,31,33,36,38,47,48,49,77,81,84|11|香港|@ripaojiedian
-    #16'
+  name: 0,5,7,10,12,16,18,21,23,26,28,31,33,36,38,47,48,49,77,81,84,118|11,16|香港|@ripaojiedian
   network: tcp
   port: '45020'
   server: 183.236.51.23
@@ -13,7 +12,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,38,77,81,84|10,11|香港2|@ripaojiedian #3'
+  name: 0,2,38,77,81,84,118|11,15,16|香港2|@ripaojiedian
   network: ws
   port: '443'
   server: n1721349435.afjian.cn
@@ -30,7 +29,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,38,77,81,84|10,11|香港3|@ripaojiedian #3'
+  name: 0,2,38,77,81,84,118|11,15,16|香港3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -49,8 +48,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '0,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,47,48,49,77,81,84,90|二爷免费翻墙
-    https://1808.free.hr 节点... #78'
+  name: 0,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,47,48,49,77,81,84,90,118|11,16|香港5|@ripaojiedian
   network: tcp
   port: '54104'
   server: 183.236.51.23
@@ -61,7 +59,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 2,127|🇨🇳 中国【付费推荐：https://a0a.xyz】149
+  name: 2,118,127|🇨🇳 中国【付费推荐：https://a0a.xyz】149
   password: de50dfe4-16b8-4f81-8089-09673edfe43a
   port: 58811
   server: zx.1010520.shop
@@ -69,7 +67,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇭🇰 香港7
+  name: 2,118|15|🇭🇰 香港7|@ripaojiedian
   password: 515fe89b-473a-4fee-bc39-6a797011e27e
   port: 29527
   server: 6bhz.6bnw.top
@@ -77,7 +75,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2|🇭🇰 香港8
+  name: 2,118|15|🇭🇰 香港8|@ripaojiedian
   password: 515fe89b-473a-4fee-bc39-6a797011e27e
   port: 36993
   server: 6bhz.6bnw.top
@@ -85,19 +83,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇦🇺AU
-  h2-opts: {}
-  http-opts: {}
-  name: 4,9,15,20,25,30,35,47,48,105|Relay_🇺AU-🇺🇸US_36 | 6.37Mb
+  name: '4,9,15,20,25,30,35,47,48|美国(yudou66.com 玉豆免费节点) #23'
   network: ws
-  port: 33678
+  port: '33678'
   server: 103.192.179.18
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3056f62f-5fac-4767-a9b8-63abc970684d
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -178,33 +174,22 @@ proxies:
   country: ' HK'
   h2-opts: {}
   http-opts: {}
-  name: 42| HK_254
+  name: 40,78|🇭🇰HK-103.30.76.172-0762 | 2.01...
   network: ws
-  port: 443
-  server: n1721349435.afjian.cn
-  servername: n1721349435.afjian.cn
-  skip-cert-verify: true
-  tls: true
+  port: 33722
+  server: 103.30.76.172
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 58cc188c-d050-4ae8-9994-8d2c949d5d04
-  ws-headers:
-    HOST: n1721349435.afjian.cn
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 44,115,118|CN_speednode_0013
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  tfo: true
-  type: ss
-  udp: true
+  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   country: ES
   h2-opts: {}
   http-opts: {}
-  name: 44|Relay_ES-HK_381
+  name: 44|Relay_ES-HK_620
   network: ws
   port: 30001
   server: justhostinghk02.naizi.vip
@@ -217,6 +202,34 @@ proxies:
     headers:
       HOST: www.python.org
     path: /nishidashabi
+- country: ZZ
+  fingerprint: chrome
+  name: 44|Relay_ZZ-HK_1012
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.26.94
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+    path: /
+- country: ZZ
+  fingerprint: chrome
+  name: 44|Relay_ZZ-HK_1013
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.27.94
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '69,72|🇭🇰HK_50 #1'
@@ -248,17 +261,6 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 73|香港 013
-  network: ws
-  password: moist
-  port: 443
-  server: 27.50.48.108
-  sni: trojan.freenods.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /
 - name: 73|香港 003
   network: ws
   password: tg-dns68
@@ -318,18 +320,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f3d89fc1-eca6-4dac-bcb6-e609b28dbd5e
-- alterId: 0
-  cipher: auto
-  name: 78|🇭🇰HK-103.30.76.172-0762 | 2.01...
-  network: ws
-  port: 33722
-  server: 103.30.76.172
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
-  ws-opts:
-    path: /
 - cipher: aes-128-gcm
   name: 85|🇭🇰 香港01｜tg@ghosxtop
   password: 8bf4cce5-c3ae-47fa-8eb8-93374b5d8099
@@ -481,11 +471,20 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 115|HongKong_HK_AkileLTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 122|GLaDOS-HK-01
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.eu:25488
+    host: 502d36f.dl.nintendo.it:25488
     mode: tls
   port: 2377
   server: 502d36f.h1.glados-config.net
@@ -495,7 +494,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.net:25488
+    host: 502d36f.dl.microsoft.com:25488
     mode: tls
   port: 2377
   server: 502d36f.h2.glados-config.net
@@ -505,7 +504,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nvidia.com:25488
+    host: 502d36f.dl.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.h3.glados-config.net
