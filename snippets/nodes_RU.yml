@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,77,81,84,118|🇷🇺 11|公益|俄罗斯|V2
+  name: 0,2,38,73,77,81,84,118|11,15|🇷🇺 公益|俄罗斯|V2
   network: ws
   port: 40045
   server: mz.flmweb.cc
@@ -10,6 +10,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
   ws-opts:
     headers:
@@ -17,7 +18,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,77,81,84|11|公益|俄罗斯|V2 #2'
+  name: 0,38,77,81,84,118|11,16|公益|俄罗斯|V2
   network: ws
   port: '40045'
   server: mz.flmweb.cc
@@ -31,9 +32,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13,90|二爷免费翻墙 https://1808.free.hr 节点... #23'
+  name: 13,90,118|2|🇷🇺_RU_俄罗斯联邦
   network: tcp
-  port: '35972'
+  port: 35972
   server: 45.147.200.170
   servername: ''
   tls: false
@@ -41,17 +42,15 @@ proxies:
   uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
 - alterId: 0
   cipher: auto
-  name: '13,90|二爷免费翻墙 https://1808.free.hr 节点... #25'
+  name: '13,90,118|2|🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
-  port: '12910'
+  port: 12910
   server: 45.136.245.240
   servername: ''
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -83,6 +82,21 @@ proxies:
     headers:
       Host: www.python.org
     path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯 008
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13
+  ws-opts:
+    headers:
+      Host: 45.144.2.113
+    path: /
 - cipher: aes-128-gcm
   name: 85|🇷🇺 俄罗斯01｜tg@ghosxtop
   password: 3df3d240-a71d-4120-ad6f-7be7358c0146
@@ -90,13 +104,6 @@ proxies:
   server: p.other.jscm.nod3.org
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: 105|🇷🇺RU_135 | 2.69Mb
-  password: aXuV8k5a4NFmkphgr5NTlL
-  port: 52338
-  server: 89.185.84.185
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 127|🇷🇺 俄罗斯【付费推荐：https://a0a.xyz】90
   password: d9DLBO1pa2LhAq72M4kYSA
