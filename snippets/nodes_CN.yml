@@ -126,7 +126,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|CN_556
+  name: 39,44|CN_766
   network: tcp
   port: 50002
   server: 112.132.215.12
@@ -138,7 +138,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|CN_557
+  name: 39,44|CN_763
   network: tcp
   port: 50002
   server: 114.55.132.202
@@ -150,11 +150,13 @@ proxies:
   country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 39,41| CN_02
+  name: 39,41,123|008 ✂️-🏴‍☠️-last 32 total=891(...
   network: tcp
-  port: 55218
+  port: '55218'
   server: 103.85.25.134
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
   ws-path: /
@@ -163,7 +165,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|_525
+  name: 39,44|_712
   network: tcp
   port: 50002
   server: 47.92.152.169
@@ -175,7 +177,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|_519
+  name: 39,44|_737
   network: tcp
   port: 50004
   server: 112.132.212.19
@@ -187,7 +189,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|CN_554
+  name: 39,44|CN_769
   network: tcp
   port: 59003
   server: 183.236.51.36
@@ -199,66 +201,48 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 39,44|CN_558
+  name: 39,44|CN_768
   network: tcp
   port: 50002
   server: 47.116.173.76
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf
   country: ' CN'
-  name: 41,44,85|🇦🇪 沙特阿拉伯01｜tg@ghosxtop
-  password: 3df3d240-a71d-4120-ad6f-7be7358c0146
-  port: 27955
-  server: p.other.jscm.nod3.org
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  country: ' CN'
-  name: 42,85|🇳🇬 尼日尼亚01｜tg@ghosxtop
-  password: 3df3d240-a71d-4120-ad6f-7be7358c0146
-  port: 23280
-  server: p.other.jscm.nod3.org
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  country: ' CN'
-  name: 42,85|🇺🇦 乌克兰01｜tg@ghosxtop
-  password: 3df3d240-a71d-4120-ad6f-7be7358c0146
-  port: 18949
-  server: p.other.jscm.nod3.org
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  country: ' CN'
-  name: 44,85|🇩🇪 德国01｜tg@ghosxtop
-  password: 3df3d240-a71d-4120-ad6f-7be7358c0146
-  port: 31225
-  server: p.other.jscm.nod3.org
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
+  name: 41| CN_01
+  obfs: plain
+  obfs-param: 83f38107560.windows.net
+  password: 4wMNkIVsgybXfA2u
+  port: 4323
+  protocol: auth_aes128_sha1
+  protocol-param: 107560:cztSoV
+  server: pro.sr.us01.yunti-relay01.net
+  type: ssr
+- cipher: chacha20-ietf
   country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: '44,90|二爷免费翻墙 https://1808.free.hr 节点... #87'
-  network: ws
-  port: '46092'
-  server: mmde92.micloud.buzz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  name: 45|Relay_CN-CN_07
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 2338:9tQfxMX(0S;40f
+  server: cmlayer6.standurls.co
+  type: ssr
 - cipher: aes-256-cfb
   country: CN
-  name: 45,105|Pool__06 |268.00Mb
+  name: 45|Pool_CN_08
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41122
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.24
+  type: ssr
+- cipher: aes-256-cfb
+  country: CN
+  name: 45|Pool_CN_09
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -266,16 +250,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.102
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 45|Relay_CN-CN_08
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 2338:9tQfxMX(0S;40f
-  server: cmlayer6.standurls.co
   type: ssr
 - alterId: 4
   cipher: auto
@@ -316,27 +290,12 @@ proxies:
   server: south.idyllic.love
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 105|🇨CN_47 |24.67Mb
-  network: tcp
-  port: 45017
-  server: 142.0.134.241
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 110|🇨🇳CN_456
-  network: ''
-  port: 41911
-  server: 107.148.192.157
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 118|1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
 - cipher: aes-128-gcm
   name: 127|🇨🇳 中国【付费推荐：https://a0a.xyz】46
   password: de50dfe4-16b8-4f81-8089-09673edfe43a
