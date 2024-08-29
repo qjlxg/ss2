@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,38,77,81,84,118|11,15|🇸🇬 新加坡2|@ripaojiedian
+  name: '0,2,38,77,81,84|10|🇸🇬 新加坡2|@ripaojiedian #3'
   network: ws
   port: 5502
   server: v1.cdn.ddnschiyun.xyz
@@ -17,7 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,38,77,81,84,118|11,16|新加坡2|@ripaojiedian
+  name: '0,38,77,81,84|11|新加坡2|@ripaojiedian #3'
   network: ws
   port: '5502'
   server: v1.cdn.ddnschiyun.xyz
@@ -31,7 +31,7 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2,118|15|🇸🇬 新加坡|@ripaojiedian
+  name: 2|🇸🇬 新加坡
   password: 515fe89b-473a-4fee-bc39-6a797011e27e
   port: 40013
   server: gg01.6bnw.top
@@ -39,7 +39,8 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2,118|15|🇸🇬 狮城特殊|@ripaojiedian
+  country: JP
+  name: 2,39|JP_405
   password: amazonskr05
   port: 443
   server: 3.112.240.59
@@ -59,39 +60,13 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- country: SG
-  name: 39|SG_618
-  password: '!!str 123456'
-  port: 9443
-  server: 185.151.146.128
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇬 SG
-  name: 39,40,41,42,78,107| SG_579
-  password: 3576aac2-d531-4275-aa60-39498e035dbb
-  port: 30080
-  server: 206.189.92.107
+- cipher: chacha20-ietf-poly1305
+  country: KR
+  name: 39,40,42,44,45|Relay_KR-IR_67
+  password: a4ac2592-28e7-4927-94b3-277edae0869a
+  port: 50105
+  server: iepl2.forlive.live
   type: ss
-- cipher: aes-256-gcm
-  country: ' SG'
-  name: 39,41,42,78|🇸🇬SG-206.189.92.107-0770 | 12....
-  password: 3576aac2-d531-4275-aa60-39498e035dbb
-  port: 30080
-  server: sgp-01.cdn-sgp.xyz
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  country: SG
-  name: '39,115|Singapore_SG_AmazonTechnologie... #4'
-  password: amazonskr05
-  port: 443
-  server: 18.139.110.249
-  tfo: true
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: SG
@@ -114,28 +89,45 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: SG
-  name: 39|SG_625
+  name: '39,44|SG_642 #1'
   password: amazonskr05
   port: 443
   server: 13.250.14.224
   type: ss
 - cipher: aes-256-cfb
-  country: ' SG'
-  name: 39,41,42,46| SG_18
-  password: amazonskr05
-  port: 443
-  server: 13.228.79.13
-  type: ss
-- cipher: aes-256-cfb
   country: SG
-  name: 39|SG_627
+  name: '39,44|SG_641 #1'
   password: amazonskr05
   port: 443
   server: 54.179.241.46
   type: ss
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   country: SG
-  name: 39|Pool_SG_629
+  name: '39,44,115|Singapore_SG_AmazonTechnologie... #4'
+  password: amazonskr05
+  port: 443
+  server: 18.139.110.249
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇬 SG
+  name: 39,40,41,42,107| SG_599
+  password: ZdWZ9QvFlbOOGreMoE3Bq8
+  port: 18814
+  server: 159.65.129.128
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇸🇬SG
+  name: 39,41,42,78,105|Relay_🇸🇬SG-🇸🇬SG_168 | 3.13Mb
+  password: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  port: 30080
+  server: sgp-01.cdn-sgp.xyz
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|Pool_SG_645
   obfs: plain
   password: VK9dhgualsL
   port: 443
@@ -147,7 +139,7 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_SG-SG_630
+  name: 39|Relay_SG-SG_647
   network: ws
   port: 40000
   server: ml1.333210.xyz
@@ -164,21 +156,57 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|SG_631
+  name: 39|Relay_SG-SG_648
   network: ws
-  port: 40045
-  server: 5.180.78.144
+  port: 443
+  server: sgdo.vipcasper.com
+  servername: sgdo.vipcasper.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
   ws-opts:
-    path: /
-- alterId: 0
+    headers:
+      HOST: sgdo.vipcasper.com
+    path: /vmess
+- alterId: 64
   cipher: auto
-  country: ' SG'
+  country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39,41,42|ChatGPT  SG_451
+  name: 39|Pool_SG_649
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,41|ChatGPT  ZZ_1318
+  network: tcp
+  port: 12954
+  server: 31.192.234.7
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39,41,42,105|🇸🇬SG_170 | 9.20Mb
   network: tcp
   port: 443
   server: 159.65.10.19
@@ -189,10 +217,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  country: SG
+  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 39|SG_633
+  name: 39,105|🇺🇸US_525 |23.09Mb
   network: ws
   port: 80
   server: 213.35.113.150
@@ -206,42 +234,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: SG
+  country: 🇸🇬SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_SG-SG_634
+  name: 39,105|🇸🇬SG_171
   network: ws
-  port: 443
-  server: sgdo.vipcasper.com
-  servername: sgdo.vipcasper.com
+  port: 40045
+  server: 5.180.78.144
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
+  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
   ws-opts:
-    headers:
-      HOST: sgdo.vipcasper.com
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,41|ChatGPT  ZZ_1231
-  network: tcp
-  port: 12954
-  server: 31.192.234.7
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-path: /
+    path: /
 - alterId: 0
   cipher: auto
   country: 🇬 SG
   h2-opts: {}
   http-opts: {}
-  name: 39,40,41,42,107,110|🇸🇬 SG_581
+  name: 39,40,41,42,105,107,110|🇸🇬 SG_601
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -250,13 +260,114 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_ZZ-SG_2096
+  network: ws
+  port: 443
+  server: me.kalakatha.org
+  servername: me.kalakatha.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: me.kalakatha.org
+    path: /linkvws
+- cipher: aes-256-gcm
   country: 🇬 SG
-  name: 40,41,42,107|🇬 SG_580
-  password: ZdWZ9QvFlbOOGreMoE3Bq8
-  port: 18814
-  server: 159.65.129.128
+  name: 40,41,42,78,105,107|🇬 SG_600
+  password: 3576aac2-d531-4275-aa60-39498e035dbb
+  port: 30080
+  server: 206.189.92.107
   type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_-SG_492
+  network: ws
+  port: 80
+  server: sg1.1vpn.sbs
+  type: vmess
+  uuid: cbcbdfd9-c33f-4690-8e69-0ff9908c9bb7
+  ws-opts:
+    headers:
+      Host: sg1.1vpn.sbs
+    path: /kuurtreeh
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: 44|SG_637
+  password: Mnka1m2ApYl7rGdKXm7ZvA
+  port: 23004
+  server: 159.89.202.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: '44|SG_638 #1'
+  password: se9hMXGey5DpXW2Fr70AqN
+  port: 55332
+  server: 128.199.76.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: '44|SG_639 #1'
+  password: u8Y1OhcvTEagkUtCeKBib5
+  port: 57885
+  server: 165.22.250.142
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: '44|SG_640 #1'
+  password: MgCVpybzAvRK1l7qaTfj6S
+  port: 49537
+  server: 139.59.116.180
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: SG
+  name: 44|SG_644
+  password: 5waL4f4x9p6AdOhofJTwEn
+  port: 25182
+  server: 157.245.145.1
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 44,105|Relay_🏁ZZ-SG_697 |27.91Mb
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  servername: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
+  ws-opts:
+    headers:
+      HOST: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_ZZ-SG_892
+  network: ws
+  port: 2095
+  server: apivgbndf_cdn.hfhfb.homes
+  servername: sgcdn.fask511.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
+  ws-opts:
+    headers:
+      HOST: sgcdn.fask511.cfd
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 68|🇸🇬 Pool_🇸🇬SG_919
   password: G!yBwPWH3Vao
@@ -750,6 +861,24 @@ proxies:
     path: /lorgvdgnbhkx4zoj
 - alterId: 0
   cipher: auto
+  country: 🇨🇴CO
+  h2-opts: {}
+  http-opts: {}
+  name: 105|Relay_🇨🇴CO-SG_50 |25.77Mb
+  network: ws
+  port: 443
+  server: xjp.ailicf.us.kg
+  servername: xjp.ailicf.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 828d8bfd-fa0b-4823-89d7-a4a1e8251840
+  ws-opts:
+    headers:
+      HOST: xjp.ailicf.us.kg
+    path: /afwa
+- alterId: 0
+  cipher: auto
   name: 112|V3-PRO 新加坡03 | 8x
   network: ws
   port: 3043
@@ -858,15 +987,6 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: '115|Singapore_SG_AmazonTechnologie... #2'
-  password: amazonskr05
-  port: 443
-  server: 13.214.209.23
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: '115|Singapore_SG_AmazonTechnologie... #5'
   password: amazonskr05
   port: 443
@@ -883,18 +1003,12 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 118|1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 122|GLaDOS-SG-01
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.xboxlive.com:25488
+    host: 502d36f.dl.microsoft.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.s1.glados-config.net
@@ -904,7 +1018,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.io:25488
+    host: 502d36f.dl.nintendo.com:25488
     mode: tls
   port: 2377
   server: 502d36f.s2.glados-config.net
@@ -914,7 +1028,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.net:25488
+    host: 502d36f.dl.microsoft.com:25488
     mode: tls
   port: 2377
   server: 502d36f.s3.glados-config.net
