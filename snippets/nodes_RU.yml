@@ -2,7 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,73,77,81,84,118|11,15|🇷🇺 俄罗斯|@ripaojiedian
+  h2-opts: {}
+  http-opts: {}
+  name: 0,2,5,7,10,12,16,18,21,23,26,28,31,33,36,38,44,73,77,81,84,118|11,15|🇷🇺 俄罗斯|@ripaojiedian
   network: ws
   port: 40045
   server: mz.flmweb.cc
@@ -18,11 +20,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,4,5,7,9,10,12,15,16,18,20,21,23,25,26,28,30,31,33,35,36,38,47,48,77,81,84,118|11,16|俄罗斯|@ripaojiedian
+  country: RU
+  h2-opts: {}
+  http-opts: {}
+  name: 0,4,5,7,9,10,12,15,16,18,20,21,23,25,26,28,30,31,33,35,36,38,44,47,48,77,81,84,118|11,16|俄罗斯|@ripaojiedian
   network: ws
   port: '40045'
   server: mz.flmweb.cc
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
@@ -65,6 +71,38 @@ proxies:
     headers:
       Host: YouTube-aweikeji
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 73|俄罗斯 002
+  network: ws
+  port: 10001
+  server: yxvmsglux01.naizi.vip
+  servername: yxvmsglux01.naizi.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e232885c-f037-4e96-a99a-1ce0f93be908
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯 008
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13
+  ws-opts:
+    headers:
+      Host: 45.144.2.113
+    path: /
 - cipher: aes-128-gcm
   name: 85|🇷🇺 俄罗斯01｜tg@ghosxtop
   password: 50c1f9d5-7d3c-420c-b777-29b304f2b4ab
@@ -72,3 +110,24 @@ proxies:
   server: p.other.jscm.nod3.org
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  name: 107|🇷🇺 RU_569
+  password: aXuV8k5a4NFmkphgr5NTlL
+  port: 52338
+  server: 89.185.84.185
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 123|018 ✂️-🇷🇺RU-last 32 total=892(...
+  network: ws
+  port: '12910'
+  server: 22.lwdh.us
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 45.136.245.240
+    path: /
