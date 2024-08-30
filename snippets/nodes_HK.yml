@@ -1,7 +1,8 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,37,38,47,48,49,77,81,84,118|11,16|香港|@ripaojiedian
+  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,38,49,77,81,84,118|China_None_vmess_1137
+    #1'
   network: tcp
   port: '45020'
   server: 183.236.51.23
@@ -11,8 +12,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,2,36,38,77,81,84,118|11,15|🇭🇰 香港3|@ripaojiedian
+  name: '0,36,38,77,81,84,118|China_None_vmess_1124 #1'
   network: ws
   port: 5106
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -27,18 +27,22 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,37,38,47,48,49,77,81,84,90,118|11,16|香港5|@ripaojiedian
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '0,5,6,7,10,11,12,16,17,18,21,22,23,26,27,28,31,32,33,36,38,44,47,48,49,77,81,84,90,118|China_None_vmess_1139
+    #1'
   network: tcp
   port: '54104'
   server: 183.236.51.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,2,36,38,77,81,84,118|11,15,16|香港7|@ripaojiedian
+  name: '0,36,38,77,81,84,118|Hong Kong_None_vmess_1127 #1'
   network: ws
   port: '10001'
   server: 62.72.163.54
@@ -54,8 +58,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,2,36,38,77,81,84,118|11,15|🇭🇰 香港8|@ripaojiedian
+  name: '0,36,38,77,81,84,118|China_None_vmess_1128 #1'
   network: ws
   port: 5108
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -70,7 +73,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,36,38,77,81,84,118|11,16|香港3|@ripaojiedian
+  name: '0,36,38,77,81,84,118|China_None_vmess_1138 #1'
   network: ws
   port: '5106'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -84,7 +87,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,36,38,77,81,84,118|11,16|香港8|@ripaojiedian
+  name: '0,36,38,77,81,84,118|China_None_vmess_1140 #1'
   network: ws
   port: '5108'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -98,20 +101,36 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 2,118|15|🇭🇰 香港2|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  name: 2|🇭🇰 香港2
+  password: 76321d59-6bf2-4d77-8cc8-94219de74ccc
+  port: 33941
+  server: 911.wdy88.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2|🇭🇰 香港3
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
   port: 40012
   server: gg01.6bnw.top
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 2,118,127|🇨🇳 中国【付费推荐：https://a0a.xyz】149
-  password: de50dfe4-16b8-4f81-8089-09673edfe43a
-  port: 58811
-  server: zx.1010520.shop
+  name: 2|🇭🇰 香港6
+  network: ws
+  port: 5101
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 5,7,10,12,16,18,21,23,26,28,31,33,78|🇭🇰HK-47.76.175.96-1304 | 3.702...
@@ -141,6 +160,34 @@ proxies:
     headers:
       Host: zifstzamhk1.yofnhkfc.xyz
     path: /video/VuDFdktz
+- alterId: 0
+  cipher: auto
+  name: '35,47,48|美国(yudou66.com 玉豆免费节点) #120'
+  network: tcp
+  port: '22238'
+  server: wduzpt.gxcvbmj.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3
+- alterId: 0
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '35,44,47,48,49,90|二爷免费翻墙 https://1808.free.hr 节点... #87'
+  network: ws
+  port: '46092'
+  server: mmde92.micloud.buzz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: rc4-md5
   country: HK
   name: 39|Relay_HK-HK_388
@@ -153,7 +200,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: HK
-  name: 39,41,45|Pool_HK_64
+  name: 39,41,45|Pool_HK_63
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
@@ -219,7 +266,7 @@ proxies:
   country: ' HK'
   h2-opts: {}
   http-opts: {}
-  name: 39,40,78,110|🇭🇰 HK_534
+  name: 39,40,78,110|🇭🇰 HK_529
   network: ws
   port: 33722
   server: 103.30.76.172
@@ -249,6 +296,81 @@ proxies:
     headers:
       HOST: www.python.org
     path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  country: ES
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_ES-HK_495
+  network: ws
+  port: 30001
+  server: justhostinghk02.naizi.vip
+  servername: www.python.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f16138e6-8bb5-42d6-9e87-be95e3e28b57
+  ws-opts:
+    headers:
+      HOST: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_HK-HK_536
+  network: ws
+  port: 40070
+  server: dodo.cdn-sgp.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: b219842a-d458-4ca1-acb8-efb8721e205a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 44|Relay_HK-HK_537
+  network: ws
+  port: 40090
+  server: dodo.cdn-sgp.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: b219842a-d458-4ca1-acb8-efb8721e205a
+  ws-opts: {}
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '44|disney_HK #2'
+  network: ws
+  port: 8880
+  server: 172.64.38.1
+  servername: 172.64.38.1
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-339.db-link01.top
+    path: /dabai.in172.64.38.1
+- country: ZZ
+  fingerprint: chrome
+  name: 44|Relay_ZZ-HK_959
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.26.94
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '69,72|🇭🇰HK_50 #1'
@@ -527,7 +649,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.net:25488
+    host: 502d36f.dl.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.h1.glados-config.net
@@ -537,7 +659,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.eu:25488
+    host: 502d36f.dl.microsoft.md:25488
     mode: tls
   port: 2377
   server: 502d36f.h2.glados-config.net
@@ -547,7 +669,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.com:25488
+    host: 502d36f.dl.xboxlive.com:25488
     mode: tls
   port: 2377
   server: 502d36f.h3.glados-config.net
