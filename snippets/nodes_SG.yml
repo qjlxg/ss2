@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,38,77,81,118|11,15|🇸🇬 新加坡|@ripaojiedian
+  name: 0,2,38,77,81,84,118|11,15|🇸🇬 新加坡|@ripaojiedian
   network: ws
   port: 5501
   server: v1.cdn.ddnschiyun.xyz
@@ -18,7 +18,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,38,77,81,118|11,15,16|新加坡3|@ripaojiedian
+  name: 0,2,38,77,81,84,118|11,15,16|新加坡3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -34,7 +34,7 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 0,38,77,81,118|11,16|新加坡|@ripaojiedian
+  name: 0,38,77,81,84,118|11,16|新加坡|@ripaojiedian
   network: ws
   port: '5501'
   server: v1.cdn.ddnschiyun.xyz
@@ -72,7 +72,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '5,7,10,12,16,18,21,23,26,28,31,33,36,84|10|🇸🇬 新加坡2|@ripaojiedian #13'
+  name: '5,7,10,12,16,18,21,23,26,28,31,33,36|10|🇸🇬 新加坡2|@ripaojiedian #12'
   network: ws
   port: 5502
   server: v1.cdn.ddnschiyun.xyz
@@ -85,7 +85,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '5,7,10,12,16,18,21,23,26,28,31,33,36,84|11|新加坡2|@ripaojiedian #13'
+  name: '5,7,10,12,16,18,21,23,26,28,31,33,36|11|新加坡2|@ripaojiedian #12'
   network: ws
   port: '5502'
   server: v1.cdn.ddnschiyun.xyz
@@ -97,8 +97,15 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 39,41|ChatGPT  ZZ_1117
+  password: a4ac2592-28e7-4927-94b3-277edae0869a
+  port: 50105
+  server: iepl2.forlive.live
+  type: ss
 - country: SG
-  name: 39|SG_542
+  name: 39|SG_579
   password: '!!str 123456'
   port: 9443
   server: 185.151.146.128
@@ -108,7 +115,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇬SG
+  country: 🇸🇬SG
   name: '39,78,105,115|Singapore_SG_AmazonTechnologie... #2'
   password: amazonskr05
   port: 443
@@ -116,24 +123,31 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: 39,44|netflix_SG
+  password: amazonskr05
+  port: 443
+  server: 13.250.14.224
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇬 SG
-  name: 39,40,41,42,107| SG_579
+  name: 39,40,41,42,107| SG_585
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 39,44|SG_929
+  name: '39,44|netflix_SG #1'
   password: amazonskr05
   port: 443
-  server: 13.250.14.224
+  server: 54.179.241.46
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: SG
-  name: '39,115|Singapore_SG_AmazonTechnologie... #4'
+  name: '39,44,115|Singapore_SG_AmazonTechnologie... #4'
   password: amazonskr05
   port: 443
   server: 18.139.110.249
@@ -142,83 +156,19 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: SG
-  name: 39|Pool_SG_548
+  name: 39|Pool_SG_585
   obfs: plain
   password: VK9dhgualsL
   port: 443
   protocol: origin
   server: 149.28.149.11
   type: ssr
-- alterId: 64
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Pool_SG_549
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  country: 🇬 SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40,41,42,107,110|🇸🇬 SG_583
-  network: tcp
-  port: 57614
-  server: 5.34.176.111
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-  ws-path: /
 - alterId: 0
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|SG_551
-  network: ws
-  port: 40045
-  server: 5.180.78.144
-  skip-cert-verify: true
-  type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Relay_SG-SG_552
-  network: ws
-  port: 443
-  server: sgdo.vipcasper.com
-  servername: sgdo.vipcasper.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
-  ws-opts:
-    headers:
-      HOST: sgdo.vipcasper.com
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39|SG_553
+  name: 39|SG_587
   network: ws
   port: 80
   server: 213.35.113.150
@@ -235,7 +185,51 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_SG-SG_554
+  name: 39|SG_588
+  network: tcp
+  port: 15073
+  server: 15073.kuaiyin02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|SG_589
+  network: ws
+  port: 40045
+  server: 5.180.78.144
+  skip-cert-verify: true
+  type: vmess
+  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Pool_SG_590
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_SG-SG_591
   network: ws
   port: 40000
   server: ml1.333210.xyz
@@ -252,7 +246,7 @@ proxies:
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 39,41|ChatGPT  ZZ_1274
+  name: 39,41|ChatGPT  ZZ_1283
   network: tcp
   port: 12954
   server: 31.192.234.7
@@ -261,68 +255,101 @@ proxies:
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬 SG
-  name: 40,41,42,105,107|🇬 SG_581
-  password: 5waL4f4x9p6AdOhofJTwEn
-  port: 25182
-  server: 157.245.145.1
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_SG-SG_593
+  network: ws
+  port: 443
+  server: sgdo.vipcasper.com
+  servername: sgdo.vipcasper.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
+  ws-opts:
+    headers:
+      HOST: sgdo.vipcasper.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇬 SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39,40,41,42,107,110|🇸🇬 SG_589
+  network: tcp
+  port: 57614
+  server: 5.34.176.111
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_ZZ-SG_1860
+  network: ws
+  port: 443
+  server: o.metuji.com
+  servername: o.metuji.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_ZZ-SG_2015
+  network: ws
+  port: 443
+  server: me.kalakatha.org
+  servername: me.kalakatha.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: me.kalakatha.org
+    path: /linkvws
 - cipher: chacha20-ietf-poly1305
   country: 🇬 SG
-  name: 40,41,42,107|🇸🇬 SG_582
+  name: 40,41,42,107|🇸🇬 SG_588
   password: Mnka1m2ApYl7rGdKXm7ZvA
   port: 23004
   server: 159.89.202.96
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇸🇬 SG
-  name: 40,41,42,78,105,107|🇬 SG_580
+  name: 40,41,42,44,105,107|🇬 SG_586
+  password: 5waL4f4x9p6AdOhofJTwEn
+  port: 25182
+  server: 157.245.145.1
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬 SG
+  name: 40,41,42,78,105,107|🇸🇬 SG_587
   password: se9hMXGey5DpXW2Fr70AqN
   port: 55332
   server: 128.199.76.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 40,42|ChatGPT  SG_394
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node3.s.nodelist-airport.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' CN'
-  name: 44|netflix_SG
-  password: 90f54c08-cd05-45f5-be71-45414af0db6c
-  port: 27261
-  server: gtm1.ktmwan.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: '44|netflix_SG #1'
-  network: tcp
-  port: 3214
-  server: iplc01.my1188.org
-  servername: hkt3-cdn.tencent.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
-- cipher: aes-256-cfb
-  country: SG
-  name: 44|SG_930
-  password: amazonskr05
-  port: 443
-  server: 54.179.241.46
   type: ss
 - alterId: 0
   cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 44|Relay_ZZ-SG_1051
+  name: 44|Relay_ZZ-SG_820
   network: ws
   port: 2095
   server: apivgbndf_cdn.hfhfb.homes
@@ -334,6 +361,20 @@ proxies:
     headers:
       HOST: sgcdn.fask511.cfd
     path: /
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 46| SG_17
+  network: tcp
+  port: 15002
+  server: 15002.kuaiyin02.top
+  servername: 15002.kuaiyin02.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 68|🇸🇬 Pool_🇸🇬SG_919
   password: G!yBwPWH3Vao
@@ -801,13 +842,6 @@ proxies:
     headers:
       Host: uu.flmweb.cc
     path: /
-- cipher: aes-128-gcm
-  name: 85|🇸🇬 新加坡02｜tg@ghosxtop
-  password: 50c1f9d5-7d3c-420c-b777-29b304f2b4ab
-  port: 29978
-  server: p.sg.jscm.nod3.org
-  type: ss
-  udp: true
 - cipher: rc4-md5
   name: 91|🇸🇬 新加坡 IEPL [03] [Std]
   password: ySG65873U4Psu9Or
@@ -828,10 +862,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇨🇴CO
+  country: 🇨CO
   h2-opts: {}
   http-opts: {}
-  name: 105|Relay_🇨🇴CO-🇬SG_13
+  name: 105|Relay_🇨CO-🇬SG_10
   network: ws
   port: 80
   server: sg1.1vpn.sbs
@@ -998,7 +1032,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.is:25488
+    host: 502d36f.dl.nintendo.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.s1.glados-config.net
@@ -1008,7 +1042,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.fi:25488
+    host: 502d36f.dl.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.s2.glados-config.net
@@ -1018,18 +1052,8 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ge:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.s3.glados-config.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 123|012 ✂️-🇸🇬SG-last 32 total=892(...
-  network: tcp
-  port: '12954'
-  server: 64.lwdh.us
-  servername: 31.192.234.7
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
