@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,2,77,81,84,118|11,15,16|新加坡3|@ripaojiedian
+  name: '0,2,77,81,84,118|None_None_vmess_1127 #1'
   network: ws
   port: '2082'
   server: 22.6bnw.top
@@ -18,7 +18,7 @@ proxies:
     path: /cctv?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 2,118|15|🇸🇬 新加坡|@ripaojiedian
+  name: 2|🇸🇬 新加坡
   password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
   port: 50031
   server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmsg.lma1b2.com
@@ -26,7 +26,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 2,118|15|🇸🇬 新加坡2|@ripaojiedian
+  name: 2|🇸🇬 新加坡2
   password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
   port: 50035
   server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmsg.lma1b2.com
@@ -34,7 +34,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2,118|15|🇸🇬 狮城特殊|@ripaojiedian
+  name: 2|🇸🇬 狮城特殊
   password: amazonskr05
   port: 443
   server: 3.35.169.129
@@ -82,7 +82,7 @@ proxies:
       Host: ''
     path: /
 - country: SG
-  name: 39|SG_538
+  name: 39|SG_560
   password: '!!str 123456'
   port: 9443
   server: 185.151.146.128
@@ -90,6 +90,13 @@ proxies:
   sni: bing.com
   type: hysteria2
   udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: 39|SG_561
+  password: amazonskr05
+  port: 443
+  server: 13.250.14.224
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: SG
@@ -101,15 +108,15 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇬 SG
-  name: 39,40,41,42,107| SG_567
+  country: ' SG'
+  name: 39,40,41,42|ChatGPT  SG_382
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 39|Pool_SG_541
+  name: 39|Pool_SG_564
   obfs: plain
   password: VK9dhgualsL
   port: 443
@@ -118,38 +125,24 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  country: ' ZZ'
+  country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 39,41|ChatGPT  ZZ_1274
+  name: 39,40,41,42,110|🇸🇬 SG_585
   network: tcp
-  port: 12954
-  server: 31.192.234.7
+  port: 57614
+  server: 5.34.176.111
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
 - alterId: 0
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|SG_544
-  network: ws
-  port: 40045
-  server: 5.180.78.144
-  skip-cert-verify: true
-  type: vmess
-  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Relay_SG-SG_545
+  name: 39|Relay_SG-SG_567
   network: ws
   port: 443
   server: sgdo.vipcasper.com
@@ -167,7 +160,7 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|SG_546
+  name: 39|SG_568
   network: ws
   port: 80
   server: 213.35.113.150
@@ -179,12 +172,40 @@ proxies:
     headers:
       HOST: dl.kgvn.garenanow.com
     path: /
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 39|SG_569
+  network: ws
+  port: 40045
+  server: 5.180.78.144
+  skip-cert-verify: true
+  type: vmess
+  uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,41|ChatGPT  ZZ_1306
+  network: tcp
+  port: 12954
+  server: 31.192.234.7
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-path: /
 - alterId: 64
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 39|Pool_SG_547
+  name: 39|Pool_SG_571
   network: ws
   port: 443
   server: 134.122.139.79
@@ -199,48 +220,27 @@ proxies:
     path: /path/011410073331
 - alterId: 0
   cipher: auto
-  country: 🇬 SG
+  country: ' US'
   h2-opts: {}
   http-opts: {}
-  name: 39,40,41,42,107,110|🇸🇬 SG_568
-  network: tcp
-  port: 57614
-  server: 5.34.176.111
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Relay_ZZ-SG_1966
+  name: 39,40|Relay_ US-US_582
   network: ws
   port: 443
-  server: me.kalakatha.org
-  servername: me.kalakatha.org
+  server: max.mankadmu.com
+  servername: max.mankadmu.com
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      HOST: me.kalakatha.org
+      HOST: max.mankadmu.com
     path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 42|ChatGPT  SG_403
-  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
-  port: 50006
-  server: iepl2.forlive.live
-  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 44|Relay_-SG_569
+  name: 44|Relay_-SG_713
   network: ws
   port: 2082
   server: 162.159.136.50
@@ -252,12 +252,19 @@ proxies:
     headers:
       HOST: aksg.6bnw.top
     path: /cctv?ed=2048
+- cipher: aes-256-cfb
+  country: SG
+  name: 44|SG_777
+  password: amazonskr05
+  port: 443
+  server: 54.179.241.46
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 44,105|Relay_🏁ZZ-SG_153
+  name: 44,105|Relay_🏁ZZ-🇬SG_137
   network: ws
   port: 2082
   server: 22.6bnw.top
@@ -951,18 +958,12 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 118|1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 122|GLaDOS-SG-01
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.net:25488
+    host: 502d36f.dl.microsoft.lu:25488
     mode: tls
   port: 2377
   server: 502d36f.s1.glados-config.net
@@ -972,7 +973,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.it:25488
+    host: 502d36f.dl.microsoft.ee:25488
     mode: tls
   port: 2377
   server: 502d36f.s2.glados-config.net
@@ -982,7 +983,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.it:25488
+    host: 502d36f.dl.microsoft.lv:25488
     mode: tls
   port: 2377
   server: 502d36f.s3.glados-config.net
