@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2,118|15|🇹🇼 台湾1|@ripaojiedian
+  password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
+  port: 50023
+  server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmtw.lma1b2.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2,118|15|🇹🇼 台湾2|@ripaojiedian
+  password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
+  port: 50030
+  server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmtw.lma1b2.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '5,7,10,12,16,18,21,23,26,28,31,33,36|10|🇹🇼 台湾2|@ripaojiedian #12'
@@ -28,14 +44,14 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   country: TW
-  name: 39|TW_599
+  name: 39|TW_543
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_600
+  name: 39|Relay_TW-TW_544
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -62,12 +78,27 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|TW_546
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
 - alterId: 64
   cipher: auto
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 39|Pool_TW_602
+  name: 39|Pool_TW_547
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -80,34 +111,6 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39|TW_603
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 42|ChatGPT  TW_22
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
 - alterId: 1
   cipher: auto
   name: 76|台湾2 tg@freebaipiao
@@ -303,7 +306,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.md:25488
+    host: 502d36f.dl.nintendo.it:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -313,7 +316,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nvidia.com:25488
+    host: 502d36f.dl.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -323,7 +326,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ge:25488
+    host: 502d36f.dl.microsoft.com:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -333,7 +336,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.epicgames.com:25488
+    host: 502d36f.dl.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -343,7 +346,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.it:25488
+    host: 502d36f.dl.microsoft.it:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -353,8 +356,22 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.net:25488
+    host: 502d36f.dl.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 123|029 ✂️-🇹🇼TW-last 32 total=926(...
+  network: ws
+  port: '12945'
+  server: 55.lwdh.us
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 154.40.60.172
+    path: ''
