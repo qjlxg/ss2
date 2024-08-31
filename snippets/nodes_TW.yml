@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '0,5,7,10,12,21,23,26,28,36,38,81,84|10|🇹🇼 台湾2|@ripaojiedian #16'
-  network: ws
-  port: 5201
-  server: ovhsg.v4.ddnsjifeng.xyz
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,5,7,10,12,21,23,26,28,36,38,81,84|11|台湾2|@ripaojiedian #16'
-  network: ws
-  port: '5201'
-  server: ovhsg.v4.ddnsjifeng.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 2|🇹🇼 台湾1
@@ -44,34 +17,41 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '16,18,31,33|10|🇹🇼 台湾2|@ripaojiedian #12'
+  name: '5,7,10,12,16,18,21,23,26,28,31,33,36,38,81|10|🇹🇼 台湾2|@ripaojiedian #14'
   network: ws
-  port: 5203
+  port: 5201
   server: ovhsg.v4.ddnsjifeng.xyz
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '16,18,31,33|11|台湾2|@ripaojiedian #12'
+  name: '5,7,10,12,16,18,21,23,26,28,31,33,36,38,81|11|台湾2|@ripaojiedian #14'
   network: ws
-  port: '5203'
+  port: '5201'
   server: ovhsg.v4.ddnsjifeng.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  country: TW
+  name: 39|TW_608
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 223.165.4.173
+  type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_649
+  name: 39|Relay_TW-TW_609
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -80,24 +60,6 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 64
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39|Pool_TW_650
-  network: ws
-  port: 30001
-  server: 61.220.129.190
-  servername: www.60548529.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.60548529.xyz
-    path: /path/003500111307
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -121,7 +83,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 39|TW_652
+  name: 39|TW_611
   network: ws
   port: 12945
   server: 154.40.60.172
@@ -131,24 +93,24 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 44,118|CN_speednode_0030
-  password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0
-  port: 31633
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 44,118|CN_speednode_0033
-  password: d3107eb5-d91d-4499-a902-f452ec806257
-  port: 31632
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 44,118|CN_speednode_0032
-  password: a05feac6-42cd-441e-8d41-1c4577065a37
-  port: 35632
-  server: gdcub.yunnode.win
-  type: ss
+- alterId: 64
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Pool_TW_612
+  network: ws
+  port: 30001
+  server: 61.220.129.190
+  servername: www.60548529.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.60548529.xyz
+    path: /path/003500111307
 - alterId: 1
   cipher: auto
   name: 76|台湾2 tg@freebaipiao
@@ -344,7 +306,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.es:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -354,7 +316,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.de:25488
+    host: 502d36f.dl.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -364,7 +326,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.it:25488
+    host: 502d36f.dl.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -374,7 +336,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.lt:25488
+    host: 502d36f.dl.nintendo.es:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -384,7 +346,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ee:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -394,7 +356,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.ch:25488
+    host: 502d36f.dl.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
