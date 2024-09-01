@@ -1,14 +1,30 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,118|15|🇹🇼 台湾|@ripaojiedian
+  password: 5a88940e-e7f8-475b-8157-35863345eccf
+  port: 40017
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2,118|15|🇹🇼 台湾2|@ripaojiedian
+  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
+  port: 50222
+  server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   country: TW
-  name: 39|TW_605
+  name: 39|TW_576
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_606
+  name: 39|Relay_TW-TW_577
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -17,45 +33,12 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39|TW_607
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇼TW
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40,105,124|🆙55@oneclickvpnkeys
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 39|Pool_TW_609
+  name: 39|Pool_TW_578
   network: ws
   port: 30001
   server: 61.220.129.190
@@ -68,6 +51,39 @@ proxies:
     headers:
       HOST: www.60548529.xyz
     path: /path/003500111307
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 39|TW_579
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,40,124|🆙55@oneclickvpnkeys
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 1
   cipher: auto
   name: 76|台湾2 tg@freebaipiao
@@ -263,7 +279,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.cat:25488
+    host: 502d36f.dl.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -273,7 +289,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.es:25488
+    host: 502d36f.dl.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -283,7 +299,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.hu:25488
+    host: 502d36f.dl.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -293,7 +309,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.blizzard.com:25488
+    host: 502d36f.dl.microsoft.cl:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -303,7 +319,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.be:25488
+    host: 502d36f.dl.nintendo.it:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -313,7 +329,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.net:25488
+    host: 502d36f.dl.microsoft.lv:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net

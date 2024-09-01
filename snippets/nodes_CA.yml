@@ -1,25 +1,43 @@
 proxies:
-- cipher: aes-256-gcm
-  country: ' CA'
-  name: '39,40,41,42,107|_350 #2'
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: '39,40,41,42,45,78,107|_09 #1'
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇦CA
-  name: 39,40,41,42,107|🇨🇦CA_440
+  name: 39,40,41,42,107|🇨🇦CA_433
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CA
+  name: '39,40,41,42,45,78,107|_11 #1'
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: 142.4.216.225
+  type: ss
+- cipher: aes-256-gcm
+  country: ' ZZ'
+  name: 39,41|ChatGPT  ZZ_463
+  password: 7gaTTlW73G
+  port: 49602
+  server: 51.222.157.179
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' ZZ'
+  h2-opts: {}
+  http-opts: {}
+  name: 39,44,124|美国 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -28,30 +46,16 @@ proxies:
   name: 39|Relay_CA-CA_32
   network: ws
   port: 443
-  server: 142.724064.xyz
-  servername: 142.724064.xyz
+  server: 141.724064.xyz
+  servername: 141.724064.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
   ws-opts:
     headers:
-      HOST: 142.724064.xyz
-    path: /pttnvws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '39,40,41,42,107,110,124|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: tcp
-  port: '22324'
-  server: 23.162.200.182
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+      HOST: 141.724064.xyz
+    path: /gmvfvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -72,61 +76,24 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  country: CA
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 39|Relay_CA-CA_36
-  network: ws
-  port: 443
-  server: 145.724064.xyz
-  servername: 145.724064.xyz
+  name: '39,40,41,42,107,110,124|Channel id: @ShadowProxy66 🇨🇦 #2'
+  network: tcp
+  port: '22324'
+  server: 23.162.200.182
+  servername: ''
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
-  ws-opts:
-    headers:
-      HOST: 145.724064.xyz
-    path: /zrqrvws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 39,44,105,124|美国 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 39|CA_38
-  network: http
-  port: 3389
-  server: 142.93.144.99
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 39,40| ZZ_1013
+  name: 39,40| ZZ_992
   network: ws
   port: 443
   server: 23.162.200.94
@@ -144,25 +111,7 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 39|CA_40
-  network: ws
-  port: 443
-  server: 134.195.198.61
-  servername: novia.makeup
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: novia.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 39|CA_41
+  name: 39|CA_38
   network: ws
   port: 443
   server: 134.195.198.147
@@ -179,20 +128,53 @@ proxies:
   cipher: auto
   country: CA
   h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 39|CA_39
+  network: http
+  port: 3389
+  server: 178.128.237.6
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
   http-opts: {}
-  name: 39|Relay_CA-CA_45
+  name: 39|Relay_CA-CA_40
   network: ws
   port: 443
-  server: 141.724064.xyz
-  servername: 141.724064.xyz
+  server: 145.724064.xyz
+  servername: 145.724064.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
   ws-opts:
     headers:
-      HOST: 141.724064.xyz
-    path: /gmvfvws
+      HOST: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 39|Relay_CA-CA_41
+  network: ws
+  port: 443
+  server: 142.724064.xyz
+  servername: 142.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
+  ws-opts:
+    headers:
+      HOST: 142.724064.xyz
+    path: /pttnvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -201,13 +183,31 @@ proxies:
     method: GET
     path:
     - /
-  name: 39|CA_46
+  name: 39|CA_43
   network: http
   port: 3389
-  server: 178.128.237.6
+  server: 142.93.144.99
   skip-cert-verify: true
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 39|CA_44
+  network: ws
+  port: 443
+  server: 134.195.198.61
+  servername: novia.makeup
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: novia.makeup
+    path: /linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -362,10 +362,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 73|加拿大 076
+  name: 73,123|018 ✂️-🇮🇷IR-last 32 total=934(...
   network: ws
-  port: 2095
+  port: '2095'
   server: 172.67.170.103
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -463,13 +464,12 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1710
-  name: '73,110|🇺🇸 US_644 #1'
+  name: 73|加拿大 067
   network: ws
   port: 80
   server: 104.16.60.8
   servername: range-shape-b3fuegu.bananok182.workers.dev
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
@@ -1103,7 +1103,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '73,110|🇺🇸 US_696 #1'
+  name: 73|加拿大 196
   network: ws
   port: 8880
   server: 104.16.61.8
@@ -1118,7 +1118,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '73,110|🇺🇸 US_691 #1'
+  name: 73|加拿大 197
   network: ws
   port: 8080
   server: 104.16.60.8
@@ -1628,7 +1628,7 @@ proxies:
   country: 🇦 CA
   h2-opts: {}
   http-opts: {}
-  name: 107|🇦 CA_439
+  name: 107|🇦 CA_432
   network: ws
   port: 443
   server: 68.168.31.196
@@ -1642,7 +1642,7 @@ proxies:
   ws-path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 110|🇨🇦 CA_439
+  name: 110|🇨🇦 CA_432
   network: ws
   port: 443
   server: 68.168.31.196
@@ -1654,19 +1654,19 @@ proxies:
       Host: 68.168.31.196
     path: /linkvws
 - alterId: 0
-  cipher: auto
-  name: 123|010 ✂️-🇨🇦CA-last 32 total=934(...
+  cipher: none
+  name: 123|007 ✂️-🇨🇦CA-last 32 total=934(...
   network: ws
-  port: '2087'
-  server: 104.16.61.8
-  servername: 8wccc4a94-term-4a94.ketowil344.workers.dev
-  tls: true
+  port: '2052'
+  server: Zula.ir
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: 6dbb6c48-ff95-502a-a92d-4ca8189308f0
   ws-opts:
     headers:
-      Host: 8wccc4a94-term-4a94.ketowil344.workers.dev
-    path: /ivideos.sbs/linkws
+      Host: De1.vmess.site.
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 124|[🇨🇦]t.me/ConfigsHub
@@ -1680,20 +1680,6 @@ proxies:
   ws-opts:
     headers:
       Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '124|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 104.21.94.64
-  servername: linja05.hwcar.sbs
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
     path: /linkws
 - alterId: 0
   cipher: auto
