@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2|🇹🇼 台湾
+  password: 5a88940e-e7f8-475b-8157-35863345eccf
+  port: 40017
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   country: TW
   name: 39|TW_646
@@ -40,7 +48,7 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: '39,236,272|🇹🇼 Taiwan - Taipei 🌏 VM-WS-TLS... #2'
+  name: '39,272|🇹🇼 Taiwan - Taipei 🌏 VM-WS-TLS... #2'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -55,10 +63,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇼TW
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: 39,40,132,184,275,405,413,438,493|🆙55@oneclickvpnkeys
+  name: 39,40,132,275,405,413,438,493|🆙55@oneclickvpnkeys
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -71,14 +79,24 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: ' TW'
-  name: 42,257|🇪🇸 ES 20 → tg@nicevpn123
-  password: 835d21b0-5322-4a77-8aff-4aff633642b0
-  port: 61005
-  server: 2.forlive.live
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 45,281,371,378|台湾|@ripaojiedian
+  network: ws
+  port: '5202'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 57|台湾省 中华电信(HiNet)数据中心
@@ -251,36 +269,6 @@ proxies:
   ws-headers:
     host: ''
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '236,312,346,347|🇹🇼TW-211.72.35.110-5227 #1'
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  servername: woideneu7.jsworld.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
-  ws-opts:
-    headers:
-      Host: woideneu7.jsworld.eu.org
-    path: /nishikata
-- alterId: 64
-  cipher: auto
-  name: 236|🇹🇼TW-103.177.33.22-1304
-  network: ws
-  port: '30001'
-  server: 103.177.33.22
-  servername: www.35709620.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.35709620.xyz
-    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 241|台湾_121320001
@@ -532,6 +520,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 280,414|TW??SSRSUB_647238701
+  password: 6932d5e9-85b5-4b4e-9680-22926b3b9ae3
+  port: 36241
+  server: free.2weradf.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '280,281,371|10|🇹🇼 台湾|@ripaojiedian #1'
+  network: ws
+  port: 5202
+  server: ovhsg.v4.ddnsjifeng.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 290|github.com/freefq-台湾省公司2222
@@ -595,33 +608,6 @@ proxies:
     headers:
       Host: tw1g.jeidian.xyz
     path: /mugua
-- alterId: 0
-  cipher: auto
-  name: 371|10|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 5202
-  server: ovhsg.v4.ddnsjifeng.xyz
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 371,378|台湾|@ripaojiedian
-  network: ws
-  port: '5202'
-  server: ovhsg.v4.ddnsjifeng.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 388|v2cross.com - 台湾省花莲县中华电信 4
@@ -951,7 +937,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.lv:25488
+    host: 502d36f.dl.fastly.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -961,7 +947,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.be:25488
+    host: 502d36f.dl.microsoft.io:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -971,7 +957,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.eu:25488
+    host: 502d36f.dl.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -981,7 +967,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nvidia.com:25488
+    host: 502d36f.dl.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -991,7 +977,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.it:25488
+    host: 502d36f.dl.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -1001,22 +987,8 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.be:25488
+    host: 502d36f.dl.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 490|003 ✂️-🇹🇼TW-last 32 total=934(...
-  network: ws
-  port: '12945'
-  server: 55.lwdh.us
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 154.40.60.172
-    path: ''
