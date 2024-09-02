@@ -2,8 +2,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,2,87,95,106,141,166,196,231,236,244,256,257,462,525,526,527,528,549,553,567,568,569,623,670,671,672,681,682,687,693,694,696,717,718,719,772,773,774,796,1002,1024|China_None_vmess_1129
-    #2'
+  name: '2,38,95,106,141,166,196,231,236,244,256,257,525,526,527,528,549,553,567,568,569,623,670,672,681,682,687,693,694,695,696,717,718,719,772,773,774,796,1002,1024|11,15|🇹🇼
+    台湾|@ripaojiedian #3'
   network: ws
   port: 5202
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -17,10 +17,18 @@ proxies:
     headers:
       Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: '2,166,196,244,285,525,568,672,696,796,1024|15|🇹🇼 台湾2|@ripaojiedian #1'
+  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
+  port: 50222
+  server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '0,87,95,106,141,231,462,482,526,527,528,549,567,568,569,772,773,774,797,1024|China_None_vmess_1142
-    #2'
+  name: '38,95,106,141,231,482,526,527,528,549,567,568,569,772,773,774,797,1024|11,16|台湾|@ripaojiedian
+    #3'
   network: ws
   port: '5202'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -32,24 +40,9 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 2,166,196,244,285,525,568,672,696,796|🇹🇼 台湾2|@ripaojiedian
-  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
-  port: 50222
-  server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  country: TW
-  name: 39|TW_578
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 223.165.4.173
-  type: ss
 - cipher: rc4-md5
   country: TW
-  name: 39|Relay_TW-TW_579
+  name: 39|Relay_TW-TW_550
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -58,24 +51,6 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 39,40,123,130,141,173,231,403,455,506,514,517,549,724,762,833,841,842,889,890,898,905,906,947,948,956,1039|🆙55@oneclickvpnkeys
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   country: TW
@@ -97,19 +72,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: ' TW'
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: '42,173|[98]41,42,173|[98]41,42,173|[9... #4'
+  name: 39,40,123,130,141,173,231,263,403,455,506,514,517,549,724,762,833,841,842,889,890,891,894,898,905,906,947,948,956,1039|🆙55@oneclickvpnkeys
   network: ws
-  port: 31945
+  port: '31945'
   server: 103.159.206.35
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts: {}
-  ws-path: /
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 57|台湾省 中华电信(HiNet)数据中心
@@ -203,8 +181,8 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '135,136,172,221,222,261,265,783|🇹🇼 台湾01-1B #2'
-  password: 5791fa39-6720-426d-920e-863fd16d4219
+  name: '135,136,172,221,222,261,783|🇹🇼 台湾01-1A #4'
+  password: bfa4cce3-857e-4479-adf9-878174280cb4
   port: 47564
   server: gd.xueyejiasu.com
   type: ss
@@ -247,8 +225,8 @@ proxies:
       Host: twnat2.dackcf1.top
     path: /x2cloud?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: '135,136,161,172,221,222,237,261,265,783|🇹🇼 台湾 1-1A #2'
-  password: 72475a5e-5fa4-453a-9b03-75f8f6990441
+  name: '135,136,161,172,221,222,237,261,783|🇹🇼 台湾 1-1B #2'
+  password: 9c5313ae-5f3c-46ff-a4e5-4f20146e9dd5
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -297,7 +275,7 @@ proxies:
   uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
 - alterId: 0
   cipher: auto
-  name: '154,155,156,158,173,233,234|🔒🇹🇼 TW 154.40.60.172 ◈ ws:1294... #5'
+  name: '154,155,156,158,173,233|🔒🇹🇼 TW 154.40.60.172 ◈ ws:1294... #4'
   network: ws
   port: '12945'
   server: 55.lwdh.us
@@ -311,7 +289,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '154,158,173,233,234|💰🇹🇼 TW 1.175.237.10 ◈ ws:40046... #3'
+  name: '154,158,173,233|💰🇹🇼 TW 1.175.237.10 ◈ ws:40046... #2'
   network: ws
   port: 40046
   server: uu.flmweb.cc
@@ -332,21 +310,21 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '161,172,237,261,783|🇹🇼 台湾 A TW #2'
-  password: a7528479-8fab-4766-b99e-e9f4441a4b82
+  password: 2ad1c6ce-87ea-49b5-b19b-908fc47cfce7
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '161,172,237,261,783|🇹🇼 台湾 B TW #2'
-  password: a7528479-8fab-4766-b99e-e9f4441a4b82
+  password: 2ad1c6ce-87ea-49b5-b19b-908fc47cfce7
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '161,172,237,261,783|🇹🇼 台湾 C TW #2'
-  password: a7528479-8fab-4766-b99e-e9f4441a4b82
+  password: 2ad1c6ce-87ea-49b5-b19b-908fc47cfce7
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
@@ -356,7 +334,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 166,236,244,428,623,670,671,672,681,682,687,693,694,696,730|1.47|TWyoutube资源分享师156
+  name: 166,236,244,428,623,670,672,681,682,687,693,694,695,696,730|1.47|TWyoutube资源分享师156
   network: http
   port: '20715'
   server: 45.121.51.103
@@ -370,7 +348,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '166,236,244,623,670,671,672,681,682,687,693,694,696,960|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使...
+  name: '166,236,244,623,670,672,681,682,687,693,694,695,696,960|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使...
     #69'
   network: ws
   port: '80'
@@ -386,7 +364,7 @@ proxies:
     path: ?ed=2048
 - alterId: 1
   cipher: auto
-  name: '166,236,244,515,623,670,671,672,681,682,687,693,694,696|TW-1.161.186.146-2323
+  name: '166,236,244,515,623,670,672,681,682,687,693,694,695,696|TW-1.161.186.146-2323
     #3'
   network: ws
   port: 64443
@@ -400,7 +378,7 @@ proxies:
     path: /clientarea
 - alterId: 0
   cipher: auto
-  name: '166,236,244,623,670,671,672,681,682,687,693,694,696|🇼TW-114.42.198.166-2399
+  name: '166,236,244,623,670,672,681,682,687,693,694,695,696|🇼TW-114.42.198.166-2399
     #3'
   network: ws
   port: 80
@@ -416,7 +394,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '166,236,244,516,623,670,671,672,681,682,687,693,694,696|🇼TW-114.43.155.173-2529
+  name: '166,236,244,516,623,670,672,681,682,687,693,694,695,696|🇼TW-114.43.155.173-2529
     #3'
   network: ws
   port: 45215
@@ -433,7 +411,7 @@ proxies:
 - alterId: 0
   cipher: auto
   country: mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-  name: '166,236,244,585,623,661,666,667,670,671,672,681,682,687,693,694,696,698,800|mattkaydiary.com|中国台湾(TW)Taiwa...
+  name: '166,236,244,585,623,661,666,667,670,672,681,682,687,693,694,695,696,698,800|mattkaydiary.com|中国台湾(TW)Taiwa...
     #3'
   network: ws
   port: 33792
@@ -449,7 +427,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '166,236,244,435,605,623,670,671,672,681,682,687,693,694,696|🇼TW-211.72.35.110-5142
+  name: '166,236,244,435,605,623,670,672,681,682,687,693,694,696|🇼TW-211.72.35.110-5142
     #3'
   network: ws
   port: 443
@@ -466,7 +444,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '166,236,244,605,623,670,671,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5143
+  name: '166,236,244,605,623,670,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5143
     #3'
   network: ws
   port: 443
@@ -483,7 +461,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '166,236,244,605,623,670,671,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5144
+  name: '166,236,244,605,623,670,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5144
     #3'
   network: ws
   port: 443
@@ -500,7 +478,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '166,236,244,605,623,670,671,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5145
+  name: '166,236,244,605,623,670,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5145
     #3'
   network: ws
   port: 443
@@ -517,7 +495,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '166,236,244,605,623,670,671,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5146
+  name: '166,236,244,605,623,670,672,681,682,687,693,694,696|🇹🇼TW-211.72.35.110-5146
     #3'
   network: ws
   port: 443
@@ -730,14 +708,14 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: '172,261,783|🇹🇼 TW 海外用户 #2'
-  password: a7528479-8fab-4766-b99e-e9f4441a4b82
+  password: 2ad1c6ce-87ea-49b5-b19b-908fc47cfce7
   port: 10001
   server: tw.cooc.icu
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 173|[98]235|💰🇹🇼 TW 1.175.237.10 ◈ ...
+  name: 173|[98]173|[98]235|💰🇹🇼 TW 1.175.2...
   network: ws
   port: 40046
   server: 1.175.237.10
@@ -752,7 +730,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '173,234,646|🇹🇼TW-1.175.237.10-0713 #6'
+  name: '173,646|🇹🇼TW-1.175.237.10-0713 #6'
   network: ws
   port: 40046
   server: uu.flmweb.cc
@@ -854,35 +832,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 234|💥🇹🇼 TW 154.40.60.172 ◈ ws:1294...
-  network: ws
-  port: 12945
-  server: 55.lwdh.us
-  servername: 154.40.60.172
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 154.40.60.172
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '234|🔒🇹🇼 TW 154.40.60.172 ◈ ws:1294... #6'
-  network: ws
-  port: '12945'
-  server: 55.lwdh.us
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 154.40.60.172
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '255,536|未命名 #602'
+  name: '255,536|未命名 #611'
   network: tcp
   port: '51219'
   server: 45.121.51.234
@@ -898,16 +848,100 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '266|🇹🇼 台湾1-1A #1'
+  name: 263|GCP-台湾
+  network: ws
+  port: '8080'
+  server: 35.206.247.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 263|台湾
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- alterId: 0
+  cipher: auto
+  name: 263|台湾2
+  network: tcp
+  port: 228
+  server: twpaopao4.dskjahf.xyz
+  tls: false
+  type: vmess
+  uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf
+- alterId: 0
+  cipher: auto
+  name: '263,897,905|🔒 VM-TCP-NONE 🇹🇼 TW-210.79.155... #1'
+  network: tcp
+  port: '58539'
+  server: 210.79.155.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9976c89d-3054-41ec-92b5-bb157213bd2d
+- alterId: 0
+  cipher: auto
+  name: 263|v1-台湾02|1x|v
+  network: ws
+  port: '6628'
+  server: v1.cdn.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a2c9e81-6ee5-394b-ba02-389b3ebc2332
+  ws-opts:
+    headers:
+      Host: ed8.bilibili.com
+    path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+- alterId: 0
+  cipher: auto
+  name: 263|>🇹🇼 TW|Hs|0706|TG@FProxies|
+  network: tcp
+  port: '30893'
+  server: cctv.iepl01.yuntiair365.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
+- alterId: 0
+  cipher: auto
+  name: '263|TG频道:@MTProto_666（台湾） #1'
+  network: ws
+  port: '49878'
+  server: gyb.kd69.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb43a0da-08f0-4f79-a1ec-0dad839ce915
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 266|🇹🇼 台湾1-1A
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 1cd5af46-65c9-4426-b5b8-7d8118785ace
+  uuid: 8feaee18-b9d9-4cef-8c9a-aad336036a38
 - alterId: 0
   cipher: auto
-  name: 266|🇹🇼 台湾2-1B
+  name: 266|🇹🇼 台湾2-1A
   network: tcp
   port: '45077'
   server: xdd.dashuai.cyou
@@ -1134,7 +1168,7 @@ proxies:
   name: 482|>🇹🇼 TW|Ns|0720|TG@FProxies|
   network: ws
   port: '8080'
-  server: 104.19.47.191
+  server: 104.19.47.97
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -1147,20 +1181,7 @@ proxies:
   name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #1'
   network: ws
   port: '8080'
-  server: 104.19.47.240
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
-  network: ws
-  port: '8080'
-  server: 172.67.172.235
+  server: 172.67.172.146
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -1168,19 +1189,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
-  network: ws
-  port: '8080'
-  server: 104.19.47.123
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '482|>🇹🇼 TW|Ms|0720|TG@FProxies| #1'
@@ -1196,19 +1204,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '482|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #11'
-  network: tcp
-  port: '19822'
-  server: xgcta.dx002.top
-  tls: false
-  type: vmess
-  uuid: 278ac075-9eef-3d9d-8532-9f7f50f73972
-- alterId: 0
-  cipher: auto
-  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #6'
+  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
   network: ws
   port: '8080'
-  server: 104.19.47.104
+  server: 104.19.47.191
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -1216,6 +1215,32 @@ proxies:
     headers:
       Host: ''
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
+  network: ws
+  port: '8080'
+  server: 172.67.172.235
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #5'
+  network: ws
+  port: '80'
+  server: 108.165.144.158
+  tls: false
+  type: vmess
+  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '482|>🇹🇼 TW|Ms|0720|TG@FProxies| #2'
@@ -1234,7 +1259,7 @@ proxies:
   name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #7'
   network: ws
   port: '8080'
-  server: 104.19.47.97
+  server: 104.19.47.104
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -1247,27 +1272,27 @@ proxies:
   name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #8'
   network: ws
   port: '8080'
-  server: 172.67.172.146
+  server: 104.19.47.123
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '482|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
   network: ws
-  port: '80'
-  server: 108.165.144.158
+  port: '8080'
+  server: 104.19.47.240
   tls: false
   type: vmess
-  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '513,752,761|🇹🇼 Taiwan - Taipei 🌏 VM-WS-TLS... #7'
@@ -1933,16 +1958,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf
-- alterId: 0
-  cipher: auto
-  name: '897,905|🔒 VM-TCP-NONE 🇹🇼 TW-210.79.155... #1'
-  network: tcp
-  port: '58539'
-  server: 210.79.155.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9976c89d-3054-41ec-92b5-bb157213bd2d
 - cipher: aes-256-cfb
   name: 921|TG频道@mfbpn-台湾3
   obfs: tls1.2_ticket_auth
@@ -2221,7 +2236,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.cl:25488
+    host: 502d36f.dl.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.t1.glados-config.net
@@ -2231,7 +2246,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.cl:25488
+    host: 502d36f.dl.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.t2.glados-config.net
@@ -2241,7 +2256,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.net:25488
+    host: 502d36f.dl.microsoft.is:25488
     mode: tls
   port: 2377
   server: 502d36f.t3.glados-config.net
@@ -2251,7 +2266,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.microsoft.md:25488
+    host: 502d36f.dl.microsoft.com:25488
     mode: tls
   port: 2377
   server: 502d36f.t4.glados-config.net
@@ -2261,7 +2276,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.de:25488
+    host: 502d36f.dl.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t5.glados-config.net
@@ -2271,7 +2286,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.dl.nintendo.be:25488
+    host: 502d36f.dl.microsoft.com:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.net
