@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13,293,567,568,569,1024|2|🇩🇪_DE_德国 #3'
+  name: '13,293,567,568,569|2|🇩🇪_DE_德国 #2'
   network: ws
   port: 45103
   server: de-frankfurt-oracle-b26cf5.ip1.shop
@@ -9,6 +9,21 @@ proxies:
   type: vmess
   uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 83,435|🇩🇪DE-89.169.55.152-1291
+  network: ws
+  port: '33026'
+  server: 89.169.55.152
+  servername: socks5tobefree.ydns.eu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6d586155-4b43-4b02-894c-d621aa338924
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /
 - cipher: aes-128-gcm
   name: 107|🇩🇪 德国01｜tg@ghosxtop
   password: 50c1f9d5-7d3c-420c-b777-29b304f2b4ab
@@ -16,37 +31,9 @@ proxies:
   server: p.other.jscm.nod3.org
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '164,514|%f0%9f%87%a9%f0%9f%87%aa%20Ger... #1'
-  network: ws
-  port: 443
-  server: de-full.privateip.net
-  servername: null
-  tls: true
-  type: vmess
-  uuid: cfc2f38a-5402-42d8-ba22-cd6111b0d04e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 164,514|%f0%9f%87%a9%f0%9f%87%aa%20Ger...
-  network: ws
-  port: 443
-  server: de2-full.privateip.net
-  servername: null
-  tls: true
-  type: vmess
-  uuid: 4d6fa72f-62cf-4b4a-92b1-a7dbf354e4c6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
 - cipher: chacha20-ietf-poly1305
   name: '172,261,783|🇩🇪 德国 DE | BIZ #2'
-  password: fcf5ccff-c5a7-4d80-b515-7a136517d2e9
+  password: a6d78b32-6e90-4f25-b1ce-7884cf74d85e
   port: 35607
   server: ge.cooc.icu
   type: ss
@@ -67,20 +54,6 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: '173,361,451|🇩🇪 Germany , Hesse #4'
-  network: ws
-  port: '8443'
-  server: 104.18.202.250
-  servername: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /afrhms07.xfixedfloat.cfd/linkws
-- alterId: 0
-  cipher: auto
   name: '173,451|🇩🇪 Germany , Hesse #2'
   network: ws
   port: '2095'
@@ -95,18 +68,50 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '173,501|🇩🇪 Germany #3'
+  name: '173,361,451|🇩🇪 Germany , Hesse #4'
   network: ws
-  port: '80'
-  server: 80.92.204.207
-  servername: google.com
-  tls: false
+  port: '8443'
+  server: 104.18.202.250
+  servername: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  tls: true
   type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
   ws-opts:
     headers:
-      Host: google.com
-    path: /vmess
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /afrhms07.xfixedfloat.cfd/linkws
+- alterId: 2
+  cipher: auto
+  name: 173,256,482,715|🇪 [vip①]德国1 - MG Network
+  network: ws
+  port: 23616
+  server: 16.v2-ray.cyou
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23b8ba75-bc47-30c3-9a60-813556e6577b
+  ws-opts:
+    headers:
+      Host: 16.v2-ray.cyou
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 173,256,482,715|🇩🇪 [vip①]德国2 - MG Network
+  network: ws
+  port: 23618
+  server: 18.v2-ray.cyou
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23b8ba75-bc47-30c3-9a60-813556e6577b
+  ws-opts:
+    headers:
+      Host: 18.v2-ray.cyou
+    path: /
 - alterId: 0
   cipher: auto
   name: '173,501|🇩🇪 Germany #14'
@@ -131,6 +136,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 2b31fcdb-3217-41cc-9c8a-567592cf81a0
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '173,501|🇩🇪 Germany #3'
+  network: ws
+  port: '80'
+  server: 80.92.204.207
+  servername: google.com
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
   ws-opts:
     headers:
       Host: google.com
@@ -825,6 +844,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d5e5a73-8fa1-4c43-b67f-c0211ba34a03
+- alterId: 0
+  cipher: auto
+  name: 514|%f0%9f%87%a9%f0%9f%87%aa%20Ger...
+  network: ws
+  port: 443
+  server: de2-full.privateip.net
+  servername: null
+  tls: true
+  type: vmess
+  uuid: 4d6fa72f-62cf-4b4a-92b1-a7dbf354e4c6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '514|%f0%9f%87%a9%f0%9f%87%aa%20Ger... #1'
+  network: ws
+  port: 443
+  server: de-full.privateip.net
+  servername: null
+  tls: true
+  type: vmess
+  uuid: cfc2f38a-5402-42d8-ba22-cd6111b0d04e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
 - alterId: 1
   cipher: auto
   name: 515|🇩🇪_DE_德国_1@31
