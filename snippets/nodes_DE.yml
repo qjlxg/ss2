@@ -9,16 +9,37 @@ proxies:
   type: vmess
   uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 56|Germany01
+  network: ws
+  port: 8880
+  server: haxeu4.seeworld.pro
+  tls: false
+  type: vmess
+  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /eu4hax
 - cipher: aes-128-gcm
   name: 98|🇩🇪 德国01｜tg@ghosxtop
-  password: 50c1f9d5-7d3c-420c-b777-29b304f2b4ab
+  password: 9aa843e6-33c2-450b-8859-dfd6f73d57ac
   port: 31225
   server: p.other.jscm.nod3.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: '101,151,189,220,225,254,344,414,437,445,581,605|🇨🇳CN-120.238.122.160-1274
+    #3'
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: '157,231,678|🇩🇪 德国 DE | BIZ #2'
-  password: 98bde9a5-fc97-4846-8195-ae0dc54e7efa
+  password: f5ab0f2f-7f7c-4f4a-9334-3c80c8fba2ef
   port: 35607
   server: ge.cooc.icu
   type: ss
@@ -1446,7 +1467,7 @@ proxies:
     path: /footers
 - alterId: 0
   cipher: auto
-  name: '674,871|@Vip_Security join us - 545
+  name: '674,871|@Vip_Security join us - 541
 
     '
   network: httpupgrade
@@ -1484,17 +1505,10 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: 886|V1-德国01 CDN隧道 1.5x
-  network: ws
-  port: 63092
-  server: in06.dns202405.net
+  name: 895|德国-直链
+  network: tcp
+  port: 51153
+  server: de-cn.dlvideo.top
+  tls: true
   type: vmess
-  udp: true
-  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
-  ws-headers:
-    Host: de01-cdn.airport-v2.com
-  ws-opts:
-    headers:
-      Host: de01-cdn.airport-v2.com
-    path: /
-  ws-path: /
+  uuid: 1b6d1f29-03a5-4550-8454-4bb0026f40fd
