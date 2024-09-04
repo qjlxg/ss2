@@ -1,12 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: 🇨🇦CA
-  name: 49,50,51,52,282,308|🇨🇦CA(AzadNet.t.me)_016
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: CA
   name: '49,50,51,52,57,91,151,220,225,282,409,561,581,584,605|🇦CA-142.4.216.225-0723
     #3'
@@ -15,40 +8,94 @@ proxies:
   server: 142.4.216.225
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '49,50,51,52,118,121,129,134,140,141,142,144,160,165,188,202,208,210,211,212,234,282,285,331,336,341,343,347,371,435,440,470,474,479,480,526,663,715,724,725,732,762,771,772,773,774,775,776,779,787,788,802,871,895,902|Channel
-    id: @ShadowProxy66 🇨🇦 #35'
-  network: tcp
-  port: '22324'
-  server: 23.162.200.182
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇦CA
+  name: 49,50,51,52,282,308|🇨🇦CA(AzadNet.t.me)_016
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CA'
+  name: 49,50,51,52,282,308,414|🇫🇷 FR 51 → tg@nicevpn123
+  password: 7gaTTlW73G
+  port: 49602
+  server: 51.222.157.179
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: '49,118,129,140,141,142,144,151,172,188,202,208,210,211,212,213,220,331,337,341,371,435,441,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,607,653,657,662,663,844,902|加拿大
-    v2rayfree.eu.org #1'
+  name: '49,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #11'
   network: ws
-  port: 443
-  server: 158.51.121.36
+  port: '443'
+  server: 141.724064.xyz
   servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
   ws-opts:
     headers:
       Host: ''
-    path: /linkvws
+    path: /gmvfvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: '49,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #11'
+  network: ws
+  port: '443'
+  server: 142.724064.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
+  ws-opts:
+    headers:
+      Host: ''
+    path: /pttnvws
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦CA
+  delay: 2106
+  h2-opts: {}
+  http-opts: {}
+  name: '49,55,141,142,144,210,211,212,421,529,530|加拿大 - 蒙特利尔 - Oracle Corporatio...
+    #1'
+  network: ws
+  port: 443
+  server: 145.724064.xyz
+  servername: 145.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
+  ws-opts:
+    headers:
+      HOST: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 49,653,657,662,663,803|CA 10|openitr
+  network: http
+  port: '3389'
+  server: 178.128.237.6
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   country: CA
@@ -91,18 +138,56 @@ proxies:
   cipher: auto
   country: CA
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 49,653,657,662,663,803|CA 10|openitr
-  network: http
-  port: '3389'
-  server: 178.128.237.6
+  http-opts: {}
+  name: '49,118,129,141,142,144,151,172,188,202,208,210,211,212,213,220,331,337,341,371,435,441,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,607,653,657,662,663,844,902|加拿大
+    v2rayfree.eu.org #1'
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '49,50,51,52,118,121,129,134,141,142,144,160,165,188,202,208,210,211,212,234,282,285,309,331,337,341,343,347,371,435,440,470,474,479,480,526,663,715,724,725,732,762,771,772,773,774,775,776,779,787,788,802,871,895,902|Channel
+    id: @ShadowProxy66 🇨🇦 #35'
+  network: tcp
+  port: '22324'
+  server: 23.162.200.182
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    headers:
+      Connection:
+      - keep-alive
+    method: GET
+    path:
+    - null
+  name: 49,409,653,657,662,663,803|CA 11|openitr
+  network: http
+  port: '3389'
+  server: 142.93.144.99
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -128,7 +213,7 @@ proxies:
   delay: 1220
   h2-opts: {}
   http-opts: {}
-  name: '49,55,211,212,347,371,409,414,421,422,441,526,529,530,536,537,653,662,663,895,902|美国
+  name: '49,55,101,114,178,189,198,211,212,294,344,345,347,371,409,414,415,416,417,421,422,441,446,526,529,530,536,537,653,662,663,865,866,895,902|美国
     v2rayfree.eu.org #1'
   network: ws
   port: 443
@@ -143,117 +228,6 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts:
-    headers:
-      Connection:
-      - keep-alive
-    method: GET
-    path:
-    - null
-  name: 49,409,653,657,662,663,803|CA 11|openitr
-  network: http
-  port: '3389'
-  server: 142.93.144.99
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  delay: 2106
-  h2-opts: {}
-  http-opts: {}
-  name: '49,140,141,142,144,210,211,212,421,529,530|加拿大 - 蒙特利尔 - Oracle Corporatio...
-    #1'
-  network: ws
-  port: 443
-  server: 145.724064.xyz
-  servername: 145.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
-  ws-opts:
-    headers:
-      HOST: 145.724064.xyz
-    path: /zrqrvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #13'
-  network: ws
-  port: '443'
-  server: 142.724064.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
-  ws-opts:
-    headers:
-      Host: ''
-    path: /pttnvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #13'
-  network: ws
-  port: '443'
-  server: 141.724064.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /gmvfvws
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦 CA
-  h2-opts: {}
-  http-opts: {}
-  name: 54,282| CA_433
-  network: ws
-  port: 443
-  server: 68.168.31.196
-  servername: 68.168.31.196
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: 68.168.31.196
-  ws-path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: ' CA'
-  h2-opts: {}
-  http-opts: {}
-  name: 54| CA_17
-  network: ws
-  port: 443
-  server: 68.168.31.242
-  servername: 68.168.31.242
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: 68.168.31.242
-  ws-path: /linkvws
 - alterId: 0
   cipher: auto
   name: '86,151,167,168,172,213,220,240,241,371,418,538,579,581,590,591,596,602,603,605,790,791,880|未知_0904220
@@ -501,8 +475,8 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2461
-  name: '86,151,172,213,220,251,346,371,418,422,457,538,579,581,590,591,596,602,603,605,797,844,880,895|美国
-    CloudFlare节点 #1187'
+  name: '86,101,114,151,172,178,189,198,213,220,251,344,345,346,371,415,416,417,418,422,446,457,538,579,581,590,591,596,602,603,605,797,844,865,866,880,895|美国
+    CloudFlare节点 #1347'
   network: ws
   port: 2086
   server: 104.18.14.19
@@ -519,8 +493,8 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1375
-  name: '86,90,151,172,213,220,251,299,300,371,395,418,422,457,538,579,581,590,591,596,602,603,605,797,845,880,895|美国
-    CloudFlare节点 #1157'
+  name: '86,90,151,172,213,220,226,251,299,300,371,395,418,422,457,538,579,581,590,591,596,602,603,605,797,845,880,895|美国
+    CloudFlare节点 #1317'
   network: ws
   port: 2086
   server: www.visa.com
@@ -552,7 +526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,129,151,168,172,202,208,213,220,227,241,251,371,418,429,440,457,470,474,476,538,579,581,590,591,596,602,603,605,619,620,621,791,880|未知_0904079
+  name: '86,101,114,129,151,168,172,178,189,198,202,208,213,220,227,241,251,344,345,371,415,416,417,418,429,440,446,457,470,474,476,538,579,581,590,591,596,602,603,605,619,620,621,791,865,866,880|未知_0904079
     #1'
   network: ws
   port: '2095'
@@ -561,6 +535,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
@@ -603,7 +578,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 1076
-  name: 86,151,164,168,172,213,218,220,226,241,251,346,418,421,422,457,529,530,538,579,581,590,591,596,602,603,605,663,698,791,797,880,890|Walnut_US_PsychzNetworks5
+  name: 86,151,164,168,172,213,218,220,226,241,251,418,421,422,457,529,530,538,579,581,590,591,596,602,603,605,663,698,791,797,880,890|Walnut_US_PsychzNetworks5
   network: ws
   port: 2086
   server: 104.17.106.151
@@ -735,8 +710,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,118,129,151,160,172,188,202,208,213,220,234,251,331,337,341,415,418,435,457,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,844,880,895|🇺🇸_定制专线：@QS00008
-    #157'
+  name: '86,118,129,151,160,172,188,202,208,213,220,234,251,331,337,341,415,418,435,457,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,844,880,895|🇺🇸_定制专线：@Alin006Bot
+    #87'
   network: ws
   port: 8080
   server: 104.16.67.38
@@ -818,8 +793,8 @@ proxies:
     path: /kuurtreeh
 - alterId: 0
   cipher: auto
-  name: 86,118,129,151,160,172,188,202,208,213,220,234,251,331,337,341,371,418,435,440,457,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,653,662,844,880,900|010
-    ✂️-🏴‍☠️-last 32 total=1141...
+  name: 86,118,129,151,160,172,188,202,208,213,220,234,251,309,331,337,341,371,418,435,457,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,653,662,844,880,900|023
+    ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '443'
   server: 104.16.60.8
@@ -851,7 +826,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,118,129,151,165,172,188,202,208,213,220,251,331,336,337,341,371,415,418,435,457,470,474,479,481,538,579,581,582,583,590,591,592,593,596,602,603,605,750,763,771,772,774,775,776,780,787,788,844,880|未知_0904294
+  name: '86,118,129,151,165,172,188,202,208,213,220,251,331,337,341,371,415,418,435,457,470,474,479,481,538,579,581,582,583,590,591,592,593,596,602,603,605,750,763,771,772,774,775,776,780,787,788,844,880|未知_0904294
     #1'
   network: ws
   port: '8080'
@@ -917,21 +892,6 @@ proxies:
     headers:
       Host: telegram----cassiusvpn----10.lexel47149.workers.dev
     path: /az05.beyondy.cfd:443/link
-- delay: 2152
-  fingerprint: chrome
-  name: '86,151,220,251,457,581,605|🏁RELAY-104.18.12.229-1160 #3'
-  network: ws
-  password: Watashi_VPN
-  port: 2053
-  server: 104.18.12.229
-  skip-cert-verify: false
-  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
-    path: /
 - alterId: 0
   cipher: auto
   delay: 1402
@@ -952,14 +912,12 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 86,151,172,173,213,220,251,418,422,457,538,579,581,590,591,596,602,603,605,797,815,880|美国_0904248
+  name: 86,151,172,213,220,251,418,422,457,538,579,581,590,591,596,602,603,605,797,880|美国_0904248
   network: ws
   port: '2086'
   server: 104.26.13.31
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -987,7 +945,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1486
-  name: 86,151,172,178,213,220,226,251,371,415,418,421,422,457,538,579,581,590,591,596,602,603,605,865,866,880|美国_0904249
+  name: 86,101,114,151,172,178,189,198,213,220,226,251,344,345,346,371,415,416,417,418,421,422,446,457,538,579,581,590,591,596,602,603,605,865,866,880|美国_0904249
   network: ws
   port: '2086'
   server: 104.26.5.57
@@ -1004,8 +962,8 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1380
-  name: '86,91,118,129,134,151,160,172,182,183,188,202,208,213,218,220,226,234,251,257,263,294,331,337,341,371,415,418,421,422,435,457,470,474,481,529,530,538,579,581,582,583,584,590,591,592,593,596,602,603,605,716,724,725,763,772,773,844,880|未知_0904259
-    #1'
+  name: 86,91,118,129,134,151,160,172,182,183,188,202,208,213,218,220,226,234,251,257,263,294,309,331,337,341,371,418,421,422,426,427,435,440,457,470,474,481,529,530,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,880,900|022
+    ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '80'
   server: 104.18.84.104
@@ -1075,8 +1033,8 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1499
-  name: '86,91,118,129,151,160,172,188,202,208,213,220,234,251,331,337,341,415,418,422,435,457,470,474,481,536,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,880,895|🇺🇸_定制专线：@QS00008
-    #149'
+  name: '86,91,101,114,118,129,151,160,172,178,188,189,198,202,208,213,220,234,251,294,331,337,341,344,345,346,415,416,417,418,422,435,446,457,470,474,481,536,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,865,866,880,895|🇺🇸_定制专线：@Alin006Bot
+    #79'
   network: ws
   port: 80
   server: 162.159.136.106
@@ -1084,6 +1042,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
   ws-opts:
     headers:
@@ -1108,7 +1067,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,164,172,178,213,220,226,251,418,457,538,579,581,590,591,596,602,603,605,698,865,866,880|未知_0904304
+  name: '86,151,164,172,213,220,226,251,418,457,538,579,581,590,591,596,602,603,605,698,880|未知_0904304
     #1'
   network: ws
   port: '2095'
@@ -1178,8 +1137,8 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880,895|美国
-    CloudFlare节点 #1172'
+  name: '86,151,172,213,220,226,251,418,457,538,579,581,590,591,596,602,603,605,880,895|美国
+    CloudFlare节点 #1332'
   network: ws
   port: 2095
   server: 104.19.45.129
@@ -1195,7 +1154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,371,418,440,457,538,579,581,590,591,596,602,603,605,880|未知_0904309
+  name: '86,151,172,213,220,251,371,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904309
     #1'
   network: ws
   port: '2095'
@@ -1214,7 +1173,7 @@ proxies:
   cipher: auto
   delay: 1300
   name: '86,151,172,213,218,220,226,251,421,422,457,529,530,538,579,581,590,591,596,602,603,605,663|美国
-    CloudFlare节点 #696'
+    CloudFlare节点 #856'
   network: ws
   port: '2086'
   server: 104.19.123.11
@@ -1261,6 +1220,21 @@ proxies:
   ws-opts:
     headers:
       Host: onea.flha.ru
+    path: /
+- delay: 1033
+  fingerprint: chrome
+  name: '86,151,220,581,605|🏁RELAY-104.18.27.94-1186 #3'
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.27.94
+  skip-cert-verify: false
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -1324,7 +1298,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '101,153,189,225,344,345,445,446,513,575,576,872|🇨🇦 _CA_加拿大 #4'
+  name: '101,153,189,225,344,345,446,513,575,576,872|🇨🇦 _CA_加拿大 #4'
   network: ws
   port: 80
   server: 108.181.10.17
@@ -1338,10 +1312,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '104,106,116,118,129,148,172,182,183,188,190,193,202,208,213,215,290,294,331,332,341,347,367,369,371,390,409,426,427,435,440,456,470,474,475,481,538,547,549,646,653,657,662,663,847,848,871|@Vip_Security
-    join us - 174
-
-    '
+  name: 104,106,116,118,129,148,172,182,183,188,190,193,202,208,213,215,290,331,332,341,347,367,369,371,390,409,435,456,470,474,475,481,538,547,549,646,653,657,662,663,847,848,871,900|004
+    ✂️-🇺🇸US-last 32 total=1211...
   network: ws
   port: '80'
   server: 104.21.71.88
@@ -1356,8 +1328,8 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: '104,106,116,118,129,134,148,160,172,188,190,193,202,208,213,215,234,290,331,332,341,347,367,369,371,384,385,390,409,435,440,441,456,470,474,475,538,640,646,663,802,847,848,867,871|@Vip_Security
-    join us - 180
+  name: '104,106,116,118,129,134,148,160,172,188,190,193,202,208,213,215,234,290,331,332,341,347,367,369,371,384,385,390,409,435,440,441,456,470,474,475,480,538,640,646,663,802,847,848,867,871|@Vip_Security
+    join us - 177
 
     '
   network: ws
@@ -1375,8 +1347,8 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '104,106,118,129,134,148,160,172,182,183,188,190,193,202,208,213,215,234,290,331,332,341,343,367,369,371,390,435,440,456,470,474,475,538,610,663,812,847,848,871|@Vip_Security
-    join us - 849
+  name: '104,106,118,129,134,148,160,172,182,183,188,190,193,202,208,213,215,234,290,309,331,332,341,343,367,369,371,390,435,440,456,470,474,475,538,609,663,812,847,848,871|@Vip_Security
+    join us - 852
 
     '
   network: ws
@@ -1392,7 +1364,24 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 104,106,118,129,134,148,172,182,183,188,190,193,202,208,213,215,226,290,331,332,341,343,367,369,390,435,440,456,470,474,475,538,546,610,847,848,871,902|🏁RELAY-172.67.192.57-0193
+  name: "104,106,116,118,129,148,160,172,188,190,193,202,208,213,215,234,290,331,332,341,347,367,369,384,385,390,409,435,440,441,456,470,474,475,538,663,847,848,871|@Vip_Security\
+    \ join us - 379\n #1"
+  network: ws
+  port: '443'
+  server: 172.67.244.191
+  servername: gwdef.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 104,106,118,129,134,148,172,182,183,188,190,193,202,208,213,215,226,257,263,290,309,331,332,341,343,367,369,390,426,427,435,440,456,470,474,475,538,546,609,847,848,871,902|🏁RELAY-172.67.192.57-0193
   network: ws
   port: 443
   server: 172.67.192.57
@@ -1406,8 +1395,24 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 104,106,115,116,118,129,148,172,188,190,193,202,208,213,215,290,331,332,341,367,369,384,385,390,435,456,470,474,475,480,538,802,847,848,871,900|022
-    ✂️-🏴‍☠️-last 32 total=1141...
+  name: '104,106,116,118,129,134,148,151,164,168,172,182,183,188,190,193,202,208,213,215,220,226,241,257,263,285,290,331,332,341,367,369,390,418,435,440,456,470,474,475,538,579,581,590,591,596,602,603,605,646,663,698,791,844,847,848,871,880|未知_0904200
+    #1'
+  network: ws
+  port: '443'
+  server: 104.21.82.17
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 104,106,115,116,118,129,148,172,188,190,193,202,208,213,215,290,331,332,341,367,369,384,385,390,435,456,470,474,475,480,538,802,847,848,871,900|024
+    ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '443'
   server: 104.21.83.115
@@ -1421,10 +1426,8 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '104,106,118,129,134,148,160,172,177,182,183,188,190,193,202,208,213,215,234,290,294,331,333,337,341,367,369,390,397,435,440,456,470,474,475,538,547,549,609,653,662,663,802,812,847,848,849,852,855,861,871|@Vip_Security
-    join us - 175
-
-    '
+  name: 104,106,118,129,134,148,160,172,177,182,183,188,190,193,202,208,213,215,234,257,263,290,294,331,333,337,341,367,369,390,397,435,440,456,470,474,475,480,538,547,549,653,662,663,802,812,847,848,849,852,855,861,871,900|011
+    ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '443'
   server: 104.21.74.239
@@ -1519,7 +1522,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '115,116,134,160,182,183,234,371,440,609,663,871|@Vip_Security join us - 183
+  name: '115,116,160,234,309,371,440,663,871|@Vip_Security join us - 180
 
     '
   network: ws
@@ -1551,8 +1554,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: '115,116,118,129,148,172,173,188,202,208,213,215,285,290,331,332,341,435,470,474,475,480,538,802,815,847,848|🇺🇸US
-    | 🟢 | vmess | @ShadowProx... #228'
+  name: '115,116,118,129,148,172,173,188,202,208,213,215,285,290,331,332,341,435,440,470,474,475,480,538,802,815,847,848,871|@Vip_Security
+    join us - 769
+
+    '
   network: ws
   port: '443'
   server: gt021.bestforxray.buzz
@@ -1567,7 +1572,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '116,134,160,226,234,347,371,384,385,409,414,440,441,546,612,640,646,647,653,662,663,902|🏁RELAY-104.21.15.212-0196
+  name: '116,134,160,226,234,309,347,371,384,385,409,414,440,441,546,612,640,646,647,653,662,663,902|🏁RELAY-104.21.15.212-0196
     #1'
   network: ws
   port: 443
@@ -1584,7 +1589,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: "116,134,347,371,384,385,409,440,441,663,871|@Vip_Security join us - 359\n\
+  name: "116,134,309,347,371,384,385,409,440,441,663,871|@Vip_Security join us - 357\n\
     \ #1"
   network: ws
   port: '443'
@@ -1601,8 +1606,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '116,134,160,234,347,371,384,409,440,640,646,653,663,812,871,902|[🇨🇦]t.me/ConfigsHub
-    #32'
+  name: '116,134,160,234,309,347,371,384,409,440,640,646,653,663,812,871,902|[🇨🇦]t.me/ConfigsHub
+    #38'
   network: ws
   port: '443'
   server: 104.21.83.208
@@ -1618,7 +1623,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 116,440,653,657,662,900|025 ✂️-🇳🇦NA-last 32 total=1141...
+  name: '116,309,440,653,657,662|🇳🇦 Namibia - NA 🌍 VM-WS-TLS 4⃣ #308'
   network: ws
   port: '2096'
   server: 104.16.67.38
@@ -1744,7 +1749,7 @@ proxies:
     path: /video/34kKXbLM
 - alterId: 0
   cipher: auto
-  name: '122,871|@Vip_Security join us - 711
+  name: '122,871|@Vip_Security join us - 712
 
     '
   network: ws
@@ -1919,7 +1924,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: '122,871|@Vip_Security join us - 527
+  name: '122,871|@Vip_Security join us - 528
 
     '
   network: ws
@@ -2015,7 +2020,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: none
-  name: 134|CA🇨🇦 | ca3.vmess.site-443 | 41...
+  name: 134|CA🇨🇦 | ca3.vmess.site-443 | 46...
   network: ws
   port: '443'
   server: ippscan5.kazoodle.com
@@ -2029,8 +2034,8 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212,430,653,658,662,663|💰💥🇨🇦 CA 134.195.198.61 ◈
-    ws:44... #7'
+  name: '141,142,144,210,211,212,430,653,658,662,663|💰💥🇨🇦 CA 134.195.198.61 ◈ ws:44...
+    #6'
   network: ws
   port: '443'
   server: 134.195.198.61
@@ -2044,7 +2049,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212,653,657,658,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T...
+  name: '141,142,144,210,211,212,653,657,658,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T...
     #26'
   network: ws
   port: '443'
@@ -2059,7 +2064,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 134.195.198.147 ◈ ws:44... #6'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 134.195.198.147 ◈ ws:44... #5'
   network: ws
   port: '443'
   server: 134.195.198.147
@@ -2073,8 +2078,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212,653,658,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T...
-    #23'
+  name: '141,142,144,210,211,212,653,658,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T... #23'
   network: ws
   port: '443'
   server: 158.51.121.36
@@ -2088,7 +2092,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212,653,657,662,663|🇨🇦 Canada - Toronto 🌎 VM-WS-TL...
+  name: '141,142,144,210,211,212,653,657,662,663|🇨🇦 Canada - Toronto 🌎 VM-WS-TL...
     #18'
   network: ws
   port: '443'
@@ -2103,7 +2107,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #9'
+  name: '141,142,144,210,211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #8'
   network: ws
   port: '443'
   server: 15.235.13.69
@@ -2117,7 +2121,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.50.172 ◈ ws:443 ... #6'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 15.235.50.172 ◈ ws:443 ... #5'
   network: ws
   port: '443'
   server: 15.235.50.172
@@ -2131,7 +2135,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|💰💥🇨🇦 CA 15.235.83.227 ◈ ws:443... #6'
+  name: '141,142,144,210,211,212|💰💥🇨🇦 CA 15.235.83.227 ◈ ws:443... #5'
   network: ws
   port: '443'
   server: 15.235.83.227
@@ -2145,7 +2149,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #18'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #15'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2159,7 +2163,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #19'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #16'
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -2173,7 +2177,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #20'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #17'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2187,7 +2191,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.119.7 ◈ ws:2083 ... #6'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 15.235.119.7 ◈ ws:2083 ... #5'
   network: ws
   port: 2083
   server: speed.cloudflare.com
@@ -2201,7 +2205,7 @@ proxies:
     path: /linkvws/aveiror.com
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 168.138.70.157 ◈ ws:443... #14'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 168.138.70.157 ◈ ws:443... #12'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2215,7 +2219,7 @@ proxies:
     path: /zrqrvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #14'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #12'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2229,7 +2233,7 @@ proxies:
     path: /gmvfvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #14'
+  name: '141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #12'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2245,7 +2249,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '140,141,142,144,210,211,212|💰💥🇨🇦 CA 155.138.140.76 ◈ grpc:... #6'
+  name: '141,142,144,210,211,212|💰💥🇨🇦 CA 155.138.140.76 ◈ grpc:... #5'
   network: grpc
   port: '2087'
   server: 155.138.140.76
@@ -2257,7 +2261,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '140,141,142,144,210,211,212|💰💥🇨🇦 CA 155.138.147.180 ◈ grpc... #6'
+  name: '141,142,144,210,211,212|💰💥🇨🇦 CA 155.138.147.180 ◈ grpc... #5'
   network: grpc
   port: '2087'
   server: 155.138.147.180
@@ -2269,7 +2273,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '140,141,142,144,210,211,212|💰💥🇨🇦 CA 216.128.182.105 ◈ grpc... #6'
+  name: '141,142,144,210,211,212|💰💥🇨🇦 CA 216.128.182.105 ◈ grpc... #5'
   network: grpc
   port: '2087'
   server: 216.128.182.105
@@ -2281,7 +2285,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '140,141,142,144,210,211,212|🔒🇺🇸 US 155.138.253.51 ◈ grpc:2... #6'
+  name: '141,142,144,210,211,212|🔒🇺🇸 US 155.138.253.51 ◈ grpc:2... #5'
   network: grpc
   port: '2087'
   server: speed.cloudflare.com
@@ -2347,7 +2351,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '150,160,234,371,871|@Vip_Security join us - 265
+  name: '150,160,234,371,871|@Vip_Security join us - 263
 
     '
   network: ws
@@ -2363,7 +2367,7 @@ proxies:
     path: /f2
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #3'
+  name: '150|[🇨🇦]t.me/ConfigsHub #5'
   network: ws
   port: '2052'
   server: p1.v2raybrasil.cloud
@@ -2377,7 +2381,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #4'
+  name: '150|[🇨🇦]t.me/ConfigsHub #6'
   network: ws
   port: '2052'
   server: p2.v2raybrasil.cloud
@@ -2391,7 +2395,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #5'
+  name: '150|[🇨🇦]t.me/ConfigsHub #7'
   network: ws
   port: '2082'
   server: c1.v2raybrasil.cloud
@@ -2405,7 +2409,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #6'
+  name: '150|[🇨🇦]t.me/ConfigsHub #8'
   network: ws
   port: '2052'
   server: p3.v2raybrasil.cloud
@@ -2419,7 +2423,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #7'
+  name: '150|[🇨🇦]t.me/ConfigsHub #9'
   network: ws
   port: '2082'
   server: c2.v2raybrasil.cloud
@@ -2433,7 +2437,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150|[🇨🇦]t.me/ConfigsHub #8'
+  name: '150|[🇨🇦]t.me/ConfigsHub #10'
   network: ws
   port: '2082'
   server: c3.v2raybrasil.cloud
@@ -2447,7 +2451,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150,390,871|@Vip_Security join us - 271
+  name: '150,390,871|@Vip_Security join us - 269
 
     '
   network: tcp
@@ -3070,7 +3074,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '160,234,871|@Vip_Security join us - 264
+  name: '160,234,871|@Vip_Security join us - 262
 
     '
   network: ws
@@ -3654,7 +3658,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '167,240,422,790,797,890,895|🇺🇸_US_美国->🇨🇦_CA_加拿大 #333'
+  name: '167,240,422,790,797,890,895|🇺🇸_US_美国->🇨🇦_CA_加拿大 #334'
   network: ws
   port: 2086
   server: 104.19.45.15
@@ -3837,7 +3841,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #10'
+  name: '211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #9'
   network: ws
   port: 443
   server: 15.235.13.69
@@ -3851,7 +3855,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #8'
+  name: '211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #7'
   network: ws
   port: '443'
   server: 15.235.13.69
@@ -3865,7 +3869,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '212|🔒🇨🇦 CA 168.138.70.157 ◈ ws:443... #13'
+  name: '212|🔒🇨🇦 CA 168.138.70.157 ◈ ws:443... #11'
   network: ws
   port: '443'
   server: 168.138.70.157
@@ -3879,7 +3883,7 @@ proxies:
     path: /zrqrvws
 - alterId: 0
   cipher: auto
-  name: '212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #12'
+  name: '212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #10'
   network: ws
   port: '443'
   server: 140.238.147.128
@@ -3893,7 +3897,7 @@ proxies:
     path: /gmvfvws
 - alterId: 0
   cipher: auto
-  name: '212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #12'
+  name: '212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #10'
   network: ws
   port: '443'
   server: 140.238.157.13
@@ -3907,7 +3911,7 @@ proxies:
     path: /pttnvws
 - alterId: 0
   cipher: auto
-  name: '212|💰🇨🇦 CA 142.93.144.99 ◈ tcp:338... #7'
+  name: '212|💰🇨🇦 CA 142.93.144.99 ◈ tcp:338... #6'
   network: tcp
   port: '3389'
   server: antm-142.93.144.99.nip.io
@@ -3927,7 +3931,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '212|💰🇨🇦 CA 142.93.144.99 ◈ tcp:338... #9'
+  name: '212|💰🇨🇦 CA 142.93.144.99 ◈ tcp:338... #8'
   network: tcp
   port: '3389'
   server: ho-142.93.144.99.nip.io
@@ -3971,7 +3975,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '225,871|@Vip_Security join us - 628
+  name: '225,871|@Vip_Security join us - 629
 
     '
   network: tcp
@@ -4000,6 +4004,22 @@ proxies:
     headers:
       Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
     path: /proxyip=62.3.12.185
+- alterId: 0
+  cipher: auto
+  name: '251,457,844|🏁RELAY-104.16.60.8-1882 #1'
+  network: ws
+  port: 2082
+  server: 104.16.60.8
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: 82uple-bird-b087.pemed58443.workers.dev
+    path: /ivideos.sbs/linkws
 - name: '251,457|加拿大 073 #1'
   network: ws
   password: E-Graphic
@@ -4054,7 +4074,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '265,312,319,371,390,441|United States #125'
+  name: '265,312,319,371,390,441|United States #162'
   network: ws
   port: '2095'
   server: russia.com
@@ -4096,7 +4116,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '285,309,347,409,663|🔒🇬🇧 GB 68.168.31.196 ◈ ws:443 ... #9'
+  country: 🇨🇦 CA
+  h2-opts: {}
+  http-opts: {}
+  name: 282| CA_439
+  network: ws
+  port: 443
+  server: 68.168.31.196
+  servername: 68.168.31.196
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    HOST: 68.168.31.196
+  ws-path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '285,347,409,663|🔒🇬🇧 GB 68.168.31.196 ◈ ws:443 ... #8'
   network: ws
   port: '443'
   server: 68.168.31.196
@@ -4118,13 +4155,6 @@ proxies:
   skip-cert-verify: true
   sni: frontend.kuangbiaoyun.com
   type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 308,414|🇫🇷 FR 51 → tg@nicevpn123
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
   udp: true
 - name: 308|🇨🇦CA(AzadNet.t.me)_005
   network: tcp
@@ -4163,22 +4193,6 @@ proxies:
   port: 443
   server: 38.111.114.133
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '309,347,409|🔰NGINX_KIT 🔻🇬🇧GB 🔺🇬🇧GB ☑MTN ⏰6... #4'
-  network: ws
-  port: 443
-  server: 68.168.31.242
-  servername: 68.168.31.242
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 68.168.31.242
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '317|加拿大_渥太華 #25'
@@ -4387,11 +4401,11 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 347,409,414,440,441,663|@Ironnett connect🟢
+  name: 347,409,414,440,441,663,900|026 ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '443'
   server: hms182.glweidf.sbs
-  servername: glweidf.sbs
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -4465,7 +4479,7 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '347,409,440,663,871|@Vip_Security join us - 617
+  name: '347,409,440,663,871|@Vip_Security join us - 618
 
     '
   network: ws
@@ -4483,7 +4497,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '347,409,663,871|@Vip_Security join us - 845
+  name: '347,409,440,663,871|@Vip_Security join us - 847
 
     '
   network: ws
@@ -4517,7 +4531,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '347,409,440,663,871|@Vip_Security join us - 785
+  name: '347,409,440,663,871|@Vip_Security join us - 787
 
     '
   network: ws
@@ -4715,7 +4729,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '347,409,657|🇳🇦 Namibia - NA 🌍 VM-WS-TLS 4⃣ #264'
+  name: '347,409,657|🇳🇦 Namibia - NA 🌍 VM-WS-TLS 4⃣ #198'
   network: ws
   port: '443'
   server: 188.114.97.1
@@ -4731,7 +4745,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 347,371,409,415,437|加拿大 009_2@30
+  name: 347,371,409,437|加拿大 009_2@30
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -6291,33 +6305,7 @@ proxies:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
 - alterId: 0
   cipher: auto
-  name: 415|🇨🇦 加拿大1|cf
-  network: ws
-  port: '2052'
-  server: hk.wish.ml
-  tls: false
-  type: vmess
-  uuid: 4826158f-1dd7-45a1-89b6-1c52acd2de14
-  ws-opts:
-    headers:
-      Host: ca11.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
   name: 415|>🇨🇦 CA|Ns|0816|TG@FProxies|
-  network: ws
-  port: '80'
-  server: 162.159.133.14
-  tls: false
-  type: vmess
-  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '415|>🇨🇦 CA|Ns|0816|TG@FProxies| #1'
   network: ws
   port: '80'
   server: 104.19.173.168
@@ -6330,17 +6318,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 415|>🇨🇦 CA|Hs|0720|TG@FProxies|
+  name: '415|>🇨🇦 CA|Ns|0816|TG@FProxies| #1'
   network: ws
-  port: '10000'
-  server: 51.79.70.147
+  port: '80'
+  server: 162.159.133.14
   tls: false
   type: vmess
-  uuid: fcbdba30-42bd-11ef-a9e1-3b87b891a07f
+  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
   ws-opts:
     headers:
       Host: ''
-    path: /vpnjantit
+    path: /
 - alterId: 0
   cipher: auto
   name: 415|>🇨🇦 CA|Ls|0720|TG@FProxies|
@@ -6356,6 +6344,32 @@ proxies:
     path: /gmvfvws
 - alterId: 0
   cipher: auto
+  name: 415|🇨🇦 加拿大1|cf
+  network: ws
+  port: '2052'
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: 4826158f-1dd7-45a1-89b6-1c52acd2de14
+  ws-opts:
+    headers:
+      Host: ca11.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '415|>🇨🇦 CA|Hs|0720|TG@FProxies| #1'
+  network: ws
+  port: '10000'
+  server: 51.79.70.147
+  tls: false
+  type: vmess
+  uuid: fcbdba30-42bd-11ef-a9e1-3b87b891a07f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
   name: '418,705,835,884|加拿大_0904008 #2'
   network: ws
   port: '80'
@@ -6368,6 +6382,40 @@ proxies:
     headers:
       Host: tguk.cloudflare.quest
     path: /aries
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 421|CA😈github.com/Ruk1ng001_-16508...
+  network: ws
+  port: 80
+  server: 172.67.54.19
+  servername: 172.67.54.19
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-484.db-link01.top
+    path: /dabai.in172.67.54.19
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 421|CA😈github.com/Ruk1ng001_272579...
+  network: ws
+  port: 2095
+  server: 104.20.70.158
+  servername: 104.20.70.158
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-79.db-link01.top
+    path: /dabai.in104.20.70.158
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -6386,6 +6434,23 @@ proxies:
     headers:
       HOST: ftp.debian.org.stackoverflow.com.www.speedtest.net.nobitex.ir.fi.DarGAHSeRVIceS.Xyz.
     path: /navigate?ed=1024
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 421|CA😈github.com/Ruk1ng001_213955...
+  network: ws
+  port: 2086
+  server: 104.16.60.8
+  servername: y-old-mode-9c0diab.wiriy73548.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      HOST: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
   delay: 947
@@ -6417,6 +6482,77 @@ proxies:
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
   udp: true
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 421|CA😈github.com/Ruk1ng001_-74149...
+  network: ws
+  port: 2052
+  server: 104.16.60.8
+  servername: 6ba6-sound-6ba6.siliy37818.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: 6ba6-sound-6ba6.siliy37818.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 421,511|🇺🇸_US_美国->🇨_CA_加拿大
+  network: ws
+  port: 8080
+  server: 104.16.60.8
+  servername: 6c47-butterfly-6c47.yexoji3749.workers.dev
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 421,526,561|🏁RELAY-104.16.61.8-1893
+  network: ws
+  port: 8080
+  server: 104.16.61.8
+  servername: 6c47-butterfly-6c47.yexoji3749.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 421,526|Relay_🏁ZZ-🇫🇷FR_223
+  network: ws
+  port: 8880
+  server: 104.16.68.38
+  servername: subhk.osafari599.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      HOST: subhk.osafari599.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
 - alterId: -1
   cipher: aes-128-gcm
   name: 421|CA😈github.com/Ruk1ng001_-86367...
@@ -6563,7 +6699,7 @@ proxies:
     path: /dabai.in104.20.209.66
 - alterId: 0
   cipher: auto
-  name: '422,663|美国 CloudFlare节点 #711'
+  name: '422,663|美国 CloudFlare节点 #871'
   network: ws
   port: '2086'
   server: 104.19.55.49
@@ -6614,20 +6750,6 @@ proxies:
     headers:
       Host: 104.21.233.208
     path: /dabai.in104.21.233.208
-- alterId: 0
-  cipher: auto
-  name: '422,646,657,662|🇳🇦 Namibia - NA 🌍 VM-WS-NA 4⃣ #86'
-  network: ws
-  port: '2082'
-  server: 104.16.68.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-    path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_-95756... #1'
@@ -6732,20 +6854,6 @@ proxies:
     headers:
       Host: 172.67.84.147
     path: /dabai.in172.67.84.147
-- alterId: 0
-  cipher: auto
-  name: 422,902|🏁RELAY-104.16.67.38-1253
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  servername: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-  tls: false
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-    path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_163382... #1'
@@ -6917,10 +7025,11 @@ proxies:
     path: /dabai.in172.67.12.120
 - alterId: 0
   cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-74149... #1'
+  name: '422,440|United States #136'
   network: ws
-  port: 2052
+  port: '2052'
   server: 104.16.60.8
+  servername: ''
   tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
@@ -6954,6 +7063,19 @@ proxies:
     headers:
       Host: 104.17.191.177
     path: /dabai.in104.17.191.177
+- alterId: 0
+  cipher: auto
+  name: '422|CA😈github.com/Ruk1ng001_183008... #1'
+  network: ws
+  port: 2086
+  server: 104.20.25.146
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_-10959... #1'
@@ -7008,6 +7130,20 @@ proxies:
     path: /dabai.in104.20.103.249
 - alterId: 0
   cipher: auto
+  name: '422,844|🏁RELAY-104.16.61.8-1893 #1'
+  network: ws
+  port: 8080
+  server: 104.16.61.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_759098... #1'
   network: ws
   port: 2086
@@ -7032,19 +7168,6 @@ proxies:
     headers:
       Host: 104.20.248.73
     path: /dabai.in104.20.248.73
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_110948... #1'
-  network: ws
-  port: 2086
-  server: 104.22.36.243
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_-15887... #1'
@@ -8444,7 +8567,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '572,575,576,639|🇺🇸_US_美国 #269'
+  name: '572,575,576,639|🇺🇸_US_美国 #270'
   network: ws
   port: 80
   server: wxll.e5outllok.me
@@ -8509,7 +8632,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '572,575,576,639|🇺🇸_US_美国 #156'
+  name: '572,575,576,639|🇺🇸_US_美国 #157'
   network: ws
   port: 80
   server: uuus.azzhuangaping.tw
@@ -10807,7 +10930,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '629,645,832,871|@Vip_Security join us - 495
+  name: '629,645,832,871|@Vip_Security join us - 496
 
     '
   network: ws
@@ -11070,20 +11193,6 @@ proxies:
     headers:
       Host: nina.bond
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '663|T.me/Vpn_Mafa 🇨🇦 #7'
-  network: ws
-  port: '443'
-  server: 172.67.193.108
-  servername: gwdef.sbs
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 696|🇨🇦
@@ -11356,7 +11465,16 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '902|[🇨🇦]t.me/ConfigsHub #25'
+  name: 895|加拿大-直连
+  network: tcp
+  port: 27003
+  server: ca-cn.dlvideo.top
+  tls: true
+  type: vmess
+  uuid: 0fa0f5ed-4db3-4984-d572-fc3a50b2889a
+- alterId: 0
+  cipher: auto
+  name: '902|[🇨🇦]t.me/ConfigsHub #31'
   network: ws
   port: '443'
   server: 104.21.49.154
@@ -11370,7 +11488,7 @@ proxies:
     path: /linkws/obdii.cfd
 - alterId: 0
   cipher: auto
-  name: '902|[🇨🇦]t.me/ConfigsHub #27'
+  name: '902|[🇨🇦]t.me/ConfigsHub #33'
   network: ws
   port: '443'
   server: 104.20.39.186
