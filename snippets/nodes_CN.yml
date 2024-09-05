@@ -233,7 +233,7 @@ proxies:
   country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 49,51,144,210,211,212,440|China
+  name: 49,51,140,144,210,211,212,347,440|China
   network: tcp
   port: '55218'
   server: 103.85.25.134
@@ -266,15 +266,31 @@ proxies:
   ws-path: /
 - cipher: aes-128-gcm
   country: ' CN'
-  name: 52,55,98|🇺🇦 乌克兰01｜tg@ghosxtop
+  name: 51,98|🇦🇪 沙特阿拉伯01｜tg@ghosxtop
   password: 9aa843e6-33c2-450b-8859-dfd6f73d57ac
-  port: 18949
+  port: 27955
   server: p.other.jscm.nod3.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  country: ' CN'
+  name: 51,55,98|🇰🇷 韩国02｜tg@ghosxtop
+  password: 9aa843e6-33c2-450b-8859-dfd6f73d57ac
+  port: 16098
+  server: p.kr.jscm.nod3.org
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  country: ' CN'
+  name: 52,98|🇺🇸 美国02｜tg@ghosxtop
+  password: 9aa843e6-33c2-450b-8859-dfd6f73d57ac
+  port: 19387
+  server: p.us.jscm.nod3.org
   type: ss
   udp: true
 - cipher: aes-256-cfb
   country: CN
-  name: '57,280|_01 #2'
+  name: '57,280,286|_02 #3'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -283,19 +299,9 @@ proxies:
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.102
   type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 57|Relay_CN-CN_08
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 2338:9tQfxMX(0S;40f
-  server: cmlayer6.standurls.co
-  type: ssr
 - cipher: aes-256-cfb
   country: CN
-  name: '57,280|_02 #1'
+  name: '57,280,286|_01 #4'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -304,9 +310,37 @@ proxies:
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.24
   type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 57|Relay_CN-CN_09
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 2338:9tQfxMX(0S;40f
+  server: cmlayer6.standurls.co
+  type: ssr
+- alterId: 64
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: '58,129,168,202,208,226,227,241,254,415,470,474,476,619,620,621,791,896|广东省广州市
+    移动 #39'
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '62,118,129,148,160,188,202,208,213,215,216,217,225,234,290,331,332,341,371,435,470,474,475,538,847,848,871,896,900,905|中国【付费推荐：https://a0a.xyz】97
+  name: '62,118,129,148,160,172,188,202,208,213,215,216,217,225,234,290,331,332,341,371,435,470,474,475,538,847,848,871,896,900,905|中国【付费推荐：https://a0a.xyz】97
     #2'
   network: ws
   port: '46001'
@@ -342,7 +376,7 @@ proxies:
     path: /debian
 - alterId: 4
   cipher: auto
-  name: 82,85,151,213,220,461,538,579,581,590,591,596,602,603,605,624,705|🇨🇳CN_31
+  name: 82,85,151,172,213,220,461,538,579,581,590,591,596,602,603,605,705|🇨🇳CN_31
   network: ws
   port: 2164
   server: 117.28.242.156
@@ -355,33 +389,6 @@ proxies:
     headers:
       Host: sxqxj.cn
     path: /ws
-- name: '90,395|China_None_trojan_1124 #1'
-  network: tcp
-  password: bDDJrvVT
-  port: 5395
-  server: 223.113.54.185
-  skip-cert-verify: true
-  type: trojan
-- name: 90,395,669|10,11|日本5|@ripaojiedian
-  network: tcp
-  password: 8fc4337b-4636-44a2-a160-9d360436aa57
-  port: 13017
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alpn:
-  - http%2F1.1
-  name: '90,395,669|13|d*********g.com_3 #3'
-  network: tcp
-  password: fuck
-  port: 443
-  server: 42.236.73.72
-  sni: www.zitian.cn
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.zitian.cn
 - cipher: aes-128-gcm
   name: 98|🇭🇰 香港04｜tg@ghosxtop
   password: faa8058e-f7fc-4648-9ecf-c205890d09f0
@@ -785,42 +792,6 @@ proxies:
     headers:
       host: ecc.vtcss.top
     path: /blue
-- alterId: 64
-  cipher: auto
-  name: '114,168,198,202,226,227,241,254,345,415,416,417,446,470,476,619,620,621,624,791,896|广东省广州市
-    移动 #47'
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '129,168,208,241,415,474,624,791,871|@Vip_Security join us - 220
-
-    '
-  network: tcp
-  port: '42055'
-  server: 120.232.153.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '129,208,474|🇨🇳 广东省广州市 移动 #23'
-  network: tcp
-  port: '38404'
-  server: MI.HUY.OVH
-  tls: false
-  type: vmess
-  uuid: 2d3a27f0-6c7c-4a6b-8e96-04ba7d0658cc
 - cipher: chacha20-ietf
   name: '130,483|🇨🇳_CN_中国_1 #1'
   password: cN0uO3rQ1fU3
@@ -1149,7 +1120,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 151,213,220,538,579,581,590,591,596,602,603,605,607,624|4Mohsen-8687
+  name: '151,172,213,220,538,579,581,590,591,596,602,603,605,607|二爷免费翻墙网 https://1808.free.hr
+    节... #140'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -1159,14 +1131,29 @@ proxies:
   type: vmess
   uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
   name: '151,216,217,220,581,605|🇨CN-14.215.169.69-0582 #3'
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20014
   server: jp2.mhw7e2.online
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '151,167,179,180,220,240,254,452,581,605,790|JP??SSRSUB_1309860401 #2'
+  password: 6932d5e9-85b5-4b4e-9680-22926b3b9ae3
+  port: 36115
+  server: free.2weradf.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '151,179,180,220,254,452,581,605|🇳CN-120.232.217.88-0593 #3'
+  password: 05fc6bd8-bd76-4825-aa32-45954597ba90
+  port: 36411
+  server: free.2weradf.xyz
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '151,220,581,605|🇳CN-120.232.217.88-0598 #3'
@@ -1185,6 +1172,13 @@ proxies:
   name: '151,220,225,254,414,437,581,605|🇳CN-120.238.122.160-1918 #3'
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
+  server: service.ouluyun9803.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '151,153,220,254,414,437,445,581,605|🇳CN-120.238.122.160-1919 #3'
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20005
   server: service.ouluyun9803.com
   type: ss
   udp: true
@@ -1490,7 +1484,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 151,213,220,371,418,538,579,580,581,590,591,596,602,603,605,880|中国_0904009
+  name: 151,172,213,220,371,418,538,579,581,590,591,596,602,603,605,880|中国_0904009
   network: ws
   port: '30023'
   server: v01.gutingting.com
@@ -1505,7 +1499,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: 151,213,220,371,418,429,538,579,580,581,590,591,596,602,603,605,880|中国_0904010
+  name: 151,172,213,220,371,418,538,579,581,590,591,596,602,603,605,880|中国_0904010
   network: ws
   port: '30015'
   server: v02.gutingting.com
@@ -1520,7 +1514,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '151,213,220,442,538,579,580,581,590,591,596,602,603,605,624,639|🇨🇳_CN_中国->🇯🇵_JP_日本
+  name: '151,172,213,220,442,538,579,581,590,591,596,602,603,605,639|🇨🇳_CN_中国->🇯🇵_JP_日本
     #1'
   network: ws
   port: 40013
@@ -1534,7 +1528,7 @@ proxies:
     path: /qwe123321ewq
 - alterId: 0
   cipher: auto
-  name: 151,213,220,371,418,429,538,579,580,581,590,591,596,602,603,605,880|中国_0904017
+  name: 151,172,213,220,371,418,538,579,581,590,591,596,602,603,605,880|中国_0904017
   network: ws
   port: '30041'
   server: v02.gutingting.com
@@ -1549,7 +1543,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '151,213,220,538,579,580,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.238-2486
+  name: '151,172,213,220,538,579,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.238-2486
     #12'
   network: ws
   port: 5001
@@ -1565,7 +1559,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '151,213,220,538,579,580,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.238-2511
+  name: '151,172,213,220,538,579,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.238-2511
     #12'
   network: ws
   port: 9111
@@ -1581,7 +1575,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '151,213,220,538,579,580,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.243-2512
+  name: '151,172,213,220,538,579,581,590,591,596,602,603,605|🇨🇳CN-120.232.234.243-2512
     #12'
   network: ws
   port: 5100
@@ -1597,7 +1591,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '151,213,220,538,579,580,581,590,591,596,602,603,605|🇳CN-120.241.65.134-2516
+  name: '151,172,213,220,538,579,581,590,591,596,602,603,605|🇳CN-120.241.65.134-2516
     #3'
   network: ws
   port: 20025
@@ -1619,7 +1613,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '151,213,220,442,538,579,580,581,590,591,596,602,603,605|🇨🇳CN-223.111.202.139-2523
+  name: '151,172,213,220,442,538,579,581,590,591,596,602,603,605|🇨🇳CN-223.111.202.139-2523
     #12'
   network: ws
   port: 63088
@@ -1633,7 +1627,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '151,213,220,429,442,538,579,580,581,590,591,596,602,603,605|🇳CN-223.111.202.139-2546
+  name: '151,172,213,220,442,538,579,581,590,591,596,602,603,605|🇳CN-223.111.202.139-2546
     #3'
   network: ws
   port: 63086
@@ -1785,7 +1779,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 151,213,220,429,442,538,579,580,581,590,591,596,602,603,605,624|4Mohsen-8499
+  name: '151,172,213,220,429,442,538,579,581,590,591,596,602,603,605|🇨🇳CN-106.55.187.139-2741
+    #12'
   network: ws
   port: 8448
   server: 106.55.187.139
@@ -1795,8 +1790,6 @@ proxies:
   type: vmess
   uuid: 5a464707-3162-4a09-e9e2-d70a6b892267
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: aes-128-cfb
   name: 151,220,442,581,605,632|0.88|CN中国8
@@ -1828,17 +1821,6 @@ proxies:
   port: 24007
   server: 14.29.124.168
   type: ss
-- cipher: aes-128-cfb
-  name: '151,213,220,442,538,579,580,581,588,591,596,600,603,605,683|8J%2BHqPCfh7NDTi0xNC4yOS4xMjQu...
-    #9'
-  obfs: plain
-  obfs-param: ''
-  password: QazEdcTgb159@$*
-  port: '24005'
-  protocol: origin
-  protocol-param: ''
-  server: 14.29.124.168
-  type: ssr
 - cipher: aes-128-cfb
   name: '151,220,442,581,605|🇳CN-14.29.124.168-2776 #3'
   password: QazEdcTgb159@$*
@@ -1899,7 +1881,8 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 151,213,220,442,538,579,580,581,590,591,596,602,603,605,624|4Mohsen-8654
+  name: '151,172,213,220,442,538,579,581,590,591,596,602,603,605|🇳CN-124.222.189.225-2809
+    #3'
   network: ws
   port: 80
   server: 124.222.189.225
@@ -1909,8 +1892,6 @@ proxies:
   type: vmess
   uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
   name: '151,220,365,442,581,605|🇨🇳CN-112.26.46.71-2831 #3'
@@ -1930,7 +1911,8 @@ proxies:
     method: GET
     path:
     - /
-  name: 151,213,220,442,538,579,580,581,590,591,596,602,603,605,624|4Mohsen-8653
+  name: '151,172,213,220,442,538,579,581,590,591,596,602,603,605|🇨🇳CN-124.221.131.176-2835
+    #12'
   network: http
   port: 50797
   server: 124.221.131.176
@@ -2184,19 +2166,10 @@ proxies:
   port: 6601
   server: bs3.jymzffbquawl.com
   type: ss
-- cipher: chacha20-ietf
-  name: 151,213,220,362,538,579,581,588,591,596,600,603,605,683|8J%2BHqPCfh7NDTi0xNC4yOS4xODYu...
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '561'
-  protocol: auth_aes128_md5
-  protocol-param: NTU5NTY6MTExMTEx
-  server: eduall.buzzline.org
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 151,213,220,538,570,579,581,590,591,596,602,603,605,624|4Mohsen-8692
+  name: '151,172,213,220,538,570,579,581,590,591,596,602,603,605|🇳CN-123.249.101.15-6389
+    #3'
   network: ws
   port: 19709
   server: 123.249.101.15
@@ -2206,8 +2179,6 @@ proxies:
   type: vmess
   uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: aes-256-cfb
   name: '151,220,581,605|🇳CN-180.101.193.226-8034 #3'
@@ -4410,7 +4381,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '168,241,791|广东省广州市 移动 #37'
+  name: '168,241,791|广东省广州市 移动 #29'
   network: tcp
   port: '51707'
   server: 183.236.51.23
@@ -4420,7 +4391,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '168,241,415,791|广东省广州市 移动 #38'
+  name: '168,241,415,791|广东省广州市 移动 #30'
   network: tcp
   port: '53942'
   server: 120.232.153.40
@@ -4476,7 +4447,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '168,241,415,791|广东省广州市 移动 #43'
+  name: '168,241,415,791|广东省广州市 移动 #35'
   network: tcp
   port: '34002'
   server: 120.232.153.27
@@ -4486,7 +4457,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '168,241,415,791|广东省广州市 移动 #44'
+  name: '168,241,415,791|广东省广州市 移动 #36'
   network: tcp
   port: '50582'
   server: 120.232.153.27
@@ -4522,7 +4493,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '168,241,415,791|广东省广州市 移动 #46'
+  name: '168,241,415,791,871|@Vip_Security join us - 220
+
+    '
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '168,241,415,791|广东省广州市 移动 #38'
   network: tcp
   port: '54437'
   server: 183.236.51.23
@@ -18190,6 +18173,30 @@ proxies:
   tls: false
   type: vmess
   uuid: db8d12d5-1968-4125-b775-77d50aa65923
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '639|🇨🇳_CN_中国 #6'
+  network: ws
+  port: 8080
+  server: 103.184.44.224
+  tls: false
+  type: vmess
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: '639|🇨🇳_CN_中国 #7'
+  network: ws
+  port: 80
+  server: 101.42.30.206
+  tls: false
+  type: vmess
+  uuid: 24bc9855-8f7c-4543-e29d-970045f205f2
   ws-opts:
     path: /
 - alterId: 0
