@@ -1,28 +1,65 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: ' CA'
-  name: 49,50,51,52,308|🇨🇦CA(AzadNet.t.me)_016
+  country: 🇨🇦CA
+  name: 49,50,51,52,282,308|🇨🇦CA(AzadNet.t.me)_016
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
-- cipher: aes-256-gcm
-  country: ' CA'
-  name: 49,50,51,52,54,308,414|🇫🇷 FR 51 → tg@nicevpn123
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   country: CA
-  name: '49,50,51,52,54,57,91,151,220,225,409,561,581,584,605|🇨🇦CA-142.4.216.225-0717
+  name: '49,50,51,54,57,91,151,220,225,282,409,561,581,584,605|🇨🇦CA-142.4.216.225-0717
     #3'
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  country: ' CA'
+  name: 49,50,51,52,54,282,308,414|🇫🇷 FR 51 → tg@nicevpn123
+  password: 7gaTTlW73G
+  port: 49602
+  server: 51.222.157.179
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: '49,118,129,140,141,142,144,151,172,188,202,208,210,211,212,213,220,331,337,341,371,435,441,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,607,653,657,662,663,844,902|加拿大
+    v2rayfree.eu.org #1'
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #13'
+  network: ws
+  port: '443'
+  server: 141.724064.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /gmvfvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -48,19 +85,20 @@ proxies:
   cipher: auto
   country: CA
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 49,653,657,662,663,803|CA 10|openitr
-  network: http
-  port: '3389'
-  server: 178.128.237.6
+  http-opts: {}
+  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #13'
+  network: ws
+  port: '443'
+  server: 142.724064.xyz
   servername: ''
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
+  ws-opts:
+    headers:
+      Host: ''
+    path: /pttnvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -81,29 +119,11 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 49,308|🇺🇸US(AzadNet.t.me)_441
-  network: ws
-  port: 443
-  server: 134.195.198.61
-  servername: novia.makeup
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: novia.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   country: 🇨🇦CA
   delay: 2106
   h2-opts: {}
   http-opts: {}
-  name: '49,55,140,141,142,144,210,211,212,421,529,530|加拿大 - 蒙特利尔 - Oracle Corporatio...
+  name: '49,140,141,142,144,210,211,212,529,530|加拿大 - 蒙特利尔 - Oracle Corporatio...
     #1'
   network: ws
   port: 443
@@ -117,6 +137,23 @@ proxies:
     headers:
       HOST: 145.724064.xyz
     path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 49,653,657,662,663,803|CA 10|openitr
+  network: http
+  port: '3389'
+  server: 178.128.237.6
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   country: ' ZZ'
@@ -139,46 +176,10 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  country: CA
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.147.128 ◈ ws:44... #13'
-  network: ws
-  port: '443'
-  server: 141.724064.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /gmvfvws
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: '49,140,141,142,144,210,211,212|🔒🇨🇦 CA 140.238.157.13 ◈ ws:443... #13'
-  network: ws
-  port: '443'
-  server: 142.724064.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 508b2b91-0aba-411e-97be-c544a0ea7170
-  ws-opts:
-    headers:
-      Host: ''
-    path: /pttnvws
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: '49,50,51,52,54,118,121,129,134,140,141,142,144,160,165,188,202,208,210,211,212,234,285,309,331,337,341,343,347,371,435,440,470,474,479,663,715,724,725,732,762,771,772,773,774,775,776,779,787,788,871,895,902|Channel
+  name: '49,50,51,52,54,118,121,129,134,140,141,142,144,160,165,188,202,208,210,211,212,234,282,285,309,331,337,341,343,347,371,426,427,435,440,470,474,479,663,715,724,725,732,762,771,772,773,774,775,776,779,787,788,871,902|Channel
     id: @ShadowProxy66 🇨🇦 #35'
   network: tcp
   port: '22324'
@@ -195,7 +196,7 @@ proxies:
   delay: 1220
   h2-opts: {}
   http-opts: {}
-  name: '49,118,129,151,172,178,188,202,208,211,212,213,220,294,331,337,341,347,371,409,414,421,422,435,441,470,474,481,529,530,536,537,538,579,581,582,583,590,591,592,593,596,602,603,605,653,662,663,865,866,895,902|美国
+  name: '49,55,118,129,151,172,188,202,208,211,212,213,220,331,337,341,347,371,409,414,421,422,435,441,470,474,481,529,530,536,537,538,579,581,582,583,590,591,592,593,596,602,603,605,653,662,663,844,902|美国
     v2rayfree.eu.org #1'
   network: ws
   port: 443
@@ -215,23 +216,22 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: '49,118,129,140,141,142,144,151,172,188,202,208,210,211,212,213,220,331,337,341,371,435,441,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,607,653,657,662,663,844,902|加拿大
-    v2rayfree.eu.org #1'
+  name: 49,308|🇺🇸US(AzadNet.t.me)_441
   network: ws
   port: 443
-  server: 158.51.121.36
-  servername: ''
+  server: 134.195.198.61
+  servername: novia.makeup
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
+      host: novia.makeup
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,371,418,429,457,538,579,581,590,591,596,602,603,605,880|未知_0904273
+  name: '86,151,172,213,220,251,371,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904273
     #1'
   network: ws
   port: '2052'
@@ -331,7 +331,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 86,151,172,213,220,251,371,415,418,457,538,579,581,590,591,596,602,603,605,797,844,880|美国_0904243
+  name: 86,151,172,213,220,238,251,371,415,418,421,457,538,579,581,590,591,596,602,603,605,797,844,880|美国_0904243
   network: ws
   port: '2095'
   server: 172.67.170.103
@@ -379,7 +379,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904278
+  name: '86,151,172,213,220,251,418,429,457,538,579,581,590,591,596,602,603,605,880|未知_0904278
     #1'
   network: ws
   port: '2082'
@@ -459,31 +459,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 2461
-  name: '86,151,172,178,213,220,251,346,371,418,422,457,538,579,581,590,591,596,602,603,605,797,844,865,866,880,895|美国
-    CloudFlare节点 #1342'
-  network: ws
-  port: 2086
-  server: 104.18.14.19
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   delay: 1375
-  name: '86,90,151,172,213,220,251,299,300,371,395,415,418,422,457,538,579,581,590,591,596,602,603,605,797,845,880,893,895|美国
-    CloudFlare节点 #1312'
+  name: '86,90,151,172,178,213,220,251,299,300,371,395,418,421,422,457,538,579,581,590,591,596,602,603,605,797,845,865,866,880|未知_0904280
+    #1'
   network: ws
-  port: 2086
+  port: '2086'
   server: www.visa.com
-  servername: ip1.1789034.xyz
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -511,7 +493,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,168,172,178,213,220,241,251,371,418,429,440,457,538,579,581,590,591,596,602,603,605,791,865,866,880|未知_0904079
+  name: '86,151,168,172,213,220,241,251,371,418,440,457,538,579,581,590,591,596,602,603,605,791,880|未知_0904079
     #1'
   network: ws
   port: '2095'
@@ -543,7 +525,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904281
+  name: '86,151,172,213,220,251,418,429,457,538,579,581,590,591,596,602,603,605,880|未知_0904281
     #1'
   network: ws
   port: '2082'
@@ -594,7 +576,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '86,151,160,172,213,220,234,251,371,415,418,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904282
+  name: '86,151,160,172,213,220,234,238,251,285,371,415,418,421,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904282
     #1'
   network: ws
   port: '2086'
@@ -643,24 +625,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1298
-  name: '86,129,151,168,172,202,208,213,218,220,226,241,244,251,415,418,422,457,470,474,476,529,530,538,579,581,590,591,596,602,603,605,663,791,797,880|未知_0904181
-    #1'
-  network: ws
-  port: '2086'
-  server: 104.19.55.49
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904285
     #1'
   network: ws
@@ -694,10 +658,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,160,172,213,220,234,251,415,418,457,538,579,581,590,591,596,602,603,605,844,880,895|🇺🇸_定制专线：@QS00008
-    #157'
+  name: '86,151,160,172,213,220,234,238,251,415,418,421,457,538,579,581,590,591,596,602,603,605,880|未知_0904287
+    #1'
   network: ws
-  port: 8080
+  port: '8080'
   server: 104.16.67.38
   servername: ''
   skip-cert-verify: false
@@ -777,14 +741,14 @@ proxies:
     path: /kuurtreeh
 - alterId: 0
   cipher: auto
-  name: 86,151,160,172,213,220,234,251,309,371,418,457,538,579,581,590,591,596,602,603,605,653,662,844,880,900|005
-    ✂️-🏴‍☠️-last 32 total=1211...
+  name: '86,151,172,213,220,251,309,371,418,457,538,579,581,590,591,596,602,603,605,653,662,844,880|未知_0904292
+    #1'
   network: ws
   port: '443'
   server: 104.16.60.8
-  servername: us2e-20240116.v2freevpn.com
+  servername: ''
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
@@ -794,7 +758,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,371,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904293
+  name: '86,151,172,213,220,251,371,418,429,457,538,579,581,590,591,596,602,603,605,880|未知_0904293
     #1'
   network: ws
   port: '2086'
@@ -810,7 +774,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,371,415,418,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904294
+  name: '86,151,172,213,220,251,285,371,415,418,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904294
     #1'
   network: ws
   port: '8080'
@@ -828,7 +792,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1422
-  name: '86,151,168,172,213,220,241,251,371,418,422,457,538,579,581,590,591,596,602,603,605,791,797,880|未知_0904102
+  name: '86,101,114,151,168,172,189,198,213,220,241,251,344,345,346,371,415,416,417,418,421,422,445,446,457,538,579,581,590,591,596,602,603,605,791,797,844,880|未知_0904102
     #1'
   network: ws
   port: '2086'
@@ -862,12 +826,12 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1527
-  name: '86,151,172,213,220,251,418,429,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904297
-    #1'
+  name: 86,151,172,213,220,251,418,421,422,457,538,579,581,590,591,596,602,603,605,844,880,900|003
+    ✂️-🏴‍☠️-last 32 total=1211...
   network: ws
   port: '80'
   server: 104.17.148.22
-  servername: ''
+  servername: telegram----cassiusvpn----10.lexel47149.workers.dev
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -876,25 +840,10 @@ proxies:
     headers:
       Host: telegram----cassiusvpn----10.lexel47149.workers.dev
     path: /az05.beyondy.cfd:443/link
-- delay: 2152
-  fingerprint: chrome
-  name: '86,151,220,251,457,581,605|🏁RELAY-104.18.12.229-1159 #3'
-  network: ws
-  password: Watashi_VPN
-  port: 2053
-  server: 104.18.12.229
-  skip-cert-verify: false
-  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
-    path: /
 - alterId: 0
   cipher: auto
   delay: 1402
-  name: '86,151,172,213,218,220,226,251,415,422,457,529,530,538,579,581,590,591,596,602,603,605|🏁RELAY-104.19.42.49-1161
+  name: '86,151,172,213,218,220,226,251,421,422,457,529,530,538,579,581,590,591,596,602,603,605|🏁RELAY-104.19.42.49-1161
     #12'
   network: ws
   port: 2086
@@ -911,23 +860,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 86,151,172,213,220,251,418,422,457,538,579,581,590,591,596,602,603,605,797,880|美国_0904248
-  network: ws
-  port: '2086'
-  server: 104.26.13.31
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904299
+  name: 86,151,172,213,220,238,251,285,418,421,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904299
   network: ws
   port: '8880'
   server: 104.16.68.38
@@ -943,25 +876,8 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  delay: 1486
-  name: 86,114,151,172,178,198,213,220,226,227,251,346,371,415,416,417,418,421,422,457,538,579,581,590,591,596,602,603,605,619,620,621,865,866,880|美国_0904249
-  network: ws
-  port: '2086'
-  server: 104.26.5.57
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   delay: 1380
-  name: '86,91,118,129,134,151,160,172,182,183,188,202,208,213,218,220,226,234,251,257,263,294,309,331,337,341,371,384,390,418,421,422,435,440,457,470,474,479,481,529,530,538,547,549,579,581,582,583,584,590,591,592,593,596,602,603,605,716,724,725,750,763,771,772,773,774,844,871,880|未知_0904259
+  name: '86,91,118,129,134,151,160,172,182,183,188,202,208,213,218,220,226,234,251,257,263,294,309,331,337,341,371,384,390,418,421,422,435,440,457,470,474,481,529,530,538,547,549,579,581,582,583,584,590,591,592,593,596,602,603,605,844,871,880|未知_0904259
     #1'
   network: ws
   port: '80'
@@ -978,32 +894,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904300
+  name: '86,151,172,178,213,220,226,251,418,457,538,579,581,590,591,596,602,603,605,865,866,880|未知_0904300
     #1'
   network: ws
   port: '2095'
   server: 104.19.45.254
   servername: ''
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '86,151,172,173,213,220,251,418,457,538,579,581,590,591,596,602,603,605,815,880|未知_0904301
-    #1'
-  network: ws
-  port: '2095'
-  server: 104.19.45.123
-  servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -1032,10 +929,10 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1499
-  name: '86,91,118,129,151,160,172,178,188,202,208,213,220,234,251,294,331,337,341,346,418,422,435,457,470,474,481,536,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,865,866,880,895|🇺🇸_定制专线：@QS00008
-    #149'
+  name: '86,91,118,129,151,160,172,188,202,208,213,220,234,251,331,337,341,418,435,457,470,474,481,536,538,579,581,582,583,584,590,591,592,593,596,602,603,605,880|未知_0904260
+    #1'
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.136.106
   servername: ''
   skip-cert-verify: false
@@ -1099,7 +996,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,371,418,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904307
+  h2-opts: {}
+  http-opts: {}
+  name: '86,151,164,172,173,213,220,226,251,418,457,538,579,581,590,591,596,602,603,605,698,815,880|未知_0904306
+    #1'
+  network: ws
+  port: '2095'
+  server: 104.19.45.137
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '86,151,172,213,220,251,371,418,421,457,538,579,581,590,591,596,602,603,605,844,880|未知_0904307
     #1'
   network: ws
   port: '2086'
@@ -1116,10 +1032,10 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '86,151,172,213,220,251,418,457,538,579,581,590,591,596,602,603,605,880,895|美国
-    CloudFlare节点 #1327'
+  name: '86,151,172,178,213,220,251,418,457,538,579,581,590,591,596,602,603,605,865,866,880|未知_0904308
+    #1'
   network: ws
-  port: 2095
+  port: '2095'
   server: 104.19.45.129
   servername: ''
   skip-cert-verify: false
@@ -1150,24 +1066,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1300
-  name: '86,151,172,213,218,220,226,251,421,422,457,529,530,538,579,581,590,591,596,602,603,605,663|美国
-    CloudFlare节点 #851'
-  network: ws
-  port: '2086'
-  server: 104.19.123.11
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '86,151,172,213,220,251,371,418,457,538,579,581,590,591,596,602,603,605,880|未知_0904310
     #1'
   network: ws
@@ -1185,7 +1083,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '86,116,151,167,172,213,220,240,251,347,371,409,418,457,538,579,581,590,591,596,602,603,605,790,880|未知_0904311
+  name: '86,116,151,167,172,178,213,220,240,251,347,371,409,418,457,538,579,581,590,591,596,602,603,605,790,865,866,880|未知_0904311
     #1'
   network: ws
   port: '2095'
@@ -1202,7 +1100,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 86,91,118,129,151,164,172,182,183,188,202,208,213,220,226,251,294,331,337,341,371,384,418,422,435,457,470,474,481,538,547,549,579,581,582,583,584,590,591,592,593,596,602,603,605,698,880|未知_0904257
+  name: 86,91,118,129,151,164,172,182,183,188,202,208,213,220,226,251,331,337,341,371,384,418,435,457,470,474,481,538,547,549,579,581,582,583,584,590,591,592,593,596,602,603,605,698,880|未知_0904257
   network: ws
   port: '80'
   server: 162.159.128.105
@@ -1216,7 +1114,8 @@ proxies:
     headers:
       Host: rn2.hostmjj.com
     path: /
-- name: '86,151,220,251,457,581,605|🏁RELAY-104.17.147.22-1187 #3'
+- alterId: -1
+  name: '86,151,220,251,421,457,581,605|🏁RELAY-104.17.147.22-1187 #3'
   network: ws
   password: E-Graphic
   port: 443
@@ -1231,7 +1130,7 @@ proxies:
     path: /proxyip=62.3.12.185
 - alterId: 0
   cipher: auto
-  name: 86,151,164,172,213,220,226,251,418,422,457,538,579,581,590,591,596,602,603,605,698,813,844,871,880|未知_0904320
+  name: 86,151,164,172,213,220,226,251,418,426,427,457,538,579,581,590,591,596,602,603,605,698,813,871,880|未知_0904320
   network: ws
   port: '80'
   server: www.parspack.com
@@ -1247,7 +1146,7 @@ proxies:
     path: /navigate?ed=1024
 - alterId: 0
   cipher: auto
-  name: '86,114,151,172,198,213,220,227,251,294,384,415,416,417,418,422,457,536,538,579,581,590,591,596,602,603,605,619,620,621,880|未知_0904258
+  name: '86,129,151,172,178,202,208,213,220,227,251,384,415,418,457,470,474,476,536,538,579,581,590,591,596,602,603,605,619,620,621,865,866,880|未知_0904258
     #1'
   network: ws
   port: '80'
@@ -1286,8 +1185,8 @@ proxies:
   delay: 2106
   h2-opts: {}
   http-opts: {}
-  name: '86,118,129,151,161,172,173,188,202,208,213,218,220,226,238,251,331,337,341,415,422,435,457,459,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,815|VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP...
-    #1'
+  name: '86,118,129,151,161,172,173,188,202,208,213,218,220,226,238,251,331,337,341,415,435,457,459,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,815,844|🇨🇦CA-168.138.70.157-1192
+    #24'
   network: ws
   port: 443
   server: 145.724064.xyz
@@ -1303,8 +1202,8 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1334
-  name: '86,118,129,151,172,188,202,208,213,220,226,238,251,331,337,341,435,457,459,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,663,902|[🇨🇦]t.me/ConfigsHub
-    #33'
+  name: '86,118,129,151,172,188,202,208,213,220,226,251,331,337,341,435,457,470,474,481,538,579,581,582,583,590,591,592,593,596,602,603,605,663,902|[🇨🇦]t.me/ConfigsHub
+    #34'
   network: ws
   port: '443'
   server: 104.17.213.57
@@ -1319,7 +1218,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '86,91,118,129,151,172,188,202,208,213,220,251,294,331,337,341,384,418,422,435,440,457,470,474,481,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,880|未知_0904371
+  name: '86,91,118,129,151,172,178,188,202,208,213,220,251,294,331,337,341,384,418,421,422,435,440,457,470,474,481,538,579,581,582,583,584,590,591,592,593,596,602,603,605,844,865,866,880|未知_0904371
     #1'
   network: ws
   port: '80'
@@ -1335,7 +1234,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 86,151,172,213,220,251,457,538,579,581,590,591,596,602,603,605,844|🏁RELAY-104.16.60.8-1882
+  name: '86,151,172,213,220,251,285,421,457,538,579,581,590,591,596,602,603,605,844|🏁RELAY-104.16.60.8-1196
+    #13'
   network: ws
   port: 2082
   server: 104.16.60.8
@@ -1351,7 +1251,7 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 86,151,160,172,213,220,234,251,371,457,538,579,581,590,591,596,602,603,605,902|🏁RELAY-104.18.202.250-2255
+  name: 86,151,172,213,220,251,285,371,457,538,579,581,590,591,596,602,603,605,902|🏁RELAY-104.18.202.250-2255
   network: ws
   port: 8080
   server: 104.18.202.250
@@ -1365,7 +1265,8 @@ proxies:
     headers:
       Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /jahfkjha.cfd/linkws
-- name: '86,151,220,251,457,581,605|🏁RELAY-104.17.148.22-1198 #3'
+- alterId: -1
+  name: '86,151,220,251,421,457,581,605|🏁RELAY-104.17.148.22-1198 #3'
   network: ws
   password: E-Graphic
   port: 443
@@ -1380,7 +1281,7 @@ proxies:
     path: /proxyip=62.3.12.185
 - alterId: 0
   cipher: auto
-  name: '86,118,129,148,151,164,165,172,177,188,202,208,213,215,220,226,251,290,331,332,337,341,397,415,435,457,470,474,475,538,579,581,590,591,596,602,603,605,698,763,772,775,776,780,787,788,847,848,849,852,855,861|رایگان
+  name: '86,118,129,148,151,164,165,172,177,188,202,208,213,215,220,226,251,290,331,332,337,341,397,435,457,470,474,475,479,538,579,581,590,591,596,602,603,605,698,750,763,771,772,774,775,776,780,787,788,847,848,849,852,855,861|رایگان
     | VMESS | @DeamNet_Prox... #69'
   network: ws
   port: '2095'
@@ -1398,7 +1299,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '86,151,160,172,213,220,234,251,309,347,371,409,440,457,538,579,581,590,591,596,602,603,605,663,871|@Vip_Security
-    join us - 839
+    join us - 838
 
     '
   network: ws
@@ -1416,7 +1317,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '86,151,164,168,172,213,220,226,241,251,371,418,457,538,579,581,590,591,596,602,603,605,698,791,880|未知_0904080
+  name: '86,101,114,151,164,168,172,178,189,198,213,220,226,241,251,344,345,371,415,416,417,418,445,446,457,538,579,581,590,591,596,602,603,605,698,791,865,866,880|未知_0904080
     #1'
   network: ws
   port: '2095'
@@ -1433,7 +1334,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 87,226,514,572,574|🇨🇦 _CA_加拿大
+  name: '87,226,514,572,574|🇨🇦 _CA_加拿大 #2'
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -1447,7 +1348,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '90,299,300,395,845,893|Canada_Ottawa_vmess_83 #2'
+  name: 90,299,300,395,845|Canada vmess 83
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -1462,7 +1363,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '90,299,300,395,845,893|Canada_Ottawa_vmess_893 #2'
+  name: 90,299,300,395,845|Canada vmess 893
   network: ws
   port: 2086
   server: shopify.com
@@ -1520,139 +1421,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 104,106,116,118,129,148,172,188,190,193,202,208,213,215,290,331,332,341,347,367,369,371,390,409,435,456,470,474,475,538,646,653,657,662,663,847,848,871,900|013
-    ✂️-🇺🇸US-last 32 total=1211...
+  name: '101,153,189,225,344,345,445,446,513,575,576,872|🇨🇦 _CA_加拿大 #4'
   network: ws
-  port: '80'
-  server: 104.21.71.88
-  servername: ''
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
+  skip-cert-vertify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
   ws-opts:
-    headers:
-      Host: us2e-20240116.v2freevpn.com
-    path: /us2ekjds3nay
-- alterId: 0
-  cipher: auto
-  name: '104,106,116,118,129,134,148,160,172,188,190,193,202,208,213,215,234,290,331,332,341,347,367,369,371,385,390,409,435,440,441,456,470,474,475,538,640,646,663,847,848,867,871|@Vip_Security
-    join us - 177
-
-    '
-  network: ws
-  port: '443'
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '104,106,118,129,134,148,160,172,182,183,188,190,193,202,208,213,215,234,290,309,331,332,341,343,367,369,371,390,435,440,456,470,474,475,480,538,609,663,802,812,847,848,871|@Vip_Security
-    join us - 843
-
-    '
-  network: ws
-  port: '443'
-  server: pandor.boats
-  servername: aveiror.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: aveiror.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '104,106,116,118,129,148,160,172,188,190,193,202,208,213,215,234,290,331,332,341,347,367,369,384,385,390,409,435,440,441,456,470,474,475,538,663,847,848,871|@Vip_Security
-    join us - 380
-
-    '
-  network: ws
-  port: '443'
-  server: 172.67.244.191
-  servername: gwdef.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 104,106,118,129,134,148,172,182,183,188,190,193,202,208,213,215,226,257,263,290,309,331,332,341,343,367,369,390,426,427,435,440,456,470,474,475,538,546,609,847,848,871,902|🏁RELAY-172.67.192.57-0193
-  network: ws
-  port: 443
-  server: 172.67.192.57
-  servername: max.mankadmu.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: max.mankadmu.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 104,106,116,118,129,134,148,151,164,168,172,182,183,188,190,193,202,208,213,215,220,226,238,241,257,263,285,290,331,332,341,367,369,390,418,435,440,456,470,474,475,480,481,538,547,549,579,581,590,591,596,602,603,605,646,663,698,791,802,844,847,848,871,880,900|001
-    ✂️-🏴‍☠️-last 32 total=1211...
-  network: ws
-  port: '443'
-  server: 104.21.82.17
-  servername: gwdef.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '104,106,115,116,118,129,148,172,188,190,193,202,208,213,215,290,331,332,341,367,369,385,390,435,456,470,474,475,538,847,848,871|@Vip_Security
-    join us - 178
-
-    '
-  network: ws
-  port: '443'
-  server: 104.21.83.115
-  servername: hms02.fxiaomi.sbs
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '104,106,118,129,134,148,160,172,177,182,183,188,190,193,202,208,213,215,234,257,263,290,294,331,333,337,341,367,369,390,397,435,440,456,470,474,475,480,481,538,547,549,653,662,663,802,812,847,848,849,852,855,861,871|@Vip_Security
-    join us - 172
-
-    '
-  network: ws
-  port: '443'
-  server: 104.21.74.239
-  servername: afrhms07.xfixedfloat.cfd
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: afrhms07.xfixedfloat.cfd
-    path: /linkws
+    path: /
 - alterId: 0
   cipher: auto
   name: 108,194,379,380|🆔@LuxyNet💎❖🇦❖CA❖264
@@ -1736,7 +1516,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '115,116,160,234,309,371,384,440,663,871|@Vip_Security join us - 181
+  name: '115,116,160,234,309,371,384,426,427,440,663,871|@Vip_Security join us - 181
 
     '
   network: ws
@@ -1752,7 +1532,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '115,116,371,440,902|Channel id: @ShadowProxy66 🇨🇦 #42'
+  name: '115,116,238,371,440,902|Channel id: @ShadowProxy66 🇨🇦 #42'
   network: ws
   port: '443'
   server: capellare.com
@@ -1769,7 +1549,7 @@ proxies:
   h2-opts: {}
   http-opts: {}
   name: '115,116,118,129,148,172,173,188,202,208,213,215,285,290,331,332,341,435,440,470,474,475,538,815,847,848,871|@Vip_Security
-    join us - 761
+    join us - 760
 
     '
   network: ws
@@ -1786,7 +1566,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '116,134,160,226,234,309,347,371,385,409,414,440,441,546,612,640,646,647,653,662,663,902|🏁RELAY-104.21.15.212-0196
+  name: '116,134,160,226,234,309,347,371,385,409,414,440,441,546,612,616,640,646,647,653,662,663,902|🏁RELAY-104.21.15.212-0196
     #1'
   network: ws
   port: 443
@@ -1803,9 +1583,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '116,134,309,347,371,385,409,440,441,663,871|@Vip_Security join us - 356
-
-    '
+  name: "116,134,309,347,371,385,409,440,441,663,871|@Vip_Security join us - 356\n\
+    \ #1"
   network: ws
   port: '443'
   server: 172.67.174.42
@@ -1821,8 +1600,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '116,134,160,234,309,347,371,409,440,640,646,653,663,812,871,902|[🇨🇦]t.me/ConfigsHub
-    #32'
+  name: '116,134,160,234,309,347,371,409,426,427,440,640,646,653,663,812,871,902|[🇨🇦]t.me/ConfigsHub
+    #33'
   network: ws
   port: '443'
   server: 104.21.83.208
@@ -1838,7 +1617,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 116,309,440,653,657,662,900|015 ✂️-🇳🇦NA-last 32 total=1211...
+  name: 116,309,440,653,657,662,900|022 ✂️-🇳🇦NA-last 32 total=1211...
   network: ws
   port: '2096'
   server: 104.16.67.38
@@ -1964,7 +1743,7 @@ proxies:
     path: /video/34kKXbLM
 - alterId: 0
   cipher: auto
-  name: '122,871|@Vip_Security join us - 704
+  name: '122,871|@Vip_Security join us - 703
 
     '
   network: ws
@@ -2233,7 +2012,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: none
-  name: 134|CA🇨🇦 | ca3.vmess.site-443 | 46...
+  name: 134|CA🇨🇦 | ca3.vmess.site-443 | 76...
   network: ws
   port: '443'
   server: ippscan5.kazoodle.com
@@ -2291,12 +2070,69 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 23.162.56.57 ◈ ws:2087 ... #6'
+  network: ws
+  port: 2087
+  server: speed.cloudflare.com
+  servername: yell998iiflan.rebecca.cloudns.biz
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yelan.rebecca.cloudns.biz
+    path: /linkvws/max.mankadmu.com
+- alterId: 0
+  cipher: auto
   name: '140,141,142,144,210,211,212,653,658,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T...
     #23'
   network: ws
   port: '443'
   server: 158.51.121.36
   servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '140,141,144,210,211,212,658,662|🇨🇦 Canada - Toronto 🌎 VM-WS-TL... #13'
+  network: ws
+  port: '443'
+  server: 23.162.200.94
+  servername: nina.bond
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nina.bond
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '140,141,142,144,210,211,212,285|🏁 ZZ_1060 #1'
+  network: ws
+  port: 443
+  server: 23.162.200.94
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '140,141,142,144,210,211,212,653,658,662|🇨🇦 Canada - Toronto 🌎 VM-WS-TL...
+    #16'
+  network: ws
+  port: '443'
+  server: 23.162.200.227
+  servername: vk.com
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -2363,23 +2199,9 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #18'
+  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #12'
   network: ws
   port: '443'
-  server: speed.cloudflare.com
-  servername: sareikela.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sareikela.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #19'
-  network: ws
-  port: 443
   server: speed.cloudflare.com
   servername: to.tilebani.com
   tls: true
@@ -2391,7 +2213,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #20'
+  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.13.69 ◈ ws:443 ◈... #13'
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -2403,20 +2225,6 @@ proxies:
     headers:
       Host: tilebani.com
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 15.235.119.7 ◈ ws:2083 ... #6'
-  network: ws
-  port: 2083
-  server: speed.cloudflare.com
-  servername: yela8jhn.rebecca.cloudns.biz
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: yelan.rebecca.cloudns.biz
-    path: /linkvws/aveiror.com
 - alterId: 0
   cipher: auto
   name: '140,141,142,144,210,211,212|🔒🇨🇦 CA 168.138.70.157 ◈ ws:443... #14'
@@ -3475,6 +3283,25 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '167,240,414,790|CA??SSRSUB_-1575484830 #2'
+  network: ws
+  port: 2095
+  server: 104.19.45.70
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
   name: '167,240,790|CA??SSRSUB_942096065 #2'
   network: ws
   port: 8080
@@ -3824,11 +3651,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '167,240,422,790,797,890,895|🇺🇸_US_美国->🇨🇦_CA_加拿大 #334'
+  name: 167,240,422,790,797,890|Walnut_US_PsychzNetworks16
   network: ws
   port: 2086
   server: 104.19.45.15
-  servername: ''
   skip-cert-verify: true
   tfo: true
   tls: false
@@ -3841,7 +3667,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '167,240,790|CA??SSRSUB_1083586348 #2'
+  name: '167,178,240,790,865,866|RELAY🚩 | ip13.freegradely.xyz-... #10'
   network: ws
   port: 2086
   server: 104.19.45.11
@@ -3914,6 +3740,26 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '167,216,217,240,371,414,790|CA??SSRSUB_-348534521 #2'
+  network: ws
+  port: 2095
+  server: 104.19.45.240
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  skip-cert-vertify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
   name: '167,240,790|CA??SSRSUB_-524361455 #2'
   network: ws
   port: 2052
@@ -3959,20 +3805,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '210,211,212,653,658,662|🇨🇦 Canada - Toronto 🌎 VM-WS-TL... #16'
-  network: ws
-  port: '443'
-  server: 23.162.200.227
-  servername: vk.com
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vk.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: '211,212,653,657,662|🇨🇦 Canada - Montreal 🌎 VM-WS-T... #27'
   network: ws
   port: '443'
@@ -3989,7 +3821,7 @@ proxies:
   cipher: auto
   name: '211,212|💰💥🇨🇦 CA 15.235.13.69 ◈ ws:443 ... #10'
   network: ws
-  port: 443
+  port: '443'
   server: 15.235.13.69
   servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   tls: true
@@ -4121,7 +3953,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '225,871|@Vip_Security join us - 622
+  name: '225,871|@Vip_Security join us - 621
 
     '
   network: tcp
@@ -4218,6 +4050,23 @@ proxies:
     headers:
       Host: nlch.blueberrynetwork.store
     path: /
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦 CA
+  h2-opts: {}
+  http-opts: {}
+  name: 282| CA_443
+  network: ws
+  port: 443
+  server: 68.168.31.196
+  servername: 68.168.31.196
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    HOST: 68.168.31.196
+  ws-path: /linkvws
 - alterId: 0
   cipher: auto
   name: '285,347,409,663|🔒🇬🇧 GB 68.168.31.196 ◈ ws:443 ... #9'
@@ -4566,7 +4415,7 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '347,409,440,663,871|@Vip_Security join us - 612
+  name: '347,409,440,663,871|@Vip_Security join us - 611
 
     '
   network: ws
@@ -4584,7 +4433,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '347,409,440,663,871|@Vip_Security join us - 838
+  name: '347,409,440,663,871|@Vip_Security join us - 837
 
     '
   network: ws
@@ -4618,7 +4467,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '347,409,440,663,871|@Vip_Security join us - 779
+  name: '347,409,440,663,871|@Vip_Security join us - 778
 
     '
   network: ws
@@ -6392,45 +6241,6 @@ proxies:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
 - alterId: 0
   cipher: auto
-  name: 415|>🇨🇦 CA|Ns|0816|TG@FProxies|
-  network: ws
-  port: '80'
-  server: 162.159.133.14
-  tls: false
-  type: vmess
-  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '415|>🇨🇦 CA|Ns|0816|TG@FProxies| #1'
-  network: ws
-  port: '80'
-  server: 104.19.173.168
-  tls: false
-  type: vmess
-  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 415|>🇨🇦 CA|Ls|0720|TG@FProxies|
-  network: ws
-  port: '443'
-  server: 141.724064.xyz
-  tls: true
-  type: vmess
-  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
-  ws-opts:
-    headers:
-      Host: 141.724064.xyz
-    path: /gmvfvws
-- alterId: 0
-  cipher: auto
   name: 415|🇨🇦 加拿大2|cf
   network: ws
   port: '2052'
@@ -6457,6 +6267,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 415|>🇨🇦 CA|Ns|0816|TG@FProxies|
+  network: ws
+  port: '80'
+  server: 104.19.173.168
+  tls: false
+  type: vmess
+  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: '415|>🇨🇦 CA|Hs|0720|TG@FProxies| #1'
   network: ws
   port: '10000'
@@ -6468,6 +6291,32 @@ proxies:
     headers:
       Host: ''
     path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '415|>🇨🇦 CA|Ns|0816|TG@FProxies| #1'
+  network: ws
+  port: '80'
+  server: 162.159.133.14
+  tls: false
+  type: vmess
+  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 415|>🇨🇦 CA|Ls|0720|TG@FProxies|
+  network: ws
+  port: '443'
+  server: 141.724064.xyz
+  tls: true
+  type: vmess
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  ws-opts:
+    headers:
+      Host: 141.724064.xyz
+    path: /gmvfvws
 - alterId: 0
   cipher: auto
   name: '418,705,835,884|加拿大_0904008 #2'
@@ -6482,536 +6331,6 @@ proxies:
     headers:
       Host: tguk.cloudflare.quest
     path: /aries
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_191715...
-  network: ws
-  port: 8880
-  server: 104.25.136.174
-  servername: 104.25.136.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-125.cn-db.top
-    path: /dabai.in104.25.136.174
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-12943...
-  network: ws
-  port: 80
-  server: 104.20.127.239
-  servername: 104.20.127.239
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-411.db-link01.top
-    path: /dabai.in104.20.127.239
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_420545...
-  network: ws
-  port: 8880
-  server: 104.20.28.235
-  servername: 104.20.28.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-124.cn-db.top
-    path: /dabai.in104.20.28.235
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10986...
-  network: ws
-  port: 8880
-  server: 104.25.37.96
-  servername: 104.25.37.96
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-97.db-link01.top
-    path: /dabai.in104.25.37.96
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_887193...
-  network: ws
-  port: 80
-  server: 172.67.53.130
-  servername: 172.67.53.130
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-491.db-link01.top
-    path: /dabai.in172.67.53.130
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-16508...
-  network: ws
-  port: 80
-  server: 172.67.54.19
-  servername: 172.67.54.19
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-484.db-link01.top
-    path: /dabai.in172.67.54.19
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-49933...
-  network: ws
-  port: 8880
-  server: 104.18.187.26
-  servername: 104.18.187.26
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-313.cn-db.top
-    path: /dabai.in104.18.187.26
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_166091...
-  network: ws
-  port: 8080
-  server: 104.25.59.205
-  servername: 104.25.59.205
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-409.cn-db.top
-    path: /dabai.in104.25.59.205
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_272579...
-  network: ws
-  port: 2095
-  server: 104.20.70.158
-  servername: 104.20.70.158
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-79.db-link01.top
-    path: /dabai.in104.20.70.158
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_207469...
-  network: ws
-  port: 2082
-  server: 104.20.209.66
-  servername: 104.20.209.66
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-101.db-link01.top
-    path: /dabai.in104.20.209.66
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1802
-  h2-opts: {}
-  http-opts: {}
-  name: '421,529,530|芬兰 - 赫尔辛基 - Hetzner Online Gmb... #6'
-  network: ws
-  port: 80
-  server: 172.67.193.36
-  servername: ftp.debian.org.stackoverflow.com.www.speedtest.net.nobitex.ir.fi.DarGAHSeRVIceS.Xyz.
-  skip-cert-verify: true
-  type: vmess
-  uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6
-  ws-opts:
-    headers:
-      HOST: ftp.debian.org.stackoverflow.com.www.speedtest.net.nobitex.ir.fi.DarGAHSeRVIceS.Xyz.
-    path: /navigate?ed=1024
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-48943...
-  network: ws
-  port: 8080
-  server: 104.24.168.120
-  servername: 104.24.168.120
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-465.cn-db.top
-    path: /dabai.in104.24.168.120
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_166295...
-  network: ws
-  port: 2095
-  server: 104.25.92.47
-  servername: 104.25.92.47
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-331.db-link02.top
-    path: /dabai.in104.25.92.47
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_213955...
-  network: ws
-  port: 2086
-  server: 104.16.60.8
-  servername: y-old-mode-9c0diab.wiriy73548.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      HOST: y-old-mode-9c0diab.wiriy73548.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_150513...
-  network: ws
-  port: 2052
-  server: 104.21.233.208
-  servername: 104.21.233.208
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-24.db-link02.top
-    path: /dabai.in104.21.233.208
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-77568...
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  servername: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      HOST: 38hhuiet-glitter-ee01.lijeyet360.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-95756...
-  network: ws
-  port: 2082
-  server: 172.67.12.99
-  servername: 172.67.12.99
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-254.db-link01.top
-    path: /dabai.in172.67.12.99
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_200116...
-  network: ws
-  port: 2082
-  server: 104.18.114.71
-  servername: 104.18.114.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-89.db-link01.top
-    path: /dabai.in104.18.114.71
-- alterId: 0
-  cipher: auto
-  delay: 947
-  name: 421,422,663,797|sws-1203-2024-08-26_153526
-  network: ws
-  port: 2086
-  server: 104.19.46.42
-  servername: ''
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_121467...
-  network: ws
-  port: 8880
-  server: 172.67.126.41
-  servername: 172.67.126.41
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-101.db-link02.top
-    path: /dabai.in172.67.126.41
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_853628...
-  network: ws
-  port: 80
-  server: 104.24.190.84
-  servername: 104.24.190.84
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-391.db-link02.top
-    path: /dabai.in104.24.190.84
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_173532...
-  network: ws
-  port: 2082
-  server: 172.67.3.189
-  servername: 172.67.3.189
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-200.db-link02.top
-    path: /dabai.in172.67.3.189
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10671...
-  network: ws
-  port: 8880
-  server: 104.25.231.159
-  servername: 104.25.231.159
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-36.db-link01.top
-    path: /dabai.in104.25.231.159
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-16368...
-  network: ws
-  port: 2086
-  server: 172.67.81.163
-  servername: 172.67.81.163
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-220.db-link02.top
-    path: /dabai.in172.67.81.163
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-34396...
-  network: ws
-  port: 8880
-  server: 172.67.84.147
-  servername: 172.67.84.147
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-198.db-link02.top
-    path: /dabai.in172.67.84.147
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_163382...
-  network: ws
-  port: 2086
-  server: 104.25.43.79
-  servername: 104.25.43.79
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-459.cn-db.top
-    path: /dabai.in104.25.43.79
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 893
-  h2-opts: {}
-  http-opts: {}
-  name: '421,529,530|美国 - 費利蒙 - Akamai Technologies... #4'
-  network: ws
-  port: 2052
-  server: 104.16.61.8
-  servername: 7whrapid-river-a083.sisay70779.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      HOST: 7whrapid-river-a083.sisay70779.workers.dev
-    path: /afrhms07.xfixedfloat.cfd/linkws
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_383141...
-  network: ws
-  port: 2086
-  server: 172.67.82.155
-  servername: 172.67.82.155
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-488.db-link01.top
-    path: /dabai.in172.67.82.155
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10372...
-  network: ws
-  port: 8080
-  server: 104.16.246.234
-  servername: 104.16.246.234
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-435.db-link02.top
-    path: /dabai.in104.16.246.234
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-94040...
-  network: ws
-  port: 8880
-  server: 104.16.85.219
-  servername: 104.16.85.219
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.16.85.219
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-35277...
-  network: ws
-  port: 8880
-  server: 104.25.249.174
-  servername: 104.25.249.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.25.249.174
 - alterId: -1
   cipher: rc4-md5
   client-fingerprint: chrome
@@ -7025,389 +6344,6 @@ proxies:
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
   udp: true
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_202672...
-  network: ws
-  port: 8080
-  server: 104.24.190.228
-  servername: 104.24.190.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-454.db-link01.top
-    path: /dabai.in104.24.190.228
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-15687...
-  network: ws
-  port: 2082
-  server: 104.19.145.76
-  servername: 104.19.145.76
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-127.db-link01.top
-    path: /dabai.in104.19.145.76
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421,537,561|🏁RELAY-162.159.129.138-0726
-  network: ws
-  port: 80
-  server: 162.159.129.138
-  servername: rn2.hostmjj.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10577...
-  network: ws
-  port: 8880
-  server: 104.16.229.100
-  servername: 104.16.229.100
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-109.db-link02.top
-    path: /dabai.in104.16.229.100
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10166...
-  network: ws
-  port: 2086
-  server: 172.67.51.64
-  servername: 172.67.51.64
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-328.db-link01.top
-    path: /dabai.in172.67.51.64
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_107354...
-  network: ws
-  port: 2095
-  server: 104.25.189.63
-  servername: 104.25.189.63
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-61.db-link02.top
-    path: /dabai.in104.25.189.63
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_997222...
-  network: ws
-  port: 8080
-  server: 172.67.12.120
-  servername: 172.67.12.120
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-470.db-link02.top
-    path: /dabai.in172.67.12.120
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-74149...
-  network: ws
-  port: 2052
-  server: 104.16.60.8
-  servername: 6ba6-sound-6ba6.siliy37818.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      HOST: 6ba6-sound-6ba6.siliy37818.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_727936...
-  network: ws
-  port: 2052
-  server: 104.16.171.97
-  servername: 104.16.171.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-110.db-link02.top
-    path: /dabai.in104.16.171.97
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-18495...
-  network: ws
-  port: 2086
-  server: 104.17.191.177
-  servername: 104.17.191.177
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-272.cn-db.top
-    path: /dabai.in104.17.191.177
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-10959...
-  network: ws
-  port: 2095
-  server: 104.17.57.194
-  servername: 104.17.57.194
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-485.db-link02.top
-    path: /dabai.in104.17.57.194
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-45760...
-  network: ws
-  port: 2052
-  server: 104.25.1.144
-  servername: 104.25.1.144
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-117.db-link02.top
-    path: /dabai.in104.25.1.144
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_450231...
-  network: ws
-  port: 80
-  server: 104.19.104.93
-  servername: 104.19.104.93
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-344.cn-db.top
-    path: /dabai.in104.19.104.93
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-82768...
-  network: ws
-  port: 8080
-  server: 104.20.103.249
-  servername: 104.20.103.249
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-96.cn-db.top
-    path: /dabai.in104.20.103.249
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-15216...
-  network: ws
-  port: 8080
-  server: 104.16.61.8
-  servername: 6c47-butterfly-6c47.yexoji3749.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      HOST: 6c47-butterfly-6c47.yexoji3749.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_759098...
-  network: ws
-  port: 2086
-  server: 104.21.94.70
-  servername: 104.21.94.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-223.db-link01.top
-    path: /dabai.in104.21.94.70
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_109460...
-  network: ws
-  port: 2095
-  server: 104.20.248.73
-  servername: 104.20.248.73
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-251.cn-db.top
-    path: /dabai.in104.20.248.73
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-15887...
-  network: ws
-  port: 8080
-  server: 104.21.74.91
-  servername: 104.21.74.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-463.cn-db.top
-    path: /dabai.in104.21.74.91
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_160558...
-  network: ws
-  port: 2052
-  server: 104.20.61.231
-  servername: 104.20.61.231
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-377.db-link02.top
-    path: /dabai.in104.20.61.231
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_180770...
-  network: ws
-  port: 8880
-  server: 104.16.68.38
-  servername: subhk.osafari599.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: subhk.osafari599.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_443780...
-  network: ws
-  port: 8880
-  server: 172.64.38.1
-  servername: 172.64.38.1
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-339.db-link01.top
-    path: /dabai.in172.64.38.1
-- alterId: -1
-  cipher: aes-128-gcm
-  name: 421|CA😈github.com/Ruk1ng001_-86367...
-  password: 541200f4-3c26-4ee0-b5e0-d86253b1ef54
-  port: 32007
-  server: 11903.113001.xyz
-  type: ss
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_210531...
-  network: ws
-  port: 8880
-  server: 172.67.106.65
-  servername: 172.67.106.65
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-281.db-link02.top
-    path: /dabai.in172.67.106.65
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 421|CA😈github.com/Ruk1ng001_-21275...
@@ -7415,585 +6351,6 @@ proxies:
   port: 39548
   server: sgb9502.fraternizey.com
   type: ss
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-15681...
-  network: ws
-  port: 8880
-  server: 104.25.211.229
-  servername: 104.25.211.229
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-267.db-link01.top
-    path: /dabai.in104.25.211.229
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_880973...
-  network: ws
-  port: 2086
-  server: 104.17.144.202
-  servername: 104.17.144.202
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-491.cn-db.top
-    path: /dabai.in104.17.144.202
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_-68735...
-  network: ws
-  port: 2082
-  server: 104.16.218.226
-  servername: 104.16.218.226
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-172.db-link02.top
-    path: /dabai.in104.16.218.226
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 421|CA😈github.com/Ruk1ng001_103463...
-  network: ws
-  port: 2095
-  server: 172.67.117.122
-  servername: 172.67.117.122
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-33.db-link01.top
-    path: /dabai.in172.67.117.122
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_191715... #1'
-  network: ws
-  port: 8880
-  server: 104.25.136.174
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.136.174
-    path: /dabai.in104.25.136.174
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-12943... #1'
-  network: ws
-  port: 80
-  server: 104.20.127.239
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.127.239
-    path: /dabai.in104.20.127.239
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_420545... #1'
-  network: ws
-  port: 8880
-  server: 104.20.28.235
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.28.235
-    path: /dabai.in104.20.28.235
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10986... #1'
-  network: ws
-  port: 8880
-  server: 104.25.37.96
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.37.96
-    path: /dabai.in104.25.37.96
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_887193... #1'
-  network: ws
-  port: 80
-  server: 172.67.53.130
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.53.130
-    path: /dabai.in172.67.53.130
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-16508... #2'
-  network: ws
-  port: 80
-  server: 172.67.54.19
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.54.19
-    path: /dabai.in172.67.54.19
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-49933... #1'
-  network: ws
-  port: 8880
-  server: 104.18.187.26
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.18.187.26
-    path: /dabai.in104.18.187.26
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_166091... #1'
-  network: ws
-  port: 8080
-  server: 104.25.59.205
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.59.205
-    path: /dabai.in104.25.59.205
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_272579... #1'
-  network: ws
-  port: 2095
-  server: 104.20.70.158
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.70.158
-    path: /dabai.in104.20.70.158
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_207469... #1'
-  network: ws
-  port: 2082
-  server: 104.20.209.66
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.209.66
-    path: /dabai.in104.20.209.66
-- alterId: 0
-  cipher: auto
-  name: '422,663|美国 CloudFlare节点 #866'
-  network: ws
-  port: '2086'
-  server: 104.19.55.49
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-48943... #1'
-  network: ws
-  port: 8080
-  server: 104.24.168.120
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.24.168.120
-    path: /dabai.in104.24.168.120
-- alterId: 0
-  cipher: auto
-  name: '422,797,895|美国 CloudFlare节点 #1333'
-  network: ws
-  port: 2086
-  server: 104.19.47.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_166295... #1'
-  network: ws
-  port: 2095
-  server: 104.25.92.47
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.92.47
-    path: /dabai.in104.25.92.47
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_150513... #1'
-  network: ws
-  port: 2052
-  server: 104.21.233.208
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.21.233.208
-    path: /dabai.in104.21.233.208
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-95756... #1'
-  network: ws
-  port: 2082
-  server: 172.67.12.99
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.12.99
-    path: /dabai.in172.67.12.99
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_200116... #1'
-  network: ws
-  port: 2082
-  server: 104.18.114.71
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.18.114.71
-    path: /dabai.in104.18.114.71
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_121467... #1'
-  network: ws
-  port: 8880
-  server: 172.67.126.41
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.126.41
-    path: /dabai.in172.67.126.41
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_853628... #1'
-  network: ws
-  port: 80
-  server: 104.24.190.84
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.24.190.84
-    path: /dabai.in104.24.190.84
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_173532... #1'
-  network: ws
-  port: 2082
-  server: 172.67.3.189
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.3.189
-    path: /dabai.in172.67.3.189
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10671... #1'
-  network: ws
-  port: 8880
-  server: 104.25.231.159
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.231.159
-    path: /dabai.in104.25.231.159
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-16368... #1'
-  network: ws
-  port: 2086
-  server: 172.67.81.163
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.81.163
-    path: /dabai.in172.67.81.163
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-34396... #1'
-  network: ws
-  port: 8880
-  server: 172.67.84.147
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.84.147
-    path: /dabai.in172.67.84.147
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_163382... #1'
-  network: ws
-  port: 2086
-  server: 104.25.43.79
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.43.79
-    path: /dabai.in104.25.43.79
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-16434... #1'
-  network: ws
-  port: 2052
-  server: 104.16.61.8
-  tls: false
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: vpnsupportfast.vpnsuortfast.workers.dev
-    path: /afrhms07.xfixedfloat.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_383141... #1'
-  network: ws
-  port: 2086
-  server: 172.67.82.155
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.82.155
-    path: /dabai.in172.67.82.155
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10372... #1'
-  network: ws
-  port: 8080
-  server: 104.16.246.234
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.16.246.234
-    path: /dabai.in104.16.246.234
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-94040... #1'
-  network: ws
-  port: 8880
-  server: 104.16.85.219
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.16.85.219
-    path: /dabai.in104.16.85.219
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-35277... #1'
-  network: ws
-  port: 8880
-  server: 104.25.249.174
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.249.174
-    path: /dabai.in104.25.249.174
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_202672... #1'
-  network: ws
-  port: 8080
-  server: 104.24.190.228
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.24.190.228
-    path: /dabai.in104.24.190.228
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-14605... #1'
-  network: ws
-  port: 2086
-  server: 104.19.47.27
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-15687... #1'
-  network: ws
-  port: 2082
-  server: 104.19.145.76
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.19.145.76
-    path: /dabai.in104.19.145.76
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10577... #1'
-  network: ws
-  port: 8880
-  server: 104.16.229.100
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.16.229.100
-    path: /dabai.in104.16.229.100
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10166... #1'
-  network: ws
-  port: 2086
-  server: 172.67.51.64
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.51.64
-    path: /dabai.in172.67.51.64
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_107354... #1'
-  network: ws
-  port: 2095
-  server: 104.25.189.63
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.189.63
-    path: /dabai.in104.25.189.63
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_997222... #1'
-  network: ws
-  port: 8080
-  server: 172.67.12.120
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.12.120
-    path: /dabai.in172.67.12.120
-- alterId: 0
-  cipher: auto
-  name: '422,440|United States #136'
-  network: ws
-  port: '2052'
-  server: 104.16.60.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 6ba6-sound-6ba6.siliy37818.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_727936... #1'
-  network: ws
-  port: 2052
-  server: 104.16.171.97
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.16.171.97
-    path: /dabai.in104.16.171.97
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-18495... #1'
-  network: ws
-  port: 2086
-  server: 104.17.191.177
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.17.191.177
-    path: /dabai.in104.17.191.177
 - alterId: 0
   cipher: auto
   name: '422|CA😈github.com/Ruk1ng001_183008... #1'
@@ -8009,226 +6366,17 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-10959... #1'
-  network: ws
-  port: 2095
-  server: 104.17.57.194
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.17.57.194
-    path: /dabai.in104.17.57.194
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-45760... #1'
-  network: ws
-  port: 2052
-  server: 104.25.1.144
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.1.144
-    path: /dabai.in104.25.1.144
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_450231... #1'
-  network: ws
-  port: 80
-  server: 104.19.104.93
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.19.104.93
-    path: /dabai.in104.19.104.93
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-82768... #1'
-  network: ws
-  port: 8080
-  server: 104.20.103.249
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.103.249
-    path: /dabai.in104.20.103.249
-- alterId: 0
-  cipher: auto
-  name: 422,844|🏁RELAY-104.16.61.8-1893
-  network: ws
-  port: 8080
-  server: 104.16.61.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_759098... #1'
+  name: '422|CA😈github.com/Ruk1ng001_-14605... #1'
   network: ws
   port: 2086
-  server: 104.21.94.70
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.21.94.70
-    path: /dabai.in104.21.94.70
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_109460... #1'
-  network: ws
-  port: 2095
-  server: 104.20.248.73
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.248.73
-    path: /dabai.in104.20.248.73
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_110948... #1'
-  network: ws
-  port: 2086
-  server: 104.22.36.243
+  server: 104.19.47.27
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip1.1789034.xyz
+      Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-15887... #1'
-  network: ws
-  port: 8080
-  server: 104.21.74.91
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.21.74.91
-    path: /dabai.in104.21.74.91
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_859666... #1'
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_160558... #1'
-  network: ws
-  port: 2052
-  server: 104.20.61.231
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.20.61.231
-    path: /dabai.in104.20.61.231
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_443780... #1'
-  network: ws
-  port: 8880
-  server: 172.64.38.1
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.64.38.1
-    path: /dabai.in172.64.38.1
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_210531... #1'
-  network: ws
-  port: 8880
-  server: 172.67.106.65
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.106.65
-    path: /dabai.in172.67.106.65
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-15681... #1'
-  network: ws
-  port: 8880
-  server: 104.25.211.229
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.25.211.229
-    path: /dabai.in104.25.211.229
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_880973... #1'
-  network: ws
-  port: 2086
-  server: 104.17.144.202
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.17.144.202
-    path: /dabai.in104.17.144.202
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_-68735... #1'
-  network: ws
-  port: 2082
-  server: 104.16.218.226
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 104.16.218.226
-    path: /dabai.in104.16.218.226
-- alterId: 0
-  cipher: auto
-  name: '422|CA😈github.com/Ruk1ng001_103463... #1'
-  network: ws
-  port: 2095
-  server: 172.67.117.122
-  tls: false
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 172.67.117.122
-    path: /dabai.in172.67.117.122
 - alterId: 0
   cipher: auto
   name: '425,570,672|欧洲(油管:破解资源君) #105'
@@ -8741,20 +6889,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 3
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 23.154.136.132
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 4
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 23.154.136.132
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 508|加拿大(yudou66.com 玉豆免费节点) 6
   password: pKEW8JPByTVTLtM
   port: 443
@@ -8783,13 +6917,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 10
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.154.136.132
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 508|加拿大(yudou66.com 玉豆免费节点) 11
   password: FoOiGlkAA9yPEGP
   port: 7307
@@ -8801,13 +6928,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 23.154.136.154
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 13
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.154.136.132
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -8832,13 +6952,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 18
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.154.136.132
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 508|加拿大(yudou66.com 玉豆免费节点) 19
   password: Y6R9pAtvxxzmGC
   port: 5000
@@ -8850,13 +6963,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   server: 23.154.136.162
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 508|加拿大(yudou66.com 玉豆免费节点) 21
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.154.136.132
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -9504,7 +7610,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '572,575,576,639|🇺🇸_US_美国 #270'
+  name: '572,575,576,639|🇺🇸_US_美国 #268'
   network: ws
   port: 80
   server: wxll.e5outllok.me
@@ -9569,7 +7675,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '572,575,576,639|🇺🇸_US_美国 #157'
+  name: '572,575,576,639|🇺🇸_US_美国 #155'
   network: ws
   port: 80
   server: uuus.azzhuangaping.tw
@@ -12118,20 +10224,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '658,662|🇨🇦 Canada - Toronto 🌎 VM-WS-TL... #13'
-  network: ws
-  port: '443'
-  server: 23.162.200.94
-  servername: nina.bond
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nina.bond
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 696|🇨🇦
   network: ws
   port: '80'
@@ -12402,7 +10494,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '902|[🇨🇦]t.me/ConfigsHub #24'
+  name: '902|[🇨🇦]t.me/ConfigsHub #25'
   network: ws
   port: '80'
   server: 104.16.219.108
@@ -12416,7 +10508,7 @@ proxies:
     path: /Telegram/XV2ray
 - alterId: 0
   cipher: auto
-  name: '902|[🇨🇦]t.me/ConfigsHub #25'
+  name: '902|[🇨🇦]t.me/ConfigsHub #26'
   network: ws
   port: '443'
   server: 104.21.49.154
@@ -12430,7 +10522,7 @@ proxies:
     path: /linkws/obdii.cfd
 - alterId: 0
   cipher: auto
-  name: '902|[🇨🇦]t.me/ConfigsHub #27'
+  name: '902|[🇨🇦]t.me/ConfigsHub #28'
   network: ws
   port: '443'
   server: 104.20.39.186
