@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,4,10,15,17,20,22,26,28,31,33,36,38,41,43,46,48,82,84,132,206,212,236,256,351,389,391,400,401,406,412,413,415,573,578,633,634,639,648|未知_0906070
+  name: '2,4,8,10,15,17,20,22,26,28,31,33,36,38,41,43,46,48,82,84,132,206,212,236,256,351,389,391,400,401,406,412,413,415,573,578,639,648|未知_0906070
     #1'
   network: ws
   port: '2052'
@@ -26,14 +26,14 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: TW
-  name: 56|TW_562
+  name: 56|TW_536
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 56|Relay_TW-TW_563
+  name: 56|Relay_TW-TW_537
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -47,26 +47,8 @@ proxies:
   country: TW
   h2-opts: {}
   http-opts: {}
-  name: 56,260,263,433,471,603,604,611,668|🆙55@oneclickvpnkeys
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: '56,158,228,254,259,260,293,298,461,470,550,556,559,560,561,564,569,571|🔒
-    VM-WS-TLS 🇹🇼 TW-154.40.60.17... #10'
+  name: '56,158,228,254,259,260,293,298,550,556,559,560,561,564,569,571|🔒 VM-WS-TLS
+    🇹🇼 TW-154.40.60.17... #10'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -76,6 +58,24 @@ proxies:
   type: vmess
   udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: 56,204,260,263,433,603,604,611,668|🆙55@oneclickvpnkeys
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
       Host: ''
@@ -313,7 +313,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 234|>🇹🇼 TW|Ms|0720|TG@FProxies|
+  name: '234|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #13'
+  network: tcp
+  port: '19821'
+  server: xgcma.dx002.top
+  tls: false
+  type: vmess
+  uuid: f7ff1a87-5737-3adf-b518-87935ac26132
+- alterId: 0
+  cipher: auto
+  name: '234|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #12'
+  network: tcp
+  port: '19822'
+  server: xgcta.dx002.top
+  tls: false
+  type: vmess
+  uuid: 278ac075-9eef-3d9d-8532-9f7f50f73972
+- alterId: 0
+  cipher: auto
+  name: '234|>🇹🇼 TW|Ms|0720|TG@FProxies| #1'
   network: ws
   port: '30050'
   server: entrance1-50.jjsagcajvv.xyz
@@ -342,32 +360,6 @@ proxies:
   name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
   network: ws
   port: '8080'
-  server: 104.19.47.97
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '234|>🇹🇼 TW|Ms|0720|TG@FProxies| #1'
-  network: ws
-  port: '30050'
-  server: entrance2-58.jjsagcajvv.xyz
-  tls: false
-  type: vmess
-  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
-  ws-opts:
-    headers:
-      Host: entrance2-58.jjsagcajvv.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
-  network: ws
-  port: '8080'
   server: 172.67.172.146
   tls: false
   type: vmess
@@ -378,13 +370,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '234|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #13'
-  network: tcp
-  port: '19821'
-  server: xgcma.dx002.top
+  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
+  network: ws
+  port: '8080'
+  server: 104.19.47.104
   tls: false
   type: vmess
-  uuid: f7ff1a87-5737-3adf-b518-87935ac26132
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
@@ -400,33 +396,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #5'
-  network: ws
-  port: '8080'
-  server: 104.19.47.104
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #7'
-  network: ws
-  port: '8080'
-  server: 104.19.47.123
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '234|>🇹🇼 TW|Ms|0720|TG@FProxies| #3'
+  name: '234|>🇹🇼 TW|Ms|0720|TG@FProxies| #2'
   network: ws
   port: '8080'
   server: 172.67.172.246
@@ -439,7 +409,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #8'
+  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #6'
+  network: ws
+  port: '8080'
+  server: 104.19.47.97
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #7'
   network: ws
   port: '8080'
   server: 172.67.172.235
@@ -452,10 +435,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
+  name: '234|>🇹🇼 TW|Ms|0720|TG@FProxies| #3'
+  network: ws
+  port: '30050'
+  server: entrance2-58.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  ws-opts:
+    headers:
+      Host: entrance2-58.jjsagcajvv.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #8'
   network: ws
   port: '8080'
   server: 104.19.47.240
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '234|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
+  network: ws
+  port: '8080'
+  server: 104.19.47.123
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -478,21 +487,35 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 248|62-🇹🇼TW-211.72.35.110-5135-wor...
+  name: 248|66-🇹🇼TW-211.72.35.110-5139-wor...
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrkERs.DeV
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKerS.dEv
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.DeV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERS.DEV
   tls: true
   type: vmess
-  uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
+  uuid: e87f326f-55ac-487f-a3d1-57c592bb663a
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKerS.dEv
-    path: /woideneu7.jsworld.eu.org:443/nishikata
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERS.DEV
+    path: /woidenca1.jsworld.eu.org:443/nishikata3
 - alterId: 0
   cipher: auto
-  name: '259,461,470|🇹🇼 Taiwan - Taipei 🌏 VM-WS-TLS... #5'
+  name: 248|80-🇹🇼TW-211.72.35.110-5138-wor...
+  network: ws
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.DeV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkeRS.dev
+  tls: true
+  type: vmess
+  uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
+  ws-opts:
+    headers:
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkeRS.dev
+    path: /haxeu7.jsworld.eu.org:443/nishikata3
+- alterId: 0
+  cipher: auto
+  name: '259|🇹🇼 Taiwan - Taipei 🌏 VM-WS-TLS... #1'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -1283,38 +1306,38 @@ proxies:
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - cipher: chacha20-ietf-poly1305
-  name: 483|🇹🇼 TW 海外用户
-  password: f9807582-3baa-4b36-a22e-153cb79a275b
-  port: 10001
-  server: tw.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 483|🇹🇼 台湾 1
-  password: 21bbe4d8-8446-4e58-afc8-76c43d19f8eb
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 483|🇹🇼 台湾 B TW
-  password: f9807582-3baa-4b36-a22e-153cb79a275b
-  port: 35110
-  server: tw2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 483|🇹🇼 台湾 C TW
-  password: f9807582-3baa-4b36-a22e-153cb79a275b
+  password: 9d541b92-2d7d-4b96-b5cb-23786153a12d
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 483|🇹🇼 台湾 A TW
-  password: f9807582-3baa-4b36-a22e-153cb79a275b
+  password: 9d541b92-2d7d-4b96-b5cb-23786153a12d
   port: 35109
   server: tw1.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 483|🇹🇼 台湾 B TW
+  password: 9d541b92-2d7d-4b96-b5cb-23786153a12d
+  port: 35110
+  server: tw2.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 483|🇹🇼 台湾 1
+  password: 2103c172-e6ee-4571-93c7-bb04323d7deb
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 483|🇹🇼 TW 海外用户
+  password: 9d541b92-2d7d-4b96-b5cb-23786153a12d
+  port: 10001
+  server: tw.cooc.icu
   type: ss
   udp: true
 - alterId: 0
