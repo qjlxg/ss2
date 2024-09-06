@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '5,8,10,46,48,80,86,94,162,280,286,288,318,346,351,393,398,400,516,518,557,559,568,569,574,580,581,583,619,620,621,828,840,923,924,930,944,948,966|关注频道https://t.me/mftizi
+  name: '2,4,5,8,10,46,48,80,86,94,162,280,286,288,318,346,351,398,400,516,518,557,559,568,569,574,580,581,583,619,620,621,828,840,923,924,930,944,948,962,966|关注频道https://t.me/mftizi
     #6'
   network: ws
   port: '2052'
@@ -19,7 +19,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '12,370,427,707,962|15|🇹🇼 台湾|@ripaojiedian #1'
+  name: 12,370,427,707|🇹🇼 台湾|@ripaojiedian
   password: 3a690709-5011-4a6c-ab62-da2fb5291233
   port: 50222
   server: microsoft-af1f5ba4.nbaqz0v1meo0k3d-tw.fcnode.net
@@ -27,14 +27,14 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: TW
-  name: 56|TW_610
+  name: 56|TW_607
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 223.165.4.173
   type: ss
 - cipher: rc4-md5
   country: TW
-  name: 56|Relay_TW-TW_611
+  name: 56|Relay_TW-TW_608
   obfs: tls1.2_ticket_auth
   obfs-param: 11.au.download.windowsupdate.com
   password: GKSLCJRw163W
@@ -43,26 +43,6 @@ proxies:
   protocol-param: 20030:xBnnSWhmpbzT
   server: tw1.mydarkcloud.info
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: '56,201,207,304,346,357,358,393,398,403,658,667,798,806,809,810,811,815,822,824|🔒
-    VM-WS-TLS 🇹🇼 TW-154.40.60.17... #12'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   country: TW
@@ -81,6 +61,35 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: '56,207,304,346,357,358,398,403,658,667,798,806,809,810,811,815,822,824|🔒
+    VM-WS-TLS 🇹🇼 TW-154.40.60.17... #10'
+  network: ws
+  port: '12945'
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 63|台湾|广州移动|Polo|1x
+  network: tcp
+  port: 39872
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 0
   cipher: auto
   name: 73|台湾省 中华电信(HiNet)数据中心
@@ -1217,38 +1226,38 @@ proxies:
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - cipher: chacha20-ietf-poly1305
-  name: 687|🇹🇼 台湾 B TW
-  password: 1895e448-b40e-4042-9b01-b3069c031e9f
-  port: 35110
-  server: tw2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 687|🇹🇼 台湾 1-1D
-  password: 7b2c53ff-7df2-4dd3-877e-3599d3b4a763
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 687|🇹🇼 TW 海外用户
-  password: 1895e448-b40e-4042-9b01-b3069c031e9f
-  port: 10001
-  server: tw.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 687|🇹🇼 台湾 A TW
-  password: 1895e448-b40e-4042-9b01-b3069c031e9f
+  password: 9794c964-c831-4c92-9fa4-0cca2dd46809
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 687|🇹🇼 台湾 B TW
+  password: 9794c964-c831-4c92-9fa4-0cca2dd46809
+  port: 35110
+  server: tw2.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 687|🇹🇼 台湾 1-1B
+  password: 65221eb7-8dd5-4192-ade1-f1b06c9830f8
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 687|🇹🇼 台湾 C TW
-  password: 1895e448-b40e-4042-9b01-b3069c031e9f
+  password: 9794c964-c831-4c92-9fa4-0cca2dd46809
   port: 35111
   server: tw3.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 687|🇹🇼 TW 海外用户
+  password: 9794c964-c831-4c92-9fa4-0cca2dd46809
+  port: 10001
+  server: tw.cooc.icu
   type: ss
   udp: true
 - alterId: 0
