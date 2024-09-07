@@ -1,7 +1,15 @@
 proxies:
+- cipher: aes-256-cfb
+  country: ' FR'
+  name: '57,58,59,65,78,90,311,325,393,396,417|FR-163.172.64.22-0120 #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇫🇷FR
-  name: 57,58,59,61,100|🇫🇷FR_20
+  name: 57,58,59,61,100|🇫🇷FR_21
   password: mjnZvPS0kp0wTefRahNv92
   port: 443
   server: 62.210.88.22
@@ -11,28 +19,10 @@ proxies:
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 57| FR_448
+  name: 57| FR_456
   network: ws
   port: 443
-  server: 146.19.168.161
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 57|Relay_ FR-FR_449
-  network: ws
-  port: 443
-  server: indiavideo.sbs
+  server: 45.145.167.103
   servername: indiavideo.sbs
   skip-cert-verify: true
   tls: true
@@ -47,7 +37,7 @@ proxies:
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 57| FR_450
+  name: 57| FR_457
   network: ws
   port: 443
   server: az05.beyondy.cfd
@@ -65,10 +55,10 @@ proxies:
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 57| FR_451
+  name: 57|Relay_ FR-FR_458
   network: ws
   port: 443
-  server: 45.145.167.103
+  server: indiavideo.sbs
   servername: indiavideo.sbs
   skip-cert-verify: true
   tls: true
@@ -78,26 +68,44 @@ proxies:
     headers:
       HOST: indiavideo.sbs
     path: /linkws
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 57| FR_459
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
 - cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_216
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 145.239.6.202
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_62
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 217.182.198.219
   type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,119,131,230,235|🇫🇷 FR 35 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 149.202.82.172
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   country: ' FR'
   name: '57,58,59,230,235,259|SS-法国:波兰-locked-ChatGPT-TikTok... #5'
   password: TEzjfAYq2IjtuoS
   port: 6697
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 57,58,59,119,131,230,235|🇵🇱 PL 28 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 54.36.174.181
   type: ss
   udp: true
@@ -110,61 +118,86 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_68
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 217.182.198.219
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_245
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64|FR_22
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_47
   password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,235|🇫🇷 FR 6 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 30 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2376
+  port: 6697
   server: 217.182.198.219
   type: ss
-  udp: true
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_255
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 145.239.6.202
+  type: ss
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_57
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  name: 57,58,59|ChatGPT  DE_48
+  password: XKFKl2rULjIp74
+  port: 8009
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_40
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_49
+  name: 57,58,59|ChatGPT  DE_54
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
+  country: FR
+  name: '57,58,59,64,119,131,230,235,393,417|🇫🇷FR-149.202.82.172-6397 #1'
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 57,58,59,64,230,235|🇩🇪 DE 14 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- blackListed: false
+  cipher: chacha20-ietf-poly1305
+  country: FR
+  name: '57,119,131,197,198,377,393,417|🇫🇷FR-51.178.87.37-8146 #1'
+  password: G!yBwPWH3Vao
+  ping: 542
+  port: 804
+  real_ip: 51.178.87.37
+  server: 51.178.87.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 57,119,131,259|SS-法国:德国-locked-ChatGPT-TikTok...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.178.87.37
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 57,58,59,64,230,235|🇵🇱 PL 42 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   country: ' FR'
-  name: 57,58,59,119,131,230,235|🇵🇱 PL 40 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: '57,58,59,119,131,230,235,259|SS-法国:波兰-locked-ChatGPT-TikTok... #2'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
   server: 54.36.174.181
   type: ss
   udp: true
@@ -177,48 +210,49 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_59
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 217.182.198.219
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_231
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59,119,131,230,235|🇩🇪 DE 22 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59,119,131,230,235|🇩🇪 DE 9 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   country: ' FR'
-  name: 57,58,59,119,131,230,235|🇵🇱 PL 28 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8008
+  name: 57,58,59,230,235|🇵🇱 PL 26 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
   server: 54.36.174.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
   country: ' GB'
-  name: 57,58,59|ChatGPT  GB_228
+  name: 57,58,59|ChatGPT  GB_224
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_233
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,230,235|🇩🇪 DE 14 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_70
+  password: pKEW8JPByTVTLtM
+  port: 4444
   server: 217.182.198.219
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_218
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
   country: ' FR'
@@ -229,10 +263,112 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_72
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
   country: FR
-  name: 57,58,59,64,230,235|🇵🇱 PL 42 → tg@nicevpn123
+  name: 57,58,59,64,235|🇫🇷 FR 6 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_64
   password: Y6R9pAtvxxzmGC
   port: 5001
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_219
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_241
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59,119,131,230,235|🇩🇪 DE 18 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇷FR
+  name: '57,58,59,61,100,393,417|🇪DE-217.182.198.219-1747 #1'
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_238
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_41
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 57,58,59,64|FR_30
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_65
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 57,58,59,119,131,230,235|🇵🇱 PL 40 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: '57,58,59,64,119,131,230,235,393,417|🇷FR-149.202.82.172-5985 #1'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_61
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: '57,58,59,230,235,393,417|🇷FR-54.36.174.181-5987 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6679
   server: 54.36.174.181
   type: ss
   udp: true
@@ -244,32 +380,11 @@ proxies:
   server: 195.154.185.174
   type: ss
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: '57,58,59,61,100,393,417|🇪DE-217.182.198.219-1747 #1'
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_48
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  name: 57,58,59,119,131,230,235|🇩🇪 DE 30 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_242
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: '57,58,59,64,119,131,230,235,393,417|🇫🇷FR-149.202.82.172-6397 #1'
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 149.202.82.172
   type: ss
   udp: true
 - blackListed: false
@@ -284,103 +399,31 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 18 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 217.182.198.219
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   country: FR
-  name: '57,58,59,64,119,131,230,235,393,417|🇷FR-149.202.82.172-5985 #1'
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: 57,58,59,64,119,131,230,235|🇫🇷 FR 35 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 149.202.82.172
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 57,58,59,230,235|🇵🇱 PL 26 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_213
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 22 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 217.182.198.219
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_224
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_43
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_32
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: '57,58,59,119,131,230,235,259|SS-法国:波兰-locked-ChatGPT-TikTok... #2'
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 9 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 217.182.198.219
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_69
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_53
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: '57,58,59,230,235,393,417|🇷FR-54.36.174.181-5987 #1'
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 54.36.174.181
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 57|Relay_FR-FR_502
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: beyonddsz.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      HOST: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -400,33 +443,44 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 59|ChatGPT  FR_110
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 59|ChatGPT  FR_136
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 59|ChatGPT  FR_157
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 54.37.18.75
-  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 62|netflix_FR
+  network: ws
+  port: 2095
+  server: qxcstxwbcvb_cdn.hfhfb.homes
+  type: vmess
+  uuid: 3449a86e-e304-45b2-a543-b6d8ef429012
+  ws-opts:
+    headers:
+      Host: frcdn.fask511.cfd
+    path: /?ed=1024
+- country: FR
+  name: '62,79|netflix_FR #2'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.34.92
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: FR
+  name: 62|FR_598
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.87.192
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 65| FR_12
+  name: 65| FR_14
   network: ws
   port: 443
   server: az05.beyondy.cfd
@@ -469,49 +523,11 @@ proxies:
       Host: beyonddsz.cfd
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: '78,101,108,119,131,197,198,235,393,396,417|🇫🇷FR-51.178.87.37-0605 #1'
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 51.178.87.37
+  name: 90|FR-51.38.118.42-105
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
   type: ss
-  udp: true
-- country: FR
-  name: 79|FR_03
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.98.105
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '90,295,297,430,431,432|🇪🇺 欧洲(油管:破解资源君2.0) #225'
-  network: tcp
-  port: '54332'
-  server: 35.180.209.86
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  ws-headers:
-    Host: 35.180.209.86
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '90,251,295,297,430,431,432|🇪🇺 欧洲(油管:破解资源君2.0) #236'
-  network: tcp
-  port: '54332'
-  server: 13.38.73.118
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  ws-headers:
-    Host: 13.38.73.118
-  ws-path: /
 - cipher: aes-256-gcm
   name: '90,235,259,393,417|🇷FR-193.243.147.128-0476 #1'
   password: 7BcLdsO1WweoGD0X
@@ -569,14 +585,55 @@ proxies:
   uuid: c957f40c-cd22-4798-fa47-eaf45512a2f6
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: 101,108,119,131,235|🇫🇷 FR 26 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.178.87.37
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 100|Relay_🏁ZZ-🇷FR_270
+  network: ws
+  port: 2095
+  server: qxcstxwbcvb_cdn.hfhfb.homes
+  servername: frcdn.fask511.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4eb976a3-ace5-41f5-a096-4c64cf08a79f
+  ws-opts:
+    headers:
+      HOST: frcdn.fask511.cfd
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '106,112,152,161,236,257,295,296,302,353,578,585,621,622,640|@Vip_Security
+    join us - 785
+
+    '
+  network: ws
+  port: '443'
+  server: indiavideo.sbs
+  servername: indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      Host: indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '106,135,136,310,311,312|20|法国_由快嘴科技提供：kkzui.com法国 #3 #2'
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
 - alterId: 0
   cipher: auto
   name: 106,619|🇫🇷FR-146.19.168.161-0500
@@ -608,40 +665,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '106,135,136,310,311,312|20|法国_由快嘴科技提供：kkzui.com法国 #3 #2'
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '106,112,152,161,236,257,295,296,302,353,578,585,621,622,640|@Vip_Security
-    join us - 785
-
-    '
-  network: ws
-  port: '443'
-  server: indiavideo.sbs
-  servername: indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      Host: indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: '112,118,119,152,161,194,208,214,257,295,296,353,439,564,570,571,621,622,640|@Vip_Security
-    join us - 256
+    join us - 254
 
     '
   network: tcp
@@ -759,7 +784,7 @@ proxies:
     path: /qqsvvws
 - alterId: 0
   cipher: auto
-  name: '135,136,310,311,312,666|美国 CloudFlare节点 #295'
+  name: '135,136,310,311,312,666|美国 CloudFlare节点 #331'
   network: ws
   port: '443'
   server: irvideo.cfd
@@ -1398,13 +1423,6 @@ proxies:
   uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
   ws-opts:
     path: /path/342121230818
-- cipher: aes-256-gcm
-  name: 230,235|🇺🇸 US 383 → tg@nicevpn123
-  password: 3b9ktZGztC
-  port: 34232
-  server: 162.19.25.207
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 235,586|FR 1|openitr
@@ -2083,13 +2101,6 @@ proxies:
     headers:
       Host: fr-ls03.nb1.fr
     path: /clientarea
-- cipher: chacha20-ietf-poly1305
-  name: 281,484|🇫🇷 法国 FR BIZ
-  password: 39205945-f80c-444a-b4e6-6d31743c72c9
-  port: 35611
-  server: fr.cooc.icu
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 286|VIP0.法国1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -2689,6 +2700,13 @@ proxies:
   ws-headers:
     Host: node1.wblogw1.tk
   ws-path: /cw21sadd3
+- cipher: chacha20-ietf-poly1305
+  name: 484|🇫🇷 法国 FR BIZ
+  password: 39205945-f80c-444a-b4e6-6d31743c72c9
+  port: 35611
+  server: fr.cooc.icu
+  type: ss
+  udp: true
 - auth: e98f0454-41d4-4818-9803-4e9db99c1914
   name: 484|🇩🇪 欧洲-法兰克福-1
   password: e98f0454-41d4-4818-9803-4e9db99c1914
@@ -2805,34 +2823,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 595|VMESS-未知>法国-NF解锁法国自制剧-ChatGPT-...
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: fr-a.yuji2022.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      HOST: fr-a.yuji2022.eu.org
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
   name: 595|VMESS-未知>法国-ChatGPT-TikTok-You...
   network: ws
   port: 443
-  server: harriscity.com
-  servername: harriscity.com
+  server: f.khilei.com
+  servername: f.khilei.com
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      HOST: harriscity.com
+      HOST: f.khilei.com
     path: /linkvws
 - alterId: 0
   cipher: chacha20-poly1305
