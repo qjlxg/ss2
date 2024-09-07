@@ -1,7 +1,72 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  country: CN
+  delay: 1179
+  name: 12,62,86,307,315,343,344,389,413,493|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12,86,307,493|🇭🇰 香港3|@ripaojiedian
+  password: 2509f9e7-93a6-4ac3-bd34-df62e809371d
+  port: 50203
+  server: microsoft-766685bb.nbaqz0v1meo0k3d-hk.fcnode.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '1,14,19,25,30,35,40,500|CN_分享日记 #2'
+  client-fingerprint: chrome
+  name: '12,26,28,31,33,77,81,83,91,113,157,160,204,210,212,232,234,269,270,271,291,294,297,306,307,308,387,389,398,399,404,410,411,413,415,426,427,428,472,473,474,493,494,515,521,522,531,547,553,554,555,556,557,558,561,566,567,631,644|美国_0906220
+    #1'
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3dddcee7-2cb3-4260-81da-83d8b926840f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  name: 12,62,86,237,307,389,413,493,654|HongKong_HK_AkileLTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '12,77,81,83,212,232,269,270,271,291,294,306,307,308,389,413,426,427,428,472,473,474,493,494|香港7|@ripaojiedian
+    #1'
+  network: ws
+  port: '54433'
+  server: 103.255.209.108
+  servername: hk2.aisupermall.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
+  ws-opts:
+    headers:
+      Host: unknown
+    path: /axsxzA
+- alterId: 0
+  cipher: auto
+  name: '25,30|HK香港(mibei77.com 米贝节点分享) #2'
   network: tcp
   port: '6510'
   server: f8bc960f-sjlts0-sjblbk-wk2w.hk.plebai.net
@@ -11,7 +76,7 @@ proxies:
   uuid: 88903f70-b50b-11ed-8775-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: '1,14,19,25,30,35,40|HK香港(mibei77.com 米贝节点分享) #13'
+  name: '25,30|HK香港(mibei77.com 米贝节点分享) #3'
   network: ws
   port: '12968'
   server: z2.fragranceninja.com
@@ -23,29 +88,9 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '2,4,5,7,8,10,15,17,20,22,26,28,31,33,36,38,41,43,45,46,48,66,81,83,86,91,108,148,157,160,204,210,232,237,238,253,269,270,271,291,292,293,298,306,307,308,426,427,428,472,473,474,494,560,566,567,569,616,617,629,630,631,635|@Vip_Security
-    join us - 395
-
-    '
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,635|@Vip_Security join us - 494
+  name: '26,28,31,33,635|@Vip_Security join us - 495
 
     '
   network: ws
@@ -62,117 +107,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '2,4,12,15,17,20,22,26,28,31,33,36,38,41,43,62,83,91,96,113,157,160,204,210,232,234,269,270,271,291,296,298,306,307,308,387,389,398,399,404,410,411,413,415,472,473,474,493,494,515,521,522,531,547,553,554,555,556,557,558,561,566,567,631,644|美国_0906220
-    #1'
-  network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3dddcee7-2cb3-4260-81da-83d8b926840f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  delay: 1179
-  name: 12,86,268,307,315,343,344,389,413,493|🇭🇰 香港2|@ripaojiedian
-  password: 63b37069-ade8-4d4c-a6dc-1161df539069
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 12,268,307,493|🇭🇰 香港3|@ripaojiedian
-  password: 2509f9e7-93a6-4ac3-bd34-df62e809371d
-  port: 50203
-  server: microsoft-766685bb.nbaqz0v1meo0k3d-hk.fcnode.net
-  tfo: false
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  name: 12,62,86,237,268,307,389,413,493,654|HongKong_HK_AkileLTD
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '12,83,232,268,269,270,271,291,298,306,307,308,389,413,472,473,474,493,494|香港7|@ripaojiedian
-    #1'
-  network: ws
-  port: '54433'
-  server: 103.255.209.108
-  servername: hk2.aisupermall.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
-  ws-opts:
-    headers:
-      Host: unknown
-    path: /axsxzA
-- cipher: rc4-md5
-  country: HK
-  name: 56|Relay_HK-HK_360
-  obfs: http_simple
-  obfs-param: 29590-edE92DcI.download.microsoft.com
-  password: passwd
-  port: 2000
-  protocol: origin
-  server: oshk01.mynode.me
-  type: ssr
-- alterId: -1
-  cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 56,58,64,232,237,586|[02-24]-🇸-欧洲-096-150.107.46.21
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  protocol-param: ''
-  server: 150.107.46.21
-  type: ssr
-- alterId: 0
-  cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 56|HK_362
-  network: ws
-  port: 12909
-  server: 210.0.158.219
-  servername: 19.lwdh.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      HOST: 19.lwdh.us
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   country: ' HK'
   h2-opts: {}
   http-opts: {}
-  name: '56,57,78,102,113,128,157,204,210,234,253,258,291,296,375,387,389,390,391,392,398,399,400,401,404,410,411,413,531,547,553,554,556,557,558,561,566,567,635,644|香港_0906004
+  name: '57,78,102,113,128,157,204,210,234,247,253,258,291,297,375,387,389,390,391,392,398,399,400,401,404,410,411,413,531,547,553,554,556,557,558,561,566,567,635,644|香港_0906004
     #1'
   network: ws
   port: '33722'
@@ -186,23 +124,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1990
-  network: ws
-  port: 2095
-  server: lzyjc.779917.xyz
-  servername: hk-xinjiapoddnsjuhefuzaiyyds.ddnsos.site
-  skip-cert-verify: true
-  type: vmess
-  uuid: b62af177-f1a6-47a8-8e68-75aecd7abbe7
-  ws-opts:
-    headers:
-      HOST: hk-xinjiapoddnsjuhefuzaiyyds.ddnsos.site
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 60|HK |  LB-1U
@@ -223,347 +144,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_839
-  network: ws
-  port: 8080
-  server: 104.16.246.234
-  servername: 104.16.246.234
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-435.db-link02.top
-    path: /dabai.in104.16.246.234
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_842
-  network: ws
-  port: 2052
-  server: 104.20.61.231
-  servername: 104.20.61.231
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-377.db-link02.top
-    path: /dabai.in104.20.61.231
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_846
-  network: ws
-  port: 8880
-  server: 104.16.85.219
-  servername: 104.16.85.219
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.16.85.219
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_852
-  network: ws
-  port: 2052
-  server: 104.21.233.208
-  servername: 104.21.233.208
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-24.db-link02.top
-    path: /dabai.in104.21.233.208
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_853
-  network: ws
-  port: 2095
-  server: 104.17.57.194
-  servername: 104.17.57.194
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-485.db-link02.top
-    path: /dabai.in104.17.57.194
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_857
-  network: ws
-  port: 8080
-  server: 104.24.190.228
-  servername: 104.24.190.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-454.db-link01.top
-    path: /dabai.in104.24.190.228
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_862
-  network: ws
-  port: 2082
-  server: 104.16.218.226
-  servername: 104.16.218.226
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-172.db-link02.top
-    path: /dabai.in104.16.218.226
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_868
-  network: ws
-  port: 8080
-  server: 104.24.168.120
-  servername: 104.24.168.120
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-465.cn-db.top
-    path: /dabai.in104.24.168.120
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_869
-  network: ws
-  port: 2082
-  server: 104.19.145.76
-  servername: 104.19.145.76
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-127.db-link01.top
-    path: /dabai.in104.19.145.76
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_881
-  network: ws
-  port: 8880
-  server: 104.20.28.235
-  servername: 104.20.28.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-124.cn-db.top
-    path: /dabai.in104.20.28.235
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_886
-  network: ws
-  port: 2086
-  server: 104.17.191.177
-  servername: 104.17.191.177
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-272.cn-db.top
-    path: /dabai.in104.17.191.177
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_887
-  network: ws
-  port: 2086
-  server: 104.21.94.70
-  servername: 104.21.94.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-223.db-link01.top
-    path: /dabai.in104.21.94.70
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_888
-  network: ws
-  port: 8880
-  server: 104.25.211.229
-  servername: 104.25.211.229
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-267.db-link01.top
-    path: /dabai.in104.25.211.229
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_889
-  network: ws
-  port: 8080
-  server: 104.20.103.249
-  servername: 104.20.103.249
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-96.cn-db.top
-    path: /dabai.in104.20.103.249
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_892
-  network: ws
-  port: 8880
-  server: 104.25.231.159
-  servername: 104.25.231.159
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-36.db-link01.top
-    path: /dabai.in104.25.231.159
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_893
-  network: ws
-  port: 8880
-  server: 104.25.249.174
-  servername: 104.25.249.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.25.249.174
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_896
-  network: ws
-  port: 2095
-  server: 104.20.248.73
-  servername: 104.20.248.73
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-251.cn-db.top
-    path: /dabai.in104.20.248.73
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_897
-  network: ws
-  port: 8880
-  server: 104.25.37.96
-  servername: 104.25.37.96
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-97.db-link01.top
-    path: /dabai.in104.25.37.96
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_910
-  network: ws
-  port: 2086
-  server: 104.25.43.79
-  servername: 104.25.43.79
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-459.cn-db.top
-    path: /dabai.in104.25.43.79
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_912
-  network: ws
-  port: 8080
-  server: 104.21.74.91
-  servername: 104.21.74.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-463.cn-db.top
-    path: /dabai.in104.21.74.91
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_914
+  name: 62|Relay_ZZ-HK_827
   network: ws
   port: 2052
   server: 104.25.1.144
@@ -580,41 +161,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_915
-  network: ws
-  port: 8880
-  server: 104.25.136.174
-  servername: 104.25.136.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-125.cn-db.top
-    path: /dabai.in104.25.136.174
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_917
-  network: ws
-  port: 2082
-  server: 104.18.114.71
-  servername: 104.18.114.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-89.db-link01.top
-    path: /dabai.in104.18.114.71
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_918
+  name: 62|Relay_ZZ-HK_858
   network: ws
   port: 2082
   server: 104.25.221.90
@@ -631,24 +178,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_919
-  network: ws
-  port: 2095
-  server: 104.25.92.47
-  servername: 104.25.92.47
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-331.db-link02.top
-    path: /dabai.in104.25.92.47
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_921
+  name: 62|Relay_ZZ-HK_865
   network: ws
   port: 2095
   server: 104.20.70.158
@@ -665,7 +195,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_922
+  name: 62|Relay_ZZ-HK_869
   network: ws
   port: 2052
   server: 104.21.108.79
@@ -682,24 +212,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_923
-  network: ws
-  port: 80
-  server: 104.19.104.93
-  servername: 104.19.104.93
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-344.cn-db.top
-    path: /dabai.in104.19.104.93
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 62|Relay_ZZ-HK_925
+  name: 62|Relay_ZZ-HK_870
   network: ws
   port: 2086
   server: 104.21.110.227
@@ -716,7 +229,41 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_935
+  name: 62|Relay_ZZ-HK_871
+  network: ws
+  port: 2095
+  server: 104.17.57.194
+  servername: 104.17.57.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-485.db-link02.top
+    path: /dabai.in104.17.57.194
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_891
+  network: ws
+  port: 8080
+  server: 104.16.246.234
+  servername: 104.16.246.234
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-435.db-link02.top
+    path: /dabai.in104.16.246.234
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_893
   network: ws
   port: 2052
   server: 104.16.171.97
@@ -733,7 +280,194 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_945
+  name: 62|Relay_ZZ-HK_902
+  network: ws
+  port: 8080
+  server: 104.20.192.110
+  servername: 104.20.192.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-90.db-link02.top
+    path: /dabai.in104.20.192.110
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_904
+  network: ws
+  port: 2082
+  server: 104.19.145.76
+  servername: 104.19.145.76
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-127.db-link01.top
+    path: /dabai.in104.19.145.76
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_905
+  network: ws
+  port: 2095
+  server: 104.25.92.47
+  servername: 104.25.92.47
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-331.db-link02.top
+    path: /dabai.in104.25.92.47
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_907
+  network: ws
+  port: 2052
+  server: 104.20.61.231
+  servername: 104.20.61.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-377.db-link02.top
+    path: /dabai.in104.20.61.231
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_909
+  network: ws
+  port: 2052
+  server: 104.21.233.208
+  servername: 104.21.233.208
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-24.db-link02.top
+    path: /dabai.in104.21.233.208
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_911
+  network: ws
+  port: 2086
+  server: 104.16.140.16
+  servername: 104.16.140.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-35.db-link02.top
+    path: /dabai.in104.16.140.16
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_912
+  network: ws
+  port: 80
+  server: 104.20.127.239
+  servername: 104.20.127.239
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-411.db-link01.top
+    path: /dabai.in104.20.127.239
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_913
+  network: ws
+  port: 2095
+  server: 104.25.189.63
+  servername: 104.25.189.63
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-61.db-link02.top
+    path: /dabai.in104.25.189.63
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_914
+  network: ws
+  port: 2082
+  server: 104.16.218.226
+  servername: 104.16.218.226
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-172.db-link02.top
+    path: /dabai.in104.16.218.226
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_915
+  network: ws
+  port: 2086
+  server: 104.17.191.177
+  servername: 104.17.191.177
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-272.cn-db.top
+    path: /dabai.in104.17.191.177
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_916
+  network: ws
+  port: 80
+  server: 104.24.190.84
+  servername: 104.24.190.84
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-391.db-link02.top
+    path: /dabai.in104.24.190.84
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_919
   network: ws
   port: 2086
   server: 104.17.144.202
@@ -750,18 +484,341 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 62|Relay_ZZ-HK_958
+  name: 62|Relay_ZZ-HK_920
   network: ws
   port: 8080
-  server: 104.20.192.110
-  servername: 104.20.192.110
+  server: 104.21.74.91
+  servername: 104.21.74.91
   skip-cert-verify: true
   type: vmess
   uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
   ws-opts:
     headers:
-      Host: 100-100-17-90.db-link02.top
-    path: /dabai.in104.20.192.110
+      Host: 100-100-17-463.cn-db.top
+    path: /dabai.in104.21.74.91
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_921
+  network: ws
+  port: 8880
+  server: 104.16.85.219
+  servername: 104.16.85.219
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-360.db-link01.top
+    path: /dabai.in104.16.85.219
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_925
+  network: ws
+  port: 8880
+  server: 104.25.249.174
+  servername: 104.25.249.174
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-360.db-link01.top
+    path: /dabai.in104.25.249.174
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_926
+  network: ws
+  port: 8880
+  server: 104.25.231.159
+  servername: 104.25.231.159
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-36.db-link01.top
+    path: /dabai.in104.25.231.159
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_927
+  network: ws
+  port: 8880
+  server: 104.25.211.229
+  servername: 104.25.211.229
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-267.db-link01.top
+    path: /dabai.in104.25.211.229
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_928
+  network: ws
+  port: 2082
+  server: 104.20.209.66
+  servername: 104.20.209.66
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-101.db-link01.top
+    path: /dabai.in104.20.209.66
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_931
+  network: ws
+  port: 2086
+  server: 104.21.94.70
+  servername: 104.21.94.70
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-223.db-link01.top
+    path: /dabai.in104.21.94.70
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_932
+  network: ws
+  port: 8080
+  server: 104.25.59.205
+  servername: 104.25.59.205
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-409.cn-db.top
+    path: /dabai.in104.25.59.205
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_933
+  network: ws
+  port: 8880
+  server: 104.20.28.235
+  servername: 104.20.28.235
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-124.cn-db.top
+    path: /dabai.in104.20.28.235
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_934
+  network: ws
+  port: 8080
+  server: 104.20.103.249
+  servername: 104.20.103.249
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-96.cn-db.top
+    path: /dabai.in104.20.103.249
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_935
+  network: ws
+  port: 8880
+  server: 104.16.229.100
+  servername: 104.16.229.100
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-109.db-link02.top
+    path: /dabai.in104.16.229.100
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_936
+  network: ws
+  port: 8880
+  server: 104.25.37.96
+  servername: 104.25.37.96
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-97.db-link01.top
+    path: /dabai.in104.25.37.96
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_937
+  network: ws
+  port: 8080
+  server: 104.24.168.120
+  servername: 104.24.168.120
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-465.cn-db.top
+    path: /dabai.in104.24.168.120
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_938
+  network: ws
+  port: 2095
+  server: 104.20.248.73
+  servername: 104.20.248.73
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-251.cn-db.top
+    path: /dabai.in104.20.248.73
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_939
+  network: ws
+  port: 2082
+  server: 104.18.114.71
+  servername: 104.18.114.71
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-89.db-link01.top
+    path: /dabai.in104.18.114.71
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_940
+  network: ws
+  port: 2086
+  server: 104.25.43.79
+  servername: 104.25.43.79
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-459.cn-db.top
+    path: /dabai.in104.25.43.79
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_941
+  network: ws
+  port: 8080
+  server: 104.24.190.228
+  servername: 104.24.190.228
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-454.db-link01.top
+    path: /dabai.in104.24.190.228
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_942
+  network: ws
+  port: 8880
+  server: 104.18.187.26
+  servername: 104.18.187.26
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-313.cn-db.top
+    path: /dabai.in104.18.187.26
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_943
+  network: ws
+  port: 80
+  server: 104.19.104.93
+  servername: 104.19.104.93
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-344.cn-db.top
+    path: /dabai.in104.19.104.93
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62|Relay_ZZ-HK_945
+  network: ws
+  port: 8880
+  server: 104.25.136.174
+  servername: 104.25.136.174
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-125.cn-db.top
+    path: /dabai.in104.25.136.174
 - alterId: 0
   cipher: auto
   name: 73,76,278,506|🇭🇰HK_41
@@ -781,6 +838,21 @@ proxies:
   tls: true
   type: vmess
   uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+- alterId: 0
+  cipher: auto
+  name: '77,81,83,86,160,212,232,233,269,270,271,274,291,294,306,307,308,426,427,428,472,473,474,494|香港8|@ripaojiedian
+    #1'
+  network: tcp
+  port: '13008'
+  server: 45.78.25.158
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a074c66e-1107-475c-8bc7-9de7ef6620ed
+  ws-headers:
+    Host: 45.78.25.158
+  ws-path: /
 - alterId: -1
   cipher: aes-128-gcm
   country: 🇨🇳 CN
@@ -833,6 +905,19 @@ proxies:
   ws-headers:
     Host: node.inforun.work
   ws-path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 86|HK-62.72.163.54-399
+  network: ws
+  port: 10001
+  server: 62.72.163.54
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
+  ws-headers:
+    Host: 62.72.163.54
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 87|[🇭🇰]a4a09ce.h1.glados-config.n...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -923,7 +1008,7 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 417
+  name: '139,635|@Vip_Security join us - 418
 
     '
   network: tcp
@@ -983,7 +1068,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '139,496,635|@Vip_Security join us - 413
+  name: '139,496,635|@Vip_Security join us - 414
 
     '
   network: tcp
@@ -996,7 +1081,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 427
+  name: '139,635|@Vip_Security join us - 428
 
     '
   network: tcp
@@ -1021,7 +1106,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 432
+  name: '139,635|@Vip_Security join us - 433
 
     '
   network: tcp
@@ -1091,7 +1176,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 421
+  name: '139,635|@Vip_Security join us - 422
 
     '
   network: tcp
@@ -1122,7 +1207,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 430
+  name: '139,635|@Vip_Security join us - 431
 
     '
   network: tcp
@@ -1196,7 +1281,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 419
+  name: '139,635|@Vip_Security join us - 420
 
     '
   network: tcp
@@ -1235,7 +1320,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '139,496,635|@Vip_Security join us - 416
+  name: '139,496,635|@Vip_Security join us - 417
 
     '
   network: tcp
@@ -1289,7 +1374,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '139,635|@Vip_Security join us - 428
+  name: '139,635|@Vip_Security join us - 429
 
     '
   network: tcp
@@ -2430,7 +2515,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '231,451|未命名 #372'
+  name: '231,451|未命名 #353'
   network: ws
   port: '80'
   server: 182.16.1.194
@@ -2493,52 +2578,17 @@ proxies:
     path: /opt/video/images
 - alterId: 0
   cipher: auto
-  name: 232|>🇭🇰 HK|Ls|0720|TG@FProxies|
-  network: ws
-  port: '5100'
-  server: st-2.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b
-  ws-opts:
-    headers:
-      Host: mirrors.ustc.edu.cn
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ls|0720|TG@FProxies| #1'
-  network: ws
-  port: '30015'
-  server: entrance2-105.jjsagcajvv.xyz
-  tls: false
-  type: vmess
-  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
-  ws-opts:
-    headers:
-      Host: entrance2-105.jjsagcajvv.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 232|>🇭🇰 HK|Ns|0816|TG@FProxies|
   network: ws
-  port: '443'
-  server: hk01.xfxnode.top
+  port: '80'
+  server: 8.218.201.73
   tls: false
   type: vmess
-  uuid: 0ca8baac-2012-448c-9855-cf73c368fcbf
+  uuid: 8488c153-9668-4e47-af41-cfbf3e0957f7
   ws-opts:
     headers:
-      Host: hk01.xfxnode.top
-    path: /hk01
-- alterId: 2
-  cipher: auto
-  name: 232|>🇭🇰 HK|Ls|0816|TG@FProxies|
-  network: tcp
-  port: '51000'
-  server: iepl2.airtcp.vip
-  tls: false
-  type: vmess
-  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+      Host: ''
+    path: /8488c153
 - alterId: 64
   cipher: auto
   name: '232|>🇭🇰 HK|Ns|0816|TG@FProxies| #1'
@@ -2552,19 +2602,111 @@ proxies:
     headers:
       Host: ''
     path: /path/091615350227
+- alterId: 0
+  cipher: auto
+  name: 232|>🇭🇰 HK|Ls|0720|TG@FProxies|
+  network: ws
+  port: '5100'
+  server: st-2.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: c567bb85-63e8-3ec2-9bfb-688f15dfc27b
+  ws-opts:
+    headers:
+      Host: mirrors.ustc.edu.cn
+    path: /iso
 - alterId: 2
   cipher: auto
-  name: '232|>🇭🇰 HK|Ls|0720|TG@FProxies| #3'
+  name: '232|>🇭🇰 HK|Ns|0720|TG@FProxies| #6'
   network: ws
   port: '23619'
   server: 19.v2-ray.cyou
   tls: false
   type: vmess
-  uuid: cbd378ac-85f3-366e-a41e-90993c749e5e
+  uuid: 4760ed37-8765-3cd6-91ef-8a45821e6563
   ws-opts:
     headers:
       Host: 19.v2-ray.cyou
     path: /
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ms|0720|TG@FProxies| #1'
+  network: ws
+  port: '443'
+  server: 104.16.29.227
+  tls: true
+  type: vmess
+  uuid: e83c2455-e944-4763-89c9-5baca330fb8d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ns|0720|TG@FProxies| #3'
+  network: tcp
+  port: '19811'
+  server: xgcma.dx002.top
+  tls: false
+  type: vmess
+  uuid: f7ff1a87-5737-3adf-b518-87935ac26132
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ns|0816|TG@FProxies| #2'
+  network: ws
+  port: '443'
+  server: hk01.xfxnode.top
+  tls: false
+  type: vmess
+  uuid: 0ca8baac-2012-448c-9855-cf73c368fcbf
+  ws-opts:
+    headers:
+      Host: hk01.xfxnode.top
+    path: /hk01
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ls|0720|TG@FProxies| #1'
+  network: ws
+  port: '30015'
+  server: entrance2-105.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  ws-opts:
+    headers:
+      Host: entrance2-105.jjsagcajvv.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 232|>🇭🇰 HK|Ls|0816|TG@FProxies|
+  network: tcp
+  port: '51000'
+  server: iepl2.airtcp.vip
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ls|0720|TG@FProxies| #2'
+  network: ws
+  port: '80'
+  server: 45.39.199.108
+  tls: false
+  type: vmess
+  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '232|>🇭🇰 HK|Ns|0720|TG@FProxies| #4'
+  network: tcp
+  port: '35009'
+  server: tanz-hk.01byx31qzn.download
+  tls: false
+  type: vmess
+  uuid: 4c5c72f8-43bf-3e25-a171-3328619ac99e
 - alterId: 2
   cipher: auto
   name: 232,283|github.com/freefq - 广东省佛山市移动 2...
@@ -2584,63 +2726,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ls|0720|TG@FProxies| #2'
-  network: ws
-  port: '80'
-  server: 45.39.199.108
-  tls: false
-  type: vmess
-  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ns|0720|TG@FProxies| #7'
-  network: tcp
-  port: '19811'
-  server: xgcma.dx002.top
-  tls: false
-  type: vmess
-  uuid: f7ff1a87-5737-3adf-b518-87935ac26132
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ns|0720|TG@FProxies| #5'
-  network: tcp
-  port: '35009'
-  server: tanz-hk.01byx31qzn.download
-  tls: false
-  type: vmess
-  uuid: 4c5c72f8-43bf-3e25-a171-3328619ac99e
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ns|0816|TG@FProxies| #2'
-  network: ws
-  port: '80'
-  server: 8.218.201.73
-  tls: false
-  type: vmess
-  uuid: 8488c153-9668-4e47-af41-cfbf3e0957f7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /8488c153
-- alterId: 0
-  cipher: auto
-  name: '232|>🇭🇰 HK|Ms|0720|TG@FProxies| #1'
-  network: ws
-  port: '443'
-  server: 104.16.29.227
-  tls: true
-  type: vmess
-  uuid: e83c2455-e944-4763-89c9-5baca330fb8d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: '232|>🇭🇰 HK|Ns|0816|TG@FProxies| #3'
@@ -2933,34 +3018,18 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '247,260,387,389,398,399,404,410,411,413,425|🇭🇰 _HK_香港 #5'
-  network: http
-  port: '61228'
-  server: 8.210.236.45
-  servername: 8.210.236.45
-  skip-cert-verify: false
+  name: '247,291,293,426,427,428|🇭🇰 香港(油管:破解资源君2.0) #53'
+  network: ws
+  port: '80'
+  server: hk-2.4g.mkvn.net
+  servername: v9-vn.tiktokcdn.com
   tls: false
   type: vmess
-  uuid: 7e0ee5c7-46ff-42f8-ab7c-06d8227da454
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '247,260,387,389,398,399,404,410,411,413|🇰HK-47.242.26.30-2355 #1'
-  network: http
-  port: 28045
-  server: 47.242.26.30
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bb73d6fe-9700-4607-8dc1-eb9f15253e9d
+  uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+  ws-opts:
+    headers:
+      Host: v9-vn.tiktokcdn.com
+    path: /4g.mkvn.net
 - alterId: 0
   cipher: auto
   name: '247,291,293,387,389,398,399,404,410,411,413,426,427,428|🇭🇰 香港(油管:破解资源君2.0)
@@ -3164,6 +3233,21 @@ proxies:
   uuid: 1d1ad417-29ed-41e8-aaed-323f797efe6b
 - alterId: 0
   cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '260,387,389,398,399,404,410,411,413|🇰HK-47.242.26.30-2355 #1'
+  network: http
+  port: 28045
+  server: 47.242.26.30
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bb73d6fe-9700-4607-8dc1-eb9f15253e9d
+- alterId: 0
+  cipher: auto
   name: 260|🇭🇰_HK_香港_12@26
   network: ws
   port: 443
@@ -3190,6 +3274,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 48f3fa93-1722-4f8d-af74-fcc54c2f21d5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '260,387,389,398,399,404,410,411,413,425|🇭🇰 _HK_香港 #5'
+  network: http
+  port: '61228'
+  server: 8.210.236.45
+  servername: 8.210.236.45
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7e0ee5c7-46ff-42f8-ab7c-06d8227da454
 - name: 260|🇭🇰_HK_香港_2_14@9
   network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
@@ -3543,22 +3642,6 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 268|🇭🇰 10,11|香港5|@ripaojiedian
-  network: ws
-  port: 10001
-  server: 62.72.163.54
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
-  ws-opts:
-    headers:
-      Host: 62.72.163.54
-    path: /
-- alterId: 0
-  cipher: auto
   name: 275|香港-谷歌云
   network: ws
   port: 443
@@ -3639,19 +3722,6 @@ proxies:
   ws-opts:
     headers:
       Host: dl.kgvn.garenanow.com
-    path: /4g.mkvn.net
-- alterId: 0
-  cipher: auto
-  name: '291,293,426,427,428|🇭🇰 香港(油管:破解资源君2.0) #53'
-  network: ws
-  port: '80'
-  server: hk-2.4g.mkvn.net
-  tls: false
-  type: vmess
-  uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
-  ws-opts:
-    headers:
-      Host: v9-vn.tiktokcdn.com
     path: /4g.mkvn.net
 - alterId: 1
   cipher: aes-128-gcm
@@ -4263,7 +4333,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '374,592,597,600,601|🇺🇸_US_美国 #418'
+  name: '374,592,597,600,601|🇺🇸_US_美国 #431'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -4302,7 +4372,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '374,592,599,600,601|🇺🇸_US_美国->🇨🇦_CA_加拿大 #210'
+  name: '374,592,599,600,601|🇺🇸_US_美国->🇨🇦_CA_加拿大 #245'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -4380,7 +4450,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '374,592,599,600,601|🇺🇸_US_美国 #416'
+  name: '374,592,599,600,601|🇺🇸_US_美国 #429'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -4536,7 +4606,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '374,591,592,600,601|🇺🇸_US_美国 #400'
+  name: '374,591,592,600,601|🇺🇸_US_美国 #413'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -6885,13 +6955,6 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
-- name: 473|10,11|香港4|@ripaojiedian
-  network: tcp
-  password: lNOcIAxy
-  port: 51377
-  server: 36.151.195.24
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 475,645|香港-80端口(自行修改host)
@@ -6907,45 +6970,45 @@ proxies:
       Host: a.189.cn
     path: /zh-cn/download
 - cipher: chacha20-ietf-poly1305
-  name: 480|🇭🇰 香港03-1B
-  password: d7ba4c46-a2ac-44b8-a941-2e4d3789543e
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 480|🇭🇰 香港01-1B
-  password: d7ba4c46-a2ac-44b8-a941-2e4d3789543e
+  name: 480|🇭🇰 香港01
+  password: f0d7426b-b448-4908-89b5-81817f904fc5
   port: 34338
   server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 480|🇭🇰 香港02-1A
-  password: 8bc968ed-5842-42dc-af93-249406c19b15
+  name: 480|🇭🇰 香港 C HK
+  password: 32e65da0-857a-4eac-848b-ae8ab0c56ee9
+  port: 23881
+  server: hk3.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 480|🇭🇰 香港02
+  password: f0d7426b-b448-4908-89b5-81817f904fc5
   port: 20035
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 480|🇭🇰 香港 A HK
-  password: fe0dc5ac-e80a-406a-a008-42ee4e2842c3
+  password: 32e65da0-857a-4eac-848b-ae8ab0c56ee9
   port: 21881
   server: hk1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 480|🇭🇰 香港 B HK
-  password: fe0dc5ac-e80a-406a-a008-42ee4e2842c3
-  port: 22881
-  server: hk2.iepl.cooc.icu
+  name: 480|🇭🇰 香港03
+  password: f0d7426b-b448-4908-89b5-81817f904fc5
+  port: 20052
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 480|🇭🇰 香港 C HK
-  password: fe0dc5ac-e80a-406a-a008-42ee4e2842c3
-  port: 23881
-  server: hk3.iepl.cooc.icu
+  name: 480|🇭🇰 香港 B HK
+  password: 32e65da0-857a-4eac-848b-ae8ab0c56ee9
+  port: 22881
+  server: hk2.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
