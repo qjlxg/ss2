@@ -1,17 +1,46 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: ' FR'
-  name: 57,58,59,61| FR_36
-  password: mjnZvPS0kp0wTefRahNv92
-  port: 443
-  server: 62.210.88.22
-  type: ss
 - alterId: 0
   cipher: auto
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 57| FR_454
+  name: 57| FR_440
+  network: ws
+  port: 443
+  server: az05.beyondy.cfd
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  country: 🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 57,344|Relay_🇷FR-🇫🇷FR_21
+  network: ws
+  port: 443
+  server: indiavideo.sbs
+  servername: indiavideo.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      HOST: indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 57| FR_442
   network: ws
   port: 443
   server: 45.145.167.103
@@ -29,25 +58,7 @@ proxies:
   country: ' FR'
   h2-opts: {}
   http-opts: {}
-  name: 57| FR_455
-  network: ws
-  port: 443
-  server: az05.beyondy.cfd
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 57| FR_456
+  name: 57| FR_443
   network: ws
   port: 443
   server: 146.19.168.161
@@ -60,85 +71,62 @@ proxies:
     headers:
       HOST: az05.beyondy.cfd
     path: /link
-- alterId: 0
-  cipher: auto
-  country: 🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: '57,344,584|未知21 409.9KB/s #3'
-  network: ws
-  port: 443
-  server: indiavideo.sbs
-  servername: indiavideo.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      host: indiavideo.sbs
-    path: /linkws
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 57,58,59,61,100|🇫🇷FR_18 | 8.29Mb
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,230,235|🇩🇪 DE 14 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 217.182.198.219
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_35
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 217.182.198.219
-  type: ss
-- blackListed: false
-  cipher: aes-256-gcm
-  country: FR
-  name: '57,58,59,64,131,230,235,377,393,417|🇧GB-145.239.6.202-5845 #1'
-  password: pKEW8JPByTVTLtM
-  ping: 1228
-  port: 4444
-  real_ip: 145.239.6.202
-  server: 145.239.6.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_31
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  name: 57,58,59|ChatGPT  DE_51
+  password: e4FCWrgpkji3QY
+  port: 9101
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
   country: ' GB'
-  name: 57,58,59|ChatGPT  GB_252
-  password: XKFKl2rULjIp74
-  port: 8009
+  name: 57,58,59|ChatGPT  GB_229
+  password: Y6R9pAtvxxzmGC
+  port: 3306
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
-  country: 🇷FR
-  name: 57,58,59,64,235,344|🇫🇷FR_15
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
+  country: ' DE'
+  name: 57,58,59,119,131,230,235|🇩🇪 DE 22 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 217.182.198.219
   type: ss
   udp: true
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_45
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: 57,58,59|ChatGPT  DE_27
+  password: XKFKl2rULjIp74
+  port: 8009
   server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_30
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_41
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-cfb
+  country: FR
+  name: '57,58,59,64,78,379,393,396,417|🇷FR-195.154.185.174-0527 #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_234
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
@@ -149,49 +137,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,230,235|🇵🇱 PL 42 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  country: ' FR'
+  name: '57,58,59,230,235,259|SS-法国:波兰-locked-ChatGPT-TikTok... #5'
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 54.36.174.181
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_48
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: '57,58,59,64,119,131,230,235,393,417|🇷FR-149.202.82.172-5846 #1'
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_49
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_250
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_50
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 217.182.198.219
-  type: ss
 - cipher: aes-256-gcm
   country: ' DE'
   name: 57,58,59,119,131,230,235|🇩🇪 DE 9 → tg@nicevpn123
@@ -201,6 +153,65 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  country: FR
+  name: '57,58,59,64,119,131,230,235,393,417|🇷FR-149.202.82.172-5846 #1'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 57,58,59,119,131,230,235|🇵🇱 PL 40 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 57,58,59,119,131,230,235,344|🇫🇷FR_20
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_196
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_31
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_53
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 57,58,59,64|FR_41
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 57,58,59,61| FR_38
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
   country: ' DE'
   name: 57,58,59,119,131,230,235|🇩🇪 DE 18 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -209,47 +220,32 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  country: FR
+  name: 57,58,59,64,119,131,230,235|🇫🇷 FR 35 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   country: ' GB'
-  name: 57,58,59|ChatGPT  GB_227
-  password: Y6R9pAtvxxzmGC
-  port: 3306
+  name: 57,58,59|ChatGPT  GB_201
+  password: cdBIDV42DCwnfIN
+  port: 8118
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_38
-  password: XKFKl2rULjIp74
-  port: 8009
+  name: 57,58,59|ChatGPT  DE_28
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_226
+  country: FR
+  name: 57,58,59,64,230,235|🇵🇱 PL 42 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: '57,58,59,230,235,259|SS-法国:波兰-locked-ChatGPT-TikTok... #5'
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 57,58,59,230,235|🇵🇱 PL 26 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 57,58,59,119,131,230,235|🇵🇱 PL 29 → tg@nicevpn123
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  port: 5001
   server: 54.36.174.181
   type: ss
   udp: true
@@ -263,9 +259,23 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59|ChatGPT  DE_74
+  name: 57,58,59|ChatGPT  DE_40
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' GB'
+  name: 57,58,59|ChatGPT  GB_198
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 57,58,59|ChatGPT  DE_42
   password: cdBIDV42DCwnfIN
-  port: 8119
+  port: 8118
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
@@ -277,52 +287,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_28
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 217.182.198.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 57,119,131,259|SS-法国:德国-locked-ChatGPT-TikTok...
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.178.87.37
-  type: ss
-- blackListed: false
-  cipher: chacha20-ietf-poly1305
-  country: FR
-  name: '57,119,131,197,198,377,393,417|🇫🇷FR-51.178.87.37-8007 #1'
-  password: G!yBwPWH3Vao
-  ping: 542
-  port: 804
-  real_ip: 51.178.87.37
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64|FR_30
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59|ChatGPT  DE_67
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 57,58,59,119,131,230,235|🇵🇱 PL 40 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   country: FR
   name: 57,58,59,64,230,235|🇫🇷 FR 41 → tg@nicevpn123
   password: pKEW8JPByTVTLtM
@@ -331,71 +295,75 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇷FR
-  name: '57,58,59,119,131,230,235,259,344|FR_13 #1'
-  password: FoOiGlkAA9yPEGP
-  port: 7307
+  country: ' FR'
+  name: 57,58,59,119,131,230,235|🇵🇱 PL 29 → tg@nicevpn123
+  password: PCnnH6SQSnfoS27
+  port: 8091
   server: 54.36.174.181
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  country: FR
-  name: '57,58,59,64,78,379,393,396,417|🇷FR-195.154.185.174-0527 #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: '57,58,59,119,131,230,235,344|🇫🇷FR_20 #1'
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 54.36.174.181
+  country: 🇷FR
+  name: 57,58,59,64,235,344|🇫🇷FR_15
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 30 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: 57,58,59|ChatGPT  DE_65
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 217.182.198.219
   type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 57,58,59,230,235|🇵🇱 PL 26 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- blackListed: false
+  cipher: aes-256-gcm
+  country: FR
+  name: '57,58,59,64,131,230,235,377,393,417|🇧GB-145.239.6.202-5845 #1'
+  password: pKEW8JPByTVTLtM
+  ping: 1228
+  port: 4444
+  real_ip: 145.239.6.202
+  server: 145.239.6.202
+  type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 57,58,59,119,131,230,235|🇩🇪 DE 22 → tg@nicevpn123
+  country: FR
+  name: 57,58,59,64,230,235|🇩🇪 DE 14 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
-  port: 5000
+  port: 3389
   server: 217.182.198.219
   type: ss
   udp: true
 - cipher: aes-256-gcm
   country: ' GB'
-  name: 57,58,59|ChatGPT  GB_219
+  name: 57,58,59|ChatGPT  GB_194
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
   country: ' GB'
-  name: 57,58,59|ChatGPT  GB_217
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: 57,58,59|ChatGPT  GB_226
+  password: Y6R9pAtvxxzmGC
+  port: 3389
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
-  country: ' GB'
-  name: 57,58,59|ChatGPT  GB_241
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 57,58,59,64,119,131,230,235|🇫🇷 FR 35 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 149.202.82.172
+  country: 🇷FR
+  name: 57,58,59,119,131,230,235,259,344|FR_13
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 54.36.174.181
   type: ss
   udp: true
 - alterId: 0
@@ -403,7 +371,7 @@ proxies:
   country: FR
   h2-opts: {}
   http-opts: {}
-  name: 57|Relay_FR-FR_500
+  name: 57|Relay_FR-FR_483
   network: ws
   port: 443
   server: beyonddsz.cfd
@@ -418,10 +386,103 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 57,62,235,344,353,391,393,402,403,408,414,415,417,419,499,501,651|🇺🇸_US_美国->_FR_国_1
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 59|ChatGPT  FR_146
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 54.37.18.75
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  name: 61,64,101,108,119,131,235|🇫🇷 FR 26 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '62,241,251,353,391,393,402,403,408,414,415,417|🏁RELAY-104.17.16.68-1640 #8'
+  network: ws
+  port: 2095
+  server: qxcstxwbcvb_cdn.hfhfb.homes
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 031f3b28-d2f4-47b2-a258-bd4be1a73889
+  ws-opts:
+    headers:
+      Host: frcdn.fask511.cfd
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 62,241|FR😈github.com/Ruk1ng001_-20188...
+  network: ws
+  port: 2095
+  server: qxcstxwbcvb_cdn.hfhfb.homes
+  servername: frcdn.fask511.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
+  ws-opts:
+    headers:
+      HOST: frcdn.fask511.cfd
+    path: /
+- cipher: aes-256-cfb
+  country: FR
+  name: '64,78,235,379,393,396,417|🇷FR-51.159.111.208-0525 #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   country: ' FR'
   h2-opts: {}
   http-opts: {}
   name: 65| FR_12
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  servername: a.baradiha.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    HOST: a.baradiha.com
+  ws-path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 65| FR_13
   network: ws
   port: 443
   server: az05.beyondy.cfd
@@ -434,14 +495,29 @@ proxies:
     HOST: az05.beyondy.cfd
   ws-path: /link
 - country: FR
+  name: 79|FR_03
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.198.230
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: FR
   name: 79|netflix_FR
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 35.181.228.234
+  server: 13.37.87.192
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: '90,311,325,393,417|🇷FR-163.172.64.22-0080 #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '90,393,417|FR-51.38.118.42-0055 #1'
   password: Ultr@r00t_2017
@@ -507,28 +583,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '100,242|FR😈github.com/Ruk1ng001_871507... #1'
-  network: ws
-  port: 2095
-  server: qxcstxwbcvb_cdn.hfhfb.homes
-  servername: frcdn.fask511.cfd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3449a86e-e304-45b2-a543-b6d8ef429012
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=1024
-- alterId: 0
-  cipher: auto
-  name: 106|🇫🇷 FR_461
+  name: 106|🇫🇷 FR_453
   network: ws
   port: 443
   server: az05.beyondy.cfd
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: '106,112,152,161,236,257,295,296,353,578,621,622,640|@Vip_Security join us
+    - 798
+
+    '
+  network: ws
+  port: '443'
+  server: indiavideo.sbs
+  servername: indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      Host: indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '106,135,136|法国_里昂 #1'
+  network: ws
+  port: 443
+  server: 146.19.168.161
   tls: true
   type: vmess
   uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
@@ -553,39 +643,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '106,112,152,161,236,257,291,295,296,302,353,578,585,621,622,640|@Vip_Security
-    join us - 798
-
-    '
-  network: ws
-  port: '443'
-  server: indiavideo.sbs
-  servername: indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      Host: indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '106,135,136,310,311,312|20|法国_由快嘴科技提供：kkzui.com法国 #3 #2'
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '112,118,119,152,161,194,208,214,257,291,295,296,302,353,439,564,570,571,584,585,621,622,640|@Vip_Security
+  name: '112,118,119,152,161,194,208,214,257,295,296,353,439,564,570,571,621,622,640|@Vip_Security
     join us - 264
 
     '
@@ -651,9 +709,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '135,136,252,310,311,312|20|美国_由快嘴科技提供：kkzui.com美国 #3 #2'
+  name: '135,136,252|🇫🇷 France #1'
   network: ws
-  port: 443
+  port: '443'
   server: 110.724064.xyz
   servername: google.com
   tls: true
@@ -665,22 +723,9 @@ proxies:
     path: /nlpivws
 - alterId: 0
   cipher: auto
-  name: '135,136,236,310,311,312|20|法国_由快嘴科技提供：kkzui.com法国 #5'
+  name: '135,136,236|>🇫🇷 FR|Ns|0720|TG@FProxies| #9'
   network: ws
-  port: 443
-  server: 51.77.20.132
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: a.baradiha.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '135,136,236,310,311,312|20|法国_由快嘴科技提供：kkzui.com法国 #1 #2'
-  network: ws
-  port: 443
+  port: '443'
   server: 51.77.20.140
   tls: true
   type: vmess
@@ -691,7 +736,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '135,136,310,311,312|20|美国_由快嘴科技提供：kkzui.com美国 #101 #2'
+  name: '135,136|法国_马赛 #3'
   network: ws
   port: 443
   server: 109.724064.xyz
@@ -704,7 +749,7 @@ proxies:
     path: /qqsvvws
 - alterId: 0
   cipher: auto
-  name: '135,136,310,311,312,666|美国 CloudFlare节点 #339'
+  name: '135,136,666|美国 CloudFlare节点 #383'
   network: ws
   port: '443'
   server: irvideo.cfd
@@ -1395,9 +1440,28 @@ proxies:
     headers:
       host: food.zhaal.ir
     path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1311
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #24'
+  network: ws
+  port: 2086
+  server: 104.16.60.8
+  servername: 1c11-muddy-rice-1c11.vetanex501.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      HOST: 1c11-muddy-rice-1c11.vetanex501.workers.dev
+    path: /glweidf.sbs/linkws
 - alterId: 64
   cipher: auto
-  name: 236|>🇫🇷 FR|Ms|0816|TG@FProxies|
+  name: 236|>🇫🇷 FR|Ms|0720|TG@FProxies|
   network: ws
   port: '443'
   server: 54.37.95.177
@@ -1410,39 +1474,176 @@ proxies:
     path: /path/340434130032
 - alterId: 0
   cipher: auto
-  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #1'
+  delay: 1494
+  name: '236,238,347,348,353,391,393,402,403,408,414,415,417,573,619,649|未知_0908133
+    #1'
   network: ws
-  port: '443'
-  server: 193.160.130.117
-  tls: true
+  port: '8880'
+  server: 104.16.61.8
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1328
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #20'
+  network: ws
+  port: 8880
+  server: 104.16.61.8
+  servername: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      HOST: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 635
+  h2-opts: {}
+  http-opts: {}
+  name: 236,347,348,586|US 87|openitr
+  network: ws
+  port: '2052'
+  server: 104.18.202.250
+  servername: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
       Host: ''
-    path: /linkws
+    path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #2'
-  network: tcp
-  port: '35096'
-  server: tanz-board.01byx31qzn.download
+  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #1'
+  network: ws
+  port: '10000'
+  server: 51.77.200.55
   tls: false
   type: vmess
-  uuid: 4c5c72f8-43bf-3e25-a171-3328619ac99e
+  uuid: 329ca152-42be-11ef-83f1-6bbc07c8700f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1542
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #23'
+  network: ws
+  port: 2052
+  server: 104.16.68.38
+  servername: proud-union-8659.email-0kn8d.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      HOST: proud-union-8659.email-0kn8d.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1590
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #21'
+  network: ws
+  port: 2052
+  server: 104.16.67.38
+  servername: icy-butterfly-4100.email-0kn8d.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      HOST: icy-butterfly-4100.email-0kn8d.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1598
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #29'
+  network: ws
+  port: 8880
+  server: 104.16.61.8
+  servername: yaghoob55freenodes.repaco69437403.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      HOST: yaghoob55freenodes.repaco69437403.workers.dev
+    path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
   name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #3'
   network: ws
   port: '10000'
-  server: 51.91.248.209
+  server: 188.92.28.44
   tls: false
   type: vmess
-  uuid: 2b2b65f2-42be-11ef-834d-37d61b0768d4
+  uuid: 4218c502-42be-11ef-9faa-1faf6fa298fc
   ws-opts:
     headers:
       Host: ''
     path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  delay: 1515
+  name: '236,238,278,347,348,353,391,393,402,403,408,414,415,417,619,649|未知_0908196
+    #1'
+  network: ws
+  port: '8880'
+  server: 104.16.68.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: worker-lingering-fog-c021.gesofog870.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1676
+  name: 236,347,348,619|🏁RELAY-104.16.61.8-1771
+  network: ws
+  port: 80
+  server: 104.16.61.8
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
   name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #4'
@@ -1471,6 +1672,32 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #5'
+  network: ws
+  port: '80'
+  server: 195.154.102.210
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v133PDXkklxLEcOvD
+- alterId: 0
+  cipher: auto
+  name: 236,586|SE 1|openitr
+  network: ws
+  port: '80'
+  server: Back.MsV2ray.online
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: Back.MsV2ray.online
+    path: /obdii.cfd/linkws
 - alterId: 64
   cipher: auto
   name: '236|>🇫🇷 FR|Ms|0720|TG@FProxies| #1'
@@ -1486,6 +1713,49 @@ proxies:
     path: /path/181721272114
 - alterId: 0
   cipher: auto
+  delay: 1363
+  name: '236,238,347,348,353,391,393,402,403,408,414,415,417,573,619,649|未知_0908095
+    #1'
+  network: ws
+  port: '2082'
+  server: 104.16.68.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: snowy-river-f497.turkeys-radford.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #6'
+  network: tcp
+  port: '35096'
+  server: tanz-board.01byx31qzn.download
+  tls: false
+  type: vmess
+  uuid: 4c5c72f8-43bf-3e25-a171-3328619ac99e
+- alterId: 0
+  cipher: auto
+  delay: 1497
+  name: '236,238,347,348,353,391,393,402,403,408,414,415,417,573,619,649|未知_0908120
+    #1'
+  network: ws
+  port: '2082'
+  server: 104.16.61.8
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
   name: '236|>🇫🇷 FR|Ms|0720|TG@FProxies| #2'
   network: ws
   port: '10000'
@@ -1499,62 +1769,154 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #6'
+  country: 🇺🇸 US
+  delay: 1457
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 里昂 - Feelb Sarl - 13 #2'
   network: ws
-  port: '80'
-  server: 195.154.102.210
+  port: 8880
+  server: 104.16.60.8
+  servername: square-snowflake-486a.beshir-beisel.workers.dev
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: ''
-    path: /v133PDXkklxLEcOvD
+      HOST: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1553
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Feelb Sarl - 10 #2'
+  network: ws
+  port: 8080
+  server: 104.16.67.38
+  servername: cy-dew-1c7uwh.cojatoc291.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      HOST: cy-dew-1c7uwh.cojatoc291.workers.dev
+    path: /glweidf.cfd/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1249
+  name: '236,238,278,347,348,353,391,393,402,403,408,414,415,417,619,649|未知_0908192
+    #1'
+  network: ws
+  port: '8080'
+  server: 104.16.68.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
   name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #7'
   network: ws
-  port: '10000'
-  server: 51.77.200.55
-  tls: false
+  port: '443'
+  server: 193.160.130.117
+  tls: true
   type: vmess
-  uuid: 329ca152-42be-11ef-83f1-6bbc07c8700f
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
       Host: ''
-    path: /vpnjantit
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1131
+  h2-opts: {}
+  http-opts: {}
+  name: '236,347,348|法国 - 巴黎 - Akamai Technologies,... #25'
+  network: ws
+  port: 2095
+  server: 104.16.68.38
+  servername: misty-dew-e2f1.turkeys-radford.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      HOST: misty-dew-e2f1.turkeys-radford.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  delay: 1465
+  name: '236,238,347,348,353,391,393,402,403,408,414,415,417,573,619,649|未知_0908092
+    #1'
+  network: ws
+  port: '2095'
+  server: 104.16.68.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-divine-hat-02d6.savofir317.workers.dev
+    path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
   name: '236|>🇫🇷 FR|Ns|0720|TG@FProxies| #8'
   network: ws
   port: '10000'
-  server: 188.92.28.44
+  server: 51.91.248.209
   tls: false
   type: vmess
-  uuid: 4218c502-42be-11ef-9faa-1faf6fa298fc
+  uuid: 2b2b65f2-42be-11ef-834d-37d61b0768d4
   ws-opts:
     headers:
       Host: ''
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  delay: 1965
-  h2-opts: {}
-  http-opts: {}
-  name: '236,347,348|德国 - 法兰克福 - Akamai Technologie... #21'
+  delay: 1176
+  name: 236,347,348,619,666|🏁RELAY-104.18.202.250-2255
   network: ws
-  port: 2082
-  server: 104.16.60.8
-  servername: 82uple-bird-b087.pemed58443.workers.dev
-  skip-cert-verify: true
+  port: 8080
+  server: 104.18.202.250
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      HOST: 82uple-bird-b087.pemed58443.workers.dev
-    path: /ivideos.sbs/linkws
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /jahfkjha.cfd/linkws
+- alterId: 0
+  cipher: auto
+  delay: 843
+  name: 236,238,347,348,353,391,393,402,403,408,414,415,417,573,619,649|未知_0908060
+  network: ws
+  port: '80'
+  server: 104.16.60.8
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 4868-poetry-4868.napora7003.workers.dev
+    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
   name: '238,349,615,649,653|法国_0908005 #2'
@@ -1717,21 +2079,30 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '241,251,353,391,393,402,403,408,414,415,417|🏁RELAY-104.17.16.68-1640 #8'
+  name: '242|FR😈github.com/Ruk1ng001_871507... #1'
   network: ws
   port: 2095
   server: qxcstxwbcvb_cdn.hfhfb.homes
-  servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 031f3b28-d2f4-47b2-a258-bd4be1a73889
+  uuid: 3449a86e-e304-45b2-a543-b6d8ef429012
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '242|FR😈github.com/Ruk1ng001_-20188... #1'
+  network: ws
+  port: 2095
+  server: qxcstxwbcvb_cdn.hfhfb.homes
+  tls: false
+  type: vmess
+  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
   ws-opts:
     headers:
       Host: frcdn.fask511.cfd
-    path: /?ed=1024
+    path: /
 - cipher: aes-256-cfb
   name: '246,393,417|🇷FR-51.158.200.72-5807 #1'
   password: asdKkaskJKfnsa
@@ -2040,206 +2411,11 @@ proxies:
     path: /fastssh/43t34gt4/62d7cbc722cda/
 - alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  delay: 1328
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #10'
-  network: ws
-  port: 8880
-  server: 104.16.61.8
-  servername: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      HOST: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1590
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #11'
-  network: ws
-  port: 2052
-  server: 104.16.67.38
-  servername: icy-butterfly-4100.email-0kn8d.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      HOST: icy-butterfly-4100.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 635
-  h2-opts: {}
-  http-opts: {}
-  name: 347,348,586|US 87|openitr
-  network: ws
-  port: '2052'
-  server: 104.18.202.250
-  servername: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1542
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #13'
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  servername: proud-union-8659.email-0kn8d.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      HOST: proud-union-8659.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1311
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #14'
-  network: ws
-  port: 2086
-  server: 104.16.60.8
-  servername: 1c11-muddy-rice-1c11.vetanex501.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      HOST: 1c11-muddy-rice-1c11.vetanex501.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1131
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #15'
-  network: ws
-  port: 2095
-  server: 104.16.68.38
-  servername: misty-dew-e2f1.turkeys-radford.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: misty-dew-e2f1.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 1598
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Akamai Technologies,... #19'
-  network: ws
-  port: 8880
-  server: 104.16.61.8
-  servername: yaghoob55freenodes.repaco69437403.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      HOST: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1553
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 巴黎 - Feelb Sarl - 10 #1'
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  servername: cy-dew-1c7uwh.cojatoc291.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      HOST: cy-dew-1c7uwh.cojatoc291.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  delay: 1176
-  name: 347,348,619,666|🏁RELAY-104.18.202.250-2255
-  network: ws
-  port: 8080
-  server: 104.18.202.250
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1457
-  h2-opts: {}
-  http-opts: {}
-  name: '347,348|法国 - 里昂 - Feelb Sarl - 13 #1'
-  network: ws
-  port: 8880
-  server: 104.16.60.8
-  servername: square-snowflake-486a.beshir-beisel.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  delay: 1676
-  name: 347,348,619|🏁RELAY-104.16.61.8-1771
-  network: ws
-  port: 80
-  server: 104.16.61.8
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
   country: 🇸🇪 SE
   delay: 2377
   h2-opts: {}
   http-opts: {}
-  name: '347,348|法国 - 里昂 - Feelb Sarl - 8 #1'
+  name: '347,348|法国 - 里昂 - Feelb Sarl - 8 #2'
   network: ws
   port: 80
   server: Back.MsV2ray.online
@@ -2781,9 +2957,18 @@ proxies:
   ws-headers:
     Host: node1.wblogw1.tk
   ws-path: /cw21sadd3
+- auth: 264eebfd-0329-43c0-a8e5-0e5f51f097d7
+  name: 484|🇩🇪 欧洲-法兰克福-1
+  password: 264eebfd-0329-43c0-a8e5-0e5f51f097d7
+  port: 30001
+  server: oracle-arm-frankfurt1.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: frankfurt1.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 484|🇫🇷 法国 FR BIZ
-  password: bb530531-4bf0-4e72-ab23-f9c8289c6647
+  password: 0e011118-edc8-4089-b815-4f9a3f84510c
   port: 35611
   server: fr.cooc.icu
   type: ss
@@ -2891,39 +3076,6 @@ proxies:
     headers:
       Host: clash1.trump2023.net
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 595|VMESS-未知>法国-NF解锁法国自制剧-ChatGPT-...
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: fr-a.yuji2022.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      HOST: fr-a.yuji2022.eu.org
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 595|VMESS-未知>法国-ChatGPT-TikTok-You...
-  network: ws
-  port: 443
-  server: f.khilei.com
-  servername: f.khilei.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: f.khilei.com
-    path: /linkvws
 - alterId: 0
   cipher: chacha20-poly1305
   name: '603,605|法国 OVH SAS #1'
