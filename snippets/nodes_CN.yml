@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: ' CN'
+  name: 53,56|Relay_ CN-HK_818
+  password: 190067b9-63a3-4f8d-9c16-ee2737a87c14
+  port: 50255
+  server: hk16.ssyhi.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   country: ' CN'
@@ -14,12 +21,12 @@ proxies:
   type: vmess
   uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
   ws-path: /
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
   country: CN
-  name: 56|CN_786
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 61.171.112.82
+  name: '56,385,409|🇳CN-183.232.159.133-1122 #1'
+  password: 190067b9-63a3-4f8d-9c16-ee2737a87c14
+  port: 50239
+  server: se01.ssyhi.xyz
   type: ss
 - alterId: -1
   cipher: rc4-md5
@@ -37,25 +44,19 @@ proxies:
   port: 6700
   server: 1.12.237.86
   type: ss
+- cipher: rc4-md5
+  country: CN
+  name: 56|CN_829
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 61.171.112.82
+  type: ss
 - alterId: 64
   cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '56,160,161|Github搜索TrojanLinks #77'
-  network: tcp
-  port: '50002'
-  server: 47.116.173.76
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 56|CN_795
+  name: 56|CN_831
   network: tcp
   port: 50002
   server: 112.132.215.12
@@ -77,6 +78,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '56,160,161|Github搜索TrojanLinks #77'
+  network: tcp
+  port: '50002'
+  server: 47.116.173.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
@@ -88,6 +102,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  country: CN
+  name: 57|Pool_CN_11
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41122
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.24
+  type: ssr
 - cipher: chacha20-ietf
   country: CN
   name: 57|Relay_CN-CN_12
@@ -98,36 +123,15 @@ proxies:
   protocol-param: 2338:9tQfxMX(0S;40f
   server: cmlayer6.standurls.co
   type: ssr
-- cipher: aes-256-cfb
-  country: CN
-  name: 57,96|Pool__02
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
-  type: ssr
-- cipher: aes-256-cfb
-  country: CN
-  name: '57,96|_01 #1'
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41122
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.24
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: '61,100,140,149,245,283,284,345,613,614,632,656|中国【付费推荐：https://a0a.xyz】97
+  name: '61,100,140,149,245,279,283,284,290,345,576,577,613,614,632,656|中国【付费推荐：https://a0a.xyz】97
     #1'
   network: ws
   port: '46001'
   server: mmhk01.micloud.buzz
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
@@ -137,7 +141,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '64,84,131,223,251,254,283,285,298,299,300,335,411,422,423,424,570,590,597,604,628|@Vip_Security
+  name: '64,84,131,223,251,254,279,283,285,298,299,300,335,411,422,423,424,570,590,597,604,628|@Vip_Security
     join us - 394
 
     '
@@ -233,11 +237,14 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '79,223,247,385,409|🇨🇳CN-120.238.122.160-0499 #1'
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 79,223,247,385,409,576|DE国
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -967,8 +974,8 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '100,140,149,224,245,283,284,345,557,563,564,613,614,632|@Vip_Security join
-    us - 416
+  name: '100,140,149,224,245,279,283,284,345,557,563,564,613,614,632|@Vip_Security
+    join us - 416
 
     '
   network: tcp
@@ -980,20 +987,22 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '100,140,149,245,283,284,345,613,614,632|@Vip_Security join us - 606
+  name: '100,140,149,245,279,283,284,290,345,576,577,613,614,632|@Vip_Security join
+    us - 606
 
     '
   network: tcp
   port: '44806'
   server: ambxxic01hk.dorabbb.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
 - alterId: 0
   cipher: auto
-  name: '100,141,149,196,202,206,245,283,284,345,613,614,615,618,619,622|رایگان |
-    VMESS | @yaney_01 | U... #33'
+  name: '100,141,149,196,202,206,245,279,283,284,345,613,614,615,618,619,622|رایگان
+    | VMESS | @yaney_01 | U... #33'
   network: ws
   port: '80'
   server: ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub
@@ -5200,51 +5209,6 @@ proxies:
   server: 211.99.97.10
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 226,345,383,385,394,395,400,406,407,409,641|中国_0908009
-  network: ws
-  port: '30023'
-  server: v01.gutingting.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: '226,345,383,385,394,395,400,406,407,409,641|中国_0908010 #1'
-  network: ws
-  port: '30015'
-  server: v02.gutingting.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- alterId: 0
-  cipher: auto
-  name: 226,345,383,385,394,395,400,406,407,409,641|中国_0908017
-  network: ws
-  port: '30041'
-  server: v02.gutingting.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 229|CN😈github.com/Ruk1ng001_112878...
@@ -5312,12 +5276,11 @@ proxies:
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  name: 229,320|美国(yudou66.com 玉豆免费节点) 35
-  password: 5047b08b-d604-4b44-a304-4bfac9b95a0f
+  name: 229|CN😈github.com/Ruk1ng001_-23441...
+  password: df968d3f-9899-4ef0-a816-62c5a710e820
   port: 11001
   server: 61.172.235.22
   type: ss
-  udp: true
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 229|CN😈github.com/Ruk1ng001_-16299...
@@ -7027,7 +6990,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '252,345,383,385,394,395,400,406,407,409|🇨🇳CN-106.55.187.139-2529 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇨🇳CN-106.55.187.139-2529 #8'
   network: ws
   port: 8448
   server: 106.55.187.139
@@ -7198,7 +7161,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇨🇳CN-124.221.131.176-2623 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇨🇳CN-124.221.131.176-2623 #8'
   network: http
   port: 50797
   server: 124.221.131.176
@@ -7517,7 +7480,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '253,294,345,383,385,394,395,400,406,407,409|🏁RELAY-141.193.213.20-1245 #7'
+  name: '253,294,345,383,385,394,395,400,406,407,409|🏁RELAY-141.193.213.20-1245 #8'
   network: ws
   port: 443
   server: 141.193.213.20
@@ -8812,7 +8775,52 @@ proxies:
   uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.243-2274 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.241.176.230-2179 #8'
+  network: ws
+  port: 30023
+  server: v01.gutingting.com
+  servername: gz.fastcloud.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.241.176.230-2180 #8'
+  network: ws
+  port: 30015
+  server: v02.gutingting.com
+  servername: gz.fastcloud.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
+  ws-opts:
+    headers:
+      Host: v02.gutingting.com
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.241.176.230-2233 #8'
+  network: ws
+  port: 30041
+  server: v02.gutingting.com
+  servername: sh01.fastcloud.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
+  ws-opts:
+    headers:
+      Host: v02.gutingting.com
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.243-2274 #8'
   network: ws
   port: 5001
   server: steam.dnspro.icu
@@ -8827,7 +8835,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.239-2299 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.239-2299 #8'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -8842,7 +8850,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.238-2300 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇨🇳CN-120.232.234.238-2300 #8'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -8872,19 +8880,6 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '345,375,383,385,394,395,400,406,407,409|🇳CN-123.249.101.15-6278 #1'
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: '345,383,385,394,395,400,406,407,409,411|二爷免费翻墙 https://1808.free.hr 节点...
     #285'
   network: ws
@@ -8897,48 +8892,19 @@ proxies:
   uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts:
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 345|🇨🇳CN-120.199.77.219-0065
+  name: '345,375,383,385,394,395,400,406,407,409|🇳CN-123.249.101.15-6278 #1'
   network: ws
-  port: 30866
-  server: v29.heduian.online
+  port: 19709
+  server: 123.249.101.15
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
   ws-opts:
-    headers:
-      Host: v29.heduian.online
-    path: /oooo
-- alterId: 64
-  cipher: auto
-  name: 345|🇨🇳CN-119.36.161.40-0034
-  network: ws
-  port: 443
-  server: 119.36.161.40
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
-  ws-opts:
-    headers:
-      Host: www.25055502.xyz
-    path: /path/323127100515
-- alterId: 2
-  cipher: auto
-  name: 345|🇨🇳CN-120.199.77.219-0026
-  network: ws
-  port: 30866
-  server: v4.heduian.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+    path: /
 - alterId: 0
   blackListed: false
   cipher: auto
@@ -8972,7 +8938,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '375,421|未命名 #325'
+  name: '375,421|未命名 #329'
   network: ws
   port: '53022'
   server: 47.93.231.218
@@ -12085,7 +12051,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '557,563,564|🔒 VM-TCP-NA 🇨🇳 CN-123.88.148.3... #2'
+  name: '543,550,551,553,554,555,557,563,564|🔒 VM-TCP-NA 🇨🇳 CN-123.88.148.3... #8'
   network: tcp
   port: '44806'
   server: 123.88.148.36
@@ -12115,9 +12081,3 @@ proxies:
     headers:
       Host: cm.awslcn.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 638|CN_speednode_0013
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20003
-  server: 14.215.169.69
-  type: ss

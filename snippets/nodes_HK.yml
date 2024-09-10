@@ -67,8 +67,11 @@ proxies:
     path: ''
 - alterId: 64
   cipher: auto
+  country: CN
   delay: 1050
-  name: '2,4,5,8,10,15,17,20,22,26,28,31,33,36,38,41,43,46,48,59,74,76,79,84,100,140,149,224,245,283,284,285,339,340,345,422,423,424,497,557,563,564,566,613,614,628,632|@Vip_Security
+  h2-opts: {}
+  http-opts: {}
+  name: '2,4,5,8,10,15,17,20,22,26,28,31,33,36,38,41,43,46,48,56,59,74,76,79,84,100,140,149,224,245,279,283,284,285,339,340,345,422,423,424,557,563,564,566,613,614,628,632|@Vip_Security
     join us - 409
 
     '
@@ -87,8 +90,10 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 1262
-  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,224,226,266,339,340,345,383,385,394,395,400,406,407,409,411,628,632,641|美国_0908306
-    #1'
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,224,266,339,340,345,383,385,394,395,400,406,407,409,411,628,632|@Vip_Security
+    join us - 275
+
+    '
   network: ws
   port: '80'
   server: 157.254.22.109
@@ -104,9 +109,12 @@ proxies:
     path: /syjsq/data
 - alterId: 0
   cipher: auto
-  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,149,152,226,245,283,345,383,385,386,387,394,395,396,397,400,406,407,409,411,497,611,628,641|香港_0908005
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,149,152,245,279,283,314,345,383,385,386,387,394,395,396,397,400,406,407,409,411,497,611,628|@Vip_Security
+    join us - 378
+
+    '
   network: ws
-  port: '80'
+  port: 80
   server: 18.162.141.165
   servername: ''
   skip-cert-verify: false
@@ -119,9 +127,12 @@ proxies:
     path: /syjsq/data
 - alterId: 0
   cipher: auto
-  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,149,152,226,245,283,345,383,385,386,387,394,395,396,397,400,406,407,409,411,497,611,628,641|香港_0908006
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,84,149,152,245,279,283,314,345,383,385,386,387,394,395,396,397,400,406,407,409,411,497,611,628|@Vip_Security
+    join us - 355
+
+    '
   network: ws
-  port: '80'
+  port: 80
   server: 16.163.143.214
   servername: ''
   skip-cert-verify: false
@@ -134,7 +145,8 @@ proxies:
     path: /syjsq/data
 - alterId: 0
   cipher: auto
-  name: '5,8,10,46,48,74,76,79,283,285,422,423,424,632|@Vip_Security join us - 846
+  name: '5,8,10,46,48,74,76,79,279,283,285,422,423,424,632|@Vip_Security join us -
+    846
 
     '
   network: tcp
@@ -148,6 +160,26 @@ proxies:
   ws-headers:
     Host: relay.gz.flyidc.top
   ws-path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: CN
+  name: 12,56,260,299,490|🇭🇰 香港|@ripaojiedian
+  password: 45c4d39d-9f8d-4188-96bf-dedd1f8fac38
+  port: 11003
+  server: group-south-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  delay: 400
+  name: 12,56,79,229,260,299,339,340,385,409,490|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
 - PFirstFoundDay: 2022-11-23 12:33:45.698283
   Rank: -11776
   UpdateDay: 2022-11-23 12:33:45.698279
@@ -164,7 +196,7 @@ proxies:
   http-opts: {}
   maximum: 45.45
   minimum: 40.83
-  name: 12,52,53,54,56,65,71,73,79,80,101,112,113,114,115,116,121,189,194,218,223,229,247,251,252,258,260,267,291,292,299,301,303,307,309,317,319,320,328,332,339,340,349,350,369,370,385,388,409,411,433,434,436,450,467,477,490,494,571,576,580,583,589,606,633,635,638,639,644,649|SanJose_US_22
+  name: SanJose_US_22
   network: grpc
   password: d104f943-707f-436b-a330-9a60f18da06c
   ping: 1450
@@ -185,26 +217,25 @@ proxies:
       Host: null
     path: /
   ws-path: h=%2Fwebsocket
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  delay: 400
-  name: 12,56,79,229,260,299,339,340,385,409,490|🇭🇰 香港2|@ripaojiedian
-  password: 63b37069-ade8-4d4c-a6dc-1161df539069
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
+  name: 12,260,299,307,490|🇭🇰 香港5|@ripaojiedian
+  password: 0b31e9ee-3e6f-4ecb-bfe4-98412daf24ef
+  port: 39001
+  server: office-0f1df58e3d.f9umiigcm1awo6o-hk.qytnode.com
   tfo: false
   type: ss
-- alterId: -1
+- alterId: 0
   cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   country: 🇨🇳CN
-  name: 12,56,79,229,260,299,307,385,409,490,649|HongKong_HK_AkileLTD
+  name: 12,56,79,229,260,299,307,385,409,490,576,649|HongKong_HK_AkileLTD
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20001
   server: hk1.mhw7e2.online
+  skip-cert-verify: true
   tfo: true
+  tls: true
   type: ss
   udp: true
 - alterId: 0
@@ -223,16 +254,10 @@ proxies:
       Host: d84zxlca209ol.cloudfront.net
     path: /stream
 - cipher: chacha20-ietf-poly1305
-  name: 56|Relay_-HK_667
+  name: 56|Relay_-HK_777
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20002
   server: 14.215.169.69
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56|Relay_-HK_675
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20003
-  server: hk2.mhw7e2.online
   type: ss
 - alterId: 0
   cipher: auto
@@ -256,177 +281,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1054
-  network: ws
-  port: 8880
-  server: 104.18.187.26
-  servername: 104.18.187.26
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-313.cn-db.top
-    path: /dabai.in104.18.187.26
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1055
-  network: ws
-  port: 8880
-  server: 104.16.85.219
-  servername: 104.16.85.219
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.16.85.219
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1056
-  network: ws
-  port: 2082
-  server: 104.18.114.71
-  servername: 104.18.114.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-89.db-link01.top
-    path: /dabai.in104.18.114.71
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1057
-  network: ws
-  port: 2052
-  server: 104.21.233.208
-  servername: 104.21.233.208
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-24.db-link02.top
-    path: /dabai.in104.21.233.208
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1058
-  network: ws
-  port: 2095
-  server: 104.17.57.194
-  servername: 104.17.57.194
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-485.db-link02.top
-    path: /dabai.in104.17.57.194
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1061
-  network: ws
-  port: 8080
-  server: 104.16.246.234
-  servername: 104.16.246.234
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-435.db-link02.top
-    path: /dabai.in104.16.246.234
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1063
-  network: ws
-  port: 2082
-  server: 104.19.145.76
-  servername: 104.19.145.76
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-127.db-link01.top
-    path: /dabai.in104.19.145.76
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1065
-  network: ws
-  port: 8880
-  server: 104.16.229.100
-  servername: 104.16.229.100
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-109.db-link02.top
-    path: /dabai.in104.16.229.100
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1066
-  network: ws
-  port: 80
-  server: 104.19.104.93
-  servername: 104.19.104.93
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-344.cn-db.top
-    path: /dabai.in104.19.104.93
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1068
-  network: ws
-  port: 2095
-  server: 104.25.189.63
-  servername: 104.25.189.63
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-61.db-link02.top
-    path: /dabai.in104.25.189.63
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1069
+  name: 56|Relay_ZZ-HK_1077
   network: ws
   port: 2082
   server: 104.20.209.66
@@ -443,262 +298,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1070
-  network: ws
-  port: 8880
-  server: 104.25.136.174
-  servername: 104.25.136.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-125.cn-db.top
-    path: /dabai.in104.25.136.174
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1071
-  network: ws
-  port: 80
-  server: 104.20.127.239
-  servername: 104.20.127.239
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-411.db-link01.top
-    path: /dabai.in104.20.127.239
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1072
-  network: ws
-  port: 8880
-  server: 104.25.231.159
-  servername: 104.25.231.159
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-36.db-link01.top
-    path: /dabai.in104.25.231.159
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1073
-  network: ws
-  port: 2086
-  server: 104.25.43.79
-  servername: 104.25.43.79
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-459.cn-db.top
-    path: /dabai.in104.25.43.79
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1074
-  network: ws
-  port: 80
-  server: 104.24.190.84
-  servername: 104.24.190.84
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-391.db-link02.top
-    path: /dabai.in104.24.190.84
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1075
-  network: ws
-  port: 8080
-  server: 104.21.74.91
-  servername: 104.21.74.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-463.cn-db.top
-    path: /dabai.in104.21.74.91
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1076
-  network: ws
-  port: 2086
-  server: 104.16.140.16
-  servername: 104.16.140.16
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-35.db-link02.top
-    path: /dabai.in104.16.140.16
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1078
-  network: ws
-  port: 2095
-  server: 104.20.70.158
-  servername: 104.20.70.158
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-79.db-link01.top
-    path: /dabai.in104.20.70.158
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
   name: 56|Relay_ZZ-HK_1079
-  network: ws
-  port: 8080
-  server: 104.20.192.110
-  servername: 104.20.192.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-90.db-link02.top
-    path: /dabai.in104.20.192.110
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1081
-  network: ws
-  port: 2095
-  server: 104.25.92.47
-  servername: 104.25.92.47
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-331.db-link02.top
-    path: /dabai.in104.25.92.47
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1083
-  network: ws
-  port: 2095
-  server: 104.20.248.73
-  servername: 104.20.248.73
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-251.cn-db.top
-    path: /dabai.in104.20.248.73
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1085
-  network: ws
-  port: 8080
-  server: 104.20.103.249
-  servername: 104.20.103.249
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-96.cn-db.top
-    path: /dabai.in104.20.103.249
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1086
-  network: ws
-  port: 8880
-  server: 104.20.28.235
-  servername: 104.20.28.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-124.cn-db.top
-    path: /dabai.in104.20.28.235
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1090
-  network: ws
-  port: 8880
-  server: 104.25.249.174
-  servername: 104.25.249.174
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-360.db-link01.top
-    path: /dabai.in104.25.249.174
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1092
-  network: ws
-  port: 8080
-  server: 104.24.168.120
-  servername: 104.24.168.120
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-465.cn-db.top
-    path: /dabai.in104.24.168.120
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1093
   network: ws
   port: 8880
   server: 104.25.37.96
@@ -715,92 +315,58 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1094
-  network: ws
-  port: 2086
-  server: 104.21.94.70
-  servername: 104.21.94.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-223.db-link01.top
-    path: /dabai.in104.21.94.70
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1095
-  network: ws
-  port: 8080
-  server: 104.24.190.228
-  servername: 104.24.190.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-454.db-link01.top
-    path: /dabai.in104.24.190.228
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1096
-  network: ws
-  port: 2052
-  server: 104.21.108.79
-  servername: 104.21.108.79
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
-  ws-opts:
-    headers:
-      Host: 100-100-17-456.db-link01.top
-    path: /dabai.in104.21.108.79
-- alterId: 0
-  cipher: chacha20-poly1305
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-HK_1097
+  name: 56|Relay_ZZ-HK_1080
   network: ws
   port: 8880
-  server: 104.25.211.229
-  servername: 104.25.211.229
+  server: 104.20.28.235
+  servername: 104.20.28.235
   skip-cert-verify: true
   type: vmess
   uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
   ws-opts:
     headers:
-      Host: 100-100-17-267.db-link01.top
-    path: /dabai.in104.25.211.229
+      Host: 100-100-17-124.cn-db.top
+    path: /dabai.in104.20.28.235
 - alterId: 0
   cipher: chacha20-poly1305
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1098
+  name: 56|Relay_ZZ-HK_1082
   network: ws
-  port: 2052
-  server: 104.25.1.144
-  servername: 104.25.1.144
+  port: 2095
+  server: 104.20.248.73
+  servername: 104.20.248.73
   skip-cert-verify: true
   type: vmess
   uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
   ws-opts:
     headers:
-      Host: 100-100-17-117.db-link02.top
-    path: /dabai.in104.25.1.144
+      Host: 100-100-17-251.cn-db.top
+    path: /dabai.in104.20.248.73
 - alterId: 0
   cipher: chacha20-poly1305
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1116
+  name: 56|Relay_ZZ-HK_1083
+  network: ws
+  port: 8880
+  server: 104.25.249.174
+  servername: 104.25.249.174
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-360.db-link01.top
+    path: /dabai.in104.25.249.174
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1084
   network: ws
   port: 2052
   server: 104.16.171.97
@@ -817,7 +383,228 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1118
+  name: 56|Relay_ZZ-HK_1085
+  network: ws
+  port: 2095
+  server: 104.20.70.158
+  servername: 104.20.70.158
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-79.db-link01.top
+    path: /dabai.in104.20.70.158
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1086
+  network: ws
+  port: 2086
+  server: 104.16.140.16
+  servername: 104.16.140.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-35.db-link02.top
+    path: /dabai.in104.16.140.16
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1088
+  network: ws
+  port: 2095
+  server: 104.25.92.47
+  servername: 104.25.92.47
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-331.db-link02.top
+    path: /dabai.in104.25.92.47
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1090
+  network: ws
+  port: 8080
+  server: 104.20.192.110
+  servername: 104.20.192.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-90.db-link02.top
+    path: /dabai.in104.20.192.110
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1095
+  network: ws
+  port: 2095
+  server: 104.17.57.194
+  servername: 104.17.57.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-485.db-link02.top
+    path: /dabai.in104.17.57.194
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1096
+  network: ws
+  port: 2095
+  server: 104.25.189.63
+  servername: 104.25.189.63
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-61.db-link02.top
+    path: /dabai.in104.25.189.63
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1097
+  network: ws
+  port: 80
+  server: 104.24.190.84
+  servername: 104.24.190.84
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-391.db-link02.top
+    path: /dabai.in104.24.190.84
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1098
+  network: ws
+  port: 8880
+  server: 104.25.136.174
+  servername: 104.25.136.174
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-125.cn-db.top
+    path: /dabai.in104.25.136.174
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1100
+  network: ws
+  port: 8080
+  server: 104.21.74.91
+  servername: 104.21.74.91
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-463.cn-db.top
+    path: /dabai.in104.21.74.91
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1101
+  network: ws
+  port: 80
+  server: 104.19.104.93
+  servername: 104.19.104.93
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-344.cn-db.top
+    path: /dabai.in104.19.104.93
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1102
+  network: ws
+  port: 8880
+  server: 104.25.231.159
+  servername: 104.25.231.159
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-36.db-link01.top
+    path: /dabai.in104.25.231.159
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1103
+  network: ws
+  port: 8880
+  server: 104.16.85.219
+  servername: 104.16.85.219
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-360.db-link01.top
+    path: /dabai.in104.16.85.219
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1111
+  network: ws
+  port: 80
+  server: 104.20.127.239
+  servername: 104.20.127.239
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-411.db-link01.top
+    path: /dabai.in104.20.127.239
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1114
   network: ws
   port: 2086
   server: 104.17.191.177
@@ -834,7 +621,109 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-HK_1123
+  name: 56|Relay_ZZ-HK_1116
+  network: ws
+  port: 2086
+  server: 104.25.43.79
+  servername: 104.25.43.79
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-459.cn-db.top
+    path: /dabai.in104.25.43.79
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1117
+  network: ws
+  port: 2052
+  server: 104.21.233.208
+  servername: 104.21.233.208
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-24.db-link02.top
+    path: /dabai.in104.21.233.208
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1119
+  network: ws
+  port: 2082
+  server: 104.18.114.71
+  servername: 104.18.114.71
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-89.db-link01.top
+    path: /dabai.in104.18.114.71
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1121
+  network: ws
+  port: 8080
+  server: 104.24.168.120
+  servername: 104.24.168.120
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-465.cn-db.top
+    path: /dabai.in104.24.168.120
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1125
+  network: ws
+  port: 8080
+  server: 104.16.246.234
+  servername: 104.16.246.234
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-435.db-link02.top
+    path: /dabai.in104.16.246.234
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1126
+  network: ws
+  port: 8880
+  server: 104.16.229.100
+  servername: 104.16.229.100
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-109.db-link02.top
+    path: /dabai.in104.16.229.100
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1128
   network: ws
   port: 2086
   server: 104.17.144.202
@@ -846,6 +735,176 @@ proxies:
     headers:
       Host: 100-100-17-491.cn-db.top
     path: /dabai.in104.17.144.202
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1132
+  network: ws
+  port: 2082
+  server: 104.16.218.226
+  servername: 104.16.218.226
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-172.db-link02.top
+    path: /dabai.in104.16.218.226
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1134
+  network: ws
+  port: 8080
+  server: 104.24.190.228
+  servername: 104.24.190.228
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-454.db-link01.top
+    path: /dabai.in104.24.190.228
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1137
+  network: ws
+  port: 2052
+  server: 104.21.108.79
+  servername: 104.21.108.79
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-456.db-link01.top
+    path: /dabai.in104.21.108.79
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1140
+  network: ws
+  port: 2052
+  server: 104.25.1.144
+  servername: 104.25.1.144
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-117.db-link02.top
+    path: /dabai.in104.25.1.144
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1141
+  network: ws
+  port: 8880
+  server: 104.25.211.229
+  servername: 104.25.211.229
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-267.db-link01.top
+    path: /dabai.in104.25.211.229
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1150
+  network: ws
+  port: 2086
+  server: 104.21.94.70
+  servername: 104.21.94.70
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-223.db-link01.top
+    path: /dabai.in104.21.94.70
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1153
+  network: ws
+  port: 8080
+  server: 104.20.103.249
+  servername: 104.20.103.249
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-96.cn-db.top
+    path: /dabai.in104.20.103.249
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1154
+  network: ws
+  port: 2052
+  server: 104.20.61.231
+  servername: 104.20.61.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-377.db-link02.top
+    path: /dabai.in104.20.61.231
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1171
+  network: ws
+  port: 2082
+  server: 104.19.145.76
+  servername: 104.19.145.76
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-127.db-link01.top
+    path: /dabai.in104.19.145.76
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-HK_1174
+  network: ws
+  port: 8880
+  server: 104.18.187.26
+  servername: 104.18.187.26
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2200e2e4-a7c4-3e44-9b89-87d7f032bd00
+  ws-opts:
+    headers:
+      Host: 100-100-17-313.cn-db.top
+    path: /dabai.in104.18.187.26
 - alterId: -1
   country: 🏁ZZ
   fingerprint: randomized
@@ -882,9 +941,9 @@ proxies:
   uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
 - alterId: 0
   cipher: auto
-  name: '71,345,383,385,388,394,395,400,406,407,409|🇰HK-16.163.143.214-0658 #1'
+  name: '71,226,345,383,385,388,394,395,400,406,407,409,641|香港_0910002 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 16.163.143.214
   servername: ''
   skip-cert-verify: false
@@ -897,9 +956,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '71,345,383,385,388,394,395,400,406,407,409|🇰HK-18.162.141.165-0657 #1'
+  name: '71,226,345,383,385,388,394,395,400,406,407,409,641|香港_0910001 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 18.162.141.165
   servername: ''
   skip-cert-verify: false
@@ -956,14 +1015,13 @@ proxies:
   delay: 1831
   h2-opts: {}
   http-opts: {}
-  name: '79,229,320,339,340|中国 - 香港 - PCCW IMS Limited - 4... #5'
+  name: '79,229,339,340|中国 - 香港 - PCCW IMS Limited - 4... #5'
   network: ws
   port: 30068
   server: 220.246.57.203
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 61c4ae30-0c99-4b28-8a05-79a56401dba5
   ws-headers:
     Host: 220.246.57.203
@@ -1446,8 +1504,8 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '149,250,283,289,512,518,520,528,544,550,552,553,554,555,558,563,565|🔒 VM-WS-TLS
-    🇭🇰 HK-210.0.158.21... #15'
+  name: '149,250,279,283,289,314,512,518,520,528,544,550,552,553,554,555,558,563,565|🔒
+    VM-WS-TLS 🇭🇰 HK-210.0.158.21... #16'
   network: ws
   port: '12909'
   server: 210.0.158.219
@@ -1461,18 +1519,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '149,226,283,289,512,518,519,528,544,550,551,552,553,554,555,558,563,564,641|美国_0908228
-    #1'
+  name: '149,279,283,289,512,518,519,528,544,550,551,552,553,554,555,558,563,564|🔒
+    VM-WS-NA 🇭🇰 HK-62.72.163.54:... #17'
   network: ws
-  port: '10001'
+  port: 10001
   server: 62.72.163.54
-  servername: ''
   tls: false
   type: vmess
-  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
+  uuid: 55429656-9a94-422f-997d-b067695bc89d
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 4
   cipher: auto
@@ -1790,7 +1845,7 @@ proxies:
     path: /path/1690973478986
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908025 #1'
+  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910026
   network: ws
   port: '80'
   server: 154.92.9.99
@@ -1805,7 +1860,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908026 #1'
+  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910027
   network: ws
   port: '80'
   server: 154.92.9.98
@@ -1820,7 +1875,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908027 #1'
+  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910028
   network: ws
   port: '80'
   server: 154.92.9.96
@@ -1835,7 +1890,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908028 #1'
+  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910029
   network: ws
   port: '80'
   server: 154.92.9.94
@@ -1850,7 +1905,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908029 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910030 #1'
   network: ws
   port: '80'
   server: 154.92.9.86
@@ -1865,7 +1920,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908030 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910031 #1'
   network: ws
   port: '80'
   server: 154.92.9.83
@@ -1880,7 +1935,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908031 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910032 #1'
   network: ws
   port: '80'
   server: 154.92.9.82
@@ -1895,7 +1950,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908032 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910033 #1'
   network: ws
   port: '443'
   server: 154.92.9.81
@@ -1910,7 +1965,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908033 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910034 #1'
   network: ws
   port: '80'
   server: 154.92.9.81
@@ -1925,7 +1980,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908034 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910035 #1'
   network: ws
   port: '80'
   server: 154.92.9.80
@@ -1940,7 +1995,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908035 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910036 #1'
   network: ws
   port: '443'
   server: 154.92.9.8
@@ -1955,7 +2010,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908036 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910037 #1'
   network: ws
   port: '80'
   server: 154.92.9.79
@@ -1970,7 +2025,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908037 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910038 #1'
   network: ws
   port: '443'
   server: 154.92.9.73
@@ -1985,7 +2040,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908038 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910039 #1'
   network: ws
   port: '443'
   server: 154.92.9.70
@@ -2000,7 +2055,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908039 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910040 #1'
   network: ws
   port: '80'
   server: 154.92.9.69
@@ -2015,7 +2070,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908040 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910041 #1'
   network: ws
   port: '80'
   server: 154.92.9.65
@@ -2030,7 +2085,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908041 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910042 #1'
   network: ws
   port: '80'
   server: 154.92.9.6
@@ -2045,7 +2100,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908042 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910043 #1'
   network: ws
   port: '80'
   server: 154.92.9.58
@@ -2060,7 +2115,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908043 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910044 #1'
   network: ws
   port: '80'
   server: 154.92.9.56
@@ -2075,7 +2130,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908044 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910045 #1'
   network: ws
   port: '80'
   server: 154.92.9.51
@@ -2090,7 +2145,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908045 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910046 #1'
   network: ws
   port: '80'
   server: 154.92.9.3
@@ -2105,7 +2160,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908046 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910047 #1'
   network: ws
   port: '443'
   server: 154.92.9.29
@@ -2120,7 +2175,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409,641|香港_0908047 #1'
+  name: '185,186,345,383,385,394,395,400,406,407,409,641|香港_0910048 #1'
   network: ws
   port: '80'
   server: 154.92.9.253
@@ -2135,7 +2190,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908048 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910049 #1'
   network: ws
   port: '80'
   server: 154.92.9.241
@@ -2150,7 +2205,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908049 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910050 #1'
   network: ws
   port: '80'
   server: 154.92.9.231
@@ -2165,7 +2220,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908050 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910051 #1'
   network: ws
   port: '80'
   server: 154.92.9.228
@@ -2180,7 +2235,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908051 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910052 #1'
   network: ws
   port: '80'
   server: 154.92.9.214
@@ -2196,7 +2251,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '185,186,226,345,383,385,394,395,400,406,407,409|🏁RELAY-154.92.9.212-8859
-    #7'
+    #8'
   network: ws
   port: 80
   server: 154.92.9.212
@@ -2209,7 +2264,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908052 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910053 #1'
   network: ws
   port: '80'
   server: 154.92.9.197
@@ -2224,7 +2279,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908053 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910054 #1'
   network: ws
   port: '80'
   server: 154.92.9.191
@@ -2239,7 +2294,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908054 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910055 #1'
   network: ws
   port: '80'
   server: 154.92.9.186
@@ -2254,7 +2309,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908055 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910056 #1'
   network: ws
   port: '80'
   server: 154.92.9.177
@@ -2269,7 +2324,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908056 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910057 #1'
   network: ws
   port: '80'
   server: 154.92.9.176
@@ -2284,7 +2339,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908057 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910058 #1'
   network: ws
   port: '80'
   server: 154.92.9.174
@@ -2299,7 +2354,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908058 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910059 #1'
   network: ws
   port: '80'
   server: 154.92.9.171
@@ -2314,7 +2369,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908059 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910060 #1'
   network: ws
   port: '80'
   server: 154.92.9.162
@@ -2329,7 +2384,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908060 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910061 #1'
   network: ws
   port: '80'
   server: 154.92.9.156
@@ -2344,7 +2399,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908061 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910062 #1'
   network: ws
   port: '80'
   server: 154.92.9.151
@@ -2359,7 +2414,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908062 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910063 #1'
   network: ws
   port: '80'
   server: 154.92.9.150
@@ -2374,7 +2429,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908063 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910064 #1'
   network: ws
   port: '443'
   server: 154.92.9.146
@@ -2389,7 +2444,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,239,345,383,385,394,395,400,406,407,409,641|香港_0908064 #1'
+  name: '185,186,226,239,345,383,385,394,395,400,406,407,409,641|香港_0910065 #1'
   network: ws
   port: '80'
   server: 154.92.9.133
@@ -2404,7 +2459,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908065 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910066 #1'
   network: ws
   port: '443'
   server: 154.92.9.132
@@ -2419,7 +2474,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908066 #1'
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910067 #1'
   network: ws
   port: '80'
   server: 154.92.9.121
@@ -2434,7 +2489,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908067
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910068 #1'
   network: ws
   port: '443'
   server: 154.92.9.119
@@ -2449,7 +2504,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908068
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910069 #1'
   network: ws
   port: '443'
   server: 154.92.9.115
@@ -2464,7 +2519,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908069
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910070 #1'
   network: ws
   port: '80'
   server: 154.92.9.115
@@ -2479,7 +2534,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0908070
+  name: '185,186,226,345,383,385,394,395,400,406,407,409,641|香港_0910071 #1'
   network: ws
   port: '80'
   server: 154.92.9.101
@@ -2597,7 +2652,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '223,447|未命名 #339'
+  name: '223,447|未命名 #343'
   network: ws
   port: '80'
   server: 182.16.1.194
@@ -2828,7 +2883,7 @@ proxies:
   uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - alterId: 0
   cipher: auto
-  name: 226,345,383,385,394,395,400,406,407,409,641|香港_0908009
+  name: 226,345,383,385,394,395,400,406,407,409,641|香港_0910009
   network: ws
   port: '443'
   server: 188.116.22.171
@@ -2843,7 +2898,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 226,345,383,385,394,395,400,406,407,409,641|香港_0908013
+  name: 226,345,383,385,394,395,400,406,407,409,641|香港_0910015
   network: ws
   port: '80'
   server: 188.116.22.171
@@ -2858,7 +2913,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 226,345,383,385,394,395,400,406,407,409,641|香港_0908071
+  name: '226,345,383,385,394,395,400,406,407,409,641|香港_0910072 #1'
   network: ws
   port: '80'
   server: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
@@ -3024,7 +3079,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '239,252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.248.210-2551 #7'
+  name: '239,252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.248.210-2551 #8'
   network: http
   port: 54570
   server: 8.210.248.210
@@ -3095,7 +3150,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.131.2-2250 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.131.2-2250 #8'
   network: http
   port: 31357
   server: 8.210.131.2
@@ -3167,7 +3222,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-47.243.185.128-2308 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-47.243.185.128-2308 #8'
   network: http
   port: 47365
   server: 47.243.185.128
@@ -3195,7 +3250,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.15.231-2402 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.15.231-2402 #8'
   network: http
   port: 41083
   server: 8.210.15.231
@@ -3300,7 +3355,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.166.114-2497 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.166.114-2497 #8'
   network: http
   port: 48236
   server: 8.210.166.114
@@ -3365,7 +3420,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.21.177-2553 #7'
+  name: '252,345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.21.177-2553 #8'
   network: http
   port: 51007
   server: 47.242.21.177
@@ -3598,22 +3653,6 @@ proxies:
   protocol-param: 176327:l8AeWKocJF
   server: dg-hk-node02.linkthink.app
   type: ssr
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 260,299,490|🇭🇰 香港|@ripaojiedian
-  password: 45c4d39d-9f8d-4188-96bf-dedd1f8fac38
-  port: 11003
-  server: group-south-01.nutbit-node.lat
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 260,299,307,490|🇭🇰 香港5|@ripaojiedian
-  password: 0b31e9ee-3e6f-4ecb-bfe4-98412daf24ef
-  port: 39001
-  server: office-0f1df58e3d.f9umiigcm1awo6o-hk.qytnode.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 267|香港-谷歌云
@@ -3686,8 +3725,8 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: '283,285,345,383,385,394,395,400,406,407,409,422,423,424|🇭🇰 香港(油管:破解资源君2.0)
-    #42'
+  name: '279,283,285,345,383,385,394,395,400,406,407,409,422,423,424|🇭🇰 香港(油管:破解资源君2.0)
+    #51'
   network: ws
   port: '39918'
   server: zduwg-1047-v2-1.hkg-r-kcd-b.jd.cjhh.lol
@@ -3702,8 +3741,8 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: '283,285,345,383,385,394,395,400,406,407,409,422,423,424|🇭🇰 香港(油管:破解资源君2.0)
-    #44'
+  name: '279,283,285,345,383,385,394,395,400,406,407,409,422,423,424|🇭🇰 香港(油管:破解资源君2.0)
+    #53'
   network: ws
   port: '888'
   server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
@@ -3822,11 +3861,12 @@ proxies:
   type: vmess
   uuid: 42006f77-5c96-3f27-b059-983c064325cd
 - cipher: chacha20-ietf-poly1305
-  name: '307,323,360,385,409|🇨🇳CN-183.233.187.156-0480 #1'
+  name: '307,320,323,360,385,409|🇨🇳CN-183.233.187.156-0480 #1'
   password: 99301d55-a41f-4919-986b-1435996533aa
   port: 20003
   server: deepf.hjkdsak2.com
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 309|🇭🇰香港-HK 01 Server
@@ -3964,7 +4004,7 @@ proxies:
     path: /syjsq/data
 - alterId: 0
   cipher: auto
-  name: '312|💰🇭🇰 HK 220.246.57.203 ◈ ws:300... #12'
+  name: '312,314|💰🇭🇰 HK 220.246.57.203 ◈ ws:300... #25'
   network: ws
   port: 30068
   server: 220.246.57.203
@@ -3976,6 +4016,20 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: '314|🔒🇭🇰 HK 103.255.209.108 ◈ ws:54... #2'
+  network: ws
+  port: '54433'
+  server: 103.255.209.108
+  servername: hk2.aisupermall.com
+  tls: true
+  type: vmess
+  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
+  ws-opts:
+    headers:
+      Host: unknown
+    path: /axsxzA
 - cipher: aes-128-gcm
   name: 317|🇭🇰 香港_13
   password: a-wym4ovY4Yw
@@ -4408,7 +4462,7 @@ proxies:
     path: /zh-cn/download
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409,503,641|香港_0908001 #1'
+  name: 345,383,385,394,395,400,406,407,409,503,641|香港_0910004
   network: ws
   port: '443'
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -4457,7 +4511,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.206.163-2987 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.206.163-2987 #8'
   network: http
   port: 45719
   server: 8.210.206.163
@@ -4502,7 +4556,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.95.19-3265 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.95.19-3265 #8'
   network: http
   port: 40988
   server: 47.242.95.19
@@ -4517,7 +4571,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.70.156-3272 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.70.156-3272 #8'
   network: http
   port: 54148
   server: 8.210.70.156
@@ -4528,7 +4582,7 @@ proxies:
   uuid: 1346261e-3201-4932-bfba-df869ab48116
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-185.14.47.240-3649 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-185.14.47.240-3649 #8'
   network: ws
   port: 2086
   server: 185.14.47.240
@@ -4601,7 +4655,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.83.148-7978 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.83.148-7978 #8'
   network: http
   port: 63239
   server: 8.218.83.148
@@ -4661,7 +4715,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.86.250-7995 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.86.250-7995 #8'
   network: http
   port: 22362
   server: 8.218.86.250
@@ -4676,7 +4730,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.34.212-7996 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.34.212-7996 #8'
   network: http
   port: 51578
   server: 8.210.34.212
@@ -4691,7 +4745,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.203.189-7997 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.210.203.189-7997 #8'
   network: http
   port: 37309
   server: 8.210.203.189
@@ -4706,7 +4760,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.86.226-7998 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.86.226-7998 #8'
   network: http
   port: 51616
   server: 8.218.86.226
@@ -4736,7 +4790,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.85.43-8002 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-8.218.85.43-8002 #8'
   network: http
   port: 43645
   server: 8.218.85.43
@@ -4751,7 +4805,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.56.3-8004 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.56.3-8004 #8'
   network: http
   port: 37064
   server: 47.242.56.3
@@ -4766,7 +4820,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.205.255-8007 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.205.255-8007 #8'
   network: http
   port: 49935
   server: 47.242.205.255
@@ -4777,7 +4831,7 @@ proxies:
   uuid: 3ffddc7c-80a3-4677-ab9e-30da4190ec6a
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.243.62.222-8009 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.243.62.222-8009 #8'
   network: ws
   port: 443
   server: 47.243.62.222
@@ -4794,7 +4848,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.61.125-8011 #7'
+  name: '345,383,385,394,395,400,406,407,409|🇭🇰HK-47.242.61.125-8011 #8'
   network: http
   port: 51784
   server: 47.242.61.125
@@ -5270,7 +5324,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 371|🇭🇰HK-18.162.141.165-1052
+  name: '371|🇭🇰HK-18.162.141.165-2718 #1'
   network: ws
   port: 80
   server: 18.162.141.165
@@ -5282,16 +5336,10 @@ proxies:
     headers:
       host: syjsq.hk1.flyidc.top
     path: /syjsq/data
-- cipher: chacha20-ietf-poly1305
-  name: 371|🇭🇰HK-119.237.242.124-1723
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50101
-  server: iepl1.forlive.live
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 371|🇭🇰HK-16.163.143.214-1053
+  name: '371|🇭🇰HK-16.163.143.214-2719 #1'
   network: ws
   port: 80
   server: 16.163.143.214
@@ -7103,38 +7151,38 @@ proxies:
       Host: a.189.cn
     path: /zh-cn/download
 - cipher: chacha20-ietf-poly1305
-  name: 477|🇭🇰 香港01-1B
-  password: 3a579405-dca4-43eb-99d7-4f34ea8f3fb4
-  port: 34338
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 477|🇭🇰 香港 C HK
-  password: 7c701588-982e-4e8e-9a4a-cf95898c2a6a
-  port: 23881
-  server: hk3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 477|🇭🇰 香港03-1C
-  password: 97b8cae7-3d94-476b-9b81-22faf81be2f3
+  name: 477|🇭🇰 香港03-1B
+  password: b0a06c0f-39ad-4aeb-adcf-df1f2452488a
   port: 20052
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 477|🇭🇰 香港 B HK
-  password: 7c701588-982e-4e8e-9a4a-cf95898c2a6a
+  password: 332af636-29cf-4478-a6fa-a73400c23d53
   port: 22881
   server: hk2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 477|🇭🇰 香港01-1A
+  password: 97b8cae7-3d94-476b-9b81-22faf81be2f3
+  port: 34338
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 477|🇭🇰 香港 A HK
-  password: 7c701588-982e-4e8e-9a4a-cf95898c2a6a
+  password: 332af636-29cf-4478-a6fa-a73400c23d53
   port: 21881
   server: hk1.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 477|🇭🇰 香港 C HK
+  password: 332af636-29cf-4478-a6fa-a73400c23d53
+  port: 23881
+  server: hk3.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
@@ -7362,17 +7410,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
-- alterId: 0
-  name: 576|HK
-  network: ws
-  password: tg-dns68
-  port: 21698
-  server: 156.251.180.181
-  skip-cert-verify: true
-  sni: vip.putata.eu.org
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 580|🇭🇰 香港 1
