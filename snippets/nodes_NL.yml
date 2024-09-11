@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: RU
+  client-fingerprint: chrome
+  country: ' ZZ'
   h2-opts: {}
   http-opts: {}
-  name: '1,7,14,19,25,30,35,40,45,56,71,105,194,226,312,345,383,385,388,394,395,400,406,407,409,497,626,627,638,641|俄罗斯联邦_0910003
+  name: '3,9,14,19,25,30,35,40,56,71,105,194,226,318,345,371,383,385,394,395,400,406,407,409,497,626,627,638,641|俄罗斯联邦_0910003
     #1'
   network: ws
   port: '40045'
@@ -248,11 +249,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '226,239,345,383,394,395,400,406,407,641|荷兰_0910007 #1'
+  name: '226,239,345,383,385,394,395,400,406,407,409,641|荷兰_0910007 #1'
   network: ws
   port: '443'
   server: 102.724064.xyz
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8f33df9e-0255-4341-bea5-93ccc9f62fa7
@@ -353,11 +355,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '240,312,371|🇳🇱NL-144.21.41.245-2838 #3'
+  name: 240,371|🇳🇱NL-144.21.41.245-2815
   network: ws
   port: 443
   server: 102.724064.xyz
-  servername: ''
+  servername: google.com
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -368,17 +370,19 @@ proxies:
     path: /oqpsvws
 - alterId: 0
   cipher: auto
-  name: 240,312|🔒🇳🇱 NL 143.47.188.151 ◈ ws:443...
+  client-fingerprint: chrome
+  name: 240,371|🇳🇱NL-143.47.188.151-2805
   network: ws
   port: 443
   server: 101.724064.xyz
-  servername: ''
+  servername: google.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 23f4c17c-b38c-46f2-bd49-7f52cd129bce
   ws-opts:
     headers:
-      Host: ''
+      host: 101.724064.xyz
     path: /tokzvws
 - alterId: 0
   cipher: chacha20-poly1305
@@ -466,11 +470,11 @@ proxies:
     path: /Av8czorIlYicU6D349brWUw6a
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 240,312|🇳🇱 NL warpPlus ◈ ws:80 ◈ 9da1f
+  name: '240|🇳🇱 Netherlands #8'
   network: ws
   port: 80
   server: hdfy8d1.cpi1.eu.org
-  servername: ''
+  servername: google.com
   tls: false
   type: vmess
   uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1
@@ -491,6 +495,20 @@ proxies:
     headers:
       Host: fi1.xv2ray.net
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '250,497,611|🏁RELAY-188.114.97.7-2802 #1'
+  network: ws
+  port: 443
+  server: 188.114.97.7
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '250|The Netherlands #11'
@@ -543,7 +561,7 @@ proxies:
       Host: ''
     path: /RACEVPN
 - cipher: chacha20-ietf-poly1305
-  name: '252,385,409|NL-51.124.217.177-2276 #1'
+  name: '252,385,409|NL-51.124.217.177-2119 #1'
   password: TRoGQKepg1AsWO2kTnfPnb
   port: 62048
   server: 51.124.217.177
@@ -564,32 +582,32 @@ proxies:
       host: d1.shapark-tab.com
     path: /path-thruth-code
 - cipher: aes-256-gcm
-  name: '252,385,409|🇱NL-172.99.188.99-2470 #1'
+  name: '252,385,409|🇱NL-172.99.188.99-2313 #1'
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 172.99.188.99
   type: ss
 - cipher: aes-256-gcm
-  name: '252,385,409|🇱NL-172.99.188.99-2471 #1'
+  name: '252,385,409|🇱NL-172.99.188.99-2314 #1'
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 172.99.188.99
   type: ss
 - cipher: aes-256-gcm
-  name: '252,385,409|🇳🇱NL-172.99.188.99-2573 #1'
+  name: '252,385,409|🇳🇱NL-172.99.188.99-2416 #1'
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 172.99.188.99
   type: ss
 - cipher: aes-256-gcm
-  name: '252,385,409|🇱NL-172.99.188.99-2593 #1'
+  name: '252,385,409|🇱NL-172.99.188.99-2436 #1'
   password: faBAoD54k87UJG7
   port: 2376
   server: 172.99.188.99
   type: ss
 - alterId: 64
   cipher: auto
-  name: '257,345,383,385,394,395,400,406,407,409|🇳🇱NL-46.182.107.39-1846 #1'
+  name: '257,345,383,385,394,395,400,406,407,409|🇳🇱NL-46.182.107.39-1689 #8'
   network: ws
   port: 443
   server: 46.182.107.39
@@ -604,7 +622,7 @@ proxies:
     path: /footers
 - alterId: 64
   cipher: auto
-  name: '257,345,383,385,394,395,400,406,407,409|🇳🇱NL-46.182.107.46-1853 #1'
+  name: '257,345,383,385,394,395,400,406,407,409|🇳🇱NL-46.182.107.46-1696 #8'
   network: ws
   port: 443
   server: 46.182.107.46
