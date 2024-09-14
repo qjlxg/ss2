@@ -1,42 +1,364 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 151|🇹🇷土耳其
+  network: tcp
+  port: '46111'
+  server: tr01.zzxs.one
+  tls: false
+  type: vmess
+  uuid: ab3ce6a3-7fea-4045-9100-3947d050d76d
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 423|🇹🇷 特殊｜土耳其-A [无限流量][gRPC]
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: l2-tr-a.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 480|🇹🇷 土耳其 | V1 | 01
+  network: tcp
+  port: 11905
+  server: bg.rscazvdbfpbyzqdvpylm.com
+  tls: false
+  type: vmess
+  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - cipher: chacha20-ietf-poly1305
-  name: 77|🇹🇷 土耳其02｜tg@ghosxtop
+  name: '661,662|🇹🇷 土耳其02｜tg@ghosxtop #1'
   password: 7a0194f7-d3d7-4682-b8ff-19a4e9e86a3f
   port: 27267
   server: gtm1.ktmwan.com
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 676|【F】土耳其 VIP 1 - Steam
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 37000
+  protocol: auth_aes128_sha1
+  protocol-param: 428994:8fDXQ1
+  server: s01.boom.party
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 1053|[SS] 🇹🇷 土耳其|TG@p2psharing
+  password: f65324a4-f64b-4f22-bf88-8a151db0909c
+  port: 17219
+  server: 36.133.220.204
+  type: ss
+- cipher: chacha20-ietf
+  name: 1054|🇹🇷 土耳其❤️TR|TG@p2psharing
+  obfs: http_simple
+  obfs-param: telegram.channel.p2psharing
+  password: download.microso
+  port: 20319
+  protocol: auth_aes128_sha1
+  protocol-param: 9892:W1QZ48
+  server: 120.241.236.205
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 251|Türkiye
-  network: tcp
-  port: '41858'
-  server: 213.142.149.116
-  servername: ''
+  name: 1055|[VMess] 🇹🇷 土耳其|TG@p2psharing
+  network: ws
+  port: 51531
+  server: 120.233.24.222
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
+  uuid: 37528bbb-59ae-3934-bb99-516a2c8be57b
+  ws-opts:
+    headers:
+      Host: telegram.channel.p2psharing
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 1085|V2-土耳其01 中继A | 2x
+  network: ws
+  port: '64028'
+  server: in01.my1188.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-opts:
+    headers:
+      Host: in01.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1085|V2-土耳其01 中继B | 2x
+  network: ws
+  port: '64028'
+  server: in02.my1188.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-opts:
+    headers:
+      Host: in02.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1085|V2-土耳其01 中继C | 2x
+  network: ws
+  port: '64028'
+  server: in03.my1188.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-opts:
+    headers:
+      Host: in03.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1085|V2-土耳其01 中继D | 2x
+  network: ws
+  port: '64028'
+  server: in04.my1188.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-opts:
+    headers:
+      Host: in04.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1085|V2-土耳其01 中继E | 2x
+  network: ws
+  port: '64028'
+  server: in05.my1188.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-opts:
+    headers:
+      Host: in05.my1188.org
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1098|🇹🇷 土耳其01|高速EIP
+  password: 4ac6cd19-190a-4468-a0f8-04d888585f65
+  port: 44051
+  server: js2.eip-cm.hongxing.pro
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '1106|V2-土耳其01 中继A | 2x #1'
+  network: ws
+  port: 64028
+  server: in01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-headers:
+    Host: in01.my1188.org
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1106|V2-土耳其01 中继B | 2x #1'
+  network: ws
+  port: 64028
+  server: in02.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-headers:
+    Host: in02.my1188.org
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1106|V2-土耳其01 中继C | 2x #1'
+  network: ws
+  port: 64028
+  server: in03.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-headers:
+    Host: in03.my1188.org
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1106|V2-土耳其01 中继D | 2x #1'
+  network: ws
+  port: 64028
+  server: in04.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-headers:
+    Host: in04.my1188.org
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1106|V2-土耳其01 中继E | 2x #1'
+  network: ws
+  port: 64028
+  server: in05.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 531e6c4b-2f5f-363f-8556-3531b85422d5
+  ws-headers:
+    Host: in05.my1188.org
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其01IEPL①
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 40027
+  server: 120.241.42.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其01|IEPL②
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 41127
+  server: 120.241.42.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其01|IEPL③
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 41027
+  server: 120.241.42.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其02IEPL①
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 40028
+  server: 120.241.42.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其02|IEPL②
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 41128
+  server: 120.241.42.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1196|🇹🇷 土耳其02|IEPL③
+  password: a547892e-5ffa-491e-9f58-b57bbd149378
+  port: 41028
+  server: 120.241.42.218
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1197|🇹🇷 土耳其-Netflix专线
+  network: ws
+  port: 37112
+  server: 122.195.12.36
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
+  ws-opts:
+    path: /qwe123321ewq
+- cipher: chacha20-ietf
+  name: 1197,1224|🇹🇷 土耳其[x1|SSR]@80Mbps
+  obfs: plain
+  obfs-param: 2f51e42274.wns.microsoft.com
+  password: fnf.xyz
+  port: 15107
+  protocol: auth_aes128_sha1
+  protocol-param: 42274:oSRZAa
+  server: ceu-a03.stream.fnode.top
+  type: ssr
+- cipher: aes-128-gcm
+  name: 1209|🇹🇷 土耳其 Turkey
+  password: 84c3b283-664d-4c0c-9afb-19fd33a54165
+  port: 49104
+  server: lmlmlm.ajjpss.lol
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1232|🇹🇷 土耳其 A01 IDC 1x
+  password: 5c5ed740-a6cd-434b-8044-5307d6cdb9a6
+  port: 37135
+  server: ap-c.hinetwork.tw
+  type: ss
+- cipher: aes-128-gcm
+  name: 1233|🇹🇷 Manifold-土耳其01-原生
+  password: Vdssf.sksdssamj/2Zr
+  plugin: obfs
+  plugin-opts:
+    host: 68e7b61610.download.windowsupdate.com
+    mode: http
+  port: 36215
+  server: 231103levelx.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 1233|🇹🇷 Video 土耳其A-标准
+  password: ayugfsd
+  plugin: obfs
+  plugin-opts:
+    host: 68e7b61610.download.windowsupdate.com
+    mode: http
+  port: 3033
+  server: 231103levelx.unclemanco.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 1257|🇹🇷 H60 土耳其 [8]
+  obfs: plain
+  obfs-param: bilivideo.com
+  password: GhQrDS
+  port: 39814
+  protocol: auth_aes128_sha1
+  protocol-param: 171340:NLAB1H
+  server: sp.0o0o0o0o0o0.tokyo
+  type: ssr
 - cipher: chacha20-ietf-poly1305
   delay: 1770
-  name: '339,340|土耳其 - 伊斯坦布尔 - Baxet Group Inc.... #3'
+  name: 1340|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20029
   server: hk5.mhw7e2.online
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 589|🇹🇷 vip1 土耳其-01
+  delay: 1297
+  name: '1340|土耳其 - 伊斯坦布尔 - Baxet Group Inc.... #1'
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20029
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 2309
+  name: 1340,1373|CN_speednode_0035
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20029
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1369|🇹🇷 vip1 土耳其-01
   password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
   port: 15762
   server: n00001.bzdqsmzngpyyng.sbs
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 589|🇹🇷 vip1 土耳其-02
+  name: 1369|🇹🇷 vip1 土耳其-02
   password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
   port: 15762
   server: n00003.bzdqsmzngpyyng.sbs
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 589|🇹🇷 vip1 土耳其-03
+  name: 1369|🇹🇷 vip1 土耳其-03
   password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99
   port: 15762
   server: n00005.bzdqsmzngpyyng.sbs
