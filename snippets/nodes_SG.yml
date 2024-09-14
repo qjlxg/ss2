@@ -9,7 +9,8 @@ proxies:
   type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 12,79,262,301,494|🇸🇬 新加坡3|@ripaojiedian
+  country: BD
+  name: 12,56,79,262,301,494|🇸🇬 新加坡3|@ripaojiedian
   password: Kjuj8hC6UofM
   port: 8388
   server: 103.136.68.199
@@ -23,19 +24,22 @@ proxies:
   server: 54.179.175.221
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   country: ' SG'
-  name: 52,53,54,119|🇸🇬SG(AzadNet.t.me)_004
+  name: 52,53,54,119,580|未知77 74.2KB/s
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: auto
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 52,53,54,94|🇸🇬 SG_569
+  name: 52,53,54,94|🇸🇬 SG_585
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -59,64 +63,111 @@ proxies:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
-- alterId: 2
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: '56|disney_netflix_SG #1'
-  network: ws
-  port: 23613
-  server: 13.v2-ray.cyou
-  servername: 13.v2-ray.cyou
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1c7ada1b-2836-3490-ac44-f37a4f53822d
-  ws-opts:
-    headers:
-      HOST: 13.v2-ray.cyou
-    path: /
-- alterId: 2
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: '56|disney_netflix_SG #2'
-  network: ws
-  port: 23617
-  server: 17.v2-ray.cyou
-  servername: 17.v2-ray.cyou
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0b16fa55-e66a-38c8-acd8-5e2c70529004
-  ws-opts:
-    headers:
-      HOST: 17.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_RU-SG_861
-  network: ws
-  port: 443
-  server: profit-server.aken.my.id
-  servername: profit-server.aken.my.id
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d9a31ea0-d3b6-4a7b-be2e-01bbdba6c6e2
-  ws-opts:
-    headers:
-      HOST: profit-server.aken.my.id
-    path: /vmess
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0110
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1197
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0117
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1195
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0112
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1196
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0108
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1198
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0104
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1190
+  server: yd-05.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0123
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1192
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0119
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1194
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0122
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1193
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,231,642|CN_speednode_0105
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1191
+  server: yd-05.paofunlink.com
+  type: ss
 - alterId: 0
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_SG-SG_863
+  name: '56|disney_netflix_SG #8'
   network: ws
   port: 8443
   server: acting.zhangyuanyi19920627.top
@@ -134,7 +185,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-SG_1083
+  name: 56|Relay_ZZ-SG_1229
   network: ws
   port: 80
   server: 104.18.3.2
@@ -804,19 +855,6 @@ proxies:
   uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
   ws-opts:
     path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 150,285,292,516,522,543,548,554,556,557,558,559,562,567,575|sws-1040-2024-08-28_134135
-  network: ws
-  port: 50184
-  server: 152.42.252.70
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d18f1f74-2df6-431c-a731-db776baac08d
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 158|SG
@@ -2737,6 +2775,24 @@ proxies:
     headers:
       Host: ass.669990.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,347,385,387,396,397,402,408,409,411,425,426,427,636|@Vip_Security
+    join us - 261
+
+    '
+  network: ws
+  port: '27675'
+  server: 146.56.40.117
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  ws-opts:
+    headers:
+      Host: 146.56.40.117
+    path: /
 - cipher: aes-256-cfb
   name: '293,387,411|🇬SG-13.250.46.178-4576 #1'
   password: amazonskr05
@@ -2900,11 +2956,11 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - alterId: 0
   cipher: auto
-  name: 314|🔒🇸🇬 SG 157.230.241.29 ◈ ws:443...
+  name: 314|💰💥🇸🇬 SG 157.230.241.29 ◈ ws:44...
   network: ws
-  port: '443'
+  port: 443
   server: sgdo.vipcasper.com
-  servername: ''
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   tls: true
   type: vmess
   uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
@@ -2914,7 +2970,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '314|🔒🇸🇬 SG 157.230.241.29 ◈ ws:443... #1'
+  name: 314|🔒🇸🇬 SG 157.230.241.29 ◈ ws:443...
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -2928,21 +2984,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 314|🔒🇺🇸 US 66.232.51.76 ◈ ws:28841...
-  network: ws
-  port: '28841'
-  server: n54sa.stobe.free.nf
-  servername: tbg9tvjd211uy821.robinhud.com
-  tls: true
-  type: vmess
-  uuid: c7084f43-9b71-4f3d-814f-6a806409c8f0
-  ws-opts:
-    headers:
-      Host: tbg9tvjd211uy821.robinhud.com
-    path: /nevergonnagive
-- alterId: 0
-  cipher: auto
-  name: '314|🔒🇸🇬 SG 168.138.163.13 ◈ ws:443... #2'
+  name: '314|🔒🇸🇬 SG 168.138.163.13 ◈ ws:443... #1'
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -2968,11 +3010,11 @@ proxies:
   uuid: 7710bfe1-59a7-4dff-873f-682e64b7dc43
 - alterId: 0
   cipher: auto
-  name: 314|🔒🇸🇬 SG 94.237.65.20 ◈ ws:443 ◈...
+  name: 314|💰💥🇸🇬 SG 94.237.65.20 ◈ ws:443 ...
   network: ws
   port: '443'
   server: mvrde.makhluk.my.id
-  servername: ''
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   tls: true
   type: vmess
   uuid: 7710bfe1-59a7-4dff-873f-682e64b7dc43
@@ -2994,7 +3036,7 @@ proxies:
   uuid: 7710bfe1-59a7-4dff-873f-682e64b7dc43
 - alterId: 0
   cipher: auto
-  name: '314|🔒🇸🇬 SG 94.237.65.20 ◈ ws:443 ◈... #1'
+  name: 314|🔒🇸🇬 SG 94.237.65.20 ◈ ws:443 ◈...
   network: ws
   port: '443'
   server: speed.cloudflare.com
@@ -3092,23 +3134,9 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: '314|🇸🇬 SG 168.138.163.13 ◈ ws:80 ◈... #2'
+  name: '314|🇸🇬 SG 168.138.163.13 ◈ ws:80 ◈... #3'
   network: ws
   port: 80
-  server: speed.cloudflare.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a868d015-9fea-4f30-995a-b3e91c565e60
-  ws-opts:
-    headers:
-      Host: sgcdn.fask511.cfd
-    path: /?ed=1024
-- alterId: 0
-  cipher: auto
-  name: 314|🇸🇬 SG 168.138.163.13 ◈ ws:2082...
-  network: ws
-  port: 2082
   server: speed.cloudflare.com
   servername: ''
   tls: false
@@ -3122,7 +3150,7 @@ proxies:
   cipher: auto
   name: 314|💰🇸🇬 SG 94.237.65.20 ◈ ws:80 ◈ ...
   network: ws
-  port: '80'
+  port: 80
   server: mvrde.makhluk.my.id
   servername: ''
   tls: false
@@ -3279,14 +3307,6 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: '9025'
   server: 103.172.116.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸 US
-  delay: 1353
-  name: '341,342|新加坡 - 新加坡 - Akari Networks - 1 #1'
-  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
-  port: 50006
-  server: iepl2.forlive.live
   type: ss
 - cipher: aes-256-cfb
   delay: 256
@@ -4094,111 +4114,6 @@ proxies:
     headers:
       host: v2-2.godlight.xyz
     path: /54f634fs
-- grpc-opts:
-    grpc-service-name: sgvip101
-  name: 423|🇬 新加坡 101 - 墙了个墙
-  network: grpc
-  password: edd7e8fc-1549-30e3-9703-c66aa70effec
-  port: 11223
-  server: sgvip101.qlgq.fun
-  skip-cert-verify: true
-  sni: sgvip101.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: sgvip101
-  name: 423|🇸🇬 新加坡 102 - 墙了个墙
-  network: grpc
-  password: edd7e8fc-1549-30e3-9703-c66aa70effec
-  port: 21223
-  server: sgvip101.qlgq.fun
-  skip-cert-verify: true
-  sni: sgvip101.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: sgvip101
-  name: 423|🇸🇬 新加坡 103 - 墙了个墙
-  network: grpc
-  password: edd7e8fc-1549-30e3-9703-c66aa70effec
-  port: 31223
-  server: sgvip101.qlgq.fun
-  skip-cert-verify: true
-  sni: sgvip101.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: sgvip101
-  name: 423|🇸🇬 新加坡 104 - 墙了个墙
-  network: grpc
-  password: edd7e8fc-1549-30e3-9703-c66aa70effec
-  port: 41223
-  server: sgvip101.qlgq.fun
-  skip-cert-verify: true
-  sni: sgvip101.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: sgvip101
-  name: 423|🇸🇬 新加坡 105 - 墙了个墙
-  network: grpc
-  password: edd7e8fc-1549-30e3-9703-c66aa70effec
-  port: 51223
-  server: sgvip101.qlgq.fun
-  skip-cert-verify: true
-  sni: sgvip101.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 423|🇬 [vip①]新加坡1 - MG Network
-  network: ws
-  port: 23612
-  server: 12.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9efc4a3f-e32e-301b-aaf9-0992a02127e3
-  ws-opts:
-    headers:
-      Host: 12.v2-ray.cyou
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 423|🇸🇬 [vip①]新加坡2 - MG Network
-  network: ws
-  port: 23617
-  server: 17.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9efc4a3f-e32e-301b-aaf9-0992a02127e3
-  ws-opts:
-    headers:
-      Host: 17.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 423|【高级】🇬新加坡 - 滑梯云
-  network: ws
-  port: 20011
-  server: htsub-2024.899696998.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed
-  ws-opts:
-    headers:
-      Host: yyyt-sg-2024.mofaxw.top
-    path: /2024
 - alterId: 0
   cipher: auto
   name: '424|🇸🇬 _SG_新加坡 #1'
@@ -4316,7 +4231,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '435,451,636|@Vip_Security join us - 134
+  name: '435,451,636|@Vip_Security join us - 133
 
     '
   network: ws
@@ -4725,44 +4640,44 @@ proxies:
     headers:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡 B SG
+  password: 00883c30-daee-4b1e-9731-42d602dc174f
+  port: 35106
+  server: sg2.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡1SS移动飞快-1A
+  password: 03cd3d8a-986d-4c85-8f6f-c15cfdc8d7b6
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡 A SG
+  password: 00883c30-daee-4b1e-9731-42d602dc174f
+  port: 35105
+  server: sg1.iepl.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 481|🇸🇬 新加坡02-V4-流媒体-1A
+  name: 481|🇸🇬 新加坡02-V4-流媒体-1B
   network: ws
   port: 2052
   server: cf.hy2.one
   tls: false
   type: vmess
   udp: true
-  uuid: 7f3e3ee5-04ae-4312-b39b-d90f3fe1007a
+  uuid: efa6aefb-f824-4739-a322-a1bd01237f5c
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡1SS移动飞快-1B
-  password: e61cb575-9fd5-4c3b-9cc9-346abdeae3a8
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡 C SG
-  password: c611b262-1817-4023-b998-a6889af6aa8f
-  port: 35107
-  server: sg3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡 B SG
-  password: c611b262-1817-4023-b998-a6889af6aa8f
-  port: 35106
-  server: sg2.iepl.cooc.icu
-  type: ss
-  udp: true
-- auth: d6214bec-80c8-4031-b79e-7a4d4ad3251f
+- auth: ebb1fab4-121c-4ccb-a0a9-661e0f23c4dd
   name: 481|🇸🇬 新加坡-1
-  password: d6214bec-80c8-4031-b79e-7a4d4ad3251f
+  password: ebb1fab4-121c-4ccb-a0a9-661e0f23c4dd
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: false
@@ -4770,10 +4685,10 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡 A SG
-  password: c611b262-1817-4023-b998-a6889af6aa8f
-  port: 35105
-  server: sg1.iepl.cooc.icu
+  name: 481|🇸🇬 新加坡 C SG
+  password: 00883c30-daee-4b1e-9731-42d602dc174f
+  port: 35107
+  server: sg3.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
