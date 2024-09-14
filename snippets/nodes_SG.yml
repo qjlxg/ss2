@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,224,261,262,468,469,470,491|新加坡2|@ripaojiedian
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,224,261,262,263,283,298,299,300,468,469,470,491|新加坡2|@ripaojiedian
     #1'
   network: tcp
   port: '17575'
@@ -10,30 +10,43 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12,79,260,299|15|🇸🇬 新加坡|@ripaojiedian
-  password: ce19c839-49d3-4b65-bd5d-201862ead65b
-  port: 40050
-  server: cnamepc01-drwtbltc3xwmfzhd.coffeehouse.wiki
+  name: 12,299,490|🇸🇬 新加坡|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11015
+  server: group-south-01.nutbit-node.lat
   tfo: false
   type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 12,299,490|🇸🇬 新加坡3|@ripaojiedian
+  password: Kjuj8hC6UofM
+  port: 8388
+  server: 103.136.68.199
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12,299,490|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.179.175.221
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
   country: ' SG'
-  name: 52,53,54,119,576|未知78 74.1KB/s
+  name: 52,53,54,119|🇸🇬SG(AzadNet.t.me)_004
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
-  skip-cert-verify: true
-  tls: true
   type: ss
 - alterId: 0
   cipher: auto
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 52,53,54,94|🇸🇬 SG_613
+  name: 52,53,54,94|🇸🇬 SG_608
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -41,19 +54,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: ' SG'
-  h2-opts: {}
-  http-opts: {}
-  name: 54|ChatGPT  SG_446
-  network: ws
-  port: 50184
-  server: 152.42.252.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: d18f1f74-2df6-431c-a731-db776baac08d
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -70,27 +70,113 @@ proxies:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
+- cipher: chacha20-ietf-poly1305
+  delay: 1491
+  name: 56,320,339,340,638|CN_speednode_0073
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: tw4.mhw7e2.online
+  type: ss
+  udp: true
 - alterId: -1
-  cipher: rc4-md5
-  name: 56,229,638|CN_speednode_0123
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1192
-  server: yd-02.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  name: 56,229,638|CN_speednode_0038
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: jp3.mhw7e2.online
   type: ss
 - alterId: -1
-  cipher: rc4-md5
-  name: 56,229,638|CN_speednode_0119
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1194
-  server: yd-02.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  delay: 2448
+  name: 56,229,339,340,638|CN_speednode_0060
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 2557
+  name: 56,339,340,638|CN_speednode_0062
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 587
+  name: 56,339,340,638|CN_speednode_0064
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1904
+  name: 56,339,340,638|CN_speednode_0063
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: jp1.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,638|CN_speednode_0061
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: hk5.mhw7e2.online
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 56,229,638|CN_speednode_0066
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: sg3.mhw7e2.online
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 414
+  name: 56,229,339,340,638|CN_speednode_0069
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1580
+  name: 56,339,340,638|CN_speednode_0070
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 357
+  name: 56,339,340,638|CN_speednode_0072
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1476
+  name: 56,320,339,340,638|CN_speednode_0075
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: tw5.mhw7e2.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1647
+  name: 56,339,340,638|CN_speednode_0065
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: tw2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 305
+  name: 56,339,340,638|CN_speednode_0078
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1424
+  name: 56,339,340,638|CN_speednode_0080
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw5.mhw7e2.online
   type: ss
 - alterId: -1
   cipher: rc4-md5
@@ -105,17 +191,6 @@ proxies:
   type: ss
 - alterId: -1
   cipher: rc4-md5
-  name: 56,229,638|CN_speednode_0122
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1193
-  server: yd-02.paofunlink.com
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
   name: 56,229,638|CN_speednode_0105
   password: Paofu
   plugin: obfs
@@ -124,17 +199,6 @@ proxies:
     mode: http
   port: 1191
   server: yd-05.paofunlink.com
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
-  name: 56,229,638|CN_speednode_0117
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1195
-  server: yd-03.paofunlink.com
   type: ss
 - alterId: -1
   cipher: rc4-md5
@@ -160,6 +224,39 @@ proxies:
   type: ss
 - alterId: -1
   cipher: rc4-md5
+  name: 56,229,638|CN_speednode_0122
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1193
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,229,638|CN_speednode_0123
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1192
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  name: 56,229,638|CN_speednode_0119
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1194
+  server: yd-02.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
   name: 56,229,638|CN_speednode_0108
   password: Paofu
   plugin: obfs
@@ -170,78 +267,15 @@ proxies:
   server: yd-03.paofunlink.com
   type: ss
 - alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 56,229,638|CN_speednode_0066
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: sg3.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1580
-  name: 56,339,340,638|CN_speednode_0070
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: tw2.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1647
-  name: 56,339,340,638|CN_speednode_0065
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: tw2.mhw7e2.online
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 2448
-  name: 56,229,339,340,638|CN_speednode_0060
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: sg5.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 2557
-  name: 56,339,340,638|CN_speednode_0062
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: sg5.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1904
-  name: 56,339,340,638|CN_speednode_0063
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: jp1.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 357
-  name: 56,339,340,638|CN_speednode_0072
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: 14.215.169.69
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1476
-  name: 56,320,339,340,638|CN_speednode_0075
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: tw5.mhw7e2.online
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1491
-  name: 56,320,339,340,638|CN_speednode_0073
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20010
-  server: tw4.mhw7e2.online
-  type: ss
-  udp: true
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 414
-  name: 56,229,339,340,638|CN_speednode_0069
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: tw4.mhw7e2.online
+  cipher: rc4-md5
+  name: 56,229,638|CN_speednode_0117
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1195
+  server: yd-03.paofunlink.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -257,13 +291,13 @@ proxies:
       Host: ''
     path: /5gsieutocdo.club
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-217.197.161.138-0207 #1'
+  name: '65,385,409|🇬SG-217.197.161.138-0172 #1'
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-217.197.161.166-0208 #1'
+  name: '65,385,409|🇬SG-217.197.161.166-0173 #1'
   password: G!yBwPWH3Vao
   port: 809
   server: 217.197.161.166
@@ -275,103 +309,103 @@ proxies:
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-81.90.189.18-0210 #1'
+  name: '65,385,409|🇬SG-81.90.189.18-0175 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-217.197.161.166-0211 #1'
+  name: '65,385,409|🇬SG-217.197.161.166-0176 #1'
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.138-0212 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.138-0177 #1'
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.136-0213 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.136-0178 #1'
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-81.90.189.18-0214 #1'
+  name: '65,385,409|🇬SG-81.90.189.18-0179 #1'
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.18-0215 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.18-0180 #1'
   password: G!yBwPWH3Vao
   port: 808
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.138-0216 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.138-0181 #1'
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.138-0217 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.138-0182 #1'
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.184-0218 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.184-0183 #1'
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.184
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.166-0219 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.166-0184 #1'
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.136-0220 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.136-0185 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.152-0221 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.152-0186 #1'
   password: G!yBwPWH3Vao
   port: 809
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0222 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0187 #1'
   password: G!yBwPWH3Vao
   port: 804
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇬SG-217.197.161.136-0223 #1'
+  name: '65,185,186,385,409|🇬SG-217.197.161.136-0188 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-81.90.189.152-0224 #1'
+  name: '65,385,409|🇬SG-81.90.189.152-0189 #1'
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0225 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0190 #1'
   password: G!yBwPWH3Vao
   port: 800
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0226 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0191 #1'
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.161.136
@@ -383,19 +417,19 @@ proxies:
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0228 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0193 #1'
   password: G!yBwPWH3Vao
   port: 809
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0229 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0194 #1'
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇬SG-217.197.161.138-0230 #1'
+  name: '65,185,186,385,409|🇬SG-217.197.161.138-0195 #1'
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.138
@@ -425,19 +459,19 @@ proxies:
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0235 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0200 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.166-0236 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.166-0201 #1'
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇬SG-217.197.161.164-0237 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.164-0202 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.164
@@ -455,13 +489,13 @@ proxies:
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.166-0240 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.166-0205 #1'
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.18-0241 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.18-0206 #1'
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.18
@@ -473,7 +507,7 @@ proxies:
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0243 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0208 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.138
@@ -485,43 +519,43 @@ proxies:
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.166-0245 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.166-0210 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0246 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0211 #1'
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.166-0247 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.166-0212 #1'
   password: G!yBwPWH3Vao
   port: 800
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0248 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0213 #1'
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.164-0249 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.164-0214 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-217.197.161.164-0250 #1'
+  name: '65,385,409|🇸🇬SG-217.197.161.164-0215 #1'
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0251 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0216 #1'
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.136
@@ -533,7 +567,7 @@ proxies:
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.152-0253 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.152-0218 #1'
   password: G!yBwPWH3Vao
   port: 805
   server: 81.90.189.152
@@ -545,7 +579,7 @@ proxies:
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.152-0255 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.152-0220 #1'
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.152
@@ -557,19 +591,19 @@ proxies:
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,385,409|🇸🇬SG-81.90.189.18-0257 #1'
+  name: '65,385,409|🇸🇬SG-81.90.189.18-0222 #1'
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0258 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.136-0223 #1'
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0259 #1'
+  name: '65,185,186,385,409|🇸🇬SG-217.197.161.138-0224 #1'
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.138
@@ -684,7 +718,8 @@ proxies:
   ws-path: /ws
 - alterId: 0
   cipher: auto
-  name: 71,105,149,245,283,345,383,385,386,387,388,394,395,396,397,400,406,407,409,611,641|美国_0912137
+  name: '71,105,149,226,245,283,345,383,385,386,387,388,394,395,396,397,400,406,407,409,611,641|美国_0914151
+    #1'
   network: ws
   port: '80'
   server: 213.35.113.150
@@ -712,19 +747,19 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: '79,299,385,409|🇬SG-54.179.87.28-0142 #1'
+  name: '79,299,385,409|SG-54.179.87.28-0123 #1'
   password: amazonskr05
   port: 443
   server: 54.179.87.28
   type: ss
 - cipher: aes-256-cfb
-  name: '79,247,385,409|🇬SG-13.213.46.196-6147 #1'
+  name: '79,247,385,409|🇬SG-13.213.46.196-6085 #1'
   password: amazonskr05
   port: 443
   server: 13.213.46.196
   type: ss
 - cipher: aes-256-cfb
-  name: '79,223,247,385,409|🇸🇬SG-54.251.168.143-1680 #1'
+  name: '79,223,247,385,409|🇸🇬SG-54.251.168.143-1647 #1'
   password: amazonskr05
   port: 443
   server: 54.251.168.143
@@ -793,7 +828,7 @@ proxies:
   server: a4a09ce.s1.glados-config.net
   type: ss
 - cipher: aes-256-cfb
-  name: '80,252,385,409|🇬SG-13.215.49.89-2510 #1'
+  name: '80,252,385,409|🇬SG-13.215.49.89-2443 #1'
   password: amazonskr05
   port: 443
   server: 13.215.49.89
@@ -957,7 +992,7 @@ proxies:
     path: /ws
 - alterId: 4
   cipher: auto
-  name: '170,345,383,385,394,395,400,406,407,409|🇬SG-103.253.26.134-0262 #1'
+  name: '170,345,383,385,394,395,400,406,407,409|🇬SG-103.253.26.134-0227 #1'
   network: ws
   port: 443
   server: 103.253.26.134
@@ -972,7 +1007,7 @@ proxies:
     path: /ws
 - alterId: 4
   cipher: auto
-  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-103.253.26.20-0267 #8'
+  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-103.253.26.20-0232 #8'
   network: ws
   port: 443
   server: 103.253.26.20
@@ -1025,7 +1060,7 @@ proxies:
     path: /ws
 - alterId: 4
   cipher: auto
-  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-202.61.141.130-0266 #8'
+  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-202.61.141.130-0231 #8'
   network: ws
   port: 443
   server: 202.61.141.130
@@ -1040,7 +1075,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '170,239,345,383,385,394,395,400,406,407,409|🇬SG-180.215.130.123-5729 #1'
+  name: '170,239,345,383,385,394,395,400,406,407,409|🇬SG-180.215.130.123-5667 #1'
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -1053,7 +1088,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-180.215.130.123-0268 #8'
+  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-180.215.130.123-0233 #8'
   network: ws
   port: 11584
   server: 180.215.130.123
@@ -1092,7 +1127,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '170,345,383,385,394,395,400,406,407,409|🇬SG-139.99.61.53-0773 #1'
+  name: '170,345,383,385,394,395,400,406,407,409|🇸🇬SG-139.99.61.53-0738 #8'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -1452,62 +1487,62 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇪DE-3.64.163.50-8273 #1'
+  name: '185,186,385,409|🇪DE-3.64.163.50-8211 #1'
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: ak1803.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8274 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8212 #1'
   password: G!yBwPWH3Vao
   port: 805
   server: ak1797.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8276 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8214 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: ak1788.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇪DE-3.64.163.50-8280 #1'
+  name: '185,186,385,409|🇪DE-3.64.163.50-8218 #1'
   password: G!yBwPWH3Vao
   port: 812
   server: ak1777.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8282 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8220 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: ak1768.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8283 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8221 #1'
   password: G!yBwPWH3Vao
   port: 807
   server: ak1760.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8285 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8223 #1'
   password: G!yBwPWH3Vao
   port: 811
   server: ak1733.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8286 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8224 #1'
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: ak1724.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8289 #1'
+  name: '185,186,385,409|🇩🇪DE-3.64.163.50-8227 #1'
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - alterId: 0
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-8.222.222.64-8315 #1'
+  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-8.222.222.64-8253 #1'
   network: ws
   port: 80
   server: 8.222.222.64
@@ -1520,7 +1555,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-8.222.138.164-8316 #1'
+  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-8.222.138.164-8254 #1'
   network: ws
   port: 80
   server: 8.222.138.164
@@ -1533,7 +1568,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.150.28-8317 #8'
+  name: '185,186,345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.150.28-8255 #8'
   network: ws
   port: 443
   server: 8.219.150.28
@@ -1546,7 +1581,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.123.35-8318 #8'
+  name: '185,186,345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.123.35-8256 #8'
   network: ws
   port: 80
   server: 8.219.123.35
@@ -1558,13 +1593,13 @@ proxies:
   ws-opts:
     path: /2TokGE9A/
 - cipher: aes-256-cfb
-  name: '185,186,385,409|🇸🇬SG-54.254.129.246-8341 #1'
+  name: '185,186,385,409|🇸🇬SG-54.254.129.246-8279 #1'
   password: amazonskr05
   port: 443
   server: 54.254.129.246
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '185,186,385,409|🇬SG-51.79.161.232-8357 #1'
+  name: '185,186,385,409|🇬SG-51.79.161.232-8295 #1'
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: 51.79.161.232
@@ -1643,20 +1678,20 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: '185,186,385,409|🇬SG-13.213.44.183-9044 #1'
+  name: '185,186,385,409|🇬SG-13.213.44.183-8982 #1'
   password: amazonskr05
   port: 443
   server: 13.213.44.183
   type: ss
 - cipher: aes-256-cfb
-  name: '185,186,385,409|🇸🇬SG-13.212.199.120-9045 #1'
+  name: '185,186,385,409|🇸🇬SG-13.212.199.120-8983 #1'
   password: amazonskr05
   port: 443
   server: 13.212.199.120
   type: ss
 - alterId: 64
   cipher: auto
-  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-118.107.46.173-9050 #1'
+  name: '185,186,345,383,385,394,395,400,406,407,409|🇬SG-118.107.46.173-8988 #1'
   network: ws
   port: 443
   server: 118.107.46.173
@@ -1668,7 +1703,7 @@ proxies:
   ws-opts:
     path: /path/080712342310
 - cipher: aes-256-cfb
-  name: '185,186,385,409|SG-103.172.116.79-9259 #1'
+  name: '185,186,385,409|SG-103.172.116.79-9197 #1'
   password: KBGjZYcy4SyRShmA
   port: 9044
   server: 103.172.116.79
@@ -2015,7 +2050,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 224|>🇸🇬 SG|Ns|0720|TG@FProxies|
+  name: 224|>🇸🇬 SG|Ls|0720|TG@FProxies|
+  network: ws
+  port: '8008'
+  server: automatic-bak.x-max.co
+  tls: false
+  type: vmess
+  uuid: 2c466c4a-f27e-38ad-9010-34a83b24a68f
+  ws-opts:
+    headers:
+      Host: automatic-bak.x-max.co
+    path: /SG-B-WS
+- alterId: 64
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #7'
+  network: tcp
+  port: '34002'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ns|0720|TG@FProxies| #4'
+  network: ws
+  port: '23613'
+  server: 13.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 4760ed37-8765-3cd6-91ef-8a45821e6563
+  ws-opts:
+    headers:
+      Host: 13.v2-ray.cyou
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ns|0720|TG@FProxies| #5'
+  network: ws
+  port: '23612'
+  server: 12.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 4f14b2c5-15a7-35c6-962e-6e37b5b227a8
+  ws-opts:
+    headers:
+      Host: 12.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ns|0720|TG@FProxies| #2'
   network: none
   port: '11136'
   server: sg.hj777sg.top
@@ -2024,13 +2107,83 @@ proxies:
   uuid: c5e4e9d0-da73-3a08-8945-ec693a23a240
 - alterId: 64
   cipher: auto
-  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #4'
+  name: 224|>🇸🇬 SG|Ms|0720|TG@FProxies|
+  network: tcp
+  port: '54565'
+  server: 183.238.202.173
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #7'
+  network: ws
+  port: '23617'
+  server: 17.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: cbd378ac-85f3-366e-a41e-90993c749e5e
+  ws-opts:
+    headers:
+      Host: 17.v2-ray.cyou
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #5'
+  network: tcp
+  port: '50582'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #2'
+  network: ws
+  port: '8080'
+  server: 40.119.192.85
+  tls: false
+  type: vmess
+  uuid: 0474bb6a-6fc4-4c6a-adba-2200ba0dfc17
+  ws-opts:
+    headers:
+      Host: ''
+    path: /download
+- alterId: 64
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #6'
   network: tcp
   port: '54437'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #4'
+  network: ws
+  port: '10000'
+  server: 103.231.188.124
+  tls: false
+  type: vmess
+  uuid: 3ce6774a-42bf-11ef-9bb5-6a106b1de07d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #5'
+  network: ws
+  port: '30006'
+  server: entrance2-6.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  ws-opts:
+    headers:
+      Host: entrance2-6.jjsagcajvv.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 224|>🇸🇬 SG|Ns|0816|TG@FProxies|
@@ -2044,120 +2197,60 @@ proxies:
     headers:
       Host: sgdo.vipcasper.com
     path: /vmess
-- alterId: 2
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ns|0720|TG@FProxies| #3'
-  network: ws
-  port: '23613'
-  server: 13.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 5dc5b4f7-22b6-36b6-903c-7112a8a11eb5
-  ws-opts:
-    headers:
-      Host: 13.v2-ray.cyou
-    path: /
 - alterId: 64
   cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #6'
-  network: tcp
-  port: '34002'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #2'
-  network: ws
-  port: '10000'
-  server: 103.231.188.124
-  tls: false
-  type: vmess
-  uuid: 3ce6774a-42bf-11ef-9bb5-6a106b1de07d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
-- alterId: 2
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #6'
-  network: ws
-  port: '23617'
-  server: 17.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 4760ed37-8765-3cd6-91ef-8a45821e6563
-  ws-opts:
-    headers:
-      Host: 17.v2-ray.cyou
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #4'
-  network: tcp
-  port: '50582'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #3'
+  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #8'
   network: tcp
   port: '54100'
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #5'
+  name: 226,252,345,383,385,394,395,400,406,407,409,641|新加坡_0914003
   network: ws
-  port: '8080'
-  server: 40.119.192.85
+  port: '443'
+  server: 202.79.172.53
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 0474bb6a-6fc4-4c6a-adba-2200ba0dfc17
+  uuid: 30216206-14b7-40e7-995d-61c1219ba584
   ws-opts:
     headers:
       Host: ''
-    path: /download
+    path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #7'
+  name: '226,252,345,383,385,394,395,400,406,407,409,447,641|新加坡_0914004 #1'
   network: ws
-  port: '8008'
-  server: automatic-bak.x-max.co
+  port: '80'
+  server: 143.198.219.182
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 2c466c4a-f27e-38ad-9010-34a83b24a68f
+  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
   ws-opts:
     headers:
-      Host: automatic-bak.x-max.co
-    path: /SG-B-WS
+      Host: ''
+    path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '224|>🇸🇬 SG|Ls|0720|TG@FProxies| #8'
+  name: '226,345,383,385,394,395,400,406,407,409,447,641|新加坡_0914005 #1'
   network: ws
-  port: '30006'
-  server: entrance2-6.jjsagcajvv.xyz
+  port: '443'
+  server: sg-5.0rd.net
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  uuid: b7200fb0-b107-11ed-b233-205c6d5f5d78
   ws-opts:
     headers:
-      Host: entrance2-6.jjsagcajvv.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '224|>🇸🇬 SG|Ms|0720|TG@FProxies| #7'
-  network: tcp
-  port: '54565'
-  server: 183.238.202.173
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: sg-5.0rd.net
+    path: /uvxrjhi0
 - alterId: 0
   cipher: auto
   name: 235|🇸🇬新加坡(欢迎订阅Youtube元亨利贞)
@@ -2185,7 +2278,7 @@ proxies:
     path: /sg2.safepn.net:443/
 - alterId: 4
   cipher: auto
-  name: '239,345,383,385,394,395,400,406,407,409|🇬SG-202.61.141.130-5721 #1'
+  name: '239,345,383,385,394,395,400,406,407,409|🇬SG-202.61.141.130-5659 #1'
   network: ws
   port: 443
   server: 202.61.141.130
@@ -2280,36 +2373,6 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 64
-  cipher: auto
-  name: 252,345,383,385,394,395,400,406,407,409,641|新加坡_0912003
-  network: ws
-  port: '443'
-  server: 202.79.172.53
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 30216206-14b7-40e7-995d-61c1219ba584
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/220128071100
-- alterId: 0
-  cipher: auto
-  name: 252,345,383,385,394,395,400,406,407,409,447,641|新加坡_0912004
-  network: ws
-  port: '80'
-  server: 143.198.219.182
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
 - alterId: 0
   cipher: auto
   name: 252|🇸🇬_SG_新加坡_2_1@30
@@ -2321,7 +2384,7 @@ proxies:
   type: vmess
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - cipher: aes-256-cfb
-  name: '252,385,409|🇬SG-54.179.221.54-2177 #1'
+  name: '252,385,409|🇬SG-54.179.221.54-2110 #1'
   password: amazonskr05
   port: 443
   server: 54.179.221.54
@@ -2347,7 +2410,7 @@ proxies:
   type: vmess
   uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
 - cipher: aes-256-cfb
-  name: '252,385,409|🇬SG-13.215.191.190-2215 #1'
+  name: '252,385,409|🇬SG-13.215.191.190-2148 #1'
   password: amazonskr05
   port: 443
   server: 13.215.191.190
@@ -2416,7 +2479,7 @@ proxies:
   ws-opts:
     path: /vmess
 - cipher: aes-256-cfb
-  name: '252,385,409|🇬SG-13.215.177.216-2365 #1'
+  name: '252,385,409|🇬SG-13.215.177.216-2298 #1'
   password: amazonskr05
   port: 443
   server: 13.215.177.216
@@ -2441,7 +2504,7 @@ proxies:
   uuid: d1860587-aa33-4b76-85cd-c191edecb338
 - alterId: 0
   cipher: auto
-  name: '252,345,383,385,394,395,400,406,407,409|🇬SG-178.128.61.149-2382 #1'
+  name: '252,345,383,385,394,395,400,406,407,409|🇬SG-178.128.61.149-2315 #1'
   network: ws
   port: 50328
   server: 178.128.61.149
@@ -2573,7 +2636,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '252,345,383,385,394,395,400,406,407,409|🇬SG-138.2.83.217-2512 #1'
+  name: '252,345,383,385,394,395,400,406,407,409|🇬SG-138.2.83.217-2445 #1'
   network: http
   port: 43863
   server: 138.2.83.217
@@ -2829,20 +2892,6 @@ proxies:
   ws-headers:
     Host: 104.248.148.147
   ws-path: /
-- client-fingerprint: chrome
-  delay: 1797
-  name: '260,339,340|新加坡 - 新加坡 - Melbikomas UAB - 4 #1'
-  network: ws
-  password: 36fe28a331638747
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  ws-opts:
-    headers:
-      Host: TG.WangCai2
-    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 267|新加坡2-绿云
@@ -2944,26 +2993,11 @@ proxies:
       Host: cdn.savoy.click
     path: /je5x3pBN1vez3NQudNkB
 - cipher: aes-256-cfb
-  name: '291,385,409|🇬SG-13.250.46.178-4638 #1'
+  name: '291,385,409|🇬SG-13.250.46.178-4576 #1'
   password: amazonskr05
   port: 443
   server: 13.250.46.178
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '294,345,383,385,394,395,400,406,407,409|RELAY-172.67.199.34-5368 #1'
-  network: ws
-  port: 443
-  server: 172.67.199.34
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  ws-opts:
-    headers:
-      Host: gcssg.sylu.cyou
-    path: /Falling42gcssgnode
 - alterId: 0
   cipher: auto
   name: 303|SG|VMS|公益|0.3x-2
@@ -3253,11 +3287,24 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   delay: 256
-  name: '339,340,385,409|🇸🇬SG-13.229.78.228-0669 #1'
+  name: '339,340|新加坡 - 新加坡 - Amazon Technologie... #1'
   password: amazonskr05
   port: 443
   server: 13.229.78.228
   type: ss
+- delay: 1797
+  name: '339,340|新加坡 - 新加坡 - Melbikomas UAB - 4 #1'
+  network: ws
+  password: 36fe28a331638747
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  ws-opts:
+    headers:
+      Host: TG.WangCai2
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 342|v新加坡01
@@ -3351,52 +3398,7 @@ proxies:
     path: /sg5/getData
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-206.238.236.36-0567 #1'
-  network: ws
-  port: 80
-  server: 206.238.236.36
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.214.33.158-0264 #8'
-  network: ws
-  port: 80
-  server: 8.214.33.158
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  ws-opts:
-    headers:
-      Host: 8.214.33.158
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-180.215.130.123-0263 #8'
-  network: ws
-  port: 46452
-  server: 180.215.130.123
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5
-  ws-opts:
-    headers:
-      Host: 180.215.130.123
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-139.99.61.53-1956 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-139.99.61.53-1862 #8'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -3411,7 +3413,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-15.235.202.196-2031 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-15.235.202.196-1937 #8'
   network: ws
   port: 80
   server: 15.235.202.196
@@ -3426,22 +3428,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 345,383,385,394,395,400,406,407,409,447,641|新加坡_0912005
-  network: ws
-  port: '443'
-  server: sg-5.0rd.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b7200fb0-b107-11ed-b233-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: sg-5.0rd.net
-    path: /uvxrjhi0
-- alterId: 0
-  cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-165.22.107.124-2431 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-165.22.107.124-2364 #8'
   network: ws
   port: 443
   server: sg2.safepn.net
@@ -3471,19 +3458,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 345,383,385,394,395,400,406,407,409,633|US_14
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.214.33.158-0229 #8'
   network: ws
-  port: 8080
-  server: 159.223.32.230
+  port: 80
+  server: 8.214.33.158
   servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   ws-opts:
     headers:
-      Host: 159.223.32.230
-    path: /cctv13/hd.m3u8
+      Host: 8.214.33.158
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-180.215.130.123-0228 #8'
+  network: ws
+  port: 46452
+  server: 180.215.130.123
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5
+  ws-opts:
+    headers:
+      Host: 180.215.130.123
+    path: /
 - alterId: 0
   cipher: auto
   name: '345,383,385,394,395,400,406,407,409,471|美国(油管:破解资源君) #57'
@@ -3501,7 +3503,7 @@ proxies:
     path: /jhndsmlanj11223
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-15.235.184.36-3089 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-15.235.184.36-3027 #1'
   network: ws
   port: 80
   server: 15.235.184.36
@@ -3514,7 +3516,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-139.99.61.154-3094 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-139.99.61.154-3032 #1'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -3527,7 +3529,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-109.123.237.41-3121 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-109.123.237.41-3059 #8'
   network: ws
   port: 80
   server: 109.123.237.41
@@ -3540,7 +3542,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-109.123.237.41-3283 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-109.123.237.41-3221 #1'
   network: ws
   port: 80
   server: 109.123.237.41
@@ -3553,7 +3555,7 @@ proxies:
     path: /fastssh
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-15.235.192.196-3375 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-15.235.192.196-3313 #8'
   network: ws
   port: 80
   server: 15.235.192.196
@@ -3581,7 +3583,7 @@ proxies:
     path: /graphql
 - alterId: 64
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-202.79.171.157-3544 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-202.79.171.157-3482 #1'
   network: ws
   port: 443
   server: 202.79.171.157
@@ -3594,7 +3596,7 @@ proxies:
     path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.58.58-5105 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.58.58-5043 #8'
   network: ws
   port: 443
   server: 8.219.58.58
@@ -3607,7 +3609,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-139.99.61.53-5741 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-139.99.61.53-5679 #1'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -3620,7 +3622,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-159.223.32.230-6120 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-159.223.32.230-6058 #8'
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -3633,7 +3635,22 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-8.219.120.168-8045 #1'
+  name: 345,383,385,394,395,400,406,407,409,633|US_14
+  network: ws
+  port: 8080
+  server: 159.223.32.230
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  ws-opts:
+    headers:
+      Host: 159.223.32.230
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-8.219.120.168-7983 #1'
   network: ws
   port: 443
   server: 8.219.120.168
@@ -3646,7 +3663,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇬SG-8.219.214.221-8046 #1'
+  name: '345,383,385,394,395,400,406,407,409|🇬SG-8.219.214.221-7984 #1'
   network: ws
   port: 443
   server: 8.219.214.221
@@ -3659,7 +3676,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.211.222-8049 #8'
+  name: '345,383,385,394,395,400,406,407,409|🇸🇬SG-8.219.211.222-7987 #8'
   network: ws
   port: 443
   server: 8.219.211.222
@@ -3855,145 +3872,109 @@ proxies:
       Host: br.gy.youxuan-1.66688888.xyz
     path: /tg@hkaa0
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.212.143.20-0665 #1'
-  password: amazonskr05
-  port: 443
-  server: 13.212.143.20
-  type: ss
-- cipher: aes-256-cfb
-  name: '385,409|🇬SG-52.221.186.186-0666 #1'
-  password: amazonskr05
-  port: 443
-  server: 52.221.186.186
-  type: ss
-- cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-13.214.208.31-0667 #1'
-  password: amazonskr05
-  port: 443
-  server: 13.214.208.31
-  type: ss
-- cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-13.212.110.92-0668 #1'
-  password: amazonskr05
-  port: 443
-  server: 13.212.110.92
-  type: ss
-- name: '385,409|🇬SG-5.44.249.42-1729 #1'
-  network: ws
-  password: b84d16a244460e09
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: false
-  sni: TG.WangCai2
-  type: trojan
-  ws-opts:
-    headers:
-      Host: TG.WangCai2
-    path: '%2Fgateway%2Fconnect'
-- cipher: aes-256-cfb
-  name: '385,409|SG-13.214.212.124-3005 #1'
+  name: '385,409|SG-13.214.212.124-2943 #1'
   password: amazonskr05
   port: 443
   server: 13.214.212.124
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.215.173.2-3165 #1'
+  name: '385,409|🇬SG-13.215.173.2-3103 #1'
   password: amazonskr05
   port: 443
   server: 13.215.173.2
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.215.163.54-3296 #1'
+  name: '385,409|🇬SG-13.215.163.54-3234 #1'
   password: amazonskr05
   port: 443
   server: 13.215.163.54
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.229.105.31-3423 #1'
+  name: '385,409|🇸🇬SG-13.229.105.31-3361 #1'
   password: amazonskr05
   port: 443
   server: 13.229.105.31
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-3.0.148.195-3470 #1'
+  name: '385,409|🇬SG-3.0.148.195-3408 #1'
   password: amazonskr05
   port: 443
   server: 3.0.148.195
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-54.254.199.122-3614 #1'
+  name: '385,409|🇸🇬SG-54.254.199.122-3552 #1'
   password: amazonskr05
   port: 443
   server: 54.254.199.122
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.215.174.243-3909 #1'
+  name: '385,409|🇬SG-13.215.174.243-3847 #1'
   password: amazonskr05
   port: 443
   server: 13.215.174.243
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.213.2.160-4842 #1'
+  name: '385,409|🇬SG-13.213.2.160-4780 #1'
   password: amazonskr05
   port: 443
   server: 13.213.2.160
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-18.141.183.204-4702 #1'
+  name: '385,409|🇬SG-18.141.183.204-4640 #1'
   password: amazonskr05
   port: 443
   server: 18.141.183.204
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-13.250.54.18-4737 #1'
+  name: '385,409|🇬SG-13.250.54.18-4675 #1'
   password: amazonskr05
   port: 443
   server: 13.250.54.18
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-13.215.200.86-4761 #1'
+  name: '385,409|🇸🇬SG-13.215.200.86-4699 #1'
   password: amazonskr05
   port: 443
   server: 13.215.200.86
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-18.142.183.235-4781 #1'
+  name: '385,409|🇬SG-18.142.183.235-4719 #1'
   password: amazonskr05
   port: 443
   server: 18.142.183.235
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-139.162.5.19-6235 #1'
+  name: '385,409|🇸🇬SG-139.162.5.19-6173 #1'
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 139.162.5.19
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-139.162.41.174-6236 #1'
+  name: '385,409|🇸🇬SG-139.162.41.174-6174 #1'
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 139.162.41.174
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '385,409|🇸🇬SG-195.123.238.229-6325 #1'
+  name: '385,409|🇸🇬SG-195.123.238.229-6263 #1'
   password: TrikGtY68Jn10BwegTed
   port: 51348
   server: 195.123.238.229
   type: ss
 - cipher: aes-256-gcm
-  name: '385,409|🇬SG-139.99.68.21-6716 #1'
+  name: '385,409|🇬SG-139.99.68.21-6654 #1'
   password: zDNVedRFPQexG9v
   port: 6379
   server: 139.99.68.21
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '385,409|🇬SG-81.90.189.41-6717 #1'
+  name: '385,409|🇬SG-81.90.189.41-6655 #1'
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-165.232.169.142-7968 #1'
+  name: '385,409|🇬SG-165.232.169.142-7906 #1'
   password: 1e5111699c45496da84112f35db665c4
   port: 29332
   server: 165.232.169.142
@@ -4005,7 +3986,7 @@ proxies:
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-103.172.116.5-8073 #1'
+  name: '385,409|🇸🇬SG-103.172.116.5-8011 #1'
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 103.172.116.5
@@ -4029,7 +4010,7 @@ proxies:
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇬SG-103.172.116.6-8077 #1'
+  name: '385,409|🇬SG-103.172.116.6-8015 #1'
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 103.172.116.6
@@ -4041,19 +4022,19 @@ proxies:
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-103.172.116.5-8079 #1'
+  name: '385,409|🇸🇬SG-103.172.116.5-8017 #1'
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-103.172.116.5-8080 #1'
+  name: '385,409|🇸🇬SG-103.172.116.5-8018 #1'
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: '385,409|🇸🇬SG-103.172.116.6-8081 #1'
+  name: '385,409|🇸🇬SG-103.172.116.6-8019 #1'
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 103.172.116.6
@@ -4601,20 +4582,34 @@ proxies:
     path: /dsadsa1dsadsa33434
 - cipher: chacha20-ietf-poly1305
   name: 477|🇸🇬 新加坡 C SG
-  password: bc1031b9-eec2-4815-9760-f94b209ffa36
+  password: fad09981-c24c-45e6-9c67-cd69e8b4ce91
   port: 35107
   server: sg3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 477|🇸🇬 新加坡1SS移动飞快-1B
-  password: d1b88d78-da86-49a7-a42c-f9e6dc02d9a7
+  name: 477|🇸🇬 新加坡1SS移动飞快-1A
+  password: 1d3e623e-94f2-40ed-876b-c4fbcbfe37fd
   port: 23343
   server: sg6.hy2.one
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 477|🇸🇬 新加坡02-V4-流媒体-1B
+  network: ws
+  port: 2052
+  server: cf.hy2.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1ae51e89-4898-4921-a30c-8eadeb20e615
+  ws-opts:
+    headers:
+      Host: sg0002.hy-2.top
+    path: /0
 - auth: 225d122a-5b65-476e-9606-326e4edab4df
-  name: 477|🇸🇬 新加坡-1
+  name: 477|🇸🇬 新加坡-1-1A
   password: 225d122a-5b65-476e-9606-326e4edab4df
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
@@ -4622,58 +4617,20 @@ proxies:
   sni: main.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 477|🇸🇬 新加坡02-V4-流媒体-1A
-  network: ws
-  port: 2052
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: da2bcff1-5477-467f-96e0-bfa1398331b1
-  ws-opts:
-    headers:
-      Host: sg0002.hy-2.top
-    path: /0
-- cipher: chacha20-ietf-poly1305
-  name: 477|🇸🇬 新加坡 B SG
-  password: bc1031b9-eec2-4815-9760-f94b209ffa36
-  port: 35106
-  server: sg2.iepl.cooc.icu
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 477|🇸🇬 新加坡 A SG
-  password: bc1031b9-eec2-4815-9760-f94b209ffa36
+  password: fad09981-c24c-45e6-9c67-cd69e8b4ce91
   port: 35105
   server: sg1.iepl.cooc.icu
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 490|🇸🇬 新加坡|@ripaojiedian
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11015
-  server: group-south-01.nutbit-node.lat
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 477|🇸🇬 新加坡 B SG
+  password: fad09981-c24c-45e6-9c67-cd69e8b4ce91
+  port: 35106
+  server: sg2.iepl.cooc.icu
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 490|🇸🇬 新加坡3|@ripaojiedian
-  password: Kjuj8hC6UofM
-  port: 8388
-  server: 103.136.68.199
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 490|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.179.175.221
-  tfo: false
-  type: ss
+  udp: true
 - alterId: 0
   cipher: chacha20-poly1305
   name: 495|🇸🇬 Mahsa-4
