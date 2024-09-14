@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,9,16,21,27,32,37,42,47,71,84,123,124,150,180,197,203,228,247,285,292,347,385,387,390,396,397,402,408,409,411,413,500,516,522,523,541,548,554,555,556,557,558,559,562,567,568,632,645|俄罗斯联邦_0914004
+  name: '3,9,16,21,27,32,37,42,47,71,84,123,124,150,228,285,292,347,385,387,390,396,397,402,408,409,411,413,500,516,522,523,541,548,554,555,556,557,558,559,562,567,568,632,645|俄罗斯联邦_0914004
     #1'
   network: ws
   port: '40045'
@@ -17,11 +17,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇷🇺RU
-  delay: 1108
+  country: RU
   h2-opts: {}
   http-opts: {}
-  name: 3,9,16,21,27,32,37,42,47,59,60,89,320,341,342,500,501|NL_分享日记
+  name: 3,9,16,21,27,32,37,42,47,56,59,60,320,500,501|NL_分享日记
   network: ws
   port: '40045'
   server: 45.130.147.178
@@ -137,22 +136,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 180,225,582|IT 3|openitr
-  network: ws
-  port: '443'
-  server: 188.114.97.2
-  servername: be2-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6d9911b0-4e14-44fb-8883-52d14f550cca
-  ws-opts:
-    headers:
-      Host: be2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: '183,489,493|🇳🇱 Netherlands 29 #1'
   network: ws
   port: '8443'
@@ -165,6 +148,20 @@ proxies:
     headers:
       Host: cloudconebbb.gorgorchicken.one
     path: /cloudconebbb
+- alterId: 1
+  cipher: auto
+  name: '183,256,489,493,608|PP|TG频道内随机时间更新订阅地址 #51'
+  network: ws
+  port: 443
+  server: 188.114.96.7
+  servername: octavi.cfd
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 183|荷兰_121320006
@@ -324,6 +321,36 @@ proxies:
     headers:
       Host: afrhms16v.bestxray.buzz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '228,347,385,387,396,397,402,408,409,411,435,438,451,636,645|荷兰_0914008 #1'
+  network: ws
+  port: '443'
+  server: 188.114.99.9
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-opts:
+    headers:
+      Host: lg1.trump2023.us
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: '228,255,296,347,385,387,396,397,402,408,409,411,438,475|美国(油管:破解资源君) #75'
+  network: ws
+  port: '443'
+  server: 188.114.99.10
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-opts:
+    headers:
+      Host: oplg1.zhujicn2.com
+    path: /5QNROSRV
 - alterId: 0
   cipher: auto
   name: '228,254,347,385,387,396,397,402,408,409,411,645|荷兰_0914009 #1'
