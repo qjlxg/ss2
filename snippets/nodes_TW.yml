@@ -31,18 +31,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  delay: 594
-  name: 56,341,342,642,653|TW_Taipei_Akile LTD
+  name: 56,642,653|TW_Taipei_Akile
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20008
-  server: tw5.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 761
-  name: 56,341,342,642|CN_speednode_0023
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: 14.215.169.69
+  server: sg4.mhw7e2.online
   type: ss
 - cipher: chacha20-ietf-poly1305
   delay: 1024
@@ -50,6 +42,19 @@ proxies:
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20008
   server: tw2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 594
+  name: 56,341,342,642,653|TW_Taipei_Akile LTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,642,653|TW_Taipei_Akile1
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: jp3.mhw7e2.online
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 56,642,653|TW_Taipei_Akile LTD2
@@ -66,16 +71,11 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 56,642,653|TW_Taipei_Akile
+  delay: 761
+  name: 56,341,342,642|CN_speednode_0023
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20008
-  server: sg4.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56,642,653|TW_Taipei_Akile1
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: jp3.mhw7e2.online
+  server: 14.215.169.69
   type: ss
 - alterId: 0
   cipher: auto
@@ -87,6 +87,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
+- alterId: 0
+  cipher: auto
+  name: 79|TW-152.32.229.149-041
+  network: ws
+  port: 443
+  server: 152.32.229.149
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-headers:
+    Host: diamonds-july-egg-sporting.trycloudflare.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 79|TW-60.249.92.67-139
+  network: ws
+  port: 443
+  server: 60.249.92.67
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-headers:
+    Host: diamonds-july-egg-sporting.trycloudflare.com
+  ws-path: /
 - alterId: '0'
   cipher: auto
   name: 80|[🇹🇼]103.131.189.212:56967(8110...
@@ -199,8 +225,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150,195,220,247,253,285,292,548,554,557,562,567,569|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17...
-    #8'
+  name: '150,195,220,247,253,285,292,548,554,557,559,562,567,569|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17...
+    #9'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -339,6 +365,22 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: -1
+  cipher: aes-128-gcm
+  country: 🇭🇰HK
+  name: 231|TW😈github.com/Ruk1ng001_111909...
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 22212
+  server: sssssssss1.f1c.lol
+  type: ss
+- alterId: -1
+  cipher: aes-128-gcm
+  country: 🇭🇰HK
+  name: 231|TW😈github.com/Ruk1ng001_750449...
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 22211
+  server: sssssssss1.f1c.lol
+  type: ss
 - alterId: 0
   cipher: auto
   name: 241|46-🇹🇼TW-211.72.35.110-5071-wor...
