@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,74|11|新加坡2|@ripaojiedian
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,48|14|新加坡2|@ripaojiedian #14'
   network: tcp
   port: '17575'
   server: relay.gz.flyidc.top
@@ -12,7 +12,7 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,56,70,79,205,262,301,387,411,473,494,580|🇸SG
+  name: 12,70,79,205,262,301,387,411,473,494,580|🇸SG
   password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
   port: 33105
   server: cm.guguyun.pw
@@ -22,7 +22,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,70,79,205,262,301,387,411,473,494,653|KR_Seoul_Amazon.com, Inc.
+  country: ' KR'
+  name: 12,53,54,56,58,70,79,205,262,301,387,411,473,494,653|KR_Seoul_Amazon.com,
+    Inc.
   password: amazonskr05
   port: 443
   server: 43.201.253.180
@@ -40,7 +42,7 @@ proxies:
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 52,53,54,94|🇸🇬 SG_589
+  name: 52,53,54,94|🇸🇬 SG_579
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -49,6 +51,13 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 54|ChatGPT  SG_326
+  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
+  port: 50006
+  server: iepl2.forlive.live
+  type: ss
 - alterId: 0
   cipher: auto
   name: 55|SG |  LB-2M
@@ -64,111 +73,70 @@ proxies:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
-- cipher: rc4-md5
-  delay: 660
-  name: 56,341,342,642,653|SG_Singapore_OVH SAS2
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1191
-  server: yd-05.paofunlink.com
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0080
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw5.mhw7e2.online
   type: ss
 - alterId: -1
-  cipher: rc4-md5
-  delay: 1657
-  name: 56,231,341,342,642,653|SG_Singapore_OVH SAS1
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1196
-  server: yd-03.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0063
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: jp1.mhw7e2.online
   type: ss
 - alterId: -1
-  cipher: rc4-md5
-  delay: 1787
-  name: 56,231,341,342,642|CN_speednode_0123
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1192
-  server: yd-02.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0078
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0064
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg2.mhw7e2.online
   type: ss
 - alterId: -1
-  cipher: rc4-md5
-  delay: 1491
-  name: 56,231,341,342,642|CN_speednode_0104
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1190
-  server: yd-05.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0069
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw4.mhw7e2.online
   type: ss
-- cipher: rc4-md5
-  delay: 1497
-  name: 56,341,342,642|CN_speednode_0122
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1193
-  server: yd-02.paofunlink.com
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0070
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw2.mhw7e2.online
   type: ss
 - alterId: -1
-  cipher: rc4-md5
-  delay: 303
-  name: 56,231,341,342,642|CN_speednode_0119
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1194
-  server: yd-02.paofunlink.com
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0060
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg5.mhw7e2.online
   type: ss
-- alterId: -1
-  cipher: rc4-md5
-  delay: 287
-  name: 56,231,341,342,642,653|SG_Singapore_OVH SAS
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1198
-  server: yd-03.paofunlink.com
-  type: ss
-- cipher: rc4-md5
-  delay: 255
-  name: 56,341,342,642|CN_speednode_0110
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1197
-  server: yd-03.paofunlink.com
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
-  delay: 649
-  name: 56,231,341,342,642|CN_speednode_0117
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1195
-  server: yd-03.paofunlink.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 56,89,231|CA😈github.com/Ruk1ng001_210396...
+  network: ws
+  port: 443
+  server: profit-server.aken.my.id
+  servername: profit-server.aken.my.id
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d9a31ea0-d3b6-4a7b-be2e-01bbdba6c6e2
+  ws-opts:
+    headers:
+      HOST: profit-server.aken.my.id
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 64|新加坡 Linode数据中心
@@ -765,6 +733,24 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2572
+  h2-opts: {}
+  http-opts: {}
+  name: '89,231,341,342|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
+  network: ws
+  port: 80
+  server: 104.18.3.2
+  servername: sshsg1.cloudtik.biz.id
+  skip-cert-verify: true
+  type: vmess
+  uuid: cb1d03f1-693a-42dc-9dd2-0369a413fe55
+  ws-opts:
+    headers:
+      HOST: sshsg1.cloudtik.biz.id
+    path: /vmess-ntls
 - alterId: 0
   cipher: auto
   name: 99|SG_youtube@资源分享师_38
@@ -1998,13 +1984,6 @@ proxies:
     headers:
       Host: sg-5.0rd.net
     path: /uvxrjhi0
-- alterId: -1
-  cipher: chacha20-ietf
-  name: '231,387,411|🇩BD-103.136.68.199-0984 #1'
-  password: Kjuj8hC6UofM
-  port: 8388
-  server: 103.136.68.199
-  type: ss
 - alterId: 0
   cipher: auto
   name: 237|🇸🇬新加坡(欢迎订阅Youtube元亨利贞)
@@ -3277,6 +3256,39 @@ proxies:
   port: '9025'
   server: 103.172.116.103
   type: ss
+- cipher: rc4-md5
+  delay: 660
+  name: 341,342,642,653|SG_Singapore_OVH SAS2
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1191
+  server: yd-05.paofunlink.com
+  type: ss
+- cipher: rc4-md5
+  delay: 255
+  name: 341,342,642|CN_speednode_0110
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1197
+  server: yd-03.paofunlink.com
+  type: ss
+- cipher: rc4-md5
+  delay: 1497
+  name: 341,342,642|CN_speednode_0122
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1193
+  server: yd-02.paofunlink.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 344|v新加坡01
@@ -4065,6 +4077,111 @@ proxies:
     headers:
       host: v2-2.godlight.xyz
     path: /54f634fs
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 423|🇬 新加坡 101 - 墙了个墙
+  network: grpc
+  password: 12960771-fcf4-3490-b571-c7733d87fe1d
+  port: 11223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 423|🇸🇬 新加坡 102 - 墙了个墙
+  network: grpc
+  password: 12960771-fcf4-3490-b571-c7733d87fe1d
+  port: 21223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 423|🇸🇬 新加坡 103 - 墙了个墙
+  network: grpc
+  password: 12960771-fcf4-3490-b571-c7733d87fe1d
+  port: 31223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 423|🇸🇬 新加坡 104 - 墙了个墙
+  network: grpc
+  password: 12960771-fcf4-3490-b571-c7733d87fe1d
+  port: 41223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 423|🇸🇬 新加坡 105 - 墙了个墙
+  network: grpc
+  password: 12960771-fcf4-3490-b571-c7733d87fe1d
+  port: 51223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 423|🇬 [vip①]新加坡1 - MG Network
+  network: ws
+  port: 23612
+  server: 12.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: efcb70e0-83a4-3133-ac35-d38410671891
+  ws-opts:
+    headers:
+      Host: 12.v2-ray.cyou
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 423|🇸🇬 [vip①]新加坡2 - MG Network
+  network: ws
+  port: 23617
+  server: 17.v2-ray.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: efcb70e0-83a4-3133-ac35-d38410671891
+  ws-opts:
+    headers:
+      Host: 17.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 423|【高级】🇬新加坡 - 滑梯云
+  network: ws
+  port: 20011
+  server: htsub-2024.899696998.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed
+  ws-opts:
+    headers:
+      Host: yyyt-sg-2024.mofaxw.top
+    path: /2024
 - alterId: 0
   cipher: auto
   name: '424|🇸🇬 _SG_新加坡 #1'
@@ -4591,22 +4708,6 @@ proxies:
     headers:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
-- auth: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
-  name: 481|🇸🇬 新加坡-1-1A
-  password: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡1SS移动飞快-1B
-  password: 3eb1ea59-078a-45fa-8e5b-2d36d588783b
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 481|🇸🇬 新加坡02-V4-流媒体-1A
@@ -4616,11 +4717,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f18b5719-c5f5-4c5b-bd23-0bd4a5f6ce08
+  uuid: b81c68a0-4814-45b2-915e-c7353d417140
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡1SS移动飞快-1A
+  password: b81c68a0-4814-45b2-915e-c7353d417140
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
+  udp: true
+- auth: d27eaab3-ffe3-4ddb-a236-6ea757e6497f
+  name: 481|🇸🇬 新加坡-1
+  password: d27eaab3-ffe3-4ddb-a236-6ea757e6497f
+  port: 30001
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: main.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: chacha20-poly1305
   name: 499|🇸🇬 Mahsa-4
