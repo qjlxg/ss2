@@ -1,15 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '2,4,9,12,15,17,20,22,26,28,31,33,36,38,41,43,47,59,74,76,100,228,247,262,264,265,285,288,300,301,302,347,359,361,385,387,396,397,402,408,409,411,425,426,427,630,631,636,645|未知_0914205
+  name: '2,3,4,9,15,17,20,22,26,28,31,33,36,38,41,43,47,48,59,74,76,100,228,247,285,288,347,359,361,385,387,396,397,402,408,409,411,425,426,427,630,631,636,645|未知_0914205
     #1'
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
@@ -17,13 +15,25 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
-- cipher: aes-128-gcm
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,79,262,301|15|🇹🇼 台湾|@ripaojiedian
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11011
-  server: group-south-01.nutbit-node.lat
+  name: 12,231,262,301,387,411,473,494|🇹🇼 台湾|@ripaojiedian
+  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
+  port: 33121
+  server: 14.29.215.158
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12,56,231,262,301,387,411,473,494,580|TW
+  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
+  port: 33114
+  server: cm.guguyun.pw
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' TW'
@@ -33,28 +43,12 @@ proxies:
   server: 2.forlive.live
   type: ss
   udp: true
-- alterId: -1
-  cipher: rc4-md5
-  delay: 507
-  name: 56,231,341,342,642,653|TW_Chang-hua_Akari Networks1
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1178
-  server: yd-03.paofunlink.com
-  type: ss
-- cipher: rc4-md5
-  delay: 230
-  name: 56,341,342,642|CN_speednode_0092
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1172
-  server: yd-05.paofunlink.com
+- cipher: chacha20-ietf-poly1305
+  delay: 713
+  name: 56,341,342,642,653|TW_Taipei_Akile LTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: tw5.mhw7e2.online
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
@@ -63,21 +57,6 @@ proxies:
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20008
   server: jp3.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 928
-  name: 56,341,342,642|CN_speednode_0023
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: 14.215.169.69
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 713
-  name: 56,231,341,342,642,653|TW_Taipei_Akile LTD
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: tw5.mhw7e2.online
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
@@ -95,58 +74,16 @@ proxies:
   port: 20008
   server: tw2.mhw7e2.online
   type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 56,231,642,653|TW_Taipei_Akile
+- cipher: chacha20-ietf-poly1305
+  delay: 928
+  name: 56,341,342,642|CN_speednode_0023
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20008
-  server: sg4.mhw7e2.online
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 1100
-  name: 56,231,341,342,642,653|TW_Taipei_Akile LTD2
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: tw4.mhw7e2.online
+  server: 14.215.169.69
   type: ss
 - cipher: rc4-md5
-  delay: 497
-  name: 56,341,342,642|CN_speednode_0111
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1175
-  server: yd-03.paofunlink.com
-  type: ss
-- cipher: rc4-md5
-  delay: 234
-  name: 56,341,342,642|CN_speednode_0109
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1176
-  server: yd-03.paofunlink.com
-  type: ss
-- cipher: rc4-md5
-  delay: 1447
-  name: 56,341,342,642|CN_speednode_0107
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 0172337335.microsoft.com
-    mode: http
-  port: 1177
-  server: yd-03.paofunlink.com
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
   delay: 1356
-  name: 56,231,341,342,642,653|TW_Chang-hua_Akari Networks
+  name: 56,341,342,642,653|TW_Chang-hua_Akari Networks
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -169,8 +106,54 @@ proxies:
   type: ss
 - alterId: -1
   cipher: rc4-md5
+  delay: 1447
+  name: 56,231,341,342,642|CN_speednode_0107
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1177
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  delay: 507
+  name: 56,231,341,342,642,653|TW_Chang-hua_Akari Networks1
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1178
+  server: yd-03.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
   delay: 234
-  name: 56,231,341,342,642,653|TW_Chang-hua_Akari Networks2
+  name: 56,231,341,342,642|CN_speednode_0109
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1176
+  server: yd-03.paofunlink.com
+  type: ss
+- cipher: rc4-md5
+  delay: 497
+  name: 56,341,342,642|CN_speednode_0111
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1175
+  server: yd-03.paofunlink.com
+  type: ss
+- cipher: rc4-md5
+  delay: 234
+  name: 56,341,342,642,653|TW_Chang-hua_Akari Networks2
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -190,6 +173,32 @@ proxies:
     mode: http
   port: 1170
   server: yd-05.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: rc4-md5
+  delay: 230
+  name: 56,231,341,342,642|CN_speednode_0092
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 0172337335.microsoft.com
+    mode: http
+  port: 1172
+  server: yd-05.paofunlink.com
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 1100
+  name: 56,231,341,342,642,653|TW_Taipei_Akile LTD2
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,642,653|TW_Taipei_Akile
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: sg4.mhw7e2.online
   type: ss
 - alterId: 0
   cipher: auto
@@ -434,7 +443,7 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: '186,187,387,411|TW-61.220.130.70-8227 #1'
+  name: '186,187,387,411|TW-61.220.130.70-8246 #1'
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
@@ -510,7 +519,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '254,347,385,387,396,397,402,408,409,411|TW-1.161.186.146-2140 #1'
+  name: '254,347,385,387,396,397,402,408,409,411|TW-1.161.186.146-2138 #1'
   network: ws
   port: 64443
   server: 1.161.186.146
@@ -654,7 +663,7 @@ proxies:
   uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
 - alterId: 0
   cipher: auto
-  name: '255,347,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2346 #1'
+  name: '255,347,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2344 #1'
   network: ws
   port: 45215
   server: 012.AP.POP.node-for-smallairport.win
@@ -678,7 +687,7 @@ proxies:
   uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
 - alterId: 0
   cipher: auto
-  name: '268,347,385,387,396,397,402,408,409,411|TW-61.228.88.27-0970 #1'
+  name: '268,347,385,387,396,397,402,408,409,411|TW-36.228.195.81-0941 #1'
   network: ws
   port: 40037
   server: duoduotw.cdn-sgp.xyz
@@ -710,6 +719,20 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 906e4d3f-3185-4c23-8464-23cee0da33c3
+- alterId: 0
+  cipher: auto
+  name: 268|台湾 005
+  network: ws
+  port: 16790
+  server: 36.228.195.81
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6a44be4-3a7a-42ed-936f-3ff0427d405c
+  ws-opts:
+    headers:
+      Host: duoduotw.cdn-sgp.xyz
+    path: /
 - alterId: 64
   cipher: auto
   name: '277|🇹🇼TW台湾(youtube阿伟科技) #1'
@@ -976,7 +999,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2216 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2214 #1'
   network: ws
   port: 80
   server: tw1g.jeidian.xyz
@@ -991,7 +1014,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-5068 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-5087 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1006,7 +1029,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5069 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5088 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1021,7 +1044,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5070 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5089 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1036,7 +1059,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5071 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5090 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1051,7 +1074,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5072 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5091 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1454,14 +1477,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 473,494|🇹🇼 台湾2|@ripaojiedian
-  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
-  port: 33114
-  server: cm.guguyun.pw
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 499|v2cross.com - 台湾省花莲县中华电信 4
