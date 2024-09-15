@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,9,16,21,27,32,37,42,47,71,84,123,124,150,228,285,292,347,385,387,390,396,397,402,408,409,411,413,500,516,522,523,541,548,554,555,556,557,558,559,562,567,568,632,645|俄罗斯联邦_0914004
+  name: '3,7,16,21,27,32,37,42,45,71,84,123,124,150,153,228,285,292,347,385,387,390,396,397,402,408,409,411,413,500,516,522,523,541,548,554,555,556,557,558,559,562,567,568,645|俄罗斯联邦_0914004
     #1'
   network: ws
   port: '40045'
@@ -17,16 +17,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,9,16,21,27,32,37,42,47,59,60,320,500,501|NL_分享日记
+  country: RU
+  h2-opts: {}
+  http-opts: {}
+  name: '3,7,9,16,21,27,32,37,42,45,47,56,59,60,105,320,500,501,630,631|RU🇷🇺 | 45.130.147.178-40045
+    | ... #1'
   network: ws
-  port: '40045'
+  port: 40045
   server: 45.130.147.178
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 8039c32b-66b3-424b-8211-65cee0d2adcc
+  uuid: 67a633f7-ef56-47f7-9a39-8c50444d3868
   version: '2'
   ws-opts:
     headers:
@@ -292,7 +296,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '228,241,347,385,396,397,402,408,409,645|荷兰_0914005 #1'
+  name: '228,347,385,396,397,402,408,409,645|荷兰_0914005 #1'
   network: ws
   port: '443'
   server: 188.114.97.8
@@ -646,6 +650,21 @@ proxies:
     path: /footers
 - alterId: 64
   cipher: auto
+  name: '259,347,385,387,396,397,402,408,409,411|🇳🇱NL-46.182.107.46-1763 #1'
+  network: ws
+  port: 443
+  server: 46.182.107.46
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: fe5f69e7-e183-439b-950b-8221ef0651f2
+  ws-opts:
+    headers:
+      Host: www.27430248.xyz
+    path: /footers
+- alterId: 64
+  cipher: auto
   name: '277|🇳🇱NL荷兰(youtube阿伟科技2) #1'
   network: tcp
   port: '45516'
@@ -694,20 +713,6 @@ proxies:
   tls: false
   type: vmess
   uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b
-- cipher: chacha20-ietf-poly1305
-  delay: 2868
-  name: 341,342,642|CN_speednode_0042
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20030
-  server: hk5.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 856
-  name: 341,342,642|CN_speednode_0049
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20030
-  server: 14.215.169.69
-  type: ss
 - alterId: 0
   cipher: auto
   name: 345|TG频道:@hkaa0▓荷兰
@@ -1216,7 +1221,7 @@ proxies:
   ws-path: /Danhuang/Jiang
 - alterId: 0
   cipher: auto
-  name: '476,636|@Vip_Security join us - 534
+  name: '476,636|@Vip_Security join us - 528
 
     '
   network: httpupgrade
