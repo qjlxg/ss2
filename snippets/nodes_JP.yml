@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,4,48,74,76,241,285,288,347,385,387,396,397,402,408,409,411,425,426,427,630,631|RELAY🚩
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,74,347,385,387,396,397,402,408,409,411,630,631|RELAY🚩
     | zqWukzdtjp1.wzjwkqya.... #1'
   network: ws
   port: '80'
@@ -17,22 +17,18 @@ proxies:
     path: /video/RPKZwKFW
 - alterId: 0
   cipher: auto
-  name: '2,4,48,74,76,79,285,288,425,426,427|🇯🇵 14|日本4|@ripaojiedian #4'
+  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,74|11|日本4|@ripaojiedian
   network: tcp
   port: '16718'
   server: relay.gz.flyidc.top
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-headers:
-    Host: relay.gz.flyidc.top
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '12,100,105,153,262,263,264,265,285,300,301,302,347,385,387,396,397,402,408,409,411,472,473,474,494,495,570,575,636|@Vip_Security
+  name: '12,70,76,100,105,153,205,262,263,264,265,285,287,288,300,301,302,347,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,570,575,636|@Vip_Security
     join us - 683
 
     '
@@ -52,7 +48,7 @@ proxies:
     path: /video/VDXcaM7r
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 12,79,262,301,387,411,473,494|🇯🇵 日本2|@ripaojiedian
+  name: 12,70,79,205,262,301,387,411,473,494|🇯🇵 日本2|@ripaojiedian
   password: YCxWVzJ5291c
   port: 6259
   server: 154.205.139.44
@@ -60,7 +56,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,262,301,387,411,473,494|🇯🇵 日本3|@ripaojiedian
+  name: 12,56,70,79,205,262,301,387,411,473,494,610|13|🇯🇵 3|@ripaojiedian
   password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
   port: 33102
   server: 14.29.215.158
@@ -68,7 +64,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,56,79,262,301,387,411,473,494|🇯🇵 日本R|@ripaojiedian
+  name: 12,56,70,79,205,262,301,387,411,473,494|🇯🇵 日本R|@ripaojiedian
   password: hGkQ6915tD
   port: 15084
   server: 103.161.255.195
@@ -76,16 +72,16 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,262,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
+  name: 12,70,79,205,262,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.201.254.211
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  country: ' JP'
-  name: '52,53,54,105,147,171,173,225,228,254,282,347,385,387,388,389,394,397,398,399,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC0zNS43Ny44NS...
-    #12'
+  country: US
+  name: '52,53,54,56,105,147,171,173,225,228,254,282,347,385,387,388,389,394,397,398,399,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC0zNS43Ny44NS...
+    #13'
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: eAokbaDN6
@@ -95,23 +91,17 @@ proxies:
   server: jp-am48-6.eqnode.net
   type: ssr
   udp: true
-- cipher: aes-128-gcm
-  country: ' JP'
-  name: '54,56,79,387,411|🇨🇳CN-111.38.53.158-0980 #1'
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11022
-  server: group-east-01.nutbit-node.lat
-  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_-JP_915
+  name: '56,285,287,425,426,427|🇺🇸 美国 CloudFlare节点 #273'
   network: ws
-  port: 2086
+  port: '2086'
   server: aqerdsf_cdn.hfhfb.homes
+  tls: false
   type: vmess
-  uuid: 3449a86e-e304-45b2-a543-b6d8ef429012
+  uuid: 031f3b28-d2f4-47b2-a258-bd4be1a73889
   ws-opts:
     headers:
       Host: rbcdn.fask511.cfd
@@ -131,40 +121,6 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-JP_1199
-  network: ws
-  port: 2086
-  server: aqerdsf_cdn.hfhfb.homes
-  servername: rbcdn.fask511.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
-  ws-opts:
-    headers:
-      HOST: rbcdn.fask511.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-JP_1216
-  network: ws
-  port: 2086
-  server: 104.19.119.20
-  servername: rbcdn.fask511.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
-  ws-opts:
-    headers:
-      HOST: rbcdn.fask511.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
   name: '56,293|github.com/freefq-美国CloudFlare... #3'
   network: ws
   port: 80
@@ -177,6 +133,24 @@ proxies:
     headers:
       host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56|Relay_ZZ-JP_1107
+  network: ws
+  port: 443
+  server: jp.sharecentre.online
+  servername: jp.sharecentre.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b3e0487b-a8dc-45c1-a2b0-bb745bf97886
+  ws-opts:
+    headers:
+      HOST: jp.sharecentre.online
+    path: /
 - alterId: 64
   cipher: auto
   country: JP
@@ -360,7 +334,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '79,272,285,287,377,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #113'
+  name: '79,241,272,285,287,377,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #113'
   network: tcp
   port: '59442'
   server: 138.2.8.227
@@ -1779,6 +1753,35 @@ proxies:
   server: 7438974b54cf5c57.cdn.jiashule.com
   type: ssr
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 241|94-🇯🇵JP-172.105.223.136-5397-w...
+  network: ws
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRKERS.Dev
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRKERS.dEv
+  tls: true
+  type: vmess
+  uuid: 8964ea79-1422-460e-b6e2-a16e83a22aab
+  ws-opts:
+    headers:
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRKERS.dEv
+    path: /www.microsoft.com:443/
+- alterId: 0
+  cipher: auto
+  name: '241,347,385,387,396,397,402,408,409,411|🇵JP-147.78.244.7-5578 #1'
+  network: ws
+  port: 443
+  server: 147.78.244.7
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c2907a9a-5024-41fd-be3c-30885585e3ef
+  ws-opts:
+    headers:
+      Host: virmach.qweasdzxc.gq
+    path: /
 - alterId: 1
   cipher: auto
   name: '253|%f0%9f%87%af%f0%9f%87%b5%20Jap... #2'
@@ -2772,7 +2775,7 @@ proxies:
   up: 500
 - alterId: 0
   cipher: auto
-  name: '314|🔒🇯🇵 JP 132.226.10.228 ◈ ws:443... #1'
+  name: 314|🔒🇯🇵 JP 132.226.10.228 ◈ ws:443...
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -2786,7 +2789,21 @@ proxies:
     path: /?ed=1024
 - alterId: 0
   cipher: auto
-  name: '314|🇯🇵 JP 132.226.10.228 ◈ ws:80 ◈... #1'
+  name: 314|🇯🇵 JP 132.226.10.228 ◈ ws:80 ◈...
+  network: ws
+  port: 80
+  server: speed.cloudflare.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
+  ws-opts:
+    headers:
+      Host: rbcdn.fask511.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '314|🇯🇵 JP 132.226.10.228 ◈ ws:80 ◈... #2'
   network: ws
   port: 80
   server: speed.cloudflare.com
@@ -3099,21 +3116,6 @@ proxies:
   type: vmess
   uuid: a12e496e-f89a-434a-8011-108846f0e412
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇵JP-147.78.244.7-5578 #1'
-  network: ws
-  port: 443
-  server: 147.78.244.7
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: c2907a9a-5024-41fd-be3c-30885585e3ef
-  ws-opts:
-    headers:
-      Host: virmach.qweasdzxc.gq
     path: /
 - alterId: 0
   cipher: auto
@@ -4761,18 +4763,18 @@ proxies:
     headers:
       Host: do9.yyhm9.com
     path: /das321S8
-- auth: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
-  name: 481|🇯🇵 日本-2
-  password: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
+- auth: 72d2e99c-f410-43fe-ab05-c29746f79d14
+  name: 481|🇯🇵 日本-2-1B
+  password: 72d2e99c-f410-43fe-ab05-c29746f79d14
   port: 30001
   server: oracle-amd-osaka1.lanmaoyun.icu
   skip-cert-verify: false
   sni: osaka.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
-- auth: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
-  name: 481|🇯🇵 日本-1
-  password: f4f09c1a-5a6a-4764-83e5-78cf2f3673b7
+- auth: 72d2e99c-f410-43fe-ab05-c29746f79d14
+  name: 481|🇯🇵 日本-1-1B
+  password: 72d2e99c-f410-43fe-ab05-c29746f79d14
   port: 30001
   server: oracle-amd-tokyo1.lanmaoyun.icu
   skip-cert-verify: false
