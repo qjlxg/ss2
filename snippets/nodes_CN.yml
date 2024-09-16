@@ -16,17 +16,10 @@ proxies:
   ws-path: /
 - cipher: chacha20-ietf-poly1305
   country: ' CN'
-  name: 54,56| CN_947
+  name: 54|ChatGPT  CN_20
   password: a185c4ea-c4c4-4adb-b458-cd6feb02da9c
   port: 51112
   server: b.naiun.node-is.green
-  type: ss
-- cipher: rc4-md5
-  country: CN
-  name: 56|CN_949
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 61.171.112.82
   type: ss
 - alterId: -1
   cipher: rc4-md5
@@ -35,6 +28,13 @@ proxies:
   password: uYhVA160ZoSg3AI5
   port: 6700
   server: 36.134.115.217
+  type: ss
+- cipher: rc4-md5
+  country: CN
+  name: 56|CN_736
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 61.171.112.82
   type: ss
 - alterId: -1
   cipher: rc4-md5
@@ -49,23 +49,10 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '56,231,232|CH😈github.com/Ruk1ng001_543224... #1'
+  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_543224... #1'
   network: tcp
   port: 50002
   server: 112.132.215.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '56,161,162,231,232|CN😈github.com/Ruk1ng001_-15094... #1'
-  network: tcp
-  port: 50002
-  server: 114.55.132.202
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -85,10 +72,23 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '56,161,162,231,232|CN😈github.com/Ruk1ng001_-15094... #1'
+  network: tcp
+  port: 50002
+  server: 114.55.132.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: '56,161,162|Github搜索TrojanLinks #48'
+  name: '56,161,162|Github搜索TrojanLinks #85'
   network: tcp
   port: '59003'
   server: 183.236.51.36
@@ -98,7 +98,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   country: CN
-  name: '57,90,96|Pool__02 #1'
+  name: '57,90,96|Pool__01 #1'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -107,19 +107,9 @@ proxies:
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.102
   type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 57|Relay_CN-CN_12
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 2338:9tQfxMX(0S;40f
-  server: cmlayer6.standurls.co
-  type: ssr
 - cipher: aes-256-cfb
   country: CN
-  name: '57,90,96|Pool__01 #1'
+  name: '57,90,96|Pool__02 #1'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -127,6 +117,16 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 165400:Hr2aXO
   server: 222.186.20.24
+  type: ssr
+- cipher: chacha20-ietf
+  country: CN
+  name: 57|Relay_CN-CN_13
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 2338:9tQfxMX(0S;40f
+  server: cmlayer6.standurls.co
   type: ssr
 - alterId: 0
   cipher: auto
@@ -934,7 +934,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '100,141,150,247,285,286,347,617,618,636|@Vip_Security join us - 574
+  name: '100,141,150,247,285,286,347,617,618,636|@Vip_Security join us - 573
 
     '
   network: tcp
@@ -946,13 +946,35 @@ proxies:
   uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
 - alterId: 64
   cipher: auto
-  name: "100,141,150,247,285,286,347,561,567,568,570,580,581,617,618,636|@Vip_Security\
+  name: "100,141,150,226,247,285,286,347,561,567,568,570,580,581,617,618,636|@Vip_Security\
     \ join us - 389\n #1"
   network: tcp
   port: '45020'
   server: 183.236.51.23
   servername: ''
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: "100,128,141,150,226,247,285,286,347,561,567,568,570,617,618,636|@Vip_Security\
+    \ join us - 390\n #2"
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: "100,141,150,226,247,285,286,347,561,567,568,617,618,636|@Vip_Security join\
+    \ us - 395\n #1"
+  network: tcp
+  port: '40890'
+  server: 183.238.90.3
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -2416,7 +2438,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: '173,272|未命名 #215'
+  name: '173,272|未命名 #224'
   network: tcp
   port: 53900
   server: jpgithub.edgehelper.com
@@ -4762,6 +4784,13 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 225|🇨🇳 CN 454 → tg@nicevpn123
+  password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
+  port: 24785
+  server: zar.capoonetwork.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   name: 225|🇨🇳 CN 455 → tg@nicevpn123
   password: dbEcUJ
@@ -5157,32 +5186,35 @@ proxies:
   server: 211.99.97.10
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '231,232|CN😈github.com/Ruk1ng001_891881... #1'
-  network: tcp
-  port: 41490
-  server: 183.236.48.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '231,232|CN😈github.com/Ruk1ng001_-17022... #1'
-  network: tcp
-  port: 43920
-  server: 183.238.90.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 1054
+  name: 231,341,342,642|CN_speednode_0040
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20028
+  server: 14.215.169.69
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 231,642|CN_speednode_0020
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20025
+  server: 14.215.169.69
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 231,642|CN_speednode_0078
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: 14.215.169.69
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 231,642|CN_speednode_0072
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: 14.215.169.69
+  type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 231|CN😈github.com/Ruk1ng001_132629...
@@ -5202,6 +5234,22 @@ proxies:
   name: 231,642|CN_speednode_0034
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20015
+  server: 14.215.169.69
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 928
+  name: 231,322,341,342,642|CN_speednode_0049
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20030
+  server: 14.215.169.69
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 231,642|CN_speednode_0050
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20016
   server: 14.215.169.69
   type: ss
 - alterId: -1
@@ -7362,8 +7410,10 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: "255,296,343,347,385,387,396,397,402,408,409,411,475,636|@Vip_Security join\
-    \ us - 435\n #1"
+  name: '255,296,343,347,385,387,396,397,402,408,409,411,475,636|@Vip_Security join
+    us - 435
+
+    '
   network: ws
   port: 443
   server: 185.162.228.229
@@ -7641,16 +7691,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
-  cipher: auto
-  name: 277|github.com/freefq - 广东省佛山市移动 2...
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
 - cipher: aes-128-gcm
   name: 293|github.com/freefq-广东省移动28
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNjY1YzVkMC03N2MwLTQxOTYtYmM4ZC1mMDQ1MGU5YzY2NWI
@@ -8960,7 +9000,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '377,424|未命名 #313'
+  name: '377,424|未命名 #322'
   network: ws
   port: '53022'
   server: 47.93.231.218
@@ -9538,7 +9578,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '435,451,636|@Vip_Security join us - 539
+  name: '435,451,636|@Vip_Security join us - 538
 
     '
   network: tcp
@@ -11804,7 +11844,9 @@ proxies:
   uuid: 798c4ab8-613f-468f-b3ff-daf43c88aad7
 - alterId: 0
   cipher: auto
-  name: "497,636|@Vip_Security join us - 418\n #1"
+  name: '497,636|@Vip_Security join us - 418
+
+    '
   network: tcp
   port: '21006'
   server: 183.232.199.28
@@ -11823,16 +11865,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
-- alterId: 64
-  cipher: auto
-  name: '570|广东省广州市 移动 #1'
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   name: 584|🇨🇳 中国 3
   password: 7fd4c200-368b-415c-8612-d04eae7941e3
@@ -11855,6 +11887,132 @@ proxies:
     headers:
       Host: cm.awslcn.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0021
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20025
+  server: jp2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0030
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: jp2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0033
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: sg1.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0035
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20029
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0038
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: jp3.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0039
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20021
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0048
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20027
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0051
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20016
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0058
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20017
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0060
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0066
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: sg3.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0067
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20005
+  server: hk1.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0069
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0074
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20005
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0075
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0076
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20002
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0077
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20002
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0080
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0081
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20005
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642,653|TW_Taipei_Akile
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: sg4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|CN_speednode_0084
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: sg3.mhw7e2.online
+  type: ss
 - cipher: rc4-md5
   name: 642|CN_speednode_0085
   password: Paofu
