@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12,79,262,301,387,411,473,494,580|TW
+  name: 12,79,262,301,387,390,411,473,494,580|TW
   password: 901309dd-566b-4725-8877-11901fba992f
   port: 11009
   server: group-south-01.nutbit-node.lat
@@ -10,12 +10,29 @@ proxies:
   tfo: false
   tls: true
   type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 761
+  name: 56,231,322,341,342,642|CN_speednode_0023
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: 14.215.169.69
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,322,642,653|TW_Taipei_Akile LTD1
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: hk5.mhw7e2.online
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 54,56,225|🇪🇸 ES 20 → tg@nicevpn123
-  password: 835d21b0-5322-4a77-8aff-4aff633642b0
-  port: 61005
-  server: 2.forlive.live
+  delay: 594
+  name: 56,322,341,342,642,653|TW_Taipei_Akile LTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: tw5.mhw7e2.online
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -38,31 +55,6 @@ proxies:
   port: 20008
   server: tw2.mhw7e2.online
   type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 56,231,322,642,653|TW_Taipei_Akile LTD1
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: hk5.mhw7e2.online
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 594
-  name: 56,322,341,342,642,653|TW_Taipei_Akile LTD
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: tw5.mhw7e2.online
-  type: ss
-  udp: true
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 761
-  name: 56,231,322,341,342,642|CN_speednode_0023
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: 14.215.169.69
-  type: ss
-  udp: true
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 56,231,642,653|TW_Taipei_Akile1
@@ -218,8 +210,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '150,220,247,253,285,292,548,554,557,562,567,569|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17...
-    #8'
+  name: '150,220,247,253,285,292,548,554,562,567,569|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17...
+    #7'
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -339,7 +331,7 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: '186,187,387,411|TW-61.220.130.70-8343 #1'
+  name: '186,187,387,411|TW-61.220.130.70-8277 #1'
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
@@ -388,7 +380,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '254,347,385,387,396,397,402,408,409,411|TW-1.161.186.146-2232 #1'
+  name: '254,347,385,387,396,397,402,408,409,411|TW-1.161.186.146-2169 #1'
   network: ws
   port: 64443
   server: 1.161.186.146
@@ -532,7 +524,7 @@ proxies:
   uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
 - alterId: 0
   cipher: auto
-  name: '255,347,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2438 #1'
+  name: '255,347,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2375 #1'
   network: ws
   port: 45215
   server: 012.AP.POP.node-for-smallairport.win
@@ -606,10 +598,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 268|台湾 006
+  name: '268,387,411|🇹🇼TW-61.228.87.148-0999 #1'
   network: ws
   port: 16301
   server: 61.228.87.148
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -868,12 +861,11 @@ proxies:
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇼TW-61.228.90.35-0996 #1'
+  name: '347,385,396,397,402,408,409|🇹🇼TW-61.228.90.35-0996 #6'
   network: ws
   port: 19600
   server: 61.228.90.35
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: e837ebe9-95bf-48d0-8b4a-30a3ba5894ef
@@ -899,7 +891,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2308 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2245 #1'
   network: ws
   port: 80
   server: tw1g.jeidian.xyz
@@ -914,7 +906,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-5184 #1'
+  name: '347,385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-5118 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -929,7 +921,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5185 #8'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5119 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -944,7 +936,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5186 #8'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5120 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -959,7 +951,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5187 #8'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5121 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -974,7 +966,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5188 #8'
+  name: '347,385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-5122 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1019,7 +1011,7 @@ proxies:
   uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
 - alterId: 0
   cipher: auto
-  name: '435,451,636|@Vip_Security join us - 501
+  name: '435,451,636|@Vip_Security join us - 503
 
     '
   network: ws
@@ -1378,15 +1370,15 @@ proxies:
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇹🇼 台湾 1-1A
-  password: bd75c5e9-0e12-4123-8a93-faf34b87561a
+  name: 481|🇹🇼 台湾 1-1B
+  password: 4608109d-0cd2-474d-b765-ed5894cdf8c6
   port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 481|🇹🇼 台湾01-1A
-  password: bd75c5e9-0e12-4123-8a93-faf34b87561a
+  password: 329cd412-d8ec-4a5d-ad27-26fe76987851
   port: 47564
   server: gy.666666222.shop
   type: ss
