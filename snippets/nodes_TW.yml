@@ -2,7 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,48,60,61,74,76,94,100,105,153,205,241,247,262,263,264,265,285,287,300,301,302,347,359,361,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,660,661|🇺🇲
+  h2-opts: {}
+  http-opts: {}
+  name: 12,48,56,60,61,74,76,94,100,105,153,205,227,241,247,262,263,264,265,285,288,300,301,302,347,359,361,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,660,661|🇺🇲
     美国【付费推荐：https://a0a.xyz】134
   network: ws
   port: 2052
@@ -25,6 +27,29 @@ proxies:
   server: ct2.xcone.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 54,79|RELAY-172.67.182.35-257
+  network: ws
+  port: 443
+  server: lanlan.lancdn.vip
+  servername: lanlan.lancdn.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 40bb08db-d656-4b26-a8c0-3abc2731be6c
+  ws-headers:
+    Host: lanlan.lancdn.vip
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 56,642,653|TW_Taipei_Akile LTD
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: tw5.mhw7e2.online
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 56,642,653|TW_Taipei_Akile1
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
@@ -46,12 +71,6 @@ proxies:
   port: 20008
   server: tw4.mhw7e2.online
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56,653|TW_Taipei_Akile
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: sg4.mhw7e2.online
-  type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   delay: 1835
@@ -60,37 +79,20 @@ proxies:
   port: 20008
   server: tw2.mhw7e2.online
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1825
-  name: 56,341,342,653|TW_Taipei_Akile LTD1
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: hk5.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56,642,653|TW_Taipei_Akile LTD
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20008
-  server: tw5.mhw7e2.online
-  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: '56,71,150,247,268,285,347,385,387,388,389,390,396,397,398,399,402,408,409,411|🏁RELAY-172.67.182.35-0996
-    #14'
+  name: 56,642|CN_speednode_0046
   network: ws
-  port: 443
-  server: lanlan.lancdn.vip
-  servername: ''
-  skip-cert-verify: false
+  port: 12945
+  server: z2.fragranceninja.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 40bb08db-d656-4b26-a8c0-3abc2731be6c
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
-    headers:
-      Host: lanlan.lancdn.vip
     path: /
 - alterId: 0
   cipher: auto
@@ -109,18 +111,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56,642|CN_speednode_0046
+  name: '56,227|美国 CloudFlare节点 #51'
   network: ws
-  port: 12945
-  server: z2.fragranceninja.com
+  port: 443
+  server: lanlan.lancdn.vip
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 40bb08db-d656-4b26-a8c0-3abc2731be6c
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -132,19 +136,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- alterId: 0
-  cipher: auto
-  name: 79|TW-152.32.229.149-127
-  network: ws
-  port: 443
-  server: 152.32.229.149
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-headers:
-    Host: diamonds-july-egg-sporting.trycloudflare.com
-  ws-path: /
 - alterId: '0'
   cipher: auto
   name: 80|[🇹🇼]103.131.189.212:56967(8110...
@@ -904,7 +895,7 @@ proxies:
   uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
 - alterId: 0
   cipher: auto
-  name: '435,451,636|@Vip_Security join us - 497
+  name: '435,451,636|@Vip_Security join us - 494
 
     '
   network: ws
@@ -1263,16 +1254,16 @@ proxies:
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇹🇼 台湾 1
-  password: 5a0a50b9-e23a-4527-ad26-2f2b355b1837
-  port: 20032
+  name: 481|🇹🇼 台湾01-1B
+  password: c785bba2-7700-4d04-bb80-68014f72d173
+  port: 47564
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇹🇼 台湾01
+  name: 481|🇹🇼 台湾 1-1A
   password: 5a0a50b9-e23a-4527-ad26-2f2b355b1837
-  port: 47564
+  port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
@@ -1414,6 +1405,12 @@ proxies:
     mode: http
   port: 1173
   server: yd-02.paofunlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 653|TW_Taipei_Akile
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20008
+  server: sg4.mhw7e2.online
   type: ss
 - cipher: rc4-md5
   name: 653|TW_Chang-hua_Akari Networks1
