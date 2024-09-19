@@ -1,7 +1,39 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 12,70,79,205,262,301,387,411,473,494|🇯🇵 日本2|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 107.148.4.152
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 12,70,79,205,262,301,387,411,473,494|🇯🇵 日本3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 104.219.209.231
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12,56,70,79,205,262,301,387,411,473,494|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12,70,79,205,262,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.74
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '3,16,21,27,32,37,42|JP_R?_39029 #6'
+  name: '32,42|JP_R?_39029 #1'
   network: ws
   port: 80
   server: kr03.jocelynfree.buzz
@@ -14,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,16,21,27,32,37,42,575|sws-1044-2024-08-28_134135
+  name: 32,42,575|sws-1044-2024-08-28_134135
   network: ws
   port: 2095
   server: qxcstxwbcvb_cdn.hfhfb.homes
@@ -27,44 +59,25 @@ proxies:
     headers:
       Host: krcdn.fask511.cfd
     path: /
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 12,301,387,411,473,494|🇯🇵 日本2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 107.148.4.152
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 12,301,387,411,473,494|🇯🇵 日本3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 104.219.209.231
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12,56,70,79,205,262,301,387,411,473,494,610|13|🇯🇵 R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 103.161.255.195
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.74
-  tfo: false
-  type: ss
+  country: US
+  name: '52,53,54,56,105,147,171,173,254,282,385,387,388,389,394,397,398,399,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC0zLjExMi4yMD...
+    #12'
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: eAokbaDN6
+  port: '8081'
+  protocol: origin
+  protocol-param: ''
+  server: jp-am48-6.eqnode.net
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 52|Relay_ JP-JP_512
+  name: 52|Relay_ JP-JP_510
   network: ws
   port: 443
   server: tls.84.node-for-bigairport.win
@@ -77,12 +90,19 @@ proxies:
     headers:
       HOST: tls.84.node-for-bigairport.win
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' JP'
+  name: 54|ChatGPT Relay  JP_261
+  password: dc6eda41-d81f-4aef-972e-bf0c09672e46
+  port: 42031
+  server: 120.232.81.12
+  type: ss
 - alterId: 0
   cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 54| JP_272
+  name: 54| JP_264
   network: ws
   port: 443
   server: tls.84.node-for-bigairport.win
@@ -99,7 +119,7 @@ proxies:
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 54|ChatGPT  JP_273
+  name: 54|ChatGPT  JP_267
   network: ws
   port: 443
   server: tls.99.node-for-bigairport.win
@@ -110,23 +130,6 @@ proxies:
   uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
   ws-headers:
     HOST: tls.99.node-for-bigairport.win
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: ' JP'
-  h2-opts: {}
-  http-opts: {}
-  name: 54| JP_274
-  network: ws
-  port: 443
-  server: tls.85.node-for-bigairport.win
-  servername: tls.85.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-headers:
-    HOST: tls.85.node-for-bigairport.win
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -143,6 +146,71 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
+- name: 56,473,642|JP_speednode_0156
+  network: ws
+  password: 95b
+  port: 31005
+  server: 149.62.44.224
+  skip-cert-verify: true
+  sni: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: 56,473,642|JP_speednode_0155
+  network: ws
+  password: 95b
+  port: 44004
+  server: 109.107.137.22
+  skip-cert-verify: true
+  sni: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: 56,473,642|JP_speednode_0157
+  network: ws
+  password: 95b
+  port: 4433
+  server: 103.150.8.172
+  skip-cert-verify: true
+  sni: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: 56,473,642|JP_speednode_0158
+  network: ws
+  password: 95b
+  port: 19357
+  server: 5.226.51.75
+  skip-cert-verify: true
+  sni: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: 56,473,642|JP_speednode_0161
+  network: ws
+  password: 95b
+  port: 5207
+  server: 195.245.242.190
+  skip-cert-verify: true
+  sni: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - cipher: aes-256-cfb
   country: JP
   name: 56,86|SlAt5pel5pysLeS4nOS6rC0yNTAtdG...
@@ -169,14 +237,139 @@ proxies:
     headers:
       Host: ip5-4.freegradely.xyz
     path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: '70,79,205,262,387,411|JP-43.207.213.253-1031 #1'
-  password: amazonskr05
-  port: 443
-  server: 43.207.213.253
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇵JP-89.31.126.150-0156 #1'
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.150
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇵JP-45.66.134.176-0157 #1'
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0158 #1'
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-89.31.126.150-0159 #1'
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 89.31.126.150
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-185.160.24.217-0160 #1'
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.160.24.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇵JP-185.160.24.217-0161 #1'
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 185.160.24.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0162 #1'
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65,387,411,587|[02-24]-🇵-日本-055-185.160.24.21...
+  password: GyBwPWH3Vao
+  port: 811
+  server: 185.160.24.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,190,387,411,637|🇯🇵 日本-ss-45.66.134.176811-被墙-中... #1'
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0165 #1'
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0166 #1'
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,303,387,411|🇯🇵JP-89.31.126.171-0167 #1'
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 89.31.126.171
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0168 #1'
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-45.66.134.176-0169 #1'
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇵JP-185.160.24.217-0170 #1'
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 185.160.24.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-185.160.24.217-0171 #1'
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 185.160.24.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇵JP-45.66.134.176-0172 #1'
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 45.66.134.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65,387,411|🇯🇵JP-185.160.24.217-0173 #1'
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 185.160.24.217
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 65|🇯🇵 Relay_🇯🇵JP-🇯🇵JP_384
+  network: ws
+  port: 443
+  server: vjp1.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vjp1.0bad.com
+  ws-path: /chat
+- alterId: 0
+  cipher: auto
+  name: 65|🇯🇵 Relay_🇯🇵JP-🇯🇵JP_385
+  network: ws
+  port: 443
+  server: vjp3.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vjp3.0bad.com
+  ws-path: /chat
 - cipher: chacha20-ietf
   name: '71,373,387,390,411|🇵JP-154.205.139.44-0586 #1'
   password: YCxWVzJ5291c
@@ -207,10 +400,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '79,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #42'
+  name: '79,241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #42'
   network: tcp
   port: '21008'
   server: 167.179.98.62
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -245,10 +439,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '79,285,287,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #156'
+  name: '79,241,285,287,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #156'
   network: tcp
   port: '33226'
   server: 152.69.204.193
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -365,19 +560,6 @@ proxies:
     headers:
       Host: ''
     path: /bb
-- alterId: 0
-  cipher: auto
-  name: 94|🇯🇵 JP_528
-  network: ws
-  port: 443
-  server: tls.84.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.84.node-for-bigairport.win
-    path: /
 - name: 119|🇯🇵JP(AzadNet.t.me)_003
   network: tcp
   password: 18844@zxcvbn
@@ -766,6 +948,16 @@ proxies:
     headers:
       Host: yxtw.651568.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 183|日本_121320014
+  network: ''
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 183|日本_121320022
@@ -1246,64 +1438,73 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 241|102-🇯🇵 日本(油管:破解资源君2.0)-worker
+  name: 241|89-🇯🇵 日本(油管:破解资源君2.0)-worker
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRKERs.DEv
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKeRs.dEv
-  tls: true
-  type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
-  ws-opts:
-    headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKeRs.dEv
-    path: /jp1.3320.top:443/
-- alterId: 0
-  cipher: auto
-  name: 241|105-🇯🇵 日本(油管:破解资源君2.0)-worker
-  network: ws
-  port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRKERs.DEv
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKers.dev
-  tls: true
-  type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
-  ws-opts:
-    headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKers.dev
-    path: /jp2.3320.top:443/
-- alterId: 0
-  cipher: auto
-  name: 241|107-🇯🇵 日本(油管:破解资源君2.0)-worker
-  network: ws
-  port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRKERs.DEv
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.workErs.dEV
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrkErs.DEv
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKers.deV
   tls: true
   type: vmess
   uuid: 33923652-674a-43a0-a23a-e2c4b8821ac5
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.workErs.dEV
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKers.deV
     path: /jp1.fkfirewall.top:443/run
 - alterId: 0
   cipher: auto
-  name: '241,285,287,385,387,396,397,402,408,409,411,425,426,427,636|@Vip_Security
-    join us - 248
-
-    '
+  name: 241|105-🇯🇵 日本(油管:破解资源君2.0)-worker
   network: ws
-  port: '27675'
-  server: 146.56.40.117
-  servername: ''
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrkErs.DEv
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKeRS.dEV
+  tls: true
   type: vmess
-  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  uuid: 39829295-82d2-47e3-adca-9c9953573323
   ws-opts:
     headers:
-      Host: 146.56.40.117
-    path: /
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKeRS.dEV
+    path: /jp2.3320.top:443/
+- alterId: 0
+  cipher: auto
+  name: 241|115-🇯🇵 日本(油管:破解资源君2.0)-worker
+  network: ws
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrkErs.DEv
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkErs.dev
+  tls: true
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  ws-opts:
+    headers:
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkErs.dev
+    path: /jp1.3320.top:443/
+- alterId: 0
+  cipher: auto
+  name: '241,385,387,396,397,402,408,409,411|JP-138.2.52.244-8027 #1'
+  network: ws
+  port: 443
+  server: 138.2.52.244
+  servername: lg30.cfcdn3.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #43'
+  network: ws
+  port: '443'
+  server: jp1.fkfirewall.top
+  servername: jp1.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 33923652-674a-43a0-a23a-e2c4b8821ac5
+  ws-opts:
+    headers:
+      Host: jp1.fkfirewall.top
+    path: /run
 - alterId: 0
   cipher: auto
   name: 254|🇯🇵_JP_日本_1_0@8
@@ -2004,19 +2205,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #43'
-  network: ws
-  port: '443'
-  server: jp1.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 33923652-674a-43a0-a23a-e2c4b8821ac5
-  ws-opts:
-    headers:
-      Host: jp1.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
   name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #37'
   network: ws
   port: '443'
@@ -2055,6 +2243,24 @@ proxies:
     headers:
       Host: 172.104.70.195
     path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '285,287,385,387,396,397,402,408,409,411,425,426,427,636|@Vip_Security join
+    us - 248
+
+    '
+  network: ws
+  port: '27675'
+  server: 146.56.40.117
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  ws-opts:
+    headers:
+      Host: 146.56.40.117
+    path: /
 - cipher: aes-128-gcm
   name: 293|_JP_
   password: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
@@ -2726,115 +2932,6 @@ proxies:
   uuid: f1f45005-f074-430b-a4db-7109f50c3bce
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '385,387,396,397,402,408,409,411|JP-138.2.52.244-8027 #1'
-  network: ws
-  port: 443
-  server: 138.2.52.244
-  servername: lg30.cfcdn3.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    path: /ray
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇵JP-89.31.126.150-0156 #1'
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.150
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇵JP-45.66.134.176-0157 #1'
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0158 #1'
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-89.31.126.150-0159 #1'
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 89.31.126.150
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-185.160.24.217-0160 #1'
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 185.160.24.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇵JP-185.160.24.217-0161 #1'
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 185.160.24.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0162 #1'
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 387,411,587|[02-24]-🇵-日本-055-185.160.24.21...
-  password: GyBwPWH3Vao
-  port: 811
-  server: 185.160.24.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0165 #1'
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0166 #1'
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0168 #1'
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-45.66.134.176-0169 #1'
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇵JP-185.160.24.217-0170 #1'
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 185.160.24.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-185.160.24.217-0171 #1'
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 185.160.24.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇵JP-45.66.134.176-0172 #1'
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 45.66.134.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '387,411|🇯🇵JP-185.160.24.217-0173 #1'
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 185.160.24.217
-  type: ss
 - cipher: aes-256-cfb
   name: '387,411|🇵JP-172.104.123.158-0784 #1'
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
@@ -2852,6 +2949,12 @@ proxies:
   password: 233blog.com
   port: 443
   server: 20.210.122.21
+  type: ss
+- cipher: aes-256-cfb
+  name: '387,411|JP-43.207.213.253-1031 #1'
+  password: amazonskr05
+  port: 443
+  server: 43.207.213.253
   type: ss
 - cipher: aes-256-gcm
   name: '387,411|🇵JP-85.208.108.60-3146 #1'
@@ -4710,74 +4813,8 @@ proxies:
     headers:
       Host: ''
     path: /ct/sh2/jp2
-- cipher: aes-256-cfb
-  name: 653|JP_Tokyo_Amazon.com
-  password: amazonskr05
-  port: 443
-  server: 43.207.97.129
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Tokyo_Oracle Corporation
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 43129
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-256-cfb
-  name: 653|JP_Tokyo_Amazon.com, Inc.
-  password: amazonskr05
-  port: 443
-  server: 54.248.201.218
-  type: ss
-- cipher: aes-256-cfb
-  name: 653|JP_Tokyo_Amazon Technologies I...
-  password: amazonskr05
-  port: 443
-  server: 3.112.43.239
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Tokiwa_NTT PC Communication...
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 31240
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Inzai_Oracle Cloud
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 32779
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Inzai_Oracle Cloud1
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 23543
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Nagano_JMF Investment & Tec...
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 31745
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-128-gcm
-  name: 653|JP_Koganei_NPO G
-  password: 23cb198c-8ea0-4a25-aaa4-3ce5eb0abe9c
-  port: 35667
-  server: gzyd.0o0o0.click
-  type: ss
-- cipher: aes-256-cfb
-  name: 653|JP_Tokyo_Amazon.com1
-  password: amazonskr05
-  port: 443
-  server: 54.199.114.179
-  type: ss
-- cipher: aes-256-cfb
-  name: 653|JP_Tokyo_Amazon.com2
-  password: amazonskr05
-  port: 443
-  server: 54.150.237.237
-  type: ss
 - cipher: rc4-md5
-  name: 653|JP_Tokyo_SAKURA Internet Inc.
+  name: 653|JP_Tokyo_SAKURA Internet Inc.2
   obfs: plain
   obfs-param: 8195986416.6602b8463464108506.microsoft.com
   password: ENZ52K
