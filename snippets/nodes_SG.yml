@@ -3,14 +3,14 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 852
-  name: 2,4,15,17,48,341,342,385,387,396,397,402,408,409,411,630,631,645,649|俄罗斯联邦_0920003
+  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,341,342,385,387,396,397,402,408,409,411,630,631,645|香港_0920012
   network: ws
   port: '10002'
   server: yxvmsglux01.naizi.vip
-  servername: yxvmsglux01.naizi.vip
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
   ws-opts:
@@ -19,7 +19,7 @@ proxies:
     path: /nishidashabi
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  country: 🇨CN
+  country: 🇨🇳CN
   name: 12,56,79,89,262,301,387,411,473,494|🇸🇬 新加坡|@ripaojiedian
   password: 7e4a5437-9a8f-49d2-9061-11b6d5006d7e
   port: 11014
@@ -29,7 +29,8 @@ proxies:
 - alterId: -1
   cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,56,79,231,262,301,387,411,473,494|🇸🇬 狮城特殊|@ripaojiedian
+  country: 🇸US
+  name: 12,79,89,231,262,301,387,411,473,494,610|13|🇸🇬 |@ripaojiedian
   password: amazonskr05
   port: 443
   server: 47.129.53.7
@@ -90,10 +91,19 @@ proxies:
     path: /stream
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  name: 56,231,642|CN_speednode_0040
+  delay: 652
+  name: 56,231,341,342,642|CN_speednode_0032
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
-  server: jp1.mhw7e2.online
+  server: tw4.mhw7e2.online
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  delay: 1793
+  name: 56,231,341,342,642|CN_speednode_0045
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg2.mhw7e2.online
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
@@ -105,29 +115,33 @@ proxies:
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  delay: 652
-  name: 56,231,341,342,642|CN_speednode_0032
+  delay: 320
+  name: 56,231,341,342,642|CN_speednode_0041
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
-  server: tw4.mhw7e2.online
+  server: tw5.mhw7e2.online
   type: ss
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 56|Relay_ZZ-SG_1013
-  network: ws
-  port: 2095
-  server: apivgbndf_cdn.hfhfb.homes
-  servername: sgcdn.fask511.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5ee82cd1-f566-4d18-8d3a-4647f1fb2ba0
-  ws-opts:
-    headers:
-      HOST: sgcdn.fask511.cfd
-    path: /?ed=1024
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0040
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: jp1.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1253
+  name: 56,341,342,642|CN_speednode_0044
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 722
+  name: 56,341,342,642|CN_speednode_0043
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: sg5.mhw7e2.online
+  type: ss
 - alterId: 0
   cipher: auto
   name: 64|新加坡 Linode数据中心
@@ -643,11 +657,12 @@ proxies:
   server: 13.213.46.196
   type: ss
 - cipher: aes-256-cfb
-  name: '79,249,387,411|🇸🇬SG-54.251.168.143-1561 #1'
+  name: '79,225,249,387,411|🇸🇬SG-54.251.168.143-1561 #1'
   password: amazonskr05
   port: 443
   server: 54.251.168.143
   type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 79,249|🇸🇬SG-159.223.94.156-176_1@176
@@ -730,24 +745,6 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
-- alterId: 0
-  cipher: auto
-  country: 🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: '89,231,232|Other😈github.com/Ruk1ng001_-30... #1'
-  network: ws
-  port: 443
-  server: n1721189676.ryjml.cn
-  servername: n1721189676.ryjml.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8238c168-a9dc-4f63-8086-9109768a20ab
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 99|SG_youtube@资源分享师_38
@@ -1285,15 +1282,17 @@ proxies:
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
 - alterId: 0
   cipher: auto
-  name: 183,610|🇸🇬 新加坡_121320004
+  name: 183|新加坡_121320004
   network: ws
-  port: 2
+  port: '2'
   server: 207.148.77.215
   servername: ''
   tls: false
   type: vmess
   uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -1701,6 +1700,255 @@ proxies:
     headers:
       Host: TG.WangCai_1
     path: /gateway/connect
+- cipher: aes-256-cfb
+  name: 225,319|🇸🇬 新加坡_162
+  password: amazonskr05
+  port: '443'
+  server: 13.250.61.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 11 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20177
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225,319|❓ 未知_76
+  password: amazonskr05
+  port: '443'
+  server: 13.229.184.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 14 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.179.101.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225,319|🇸🇬 新加坡_200
+  password: amazonskr05
+  port: '443'
+  server: 52.221.231.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225,319|❓ 未知_127
+  password: amazonskr05
+  port: '443'
+  server: 18.142.56.221
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 225|🇸🇬 SG 18 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: sg5g.xn--vhq70hxyat50h6wk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: sg5g.xn--vhq70hxyat50h6wk.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 19 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20175
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 225|🇸🇬 SG 2 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- cipher: aes-256-cfb
+  name: 225,319|❓ 未知_37
+  password: amazonskr05
+  port: '443'
+  server: 18.141.207.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 21 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.221.183.250
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 22 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20181
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 225|🇸🇬 SG 23 → tg@nicevpn123
+  network: ws
+  port: 34237
+  server: 8.218.136.67
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 345c1562-1449-36ca-adf6-d3d683476712
+  ws-opts:
+    path: /db00
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 25 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.229.57.68
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 26 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20180
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 3 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.169.147.64
+  type: ss
+  udp: true
+- name: 225|🇸🇬 SG 30 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- cipher: aes-256-cfb
+  name: 225,319|🇸🇬 新加坡_2
+  password: amazonskr05
+  port: '443'
+  server: 3.0.50.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 225|🇸🇬 SG 42 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.63.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 35 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20182
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 36 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 225|🇸🇬 SG 37 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.217.85.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    path: /TG@dns68免费节点
+- alterId: 0
+  cipher: auto
+  name: 225|🇸🇬 SG 38 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.210.9.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  ws-opts:
+    path: /TG@dns68公益节点
+- cipher: aes-128-gcm
+  name: 225|🇸🇬 SG 4 → tg@nicevpn123
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 8.210.89.240
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 40 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 41 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.228.23.150
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 225,582|SG 2|openitr
+  network: ws
+  port: '99'
+  server: 128.199.161.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray
+- cipher: aes-256-cfb
+  name: 225|🇸🇬 SG 6 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.142.225.182
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 225|🇸🇬 SG 9 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20172
+  server: 139.59.119.251
+  type: ss
+  udp: true
 - alterId: -1
   cipher: aes-256-cfb
   name: 231|SG😈github.com/Ruk1ng001_206641...
@@ -2392,9 +2640,9 @@ proxies:
   ws-headers:
     Host: g.hehedada.tk
   ws-path: /jvldvws
-- auth: ff81f168-1a95-4f3f-9361-c45dcd825a9e
-  name: 271,481|🇸🇬 新加坡-1-1A
-  password: ff81f168-1a95-4f3f-9361-c45dcd825a9e
+- auth: 5d52cbf5-9fcf-429f-8288-0705f2065171
+  name: 271,481|🇸🇬 新加坡-1
+  password: 5d52cbf5-9fcf-429f-8288-0705f2065171
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: false
@@ -2410,7 +2658,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 033542d0-e93b-438c-8009-ef046ee8b151
+  uuid: eb93b1dd-32e6-4090-a0b7-a7917619ad70
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
@@ -2602,20 +2850,6 @@ proxies:
       Host: t.me/vpnhat
     path: /niaoyun
 - cipher: aes-256-cfb
-  name: 319|🇸🇬 新加坡_1
-  password: amazonskr05
-  port: '443'
-  server: 47.128.64.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 319|🇸🇬 新加坡_2
-  password: amazonskr05
-  port: '443'
-  server: 3.0.50.219
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 319|🇸🇬 新加坡_55
   password: y9VURyNzJWNRYEGQ
   port: '9008'
@@ -2664,13 +2898,6 @@ proxies:
   port: '9011'
   server: 103.172.116.103
   type: ss
-- cipher: aes-256-cfb
-  name: 319|🇸🇬 新加坡_162
-  password: amazonskr05
-  port: '443'
-  server: 13.250.61.18
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 319|🇸🇬 新加坡_164
   password: cp8pRSUAyLhTfVWH
@@ -2727,13 +2954,6 @@ proxies:
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
-  name: 319|🇸🇬 新加坡_200
-  password: amazonskr05
-  port: '443'
-  server: 52.221.231.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 319|🇸🇬 新加坡_204
   password: BejrQvtu9sqUeNuZ
   port: '9024'
@@ -2762,20 +2982,6 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: '9025'
   server: 103.172.116.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1253
-  name: 341,342,642|CN_speednode_0044
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: tw2.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 722
-  name: 341,342,642|CN_speednode_0043
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: sg5.mhw7e2.online
   type: ss
 - alterId: 0
   cipher: auto
@@ -3575,7 +3781,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6091106b-2a70-3aa7-95bf-41faa60b0d17
+  uuid: 40da2306-3c92-3163-87a7-83e8e450ffbe
   ws-opts:
     headers:
       Host: 12.v2-ray.cyou
@@ -3590,7 +3796,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6091106b-2a70-3aa7-95bf-41faa60b0d17
+  uuid: 40da2306-3c92-3163-87a7-83e8e450ffbe
   ws-opts:
     headers:
       Host: 17.v2-ray.cyou
@@ -3614,7 +3820,7 @@ proxies:
     grpc-service-name: sgvip101
   name: 423|🇬 新加坡 101 - 墙了个墙
   network: grpc
-  password: 5bc96565-ce18-3769-bd1d-5a34229cd313
+  password: 0c79ab45-16fb-345c-862a-3e3306c517ad
   port: 11223
   server: sgvip101.qlgq.fun
   skip-cert-verify: true
@@ -3626,7 +3832,7 @@ proxies:
     grpc-service-name: sgvip101
   name: 423|🇸🇬 新加坡 102 - 墙了个墙
   network: grpc
-  password: 5bc96565-ce18-3769-bd1d-5a34229cd313
+  password: 0c79ab45-16fb-345c-862a-3e3306c517ad
   port: 21223
   server: sgvip101.qlgq.fun
   skip-cert-verify: true
@@ -3638,7 +3844,7 @@ proxies:
     grpc-service-name: sgvip101
   name: 423|🇸🇬 新加坡 103 - 墙了个墙
   network: grpc
-  password: 5bc96565-ce18-3769-bd1d-5a34229cd313
+  password: 0c79ab45-16fb-345c-862a-3e3306c517ad
   port: 31223
   server: sgvip101.qlgq.fun
   skip-cert-verify: true
@@ -3650,7 +3856,7 @@ proxies:
     grpc-service-name: sgvip101
   name: 423|🇸🇬 新加坡 104 - 墙了个墙
   network: grpc
-  password: 5bc96565-ce18-3769-bd1d-5a34229cd313
+  password: 0c79ab45-16fb-345c-862a-3e3306c517ad
   port: 41223
   server: sgvip101.qlgq.fun
   skip-cert-verify: true
@@ -3662,7 +3868,7 @@ proxies:
     grpc-service-name: sgvip101
   name: 423|🇸🇬 新加坡 105 - 墙了个墙
   network: grpc
-  password: 5bc96565-ce18-3769-bd1d-5a34229cd313
+  password: 0c79ab45-16fb-345c-862a-3e3306c517ad
   port: 51223
   server: sgvip101.qlgq.fun
   skip-cert-verify: true
@@ -4409,19 +4615,6 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  name: 582|SG 2|openitr
-  network: ws
-  port: '99'
-  server: 128.199.161.230
-  tls: false
-  type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
-- alterId: 0
-  cipher: auto
   name: 582|SG 3|openitr
   network: tcp
   port: '41001'
@@ -4558,19 +4751,6 @@ proxies:
   ws-opts:
     headers:
       Host: si2.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 637|🇸🇬 新加坡_102620091
-  network: ws
-  port: 80
-  server: si4co.09vpn.com
-  tls: false
-  type: vmess
-  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-  ws-opts:
-    headers:
-      Host: si4co.09vpn.com
     path: /vmess/
 - cipher: chacha20-ietf-poly1305
   name: 639|狮城|频道:@ripaojiedian
