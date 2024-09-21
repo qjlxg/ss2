@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 834
-  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,341,342,385,387,396,397,402,408,409,411,630,631,645|香港_0920010
+  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,195,341,342,385,387,396,397,402,408,409,411,645|香港_0920010
   network: ws
   port: '20002'
   server: yxvmjp02-1.naizi.vip
@@ -19,10 +19,10 @@ proxies:
     path: /nishidashabi
 - alterId: 0
   cipher: auto
-  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,385,387,396,397,402,408,409,411,630,631|RELAY🚩
-    | zqWukzdtjp1.wzjwkqya.... #3'
+  name: '2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,385,387,396,397,402,408,409,411|🏁RELAY-172.67.111.116-1674
+    #1'
   network: ws
-  port: '80'
+  port: 80
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -37,7 +37,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 837
-  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,341,342,385,387,396,397,402,408,409,411,630,631,645|香港_0920011
+  name: 2,4,15,17,20,22,26,28,31,33,36,38,41,43,48,195,341,342,385,387,396,397,402,408,409,411,645|香港_0920011
   network: ws
   port: '10005'
   server: jplux01-1.naizi.vip
@@ -54,7 +54,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,74,76,105,153,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,649|美国_0921009
+  name: 12,74,76,100,105,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,630,631,636,649|美国_0921009
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -80,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,74,76,241,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,649|俄罗斯联邦_0921001
+  name: 12,74,76,238,239,241,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,630,631,636,649|俄罗斯联邦_0921001
   network: ws
   port: '10002'
   server: yxvmjp03-1.naizi.vip
@@ -97,7 +97,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,74,76,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,649|俄罗斯联邦_0921002
+  name: 12,74,76,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495,630,631,649|俄罗斯联邦_0921002
   network: ws
   port: '10005'
   server: jplux02-1.naizi.vip
@@ -129,25 +129,29 @@ proxies:
   server: 54.255.150.206
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  country: ' JP'
-  name: '52,54,147,171,173,225,254,282,385,387,388,389,394,397,398,399,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC0xMy4yMzAuMj...
-    #12'
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: eAokbaDN6
-  port: '8081'
-  protocol: origin
-  protocol-param: ''
-  server: jp-am48-6.eqnode.net
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 54|ChatGPT  JP_240
+  name: 54| JP_245
+  network: ws
+  port: 443
+  server: tls.96.node-for-bigairport.win
+  servername: tls.96.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    HOST: tls.96.node-for-bigairport.win
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 54|ChatGPT  JP_246
   network: ws
   port: 443
   server: tls.85.node-for-bigairport.win
@@ -174,6 +178,27 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '56|disney_netflix_JP #21'
+  network: ws
+  port: 2086
+  server: aqerdsf_cdn.hfhfb.homes
+  type: vmess
+  uuid: 3449a86e-e304-45b2-a543-b6d8ef429012
+  ws-opts:
+    headers:
+      Host: rbcdn.fask511.cfd
+    path: /?ed=1024
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 56|JP_887
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node1.s.nodelist-airport.com
+  type: ss
 - cipher: aes-256-cfb
   country: JP
   name: 56,86|SlAt5pel5pysLeS4nOS6rC0yNTAtdG...
@@ -186,13 +211,13 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: US
   h2-opts: {}
   http-opts: {}
-  name: 56,89|Relay_🇺🇸US | 4.59Mb
+  name: '56|disney_netflix_JP #22'
   network: ws
   port: 10002
-  server: yxvmjp03-1.naizi.vip
+  server: 46.3.102.7
   servername: www.python.org
   skip-cert-verify: true
   tls: true
@@ -207,14 +232,14 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: '56|disney_netflix_JP #11'
+  name: '56|disney_netflix_JP #23'
   network: ws
   port: 2086
   server: aqerdsf_cdn.hfhfb.homes
   servername: rbcdn.fask511.cfd
   skip-cert-verify: true
   type: vmess
-  uuid: 031f3b28-d2f4-47b2-a258-bd4be1a73889
+  uuid: ba4563fd-e699-4517-9bcb-c845a9879c20
   ws-opts:
     headers:
       HOST: rbcdn.fask511.cfd
@@ -555,7 +580,7 @@ proxies:
   cipher: auto
   country: JP
   name: '80,186,187,197,203,225,254,371,377,385,387,396,397,402,408,409,411,582,596,601,636|@Vip_Security
-    join us - 227
+    join us - 222
 
     '
   network: ws
@@ -574,8 +599,8 @@ proxies:
       Host: ''
     path: /bb
 - cipher: rc4-md5
-  country: 🇯🇵JP
-  name: 89|🇯🇵JP_24 | 3.48Mb
+  country: 🇵JP
+  name: 89|JP_26 | 8.25Mb
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 172.105.199.111
@@ -641,6 +666,21 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '150,247,285,516,522,524,535,554,567,569|🔒 VM-WS-TLS 🇯🇵 JP-46.3.102.7:1...
+    #8'
+  network: ws
+  port: '10002'
+  server: 46.3.102.7
+  servername: yxvmjp03-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
 - alterId: 0
   cipher: auto
   name: '171,385,387,396,397,402,408,409,411|🇵JP-172.105.223.136-5502 #1'
@@ -970,6 +1010,16 @@ proxies:
     headers:
       Host: yxtw.651568.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 183|日本_121320014
+  network: ''
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 183|日本_121320022
@@ -1859,6 +1909,13 @@ proxies:
   server: 7438974b54cf5c57.cdn.jiashule.com
   type: ssr
   udp: true
+- alterId: -1
+  cipher: aes-256-cfb
+  name: 231|JP😈github.com/Ruk1ng001_-19922...
+  password: amazonskr05
+  port: 443
+  server: 43.207.213.253
+  type: ss
 - alterId: 0
   cipher: auto
   name: 241|89-🇯🇵 日本(油管:破解资源君2.0)-worker
@@ -1905,7 +1962,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '249,575,636|@Vip_Security join us - 514
+  name: '249,575,636|@Vip_Security join us - 505
 
     '
   network: ws
@@ -1916,7 +1973,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
@@ -2706,42 +2763,42 @@ proxies:
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 5d52cbf5-9fcf-429f-8288-0705f2065171
+- auth: 2d5d6f9c-eb75-4bfa-b5ce-34d5da93d01a
   name: '271,481|🇯🇵 日本-2 #1'
-  password: 5d52cbf5-9fcf-429f-8288-0705f2065171
+  password: 2d5d6f9c-eb75-4bfa-b5ce-34d5da93d01a
   port: 30001
   server: oracle-amd-osaka1.lanmaoyun.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: osaka.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '271,481|🇯🇵 日本02 #1'
-  password: 4332cfca-c794-4d47-aee1-a2b9a5193f38
+  password: f13e22e4-78fd-4e66-8426-f1bd50cfdee4
   port: 20004
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 271,481|🇯🇵 日本01
-  password: 4332cfca-c794-4d47-aee1-a2b9a5193f38
+  password: f13e22e4-78fd-4e66-8426-f1bd50cfdee4
   port: 20002
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '271,481|🇯🇵 日本03 #1'
-  password: 4332cfca-c794-4d47-aee1-a2b9a5193f38
+  password: f13e22e4-78fd-4e66-8426-f1bd50cfdee4
   port: 20006
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 5d52cbf5-9fcf-429f-8288-0705f2065171
+- auth: 2d5d6f9c-eb75-4bfa-b5ce-34d5da93d01a
   name: '271,481|🇯🇵 日本-1 #1'
-  password: 5d52cbf5-9fcf-429f-8288-0705f2065171
+  password: 2d5d6f9c-eb75-4bfa-b5ce-34d5da93d01a
   port: 30001
   server: oracle-amd-tokyo1.lanmaoyun.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: tokyo.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
@@ -3291,7 +3348,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '385,396,397,402,408,409,630,631|JP🇯🇵 | tls.96.node-for-bigairp... #1'
+  name: '385,396,397,402,408,409|🇯🇵JP-172.233.80.35-1705 #5'
   network: ws
   port: 443
   server: tls.96.node-for-bigairport.win
