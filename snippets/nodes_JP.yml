@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 834
-  name: 10,46,48,74,76,285,288,341,342,385,387,396,397,402,408,409,411,425,426,427,630,631,645,649|俄罗斯联邦_0920001
+  name: 2,4,15,17,48,341,342,385,387,396,397,402,408,409,411,630,631,645,649|俄罗斯联邦_0920001
   network: ws
   port: '20002'
   server: yxvmjp02-1.naizi.vip
@@ -19,7 +19,7 @@ proxies:
     path: /nishidashabi
 - alterId: 0
   cipher: auto
-  name: 10,46,48,74,76,285,288,385,387,396,397,402,408,409,411,425,426,427,630,631,649|美国_0920008
+  name: 2,4,15,17,48,385,387,396,397,402,408,409,411,630,631,649|美国_0920008
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -36,7 +36,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 837
-  name: '10,46,48,74,76,285,288,341,342,385,387,396,397,402,408,409,411,425,426,427,630,631,645,649|俄罗斯联邦_0920002
+  name: '2,4,15,17,48,341,342,385,387,396,397,402,408,409,411,630,631,645,649|俄罗斯联邦_0920002
     #1'
   network: ws
   port: '10005'
@@ -54,7 +54,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,105,153,262,263,264,265,285,300,301,302,387,411,472,473,474,494,495|日本2|@ripaojiedian
+  name: 12,74,76,105,153,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -70,8 +70,8 @@ proxies:
     path: /video/VDXcaM7r
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  country: CN
-  name: 12,56,262,301,387,411,473,494|🇯🇵 日本3|@ripaojiedian
+  country: 🇨🇳CN
+  name: 12,56,79,89,262,301,387,411,473,494|🇯🇵 日本3|@ripaojiedian
   password: 7e4a5437-9a8f-49d2-9061-11b6d5006d7e
   port: 11019
   server: group-east-01.nutbit-node.lat
@@ -80,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,262,263,264,265,285,300,301,302,387,411,472,473,474,494,495|日本4|@ripaojiedian
+  name: 12,74,76,241,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495|日本4|@ripaojiedian
   network: ws
   port: '10002'
   server: yxvmjp03-1.naizi.vip
@@ -97,7 +97,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,262,263,264,265,285,300,301,302,387,411,472,473,474,494,495|日本5|@ripaojiedian
+  name: 12,74,76,262,263,264,265,285,287,300,301,302,387,411,425,426,427,472,473,474,494,495|日本5|@ripaojiedian
   network: ws
   port: '10005'
   server: jplux02-1.naizi.vip
@@ -114,7 +114,7 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   delay: 1699
-  name: 12,79,262,301,341,342,387,411,473,494|🇯🇵 日本R|@ripaojiedian
+  name: 12,56,79,262,301,341,342,387,411,473,494|🇯🇵 日本R|@ripaojiedian
   password: hGkQ6915tD
   port: 15084
   server: 103.161.255.195
@@ -123,26 +123,31 @@ proxies:
 - alterId: -1
   cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: SG
-  name: 12,56,231,262,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
+  name: 12,79,231,262,301,387,411,473,494|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.255.150.206
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   country: ' JP'
-  name: 54|ChatGPT  JP_260
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node1.s.nodelist-airport.com
-  type: ss
+  name: '52,53,54,147,171,173,254,282,385,387,388,389,394,397,398,399,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC0xMy4yMzAuMj...
+    #12'
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: eAokbaDN6
+  port: '8081'
+  protocol: origin
+  protocol-param: ''
+  server: jp-am48-6.eqnode.net
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 54|ChatGPT  JP_265
+  name: 54|ChatGPT  JP_261
   network: ws
   port: 443
   server: tls.85.node-for-bigairport.win
@@ -169,12 +174,11 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
-- alterId: -1
-  cipher: aes-256-cfb
-  name: 56,231|JP😈github.com/Ruk1ng001_-19922...
-  password: amazonskr05
-  port: 443
-  server: 43.207.213.253
+- cipher: chacha20-ietf-poly1305
+  name: '56,387,411|🇨🇳CN-123.129.211.59-0442 #1'
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
   type: ss
 - cipher: aes-256-cfb
   country: JP
@@ -186,24 +190,6 @@ proxies:
   protocol: origin
   server: 45.67.53.250
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: '56|disney_netflix_JP #7'
-  network: ws
-  port: 10002
-  server: yxvmjp03-1.naizi.vip
-  servername: www.python.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      HOST: www.python.org
-    path: /nishidashabi
 - alterId: 64
   cipher: auto
   country: JP
@@ -220,8 +206,7 @@ proxies:
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
-  name: 61,84,123,124,153,385,387,396,397,402,408,409,411,413,516,522,523,555,575,660,661|🇯🇵
-    节点日期:09-20
+  name: 61,84,123,124,153,385,387,396,397,402,408,409,411,413,575,660,661|🇯🇵 节点日期:09-20
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -430,10 +415,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 79|JP-46.3.102.14-330
+  name: 79|JP-46.3.102.7-272
   network: ws
-  port: 20002
-  server: yxvmjp02-1.naizi.vip
+  port: 10002
+  server: yxvmjp03-1.naizi.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -443,10 +428,10 @@ proxies:
   ws-path: /nishidashabi
 - alterId: 0
   cipher: auto
-  name: 79|JP-46.3.103.132-332
+  name: 79|JP-46.3.103.99-273
   network: ws
   port: 10005
-  server: jplux01-1.naizi.vip
+  server: jplux02-1.naizi.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -557,6 +542,26 @@ proxies:
     headers:
       Host: ''
     path: /bb
+- cipher: rc4-md5
+  country: 🇵JP
+  name: 89|JP_24 | 3.48Mb
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 172.105.199.111
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 94|🇯🇵 JP_526
+  network: ws
+  port: 443
+  server: tls.84.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.84.node-for-bigairport.win
+    path: /
 - name: 119|🇯🇵JP(AzadNet.t.me)_003
   network: tcp
   password: 18844@zxcvbn
@@ -945,16 +950,6 @@ proxies:
     headers:
       Host: yxtw.651568.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 183|日本_121320014
-  network: ''
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 183|日本_121320022
@@ -1435,74 +1430,32 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 241|87-🇯🇵JP-138.2.25.128-0799-work...
+  name: 241|89-🇯🇵 日本(油管:破解资源君2.0)-worker
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERs.dEV
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKerS.deV
-  tls: true
-  type: vmess
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  ws-opts:
-    headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORKerS.deV
-    path: /suzhihan.eu.org:443/roewesu
-- alterId: 0
-  cipher: auto
-  name: 241|94-🇯🇵 日本(油管:破解资源君2.0)-worker
-  network: ws
-  port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERs.dEV
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKers.dev
-  tls: true
-  type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
-  ws-opts:
-    headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKers.dev
-    path: /jp1.3320.top:443/
-- alterId: 0
-  cipher: auto
-  name: 241|107-🇯🇵 日本(油管:破解资源君2.0)-worker
-  network: ws
-  port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERs.dEV
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkers.DeV
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkErs.deV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKerS.dEV
   tls: true
   type: vmess
   uuid: 39829295-82d2-47e3-adca-9c9953573323
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkers.DeV
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKerS.dEV
     path: /jp2.3320.top:443/
 - alterId: 0
   cipher: auto
-  name: '241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #30'
+  name: 241|114-🇯🇵 日本(油管:破解资源君2.0)-worker
   network: ws
-  port: '443'
-  server: jp1.3320.top
-  servername: jp1.3320.top
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkErs.deV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKeRS.DEv
   tls: true
   type: vmess
   uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
   ws-opts:
     headers:
-      Host: jp1.3320.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #33'
-  network: ws
-  port: '443'
-  server: jp2.3320.top
-  servername: jp2.3320.top
-  tls: true
-  type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
-  ws-opts:
-    headers:
-      Host: jp2.3320.top
-    path: /
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrKeRS.DEv
+    path: /jp1.3320.top:443/
 - alterId: 0
   cipher: auto
   name: '241,285,287,385,387,396,397,402,408,409,411,425,426,427|🇯🇵 日本(油管:破解资源君2.0)
@@ -2368,6 +2321,32 @@ proxies:
   server: jp01.jiasuba.click
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #30'
+  network: ws
+  port: '443'
+  server: jp1.3320.top
+  tls: true
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  ws-opts:
+    headers:
+      Host: jp1.3320.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #33'
+  network: ws
+  port: '443'
+  server: jp2.3320.top
+  tls: true
+  type: vmess
+  uuid: 39829295-82d2-47e3-adca-9c9953573323
+  ws-opts:
+    headers:
+      Host: jp2.3320.top
+    path: /
 - cipher: aes-128-gcm
   name: 293|_JP_
   password: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
