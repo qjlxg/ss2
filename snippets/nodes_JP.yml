@@ -27,8 +27,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '48,74,76,79,197,203,215,263,264,265,285,287,300,301,302,425,426,427,472,473,474,495,561,567,568,630,631,636|@Vip_Security
-    join us - 34
+  name: '48,74,76,79,197,203,263,264,265,285,287,300,301,302,425,426,427,472,473,474,495,630,631,636|@Vip_Security
+    join us - 35
 
     '
   network: tcp
@@ -55,12 +55,46 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: ' JP'
-  name: 54|ChatGPT  JP_234
+  country: JP
+  name: 52,54,56|JP_838
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node1.s.nodelist-airport.com
   type: ss
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 54|ChatGPT  JP_250
+  network: ws
+  port: 443
+  server: tls.85.node-for-bigairport.win
+  servername: tls.85.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    HOST: tls.85.node-for-bigairport.win
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 54|ChatGPT  JP_251
+  network: ws
+  port: 443
+  server: tls.99.node-for-bigairport.win
+  servername: tls.99.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    HOST: tls.99.node-for-bigairport.win
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 56,225|🇪🇸 ES 22 → tg@nicevpn123
   password: 95597817-57ba-43e9-b853-c9dab67c59ce
@@ -83,7 +117,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-JP_1014
+  name: 56|Relay_ZZ-JP_994
   network: ws
   port: 2086
   server: aqerdsf_cdn.hfhfb.homes
@@ -272,20 +306,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '79,285,287,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #147'
-  network: tcp
-  port: '33226'
-  server: 152.69.204.193
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
-  ws-headers:
-    Host: 152.69.204.193
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 79|JP-157.254.193.68-097
+  name: 79|JP-157.254.193.68-034
   network: ws
   port: 10020
   server: 157.254.193.68
@@ -296,6 +317,25 @@ proxies:
   ws-headers:
     Host: 157.254.193.68
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '79,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #107'
+  network: tcp
+  port: '10328'
+  server: 168.138.201.208
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
+  ws-headers:
+    Host: 168.138.201.208
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 79|JP-139.162.109.96-085
+  password: 356e1761-3122-4e7f-b4f3-60c34cbb0045
+  port: 10468
+  server: 139.162.109.96
+  type: ss
 - cipher: aes-256-cfb
   name: '79,186,187,225,249,387,411|🇵JP-54.199.83.239-1500 #1'
   password: doub.io
@@ -389,7 +429,7 @@ proxies:
   cipher: auto
   country: JP
   name: '80,186,187,197,203,225,254,371,377,385,387,396,397,402,408,409,411,582,596,601,636|@Vip_Security
-    join us - 218
+    join us - 220
 
     '
   network: ws
@@ -407,26 +447,6 @@ proxies:
     headers:
       Host: ''
     path: /bb
-- cipher: rc4-md5
-  country: 🇵JP
-  name: 89|JP_27 |13.29Mb
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 172.105.199.111
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 94|🇯🇵 JP_512
-  network: ws
-  port: 443
-  server: tls.84.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.84.node-for-bigairport.win
-    path: /
 - name: 119|JP(AzadNet.t.me)_001
   network: tcp
   password: 7a73f1dc97a70905870c0c0484b12145
@@ -470,9 +490,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 120,150,195,225,247,256,285,516,522,523,535,554,555,567,568,608,659|日本  26
+  name: '120,150,195,225,247,256,285,292,516,522,523,535,554,555,567,568,608|PP|@Zyw_Channel
+    #25'
   network: ws
-  port: '41597'
+  port: 41597
   server: 183.181.36.194
   servername: ''
   skip-cert-verify: true
@@ -515,6 +536,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '150,247,285,292,516,522,524,535,554,567,569|🔒 VM-WS-TLS 🇯🇵 JP-46.3.102.7:1...
+    #9'
+  network: ws
+  port: '10002'
+  server: 46.3.102.7
+  servername: yxvmjp03-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
   name: '150,247,285,516,522,524,535,554,567,569|🔒 VM-WS-TLS 🇯🇵 JP-46.3.102.14:...
     #8'
   network: ws
@@ -541,21 +577,6 @@ proxies:
   ws-opts:
     headers:
       Host: tv.cctv.com
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  name: '150,247,285,516,522,524,535,554,567,569|🔒 VM-WS-TLS 🇯🇵 JP-46.3.102.7:1...
-    #8'
-  network: ws
-  port: '10002'
-  server: 46.3.102.7
-  servername: yxvmjp03-1.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: www.python.org
     path: /nishidashabi
 - alterId: 0
   cipher: auto
@@ -886,16 +907,6 @@ proxies:
     headers:
       Host: yxtw.651568.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 183|日本_121320014
-  network: ''
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 183|日本_121320022
@@ -1785,6 +1796,14 @@ proxies:
   server: 7438974b54cf5c57.cdn.jiashule.com
   type: ssr
   udp: true
+- alterId: -1
+  cipher: aes-256-cfb
+  delay: 383
+  name: '231,341,342|日本 - 东京 - Amazon.com, Inc. - 1 #1'
+  password: amazonskr05
+  port: 443
+  server: 43.207.213.253
+  type: ss
 - alterId: 0
   cipher: auto
   name: 241|51-🇯🇵JP-140.83.35.62-2458-work...
@@ -1844,7 +1863,7 @@ proxies:
     path: /roewesu
 - alterId: 1
   cipher: auto
-  name: '241,285,287,425,426,427|🇺🇸 美国(油管:破解资源君2.0) #158'
+  name: '241,285,287|🇺🇸 美国(油管:破解资源君2.0) #62'
   network: ws
   port: '449'
   server: jp06-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
@@ -2574,7 +2593,7 @@ proxies:
   udp: true
 - alterId: 32
   cipher: auto
-  name: '285,287,385,387,396,397,402,408,409,411,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #12'
+  name: '285,287,385,387,396,397,402,408,409,411,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #21'
   network: ws
   port: '443'
   server: 43.134.199.221
@@ -2589,7 +2608,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #13'
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #25'
   network: ws
   port: '443'
   server: jp2.3320.top
@@ -3738,6 +3757,19 @@ proxies:
     path: /cn
 - alterId: 0
   cipher: auto
+  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #23'
+  network: ws
+  port: '443'
+  server: jp1.3320.top
+  tls: true
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  ws-opts:
+    headers:
+      Host: jp1.3320.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 435|@V2ray_NG🇯🇵
   network: ws
   port: '20131'
@@ -4708,39 +4740,39 @@ proxies:
   server: gy.666666222.shop
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本01-1C
-  password: e1263829-d785-4ca3-b7c7-733ead9d5209
-  port: 20002
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本02-1A
-  password: 92ec7924-a717-49af-8869-7e2264838e0a
-  port: 20004
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本03-1B
-  password: 53891545-6c3b-41fb-81f1-c86c28e5ddd4
-  port: 20006
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: e451f80f-bf7d-4837-a665-383f7d165288
-  name: 481|🇯🇵 日本-2
-  password: e451f80f-bf7d-4837-a665-383f7d165288
+- auth: ebb3a490-3f50-4af7-bf97-bfca7441eb65
+  name: 481|🇯🇵 日本-2-1B
+  password: ebb3a490-3f50-4af7-bf97-bfca7441eb65
   port: 30001
   server: oracle-amd-osaka1.lanmaoyun.icu
   skip-cert-verify: true
   sni: osaka.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
-- auth: e451f80f-bf7d-4837-a665-383f7d165288
-  name: 481|🇯🇵 日本-1
-  password: e451f80f-bf7d-4837-a665-383f7d165288
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇯🇵 日本02-1C
+  password: e1263829-d785-4ca3-b7c7-733ead9d5209
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇯🇵 日本01-1B
+  password: 92ec7924-a717-49af-8869-7e2264838e0a
+  port: 20002
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇯🇵 日本03-1D
+  password: 119d9f88-b3c0-4c4e-916d-594734feb977
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: ebb3a490-3f50-4af7-bf97-bfca7441eb65
+  name: 481|🇯🇵 日本-1-1B
+  password: ebb3a490-3f50-4af7-bf97-bfca7441eb65
   port: 30001
   server: oracle-amd-tokyo1.lanmaoyun.icu
   skip-cert-verify: true
@@ -4789,15 +4821,6 @@ proxies:
     headers:
       Host: 104.233.240.59
     path: /path/051111230910
-- alterId: 0
-  cipher: auto
-  name: 507|Relay_🇯🇵JP-🇯🇵JP_229
-  network: tcp
-  port: 37121
-  server: m4.40010010.xyz
-  tls: true
-  type: vmess
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
 - cipher: aes-256-cfb
   name: 579|TG频道@mfbpn-日本2
   obfs: tls1.2_ticket_auth
