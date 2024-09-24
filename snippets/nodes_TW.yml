@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '2,12,15,20,26,31,36,41,46,74,100,105,150,153,228,231,232,247,262,263,264,265,285,287,300,301,302,359,361,385,387,388,389,396,397,398,399,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,645,649|美国_0924012
+  name: '2,12,15,20,26,31,36,41,74,100,105,153,226,228,231,232,247,262,263,264,265,285,287,300,301,302,359,361,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,645,649|美国_0924012
     #2'
   network: ws
   port: '2052'
@@ -32,18 +32,6 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     path: /
-- name: 56|Relay_-TW_576
-  network: ws
-  password: 95b
-  port: 46832
-  server: 103.137.63.5
-  skip-cert-verify: true
-  sni: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
-    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - client-fingerprint: chrome
   delay: 2384
   name: 56,262,341,342,473,642|TW_speednode_0292
@@ -58,6 +46,18 @@ proxies:
   ws-opts:
     headers:
       Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: '56|disney_TW #4'
+  network: ws
+  password: 95b
+  port: 46832
+  server: 103.137.63.5
+  skip-cert-verify: true
+  sni: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
     path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: 0
   cipher: auto
@@ -285,7 +285,7 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: '186,187,387,411|TW-61.220.130.70-8108 #1'
+  name: '186,187,387,411|TW-61.220.130.70-8111 #1'
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
@@ -318,6 +318,32 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 226|台湾/丈化/CDN加速
+  network: ws
+  port: '2086'
+  server: ghfxsdfxbcvb_cdn.hfhfb.homes
+  tls: false
+  type: vmess
+  uuid: b001ee28-2dbf-4076-9227-a3faff40a217
+  ws-opts:
+    headers:
+      Host: twcdn.fask511.cfd
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 226|箕伯「台湾」「海外专用」
+  network: ws
+  port: '12945'
+  server: 55.lwdh.us
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: -1
   cipher: rc4-md5
   client-fingerprint: chrome
@@ -347,7 +373,7 @@ proxies:
     path: /tw-1.qwqjsq.top:443/
 - alterId: 1
   cipher: auto
-  name: '254,385,387,396,397,402,408,409,411|TW-1.161.186.146-1994 #1'
+  name: '254,385,387,396,397,402,408,409,411|TW-1.161.186.146-2004 #1'
   network: ws
   port: 64443
   server: 1.161.186.146
@@ -491,7 +517,7 @@ proxies:
   uuid: 077f1ef4-b2bd-37cb-900d-728cd84493b0
 - alterId: 0
   cipher: auto
-  name: '255,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2200 #1'
+  name: '255,385,387,396,397,402,408,409,411|🇼TW-114.43.155.173-2210 #1'
   network: ws
   port: 45215
   server: 012.AP.POP.node-for-smallairport.win
@@ -660,7 +686,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2070 #1'
+  name: '385,387,396,397,402,408,409,411|🇼TW-114.42.198.166-2080 #1'
   network: ws
   port: 80
   server: tw1g.jeidian.xyz
@@ -675,7 +701,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-4949 #1'
+  name: '385,387,396,397,402,408,409,411|🇼TW-211.72.35.110-4952 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -690,7 +716,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4950 #7'
+  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4953 #7'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -705,7 +731,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4951 #7'
+  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4954 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -720,7 +746,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4952 #7'
+  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4955 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -735,7 +761,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4953 #7'
+  name: '385,387,396,397,402,408,409,411|🇹🇼TW-211.72.35.110-4956 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1107,8 +1133,8 @@ proxies:
   type: vmess
   uuid: f6406b6d-5487-46da-f793-46611269a306
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇹🇼 台湾01-1A
-  password: 7c4a8722-60c1-41fd-af4e-40f6afdaec52
+  name: 481|🇹🇼 台湾01-1B
+  password: 2220003e-ef3f-4c89-b986-c2eaeb21ae71
   port: 47564
   server: gy.666666222.shop
   type: ss
@@ -1262,7 +1288,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 64
   cipher: auto
-  name: '639|台湾|@ripaojiedian #1'
+  name: '639|台湾|@ripaojiedian #2'
   network: ws
   port: 443
   server: 103.177.33.21
