@@ -220,9 +220,9 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '2,15,20,26,31,36,41,46,615,659|13,14|香港4|@ripaojiedian #8'
+  name: '2,15,20,26,31,36,41,46,615|🇭🇰HK-47.238.123.151-0582 #1'
   network: ws
-  port: '443'
+  port: 443
   server: n1721118448.ryjml.cn
   servername: n1721118448.ryjml.cn
   tls: true
@@ -234,10 +234,9 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '2,15,20,26,31,36,41,46,231,232,561,567,568|🔒 VM-TCP-NA 🇨🇳 CN-183.236.48.1...
-    #2'
+  name: '2,15,20,26,31,36,41,46,231,232|CN😈github.com/Ruk1ng001_169119... #1'
   network: tcp
-  port: '31778'
+  port: 31778
   server: 183.236.48.161
   servername: ''
   tls: false
@@ -326,13 +325,16 @@ proxies:
   server: whcm.v6v.eu
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,79,262,301,387,411,473,494|🇭🇰 香港6|@ripaojiedian
+  name: 12,79,262,301,387,411,473,494,580|🇭🇰HK香港2
   password: 44f7aa73-8c37-4c6a-8637-1db919640426
   port: 34676
   server: whcm.v6v.eu
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -351,11 +353,50 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
+  country: ' HK'
+  name: 52|Relay_ HK-HK_494
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,642|CN_speednode_0080
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20002
+  server: 14.215.169.69
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 56,231,322,642|CN_speednode_0084
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20002
+  server: tw5.mhw7e2.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0030
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20003
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 56,642|CN_speednode_0032
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20003
   server: tw5.mhw7e2.online
   type: ss
+  udp: true
+- alterId: 0
+  name: 56,231|CA😈github.com/Ruk1ng001_173784...
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.26.94
+  skip-cert-verify: true
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  tls: true
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   name: 56,262,473,642|HK_speednode_0190
@@ -371,58 +412,12 @@ proxies:
     headers:
       Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
     path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
-- alterId: 0
-  name: 56,231|CA😈github.com/Ruk1ng001_173784...
-  network: ws
-  password: Watashi_VPN
-  port: 8443
-  server: 104.18.26.94
-  skip-cert-verify: true
-  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
-  tls: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   country: CN
-  name: '56|disney_HK #4'
+  name: '56|disney_HK #6'
   password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
   port: 10726
   server: yidong1.liulangdiqiu.life
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_HK #12'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 21853
-  server: 5c404a0e5048e5e4.cdn.jiashule.com
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_HK #13'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 24207
-  server: 973d23f7a72c9034.cdn.jiashule.com
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_HK #14'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 21852
-  server: 5c404a0e5048e5e4.cdn.jiashule.com
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_HK #15'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 21873
-  server: 5c404a0e5048e5e4.cdn.jiashule.com
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_HK #16'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 24218
-  server: 973d23f7a72c9034.cdn.jiashule.com
   type: ss
 - alterId: -1
   country: 🏁ZZ
@@ -439,6 +434,21 @@ proxies:
     headers:
       Host: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
     path: /abbas.ab841vpn.workers.dev/?ed=2560
+- alterId: -1
+  country: 🏁ZZ
+  fingerprint: chrome
+  name: 56,231|CA😈github.com/Ruk1ng001_-35650...
+  network: ws
+  password: Watashi_VPN
+  port: 8443
+  server: 104.18.27.94
+  sni: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
+    path: /
 - alterId: -1
   cipher: aes-256-cfb
   country: 🇭🇰HK
@@ -560,20 +570,6 @@ proxies:
   server: 8.210.87.130
   type: vmess
   uuid: bc75a7aa-fbd0-4fc3-a08c-c21192cfca43
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 89|🇭🇰HK_26 | 2.12Mb
-  password: asd123456
-  port: 8388
-  server: 103.197.25.35
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 89|🇭🇰HK_27 | 2.38Mb
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  type: ss
 - alterId: 0
   cipher: auto
   name: '99|🇨🇳中国【YouTube-由零開始】 #7'
@@ -618,9 +614,7 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 354
-
-    '
+  name: "131,636|@Vip_Security join us - 354\n #1"
   network: tcp
   port: '61001'
   server: 183.232.199.61
@@ -678,9 +672,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '131,497,636|@Vip_Security join us - 350
-
-    '
+  name: "131,497,636|@Vip_Security join us - 350\n #1"
   network: tcp
   port: '15603'
   server: 183.232.199.61
@@ -691,9 +683,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 363
-
-    '
+  name: "131,636|@Vip_Security join us - 363\n #1"
   network: tcp
   port: '15601'
   server: 183.240.179.195
@@ -757,7 +747,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '131,197,203,636|@Vip_Security join us - 616
+  name: '131,197,203,636|@Vip_Security join us - 617
 
     '
   network: ws
@@ -791,9 +781,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 357
-
-    '
+  name: "131,636|@Vip_Security join us - 357\n #1"
   network: tcp
   port: '15603'
   server: 183.232.199.28
@@ -822,9 +810,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 366
-
-    '
+  name: "131,636|@Vip_Security join us - 366\n #1"
   network: tcp
   port: '30038'
   server: 183.240.179.207
@@ -894,9 +880,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 355
-
-    '
+  name: "131,636|@Vip_Security join us - 355\n #1"
   network: tcp
   port: '15600'
   server: 183.232.199.28
@@ -933,9 +917,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '131,497,636|@Vip_Security join us - 353
-
-    '
+  name: "131,497,636|@Vip_Security join us - 353\n #1"
   network: tcp
   port: '21006'
   server: 183.232.199.61
@@ -946,7 +928,9 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: "131,636|@Vip_Security join us - 447\n #1"
+  name: '131,636|@Vip_Security join us - 448
+
+    '
   network: ws
   port: '16632'
   server: yes.cnmjcn.net
@@ -982,9 +966,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '131,636|@Vip_Security join us - 364
-
-    '
+  name: "131,636|@Vip_Security join us - 364\n #1"
   network: tcp
   port: '15603'
   server: 183.240.179.195
@@ -992,6 +974,17 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '150,285,292,532,554,555,567,568|🔒 VM-WS-NA 🇭🇰 HK-62.72.163.54:... #7'
+  network: ws
+  port: 10001
+  server: 62.72.163.54
+  tls: false
+  type: vmess
+  uuid: 55429656-9a94-422f-997d-b067695bc89d
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: '150,252,285,292,532,554,567,569|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #6'
@@ -1005,17 +998,6 @@ proxies:
   ws-opts:
     headers:
       Host: 19.lwdh.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '150,285,532,554,555,567,568|🔒 VM-WS-NA 🇭🇰 HK-62.72.163.54:... #6'
-  network: ws
-  port: 10001
-  server: 62.72.163.54
-  tls: false
-  type: vmess
-  uuid: 55429656-9a94-422f-997d-b067695bc89d
-  ws-opts:
     path: /
 - alterId: 4
   cipher: auto
@@ -3587,7 +3569,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '372,593,598,601,602|🇺🇸_US_美国 #559'
+  name: '372,593,598,601,602|🇺🇸_US_美国 #562'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -3626,7 +3608,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '372,593,600,601,602|🇺🇸_US_美国->🇨🇦_CA_加拿大 #209'
+  name: '372,593,600,601,602|🇺🇸_US_美国->🇨🇦_CA_加拿大 #211'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -3704,7 +3686,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '372,593,600,601,602|🇺🇸_US_美国 #557'
+  name: '372,593,600,601,602|🇺🇸_US_美国 #560'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -3860,7 +3842,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '372,592,593,601,602|🇺🇸_US_美国 #541'
+  name: '372,592,593,601,602|🇺🇸_US_美国 #544'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -4853,7 +4835,7 @@ proxies:
   uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
 - alterId: 64
   cipher: auto
-  name: '385,387,396,397,402,408,409,411,597,600,601,636|@Vip_Security join us - 650
+  name: '385,387,396,397,402,408,409,411,597,600,601,636|@Vip_Security join us - 651
 
     '
   network: ws
@@ -4986,7 +4968,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: d1d74059-4394-37b0-b2a5-8aae68c51fa1
+  uuid: 4e247fef-0149-3e1a-9ee9-d8cec08f2613
   ws-opts:
     headers:
       Host: 19.mamamajd.site
@@ -5181,9 +5163,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: '435,451,507,636|@Vip_Security join us - 401
-
-    '
+  name: "435,451,507,636|@Vip_Security join us - 402\n #1"
   network: tcp
   port: '30862'
   server: 23.91.100.243
@@ -6382,6 +6362,13 @@ proxies:
       Host: a.189.cn
     path: /zh-cn/download
 - cipher: chacha20-ietf-poly1305
+  name: 481|🇭🇰 香港03-1A
+  password: 7c4a8722-60c1-41fd-af4e-40f6afdaec52
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 481|🇭🇰 香港02-1A
   password: 7c4a8722-60c1-41fd-af4e-40f6afdaec52
   port: 20035
@@ -6390,15 +6377,8 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 481|🇭🇰 香港01-1B
-  password: 52bc9d7a-6c7c-4d61-b690-8e81a700cb95
+  password: ec7110bd-58e3-4058-a212-4500581753db
   port: 34338
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇭🇰 香港03-1A
-  password: 7c4a8722-60c1-41fd-af4e-40f6afdaec52
-  port: 20052
   server: gy.666666222.shop
   type: ss
   udp: true
@@ -6631,17 +6611,17 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 24721
+  port: 29230
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-128-gcm
   name: 580|HK2
-  password: 190067b9-63a3-4f8d-9c16-ee2737a87c14
-  port: 50206
-  server: 46.232.123.37
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 25204
+  server: 91.199.84.195
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6649,17 +6629,17 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK3
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 24722
+  port: 24215
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: aes-128-gcm
+  cipher: chacha20-ietf-poly1305
   name: 580|HK4
-  password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29225
-  server: 91.199.84.195
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50219
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6667,7 +6647,7 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK5
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29303
+  port: 29205
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
@@ -6676,51 +6656,31 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK6
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29401
+  port: 29224
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
+  cipher: aes-128-gcm
   name: 580|HK7
-  network: ws
-  password: 95b
-  port: 587
-  server: 20.239.55.42
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 29219
+  server: 91.199.84.195
   skip-cert-verify: true
-  sni: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
   tls: true
-  type: trojan
-  udp: true
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 580|HK8
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29212
+  port: 29204
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: aes-128-gcm
   name: 580|HK9
-  password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29109
-  server: 91.199.84.195
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 580|HK10
-  password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29221
-  server: 91.199.84.195
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  name: 580|HK11
   network: ws
   password: 95b
   port: 443
@@ -6731,10 +6691,28 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 580|HK10
+  password: 190067b9-63a3-4f8d-9c16-ee2737a87c14
+  port: 50255
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 580|HK11
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 29106
+  server: 91.199.84.195
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
   cipher: aes-128-gcm
   name: 580|HK12
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29227
+  port: 29305
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
@@ -6743,7 +6721,7 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK13
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29107
+  port: 22213
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
@@ -6752,7 +6730,16 @@ proxies:
   cipher: aes-128-gcm
   name: 580|HK14
   password: 69037302-0050-43ae-abf3-f8e62740aff1
-  port: 29105
+  port: 23201
+  server: 91.199.84.195
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 580|HK15
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 24722
   server: 91.199.84.195
   skip-cert-verify: true
   tls: true
@@ -7324,18 +7311,4 @@ proxies:
   udp: true
   uuid: 9634ede8-d03f-4583-ad58-a3904214251b
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '659|13,14|香港3|@ripaojiedian #1'
-  network: ws
-  port: '443'
-  server: n1721189676.ryjml.cn
-  servername: n1721189676.ryjml.cn
-  tls: true
-  type: vmess
-  uuid: 8238c168-a9dc-4f63-8086-9109768a20ab
-  ws-opts:
-    headers:
-      Host: n1721189676.ryjml.cn
     path: /
