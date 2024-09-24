@@ -1,7 +1,9 @@
 proxies:
-- cipher: aes-256-cfb
+- alterId: -1
+  cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,79,262,301,387,411,473,494|🇸🇬 狮城特殊|@ripaojiedian
+  country: US
+  name: 12,56,79,231,262,301,387,411,473,494|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 35.166.208.40
@@ -9,7 +11,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' SG'
-  name: 52,54,119|🇸🇬SG(AzadNet.t.me)_004
+  name: 52,53,54,119|🇸🇬SG(AzadNet.t.me)_004
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
@@ -19,7 +21,7 @@ proxies:
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 52,53,54,94,150,285,515,522,523,543,547,554,555,561,567,568,636,659|新加坡 v2rayfree.eu.org
+  name: 52,53,54,94,150,285,543,547,554,555,561,567,568,636,659|新加坡 v2rayfree.eu.org
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -29,57 +31,85 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 54,56|Relay_ZZ-ZZ_879
+  network: tcp
+  port: 12953
+  server: 63.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 55|SG |  LB-1N
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d1nal26v8jyfe2.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 47358eb5-3c60-4536-8759-e210b6637690
+  ws-opts:
+    headers:
+      Host: d1nal26v8jyfe2.cloudfront.net
+    path: /stream
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  delay: 434
-  name: 56,231,341,342,642|CN_speednode_0024
+  name: 56,642|CN_speednode_0036
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
-  server: tw4.mhw7e2.online
+  server: tw5.mhw7e2.online
   type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 872
-  name: 56,231,341,342,642|CN_speednode_0035
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0025
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0035
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
   server: jp1.mhw7e2.online
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  delay: 835
-  name: 56,231,341,342,642|CN_speednode_0033
+  name: 56,642|CN_speednode_0024
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20009
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0033
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
   server: sg2.mhw7e2.online
   type: ss
 - cipher: chacha20-ietf-poly1305
-  delay: 584
-  name: 56,341,342,642|CN_speednode_0023
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: tw2.mhw7e2.online
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 520
-  name: 56,341,342,642|CN_speednode_0026
+  name: 56,642|CN_speednode_0026
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
   server: sg5.mhw7e2.online
   type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  delay: 732
-  name: 56,231,341,342,642|CN_speednode_0036
+- cipher: chacha20-ietf-poly1305
+  name: 56,642|CN_speednode_0023
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20009
-  server: tw5.mhw7e2.online
+  server: tw2.mhw7e2.online
   type: ss
 - alterId: 0
   cipher: auto
+  delay: 1122
   h2-opts: {}
   http-opts: {}
-  name: 56,642|CN_speednode_0050
+  name: 56,231,232,341,342,642|CN_speednode_0050
   network: tcp
   port: 3214
   server: iplc01.my1188.org
@@ -88,13 +118,31 @@ proxies:
   tls: true
   type: vmess
   uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
-- cipher: rc4-md5
-  country: SG
-  name: 56|SG_578
+- alterId: -1
+  cipher: rc4-md5
+  country: 🇸🇬SG
+  name: 56,231|CN😈github.com/Ruk1ng001_162583...
   password: uYhVA160ZoSg3AI5
   port: 6700
   server: 43.143.243.164
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 56,231|CA😈github.com/Ruk1ng001_-10090...
+  network: ws
+  port: 2095
+  server: apivgbndf_cdn.hfhfb.homes
+  servername: sgcdn.fask511.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: b001ee28-2dbf-4076-9227-a3faff40a217
+  ws-opts:
+    headers:
+      HOST: sgcdn.fask511.cfd
+    path: /?ed=1024
 - alterId: 0
   cipher: auto
   name: 64|新加坡 Linode数据中心
@@ -1640,43 +1688,6 @@ proxies:
     headers:
       Host: TG.WangCai_1
     path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 226|青龙「新加坡|传说」「专线Z」
-  network: ws
-  port: '12938'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 226,642|CN_speednode_0041
-  network: tcp
-  port: 12953
-  server: z2.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 226|新加坡/信家婆/CDN加速
-  network: ws
-  port: '2095'
-  server: apivgbndf_cdn.hfhfb.homes
-  tls: false
-  type: vmess
-  uuid: b001ee28-2dbf-4076-9227-a3faff40a217
-  ws-opts:
-    headers:
-      Host: sgcdn.fask511.cfd
-    path: /?ed=1024
 - alterId: 64
   blackListed: false
   cipher: auto
@@ -1744,45 +1755,45 @@ proxies:
     path: /uvxrjhi0
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_206641...
+  name: 231|SG😈github.com/Ruk1ng001_176497...
   password: amazonskr05
   port: 443
-  server: 13.229.232.1
+  server: 13.213.55.12
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_138861...
+  name: 231|SG😈github.com/Ruk1ng001_124449...
   password: amazonskr05
   port: 443
-  server: 13.213.74.11
+  server: 13.213.56.182
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_-18052...
+  name: 231|SG😈github.com/Ruk1ng001_145094...
   password: amazonskr05
   port: 443
-  server: 54.151.132.62
+  server: 13.213.28.232
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_130971...
+  name: 231|SG😈github.com/Ruk1ng001_974618...
   password: amazonskr05
   port: 443
-  server: 54.255.150.206
+  server: 13.212.1.95
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_-11013...
+  name: 231|SG😈github.com/Ruk1ng001_185516...
   password: amazonskr05
   port: 443
-  server: 13.213.43.236
+  server: 54.179.190.119
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: 231|SG😈github.com/Ruk1ng001_385230...
+  name: 231|SG😈github.com/Ruk1ng001_350945...
   password: amazonskr05
   port: 443
-  server: 54.179.45.59
+  server: 52.77.232.183
   type: ss
 - alterId: 0
   cipher: auto
@@ -2716,6 +2727,14 @@ proxies:
   port: '9025'
   server: 103.172.116.103
   type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 388
+  name: '341,342|新加坡 - 新加坡 - Amazon Technologie... #1'
+  password: amazonskr05
+  port: 443
+  server: 47.129.53.7
+  type: ss
 - alterId: 0
   cipher: auto
   name: 344|v新加坡01
@@ -3475,7 +3494,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a6d22135-17eb-3d05-8f6e-596b2f6cf73f
+  uuid: ed772398-fddc-313b-8a26-133ee5048bb5
   ws-opts:
     headers:
       Host: 12.mamamajd.site
@@ -3490,7 +3509,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a6d22135-17eb-3d05-8f6e-596b2f6cf73f
+  uuid: ed772398-fddc-313b-8a26-133ee5048bb5
   ws-opts:
     headers:
       Host: 17.mamamajd.site
@@ -4095,74 +4114,74 @@ proxies:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡1SS移动飞快-1B
-  password: b3a760e2-dcea-4d46-82c0-216a1ec858af
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 481|🇸🇬 新加坡01-1B
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
   port: 20010
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
-- auth: 19936315-a71f-40ec-8115-059fb0808bdd
-  name: 481|🇸🇬 新加坡-1-1A
-  password: 19936315-a71f-40ec-8115-059fb0808bdd
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡05
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
+  port: 44055
+  server: 0e8383f2446d374c.cdn.jiashule.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡06
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
+  port: 24715
+  server: afa007d388783f3a.cdn.jiashule.com
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 481|🇸🇬 新加坡02-V4-流媒体-1B
+  name: 481|🇸🇬 新加坡02-V4-流媒体-1A
   network: ws
   port: 2052
   server: cf.hy2.one
   tls: false
   type: vmess
   udp: true
-  uuid: b3a760e2-dcea-4d46-82c0-216a1ec858af
+  uuid: 286069a7-4dcd-4209-8290-e67b9dd273d0
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡04
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
-  port: 22189
-  server: 0e8383f2446d374c.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡05
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
-  port: 44055
-  server: 0e8383f2446d374c.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡03
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
-  port: 22189
-  server: afa007d388783f3a.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 481|🇸🇬 新加坡02
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
   port: 20010
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇸🇬 新加坡06
-  password: 3e73bd8a-e606-42fc-8a3b-58d18a4670cf
-  port: 24715
+  name: 481|🇸🇬 新加坡04
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
+  port: 22189
+  server: 0e8383f2446d374c.cdn.jiashule.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡1SS移动飞快-1B
+  password: 3da89e76-7f4d-4dd6-a200-1b5bd6c7f872
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
+  udp: true
+- auth: 5765f041-b202-4824-ae2c-9c19315fb390
+  name: 481|🇸🇬 新加坡-1
+  password: 5765f041-b202-4824-ae2c-9c19315fb390
+  port: 30001
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: main.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇸🇬 新加坡03
+  password: e345563a-df88-43b7-b53a-7e1da6edea79
+  port: 22189
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
