@@ -2,8 +2,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '2,12,15,20,22,26,28,31,33,36,38,41,43,46,100,105,150,153,228,231,232,247,262,263,264,265,285,287,300,301,302,359,361,385,387,388,389,396,397,398,399,402,408,409,411,425,426,427,472,473,474,494,495,636,645|未知_0924237
-    #1'
+  name: '2,12,15,20,26,31,36,41,46,74,100,105,150,153,228,231,232,247,262,263,264,265,285,287,300,301,302,359,361,385,387,388,389,396,397,398,399,402,408,409,411,425,426,427,472,473,474,494,495,636,645,649|美国_0924012
+    #2'
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -32,6 +32,18 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     path: /
+- name: '56|disney_TW #2'
+  network: ws
+  password: 95b
+  port: 46832
+  server: 103.137.63.5
+  skip-cert-verify: true
+  sni: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - client-fingerprint: chrome
   delay: 2384
   name: 56,262,341,342,473,642|TW_speednode_0292
@@ -47,18 +59,13 @@ proxies:
     headers:
       Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
     path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
-- name: 56|Relay_-TW_502
-  network: ws
-  password: 95b
-  port: 46832
-  server: 103.137.63.5
-  skip-cert-verify: true
-  sni: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
-    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- cipher: aes-256-gcm
+  country: US
+  name: '56|disney_netflix_TW #6'
+  password: c6d35094-dd85-4202-81ef-5e387c560481
+  port: 21871
+  server: 5c404a0e5048e5e4.cdn.jiashule.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 64|台湾省 中华电信(HiNet)数据中心
@@ -1101,7 +1108,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 481|🇹🇼 台湾01-1B
-  password: 119d9f88-b3c0-4c4e-916d-594734feb977
+  password: 52bc9d7a-6c7c-4d61-b690-8e81a700cb95
   port: 47564
   server: gy.666666222.shop
   type: ss
@@ -1192,6 +1199,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
+- alterId: 0
+  cipher: auto
+  name: 582|TW 6|openitr
+  network: ws
+  port: '80'
+  server: 7cc02ab9-3478-1733-ea94-2b45d8e115a0.bugtik.ltd
+  tls: false
+  type: vmess
+  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
+  ws-opts:
+    headers:
+      Host: 7cc02ab9-3478-1733-ea94-2b45d8e115a0.bugtik.ltd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 582|TW 7|openitr
+  network: ws
+  port: '80'
+  server: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
+  tls: false
+  type: vmess
+  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
+  ws-opts:
+    headers:
+      Host: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
+    path: /
 - alterId: 0
   cipher: auto
   name: '597,601|🇹🇼台湾 01 #1'
