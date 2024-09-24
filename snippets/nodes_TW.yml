@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 2615
-  name: '2,10,12,15,20,26,31,36,41,48,74,76,100,105,153,227,228,232,247,262,263,264,265,285,287,300,301,302,341,342,359,361,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,645,649|美国_0924012
+  name: '2,12,15,20,26,31,36,41,48,74,76,94,100,105,153,226,228,232,247,262,263,264,265,285,287,300,301,302,341,342,359,361,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,495,630,631,636,645,649|美国_0924012
     #2'
   network: ws
   port: '2052'
@@ -33,7 +33,7 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     path: /
-- name: 56|Relay_-TW_648
+- name: 56|Relay_-TW_661
   network: ws
   password: 95b
   port: 46832
@@ -319,6 +319,32 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 226|台湾/丈化/CDN加速
+  network: ws
+  port: '2086'
+  server: ghfxsdfxbcvb_cdn.hfhfb.homes
+  tls: false
+  type: vmess
+  uuid: b001ee28-2dbf-4076-9227-a3faff40a217
+  ws-opts:
+    headers:
+      Host: twcdn.fask511.cfd
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: 226|箕伯「台湾」「海外专用」
+  network: ws
+  port: '12945'
+  server: 55.lwdh.us
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: -1
   cipher: rc4-md5
   client-fingerprint: chrome
@@ -1263,7 +1289,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 64
   cipher: auto
-  name: '639|台湾|@ripaojiedian #1'
+  name: '639|台湾|@ripaojiedian #2'
   network: ws
   port: 443
   server: 103.177.33.21
