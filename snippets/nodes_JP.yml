@@ -11,7 +11,7 @@ proxies:
   uuid: 220a3d95-cd76-475e-acc3-2c18b78e0dd6
 - alterId: 0
   cipher: auto
-  name: '4,17,22,28,33,38,43,46,197,203,636|@Vip_Security join us - 35
+  name: '4,17,22,28,33,38,43,197,203,636|@Vip_Security join us - 35
 
     '
   network: tcp
@@ -24,7 +24,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '12,48,74,76,84,94,100,105,153,226,227,262,263,264,265,285,287,300,301,302,385,387,396,397,402,408,409,411,413,425,426,427,472,473,474,494,495,630,631,636,649|美国_0924013
+  name: '12,48,74,76,84,94,100,105,153,262,263,264,265,285,287,288,300,301,302,385,387,396,397,402,408,409,411,413,425,426,427,472,473,474,494,495,615,630,631,632,636,649|美国_0924013
     #2'
   network: ws
   port: '80'
@@ -42,7 +42,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '12,48,74,76,228,262,263,264,265,285,287,300,301,302,385,387,396,397,402,408,409,411,425,426,427,472,473,474,494,630,631,645,649|美国_0924014
+  name: '12,48,74,76,228,262,265,285,288,300,301,302,385,387,396,397,402,408,409,411,425,426,427,630,631,645,649|美国_0924014
     #2'
   network: ws
   port: '443'
@@ -67,8 +67,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '48,74,76,79,226,228,241,263,264,265,285,287,300,301,302,425,426,427,472,473,474,495,630,631,649|日本_0924001
-    #2'
+  name: '48,74,76,79,228,265,285,288,300,301,302,425,426,427,649|日本_0924001 #2'
   network: tcp
   port: '46449'
   server: 45.159.50.80
@@ -82,8 +81,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '48,74,76,226,263,264,265,285,300,301,302,472,473,474,495,630,631,649|美国_0924019
-    #1'
+  name: '48,74,76,265,285,300,301,302,630,631,649|美国_0924019 #1'
   network: ws
   port: '443'
   server: mo.laibaooo.com
@@ -95,25 +93,12 @@ proxies:
     headers:
       Host: ''
     path: /emasldwa/sak
-- cipher: aes-256-cfb
-  country: ' JP'
-  name: '52,53,54,105,171,173,228,254,385,387,394,397,402,406,409,411,486,587,596,601,615|8J%2BHr%2FCfh7VKUC01Ny4xODAuMj...
-    #6'
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: eAokbaDN6
-  port: '8081'
-  protocol: origin
-  protocol-param: ''
-  server: jp-am48-6.eqnode.net
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 52,56|Relay_ JP-JP_727
+  name: 52|Relay_ JP-JP_512
   network: ws
   port: 443
   server: tls.84.node-for-bigairport.win
@@ -127,12 +112,52 @@ proxies:
       HOST: tls.84.node-for-bigairport.win
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 52|Relay_JP-JP_502
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node1.s.nodelist-airport.com
+  country: 🇨CN
+  name: '54,56,57,58,79,90,387,411|🇨🇳CN-122.195.189.15-0447 #1'
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
   type: ss
+- cipher: aes-256-gcm
+  country: ' JP'
+  name: '54,387,411|🇬SG-140.245.57.33-0987 #1'
+  password: c6d35094-dd85-4202-81ef-5e387c560481
+  port: 21850
+  server: 5c404a0e5048e5e4.cdn.jiashule.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '54,57,58,83,90,153,171,183,186,187,195,363,377,380,381,382,451,582,611,645,649|日本_0924004
+    #2'
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 54|ChatGPT  JP_284
+  network: ws
+  port: 443
+  server: tls.85.node-for-bigairport.win
+  servername: tls.85.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    HOST: tls.85.node-for-bigairport.win
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 55|JP |  LB-1L
@@ -148,21 +173,13 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 56,59,226,322,642|CN_speednode_0063
-  network: tcp
-  port: 12928
-  server: z6.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
+- alterId: -1
+  cipher: aes-256-cfb
+  name: 56,231|JP😈github.com/Ruk1ng001_-19922...
+  password: amazonskr05
+  port: 443
+  server: 43.207.213.253
+  type: ss
 - cipher: aes-256-cfb
   country: JP
   name: 56,86|SlAt5pel5pysLeS4nOS6rC0yNTAtdG...
@@ -207,7 +224,8 @@ proxies:
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
-  name: 61,84,123,124,153,385,387,396,397,402,408,409,411,413,575,660,661|🇯🇵 节点日期:09-23
+  name: 61,84,123,124,153,197,203,385,387,396,397,402,408,409,411,413,575,632,660,661|🇯🇵
+    节点日期:09-23
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -518,19 +536,22 @@ proxies:
     headers:
       Host: ''
     path: /bb
-- alterId: 0
-  cipher: auto
-  name: 94|🇯🇵 JP_520
-  network: ws
+- name: 119|JP(AzadNet.t.me)_001
+  network: tcp
+  password: 7a73f1dc97a70905870c0c0484b12145
   port: 443
-  server: tls.84.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.84.node-for-bigairport.win
-    path: /
+  server: 133.242.55.38
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 119|🇵JP(AzadNet.t.me)_002
+  network: tcp
+  password: 18844@zxcvbn
+  port: 443
+  server: 49.212.204.123
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 119|🇯🇵JP(AzadNet.t.me)_003
   network: tcp
   password: 18844@zxcvbn
@@ -545,6 +566,15 @@ proxies:
   port: 443
   server: 133.167.85.62
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 119|🇯🇵JP(AzadNet.t.me)_005
+  network: tcp
+  password: 3c4e10af98c30972
+  port: 3306
+  server: 172.105.230.133
+  skip-cert-verify: true
+  sni: n2.gladns.com
   type: trojan
   udp: true
 - alterId: 0
@@ -1327,54 +1357,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 226|日本/冻精/CDN加速
-  network: ws
-  port: '2086'
-  server: aqerdsf_cdn.hfhfb.homes
-  tls: false
-  type: vmess
-  uuid: b001ee28-2dbf-4076-9227-a3faff40a217
-  ws-opts:
-    headers:
-      Host: rbcdn.fask511.cfd
-    path: /?ed=1024
-- alterId: 0
-  cipher: auto
-  name: 226|鲲「日本|传说」「解锁」
-  network: ws
-  port: '12929'
-  server: z8.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 226|巨蟹「日本」「海外专用」
-  network: tcp
-  port: '12931'
-  server: 41.lwdh.us
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 226|女妭「日本|传说」「专线X」
-  network: ws
-  port: '12974'
-  server: z6.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 228,385,387,396,397,402,408,409,411,645|日本_0924002
   network: ws
   port: '443'
@@ -1418,13 +1400,6 @@ proxies:
     headers:
       Host: ''
     path: /chat
-- alterId: -1
-  cipher: aes-256-cfb
-  name: 231|JP😈github.com/Ruk1ng001_-19922...
-  password: amazonskr05
-  port: 443
-  server: 43.207.213.253
-  type: ss
 - alterId: -1
   cipher: aes-256-cfb
   name: 231|JP😈github.com/Ruk1ng001_-11047...
@@ -1480,88 +1455,162 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 241|71-🇯🇵JP-168.138.203.232-0786-w...
+  name: 241|41-🇯🇵JP-124.156.225.184-5469-w...
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRKERs.dEv
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRkERS.dev
   tls: true
   type: vmess
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRKERs.dEv
-    path: /suzhihan.eu.org:443/roewesu
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRkERS.dev
+    path: /azjp.pengui.xyz:443/
 - alterId: 0
   cipher: auto
-  name: 241|96-🇯🇵 13|🇯🇵 日本4|@ripaojiedian-...
+  name: 241|50-🇯🇵JP-48.210.67.21-2409-work...
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkERS.dEv
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorkErS.dEv
   tls: true
   type: vmess
   uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkERS.dEv
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorkErS.dEv
     path: /mo.laibaooo.com:443/emasldwa/sak
 - alterId: 0
   cipher: auto
-  name: 241|103-🇯🇵 日本(油管:破解资源君2.0)-worker
+  name: 241|64-🇯🇵JP-172.105.223.136-5278-w...
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORkErS.DeV
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKeRs.dev
   tls: true
   type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  uuid: 8964ea79-1422-460e-b6e2-a16e83a22aab
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORkErS.DeV
-    path: /jp1.3320.top:443/
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKeRs.dev
+    path: /www.microsoft.com:443/
 - alterId: 0
   cipher: auto
-  name: 241|105-🇯🇵 14|日本4|@ripaojiedian-wo...
+  name: 241|99-🇯🇵 13|🇯🇵 日本4|@ripaojiedian-...
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKErs.DeV
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKERs.dEV
   tls: true
   type: vmess
   uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WOrKErs.DeV
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKERs.dEV
     path: /mo.laibaooo.com:443/emasldwa/sak
-- alterId: 0
-  cipher: auto
-  name: 241|107-🇯🇵 日本(油管:破解资源君2.0)-worker
-  network: ws
-  port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRkers.DEV
-  tls: true
-  type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
-  ws-opts:
-    headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.woRkers.DEV
-    path: /jp2.3320.top:443/
 - alterId: 32
   cipher: auto
-  name: 241|111-🇯🇵 日本(油管:破解资源君2.0)-worker
+  name: 241|110-🇯🇵 日本(油管:破解资源君2.0)-worker
   network: ws
   port: 443
-  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.worKerS.Dev
-  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKers.DeV
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrkeRS.DEv
   tls: false
   type: vmess
   uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
   ws-opts:
     headers:
-      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WorKers.DeV
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wOrkeRS.DEv
     path: /www.gov.hk:443/
+- alterId: 0
+  cipher: auto
+  name: 241|111-🇯🇵 14|日本4|@ripaojiedian-wo...
+  network: ws
+  port: 443
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORKerS.DEV
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORkERS.dev
+  tls: true
+  type: vmess
+  uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
+  ws-opts:
+    headers:
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WORkERS.dev
+    path: /mo.laibaooo.com:443/emasldwa/sak
+- alterId: 0
+  cipher: auto
+  name: '241,385,387,396,397,402,408,409,411,435,451|日本-3.89MB/s(Youtube:不良林) #1'
+  network: ws
+  port: '24429'
+  server: 138.2.52.176
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a
+  ws-opts:
+    headers:
+      Host: 138.2.52.176
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '241,385,387,396,397,402,408,409,411|🇵JP-35.72.161.88-2058 #1'
+  network: ws
+  port: 22356
+  server: 001.AP.POP.node-for-smallairport.win
+  servername: 001.AP.POP.node-for-smallairport.win
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
+  ws-opts:
+    headers:
+      Host: 001.AP.POP.node-for-smallairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #84'
+  network: ws
+  port: '10000'
+  server: hz-jp.transit.freework.cyou
+  servername: hz-jp.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: hz-jp.transit.freework.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '241,285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #94'
+  network: ws
+  port: '3389'
+  server: jp1.fkfirewall.top
+  servername: jp1.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: jp1.fkfirewall.top
+    path: /run
+- alterId: 32
+  cipher: auto
+  name: '241,285,287,385,387,396,397,402,408,409,411,425,426,427|🇯🇵 日本(油管:破解资源君2.0)
+    #77'
+  network: ws
+  port: '443'
+  server: 43.134.199.221
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  ws-opts:
+    headers:
+      Host: www.gov.hk
+    path: /
 - alterId: 0
   cipher: auto
   name: '249,575,636|@Vip_Security join us - 487
@@ -2230,6 +2279,23 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 263,264,472,473,474,494,495|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 45.78.59.6
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
+  ws-opts:
+    headers:
+      Host: 45.78.59.6
+    path: /mttsax
+- alterId: 0
+  cipher: auto
   name: 269|日本大阪-绿云
   network: ws
   port: 443
@@ -2263,47 +2329,175 @@ proxies:
   server: jp01.jiasuba.click
   type: ss
   udp: true
-- alterId: 32
+- alterId: 0
   cipher: auto
-  name: '285,287,385,387,396,397,402,408,409,411,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #53'
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #78'
   network: ws
-  port: '443'
-  server: 43.134.199.221
-  servername: ''
-  skip-cert-verify: false
+  port: '80'
+  server: jp-5-1.transit.freework.cyou
   tls: false
   type: vmess
-  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
   ws-opts:
     headers:
-      Host: www.gov.hk
+      Host: www.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '285,287|🇯🇵 日本(油管:破解资源君2.0) #10'
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #79'
   network: ws
-  port: '443'
-  server: jp1.3320.top
-  tls: true
+  port: '80'
+  server: jp-4-1.transit.freework.cyou
+  tls: false
   type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
   ws-opts:
     headers:
-      Host: jp1.3320.top
+      Host: www.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '285,287|🇯🇵 日本(油管:破解资源君2.0) #12'
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #80'
   network: ws
-  port: '443'
-  server: jp2.3320.top
-  tls: true
+  port: '80'
+  server: jp-3-1.transit.freework.cyou
+  tls: false
   type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
   ws-opts:
     headers:
-      Host: jp2.3320.top
+      Host: www.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #81'
+  network: ws
+  port: '80'
+  server: jp-2-1.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: www.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #82'
+  network: ws
+  port: '80'
+  server: jp-1-1.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: www.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #83'
+  network: ws
+  port: '10000'
+  server: hd-jp.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: hd-jp.transit.freework.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #85'
+  network: ws
+  port: '10000'
+  server: hn-jp.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: hn-jp.transit.freework.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #87'
+  network: ws
+  port: '80'
+  server: JPD2.fkfirewall.top
+  tls: false
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: dm.toutiao.com
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #88'
+  network: ws
+  port: '80'
+  server: JPD2.fkfirewall.top
+  tls: false
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: m.t.17186.cn
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #89'
+  network: ws
+  port: '80'
+  server: JPD2.fkfirewall.top
+  tls: false
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: v.icbc.com.cn
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #90'
+  network: ws
+  port: '80'
+  server: JPD2.fkfirewall.top
+  tls: false
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #91'
+  network: ws
+  port: '3389'
+  server: JPD2.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: jp1.fkfirewall.top
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '285,287,425,426,427|🇯🇵 日本(油管:破解资源君2.0) #92'
+  network: ws
+  port: '3389'
+  server: JPD1.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
+  ws-opts:
+    headers:
+      Host: jp1.fkfirewall.top
+    path: /run
 - cipher: aes-128-gcm
   name: 293|_JP_
   password: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
@@ -2833,21 +3027,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '385,387,396,397,402,408,409,411,435,451|日本-3.89MB/s(Youtube:不良林) #1'
-  network: ws
-  port: '24429'
-  server: 138.2.52.176
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a
-  ws-opts:
-    headers:
-      Host: 138.2.52.176
-    path: /
-- alterId: 0
-  cipher: auto
   name: '385,387,396,397,402,408,409,411|🇵JP-52.196.144.61-2002 #1'
   network: ws
   port: 3331
@@ -2861,21 +3040,6 @@ proxies:
     headers:
       Host: f1f3227.u1.glados-config.net
     path: /s/f1f3227.fm.apple.com:111548
-- alterId: 0
-  cipher: auto
-  name: '385,387,396,397,402,408,409,411|🇵JP-35.72.161.88-2058 #1'
-  network: ws
-  port: 22356
-  server: 001.AP.POP.node-for-smallairport.win
-  servername: 001.AP.POP.node-for-smallairport.win
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
-  ws-opts:
-    headers:
-      Host: 001.AP.POP.node-for-smallairport.win
-    path: /
 - alterId: 0
   cipher: auto
   name: '385,387,396,397,402,408,409,411|🇯🇵JP-3.112.210.227-2305 #1'
@@ -2960,6 +3124,19 @@ proxies:
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     path: /ray
+- alterId: 0
+  cipher: auto
+  name: '385,387,396,397,402,408,409,411|JP-157.254.193.68-0003 #1'
+  network: ws
+  port: 10020
+  server: 157.254.193.68
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f1f45005-f074-430b-a4db-7109f50c3bce
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: '387,411|🇯🇵JP-139.162.109.96-0036 #1'
   password: 356e1761-3122-4e7f-b4f3-60c34cbb0045
@@ -3441,201 +3618,6 @@ proxies:
     headers:
       Host: jp1.sanfen001.pics
     path: /cn
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #54'
-  network: ws
-  port: '80'
-  server: jp-5-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #55'
-  network: ws
-  port: '80'
-  server: jp-4-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #56'
-  network: ws
-  port: '80'
-  server: jp-3-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #57'
-  network: ws
-  port: '80'
-  server: jp-2-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #58'
-  network: ws
-  port: '80'
-  server: jp-1-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #59'
-  network: ws
-  port: '10000'
-  server: hd-jp.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: hd-jp.transit.freework.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #60'
-  network: ws
-  port: '10000'
-  server: hz-jp.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: hz-jp.transit.freework.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #61'
-  network: ws
-  port: '10000'
-  server: hn-jp.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: hn-jp.transit.freework.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #70'
-  network: ws
-  port: '3389'
-  server: jp1.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: jp1.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #63'
-  network: ws
-  port: '80'
-  server: JPD2.fkfirewall.top
-  tls: false
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: dm.toutiao.com
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #64'
-  network: ws
-  port: '80'
-  server: JPD2.fkfirewall.top
-  tls: false
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: m.t.17186.cn
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #65'
-  network: ws
-  port: '80'
-  server: JPD2.fkfirewall.top
-  tls: false
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: v.icbc.com.cn
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #66'
-  network: ws
-  port: '80'
-  server: JPD2.fkfirewall.top
-  tls: false
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #67'
-  network: ws
-  port: '3389'
-  server: JPD2.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: jp1.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '425,426,427|🇯🇵 日本(油管:破解资源君2.0) #68'
-  network: ws
-  port: '3389'
-  server: JPD1.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: ce4cea61-6279-408e-a9e3-d682424aa5ea
-  ws-opts:
-    headers:
-      Host: jp1.fkfirewall.top
-    path: /run
 - alterId: 0
   cipher: auto
   name: 435|@V2ray_NG🇯🇵
@@ -4551,14 +4533,6 @@ proxies:
   server: jp.securevpn.cc
   type: ss
   udp: true
-- name: 473|13,14|日本3|@ripaojiedian
-  network: tcp
-  password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3
-  port: 13017
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 475|日本(油管:破解资源君)
@@ -4609,36 +4583,29 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本03-1B
-  password: a55c6986-0248-442f-8867-c72e1e80bd8a
-  port: 20006
-  server: gy.666666222.shop
+  name: 481|🇯🇵 日本03-1E
+  password: 88a6a230-c919-4306-a974-e8c5521e7430
+  port: 42684
+  server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本02-1D
-  password: f8dfd22c-34cb-4b79-9a04-7603de956277
-  port: 21744
-  server: afa007d388783f3a.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本01-1B
-  password: a55c6986-0248-442f-8867-c72e1e80bd8a
+  name: 481|🇯🇵 日本01-1D
+  password: 13aa0d93-a756-4404-ada1-715c5776d6c6
   port: 20002
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本04-1D
-  password: f8dfd22c-34cb-4b79-9a04-7603de956277
-  port: 42684
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 481|🇯🇵 日本03-1A
+  password: 2220003e-ef3f-4c89-b986-c2eaeb21ae71
+  port: 20006
+  server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 5765f041-b202-4824-ae2c-9c19315fb390
-  name: 481|🇯🇵 日本-1-1A
-  password: 5765f041-b202-4824-ae2c-9c19315fb390
+- auth: 92217195-ba1d-4c89-93c7-9c78f358ea7e
+  name: 481|🇯🇵 日本-1
+  password: 92217195-ba1d-4c89-93c7-9c78f358ea7e
   port: 30001
   server: oracle-amd-tokyo1.lanmaoyun.icu
   skip-cert-verify: true
@@ -4646,22 +4613,15 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本01-1D
-  password: f8dfd22c-34cb-4b79-9a04-7603de956277
-  port: 18190
-  server: 0e8383f2446d374c.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本02-1A
-  password: 2220003e-ef3f-4c89-b986-c2eaeb21ae71
+  name: 481|🇯🇵 日本02-1C
+  password: e2398014-8c58-414d-a614-36740f92c3a4
   port: 20004
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 5765f041-b202-4824-ae2c-9c19315fb390
-  name: 481|🇯🇵 日本-2-1A
-  password: 5765f041-b202-4824-ae2c-9c19315fb390
+- auth: 92217195-ba1d-4c89-93c7-9c78f358ea7e
+  name: 481|🇯🇵 日本-2
+  password: 92217195-ba1d-4c89-93c7-9c78f358ea7e
   port: 30001
   server: oracle-amd-osaka1.lanmaoyun.icu
   skip-cert-verify: true
@@ -4669,10 +4629,24 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 481|🇯🇵 日本03-1D
-  password: f8dfd22c-34cb-4b79-9a04-7603de956277
-  port: 42684
+  name: 481|🇯🇵 日本02-1E
+  password: 88a6a230-c919-4306-a974-e8c5521e7430
+  port: 21744
+  server: afa007d388783f3a.cdn.jiashule.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇯🇵 日本01-1E
+  password: 88a6a230-c919-4306-a974-e8c5521e7430
+  port: 18190
   server: 0e8383f2446d374c.cdn.jiashule.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 481|🇯🇵 日本04-1E
+  password: 88a6a230-c919-4306-a974-e8c5521e7430
+  port: 42684
+  server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - alterId: 0
