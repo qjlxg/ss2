@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 2615
-  name: '4,12,17,22,28,33,38,43,48,70,74,76,100,105,150,153,205,226,228,232,247,262,263,264,265,268,285,287,288,300,301,302,341,342,359,361,385,387,388,389,396,397,398,399,402,408,409,411,425,426,427,472,473,474,494,495,615,630,631,636,645|未知_0924237
+  name: '4,10,12,17,22,28,33,38,43,48,74,76,100,150,226,228,232,247,262,263,264,265,268,285,287,288,300,301,302,341,342,359,361,385,387,388,389,396,397,398,399,402,408,409,411,425,426,427,472,473,474,494,495,615,630,631,636,645|未知_0924237
     #1'
   network: ws
   port: '2052'
@@ -19,7 +19,15 @@ proxies:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
 - cipher: chacha20-ietf-poly1305
-  name: 56,473,642|TW_speednode_0342
+  country: ' TW'
+  name: 54,225|🇪🇸 ES 20 → tg@nicevpn123
+  password: 835d21b0-5322-4a77-8aff-4aff633642b0
+  port: 61005
+  server: 2.forlive.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 56,89,473,642|TW_speednode_0342
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -27,16 +35,6 @@ proxies:
     mode: tls
   port: 2377
   server: 60.249.35.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56,473,642|TW_speednode_0331
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 211.22.161.135
   type: ss
 - alterId: 0
   cipher: auto
@@ -53,20 +51,19 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  country: US
-  name: 56|disney_TW
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 24202
-  server: 973d23f7a72c9034.cdn.jiashule.com
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: '56|disney_netflix_TW #3'
-  password: c6d35094-dd85-4202-81ef-5e387c560481
-  port: 21871
-  server: 5c404a0e5048e5e4.cdn.jiashule.com
-  type: ss
+- delay: 945
+  name: '56,341,342|中国 - 台湾 - Cloudflare, Inc. - 1... #1'
+  network: ws
+  password: 95b
+  port: 81
+  server: 210.61.97.241
+  skip-cert-verify: false
+  sni: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: 0
   cipher: auto
   name: 64|台湾省 中华电信(HiNet)数据中心
@@ -77,20 +74,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- delay: 945
-  name: '70,205,341,342|中国 - 台湾 - Cloudflare, Inc. - 1... #1'
-  network: ws
-  password: 95b
-  port: 81
-  server: 210.61.97.241
-  skip-cert-verify: false
-  sni: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
-    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: '0'
   cipher: auto
   name: 80|[🇹🇼]103.131.189.212:56967(8110...
@@ -340,19 +323,6 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 226|箕伯「台湾」「海外专用」
-  network: ws
-  port: '12945'
-  server: 55.lwdh.us
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 1
   cipher: auto
   name: '254,385,387,396,397,402,408,409,411|TW-1.161.186.146-2240 #1'
@@ -1123,7 +1093,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 481|🇹🇼 台湾01
-  password: ff7c1d97-3b33-464e-a35d-bafe8e26b5d4
+  password: d9493260-74a3-451d-8c48-4e3304b39c26
   port: 47564
   server: gy.666666222.shop
   type: ss
@@ -1266,6 +1236,26 @@ proxies:
     mode: tls
   port: 2377
   server: 60.249.35.39
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|TW_speednode_0331
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 211.22.161.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 642|TW_speednode_0332
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 211.22.161.134
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 642|TW_speednode_0333
