@@ -30,13 +30,20 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 54|ChatGPT  SG_347
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🏁 ZZ
   delay: 1626
   h2-opts: {}
   http-opts: {}
-  name: '54,56,79,227,231,232,285,287,341,342,425,426,427|🇦🇺 澳大利亚 V2CROSS.COM #4'
+  name: '54,56,79,89,227,231,232,285,287,341,342,425,426,427|🇦🇺 澳大利亚 V2CROSS.COM #4'
   network: tcp
   port: '12953'
   server: 63.lwdh.us
@@ -65,6 +72,13 @@ proxies:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
+- cipher: chacha20-ietf
+  country: HK
+  name: 56|netflix_SG
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  type: ss
 - alterId: -1
   cipher: rc4-md5
   country: 🇸🇬SG
@@ -557,19 +571,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '79,285,287,425,426,427|🇸🇬 新加坡(油管:破解资源君2.0) #8'
-  network: tcp
-  port: '38941'
-  server: 139.59.244.143
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-  ws-headers:
-    Host: 139.59.244.143
-  ws-path: /
 - cipher: aes-256-cfb
   name: '79,249,387,411|🇸🇬SG-13.213.46.196-5934 #1'
   password: amazonskr05
@@ -665,6 +666,23 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 89|Relay_🏁ZZ-🇬SG_250 | 6.02Mb
+  network: ws
+  port: 80
+  server: 104.22.58.63
+  servername: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: fd200446-f7f8-4549-b4d8-4a23baea04bf
+  ws-opts:
+    headers:
+      HOST: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   name: 99|SG_youtube@资源分享师_38
@@ -1187,17 +1205,15 @@ proxies:
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
 - alterId: 0
   cipher: auto
-  name: 183|新加坡_121320004
+  name: 183,610|🇸🇬 新加坡_121320004
   network: ws
-  port: '2'
+  port: 2
   server: 207.148.77.215
   servername: ''
   tls: false
   type: vmess
   uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -2552,6 +2568,15 @@ proxies:
     headers:
       Host: ass.669990.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '285,287|🇸🇬 新加坡(油管:破解资源君2.0) #2'
+  network: tcp
+  port: '38941'
+  server: 139.59.244.143
+  tls: false
+  type: vmess
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
 - cipher: aes-256-cfb
   name: '293,387,411|🇬SG-13.250.46.178-4425 #1'
   password: amazonskr05
@@ -4095,21 +4120,21 @@ proxies:
     path: /dsadsa1dsadsa33434
 - alterId: 0
   cipher: auto
-  name: 481|🇸🇬 新加坡02-V4-流媒体-1A
+  name: 481|🇸🇬 新加坡02-V4-流媒体-1B
   network: ws
   port: 2052
   server: cf.hy2.one
   tls: false
   type: vmess
   udp: true
-  uuid: 671dc8e7-3660-42af-ba6f-d7fafbc31019
+  uuid: 1693d607-f49a-447a-92df-f08035f10d1f
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
-- auth: d2b584ec-8a75-4d55-90d2-13a40268e70a
-  name: 481|🇸🇬 新加坡-1
-  password: d2b584ec-8a75-4d55-90d2-13a40268e70a
+- auth: 9ece8570-c317-4dcb-8f9e-543f76db8105
+  name: 481|🇸🇬 新加坡-1-1B
+  password: 9ece8570-c317-4dcb-8f9e-543f76db8105
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: true
@@ -4118,7 +4143,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 481|🇸🇬 新加坡1SS移动飞快-1A
-  password: 671dc8e7-3660-42af-ba6f-d7fafbc31019
+  password: 487c84f9-812f-497c-a84b-5ec16d916f64
   port: 23343
   server: sg6.hy2.one
   type: ss
