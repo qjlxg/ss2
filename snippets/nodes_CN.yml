@@ -15,14 +15,37 @@ proxies:
   port: 6700
   server: 1.12.237.86
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CN
-  name: '56,322,387,411|🇳CN-14.215.169.69-0409 #1'
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 56,231|CH😈github.com/Ruk1ng001_401499...
+  network: ws
+  port: 80
+  server: 120.199.77.214
+  servername: a.189.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8ad0b66d-70a7-4ad1-8b26-4a232ee04646
+  ws-opts:
+    headers:
+      HOST: a.189.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '56,161,162,231,232|Other😈github.com/Ruk1ng001_322... #1'
+  network: tcp
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
@@ -42,7 +65,7 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_169825... #1'
+  name: '56,161,162,231,232|Other😈github.com/Ruk1ng001_233... #1'
   network: tcp
   port: 50002
   server: 47.116.173.76
@@ -65,40 +88,20 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts: {}
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '56,161,162,231,232|Other😈github.com/Ruk1ng001_322... #1'
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 56,231|CH😈github.com/Ruk1ng001_401499...
-  network: ws
-  port: 80
-  server: 120.199.77.214
-  servername: a.189.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8ad0b66d-70a7-4ad1-8b26-4a232ee04646
-  ws-opts:
-    headers:
-      HOST: a.189.cn
-    path: /
 - cipher: aes-256-cfb
   country: CN
-  name: 57,96|Pool__02
+  name: '57,89,90,96|Pool__01 #1'
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41228
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.102
+  type: ssr
+- cipher: aes-256-cfb
+  country: CN
+  name: '57,89,90,96|Pool__02 #1'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -109,24 +112,13 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: CN
-  name: 57|Relay_CN-CN_11
+  name: 57|Relay_CN-CN_12
   obfs: plain
   password: mblank1port
   port: 560
   protocol: auth_aes128_md5
   protocol-param: 2338:9tQfxMX(0S;40f
   server: cmlayer6.standurls.co
-  type: ssr
-- cipher: aes-256-cfb
-  country: CN
-  name: 57,96|Pool__01
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
   type: ssr
 - alterId: 0
   cipher: auto
@@ -160,6 +152,80 @@ proxies:
     headers:
       Host: sxqxj.cn
     path: /ws
+- name: 70,205,473|13,14||@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: 70,205,473|13,14|日本3|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13011
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: 70,205,473|13,14|韩国2|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13036
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: '70,205,473|13,14||@ripaojiedian #1'
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13027
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: 70,205,473|13,14|美国6|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: '70,74,76,79,205,226,231,232,263,264,265,285,288,300,301,302,425,426,427,472,473,474,495,636|@Vip_Security
+    join us - 167
+
+    '
+  network: tcp
+  port: '52908'
+  server: 120.237.79.157
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.237.79.157
+  ws-opts: {}
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '70,74,76,79,205,226,231,232,241,263,264,265,285,288,300,301,302,425,426,427,472,473,474,495|美国5|@ripaojiedian
+    #1'
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.27
+  ws-opts: {}
+  ws-path: /
 - cipher: chacha20-ietf
   name: 77|🇨🇳 ⚡ 节点超时更新订阅⚡
   obfs: plain
@@ -260,11 +326,14 @@ proxies:
   port: 7586
   server: 139.217.103.21
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '79,225,249,387,411|🇳CN-120.238.122.159-0430 #1'
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 79,225,249,387,411,580|🇺🇸US美国4
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -1040,15 +1109,6 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- name: 119|🇨CN(AzadNet.t.me)_001
-  network: tcp
-  password: a13820c547fa34c5c45515c12f0cd576
-  port: 10051
-  server: 223.111.157.35
-  skip-cert-verify: true
-  sni: jp2.91js.pw
-  type: trojan
-  udp: true
 - name: 119|🇨CN(AzadNet.t.me)_002
   network: tcp
   password: b26e31e5-eac1-45b0-9069-83830bd69521
@@ -1102,7 +1162,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "120,636|@Vip_Security join us - 101\n #1"
+  name: '120,636|@Vip_Security join us - 102
+
+    '
   network: ws
   port: '33722'
   server: 103.30.76.172
@@ -1116,9 +1178,8 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '141,150,247,285,286,561,567,568,617,618,636|@Vip_Security join us - 321
-
-    '
+  name: "141,150,247,285,286,561,567,568,617,618,636|@Vip_Security join us - 321\n\
+    \ #1"
   network: tcp
   port: '40890'
   server: 183.238.90.3
@@ -1128,7 +1189,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '141,150,247,285,286,617,618,636|@Vip_Security join us - 648
+  name: '141,150,247,285,286,617,618,636|@Vip_Security join us - 645
 
     '
   network: ws
@@ -8770,7 +8831,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '377,424|未命名 #313'
+  name: '377,424|未命名 #314'
   network: ws
   port: '53022'
   server: 47.93.231.218
@@ -11583,9 +11644,7 @@ proxies:
   ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7
 - alterId: 0
   cipher: auto
-  name: '497,636|@Vip_Security join us - 322
-
-    '
+  name: "497,636|@Vip_Security join us - 322\n #1"
   network: tcp
   port: '21003'
   server: 183.232.142.179
@@ -11652,9 +11711,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '497,636|@Vip_Security join us - 323
-
-    '
+  name: "497,636|@Vip_Security join us - 323\n #1"
   network: tcp
   port: '61002'
   server: 183.232.142.179
@@ -11685,7 +11742,9 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: "497,636|@Vip_Security join us - 97\n #1"
+  name: '497,636|@Vip_Security join us - 98
+
+    '
   network: tcp
   port: '37996'
   server: 9898.fz-6-0-kcet8y0fd-so04.my777999.top
@@ -11716,9 +11775,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '497,636|@Vip_Security join us - 325
-
-    '
+  name: "497,636|@Vip_Security join us - 325\n #1"
   network: tcp
   port: '15606'
   server: 183.232.170.47
@@ -11729,7 +11786,9 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: "497,636|@Vip_Security join us - 74\n #1"
+  name: '497,636|@Vip_Security join us - 75
+
+    '
   network: tcp
   port: '35996'
   server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
@@ -11740,9 +11799,7 @@ proxies:
   uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
-  name: '497,636|@Vip_Security join us - 327
-
-    '
+  name: "497,636|@Vip_Security join us - 327\n #1"
   network: tcp
   port: '15611'
   server: 183.232.170.47
@@ -11763,7 +11820,9 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: "497,636|@Vip_Security join us - 80\n #1"
+  name: '497,636|@Vip_Security join us - 81
+
+    '
   network: tcp
   port: '34998'
   server: 879xhl1.hsspr5bu1-tw02.my777999.top
@@ -11774,9 +11833,7 @@ proxies:
   uuid: 798c4ab8-613f-468f-b3ff-daf43c88aad7
 - alterId: 0
   cipher: auto
-  name: '497,636|@Vip_Security join us - 342
-
-    '
+  name: "497,636|@Vip_Security join us - 342\n #1"
   network: tcp
   port: '21006'
   server: 183.232.199.28
@@ -11807,7 +11864,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '570,636|@Vip_Security join us - 175
+  name: '570,636|@Vip_Security join us - 174
 
     '
   network: tcp
@@ -11859,28 +11916,5 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 74592:o4fbeopsgcf
   server: 7438974b54cf5c57.cdn.jiashule.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 642|CN_speednode_0020
-  obfs: plain
-  obfs-param: cd5ed74592.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40216
-  protocol: auth_aes128_md5
-  protocol-param: 74592:o4fbeopsgcf
-  server: 7438974b54cf5c57.cdn.jiashule.com
-  type: ssr
-- alterId: -1
-  cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 642|CN_speednode_0035
-  obfs: plain
-  obfs-param: cd5ed74592.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40201
-  protocol: auth_aes128_md5
-  protocol-param: 74592:o4fbeopsgcf
-  server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
   udp: true
