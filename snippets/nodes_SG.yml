@@ -1,12 +1,18 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: KR
-  name: 12,56,71,79,262,302,389,392,413,475,496|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12,56,71,79,262,302,389,392,413,475,496,612|🇸🇬 13|🇸🇬 |@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.38.255.233
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 52,53,54,119|🇸🇬SG(AzadNet.t.me)_004
+  password: ZdWZ9QvFlbOOGreMoE3Bq8
+  port: 18814
+  server: 159.65.129.128
   type: ss
 - alterId: 0
   cipher: auto
@@ -26,17 +32,24 @@ proxies:
   ws-path: /
 - cipher: chacha20-ietf-poly1305
   country: ' SG'
-  name: 54|ChatGPT  SG_362
+  name: 52,54|ChatGPT  SG_387
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node3.s.nodelist-airport.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 54,56|netflix_SG
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10707
-  server: 122.195.189.15
+  country: ' SG'
+  name: 54|ChatGPT  SG_386
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 54|ChatGPT  SG_389
+  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
+  port: 50006
+  server: iepl2.forlive.live
   type: ss
 - alterId: 0
   cipher: auto
@@ -55,10 +68,31 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 56,584|KR 2|openitr
+  network: tcp
+  port: '15002'
+  server: 15002.kuaiyin02.top
+  servername: 15002.kuaiyin02.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 56|Relay_ ZZ-SG_876
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10707
+  server: 122.195.189.15
+  type: ss
+- alterId: 0
+  cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-SG_1107
+  name: 56|Relay_ZZ-SG_907
   network: ws
   port: 2095
   server: apivgbndf_cdn.hfhfb.homes
@@ -1167,15 +1201,17 @@ proxies:
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
 - alterId: 0
   cipher: auto
-  name: 183,612|🇸🇬 新加坡_121320004
+  name: 183|新加坡_121320004
   network: ws
-  port: 2
+  port: '2'
   server: 207.148.77.215
   servername: ''
   tls: false
   type: vmess
   uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -1832,6 +1868,19 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 226|新加坡 - 新加坡 - G-Core Labs S.A. -...
+  network: ws
+  port: '80'
+  server: 104.22.58.63
+  tls: false
+  type: vmess
+  uuid: fd200446-f7f8-4549-b4d8-4a23baea04bf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   name: 237|🇸🇬新加坡(欢迎订阅Youtube元亨利贞)
@@ -3572,7 +3621,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 50e5d477-fa56-3975-a14d-d38213a0c7a5
+  uuid: 953254d0-2b8f-3ddf-9a3c-e1e034c07053
   ws-opts:
     headers:
       Host: 12.mamamajd.site
@@ -3587,7 +3636,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 50e5d477-fa56-3975-a14d-d38213a0c7a5
+  uuid: 953254d0-2b8f-3ddf-9a3c-e1e034c07053
   ws-opts:
     headers:
       Host: 17.mamamajd.site
@@ -3754,6 +3803,50 @@ proxies:
     headers:
       Host: free-sg10210.tencent.cfd
     path: /
+- alterId: 0
+  cipher: auto
+  name: '427,428,429|🇸🇬 新加坡(油管:破解资源君2.0) #14'
+  network: ws
+  port: '80'
+  server: sg1.vmess.tunnel.cx
+  tls: false
+  type: vmess
+  uuid: d34b55f6-3e85-11ed-b327-7f562a0dd2e6
+  ws-opts:
+    headers:
+      Host: cloudflare.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '427,428,429|🇸🇬 新加坡(油管:破解资源君2.0) #15'
+  network: ws
+  port: '58026'
+  server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com
+  tls: true
+  type: vmess
+  uuid: 677efd46-cd77-4321-a46d-9a8e3bee95f6
+  ws-opts:
+    headers:
+      Host: nice5609.xn--8lt534m.tk
+    path: /jyauvws
+- alterId: 0
+  cipher: auto
+  name: '427,428,429|🇸🇬 新加坡(油管:破解资源君2.0) #17'
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000025a.rui77.com
+  tls: false
+  type: vmess
+  uuid: f0038a33-6b22-4449-8bef-c16829a9d3aa
+- alterId: 0
+  cipher: auto
+  name: '427,428,429|🇸🇬 新加坡(油管:破解资源君2.0) #19'
+  network: tcp
+  port: '52356'
+  server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+  tls: false
+  type: vmess
+  uuid: f0038a33-6b22-4449-8bef-c16829a9d3aa
 - alterId: 0
   cipher: auto
   name: 437|Singapore Digital Ocean
@@ -4191,8 +4284,15 @@ proxies:
     headers:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
+- cipher: chacha20-ietf-poly1305
+  name: 483|🇸🇬 新加坡1SS移动飞快-1B
+  password: 5a8187fb-5a68-4d5c-84c5-a5d68891dc47
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
+  udp: true
 - auth: 08b634a2-76bb-46c0-9199-58c09294b3e3
-  name: 483|🇸🇬 新加坡-1
+  name: 483|🇸🇬 新加坡-1-1A
   password: 08b634a2-76bb-46c0-9199-58c09294b3e3
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
@@ -4209,18 +4309,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 63e229c0-a33b-4e2a-b94d-04f3f8e42ad9
+  uuid: 5a8187fb-5a68-4d5c-84c5-a5d68891dc47
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
-- cipher: chacha20-ietf-poly1305
-  name: 483|🇸🇬 新加坡1SS移动飞快-1B
-  password: 63e229c0-a33b-4e2a-b94d-04f3f8e42ad9
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
-  udp: true
 - alterId: 0
   cipher: chacha20-poly1305
   name: 501|🇸🇬 Mahsa-4
