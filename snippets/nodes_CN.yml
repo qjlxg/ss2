@@ -9,11 +9,20 @@ proxies:
   type: ss
 - cipher: rc4-md5
   country: CN
-  name: 56|CN_209
+  name: 56|CN_312
   password: uYhVA160ZoSg3AI5
   port: 6700
   server: 61.171.112.82
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  delay: 2811
+  name: '56,79,322,341,342,387,411|🇳CN-14.215.169.69-0409 #1'
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  type: ss
+  udp: true
 - alterId: -1
   cipher: rc4-md5
   country: 🇨🇳CN
@@ -22,6 +31,20 @@ proxies:
   port: 6700
   server: 1.12.237.86
   type: ss
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '56,231,232|CH😈github.com/Ruk1ng001_543224... #1'
+  network: tcp
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
@@ -36,26 +59,12 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts: {}
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_244447... #1'
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
 - alterId: 0
   cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 56|CN_214
+  name: 56|CN_318
   network: ws
   port: 80
   server: 120.199.77.214
@@ -72,10 +81,25 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_169825... #1'
+  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_244447... #1'
   network: tcp
-  port: 50002
-  server: 47.116.173.76
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 56,161,162,231,232,446|162@ProSSH
+  network: tcp
+  port: '50002'
+  server: 120.210.205.82
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -86,18 +110,29 @@ proxies:
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: '56,231,232|CH😈github.com/Ruk1ng001_543224... #1'
+  name: '56,161,162,231,232|CH😈github.com/Ruk1ng001_169825... #1'
   network: tcp
   port: 50002
-  server: 112.132.215.12
+  server: 47.116.173.76
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts: {}
+- cipher: aes-256-cfb
+  country: CN
+  name: '57,90,96|Pool__02 #1'
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41122
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.24
+  type: ssr
 - cipher: chacha20-ietf
   country: CN
-  name: 57|Relay_CN-CN_10
+  name: 57|Relay_CN-CN_11
   obfs: plain
   password: mblank1port
   port: 560
@@ -107,18 +142,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: CN
-  name: '57,89,90,96|Pool__01 #1'
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41122
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.24
-  type: ssr
-- cipher: aes-256-cfb
-  country: CN
-  name: '57,89,90,96|Pool__02 #1'
+  name: '57,90,96|Pool__01 #1'
   obfs: plain
   obfs-param: data.bilibili.com/ed5a2165400
   password: http://cc.ax/
@@ -129,10 +153,12 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '64,84,131,225,256,285,287,300,301,302,337,413,425,426,427,574,594,601,608|YD|www.zyw.asia
-    ZYW免费节点 #56'
+  name: '64,84,131,225,241,256,285,287,300,301,302,337,413,425,426,427,574,594,601,608,632|@Vip_Security
+    join us - 413
+
+    '
   network: ws
-  port: '20401'
+  port: 20401
   server: data-us-v1.shwjfkw.cn
   servername: ''
   skip-cert-verify: true
@@ -178,10 +204,11 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '79,255,425,426,427|亚洲(油管:破解资源君2.0) #50'
+  name: '79,241,255,285,287,425,426,427|亚洲(油管:破解资源君2.0) #52'
   network: tcp
   port: '50002'
   server: 111.45.22.239
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -191,7 +218,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: '79,425,426,427|亚洲(油管:破解资源君2.0) #51'
+  name: '79,285,287,425,426,427|亚洲(油管:破解资源君2.0) #53'
   network: tcp
   port: '47173'
   server: 111.45.22.187
@@ -230,7 +257,7 @@ proxies:
   ws-path: /123
 - alterId: 64
   cipher: auto
-  name: '79,285,287,425,426,427|亚洲(油管:破解资源君2.0) #54'
+  name: '79,285,287,425,426,427|亚洲(油管:破解资源君2.0) #56'
   network: tcp
   port: '52102'
   server: 111.23.252.218
@@ -290,7 +317,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: '79,227,231,232,425,426,427,570,636|@Vip_Security join us - 178
+  name: '79,227,231,232,285,287,425,426,427,570,636|@Vip_Security join us - 178
 
     '
   network: tcp
@@ -1026,8 +1053,8 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: "100,141,150,247,285,286,561,567,568,570,617,618,636|@Vip_Security join us\
-    \ - 320\n #1"
+  name: "100,141,150,227,247,285,286,561,567,568,570,617,618,636|@Vip_Security join\
+    \ us - 320\n #1"
   network: tcp
   port: '45020'
   server: 183.236.51.23
@@ -7603,16 +7630,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
-- alterId: 64
-  cipher: auto
-  name: '285,287,570|广东省广州市 移动 #2'
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 293|github.com/freefq-广东省移动28
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNjY1YzVkMC03N2MwLTQxOTYtYmM4ZC1mMDQ1MGU5YzY2NWI
@@ -8299,7 +8316,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '377,424|未命名 #323'
+  name: '377,424|未命名 #322'
   network: ws
   port: '53022'
   server: 47.93.231.218
