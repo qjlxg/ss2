@@ -1,20 +1,12 @@
 proxies:
-- alterId: -1
-  cipher: aes-256-cfb
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇷KR
-  name: 12,56,70,79,89,205,231,262,302,389,392,413,475,496|🇸🇬 狮城特殊|@ripaojiedian
+  country: KR
+  name: 12,56,71,79,262,302,389,392,413,475,496|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.38.255.233
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 52,53,54,119|🇸🇬SG(AzadNet.t.me)_004
-  password: ZdWZ9QvFlbOOGreMoE3Bq8
-  port: 18814
-  server: 159.65.129.128
   type: ss
 - alterId: 0
   cipher: auto
@@ -32,9 +24,23 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 54|ChatGPT  SG_362
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 54,56|netflix_SG
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10707
+  server: 122.195.189.15
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 55|SG |  LB-2C
+  name: 55|SG |  LB-1H
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -42,32 +48,17 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ebcd3855-fa2e-4be6-adc6-e6a92a84ce1e
+  uuid: de1672f8-9d8d-4694-94fa-d29d376bb8ed
   ws-opts:
     headers:
       Host: d1nal26v8jyfe2.cloudfront.net
     path: /stream
-- alterId: -1
-  cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 56,231|HK😈github.com/Ruk1ng001_681248...
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' US'
-  name: '56|disney_SG #1'
-  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
-  port: 50006
-  server: iepl2.forlive.live
-  type: ss
 - alterId: 0
   cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-SG_926
+  name: 56|Relay_ZZ-SG_1107
   network: ws
   port: 2095
   server: apivgbndf_cdn.hfhfb.homes
@@ -1176,17 +1167,15 @@ proxies:
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
 - alterId: 0
   cipher: auto
-  name: 183|新加坡_121320004
+  name: 183,612|🇸🇬 新加坡_121320004
   network: ws
-  port: '2'
+  port: 2
   server: 207.148.77.215
   servername: ''
   tls: false
   type: vmess
   uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -3583,7 +3572,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 142b28dc-a7ef-3dd6-9953-31595f9c8e30
+  uuid: 50e5d477-fa56-3975-a14d-d38213a0c7a5
   ws-opts:
     headers:
       Host: 12.mamamajd.site
@@ -3598,7 +3587,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 142b28dc-a7ef-3dd6-9953-31595f9c8e30
+  uuid: 50e5d477-fa56-3975-a14d-d38213a0c7a5
   ws-opts:
     headers:
       Host: 17.mamamajd.site
@@ -4202,35 +4191,35 @@ proxies:
     headers:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
-- cipher: chacha20-ietf-poly1305
-  name: 483|🇸🇬 新加坡1SS移动飞快-1B
-  password: b735d70b-71b5-4f90-96a7-a3727428cf33
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
+- auth: 08b634a2-76bb-46c0-9199-58c09294b3e3
+  name: 483|🇸🇬 新加坡-1
+  password: 08b634a2-76bb-46c0-9199-58c09294b3e3
+  port: 30001
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: main.nodes.lanmaoyun.icu
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 483|🇸🇬 新加坡02-V4-流媒体-1A
+  name: 483|🇸🇬 新加坡02-V4-流媒体-1B
   network: ws
   port: 2052
   server: cf.hy2.one
   tls: false
   type: vmess
   udp: true
-  uuid: 52f40d30-41e9-4274-8211-ac428136bcac
+  uuid: 63e229c0-a33b-4e2a-b94d-04f3f8e42ad9
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
-- auth: 08e45b49-814f-4662-9d48-198e31877c55
-  name: 483|🇸🇬 新加坡-1
-  password: 08e45b49-814f-4662-9d48-198e31877c55
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 483|🇸🇬 新加坡1SS移动飞快-1B
+  password: 63e229c0-a33b-4e2a-b94d-04f3f8e42ad9
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
   udp: true
 - alterId: 0
   cipher: chacha20-poly1305

@@ -423,13 +423,21 @@ proxies:
   type: vmess
   udp: true
   uuid: 6d0f5e10-3d0e-4a0b-9566-202c66ced84f
-- cipher: chacha20-ietf-poly1305
-  delay: 1572
-  name: '342,343|荷兰 - 1 #1'
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20030
-  server: 14.215.169.69
-  type: ss
+- country: 🇳🇱NL
+  delay: 2092
+  name: '342,343|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #1'
+  network: ws
+  password: 95b
+  port: 443
+  server: 194.58.68.239
+  skip-cert-verify: true
+  sni: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: 0
   cipher: auto
   name: 346|TG频道:@hkaa0▓荷兰
