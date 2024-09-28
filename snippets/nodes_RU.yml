@@ -236,7 +236,7 @@ proxies:
   type: vmess
   uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
 - cipher: chacha20-ietf-poly1305
-  name: '186,187,225,389,413|🇹AT-212.113.106.243-6004 #1'
+  name: '186,187,225,389,413|🇹AT-212.113.106.243-6097 #1'
   password: P2zxXPewlV3BlfqqYiSthvtLc
   port: 12949
   server: 212.113.106.243
@@ -281,11 +281,14 @@ proxies:
   server: 94.228.169.114
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 225|🇷🇺 RU 2 → tg@nicevpn123
-  password: u3vnfMkutB4brBoGSkAphE
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 225,582|未知23
+  password: WBudlMu3Zbyt8ztYtcLmS3
   port: 60422
   server: 195.2.76.71
+  skip-cert-verify: true
+  tls: true
   type: ss
   udp: true
 - alterId: 0
@@ -305,7 +308,8 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 225|🇷🇺 RU 22 → tg@nicevpn123
+  client-fingerprint: chrome
+  name: 225,375|🏁RELAY-185.148.104.118-2652
   network: ws
   port: 443
   server: 185.148.104.118
@@ -315,6 +319,8 @@ proxies:
   udp: true
   uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
+    headers:
+      host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
 - cipher: aes-128-gcm
   name: 225|🇷🇺 RU 24 → tg@nicevpn123
@@ -1113,12 +1119,11 @@ proxies:
   uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
 - alterId: 64
   cipher: auto
-  name: '387,389,398,399,404,410,411,413|🇺RU-185.173.94.213-0050 #1'
+  name: '387,398,399,404,410,411|🇷🇺RU-185.173.94.213-0050 #5'
   network: ws
   port: 443
   server: 185.173.94.213
   servername: ''
-  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 8d78c2a8-acaa-467d-9234-d2606624506d
@@ -1127,7 +1132,7 @@ proxies:
       Host: www.69296134.xyz
     path: /path/243535322906
 - cipher: aes-256-cfb
-  name: '389,413|🇷🇺RU-213.183.53.222-4998 #1'
+  name: '389,413|🇷🇺RU-213.183.53.222-5091 #1'
   password: GA9KzeEgvfxNrgmM
   port: 9019
   server: 213.183.53.222
