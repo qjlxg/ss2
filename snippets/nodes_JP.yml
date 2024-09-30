@@ -1,18 +1,11 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,364,460,484,546,608,734|Singapore_Singapore_ss_1139
+  name: 12,323,364,460,484,546,608,734|Singapore_Singapore_ss_1139
   password: amazonskr05
   port: 443
   server: 52.77.242.67
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 52|Relay_JP-JP_512
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node1.s.nodelist-airport.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -33,23 +26,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  country: ' JP'
-  h2-opts: {}
-  http-opts: {}
-  name: 54|ChatGPT  JP_277
-  network: ws
-  port: 443
-  server: tls.99.node-for-bigairport.win
-  servername: tls.99.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-headers:
-    HOST: tls.99.node-for-bigairport.win
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 55|JP |  LB-1x
   network: ws
   port: 443
@@ -63,27 +39,6 @@ proxies:
     headers:
       Host: dd7xps5fj6dfo.cloudfront.net
     path: /stream
-- cipher: aes-256-gcm
-  country: CN
-  name: '56|disney_JP #2'
-  password: a67ac40d-5434-4405-91e6-dc138e12858a
-  port: 11506
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
-- cipher: aes-256-gcm
-  country: CN
-  name: '56|disney_JP #3'
-  password: a67ac40d-5434-4405-91e6-dc138e12858a
-  port: 11505
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
-- cipher: aes-256-gcm
-  country: CN
-  name: '56|disney_netflix_JP #6'
-  password: a67ac40d-5434-4405-91e6-dc138e12858a
-  port: 11504
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
 - cipher: aes-256-cfb
   country: JP
   name: '56,111,138|SlAt5pel5pysLeS4nOS6rC0yNTAtdG... #1'
@@ -99,7 +54,7 @@ proxies:
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 56|Relay_ZZ-JP_700
+  name: 56|Relay_ZZ-JP_745
   network: ws
   port: 2086
   server: aqerdsf_cdn.hfhfb.homes
@@ -116,7 +71,7 @@ proxies:
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: '57,82,173,243,244,315,450,497,524,699,726|PP|TG频道内随机时间更新订阅地址 #26'
+  name: '57,82,106,173,243,244,315,450,497,524,699,726|PP|TG频道内随机时间更新订阅地址 #26'
   network: tcp
   port: 24445
   server: 140.83.63.38
@@ -127,22 +82,7 @@ proxies:
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
-  country: ' JP'
-  h2-opts: {}
-  http-opts: {}
-  name: 58,82,131,208,227,240,243,244,380,435,450,453,454,455,524,699,729,764,768|日本_0929001
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 61,132,177,178,208,289,290,418,458,460,469,470,475,481,482,484,486,692,780,781|🇯🇵
+  name: 61,106,132,177,178,208,289,290,418,458,460,469,470,475,481,482,484,486,692,780,781|🇯🇵
     节点日期:09-27
   network: ws
   port: 2086
@@ -331,7 +271,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 82,83,125,174,205,209,282,306,315,347,633,639,640,652,671,672,674,684,685,726,779|日本  26
+  name: 82,83,125,174,205,282,306,315,347,633,639,640,652,671,672,674,684,685,726,779|日本  26
   network: ws
   port: '41597'
   server: 183.181.36.194
@@ -540,19 +480,81 @@ proxies:
   server: 45.67.53.250
   type: ss
   udp: true
+- auth: 6c9295f1-60a5-4eaa-accf-22c7fd599dba
+  name: '105,121,571|🇯🇵 日本-2 #1'
+  password: 6c9295f1-60a5-4eaa-accf-22c7fd599dba
+  port: 30001
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: osaka.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- auth: 6c9295f1-60a5-4eaa-accf-22c7fd599dba
+  name: '105,121,571|🇯🇵 日本-1 #1'
+  password: 6c9295f1-60a5-4eaa-accf-22c7fd599dba
+  port: 30001
+  server: oracle-amd-tokyo1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: tokyo.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: '106,146|_416 #1'
+  network: ''
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
-  name: 125|🇯🇵JP-52.196.144.61-1488
-  network: ws
-  port: 3331
-  server: f1f3227.u1.glados-config.net
-  servername: f1f3227.u1.glados-config.net
+  name: 106,146,240|日本_121320014
+  network: ''
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 106,380|🔒🇯🇵 JP 38.54.56.25 ◈ tcp:12940...
+  network: tcp
+  port: '12940'
+  server: 50.lwdh.us
+  servername: ''
   tls: true
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+- alterId: 0
+  cipher: auto
+  name: 106|[73]>日本|Ns|0720|TG@FProxies|
+  network: ws
+  port: '443'
+  server: tls.96.node-for-bigairport.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
   ws-opts:
     headers:
-      Host: f1f3227.u1.glados-config.net
+      Host: tls.96.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '125,128,313,314,418,458,460,469,470,475,481,482,484|🇵JP-138.2.39.67-2437
+    #1'
+  network: ws
+  port: 80
+  server: 138.2.39.67
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -780,6 +782,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 125,460,484,749,750,764|美国_0930317
+  network: ws
+  port: '443'
+  server: mo.laibaooo.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
+  ws-opts:
+    headers:
+      Host: mo.laibaooo.com
+    path: /emasldwa/sak
+- alterId: 0
+  cipher: auto
   name: 125|🇯🇵JP-152.69.197.74-1521
   network: ws
   port: 12345
@@ -809,17 +826,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,128,313,314,418,458,460,469,470,475,481,482,484|🇵JP-138.2.39.67-2437
-    #1'
+  name: 125|🇯🇵JP-52.196.144.61-1488
   network: ws
-  port: 80
-  server: 138.2.39.67
-  servername: ''
-  skip-cert-verify: false
-  tls: false
+  port: 3331
+  server: f1f3227.u1.glados-config.net
+  servername: f1f3227.u1.glados-config.net
+  tls: true
   type: vmess
-  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   ws-opts:
+    headers:
+      Host: f1f3227.u1.glados-config.net
     path: /
 - alterId: 0
   cipher: auto
@@ -1098,20 +1115,6 @@ proxies:
   ws-opts:
     headers:
       Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 209|⚡@DeamNet_Proxy 🔻🏁ZZ 🔺🇯🇵JP ☑MT...
-  network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: 183.181.36.194
     path: /
 - alterId: 0
   cipher: auto
@@ -1820,15 +1823,6 @@ proxies:
   port: 44012
   server: zf.678889.xyz
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 282,389|🇯🇵 日本_9
-  password: amazonskr05
-  port: '443'
-  server: 13.230.190.100
-  tfo: false
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 282,389|❓ 未知_79
   password: amazonskr05
