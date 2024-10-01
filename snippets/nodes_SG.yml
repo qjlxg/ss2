@@ -1,11 +1,21 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,364,460,484,608|🇸🇬 狮城特殊|@ripaojiedian
+  name: '12,364,460,484|🇬SG-13.215.206.198-0971 #1'
   password: amazonskr05
   port: 443
   server: 13.215.206.198
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  country: 🇬 SG
+  name: 52,53,54,143,173,697|未知27 1.4MB/s
+  password: ZdWZ9QvFlbOOGreMoE3Bq8
+  port: 18814
+  server: 159.65.129.128
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: auto
@@ -24,25 +34,11 @@ proxies:
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  country: ' US'
-  name: 54,56|Relay_ US-SG_582
-  password: e7623dcf-82db-4b5c-89e4-3885fc4c3d86
-  port: 50006
-  server: iepl2.forlive.live
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: 🇬SG
-  name: 54,143|🇬SG_728
+  name: 52,54,143|🇸🇬SG_747
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node3.s.nodelist-airport.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨CN
-  name: 54,56,57,58,141,142|Relay_🇨CN-US_07
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10707
-  server: 122.195.189.15
   type: ss
 - alterId: -1
   cipher: chacha20-ietf
@@ -54,7 +50,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   country: SG
-  name: 56|SG_569
+  name: 56|SG_492
   password: uYhVA160ZoSg3AI5
   port: 6700
   server: 43.143.243.164
@@ -520,9 +516,9 @@ proxies:
   server: dajbxsg.naikonode1.top
   type: ssr
   udp: true
-- auth: 8636095a-f4ee-4077-b364-2d5e49547551
-  name: '105,121,571|🇸🇬 新加坡-1-1B #1'
-  password: 8636095a-f4ee-4077-b364-2d5e49547551
+- auth: db42011c-a785-4b9a-a356-a94a7bc831f0
+  name: '105,121,571|🇸🇬 新加坡-1 #1'
+  password: db42011c-a785-4b9a-a356-a94a7bc831f0
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: true
@@ -549,36 +545,6 @@ proxies:
   protocol-param: dC5tZS9TU1JTVUI
   server: 134.175.195.183
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: '125,418,458,460,469,470,475,481,482,484|🇸🇬SG-165.22.107.124-2400 #8'
-  network: ws
-  port: 443
-  server: sg2.safepn.net
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  ws-opts:
-    headers:
-      Host: sg2.safepn.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '125,418,458,460,469,470,475,481,482,484,524|@V2RAYNG_FA2 #1'
-  network: ws
-  port: '80'
-  server: sg2.safepn.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  ws-opts:
-    headers:
-      Host: sg2.safepn.net
-    path: /
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1017,6 +983,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '125,418,458,460,469,470,475,481,482,484,524|@V2RAYNG_FA2 #1'
+  network: ws
+  port: '80'
+  server: sg2.safepn.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: sg2.safepn.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '125,418,458,460,469,470,475,481,482,484|🇸🇬SG-165.22.107.124-2400 #8'
+  network: ws
+  port: 443
+  server: sg2.safepn.net
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: sg2.safepn.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: '125,313,418,458,460,469,470,475,481,482,484|🇬SG-178.128.61.149-2351 #1'
   network: ws
   port: 50328
@@ -1301,7 +1297,7 @@ proxies:
   type: ss
 - alterId: 32
   cipher: auto
-  name: 127,498,499,500,524|Singapore OVH
+  name: 127,347,349,498,499,500,524|Singapore OVH
   network: tcp
   port: '443'
   server: 139.99.90.122
@@ -1315,7 +1311,7 @@ proxies:
   ws-path: /
 - alterId: 32
   cipher: auto
-  name: '127,450,498,499,500,524,622,725|github.com/freefq - 新加坡OVH 8 #1'
+  name: '127,347,349,450,498,499,500,524,622,725|github.com/freefq - 新加坡OVH 8 #1'
   network: tcp
   port: 443
   server: 139.99.91.95
@@ -1448,15 +1444,6 @@ proxies:
     headers:
       Host: de.twittei.me
     path: /ikun
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 173,697|未知27 1.4MB/s
-  password: ZdWZ9QvFlbOOGreMoE3Bq8
-  port: 18814
-  server: 159.65.129.128
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 0
   cipher: auto
   name: 184,418,458,460,469,470,475,481,482,484,508,695|:新加坡-vmess-vsg1.0bad.com:443-可...
@@ -2586,61 +2573,20 @@ proxies:
   uuid: f4bba6f6-fe19-4ab8-a45d-6abaac21ba4b
   ws-opts:
     path: /daxun/hkhgc
-- alterId: 0
+- alterId: 4
   cipher: auto
-  name: '300,418,458,460,469,470,475,481,482,484|🇬SG-8.219.214.221-8032 #1'
+  name: 300|92-🇸🇬SG-103.253.26.20-0206-wor...
   network: ws
   port: 443
-  server: 8.219.214.221
-  servername: p3.chigua.tk
-  skip-cert-verify: false
+  server: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.wORkERS.DEv
+  servername: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkeRS.DEv
   tls: true
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '300,418,458,460,469,470,475,481,482,484,548|美国(油管:破解资源君) #57'
-  network: ws
-  port: '46075'
-  server: 129.150.44.64
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
-      Host: ''
-    path: /jhndsmlanj11223
-- alterId: 0
-  cipher: auto
-  name: '300,418,458,460,469,470,475,481,482,484|🇸🇬SG-15.235.192.196-3361 #8'
-  network: ws
-  port: 80
-  server: 15.235.192.196
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '300,347,349|🇸🇬 新加坡(油管:破解资源君2.0) #5'
-  network: ws
-  port: '80'
-  server: sg1.vmess.tunnel.cx
-  servername: cloudflare.com
-  tls: false
-  type: vmess
-  uuid: d34b55f6-3e85-11ed-b327-7f562a0dd2e6
-  ws-opts:
-    headers:
-      Host: cloudflare.com
-    path: /vmess
+      Host: floral-unit-chain-hemo-redu-cedmic-roc-yticch-arane-miaglo-bihn.multifaceted3.WoRkeRS.DEv
+    path: /zecjk.com:443/ws
 - alterId: 0
   cipher: auto
   name: 308|🇸🇬SG-8.222.174.108-205_1@204
@@ -3243,26 +3189,6 @@ proxies:
     headers:
       Host: ass.669990.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: '347,349,755|@Vip_Security join us - 243
-
-    '
-  network: tcp
-  port: '18231'
-  server: 139.162.29.179
-  tls: false
-  type: vmess
-  uuid: cb185001-85ed-4186-e391-fdeb7b624403
-- alterId: 0
-  cipher: auto
-  name: '347,349|🇸🇬 新加坡(油管:破解资源君2.0) #6'
-  network: tcp
-  port: '46933'
-  server: secondsite.auth123.email
-  tls: true
-  type: vmess
-  uuid: 7446e9a8-2428-4663-bfbc-581dedd1b2cb
 - cipher: aes-256-cfb
   name: '356,460,484|🇬SG-13.250.46.178-4624 #1'
   password: amazonskr05
@@ -3718,6 +3644,21 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
+  name: '418,458,460,469,470,475,481,482,484,548|美国(油管:破解资源君) #57'
+  network: ws
+  port: '46075'
+  server: 129.150.44.64
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /jhndsmlanj11223
+- alterId: 0
+  cipher: auto
   name: '418,458,460,469,470,475,481,482,484|🇬SG-15.235.184.36-3075 #1'
   network: ws
   port: 80
@@ -3755,6 +3696,19 @@ proxies:
   uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
   ws-opts:
     path: /fastssh
+- alterId: 0
+  cipher: auto
+  name: '418,458,460,469,470,475,481,482,484|🇸🇬SG-15.235.192.196-3361 #8'
+  network: ws
+  port: 80
+  server: 15.235.192.196
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
+  ws-opts:
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: '418,458,460,469,470,475,481,482,484,548|新加坡(油管:破解资源君) #5'
@@ -3815,6 +3769,19 @@ proxies:
   network: ws
   port: 443
   server: 8.219.120.168
+  servername: p3.chigua.tk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '418,458,460,469,470,475,481,482,484|🇬SG-8.219.214.221-8032 #1'
+  network: ws
+  port: 443
+  server: 8.219.214.221
   servername: p3.chigua.tk
   skip-cert-verify: false
   tls: true
@@ -4798,6 +4765,14 @@ proxies:
     headers:
       Host: xjp4h.mayaa.ml
     path: /dsadsa1dsadsa33434
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 608|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.59.97
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: chacha20-poly1305
   name: 613|🇸🇬 Mahsa-4
