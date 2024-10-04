@@ -18,26 +18,11 @@ proxies:
       host: 68.168.31.196
     path: /linkvws
 - cipher: chacha20-ietf-poly1305
-  country: ' CA'
-  name: 52,53,54,173|🇨🇦CA(AzadNet.t.me)_016
+  country: 🇨🇦CA
+  name: 52,53,54,143,173|🇨🇦CA(AzadNet.t.me)_016
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CA'
-  name: 54,173,282|🇫🇷 FR 51 → tg@nicevpn123
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: ' FR'
-  name: '54,58,83,127,364,389,460,484|🇷FR-163.172.64.22-0072 #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 163.172.64.22
   type: ss
 - alterId: 0
   cipher: auto
@@ -58,39 +43,40 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  country: US
   h2-opts: {}
   http-opts: {}
-  name: '56,125,126,708,764,768|美国_1004033 #1'
+  name: '56|netflix_CA #1'
   network: ws
-  port: '2082'
-  server: 104.26.5.56
-  servername: ''
+  port: 2082
+  server: 172.64.99.22
+  servername: ip3.6929198.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      HOST: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '56,446|🏁RELAY-172.64.175.213-2060 #7'
+  network: ws
+  port: 2082
+  server: 172.64.175.213
+  servername: ip3.6929198.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
+      host: ip3.6929198.xyz
     path: github.com/Alvin9999
-- country: CA
-  name: 56|CA_541
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.223.124.54
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇨🇦CA
-  delay: 1587
-  name: '56,412,413|加拿大 - 多伦多 - Amazon.com, Inc. -... #1'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 99.79.173.155
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   country: ' CA'
@@ -126,49 +112,96 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '71,125,418,458,460,463,469,470,475,481,482,484|🇦CA-158.51.121.36-0778 #1'
+  name: '70,164,165,262,734|Canada_Ottawa_vmess_13 #2'
   network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 158.51.121.36
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 71,125,300,418,458,460,463,469,470,475,481,482,484,764|加拿大_1004006
-  network: ws
-  port: '443'
-  server: 158.51.121.36
-  servername: ''
-  skip-cert-verify: false
+  port: 2095
+  server: 23.227.38.3
+  servername: ip3.6016725.xyz
   tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: ip3.6016725.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '71,125,418,458,460,463,469,470,475,481,482,484|🇦CA-23.162.200.227-0777 #1'
+  name: '70,164,165,262,734|Canada_Ottawa_vmess_193 #2'
   network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  skip-cert-verify: false
-  tls: true
+  port: 2095
+  server: shopify.com
+  servername: ip3.6016725.xyz
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
-    path: /
+    headers:
+      Host: ip3.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '70,262,734|Canada_Ottawa_vmess_53 #2'
+  network: ws
+  port: 2082
+  server: 23.227.38.3
+  servername: ip4.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip4.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '70,262,734|Canada_Ottawa_vmess_593 #2'
+  network: ws
+  port: 2082
+  server: shopify.com
+  servername: ip4.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip4.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '70,262,734|Canada_Ottawa_vmess_93 #2'
+  network: ws
+  port: 2095
+  server: 23.227.38.3
+  servername: ip3.8084726.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip3.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '70,262,734|Canada_Ottawa_vmess_993 #2'
+  network: ws
+  port: 2095
+  server: shopify.com
+  servername: ip3.8084726.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip3.8084726.xyz
+    path: github.com/Alvin9999
 - country: ZZ
-  name: '72|netflix_CA #9'
+  name: '72|netflix_CA #7'
   network: ws
   password: 2cba4104747d49d18319e5ade1b93ab5
   port: 443
@@ -182,8 +215,25 @@ proxies:
     path: 6b777a91
 - alterId: 0
   cipher: auto
-  name: '89,125,177,178,194,197,205,254,260,264,306,342,347,349,354,418,431,433,665,672,675,676,679,684,685,735,736,738,741,742,745,751,755|@Vip_Security
-    join us - 186
+  name: 82,83,125,173,174,194,201,205,209,277,282,342,347,352,353,662,665,671,672,674,675,676,679,684,685,697,698,699|CA
+    3|openitr
+  network: ws
+  port: '50613'
+  server: 108.181.200.220
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09e81eaa-d298-432c-e7b6-17add32d14fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '89,125,177,178,194,197,201,205,254,260,264,306,342,347,349,352,354,418,431,433,655,665,671,672,674,675,676,679,684,685,735,736,738,741,742,745,751,755|@Vip_Security
+    join us - 187
 
     '
   network: ws
@@ -199,7 +249,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 89,125,194,196,201,205,209,254,260,264,306,329,342,347,348,352,418,458,460,469,470,475,481,482,484,655,665,671,672,674,675,676,679,684,685,687,694,735,736,738,741,742,745,751,764|未知_1004106
+  name: 89,125,194,196,205,209,254,260,264,306,329,342,347,348,418,458,460,469,470,475,481,482,484,665,672,675,676,679,684,685,687,694,735,736,738,741,742,745,751,764|未知_1004106
   network: ws
   port: '2095'
   server: 104.19.45.13
@@ -215,22 +265,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 89,125,194,197,201,205,254,260,264,306,329,342,347,349,352,354,418,431,433,458,460,469,470,475,481,482,484,633,639,640,655,665,671,672,673,674,735,736,738,741,742,745,751,755,764|美国_1004291
-  network: ws
-  port: '80'
-  server: 104.26.15.148
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f1fb28e5-e5b6-450c-972c-13235c94285c
-  ws-opts:
-    headers:
-      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: '89,119,120,125,174,187,194,196,197,205,207,254,260,264,292,306,342,347,348,354,418,431,433,626,694,733,735,736,738,741,742,745,751,755,779|Channel
+  name: '89,119,120,125,174,187,194,196,197,205,207,254,260,264,306,342,347,348,354,418,431,433,626,665,675,676,679,684,686,694,733,735,736,738,741,742,745,751,755,779|Channel
     id: @ShadowProxy66 🇨🇦 #24'
   network: ws
   port: '443'
@@ -245,7 +280,22 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,174,755|@Vip_Security join us - 117
+  name: 89,125,194,197,205,254,260,264,306,329,342,347,349,354,418,431,433,458,460,469,470,475,481,482,484,735,736,738,741,742,745,751,755,764|美国_1004291
+  network: ws
+  port: '80'
+  server: 104.26.15.148
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f1fb28e5-e5b6-450c-972c-13235c94285c
+  ws-opts:
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: '119,120,174,755|@Vip_Security join us - 118
 
     '
   network: ws
@@ -262,7 +312,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '119,120,125,130,133,174,194,196,205,306,342,347,348,354,418,431,433,706,707,735,736,755|@Vip_Security
-    join us - 179
+    join us - 180
 
     '
   network: ws
@@ -278,7 +328,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 119,120,130,132,133,152,174,177,178,208,248,249,292,311,312,418,458,460,469,470,475,481,482,484,486,733,755,764|未知_1004402
+  name: 119,120,130,132,133,152,174,177,178,208,248,249,311,312,418,458,460,469,470,475,481,482,484,486,733,755,764|未知_1004402
   network: ws
   port: '443'
   server: 104.21.46.121
@@ -293,8 +343,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,125,146,152,194,196,205,254,260,306,342,347,348,418,525,735,736,755|@Vip_Security
-    join us - 162
+  name: '119,120,125,152,194,196,205,254,260,306,342,347,348,418,525,735,736,755|@Vip_Security
+    join us - 163
 
     '
   network: ws
@@ -310,8 +360,8 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,125,187,194,196,205,209,277,292,306,342,347,348,418,519,525,735,736,755|@Vip_Security
-    join us - 165
+  name: '119,120,125,187,194,196,205,209,277,306,342,347,348,418,519,525,735,736,755|@Vip_Security
+    join us - 166
 
     '
   network: ws
@@ -329,7 +379,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: "119,174,209,249,292,311,312,755|@Vip_Security join us - 403\n #1"
+  name: '119,174,209,249,311,312,755,779|Channel id: @ShadowProxy66 🇨🇦 #26'
   network: ws
   port: '443'
   server: 188.114.96.5
@@ -344,7 +394,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "119,120,174,209,277,282,519,525,526,707,715,719,755|@Vip_Security join us\
-    \ - 407\n #1"
+    \ - 411\n #1"
   network: ws
   port: '443'
   server: 188.114.97.3
@@ -360,7 +410,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,174,209,254,260,755|@Vip_Security join us - 521
+  name: '119,120,174,209,254,260,755|@Vip_Security join us - 525
 
     '
   network: ws
@@ -376,7 +426,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,755|@Vip_Security join us - 680
+  name: '119,120,755|@Vip_Security join us - 684
 
     '
   network: ws
@@ -392,7 +442,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,120,174,209,755|@Vip_Security join us - 687
+  name: '119,120,174,209,755|@Vip_Security join us - 691
 
     '
   network: ws
@@ -408,9 +458,9 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '119,209,277,282,633,639,641,665,673|🔒 VM-WS-TLS 🏴‍☠️ NA-104.17.197... #4'
+  name: 119,209,277,282|🇺🇸 US 1403 → tg@nicevpn123
   network: ws
-  port: '443'
+  port: 443
   server: 104.17.197.31
   servername: quiet-moon-132a.xetag42714.workers.dev
   skip-cert-verify: true
@@ -424,8 +474,8 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '119,132,177,178,194,201,205,208,209,252,297,298,306,342,347,354,418,458,460,461,462,469,470,471,472,475,481,482,484,486,733,779|[🇨🇦]t.me/ConfigsHub
-    #11'
+  name: '119,132,177,178,194,201,205,208,209,252,306,342,347,353,418,458,460,461,462,469,470,471,472,475,481,482,484,486,733,779|[🇨🇦]t.me/ConfigsHub
+    #12'
   network: ws
   port: '443'
   server: hms19.best-tizi.top
@@ -454,7 +504,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '125,146,290,342,347,349,374,380,498,499,500,779|美国 v2rayfree.eu.org #9'
+  name: '125,146,290,342,347,349,374,380,779|美国 v2rayfree.eu.org #10'
   network: ws
   port: 443
   server: 23.162.200.94
@@ -656,17 +706,53 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 127|CA-23.162.200.94-199
+  name: '125,418,458,460,463,469,470,475,481,482,484|🇦CA-158.51.121.36-0778 #1'
   network: ws
   port: 443
-  server: 23.162.200.94
-  skip-cert-verify: true
+  server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  ws-path: /linkvws
+  ws-opts:
+    headers:
+      Host: 158.51.121.36
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '125,418,458,460,463,469,470,475,481,482,484|🇦CA-23.162.200.227-0777 #1'
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 125,300,418,458,460,463,469,470,475,481,482,484,764|加拿大_1004006
+  network: ws
+  port: '443'
+  server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-gcm
+  name: 127|CA-134.195.196.231-105
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.231
+  type: ss
 - alterId: '0'
   cipher: auto
   name: 128|[🇨🇦]23.227.38.39:443(4612618c-...
@@ -710,693 +796,6 @@ proxies:
     headers:
       Host: ''
     path: /ECTCJ0DF
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.45.47-1321 #6'
-  network: ws
-  port: 2082
-  server: 104.19.45.47
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,400,446|🏁RELAY-162.159.140.56-1374 #6'
-  network: ws
-  port: 2082
-  server: 162.159.140.56
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.20.17.186-1264 #6'
-  network: ws
-  port: 2082
-  server: 104.20.17.186
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.45.15-1242 #6'
-  network: ws
-  port: 2082
-  server: 104.19.45.15
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.16.148.244-1340 #7'
-  network: ws
-  port: 2095
-  server: fbi.gov
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-162.159.140.91-1348 #7'
-  network: ws
-  port: 2095
-  server: 162.159.140.91
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_306 |23.16Mb
-  network: ws
-  port: 2095
-  server: 104.19.21.230
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      HOST: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_307 |14.14Mb
-  network: ws
-  port: 2082
-  server: 162.159.140.89
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      HOST: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,400|🇺🇸_US_美国_3 #7'
-  network: ws
-  port: 2095
-  server: 104.19.21.63
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,400,446|🏁RELAY-104.19.21.63-1370 #7'
-  network: ws
-  port: 2082
-  server: 104.19.21.63
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_311 |17.97Mb
-  network: ws
-  port: 2095
-  server: 104.18.57.111
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      HOST: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-162.159.140.56-1386 #7'
-  network: ws
-  port: 2095
-  server: 162.159.140.56
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.58.175-1423 #7'
-  network: ws
-  port: 2095
-  server: 104.19.58.175
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.21.71-1991 #7'
-  network: ws
-  port: 2095
-  server: 104.19.21.71
-  servername: ip2.8084726.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.45.13-1362 #7'
-  network: ws
-  port: 2082
-  server: 104.19.45.13
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.20.25.146-1421 #7'
-  network: ws
-  port: 2095
-  server: 104.20.25.146
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,418,434,446,458,469,470,475,481,482|🏁RELAY-104.19.45.90-1107 #6'
-  network: ws
-  port: 2082
-  server: 104.19.45.90
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ''
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_321 |22.29Mb
-  network: ws
-  port: 2095
-  server: 104.19.46.103
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      HOST: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.123.11-2013 #7'
-  network: ws
-  port: 2082
-  server: 104.19.123.11
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.17.106.151-1399 #7'
-  network: ws
-  port: 2095
-  server: 104.17.106.151
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_326 |14.11Mb
-  network: ws
-  port: 2082
-  server: 104.19.45.50
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      HOST: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.59.89-1276 #6'
-  network: ws
-  port: 2082
-  server: 104.19.59.89
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446,633,639,640,665,672,673|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.140... #5'
-  network: ws
-  port: 2095
-  server: 162.159.140.93
-  servername: ip2.8084726.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ''
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,418,446,458,469,470,475,481,482|🏁RELAY-104.19.45.31-1091 #6'
-  network: ws
-  port: 2082
-  server: 104.19.45.31
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ''
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_332 |21.77Mb
-  network: ws
-  port: 2095
-  server: 104.19.45.47
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      HOST: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.17.106.151-1388 #7'
-  network: ws
-  port: 2082
-  server: 104.17.106.151
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_336 |21.43Mb
-  network: ws
-  port: 2095
-  server: 162.159.140.66
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      HOST: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.57.4-1297 #7'
-  network: ws
-  port: 2095
-  server: 104.19.57.4
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.21.238.100-1349 #7'
-  network: ws
-  port: 2095
-  server: 104.21.238.100
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.45.17-1347 #7'
-  network: ws
-  port: 2095
-  server: 104.19.45.17
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_350 |25.08Mb
-  network: ws
-  port: 2082
-  server: 162.159.140.91
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      HOST: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,400,418,458,469,470,475,481,482|🏁RELAY-104.19.42.49-1097 #6'
-  network: ws
-  port: 2095
-  server: 104.19.42.49
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ''
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.55.49-1342 #7'
-  network: ws
-  port: 2095
-  server: 104.19.55.49
-  servername: ip2.6016725.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-104.19.45.11-1246 #6'
-  network: ws
-  port: 2082
-  server: 104.19.45.11
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-🇨🇦CA_356 |25.21Mb
-  network: ws
-  port: 2082
-  server: icook.tw
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      HOST: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,446|🏁RELAY-162.159.140.45-1245 #6'
-  network: ws
-  port: 2082
-  server: 162.159.140.45
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '141,400,446|🏁RELAY-104.19.57.4-1391 #7'
-  network: ws
-  port: 2082
-  server: 104.19.57.4
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '151,160,161,749,750|US🇺🇸 | speedtest.net-80 | 23.4... #1'
@@ -1447,6 +846,19 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: '173,174,209,699,755|@Vip_Security join us - 190
+
+    '
+  network: tcp
+  port: '17163'
+  server: 108.181.200.220
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d54814a1-7a93-45f8-9117-db317a25d100
+- alterId: 0
+  cipher: auto
   name: '173,277|🔰NGINX_KIT 🔻🇺🇸US 🔺🇺🇸US ☑MTN_33... #1'
   network: ws
   port: 22751
@@ -1469,6 +881,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 7748cec0-5164-4c52-87cf-55758d80fdaf
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 173,209,277,289,380|🔒🇬🇧 GB 68.168.31.242 ◈ ws:443 ...
+  network: ws
+  port: '443'
+  server: 68.168.31.242
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - cipher: aes-256-gcm
   name: 173|🇨🇦CA(AzadNet.t.me)_015
   password: pKEW8JPByTVTLtM
@@ -1707,16 +1138,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '178,179,180,181|加拿大_多伦多 #385'
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts: {}
 - alterId: 0
   cipher: auto
@@ -1988,7 +1409,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '183,418,458,460,469,470,475,481,482,484,687|美国 CloudFlare节点 #875'
+  name: '183,418,458,460,469,470,475,481,482,484,687|美国 CloudFlare节点 #693'
   network: ws
   port: '2086'
   server: 104.19.47.122
@@ -2101,7 +1522,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '183,418,458,460,469,470,475,481,482,484,517,687|美国 CloudFlare节点 #889'
+  name: '183,418,458,460,469,470,475,481,482,484,517,687|美国 CloudFlare节点 #707'
   network: ws
   port: '2086'
   server: 104.19.51.232
@@ -2647,7 +2068,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '209,755|@Vip_Security join us - 652
+  name: '209,755|@Vip_Security join us - 656
 
     '
   network: ws
@@ -2691,6 +2112,22 @@ proxies:
     headers:
       Host: xmivideo.cfd
     path: /linkws
+- alterId: 1
+  cipher: auto
+  name: '209,282,508|United Kingdom Akamai #3'
+  network: ws
+  port: '443'
+  server: hms08.gwdef.sbs
+  servername: gwdef.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '209,277|🔰NGINX_KIT 🔻🇨🇦CA 🔺🇩🇪DE ☑MTN_16... #2'
@@ -2709,7 +2146,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: '209,755|@Vip_Security join us - 457
+  name: '209,755|@Vip_Security join us - 460
 
     '
   network: ws
@@ -3250,66 +2687,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '262,734|Canada_Ottawa_vmess_53 #1'
-  network: ws
-  port: 2082
-  server: 23.227.38.3
-  servername: ip4.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip4.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '262,734|Canada_Ottawa_vmess_593 #1'
-  network: ws
-  port: 2082
-  server: shopify.com
-  servername: ip4.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip4.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '262,734|Canada_Ottawa_vmess_93 #1'
-  network: ws
-  port: 2095
-  server: 23.227.38.3
-  servername: ip3.8084726.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip3.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '262,734|Canada_Ottawa_vmess_993 #1'
-  network: ws
-  port: 2095
-  server: shopify.com
-  servername: ip3.8084726.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip3.8084726.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: chacha20-poly1305
   grpc-opts:
@@ -6103,6 +5480,23 @@ proxies:
     path: /to.tilebani.com:443/linkvws
 - alterId: 0
   cipher: auto
+  name: '392|加拿大(yudou66.com 玉豆免费节点) #1'
+  network: ws
+  port: 2082
+  server: malaysia.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  version: '2'
+  ws-opts:
+    headers:
+      host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 398,452,453|🇨🇦 _CA_加拿大
   network: ws
   port: '80'
@@ -6127,6 +5521,16 @@ proxies:
   port: 2376
   server: 198.57.27.152
   type: ss
+  udp: true
+- country: 🇨🇦CA
+  delay: 1587
+  name: '412,413|加拿大 - 多伦多 - Amazon.com, Inc. -... #1'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 99.79.173.155
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
