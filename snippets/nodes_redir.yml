@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0,4,8,10,13,17,18,22,24,28,29,33,34,38,39,43,46,48,125,126,194,201,205,306,342,347,353,418,458,460,461,462,469,470,471,472,475,481,482,484,708,733,764|美国_1004330
+  name: 0,4,8,10,13,17,18,22,24,28,29,33,34,38,39,43,46,48,56,125,126,159,194,201,205,306,342,347,353,418,458,460,461,462,469,470,471,472,475,481,482,484,708,733,749,750,764|美国_1004330
   network: ws
   port: '2082'
   server: russia.com
@@ -20,7 +20,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0,4,9,13,17,18,22,24,28,29,33,34,38,39,43,47,126,194,201,205,306,324,342,347,354,401,418,458,461,462,469,470,471,472,475,481,482,708,733,764|美国_1004359
+  name: 0,4,9,13,17,18,22,24,28,29,33,34,38,39,43,47,126,194,205,306,342,347,353,401,418,458,461,462,469,470,471,472,475,481,482,708,764|美国_1004359
   network: ws
   port: '2082'
   server: japan.com
@@ -34,7 +34,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '0,13,18,24,29,34,39,125,159,194,201,205,208,306,324,342,347,349,354,418,458,460,461,462,469,470,471,472,475,481,482,484,733,749,750,764,768|未知_1004027
+  name: '0,13,18,24,29,34,39,125,194,205,306,342,347,353,418,458,460,461,462,469,470,471,472,475,481,482,484,733,749,750,764,768|未知_1004027
     #1'
   network: ws
   port: '2082'
@@ -50,7 +50,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 0,4,8,13,17,18,22,24,28,29,33,34,38,39,43,46,119,152,194,201,205,306,324,327,342,347,353,418,458,461,462,469,470,471,472,475,481,482,733,755,764|美国_1004332
+  name: 0,4,8,13,17,18,22,24,28,29,33,34,38,39,43,46,119,152,194,201,205,306,327,342,347,353,418,458,461,462,469,470,471,472,475,481,482,755,764|美国_1004332
   network: ws
   port: '2082'
   server: 172.64.166.9
@@ -64,11 +64,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 0,4,9,13,17,18,22,24,28,29,33,34,38,39,43,47,300,401,733|🏁RELAY-104.26.5.67-1273
+  name: '0,4,9,13,17,18,22,24,28,29,33,34,38,39,43,47,401|🇺🇸_US_美国->🇨🇦_CA_加拿大_4 #3'
   network: ws
   port: 2082
   server: 104.26.5.67
-  servername: ''
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -92,10 +91,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,47,401,733|🏁RELAY-172.64.198.249-1230
+  name: '9,47,401|🇺🇸_US_美国->🇨🇦_CA_加拿大_5 #3'
   network: ws
   port: 2082
   server: 172.64.198.249
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 9,47,56,126,194,205,306,342,347,353,401,418,458,461,462,469,470,471,472,475,481,482,708,764|未知_1004312
+  network: ws
+  port: '2082'
+  server: 162.159.140.56
   servername: ''
   tls: false
   type: vmess
@@ -135,7 +149,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '9,47,401,764,768|未知_1004017 #1'
+  name: '9,47,208,284,285,324,325,401,764,768|未知_1004017 #1'
   network: ws
   port: '2082'
   server: 104.19.21.71
@@ -151,7 +165,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 9,47,126,194,201,205,306,342,347,353,401,418,458,461,462,469,470,471,472,475,481,482,708,764|未知_1004363
+  name: 9,47,56,126,194,201,205,306,342,347,353,401,418,458,461,462,469,470,471,472,475,481,482,708,764|未知_1004363
   network: ws
   port: '2082'
   server: 104.19.45.19
@@ -178,7 +192,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '23,363,364,365,755|@Vip_Security join us - 613
+  name: '23,363,364,365,755|@Vip_Security join us - 614
 
     '
   network: ws
@@ -1289,6 +1303,19 @@ proxies:
   sni: hn.xiaohouzi.club
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '313,418,458,460,469,470,475,481,482,484|🏁RELAY-185.162.228.110-2341 #1'
+  network: ws
+  port: 443
+  server: 185.162.228.110
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    path: /AUIKN8AU
 - alterId: 1
   cipher: auto
   name: 313|🇨🇳_CN_中国->🇹🇼_TW_台湾_1_1@4
@@ -3858,7 +3885,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '400,434,446|🏁RELAY-172.67.70.92-1341 #7'
+  name: '400,434,446|🏁RELAY-172.67.70.92-1341 #6'
   network: ws
   port: 2082
   server: japan.com
@@ -3870,38 +3897,6 @@ proxies:
   ws-opts:
     headers:
       host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '400,446|🏁RELAY-104.19.57.4-1391 #7'
-  network: ws
-  port: 2082
-  server: 104.19.57.4
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '400,446|🏁RELAY-104.26.5.145-1216 #7'
-  network: ws
-  port: 2095
-  server: 104.26.5.145
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      host: ip2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3922,38 +3917,6 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.198.249
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '400,446|🏁RELAY-172.64.166.28-2021 #7'
-  network: ws
-  port: 2082
-  server: 172.64.166.28
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '400,446|🏁RELAY-162.159.140.56-1374 #6'
-  network: ws
-  port: 2082
-  server: 162.159.140.56
-  skip-cert-verify: true
-  tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -4033,19 +3996,6 @@ proxies:
   ws-opts:
     headers:
       host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '400|🇺🇸_US_美国->🇨🇦_CA_加拿大_13 #2'
-  network: ws
-  port: 2082
-  server: 104.26.5.103
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      host: ip3.6929198.xyz
     path: github.com/Alvin9999
 - alpn:
   - http/1.1
