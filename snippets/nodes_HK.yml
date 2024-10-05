@@ -1,11 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: HK
+  country: 🇰HK
   delay: 2474
   h2-opts: {}
   http-opts: {}
-  name: '10,48,56,82,83,125,194,201,205,252,284,285,289,290,306,342,347,352,354,412,413,418,458,460,461,462,469,470,471,472,475,481,482,483,484,649,665,671,672,674,675,676,679,684,685|🔒
+  name: '10,48,56,82,83,125,141,194,201,205,252,289,290,306,311,342,347,352,354,412,413,418,458,460,461,462,469,470,471,472,475,481,482,484,649,665,671,672,674,675,676,679,684,685|🔒
     VM-WS-NA 🇭🇰 HK-220.246.57.32... #15'
   network: ws
   port: 6378
@@ -24,10 +24,10 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 12,56,74,125,262,289,290,363,364,365,418,458,460,469,470,475,481,482,483,484,545,546,547,608,609,728|
-    13,14||@ripaojiedian
+  name: '12,56,70,74,125,262,289,290,325,326,342,347,354,363,364,365,418,458,460,469,470,475,481,482,484,498,499,500,545,546,547,608,609,779|安徽省滁州市
+    电信 #11'
   network: ws
-  port: 46001
+  port: '46001'
   server: 223.244.26.216
   servername: ''
   skip-cert-verify: false
@@ -36,11 +36,13 @@ proxies:
   type: vmess
   uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
   ws-opts:
+    headers:
+      Host: ''
     path: /zh-cn
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12,74,125,262,363,364,365,418,458,460,469,470,475,481,482,483,484,545,546,547,608,609|香港2|@ripaojiedian
+  name: 12,70,74,125,262,363,364,365,418,458,460,469,470,475,481,482,484,545,546,547,608,609|香港2|@ripaojiedian
   network: ws
   port: '48886'
   server: 134.122.135.158
@@ -70,7 +72,7 @@ proxies:
   http-opts: {}
   maximum: 45.45
   minimum: 40.83
-  name: 12,52,53,54,55,56,65,71,73,83,88,105,121,127,128,141,143,154,166,167,168,169,170,175,247,262,270,277,282,289,308,313,321,323,330,356,357,364,366,368,374,389,391,395,404,412,413,422,423,444,445,460,463,484,486,510,511,513,527,544,546,571,608,612,692,697,701,704,711,728,756,758,761,762,767|欧洲(自由之梦免费节点-严禁倒卖)
+  name: 12,52,53,54,55,56,65,70,73,83,88,105,127,128,141,143,154,166,167,168,169,170,175,247,262,277,282,289,308,313,321,323,330,356,357,364,366,368,374,389,391,395,404,412,413,422,423,444,445,460,463,484,486,510,511,513,527,544,546,571,608,612,692,697,701,704,711,728,756,758,761,762,767|欧洲(自由之梦免费节点-严禁倒卖)
     65
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -103,6 +105,92 @@ proxies:
     headers:
       Host: d84zxlca209ol.cloudfront.net
     path: /stream
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 56,127,323,460,484,781|🇨🇳 中国【付费推荐：https://a0a.xyz】209
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: '56,120,127,152,194,196,205,306,325,326,342,347,348,353,354,363,364,365,418,498,499,500,678,684,685,687,697,698,735,736,755|@Vip_Security
+    join us - 357
+
+    '
+  network: tcp
+  port: '45020'
+  server: 183.236.51.23
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' HK'
+  name: 56| HK_368
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' KR'
+  name: '56|disney_netflix_HK #3'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50101
+  server: iepl1.forlive.live
+  type: ss
+- country: 🇺🇸US
+  delay: 1555
+  fingerprint: chrome
+  name: '56,412,413|美国 - 东洛杉矶 - Cloudflare, Inc. -... #22'
+  network: ws
+  password: DailyConfigs
+  port: 8443
+  server: 172.64.146.66
+  sni: kanale-daily-configs.blackoutconnection.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kanale-daily-configs.blackoutconnection.ir
+    path: /@Daily_Configs,@Daily_Configs?ed=2560
+- country: 🏁ZZ
+  delay: 1592
+  fingerprint: chrome
+  name: '56,412,413|美国 - 东洛杉矶 - Cloudflare, Inc. -... #34'
+  network: ws
+  password: DailyConfigs
+  port: 8443
+  server: 104.18.41.190
+  sni: kanale-daily-configs.blackoutconnection.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kanale-daily-configs.blackoutconnection.ir
+    path: /@Daily_Configs,@Daily_Configs?ed=2560
+- country: ZZ
+  fingerprint: randomized
+  name: '56|disney_netflix_HK #5'
+  network: ws
+  password: bpb-trojan
+  port: 2053
+  server: 104.18.34.21
+  sni: bpB-worKER-paneL1-e4p.pAGes.dEV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: bpb-worker-panel1-e4p.pages.dev
+    path: /trEjWhhuRjwiMwSbDN/ZGUucmFkaWNhbGx5LnBybw==
 - alterId: -1
   cipher: aes-256-cfb
   country: 🇭🇰HK
@@ -134,6 +222,32 @@ proxies:
   tls: true
   type: vmess
   uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+- name: 70,262,546,761|HK_speednode_0163
+  network: ws
+  password: 95b
+  port: 443
+  server: aliyun.2096.us.kg
+  skip-cert-verify: true
+  sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
+- name: 70,262,546,761|HK_speednode_0164
+  network: ws
+  password: 95b
+  port: 443
+  server: aliyun.2096.us.kg
+  skip-cert-verify: true
+  sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
+    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: 0
   cipher: auto
   name: 76,119,120,152,755,764|美国_1004495
@@ -150,7 +264,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "76,119,120,755|@Vip_Security join us - 457\n #1"
+  name: "76,119,120,755|@Vip_Security join us - 455\n #1"
   network: tcp
   port: '10701'
   server: 38.147.188.88
@@ -181,7 +295,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '82,83,282,524|未命名 #335'
+  name: '82,83,282,524|未命名 #344'
   network: ws
   port: '80'
   server: 182.16.1.194
@@ -239,7 +353,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '125,194,201,205,252,311,312,342,347,352,649,665,671,674,675,676,679,684,686|🔒
-    VM-WS-TLS 🇭🇰 HK-210.0.158.21... #14'
+    VM-WS-TLS 🇭🇰 HK-210.0.158.21... #15'
   network: ws
   port: '12909'
   server: 210.0.158.219
@@ -253,11 +367,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 125|🇭🇰HK-220.246.57.32-1359
+  network: ws
+  port: 637
+  server: 220.246.57.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.131.2-2425 #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.131.2-2425 #8'
   network: http
   port: 31357
   server: 8.210.131.2
@@ -272,7 +400,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇰HK-47.242.69.124-2433 #1'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇰HK-47.242.69.124-2433 #1'
   network: http
   port: 54620
   server: 47.242.69.124
@@ -287,7 +415,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484,497|🇭🇰 _HK_香港 #4'
+  name: '125,313,418,458,460,469,470,475,481,482,484,497|🇭🇰 _HK_香港 #4'
   network: http
   port: '35668'
   server: 47.243.230.222
@@ -302,7 +430,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇰HK-47.243.187.171-2476 #1'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇰HK-47.243.187.171-2476 #1'
   network: http
   port: 60808
   server: 47.243.187.171
@@ -317,8 +445,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-47.243.185.128-2483
-    #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-47.243.185.128-2483 #8'
   network: http
   port: 47365
   server: 47.243.185.128
@@ -333,7 +460,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.15.231-2577 #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.15.231-2577 #8'
   network: http
   port: 41083
   server: 8.210.15.231
@@ -348,7 +475,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇰HK-47.242.26.30-2587 #1'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇰HK-47.242.26.30-2587 #1'
   network: http
   port: 28045
   server: 47.242.26.30
@@ -377,7 +504,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484,497|🇭🇰 _HK_香港 #6'
+  name: '125,313,418,458,460,469,470,475,481,482,484,497|🇭🇰 _HK_香港 #6'
   network: http
   port: '62307'
   server: 47.242.65.80
@@ -392,7 +519,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484,497|🇭🇰 _HK_香港 #5'
+  name: '125,313,418,458,460,469,470,475,481,482,484,497|🇭🇰 _HK_香港 #5'
   network: http
   port: '61228'
   server: 8.210.236.45
@@ -407,7 +534,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇰HK-47.242.1.160-2669 #1'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇰HK-47.242.1.160-2669 #1'
   network: http
   port: 36298
   server: 47.242.1.160
@@ -422,7 +549,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.166.114-2672 #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.166.114-2672 #8'
   network: http
   port: 48236
   server: 8.210.166.114
@@ -437,7 +564,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.248.210-2726 #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.248.210-2726 #8'
   network: http
   port: 54570
   server: 8.210.248.210
@@ -452,7 +579,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-47.242.21.177-2728 #9'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇭🇰HK-47.242.21.177-2728 #8'
   network: http
   port: 51007
   server: 47.242.21.177
@@ -463,7 +590,7 @@ proxies:
   uuid: 318b3dd1-09cf-4980-81ed-6cf689e5825a
 - alterId: 0
   cipher: auto
-  name: '125,313,418,458,460,469,470,475,481,482,483,484|🇰HK-202.64.124.252-2756 #1'
+  name: '125,313,418,458,460,469,470,475,481,482,484|🇰HK-202.64.124.252-2756 #1'
   network: ws
   port: 80
   server: 202.64.124.252
@@ -494,7 +621,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇰HK-8.210.20.159-3166 #1'
+  name: '125,418,458,460,469,470,475,481,482,484|🇰HK-8.210.20.159-3166 #1'
   network: http
   port: 45751
   server: 8.210.20.159
@@ -509,7 +636,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇰HK-8.210.153.242-3172 #1'
+  name: '125,418,458,460,469,470,475,481,482,484|🇰HK-8.210.153.242-3172 #1'
   network: http
   port: 48577
   server: 8.210.153.242
@@ -524,7 +651,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.206.163-3174 #9'
+  name: '125,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.206.163-3174 #8'
   network: http
   port: 45719
   server: 8.210.206.163
@@ -539,7 +666,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇰HK-47.242.52.13-3355 #1'
+  name: '125,418,458,460,469,470,475,481,482,484|🇰HK-47.242.52.13-3355 #1'
   network: http
   port: 31152
   server: 47.242.52.13
@@ -554,7 +681,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇰HK-8.210.48.219-3361 #1'
+  name: '125,418,458,460,469,470,475,481,482,484|🇰HK-8.210.48.219-3361 #1'
   network: http
   port: 26812
   server: 8.210.48.219
@@ -569,7 +696,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-47.242.95.19-3452 #9'
+  name: '125,418,458,460,469,470,475,481,482,484|🇭🇰HK-47.242.95.19-3452 #8'
   network: http
   port: 40988
   server: 47.242.95.19
@@ -584,7 +711,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇭🇰HK-8.210.70.156-3459 #9'
+  name: '125,418,458,460,469,470,475,481,482,484|🇭🇰HK-8.210.70.156-3459 #8'
   network: http
   port: 54148
   server: 8.210.70.156
@@ -986,20 +1113,6 @@ proxies:
     headers:
       Host: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 125|🇭🇰HK-220.246.57.32-1359
-  network: ws
-  port: 637
-  server: 220.246.57.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: '125,160,161,282,312,749,750|BY🇧🇾 | internet.life.com.by-80... #1'
@@ -1032,7 +1145,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '125,418,458,460,469,470,475,481,482,483,484|🇰HK-165.154.244.100-1130 #1'
+  name: '125,418,458,460,469,470,475,481,482,484|🇰HK-165.154.244.100-1130 #1'
   network: ws
   port: 443
   server: 165.154.244.100
@@ -1045,7 +1158,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,418,458,460,469,470,475,481,482,483,484,622,725|github.com/freefq - 美国Microsof...
+  name: '125,418,458,460,469,470,475,481,482,484,622,725|github.com/freefq - 美国Microsof...
     #6'
   network: ws
   port: 443
@@ -1061,7 +1174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,418,458,460,469,470,475,481,482,483,484,687|香港 电讯盈科有限公司 #4'
+  name: '125,418,458,460,469,470,475,481,482,484,687|香港 电讯盈科有限公司 #2'
   network: ws
   port: '16302'
   server: 220.246.57.32
@@ -1074,20 +1187,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 127,342,347,349,450,498,499,500,524|@ho3ino00🇭🇰_HK_香港_
-  network: tcp
-  port: '23183'
-  server: 43.154.34.49
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b402a4af-285a-463e-c3a7-53f91efdec78
-  ws-headers:
-    Host: 43.154.34.49
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 128|[🇭🇰]a4a09ce.h1.glados-config.n...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1191,7 +1290,7 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: '185,755|@Vip_Security join us - 379
+  name: '185,755|@Vip_Security join us - 376
 
     '
   network: tcp
@@ -1251,7 +1350,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '185,611,755|@Vip_Security join us - 375
+  name: '185,611,755|@Vip_Security join us - 372
 
     '
   network: tcp
@@ -1264,7 +1363,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '185,755|@Vip_Security join us - 389
+  name: '185,755|@Vip_Security join us - 386
 
     '
   network: tcp
@@ -1330,7 +1429,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '185,254,260,282,755|@Vip_Security join us - 652
+  name: '185,254,260,282,755|@Vip_Security join us - 649
 
     '
   network: ws
@@ -1366,7 +1465,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '185,755|@Vip_Security join us - 383
+  name: '185,755|@Vip_Security join us - 380
 
     '
   network: tcp
@@ -1397,7 +1496,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '185,755|@Vip_Security join us - 392
+  name: '185,755|@Vip_Security join us - 389
 
     '
   network: tcp
@@ -1471,7 +1570,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '185,755|@Vip_Security join us - 381
+  name: '185,755|@Vip_Security join us - 378
 
     '
   network: tcp
@@ -1510,7 +1609,7 @@ proxies:
   uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
-  name: '185,611,755|@Vip_Security join us - 378
+  name: '185,611,755|@Vip_Security join us - 375
 
     '
   network: tcp
@@ -1523,7 +1622,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: "185,755|@Vip_Security join us - 486\n #1"
+  name: "185,755|@Vip_Security join us - 484\n #1"
   network: ws
   port: '16632'
   server: yes.cnmjcn.net
@@ -1561,7 +1660,9 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: "185,755|@Vip_Security join us - 390\n #1"
+  name: '185,755|@Vip_Security join us - 387
+
+    '
   network: tcp
   port: '15603'
   server: 183.240.179.195
@@ -2681,32 +2782,6 @@ proxies:
     headers:
       Host: internet.life.com.by
     path: /
-- name: 262,546,761|HK_speednode_0163
-  network: ws
-  password: 95b
-  port: 443
-  server: aliyun.2096.us.kg
-  skip-cert-verify: true
-  sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
-    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
-- name: 262,546,761|HK_speednode_0164
-  network: ws
-  password: 95b
-  port: 443
-  server: aliyun.2096.us.kg
-  skip-cert-verify: true
-  sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
-    path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - name: 277|💠NGINX+-+🔻🇭🇰Hong+Kong+-+MTN_20...
   network: ws
   password: 7b06d22a8a7c764f
@@ -2753,7 +2828,7 @@ proxies:
 - alterId: 64
   cipher: auto
   name: '282,312,418,458,460,469,470,475,481,482,484,715,718,719,755|@Vip_Security
-    join us - 675
+    join us - 672
 
     '
   network: ws
@@ -2926,7 +3001,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '311,312|Hong Kong #2'
+  name: '312|Hong Kong #2'
   network: ws
   port: '16301'
   server: 220.246.57.32
@@ -3354,7 +3429,7 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: '342,347,349,498,499,500|🇭🇰 香港(油管:破解资源君2.0) #55'
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #22'
   network: ws
   port: '63078'
   server: in04.my1188.org
@@ -3367,7 +3442,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '342,347,349,498,499,500|🇭🇰 香港(油管:破解资源君2.0) #56'
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #23'
   network: ws
   port: '63078'
   server: in02.my1188.org
@@ -3380,7 +3455,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '342,347,349,498,499,500|🇭🇰 香港(油管:破解资源君2.0) #57'
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #24'
   network: ws
   port: '63078'
   server: in01.my1188.org
@@ -3393,7 +3468,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '342,347,349,498,499,500|🇭🇰 香港(油管:破解资源君2.0) #59'
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #26'
   network: ws
   port: '63078'
   server: in03.my1188.org
@@ -3404,9 +3479,36 @@ proxies:
     headers:
       Host: hk-balancer.airport-v2.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #27'
+  network: tcp
+  port: '10001'
+  server: aws3.rovod.top
+  tls: false
+  type: vmess
+  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
+- alterId: 2
+  cipher: auto
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #28'
+  network: tcp
+  port: '1001'
+  server: aws.rovod.top
+  tls: false
+  type: vmess
+  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
+- alterId: 2
+  cipher: auto
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #30'
+  network: tcp
+  port: '10006'
+  server: gzyd.lanyunshi.cc
+  tls: false
+  type: vmess
+  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
 - alterId: 0
   cipher: auto
-  name: '342,347,349,498,499,500|🇭🇰 香港(油管:破解资源君2.0) #64'
+  name: '342,347,349|🇭🇰 香港(油管:破解资源君2.0) #31'
   network: ws
   port: '80'
   server: text1.xbywwcp.us
@@ -3962,7 +4064,7 @@ proxies:
     path: /789
 - alterId: 0
   cipher: auto
-  name: 418,458,460,469,470,475,481,482,483,484,510|2.58|HK1042089644112120226ad87...
+  name: 418,458,460,469,470,475,481,482,484,510|2.58|HK1042089644112120226ad87...
   network: ws
   port: 80
   server: 104.208.96.44
@@ -3975,7 +4077,7 @@ proxies:
     path: /zh-cn/download
 - alterId: 0
   cipher: auto
-  name: 418,458,460,469,470,475,481,482,483,484,622,764|香港_1004003
+  name: 418,458,460,469,470,475,481,482,484,622,764|香港_1004003
   network: ws
   port: '443'
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -5118,6 +5220,59 @@ proxies:
     path: /biteb
 - alterId: 0
   cipher: auto
+  name: '498,499,500,622,725|github.com/freefq - 美国Microsof... #7'
+  network: ws
+  port: 10010
+  server: az.hk01.paopaocloud.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  ws-opts:
+    headers:
+      Host: paopao.v2.az01.paopaocloud.cyou
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: '498,499,500|🇭🇰 香港(油管:破解资源君2.0) #51'
+  network: ws
+  port: '443'
+  server: cdnhk-3.tiktokcdn.sbs
+  tls: true
+  type: vmess
+  uuid: 683a150b-017a-454b-d4d0-4e040ea48e8a
+  ws-opts:
+    headers:
+      Host: cdnhk-3.tiktokcdn.sbs
+    path: /ws
+- alterId: 1
+  cipher: auto
+  name: '498,499,500|🇭🇰 香港(油管:破解资源君2.0) #52'
+  network: ws
+  port: '38102'
+  server: ingress-i2.iivvppnn.info
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '498,499,500|🇭🇰 香港(油管:破解资源君2.0) #55'
+  network: ws
+  port: '888'
+  server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
+  tls: true
+  type: vmess
+  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
+  ws-opts:
+    headers:
+      Host: edge.cjhh.mom
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
   name: 508,524,548,629|Youtube顺丰资源  - 香港电讯盈科有限公司 11
   network: ws
   port: '443'
@@ -5132,7 +5287,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: "508,524,622,755|@Vip_Security join us - 436\n #1"
+  name: "508,524,622,755|@Vip_Security join us - 434\n #3"
   network: tcp
   port: '30862'
   server: 23.91.100.243
