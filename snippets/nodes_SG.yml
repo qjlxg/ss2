@@ -1,8 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  country: CN
-  name: '12,56,70,262,364,460,484,546,608,734|China_None_ss_1116 #2'
+  name: '12,262,364,460,484,546,608,734|China_None_ss_1116 #1'
   password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
   port: 39204
   server: hzhz1.sssyun.xyz
@@ -11,7 +10,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,70,125,159,194,205,208,262,284,285,331,342,347,354,363,364,365,418,458,460,461,462,469,470,471,472,475,481,482,484,545,546,547,608,609,734,764|新加坡_1006006
+  name: 12,125,159,194,205,208,262,283,323,325,326,331,342,347,363,364,365,418,458,460,461,462,469,470,471,472,475,481,482,484,545,546,547,608,609,633,639,641,665,673,734,764|新加坡_1006006
   network: ws
   port: '2052'
   server: 172.104.189.84
@@ -28,9 +27,7 @@ proxies:
 - alterId: -1
   cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: KR
-  name: '12,56,70,262,289,364,460,463,484,546,608,734|South Korea_Incheon_ss_1123
-    #2'
+  name: '12,71,262,289,364,460,463,484,546,608,734|South Korea_Incheon_ss_1123 #1'
   password: amazonskr05
   port: 443
   server: 52.78.193.3
@@ -45,22 +42,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇸 SG
+  client-fingerprint: chrome
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '52,53,143,146,194,201,205,342,347,352,632,639,640,660,664,671,672,673,674,675,676,678,684,685,755|@Vip_Security
-    join us - 50
-
-    '
-  network: tcp
-  port: '57614'
-  server: 5.34.176.111
-  servername: ''
-  skip-cert-verify: true
-  tls: false
+  name: 56,270|a8619037fcf14cb1a76f72b7f589a7...
+  network: ws
+  port: 2087
+  server: xjpv3.ftko8vzt9w.cyou
+  servername: xjpv3.ftko8vzt9w.cyou
+  tls: true
   type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-  ws-path: /
+  udp: false
+  uuid: e6a869ba-918d-4160-9c2f-34067bd72185
+  ws-opts:
+    headers:
+      host: xjpv3.ftko8vzt9w.cyou
+    path: /
 - alterId: -1
   cipher: rc4-md5
   country: 🇸🇬SG
@@ -78,51 +76,6 @@ proxies:
   port: 443
   server: 13.250.59.97
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇸SG
-  h2-opts: {}
-  http-opts: {}
-  name: 56,141|SG_70 | 8.38Mb
-  network: ws
-  port: 2052
-  server: 172.104.189.84
-  servername: 172.104.189.84
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
-  ws-opts:
-    headers:
-      HOST: 172.104.189.84
-    path: /video/QqzfRGNq
-- alterId: -1
-  cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 56,289|UM😈github.com/Ruk1ng001_138575...
-  password: amazonskr05
-  port: 443
-  server: 47.129.154.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: ZZ
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 56,270|3753e1c59e114ffea5a461fb3284e0...
-  network: ws
-  port: 2095
-  server: apivgbndf_cdn.hfhfb.homes
-  servername: sgcdn2.fask511.cfd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 54895917-9761-487f-b949-1476bf8193ea
-  ws-opts:
-    path: /?ed=512
 - alterId: 0
   cipher: auto
   name: 64|新加坡 Linode数据中心
@@ -564,7 +517,22 @@ proxies:
   ws-path: /ws
 - alterId: 0
   cipher: auto
-  name: 74,76,119,125,306,418,458,460,469,470,475,481,482,484,764|未知_1006217
+  name: '71,463|🇸🇬SG-172.104.189.84-2986 | 15.... #1'
+  network: ws
+  port: 2052
+  server: 172.104.189.84
+  servername: 🇸🇬SG-172.104.189.84-2986 | 15.731MB
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  ws-opts:
+    headers:
+      Host: 172.104.189.84
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 74,76,82,83,119,125,306,418,458,460,469,470,475,481,482,484,728,764|未知_1006217
   network: ws
   port: '80'
   server: 3L6E2.c6tu5uwk9.buzz
@@ -601,7 +569,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 88|24-2835-SG
+  name: 88|06-0642-SG
+  network: ws
+  port: 30000
+  server: xjpx6.12123.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 302cb8dd-6ea5-4d34-8444-0507a3f9ef6e
+  ws-opts:
+    headers:
+      Host: xjpx6.12123.org
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  name: 88|24-2939-SG
   network: ws
   port: 30000
   server: xjpx5.12123.org
@@ -614,9 +597,9 @@ proxies:
     headers:
       Host: xjpx5.12123.org
     path: /12123.org
-- auth: fa81705d-8384-49da-b458-eb45495019f1
-  name: '105,121,571|🇸🇬 新加坡-1-1A #1'
-  password: fa81705d-8384-49da-b458-eb45495019f1
+- auth: 928464bf-b82f-48c1-b145-4cc0d916a53d
+  name: '105,121,571|🇸🇬 新加坡-1-1B #1'
+  password: 928464bf-b82f-48c1-b145-4cc0d916a53d
   port: 30001
   server: oracle-amd-singapore1.lanmaoyun.icu
   skip-cert-verify: true
@@ -1381,7 +1364,7 @@ proxies:
   blackListed: false
   cipher: auto
   country: SG
-  name: 125,282,342,347,349,418,444,458,460,469,470,475,481,482,484,498,499,500,717,719,764|新加坡_1006002
+  name: 125,282,342,347,350,418,444,458,460,469,470,475,481,482,484,498,499,500,717,719,764|新加坡_1006002
   network: ws
   ping: 1229
   port: '80'
@@ -1399,7 +1382,7 @@ proxies:
     path: /anti13.zingfast.vn
 - alterId: 64
   cipher: auto
-  name: 125,342,347,349,418,458,460,469,470,475,481,482,484,498,499,500,764|新加坡_1006001
+  name: 125,342,347,350,418,458,460,469,470,475,481,482,484,498,499,500,764|新加坡_1006001
   network: ws
   port: '443'
   server: 23.106.249.2
@@ -1420,7 +1403,7 @@ proxies:
   type: ss
 - alterId: 32
   cipher: auto
-  name: '127,300,342,347,349,450,498,499,500,524,622,725|github.com/freefq - 新加坡OVH
+  name: '127,300,342,347,350,450,498,499,500,524,622,725|github.com/freefq - 新加坡OVH
     8 #1'
   network: tcp
   port: 443
@@ -1541,42 +1524,14 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 141,270|2b20ca0b93044f32820abc29b4b9b0...
-  network: ws
-  port: 80
-  server: 104.22.58.63
-  servername: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: false
-  uuid: fd200446-f7f8-4549-b4d8-4a23baea04bf
-  ws-opts:
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 141|Relay_🏁ZZ-SG_678 |34.27Mb
-  network: ws
-  port: 80
-  server: 3L6E2.c6tu5uwk9.buzz
-  servername: sg02.knt6y4bjx.buzz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      HOST: sg02.knt6y4bjx.buzz
-    path: /
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  country: 🇬SG
+  name: 143,289|CA😈github.com/Ruk1ng001_183644...
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 151|SG_youtube@资源分享师_38
@@ -2721,6 +2676,319 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 283|>🇸🇬 SG|Ls|0720|TG@FProxies|
+  network: ws
+  port: '30006'
+  server: entrance2-6.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  ws-opts:
+    headers:
+      Host: entrance2-6.jjsagcajvv.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 283|>🇸🇬 SG|Ms|0914|TG@FProxies|
+  network: ws
+  port: '443'
+  server: quiz.vidio.com
+  tls: true
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: vmess-sg1.sshkit.org
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 2
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ns|0720|TG@FProxies| #3'
+  network: ws
+  port: '23612'
+  server: 12.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 4f14b2c5-15a7-35c6-962e-6e37b5b227a8
+  ws-opts:
+    headers:
+      Host: 12.v2-ray.cyou
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ms|0720|TG@FProxies| #7'
+  network: ws
+  port: '23617'
+  server: 17.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 4760ed37-8765-3cd6-91ef-8a45821e6563
+  ws-opts:
+    headers:
+      Host: 17.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 283|新加坡
+  network: ws
+  port: '2082'
+  server: cdncdncdn.aikunapp.com
+  tls: false
+  type: vmess
+  uuid: 4dda03a9-a0ba-46a6-add2-6fdba9a2fb40
+  ws-opts:
+    headers:
+      Host: cfxjp.981545.xyz
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 283|>🇸🇬 SG|Hs|0914|TG@FProxies|
+  network: ws
+  port: '8443'
+  server: acting.zhangyuanyi19920627.top
+  tls: true
+  type: vmess
+  uuid: 74514f38-13d9-4825-c1bc-cdb9275f2d99
+  ws-opts:
+    headers:
+      Host: acting.zhangyuanyi19920627.top
+    path: /acting
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ms|0914|TG@FProxies| #1'
+  network: ws
+  port: '443'
+  server: api.fastworldpay.com
+  tls: true
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: vmess-sg1.sshkit.org
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: 283|>🇸🇬 SG|Ns|0720|TG@FProxies|
+  network: none
+  port: '11136'
+  server: sg.hj777sg.top
+  tls: false
+  type: vmess
+  uuid: c5e4e9d0-da73-3a08-8945-ec693a23a240
+- alterId: 0
+  cipher: auto
+  name: 283|狮城「新加坡|传说」「专线X」
+  network: tcp
+  port: '12954'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 2
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ns|0720|TG@FProxies| #5'
+  network: ws
+  port: '23613'
+  server: 13.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 4760ed37-8765-3cd6-91ef-8a45821e6563
+  ws-opts:
+    headers:
+      Host: 13.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 283|黑森林「新加坡|传说」
+  network: ws
+  port: '12926'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0914|TG@FProxies| #1'
+  network: ws
+  port: '443'
+  server: profit-server.aken.my.id
+  tls: true
+  type: vmess
+  uuid: d9a31ea0-d3b6-4a7b-be2e-01bbdba6c6e2
+  ws-opts:
+    headers:
+      Host: profit-server.aken.my.id
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0914|TG@FProxies| #2'
+  network: ws
+  port: '80'
+  server: 104.18.3.2
+  tls: false
+  type: vmess
+  uuid: cb1d03f1-693a-42dc-9dd2-0369a413fe55
+  ws-opts:
+    headers:
+      Host: sshsg1.cloudtik.biz.id
+    path: /vmess-ntls
+- alterId: 64
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0720|TG@FProxies| #6'
+  network: tcp
+  port: '50582'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0720|TG@FProxies| #5'
+  network: tcp
+  port: '34002'
+  server: 120.232.153.27
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 283|新加坡 （0.1倍流量消耗)
+  network: ws
+  port: '2082'
+  server: cdncdncdn.aikunapp.com
+  tls: false
+  type: vmess
+  uuid: 4dda03a9-a0ba-46a6-add2-6fdba9a2fb40
+  ws-opts:
+    headers:
+      Host: cs-sg.981545.xyz
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0720|TG@FProxies| #3'
+  network: ws
+  port: '8008'
+  server: automatic-bak.x-max.co
+  tls: false
+  type: vmess
+  uuid: 2c466c4a-f27e-38ad-9010-34a83b24a68f
+  ws-opts:
+    headers:
+      Host: automatic-bak.x-max.co
+    path: /SG-B-WS
+- alterId: 64
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ms|0720|TG@FProxies| #3'
+  network: tcp
+  port: '54565'
+  server: 183.238.202.173
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ms|0720|TG@FProxies| #5'
+  network: tcp
+  port: '54437'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0720|TG@FProxies| #4'
+  network: ws
+  port: '10000'
+  server: 103.231.188.124
+  tls: false
+  type: vmess
+  uuid: 3ce6774a-42bf-11ef-9bb5-6a106b1de07d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Hs|0914|TG@FProxies| #1'
+  network: ws
+  port: '80'
+  server: blog.sushiroll.co.id
+  tls: false
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: blog.sushiroll.co.id
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Hs|0914|TG@FProxies| #2'
+  network: ws
+  port: '80'
+  server: account.pmang.game.naver.com
+  tls: false
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: account.pmang.game.naver.com
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ms|0720|TG@FProxies| #6'
+  network: ws
+  port: '8080'
+  server: 40.119.192.85
+  tls: false
+  type: vmess
+  uuid: 0474bb6a-6fc4-4c6a-adba-2200ba0dfc17
+  ws-opts:
+    headers:
+      Host: ''
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 283,329,418,458,460,469,470,475,481,482,484,764|德国_1006002
+  network: ws
+  port: '443'
+  server: sgdo.vipcasper.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4dad8ee1-9a55-4674-9c5b-69b66f4ddcdc
+  ws-opts:
+    headers:
+      Host: sgdo.vipcasper.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 283|新加坡01-0.01×
+  network: ws
+  port: '21021'
+  server: ent1.imyourdaddy.top
+  tls: false
+  type: vmess
+  uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '283|>🇸🇬 SG|Ls|0720|TG@FProxies| #8'
+  network: tcp
+  port: '54100'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 296|🇸🇬新加坡(欢迎订阅Youtube元亨利贞)
@@ -4331,21 +4599,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 463|🇸🇬SG-172.104.189.84-2986 | 15....
-  network: ws
-  port: 2052
-  server: 172.104.189.84
-  servername: 🇸🇬SG-172.104.189.84-2986 | 15.731MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
-  ws-opts:
-    headers:
-      Host: 172.104.189.84
-    path: /
-- alterId: 0
-  cipher: auto
   country: mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
   name: '486,612|mattkaydiary.com|新加坡(SG)Singap... #1'
   network: ws
@@ -4359,6 +4612,111 @@ proxies:
     headers:
       host: v2-2.godlight.xyz
     path: /54f634fs
+- alterId: 2
+  cipher: auto
+  name: 496|🇬 [vip①]新加坡1 - MG Network
+  network: ws
+  port: 23612
+  server: 12.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 37753b27-7272-39ef-b62b-f171561294d4
+  ws-opts:
+    headers:
+      Host: 12.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 496|🇸🇬 [vip①]新加坡2 - MG Network
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 37753b27-7272-39ef-b62b-f171561294d4
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 496|【高级】🇬新加坡 - 滑梯云
+  network: ws
+  port: 20011
+  server: htsub-2024.899696998.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed
+  ws-opts:
+    headers:
+      Host: yyyt-sg-2024.mofaxw.top
+    path: /2024
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 496|🇬 新加坡 101 - 墙了个墙
+  network: grpc
+  password: 6d68a2e2-e6ef-3e93-8ece-02e9d79a292e
+  port: 11223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 496|🇸🇬 新加坡 102 - 墙了个墙
+  network: grpc
+  password: 6d68a2e2-e6ef-3e93-8ece-02e9d79a292e
+  port: 21223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 496|🇸🇬 新加坡 103 - 墙了个墙
+  network: grpc
+  password: 6d68a2e2-e6ef-3e93-8ece-02e9d79a292e
+  port: 31223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 496|🇸🇬 新加坡 104 - 墙了个墙
+  network: grpc
+  password: 6d68a2e2-e6ef-3e93-8ece-02e9d79a292e
+  port: 41223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: sgvip101
+  name: 496|🇸🇬 新加坡 105 - 墙了个墙
+  network: grpc
+  password: 6d68a2e2-e6ef-3e93-8ece-02e9d79a292e
+  port: 51223
+  server: sgvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: sgvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '497|🇸🇬 _SG_新加坡 #1'
