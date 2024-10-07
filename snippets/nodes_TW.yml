@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '12,262,323,364,460,484,546,608,734|China_None_ss_1112 #1'
+  name: '12,262,364,460,484,546,608,734|China_None_ss_1112 #1'
   password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
   port: 39201
   server: hzhz1.sssyun.xyz
@@ -23,6 +23,15 @@ proxies:
   server: tw1.mhw7e2.online
   tfo: false
   type: ss
+- country: TW
+  name: '56|disney_TW #1'
+  network: tcp
+  password: 8429a5fe-8303-306f-a4dc-0e0f64207b94
+  port: 443
+  server: 36.228.232.76
+  sni: tone.zoozoo.co.za
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 64|台湾省 中华电信(HiNet)数据中心
@@ -40,9 +49,9 @@ proxies:
   server: tw.cooc.icu
   type: ss
   udp: true
-- auth: 26b92553-0d42-487b-b78e-e1c61d1be153
-  name: '105,571|🇹🇼 台湾-1A #1'
-  password: 26b92553-0d42-487b-b78e-e1c61d1be153
+- auth: 45337af7-2a54-4f53-856d-872ade2a5b28
+  name: '105,121,571|🇹🇼 台湾-1A #1'
+  password: 45337af7-2a54-4f53-856d-872ade2a5b28
   port: 8088
   server: tw-01.jisovpn.site
   skip-cert-verify: false
@@ -50,13 +59,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '125,209,277,306,418,458,460,469,470,475,481,482,484,764,781|未知【付费推荐：https://a0a.xyz】72
+  client-fingerprint: chrome
+  name: '125,194,205,209,277,342,347,418,446,458,461,462,469,470,471,472,475,481,482,764,781|未知【付费推荐：https://a0a.xyz】72
     #2'
   network: ws
   port: 12945
   server: 154.40.60.172
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
@@ -107,7 +117,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,314,418,458,460,469,470,475,481,482,484|🇼TW-114.43.155.173-2792 #1'
+  name: '125,314,418,458,460,469,470,475,481,482,484|🇼TW-114.43.155.173-2771 #1'
   network: ws
   port: 45215
   server: 012.AP.POP.node-for-smallairport.win
@@ -223,7 +233,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,227,418,458,460,469,470,475,481,482,484|🇼TW-165.154.226.45-5859 #1'
+  name: '125,227,418,458,460,469,470,475,481,482,484|🇼TW-165.154.226.45-5838 #1'
   network: ws
   port: 80
   server: 165.154.226.45
@@ -236,7 +246,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5860 #1'
+  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5839 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -251,7 +261,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-165.154.253.35-5862 #1'
+  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-165.154.253.35-5841 #1'
   network: ws
   port: 443
   server: tw-1.qwqjsq.top
@@ -280,7 +290,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '125,227,418,458,460,469,470,475,481,482,484|🇼TW-114.37.209.177-5868 #1'
+  name: '125,227,418,458,460,469,470,475,481,482,484|🇼TW-114.37.209.177-5847 #1'
   network: ws
   port: 10001
   server: ddns2.airtcp.vip
@@ -295,7 +305,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-165.154.246.107-5870 #1'
+  name: '125,227,418,458,460,469,470,475,481,482,484|🇹🇼TW-165.154.246.107-5849 #1'
   network: ws
   port: 80
   server: 165.154.246.107
@@ -567,75 +577,27 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: '243,244,460,484|TW-61.220.130.70-8673 #1'
+  name: '243,244,460,484|TW-61.220.130.70-8652 #1'
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
   type: ss
 - alterId: 0
   cipher: auto
+  name: 283|>🇹🇼 TW|Ms|0914|TG@FProxies|
+  network: ws
+  port: '12945'
+  server: z2.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z2.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 283|>🇹🇼 TW|Ms|0720|TG@FProxies|
-  network: ws
-  port: '30050'
-  server: entrance1-50.jjsagcajvv.xyz
-  tls: false
-  type: vmess
-  uuid: 7622b788-0703-324a-9797-9a2f8bcbfccd
-  ws-opts:
-    headers:
-      Host: entrance1-50.jjsagcajvv.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 283|>🇹🇼 TW|Ns|0720|TG@FProxies|
-  network: ws
-  port: '8080'
-  server: 104.19.47.191
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #1'
-  network: tcp
-  port: '22240'
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  uuid: e21f8b17-a95c-4e12-810d-660b74a38177
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #1'
-  network: ws
-  port: '8080'
-  server: 172.67.172.146
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
-  network: ws
-  port: '8080'
-  server: 104.19.47.97
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #1'
   network: ws
   port: '30050'
   server: entrance2-58.jjsagcajvv.xyz
@@ -648,10 +610,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
+  name: 283|>🇹🇼 TW|Ns|0720|TG@FProxies|
   network: ws
   port: '8080'
-  server: 172.67.172.235
+  server: 172.67.172.146
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -661,10 +623,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #1'
+  network: ws
+  port: '80'
+  server: 108.165.144.158
+  tls: false
+  type: vmess
+  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #2'
+  network: tcp
+  port: '22240'
+  server: jzgz.tcity8.monster
+  tls: false
+  type: vmess
+  uuid: e21f8b17-a95c-4e12-810d-660b74a38177
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
   network: ws
   port: '8080'
-  server: 104.19.47.104
+  server: 104.19.47.240
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -674,10 +658,23 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #2'
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
   network: ws
   port: '8080'
-  server: 172.67.172.246
+  server: 104.19.47.191
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
+  network: ws
+  port: '8080'
+  server: 172.67.172.235
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -700,7 +697,51 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 283|>🇹🇼 TW|Ms|0914|TG@FProxies|
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #6'
+  network: ws
+  port: '8080'
+  server: 104.19.47.97
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #7'
+  network: ws
+  port: '8080'
+  server: 104.19.47.104
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '283|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #11'
+  network: tcp
+  port: '19822'
+  server: xgcta.dx002.top
+  tls: false
+  type: vmess
+  uuid: 278ac075-9eef-3d9d-8532-9f7f50f73972
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #1'
+  network: tcp
+  port: '35224'
+  server: dzgz.tcity8.monster
+  tls: false
+  type: vmess
+  uuid: aba67856-05c2-4f20-819d-8eeac0318806
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ms|0914|TG@FProxies| #1'
   network: ws
   port: '12943'
   server: z6.fragranceninja.com
@@ -713,61 +754,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #12'
-  network: tcp
-  port: '19822'
-  server: xgcta.dx002.top
-  tls: false
-  type: vmess
-  uuid: 278ac075-9eef-3d9d-8532-9f7f50f73972
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ms|0914|TG@FProxies| #1'
-  network: ws
-  port: '12945'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #8'
-  network: ws
-  port: '80'
-  server: 108.165.144.158
-  tls: false
-  type: vmess
-  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #2'
-  network: tcp
-  port: '35224'
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  uuid: aba67856-05c2-4f20-819d-8eeac0318806
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
+  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #2'
   network: ws
   port: '8080'
-  server: 104.19.47.240
+  server: 172.67.172.246
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #3'
+  network: ws
+  port: '30050'
+  server: entrance1-50.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: 7622b788-0703-324a-9797-9a2f8bcbfccd
+  ws-opts:
+    headers:
+      Host: entrance1-50.jjsagcajvv.xyz
+    path: /
 - alterId: -1
   cipher: rc4-md5
   client-fingerprint: chrome
@@ -797,7 +807,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '313,418,458,460,469,470,475,481,482,484|TW-1.161.186.146-2586 #1'
+  name: '313,418,458,460,469,470,475,481,482,484|TW-1.161.186.146-2565 #1'
   network: ws
   port: 64443
   server: 1.161.186.146
@@ -1054,7 +1064,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇼TW-114.42.198.166-2662 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇼TW-114.42.198.166-2641 #1'
   network: ws
   port: 80
   server: tw1g.jeidian.xyz
@@ -1069,7 +1079,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇼TW-211.72.35.110-5514 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇼TW-211.72.35.110-5493 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1084,7 +1094,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5515 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5494 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1099,7 +1109,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5516 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5495 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1114,7 +1124,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5517 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5496 #1'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -1129,7 +1139,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5518 #1'
+  name: '418,458,460,469,470,475,481,482,484|🇹🇼TW-211.72.35.110-5497 #1'
   network: ws
   port: 443
   server: 211.72.35.110
