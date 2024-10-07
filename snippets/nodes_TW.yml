@@ -35,15 +35,15 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: chacha20-ietf-poly1305
-  name: 88|04-0415-TW
+  name: 88|04-0426-TW
   password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67
   port: 10001
   server: tw.cooc.icu
   type: ss
   udp: true
-- auth: 45337af7-2a54-4f53-856d-872ade2a5b28
-  name: '105,121,571|🇹🇼 台湾-1A #1'
-  password: 45337af7-2a54-4f53-856d-872ade2a5b28
+- auth: 15863b4f-a062-4668-80dc-6e0cf79cbfa5
+  name: '105,571|🇹🇼 台湾-1C #1'
+  password: 15863b4f-a062-4668-80dc-6e0cf79cbfa5
   port: 8088
   server: tw-01.jisovpn.site
   skip-cert-verify: false
@@ -65,6 +65,23 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    path:
+    - /
+  name: 125,229,418,458,460,469,470,475,481,482,484,511|1.47|TWyoutube资源分享师156
+  network: http
+  port: '20715'
+  server: 45.121.51.103
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f6406b6d-5487-46da-f793-46611269a306
+  ws-headers:
+    host: ''
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 125|🇹🇼TW-165.154.246.71-1632
@@ -338,23 +355,6 @@ proxies:
     headers:
       Host: tw3.594888.xyz
     path: /
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    path:
-    - /
-  name: 125,229,418,458,460,469,470,475,481,482,484,511|1.47|TWyoutube资源分享师156
-  network: http
-  port: '20715'
-  server: 45.121.51.103
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f6406b6d-5487-46da-f793-46611269a306
-  ws-headers:
-    host: ''
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '125,418,458,460,469,470,475,481,482,484|TW-36.228.238.97-0619 #1'
@@ -479,20 +479,6 @@ proxies:
   ws-opts:
     headers:
       Host: 103.159.206.35
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '194,205,342,347,353,633,639,640,665,671,672,673,674|🔒 VM-WS-NA 🇹🇼 TW-36.227.237.20...
-    #12'
-  network: ws
-  port: '80'
-  server: 36.227.237.200
-  tls: false
-  type: vmess
-  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
     path: /
 - alterId: '0'
   cipher: auto
