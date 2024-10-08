@@ -8,13 +8,6 @@ proxies:
   server: tw1.mhw7e2.online
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56,88|02-0004-CN
-  password: c569d52a-7beb-4a4c-841c-53c098c35881
-  port: 39201
-  server: hzhz1.sssyun.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 64|台湾省 中华电信(HiNet)数据中心
@@ -26,20 +19,48 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: chacha20-ietf-poly1305
-  name: 88|04-0360-TW
+  name: 88|04-0379-TW
   password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67
   port: 10001
   server: tw.cooc.icu
   type: ss
   udp: true
-- auth: 6989c393-a4c1-4ee2-b4d6-c469204891cd
+- auth: 406003e3-6d0e-490c-a805-0ac6429114cb
   name: '105,571|🇹🇼 台湾-1L #1'
-  password: 6989c393-a4c1-4ee2-b4d6-c469204891cd
+  password: 406003e3-6d0e-490c-a805-0ac6429114cb
   port: 8088
   server: tw-01.jisovpn.site
   skip-cert-verify: false
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '106,252,315,504,718,719,726|PP|@Zyw_Channel #42'
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 106,185,240|台湾_121320001
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: 103.159.206.35
+    path: /
 - alterId: 0
   cipher: auto
   name: 125|🇹🇼TW-165.154.246.71-1514
@@ -443,21 +464,7 @@ proxies:
   uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
 - alterId: 0
   cipher: auto
-  name: 185,240|台湾_121320001
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: 103.159.206.35
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 205,209,277,342,347,418,458,460,461,462,469,470,471,472,475,481,482,484,764|美国_1008237
+  name: 194,205,209,277,347,418,458,460,461,462,469,470,471,472,475,481,482,484,764|美国_1008237
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -567,18 +574,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '252,315,504,718,719,726|PP|@Zyw_Channel #42'
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  servername: ''
+  name: '283|>Beta|🇺🇳 FP|Ns|0720|TG@FProxie... #10'
+  network: tcp
+  port: '19821'
+  server: xgcma.dx002.top
   tls: false
   type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: aebcd733-50b2-3385-bcf5-c631a8c89017
 - alterId: 0
   cipher: auto
   name: 283|>🇹🇼 TW|Ns|0720|TG@FProxies|
@@ -594,68 +596,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 283|>🇹🇼 TW|Ms|0720|TG@FProxies|
-  network: ws
-  port: '8080'
-  server: 172.67.172.246
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 283|>🇹🇼 TW|Ls|0720|TG@FProxies|
-  network: tcp
-  port: '19821'
-  server: xgcma.dx002.top
-  tls: false
-  type: vmess
-  uuid: 1fccf626-89e1-3ef1-937b-54ee1b2497f8
-- alterId: 0
-  cipher: auto
   name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #1'
-  network: ws
-  port: '80'
-  server: 108.165.144.158
-  tls: false
-  type: vmess
-  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
-  network: ws
-  port: '8080'
-  server: 104.19.47.191
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 283|>🇹🇼 TW|Ms|0914|TG@FProxies|
-  network: ws
-  port: '12945'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
   network: ws
   port: '8080'
   server: 172.67.172.235
@@ -668,39 +609,78 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
+  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #1'
+  network: ws
+  port: '30050'
+  server: entrance1-50.jjsagcajvv.xyz
+  tls: false
+  type: vmess
+  uuid: 7622b788-0703-324a-9797-9a2f8bcbfccd
+  ws-opts:
+    headers:
+      Host: entrance1-50.jjsagcajvv.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #2'
+  network: tcp
+  port: '22240'
+  server: jzgz.tcity8.monster
+  tls: false
+  type: vmess
+  uuid: 740ba9a4-5de5-4422-a4e7-02b3dee80906
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #2'
   network: ws
   port: '8080'
-  server: 172.67.172.146
+  server: 104.19.47.97
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #1'
-  network: tcp
-  port: '22240'
-  server: jzgz.tcity8.monster
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #3'
+  network: ws
+  port: '80'
+  server: 108.165.144.158
   tls: false
   type: vmess
-  uuid: e21f8b17-a95c-4e12-810d-660b74a38177
-- alterId: 0
-  cipher: auto
-  name: '283|>🇹🇼 TW|Ms|0914|TG@FProxies| #1'
-  network: ws
-  port: '12943'
-  server: z6.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: ee7c8b76-92a9-4121-b021-e88ea7499564
   ws-opts:
     headers:
-      Host: z6.fragranceninja.com
+      Host: gw.alicdn.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #4'
+  network: ws
+  port: '8080'
+  server: 104.19.47.240
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #5'
+  network: ws
+  port: '8080'
+  server: 104.19.47.123
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #2'
@@ -716,33 +696,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #6'
+  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #3'
   network: ws
   port: '8080'
-  server: 104.19.47.240
+  server: 172.67.172.246
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #7'
+  name: 283|>🇹🇼 TW|Ms|0914|TG@FProxies|
   network: ws
-  port: '8080'
-  server: 104.19.47.123
-  tls: false
+  port: '12945'
+  server: z2.fragranceninja.com
+  tls: true
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: ''
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+      Host: z2.fragranceninja.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #2'
+  name: '283|>🇹🇼 TW|Hs|0914|TG@FProxies| #1'
   network: tcp
   port: '35224'
   server: dzgz.tcity8.monster
@@ -751,23 +731,23 @@ proxies:
   uuid: aba67856-05c2-4f20-819d-8eeac0318806
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ms|0720|TG@FProxies| #3'
+  name: '283|>🇹🇼 TW|Ms|0914|TG@FProxies| #1'
   network: ws
-  port: '30050'
-  server: entrance1-50.jjsagcajvv.xyz
-  tls: false
+  port: '12943'
+  server: z6.fragranceninja.com
+  tls: true
   type: vmess
-  uuid: 7622b788-0703-324a-9797-9a2f8bcbfccd
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: entrance1-50.jjsagcajvv.xyz
+      Host: z6.fragranceninja.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #8'
   network: ws
   port: '8080'
-  server: 104.19.47.97
+  server: 104.19.47.191
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -775,6 +755,19 @@ proxies:
     headers:
       Host: ''
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '283|>🇹🇼 TW|Ns|0720|TG@FProxies| #9'
+  network: ws
+  port: '8080'
+  server: 172.67.172.146
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: -1
   cipher: aes-128-gcm
   name: 289|TW😈github.com/Ruk1ng001_175348...
