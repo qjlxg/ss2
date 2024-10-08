@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '8,46|俄罗斯 新西伯利亚JustHost #1'
+  network: ws
+  port: 416
+  server: 45.130.147.162
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: '23,132,363,364,365|2|🇷🇺_RU_俄罗斯联邦 #3'
   network: tcp
   port: 35972
@@ -49,9 +62,23 @@ proxies:
   sni: www.bing.com
   type: hysteria
   up: 11 Mbps
-- auth: 6989c393-a4c1-4ee2-b4d6-c469204891cd
-  name: '105,121,571|🇷🇺 俄罗斯-1F #2'
-  password: 6989c393-a4c1-4ee2-b4d6-c469204891cd
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: '70,262,734|Russia_Moscow_hy_3 #2'
+  port: 12311
+  ports: 12311
+  protocol: udp
+  server: 46.17.43.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 1000
+- auth: 2f80c21f-b4b1-4090-8d2b-39b3cba7b824
+  name: '105,571|🇷🇺 俄罗斯-1E #1'
+  password: 2f80c21f-b4b1-4090-8d2b-39b3cba7b824
   port: 8088
   server: ru-01.jisovpn.site
   skip-cert-verify: false
@@ -59,11 +86,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 106|[75][75][75][74]俄罗斯联邦_1004480
+  name: "106,755|@Vip_Security join us - 103\n #1"
   network: ws
-  port: '2095'
+  port: '8880'
   server: 91.194.161.15
-  servername: google.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6cff58a7-59d9-4404-8754-ad8f19818fa5
@@ -71,48 +98,6 @@ proxies:
     headers:
       Host: google.com
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 106|[72][72][72][72]俄罗斯联邦_1004478
-  network: ws
-  port: '8080'
-  server: 91.194.161.15
-  servername: google.com
-  tls: false
-  type: vmess
-  uuid: 6cff58a7-59d9-4404-8754-ad8f19818fa5
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '106,537|🇷🇺 Russian Federation - NA 🌍 V... #122'
-  network: ws
-  port: '80'
-  server: 45.144.2.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 106|[76][76][75]俄罗斯联邦_1008757
-  network: ws
-  port: '426'
-  server: 45.130.147.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: '106,282,537|🇷🇺 Russian Federation - NA 🌍 V... #149'
@@ -131,7 +116,77 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "119,312,755|@Vip_Security join us - 9\n #1"
+  name: '106,537|🇷🇺 Russian Federation - NA 🌍 V... #122'
+  network: ws
+  port: '80'
+  server: 45.144.2.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 106|[75][75][75][75][74]俄罗斯联邦_1004...
+  network: ws
+  port: '2095'
+  server: 91.194.161.15
+  servername: google.com
+  tls: false
+  type: vmess
+  uuid: 6cff58a7-59d9-4404-8754-ad8f19818fa5
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 106|[72][72][72][72][72]俄罗斯联邦_1004...
+  network: ws
+  port: '8080'
+  server: 91.194.161.15
+  servername: google.com
+  tls: false
+  type: vmess
+  uuid: 6cff58a7-59d9-4404-8754-ad8f19818fa5
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 106|[72]俄罗斯-45.130.147.162-145
+  network: ws
+  port: '426'
+  server: 45.130.147.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: 45.130.147.162
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '106,290|Other😈github.com/Ruk1ng001_261... #1'
+  network: ws
+  port: 426
+  server: 45.130.147.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: "119,120,312,755|@Vip_Security join us - 9\n #1"
   network: ws
   port: '4434'
   server: 45.130.147.162
@@ -145,21 +200,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '119|@Golestan_VPN - 🇷🇺 Russia #1'
+  name: '119|@Golestan_VPN - 🇷🇺 Russia #2'
   network: ws
   port: '443'
   server: live.989bull.com
   servername: live.989bull.com
   tls: true
   type: vmess
-  uuid: 74b8ac3f-e87f-4c50-986a-9c8c24e26664
+  uuid: 9ab6d7b4-cd08-4510-8bca-a01f461f8eb5
   ws-opts:
     headers:
       Host: Dbdjhiw72ebsu272hs519j.com
     path: ws/?ed=2048
 - alterId: 0
   cipher: auto
-  name: '119,290,297,298,327,755|@Vip_Security join us - 746
+  name: '119,327,755|@Vip_Security join us - 746
 
     '
   network: ws
@@ -175,7 +230,23 @@ proxies:
     path: ws/?ed=2048
 - alterId: 0
   cipher: auto
-  name: 125|🇷🇺RU-45.136.244.181-1374
+  name: "125,418,458,460,469,470,475,481,482,484,687,755|@Vip_Security join us - 10\n\
+    \ #1"
+  network: ws
+  port: '4435'
+  server: 45.130.147.162
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 125|🇷🇺RU-45.136.244.181-1525
   network: ws
   port: 80
   server: 45.136.244.181
@@ -202,22 +273,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '125,132,177,178,418,458,460,469,470,475,481,482,484,486|二爷免费翻墙 https://1808.free.hr
-    节点... #559'
-  network: ws
-  port: 40045
-  server: 45.130.147.178
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 58b557ae-fe5f-4aaa-916e-8c862996c7cd
-  ws-opts:
-    headers:
-      Host: 45.130.147.178
     path: /
 - alterId: 0
   cipher: auto
@@ -287,36 +342,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 125,283|俄罗斯 - 新西伯利亚 - LLC Baxet - 1
-  network: ws
-  port: '446'
-  server: 45.130.147.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "125,418,458,460,469,470,475,481,482,484,687,755|@Vip_Security join us - 10\n\
-    \ #1"
-  network: ws
-  port: '4435'
-  server: 45.130.147.162
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 125,314|🇷🇺 v2rayfree.eu.org - 俄罗斯  47
   network: ws
   port: '443'
@@ -331,7 +356,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 125|🇷🇺RU-45.136.244.181-1009
+  name: 125|🇷🇺RU-45.136.244.181-1107
   network: ws
   port: 80
   server: 45.136.244.181
@@ -342,19 +367,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 760
-  name: '125,412,413|俄罗斯 - 新西伯利亚 - LLC Baxet - 1 #2'
-  network: ws
-  port: 416
-  server: 45.130.147.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
     path: /
 - alterId: 64
   cipher: auto
@@ -526,6 +538,22 @@ proxies:
   server: 212.113.106.243
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '270,283|>🇷🇺 RU|Ns|0914|TG@FProxies| #72'
+  network: ws
+  port: '40045'
+  server: 45.130.147.178
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 45c4ef37-fa2c-4cea-b9ca-96a82763f4fe
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 282,308|🇷🇺RU-146.185.198.44-215_1@214
   password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
@@ -565,14 +593,11 @@ proxies:
   server: 94.228.169.114
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 282,697|未知62
-  password: WBudlMu3Zbyt8ztYtcLmS3
+- cipher: chacha20-ietf-poly1305
+  name: 282|🇷🇺 RU 2 → tg@nicevpn123
+  password: u3vnfMkutB4brBoGSkAphE
   port: 60422
   server: 195.2.76.71
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - alterId: 0
@@ -895,11 +920,14 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- cipher: chacha20-ietf-poly1305
-  name: 282|🇷🇺 RU 90 → tg@nicevpn123
-  password: oog65JXEql48VTve79V89g
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 282,697|未知13
+  password: ZECgvO61blVg7hy8mPk0FX
   port: 61992
   server: 212.113.106.76
+  skip-cert-verify: true
+  tls: true
   type: ss
   udp: true
 - name: 282|🇷🇺 RU 76 → tg@nicevpn123
@@ -1067,29 +1095,29 @@ proxies:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
   cipher: auto
-  name: '283|>🇷🇺 RU|Ns|0914|TG@FProxies| #72'
-  network: ws
-  port: '40045'
-  server: 45.130.147.178
-  tls: false
-  type: vmess
-  uuid: b39c51b5-53b0-41f2-842d-9c274d866b7f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '283|>🇷🇺 RU|Ms|0720|TG@FProxies| #5'
+  name: '283|>🇷🇺 RU|Ls|0914|TG@FProxies| #4'
   network: ws
   port: '54321'
   server: eedp257bubu2wefy1.lovebaipiao.net
   tls: false
   type: vmess
-  uuid: 35efde8b-d5cd-4f64-9173-cbfa36d2ecd8
+  uuid: a911d34d-d580-4dc1-aea9-1932a681e336
   ws-opts:
     headers:
       Host: eedp257bubu2wefy1.lovebaipiao.net
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  name: '283|>🇷🇺 RU|Ms|0816|TG@FProxies| #1'
+  network: ws
+  port: '54321'
+  server: eedp257bubu2wefy.lovebaipiao.net
+  tls: false
+  type: vmess
+  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy.lovebaipiao.net
     path: /iphone
 - alterId: 0
   cipher: auto
@@ -1109,19 +1137,6 @@ proxies:
   name: 283|俄罗斯 - 莫斯科 - Aeza International...
   network: ws
   port: '443'
-  server: 151.101.130.133
-  tls: true
-  type: vmess
-  uuid: dd0615b0-a747-401e-a578-edd976e42f43
-  ws-opts:
-    headers:
-      Host: ''
-    path: ws/?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '283|俄罗斯 - 莫斯科 - Aeza International... #1'
-  network: ws
-  port: '443'
   server: speedtest.net
   tls: true
   type: vmess
@@ -1132,7 +1147,33 @@ proxies:
     path: ws/?ed=2048
 - alterId: 0
   cipher: auto
-  name: '283|>🇷🇺 RU|Ms|0720|TG@FProxies| #2'
+  name: '283|俄罗斯 - 莫斯科 - Aeza International... #1'
+  network: ws
+  port: '443'
+  server: 151.101.130.133
+  tls: true
+  type: vmess
+  uuid: dd0615b0-a747-401e-a578-edd976e42f43
+  ws-opts:
+    headers:
+      Host: ''
+    path: ws/?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 283|俄罗斯 - 新西伯利亚 - LLC Baxet - 1
+  network: ws
+  port: '446'
+  server: 45.130.147.162
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '283|>🇷🇺 RU|Ms|0720|TG@FProxies| #4'
   network: ws
   port: '80'
   server: 45.8.211.5
@@ -1143,19 +1184,6 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '283|>🇷🇺 RU|Ls|0914|TG@FProxies| #4'
-  network: ws
-  port: '54321'
-  server: eedp257bubu2wefy.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: fe16e729-870c-4506-9771-33fbc2ad3539
-  ws-opts:
-    headers:
-      Host: eedp257bubu2wefy.lovebaipiao.net
-    path: /iphone
 - alterId: 2
   cipher: auto
   name: '283|>🇷🇺 RU|Ms|0914|TG@FProxies| #2'
@@ -1293,6 +1321,14 @@ proxies:
   ws-headers:
     Host: free-russian01-cdn.xiaohouzi.club
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '323,460,484|🇱NL-176.124.199.255-1213 #1'
+  password: T2Lwn*Lz4J
+  port: 1431
+  server: 176.124.199.255
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 359|俄罗斯(油管:破解资源君)
@@ -1415,13 +1451,6 @@ proxies:
     headers:
       Host: dbdjhiw72ebsu272hs519j.com
     path: ws/?ed=2048
-- cipher: aes-256-cfb
-  name: '400|🇷🇺_RU_俄罗斯_1 #1'
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '418,458,460,469,470,475,481,482,484,537|🇷🇺 Russian Federation - Moscow...
