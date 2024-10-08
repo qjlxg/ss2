@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 760
-  name: '5,82,83,125,412,413,460,484|🇺RU-45.130.147.162-1811 #1'
-  network: ws
-  port: 416
-  server: 45.130.147.162
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: '23,132,363,364,365|2|🇷🇺_RU_俄罗斯联邦 #3'
   network: tcp
   port: 35972
@@ -24,7 +10,7 @@ proxies:
   uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
 - alterId: 0
   cipher: auto
-  name: '23,125,132,363,364,365,418,458,459,460,469,470,475,481,482,484,486,610,612,766|🇺_RU_
+  name: '23,125,132,363,364,365,418,458,460,469,470,475,481,482,484,486,610,612,766|🇺_RU_
     #1'
   network: ws
   port: 12910
@@ -52,39 +38,20 @@ proxies:
     headers:
       Host: YouTube-aweikeji
     path: /
-- alterId: 0
-  cipher: auto
-  name: '82,83,282,537|🇷🇺 Russian Federation - NA 🌍 V... #149'
-  network: ws
-  port: '80'
-  server: 45.144.2.113
-  servername: ''
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: '70,262,734|Russia_Moscow_hysteria_71 #2'
+  port: 22222
+  server: 46.29.166.206
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '82,119,173,194,205,209,240,306,311,342,347,353,537,632,639,640,658,664,671,672,673,674,675,676,678,684,685,699,755|@Vip_Security
-    join us - 45
-
-    '
-  network: tcp
-  port: '47555'
-  server: 46.29.166.237
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- auth: 45337af7-2a54-4f53-856d-872ade2a5b28
-  name: '105,121,571|🇷🇺 俄罗斯-1K #1'
-  password: 45337af7-2a54-4f53-856d-872ade2a5b28
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- auth: 20846994-1f4c-4f2c-8b98-36504bad35cb
+  name: '105,121,571|🇷🇺 俄罗斯-1E #1'
+  password: 20846994-1f4c-4f2c-8b98-36504bad35cb
   port: 8088
   server: ru-01.jisovpn.site
   skip-cert-verify: false
@@ -122,7 +89,7 @@ proxies:
     path: ws/?ed=2048
 - alterId: 0
   cipher: auto
-  name: '119,306,327,755|@Vip_Security join us - 746
+  name: '119,298,306,327,755|@Vip_Security join us - 746
 
     '
   network: ws
@@ -138,7 +105,21 @@ proxies:
     path: ws/?ed=2048
 - alterId: 0
   cipher: auto
-  name: '125,313,418,458,459,460,469,470,475,481,482,484,524,537|🇷🇺 Russian Federation
+  name: 125|🇷🇺RU-45.136.244.181-1374
+  network: ws
+  port: 80
+  server: 45.136.244.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-opts:
+    headers:
+      Host: 45.136.244.181
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '125,313,418,458,460,469,470,475,481,482,484,524,537|🇷🇺 Russian Federation
     - Moscow... #288'
   network: ws
   port: '10258'
@@ -154,7 +135,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,132,177,178,418,458,459,460,469,470,475,481,482,484,486|二爷免费翻墙 https://1808.free.hr
+  name: '125,132,177,178,418,458,460,469,470,475,481,482,484,486|二爷免费翻墙 https://1808.free.hr
     节点... #559'
   network: ws
   port: 40045
@@ -174,8 +155,8 @@ proxies:
     method: GET
     path:
     - /
-  name: '125,300,418,458,459,460,469,470,475,481,482,484,537|🇷🇺 Russian Federation
-    - Moscow... #22'
+  name: '125,300,418,458,460,469,470,475,481,482,484,537|🇷🇺 Russian Federation - Moscow...
+    #22'
   network: http
   port: '26743'
   server: 194.87.248.27
@@ -221,20 +202,6 @@ proxies:
   uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
 - alterId: 0
   cipher: auto
-  name: 125|🇷🇺RU-45.136.244.181-1374
-  network: ws
-  port: 80
-  server: 45.136.244.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  ws-opts:
-    headers:
-      Host: 45.136.244.181
-    path: /
-- alterId: 0
-  cipher: auto
   name: '125,160,161,537,749,750|RU🇷🇺 | 103.113.68.233-8080 | 1... #1'
   network: ws
   port: '8080'
@@ -264,8 +231,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,418,458,459,460,469,470,475,481,482,484,687,755|@Vip_Security join us
-    - 10
+  name: '125,418,458,460,469,470,475,481,482,484,687,755|@Vip_Security join us - 10
 
     '
   network: ws
@@ -307,6 +273,20 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 760
+  name: '125,412,413,460,484|🇺RU-45.130.147.162-1811 #1'
+  network: ws
+  port: 416
+  server: 45.130.147.162
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
     path: /
 - alterId: 64
   cipher: auto
@@ -435,7 +415,7 @@ proxies:
     path: /fr-unlimitxxx
 - alterId: 0
   cipher: auto
-  name: '227,359,418,458,459,460,469,470,475,481,482,484,537,548,729|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使...
+  name: '227,359,418,458,460,469,470,475,481,482,484,537,548,729|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使...
     #93'
   network: ws
   port: '80'
@@ -478,17 +458,6 @@ proxies:
   server: 212.113.106.243
   type: ss
   udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: '262,734|Russia_Moscow_hysteria_71 #1'
-  port: 22222
-  server: 46.29.166.206
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
 - cipher: chacha20-ietf-poly1305
   name: 282,308|🇷🇺RU-146.185.198.44-215_1@214
   password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
@@ -553,7 +522,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '282,446|🏁RELAY-185.148.104.118-3194 #5'
+  name: '282,446|🏁RELAY-185.148.104.118-3194 #4'
   network: ws
   port: 443
   server: 185.148.104.118
@@ -735,6 +704,14 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: -1
+  cipher: aes-256-cfb
+  name: 282,289,400|🇷🇺_RU_俄罗斯_3
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.18
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 282|🇷🇺 RU 52 → tg@nicevpn123
   password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1
@@ -831,6 +808,22 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: '282,537|🇷🇺 Russian Federation - NA 🌍 V... #149'
+  network: ws
+  port: '80'
+  server: 45.144.2.113
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 282|🇷🇺 RU 70 → tg@nicevpn123
@@ -1093,7 +1086,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '314,418,458,459,460,469,470,475,481,482,484|🇺🇸US-13.248.252.114-2610 #1'
+  name: '314,418,458,460,469,470,475,481,482,484|🇺🇸US-13.248.252.114-2610 #1'
   network: ws
   port: 443
   server: st.3wcdn.xyz
@@ -1280,9 +1273,16 @@ proxies:
     headers:
       Host: dbdjhiw72ebsu272hs519j.com
     path: ws/?ed=2048
+- cipher: aes-256-cfb
+  name: 400|🇷🇺_RU_俄罗斯_1
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  server: 217.30.10.18
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '418,458,459,460,469,470,475,481,482,484,537|🇷🇺 Russian Federation - Moscow...
+  name: '418,458,460,469,470,475,481,482,484,537|🇷🇺 Russian Federation - Moscow...
     #280'
   network: ws
   port: '80'
