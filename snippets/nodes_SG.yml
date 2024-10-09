@@ -19,16 +19,19 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '12,71,77|13,14|新加坡|@ripaojiedian #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 12,71,77,85|Relay_-🇺🇸US_24 |10.37Mb
   network: ws
-  port: '30003'
+  port: 30003
   server: xjpx6.12123.org
-  servername: www.baidu.com
-  skip-cert-verify: false
+  servername: xjpx6.12123.org
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
-  uuid: 0e8a4ec6-66c1-45c0-a51a-cd51a35f2a11
+  udp: true
+  uuid: 3e84f2bf-5ab9-475e-9cb2-faf99ad878b1
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -58,18 +61,18 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 53,54,55|ChatGPT  SG_367
+  country: 🇬 SG
+  name: 53,54,55,87| SG_550
   password: ZdWZ9QvFlbOOGreMoE3Bq8
   port: 18814
   server: 159.65.129.128
   type: ss
 - alterId: 0
   cipher: auto
-  country: ' SG'
+  country: 🇸 SG
   h2-opts: {}
   http-opts: {}
-  name: 53,54,55,90,101|新加坡 v2rayfree.eu.org
+  name: 53,54,55,87,90,101|新加坡 v2rayfree.eu.org
   network: tcp
   port: 57614
   server: 5.34.176.111
@@ -78,23 +81,42 @@ proxies:
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 55|ChatGPT  SG_351
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-airport.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 57|Relay_-SG_194
+  password: a4ac2592-28e7-4927-94b3-277edae0869a
+  port: 50105
+  server: iepl2.forlive.live
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 57|Relay_-SG_256
-  network: tcp
-  port: 35612
-  server: c2ys.qiyunlink.xyz
+  name: 57,71,77,85|Relay_-🇸🇬SG_11 | 8.88Mb
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d21rddomp7gdx6.cloudfront.net
   skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
+  uuid: 0112665c-8eea-44f0-adba-53250d54aa2d
+  ws-opts:
+    headers:
+      Host: d21rddomp7gdx6.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 57|netflix_SG
+  name: 57|disney_SG
   network: tcp
   port: 47526
   server: c2ys.qiyunlink.xyz
@@ -114,20 +136,49 @@ proxies:
   type: vmess
   udp: true
   uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: '57|disney_SG #1'
+  network: tcp
+  port: 35612
+  server: c2ys.qiyunlink.xyz
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
 - cipher: aes-256-cfb
   country: SG
-  name: 57|SG_334
+  name: 57|SG_318
   password: amazonskr05
   port: 443
   server: 13.250.59.97
   type: ss
 - cipher: rc4-md5
   country: SG
-  name: 57|SG_335
+  name: 57|SG_319
   password: uYhVA160ZoSg3AI5
   port: 6700
   server: 43.143.243.164
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 57,85|Relay_🏁ZZ-SG_506 |14.30Mb
+  network: ws
+  port: 80
+  server: 104.17.237.149
+  servername: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2314e55f-08d4-4440-b774-80c937a1851f
+  ws-opts:
+    headers:
+      HOST: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
   name: '65|新加坡 Linode数据中心 #1'
@@ -618,6 +669,13 @@ proxies:
   server: dajbxsg.naikonode1.top
   type: ssr
   udp: true
+- cipher: aes-256-gcm
+  country: 🇬SG
+  name: 85|🇬SG_103 |33.72Mb
+  password: BoiX102924
+  port: 9875
+  server: 8.222.161.161
+  type: ss
 - cipher: aes-128-gcm
   name: 96|SG_Singapore_Akamai Technologi...
   password: 541200f4-3c26-4ee0-b5e0-d86253b1ef54
