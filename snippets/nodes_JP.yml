@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,8,15,20,26,31,36,41,46|日本 v2rayfree.eu.org #8'
+  name: '2,15,20,26,31,36,41|日本 v2rayfree.eu.org #6'
   network: ws
   port: 21025
   server: ent1.imyourdaddy.top
@@ -14,7 +14,7 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,71|China_None_ss_1164
+  name: 12|🇯🇵 日本
   password: 005c0d27-a407-4be9-9740-818da49a50be
   port: 39202
   server: hzhz1.sssyun.xyz
@@ -22,15 +22,15 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12,71,72|🇰🇷KR-43.201.48.132-2854 | 1.71...
+  name: 12,72|🇰🇷KR-43.201.48.132-2854 | 1.07...
   password: amazonskr05
   port: 443
   server: 43.201.48.132
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  country: IT
-  name: 53,54,55,57,87|_372
+  country: ' JP'
+  name: 53,54,55|ChatGPT  JP_249
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: 8081
@@ -38,36 +38,61 @@ proxies:
   server: jp-am48-6.eqnode.net
   type: ssr
   udp: true
-- alterId: 0
+- alterId: 1
   cipher: auto
+  country: JP
   h2-opts: {}
   http-opts: {}
-  name: 56,71,77,85|Relay_-🇯JP_07 | 7.81Mb
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: d263c0bqn07wlj.cloudfront.net
+  name: 53|Relay_JP-JP_456
+  network: tcp
+  port: 21585
+  server: jp01-alt-vm0.entry.srthdw.art
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 18a4d335-d146-4642-aaa4-06fd889867ed
-  ws-opts:
-    headers:
-      Host: d263c0bqn07wlj.cloudfront.net
-    path: /stream
-- alterId: 0
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- alterId: 1
   cipher: auto
+  country: JP
   h2-opts: {}
   http-opts: {}
-  name: 57|disney_JP
+  name: 53,90|🇯🇵JP_470
   network: tcp
-  port: 47342
-  server: c2ys.qiyunlink.xyz
+  port: 21585
+  server: jp03-alt-vm0.entry.srthdw.art
   skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- alterId: 0
+  cipher: auto
+  name: 56|JP |  LB-1K
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: d2qycn4vdg8mly.cloudfront.net
+  tls: true
   type: vmess
   udp: true
-  uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0
+  uuid: dbdb6b65-5515-47e5-bb31-3adadb4c8371
+  ws-opts:
+    headers:
+      Host: d2qycn4vdg8mly.cloudfront.net
+    path: /stream
+- cipher: aes-256-cfb
+  country: JP
+  name: 57|JP_279
+  password: amazonskr05
+  port: 443
+  server: 54.250.49.16
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 57|JP_280
+  password: amazonskr05
+  port: 443
+  server: 13.114.140.218
+  type: ss
 - cipher: aes-256-cfb
   country: JP
   name: 57,82|SlAt5pel5pysLeS4nOS6rC0yNTAtdG...
@@ -80,24 +105,6 @@ proxies:
   type: ssr
 - alterId: 64
   cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: '57|disney_JP #1'
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
@@ -108,20 +115,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '59,79,85,92|🇺🇸US_106 #1'
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 66|🇯🇵 Relay_🇯🇵JP-🇯🇵JP_366
   password: G!yBwPWH3Vao
@@ -254,16 +247,6 @@ proxies:
   ws-headers:
     Host: vjp3.0bad.com
   ws-path: /chat
-- cipher: chacha20-ietf-poly1305
-  name: 71|Japan_Tokyo_ss_111
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)ca5bef9:175503
-    mode: tls
-  port: 2377
-  server: 18.176.215.63
-  type: ss
 - cipher: chacha20-ietf
   name: 78|🇯🇵 日本02｜tg@ghosxtop
   obfs: plain
@@ -275,23 +258,6 @@ proxies:
   server: dajbxjp.naikonode1.top
   type: ssr
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 85|Relay_🏁ZZ-JP_566 | 9.98Mb
-  network: ws
-  port: 2086
-  server: aqerdsf_cdn.hfhfb.homes
-  servername: rbcdn2.fask511.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 54895917-9761-487f-b949-1476bf8193ea
-  ws-opts:
-    headers:
-      HOST: rbcdn2.fask511.cfd
-    path: /?ed=512
 - cipher: aes-256-cfb
   name: 96|JP_Tokyo_Amazon Technologies I...
   password: amazonskr05
@@ -328,3 +294,17 @@ proxies:
   port: 499
   server: ohier-g03.jp12-ae5.entry.v50307shvkaa.art
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 101|🇯🇵JP-172.234.88.187-2805
+  network: ws
+  port: 443
+  server: 172.234.88.187
+  servername: 172.234.88.187
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 172.234.88.187
+    path: /KrAJKJQo
