@@ -1,16 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,15,20,26,31,36,41|俄罗斯 新西伯利亚JustHost #6'
+  country: 🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 2,15,20,26,31,36,41,85|🇷🇺RU_125
   network: ws
   port: 416
   server: 45.130.147.162
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -81,6 +83,20 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 1000
+- alterId: 0
+  cipher: auto
+  name: '101|俄罗斯 v2rayfree.eu.org #1'
+  network: ws
+  port: '12910'
+  server: 80.85.152.179
+  servername: 22.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 22.lwdh.us
+    path: /
 - alterId: 16
   cipher: auto
   name: 105|俄罗斯

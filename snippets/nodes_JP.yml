@@ -30,7 +30,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: ' JP'
-  name: 53,54,55|ChatGPT  JP_249
+  name: '53,54,55,87|_370 #1'
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: 8081
@@ -40,23 +40,10 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  country: JP
+  country: 🇵JP
   h2-opts: {}
   http-opts: {}
-  name: 53|Relay_JP-JP_456
-  network: tcp
-  port: 21585
-  server: jp01-alt-vm0.entry.srthdw.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-- alterId: 1
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 53,90|🇯🇵JP_470
+  name: 53,54,87,90|🇯🇵JP_484
   network: tcp
   port: 21585
   server: jp03-alt-vm0.entry.srthdw.art
@@ -64,6 +51,46 @@ proxies:
   tls: true
   type: vmess
   uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '53,54,55,87,90|🇯🇵JP_486 #1'
+  network: tcp
+  port: 21583
+  server: jp01-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: 53,54,55,87,90|🇯🇵JP_485
+  network: tcp
+  port: 21585
+  server: jp01-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '55,58,59,79,85,86,92|🇺🇸US_103 #1'
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 56|JP |  LB-1K
@@ -79,36 +106,12 @@ proxies:
     headers:
       Host: d2qycn4vdg8mly.cloudfront.net
     path: /stream
-- cipher: aes-256-cfb
-  country: JP
-  name: 57|JP_279
-  password: amazonskr05
-  port: 443
-  server: 54.250.49.16
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 57|JP_280
-  password: amazonskr05
-  port: 443
-  server: 13.114.140.218
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 57,82|SlAt5pel5pysLeS4nOS6rC0yNTAtdG...
-  obfs: plain
-  obfs-param: ''
-  password: www.xbvpn.com
-  port: '443'
-  protocol: origin
-  server: 45.67.53.250
-  type: ssr
 - alterId: 64
   cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 58|JP_69
+  name: 58|JP_71
   network: tcp
   port: 24445
   server: 140.83.63.38
