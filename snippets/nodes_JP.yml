@@ -1,1 +1,46 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  country: ' JP'
+  name: 4,5,6|ChatGPT  JP_270
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  server: jp-am48-6.eqnode.net
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  country: JP
+  h2-opts: {}
+  http-opts: {}
+  name: 4|Relay_JP-JP_471
+  network: tcp
+  port: 21585
+  server: jp01-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- cipher: chacha20-ietf-poly1305
+  country: ' JP'
+  name: 6|ChatGPT  JP_268
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node1.s.nodelist-airport.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|JP |  LB-1W
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  servername: d263c0bqn07wlj.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 59678b1b-6f41-4e3c-b0d6-5a7c819f366c
+  ws-opts:
+    headers:
+      Host: d263c0bqn07wlj.cloudfront.net
+    path: /stream
