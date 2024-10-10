@@ -2,7 +2,7 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: US
-  name: '12,61,81,82,103,133,345,449,546,549,570,634,655,778,951,1058,1183,1186,1207,1300,1322,1464|13|🇯🇵
+  name: '12,61,81,82,133,345,449,546,549,570,634,655,778,951,1058,1183,1186,1207,1300,1322,1464|13|🇯🇵
     |@ripaojiedian #1'
   password: amazonskr05
   port: 443
@@ -10,8 +10,8 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  country: ' JP'
-  name: '57,58,59,102,103,132,133,224,231,240,275,283,309,311,365,396,427,429,503,544,546,547,548,553,556,557,558,561,565,568,569,570,629,647,755,764,769,783,838,877,885,910,911,914,971,1007,1036,1038,1126,1164,1181,1182,1183,1184,1185,1190,1193,1194,1195,1198,1202,1205,1206,1207,1216,1291,1314,1435,1436,1450,1455,1469|8J%2BHr%2FCfh7VKUC0xMy4xMTIuND...
+  country: JP
+  name: '57,58,59,61,224,240,275,283,309,311,365,396,427,429,503,544,546,547,548,553,556,557,558,561,565,568,570,629,647,755,764,769,783,838,877,878,885,910,911,914,971,1007,1036,1038,1126,1164,1181,1182,1183,1184,1185,1190,1193,1194,1195,1198,1202,1205,1206,1207,1216,1248,1291,1314,1435,1436,1450,1455,1469|8J%2BHr%2FCfh7VKUC0xMy4xMTIuND...
     #1'
   obfs: tls1.2_ticket_auth
   obfs-param: ''
@@ -22,9 +22,29 @@ proxies:
   server: jp-am48-6.eqnode.net
   type: ssr
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇵JP
+  name: 57,59,224|JP_480
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node1.s.nodelist-airport.com
+  type: ss
 - alterId: 1
   cipher: auto
   country: 🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '57,224,227,605,1267|🇯🇵_JP_日本 #21'
+  network: tcp
+  port: 21585
+  server: jp03-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
   h2-opts: {}
   http-opts: {}
   name: '57,58,59,224,227,605,1267|🇯🇵_JP_日本 #18'
@@ -48,51 +68,6 @@ proxies:
   tls: true
   type: vmess
   uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: '57,224,227,605,1267|🇯🇵_JP_日本 #21'
-  network: tcp
-  port: 21585
-  server: jp03-alt-vm0.entry.srthdw.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-- alterId: 0
-  cipher: auto
-  country: 🇦🇺 AU
-  h2-opts: {}
-  http-opts: {}
-  name: '59,218,224,227,535,1170|🇯🇵日本 大阪 Oracle #1'
-  network: tcp
-  port: '443'
-  server: 140.83.84.77
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 91386cd3-c62f-4d5e-f7e7-8bf89e91d84f
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: ' JP'
-  h2-opts: {}
-  http-opts: {}
-  name: 59|ChatGPT  JP_261
-  network: ws
-  port: 443
-  server: tls.85.node-for-bigairport.win
-  servername: tls.85.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-headers:
-    HOST: tls.85.node-for-bigairport.win
-  ws-path: /
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -113,7 +88,7 @@ proxies:
   country: 🇨🇴CO
   h2-opts: {}
   http-opts: {}
-  name: 61,218|Relay_🇨🇴CO-🇺🇸US_64 |10.80Mb
+  name: 61,218|Relay_🇨🇴CO | 2.54Mb
   network: ws
   port: 80
   server: kz3bw.c6tu5uwk9.buzz
@@ -125,13 +100,6 @@ proxies:
     headers:
       HOST: jp02.knt6y4bjx.buzz
     path: /
-- cipher: aes-256-cfb
-  country: JP
-  name: 61|JP_555
-  password: amazonskr05
-  port: 443
-  server: 13.231.27.52
-  type: ss
 - alterId: -1
   cipher: aes-256-cfb
   country: JP
@@ -139,6 +107,13 @@ proxies:
   password: amazonskr05
   port: 443
   server: 54.250.49.16
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 61|JP_534
+  password: amazonskr05
+  port: 443
+  server: 13.231.27.52
   type: ss
 - cipher: aes-256-cfb
   country: JP
@@ -155,7 +130,7 @@ proxies:
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: '62,102,132,254,326,327,398,536,583,589,611,750,776,855,932,933,1009,1173,1244,1250,1273,1423,1462|PP|TG频道内随机时间更新订阅地址
+  name: '62,102,132,254,326,327,398,536,583,611,750,776,855,932,933,1009,1173,1244,1250,1273,1423,1462|PP|TG频道内随机时间更新订阅地址
     #78'
   network: tcp
   port: 24445
@@ -312,7 +287,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 190|JP-172.105.239.241-034
+  name: 190|JP-172.105.239.241-085
   network: ws
   port: 443
   server: 172.105.239.241
@@ -323,6 +298,32 @@ proxies:
   ws-headers:
     Host: js.adbse.xyz
   ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 190|JP-8.209.252.35-087
+  network: ws
+  port: 443
+  server: 8.209.252.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: '190,584,585,586,1245,1246,1247|🇺🇸 美国(油管:破解资源君2.0) #250'
+  network: tcp
+  port: '55555'
+  server: 152.69.195.171
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b86d95da-b843-4804-8443-d849d3207076
+  ws-headers:
+    Host: 152.69.195.171
+  ws-path: /
 - cipher: aes-256-cfb
   name: '190,326,327,365,391,546,570,932,933,971,1002,1183,1207|🇵JP-54.199.83.239-1835
     #3'
@@ -364,8 +365,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '193,396,397,503,544,546,555,556,561,567,568,569,570,589,1007,1008,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-9655
-    #1'
+  name: 193,396,397,503,544,546,555,556,561,567,568,570,1007,1008,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9632
   network: ws
   port: 80
   server: 138.2.39.67
@@ -419,8 +419,8 @@ proxies:
   blackListed: false
   cipher: auto
   country: JP
-  name: "193,326,327,365,395,396,503,530,536,544,546,555,556,561,567,568,569,570,589,750,764,769,809,932,933,971,1006,1007,1126,1154,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1423,1450,1455,1496|@Vip_Security\
-    \ join us - 233\n #1"
+  name: "193,326,327,365,395,396,503,530,536,544,546,555,556,561,567,568,570,750,764,769,809,932,933,971,1006,1007,1126,1154,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1423,1450,1455,1496|@Vip_Security\
+    \ join us - 230\n #1"
   network: ws
   ping: 1736
   port: '12345'
@@ -438,35 +438,21 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: "236,809,834,1496|@Vip_Security join us - 497\n #1"
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 218|Relay_🏁ZZ-JP_684 | 9.98Mb
   network: ws
-  port: '10002'
-  server: yxvmjp03-1.naizi.vip
-  servername: yxvmjp03-1.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  name: '236,255,291,365,394,398,589,776,834,856,892,971,1005,1009,1250,1462|PP|@Zyw_Channel
-    #71'
-  network: ws
-  port: 41597
-  server: 183.181.36.194
-  servername: ''
+  port: 2086
+  server: aqerdsf_cdn.hfhfb.homes
+  servername: rbcdn2.fask511.cfd
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  uuid: 54895917-9761-487f-b949-1476bf8193ea
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      HOST: rbcdn2.fask511.cfd
+    path: /?ed=512
 - name: '254,855|🇯🇵JP(AzadNet.t.me)_003 #1'
   network: tcp
   password: 18844@zxcvbn
@@ -485,7 +471,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '265,503,544,546,555,556,561,567,568,569,570,598,866,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1260|0.55|JPhttpsawkjcfky
+  name: '255,291,365,394,398,776,856,892,971,1005,1009,1250,1462|PP|@Zyw_Channel #71'
+  network: ws
+  port: 41597
+  server: 183.181.36.194
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '265,503,544,546,555,556,561,567,568,570,598,866,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1260|0.55|JPhttpsawkjcfky
     注册体验流媒体机场... #1'
   network: ws
   port: 443
@@ -529,8 +531,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '309,503,544,546,555,556,561,567,568,570,589,911,1126,1181,1183,1192,1193,1198,1204,1205,1207,1250|4FreeIran-10180
-    #1'
+  name: 309,503,544,546,555,556,561,567,568,570,911,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-10151
   network: ws
   port: 443
   server: 172.105.223.136
@@ -912,7 +913,7 @@ proxies:
   uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
 - alterId: 0
   cipher: auto
-  name: '322,398,589,776,927,1009,1250,1462|PP|tg频道:@Zyw_Channel #37'
+  name: '322,398,776,927,1009,1250,1462|PP|tg频道:@Zyw_Channel #37'
   network: tcp
   port: 49499
   server: 139.162.125.97
@@ -955,7 +956,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '322,398,536,539,540,541,589,776,927,1009,1118,1173,1176,1177,1178,1226,1227,1250,1462|PP|TG频道内随机时间更新订阅地址
+  name: '322,398,536,539,540,541,776,927,1009,1118,1173,1176,1177,1178,1226,1227,1250,1462|PP|TG频道内随机时间更新订阅地址
     #98'
   network: tcp
   port: 20081
@@ -1272,7 +1273,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '330,503,536,544,546,555,556,561,567,568,569,570,589,669,775,936,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1336,1461|github.com/freefq
+  name: '330,503,536,544,546,555,556,561,567,568,570,669,775,936,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1336,1461|github.com/freefq
     - 日本  48 #3'
   network: ws
   port: 27675
@@ -2330,7 +2331,7 @@ proxies:
     path: /js.adbse.xyz:443/down
 - alterId: 0
   cipher: auto
-  name: '383,427,432,435,503,544,546,555,556,561,567,568,570,584,585,586,589,822,994,1036,1041,1044,1126,1181,1183,1192,1193,1198,1204,1205,1207,1245,1246,1247,1250,1303,1511|日本_1010002
+  name: '383,427,432,434,503,544,546,555,556,561,567,568,570,584,585,586,822,994,1036,1041,1043,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1245,1246,1247,1250,1303,1511|日本_1010002
     #2'
   network: ws
   port: '443'
@@ -2346,7 +2347,7 @@ proxies:
     path: /down
 - alterId: 0
   cipher: auto
-  name: "391,743,809,1002,1414,1496|@Vip_Security join us - 550\n #1"
+  name: "391,743,809,1002,1414,1496|@Vip_Security join us - 545\n #1"
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -2390,7 +2391,7 @@ proxies:
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - alterId: 0
   cipher: auto
-  name: '396,503,536,544,546,555,556,561,567,568,569,570,589,611,1007,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1273|کانال
+  name: '396,503,536,544,546,555,556,561,567,568,570,611,1007,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1273|کانال
     : @V2rayNGvpni #138'
   network: ws
   port: '1234'
@@ -2563,7 +2564,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: '396,503,544,546,555,556,561,567,568,569,570,589,822,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1511|日本_1010006
+  name: '396,503,544,546,555,556,561,567,568,570,822,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1511|日本_1010006
     #1'
   network: ws
   port: '443'
@@ -2608,8 +2609,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '396,503,544,546,555,556,561,567,568,569,570,589,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-9657
-    #1'
+  name: 396,503,544,546,555,556,561,567,568,570,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9634
   network: ws
   port: 4430
   server: 138.2.45.89
@@ -2630,7 +2630,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 396,503,536,544,546,555,556,561,567,568,569,570,1007,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-11254
+  name: '396,503,536,544,546,555,556,561,567,568,570,1007,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇵JP-43.128.225.220-2634
+    #3'
   network: ws
   port: 80
   server: 43.128.225.220
@@ -2640,13 +2641,10 @@ proxies:
   type: vmess
   uuid: 03fa8e54-41be-4e3b-b70c-50b3750b5fdc
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: '396,503,544,546,555,556,561,567,568,569,570,589,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-9749
-    #1'
+  name: 396,503,544,546,555,556,561,567,568,570,1007,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9726
   network: ws
   port: 443
   server: 141.147.181.219
@@ -2808,7 +2806,7 @@ proxies:
     path: /a79f2127-3ba4-4af8-96d5-2db3a0e186a7
 - alterId: 0
   cipher: auto
-  name: '397,503,544,546,555,556,561,567,568,569,570,1008,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇵JP-140.83.35.62-2699
+  name: '397,503,544,546,555,556,561,567,568,570,1008,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇵JP-140.83.35.62-2699
     #3'
   network: ws
   port: 443
@@ -3001,8 +2999,8 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '404,503,544,546,555,556,561,567,568,569,570,1014,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🏁RELAY-172.67.136.146-1930
-    #20'
+  name: '404,503,544,546,555,556,561,567,568,570,1014,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🏁RELAY-172.67.136.146-1930
+    #19'
   network: ws
   port: 80
   server: superstar.jp1.srayx.xyz
@@ -3076,10 +3074,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '427,432,435,503,544,546,555,556,561,567,568,570,584,585,586,1036,1041,1044,1126,1181,1183,1192,1193,1198,1204,1205,1207,1245,1246,1247|🇯🇵
-    日本(油管:破解资源君2.0) #57'
+  name: '427,432,434,1036,1041,1043,1250,1303|日本(油管:破解资源君2.0) #1'
+  network: tcp
+  port: '9030'
+  server: 111.45.22.152
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+- alterId: 0
+  cipher: auto
+  name: '427,432,434,503,544,546,555,556,561,567,568,570,1036,1041,1043,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207|🇨🇳CN-120.241.65.134-0023
+    #18'
   network: ws
-  port: '20022'
+  port: 20022
   server: aws-beijing-1.dnspro.icu
   servername: ''
   skip-cert-verify: false
@@ -3090,6 +3098,16 @@ proxies:
     headers:
       Host: aws-beijing-1.dnspro.icu
     path: /iso
+- alterId: 0
+  cipher: auto
+  name: '427,432,434,1036,1041,1043,1250,1303|日本(油管:破解资源君2.0) #3'
+  network: tcp
+  port: '9035'
+  server: 221.131.165.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
 - cipher: aes-128-gcm
   name: '441,1050|_JP_ #1'
   password: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
@@ -3476,7 +3494,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,822,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1511|日本_1010004
+  name: '503,544,546,555,556,561,567,568,570,822,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1511|日本_1010004
     #1'
   network: ws
   port: '443'
@@ -3492,7 +3510,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '503,536,544,546,555,556,561,567,568,569,570,636,676,822,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1304,1343,1511|日本_1010005
+  name: '503,536,544,546,555,556,561,567,568,570,636,676,822,1126,1173,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1304,1343,1511|日本_1010005
     #1'
   network: ws
   port: '443'
@@ -3508,8 +3526,7 @@ proxies:
     path: /roewesu
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1232,1250|4FreeIran-10178
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1232,1250|4Jadi-10149
   network: ws
   port: 443
   server: 172.105.219.18
@@ -3526,8 +3543,8 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: '503,544,555,556,561,567,568,569,1126,1181,1182,1192,1193,1198,1204,1205,1206|🇯🇵JP-198.13.60.146-1206
-    #19'
+  name: '503,544,555,556,561,567,568,1126,1181,1182,1192,1193,1198,1204,1205,1206|🇯🇵JP-198.13.60.146-1206
+    #18'
   network: grpc
   port: 34237
   server: ls.wvw.mom
@@ -3537,7 +3554,7 @@ proxies:
   uuid: ebace182-ad9a-4044-92fd-ad48adf52779
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,597,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1259|3.51|JP1391621171731123202246b...
+  name: '503,544,546,555,556,561,567,568,570,597,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1259|3.51|JP1391621171731123202246b...
     #1'
   network: ws
   port: 443
@@ -3551,8 +3568,7 @@ proxies:
     path: /chat
 - alterId: 64
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-10011
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9983
   network: ws
   port: 37206
   server: 152.70.103.195
@@ -3567,7 +3583,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,595,611,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1257,1273|日本-3.89MB/s(Youtube:不良林)
+  name: '503,544,546,555,556,561,567,568,570,595,611,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250,1257,1273|日本-3.89MB/s(Youtube:不良林)
     #3'
   network: ws
   port: '24429'
@@ -3583,7 +3599,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇵JP-52.196.144.61-2357
+  name: '503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇵JP-52.196.144.61-2357
     #3'
   network: ws
   port: 3331
@@ -3599,8 +3615,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4FreeIran-8618
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-8589
   network: ws
   port: 22356
   server: 001.AP.POP.node-for-smallairport.win
@@ -3615,8 +3630,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇯🇵JP-3.112.210.227-2660
-    #20'
+  name: '503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207|🇯🇵JP-3.112.210.227-2660
+    #19'
   network: ws
   port: 23245
   server: jp04.170203.xyz
@@ -3631,8 +3646,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,569,570,589,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1226,1227,1250|4FreeIran-10016
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1226,1227,1250|4Jadi-9988
   network: ws
   port: 32407
   server: 153.122.173.53
@@ -3647,8 +3661,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,570,589,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1226,1227,1250|4FreeIran-9658
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1182,1183,1192,1193,1198,1204,1205,1206,1207,1226,1227,1250|4Jadi-9635
   network: ws
   port: 10021
   server: 138.2.49.230
@@ -3663,8 +3676,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,570,589,1126,1181,1183,1192,1193,1198,1204,1205,1207,1250|4FreeIran-9719
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9696
   network: ws
   port: 443
   server: 147.78.244.7
@@ -3679,8 +3691,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,570,589,1126,1181,1183,1192,1193,1198,1204,1205,1207,1250|4FreeIran-9593
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9572
   network: ws
   port: 443
   server: 124.156.225.184
@@ -3695,8 +3706,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,570,589,1126,1181,1183,1192,1193,1198,1204,1205,1207,1250|4FreeIran-9959
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9932
   network: ws
   port: 10020
   server: 157.254.193.68
@@ -3711,8 +3721,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '503,544,546,555,556,561,567,568,570,589,1126,1181,1183,1192,1193,1198,1204,1205,1207,1250|4FreeIran-9660
-    #1'
+  name: 503,544,546,555,556,561,567,568,570,1126,1181,1183,1192,1193,1198,1204,1205,1206,1207,1250|4Jadi-9637
   network: ws
   port: 443
   server: 138.2.52.244
@@ -5304,7 +5313,7 @@ proxies:
   uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
 - alterId: 0
   cipher: auto
-  name: '605,1250,1267|🇯🇵_JP_日本 #25'
+  name: '605,1267|🇯🇵_JP_日本 #25'
   network: ws
   port: 11111
   server: 38.bbzbb.top
@@ -5475,21 +5484,21 @@ proxies:
       Host: do9.yyhm9.com
     path: /das321S8
 - auth: ba51a51f-7c8a-496a-9742-398632326635
-  name: 641|🇯🇵 日本-2
-  password: ba51a51f-7c8a-496a-9742-398632326635
-  port: 30001
-  server: oracle-amd-osaka1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: osaka.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: ba51a51f-7c8a-496a-9742-398632326635
-  name: 641|🇯🇵 日本-1
+  name: 641|🇯🇵 日本-1-1A
   password: ba51a51f-7c8a-496a-9742-398632326635
   port: 30001
   server: oracle-amd-tokyo1.lanmaoyun.icu
   skip-cert-verify: true
   sni: tokyo.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- auth: dd59cc2f-84eb-4215-9e3f-ce6e232dd6ac
+  name: 641|🇯🇵 日本-2-1B
+  password: dd59cc2f-84eb-4215-9e3f-ce6e232dd6ac
+  port: 30001
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: osaka.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
 - alterId: 0
@@ -5506,6 +5515,34 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
+- alterId: 0
+  cipher: auto
+  name: '669,775,1250,1336,1461|github.com/freefq - 日本东京Linode... #4'
+  network: ws
+  port: 443
+  server: 172.105.219.18
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /chat
+- alterId: 64
+  cipher: auto
+  name: '669,775,1250,1336,1461|github.com/freefq - 日本东京PEG TE... #3'
+  network: ws
+  port: 443
+  server: 104.233.240.59
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 104.233.240.59
+    path: /path/051111230910
 - alterId: 0
   cipher: auto
   name: '669,1336|Relay_🇯🇵JP-🇯🇵JP_229 #1'
