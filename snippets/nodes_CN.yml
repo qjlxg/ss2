@@ -1,46 +1,80 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 807,2464,2465|广东省湛江市 移动
-  network: tcp
-  port: '55482'
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  country: CN
+  name: 42,71,91,101,122,134,145,308,419,421,443,633,692,1038,2181,2376,2787,2817|CN_734
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 36.134.115.217
+  type: ss
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_439
+  name: 42,134,633,1038,2181,2787|Relay_-CN_482
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8102
+  port: 8206
   protocol: origin
-  server: cn01.closeai.one
+  server: cn07.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_488
+  name: 42,134,633,1038,2181,2787|Relay_-CN_487
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8109
+  port: 8231
+  protocol: origin
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_471
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8106
   protocol: origin
   server: cn02.closeai.one
   type: ssr
   udp: true
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 42,71,91,104,122,134,308,443,633,692,807,1080,1170,2085,2086,2181,2464,2465,2817,2834,2842,2843,2941|CN_738
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  servername: trojan.burgerip.co.uk
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_458
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8125
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3715(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3715
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3711(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3711
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: 1163,1800,2932|🇨🇳 上海专线2-02-Boss网-海沃2017
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
 - alterId: '0'
   cipher: auto
   name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:337...
@@ -53,12 +87,37 @@ proxies:
     headers:
       host: shct.xn--dlq110j6ul.cc
     path: /
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-088
-  password: L1SLK5APNHD6Z7P0
-  port: 15013
-  server: qh62onjn.slashdevslashnetslashtun.net
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3710(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3710
+  server: cm01.newcome.xyz
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 1598,3482|中国【付费推荐：https://socks.news】32
+  network: tcp
+  port: '11126'
+  server: 47.97.82.13
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
+- cipher: chacha20-ietf
+  country: CN
+  name: 1038,2787|Relay_🇨CN-🇨CN_739
+  obfs: plain
+  obfs-param: 23ffd711.microsoft.com
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 51733:SVIPTIZ8
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
 - cipher: rc4-md5
   name: 2416|[🇨🇳]zx01.endhigh.xyz:2413(2vzh...
   password: 2vzho5
@@ -69,6 +128,80 @@ proxies:
   port: 2413
   server: zx01.endhigh.xyz
   type: ss
+- alterId: 233
+  cipher: auto
+  name: 2411|V3 CN2 GIA
+  network: ws
+  port: '443'
+  server: v2v3.jcbarm.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cf22281b-d3d8-4819-a5c8-c98b8da43211
+  ws-opts:
+    headers:
+      Host: v2v3.jcbarm.xyz
+    path: /taobao
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_484
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8218
+  protocol: origin
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_753
+  obfs: plain
+  obfs-param: 23ffd711.microsoft.co%%
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  name: 1038,2787|Relay_-🇨🇳CN_426
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8117
+  protocol: origin
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_439
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8232
+  protocol: origin
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:5712(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 5712
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 134,633,1038,2181,2787|Relay_-CN_179
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8205
+  protocol: origin
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
 - cipher: rc4-md5
   name: 2416|[🇨🇳]zx01.endhigh.xyz:2411(2vzh...
   password: 2vzho5
@@ -80,84 +213,21 @@ proxies:
   server: zx01.endhigh.xyz
   type: ss
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_458
+  name: 42,134,633,1038,2181,2787|Relay_-CN_461
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8212
+  port: 8304
   protocol: origin
-  server: cn08.closeai.one
+  server: cn10.closeai.one
   type: ssr
   udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6713(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6713
-  server: cm01.newcome.xyz
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-096
+  password: BS6J1MEQANXXVHQL
+  port: 16002
+  server: 219.135.227.210
   type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7714(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7714
-  server: cm01.newcome.xyz
-  type: ss
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1038,2787|Relay_-🇳CN_563
-  network: ws
-  port: 30000
-  server: 23.224.15.180
-  servername: www.15870563.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.15870563.xyz
-    path: /path/191019072927
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_441
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8124
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6710(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6710
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_769
-  obfs: plain
-  obfs-param: 23ffd711.microsoft.com
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 15194:SVIPTIZ8
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
 - cipher: rc4-md5
   name: 2416|[🇨🇳]cm01.newcome.xyz:5710(2vzh...
   password: 2vzho5
@@ -168,128 +238,45 @@ proxies:
   port: 5710
   server: cm01.newcome.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 1163,1800,2932|🇨🇳 上海专线2-01-Boss网-海沃2017
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41024
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
 - cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_768
-  obfs: plain
-  obfs-param: 23ffd711.microsoft.co%%
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_491
+  name: 42,134,633,1038,2181,2787|Relay_-CN_445
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8119
+  port: 8120
   protocol: origin
   server: cn04.closeai.one
   type: ssr
   udp: true
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 42,71,91,104,122,134,421,443,633,692,807,1170,2085,2086,2181,2464,2465,2747,2817,2842,2941|CN_739
-  network: tcp
-  port: 50004
-  server: 112.132.212.19
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 71,692|Relay_CN-GB_261 | 4.43Mb
-  network: tcp
-  port: 14100
-  server: dxv4.pai50288.uk
-  skip-cert-verify: true
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2417(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2417
+  server: zx01.endhigh.xyz
+  type: ss
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_469
+  name: 42,134,633,1038,2181,2787|Relay_-CN_447
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8215
+  port: 8203
   protocol: origin
-  server: cn09.closeai.one
+  server: cn06.closeai.one
   type: ssr
   udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3711(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3711
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:5712(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 5712
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7712(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7712
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: 3483|中国【付费推荐：https://socks.news】9
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 22040
-  server: 119.167.230.252
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 42,71,91,104,122,341,421,443,692,1080,2085,2086,2747,2817,2834,2842,2843|CN_741
+  name: '807,2464,2465|广东省广州市 移动 #2'
   network: tcp
-  port: 50002
-  server: 47.92.152.169
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 1170,2941|🔒 VM-RAW-NA 🇨🇳 CN-112.132.212....
-  network: raw
-  port: '50004'
-  server: 112.132.212.19
+  port: '40172'
+  server: 120.232.153.63
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - cipher: rc4-md5
   name: 2416|[🇨🇳]zx01.endhigh.xyz:2410(2vzh...
   password: 2vzho5
@@ -300,114 +287,58 @@ proxies:
   port: 2410
   server: zx01.endhigh.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '3483|中国【付费推荐：https://socks.news】34 #1'
-  network: ws
-  port: 25774
-  server: kkkghdragxc.fask511.cfd
-  tls: false
-  type: vmess
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: kkkghdragxc.fask511.cfd
-    path: /?ed=1024
-- cipher: aes-256-cfb
-  name: 1163,1800,2932|🇨🇳 上海专线1-02-Boss网-海沃2016
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2416|[🇨🇳]xiamen.onenovnode.org:1622...
-  password: a7ee983c-d688-49aa-9e2f-988f57cb5ade
-  port: 16223
-  server: xiamen.onenovnode.org
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6716(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6716
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-092
-  password: 62TRHAZ070VS0QX3
-  port: 18009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3716(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3716
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3715(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3715
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-097
-  password: LQVGZB307SUYK23Y
-  port: 16009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-096
-  password: BS6J1MEQANXXVHQL
-  port: 16002
-  server: 219.135.227.210
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7718(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7718
-  server: cm01.newcome.xyz
-  type: ss
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_446
+  name: 1038,2787|Relay_-🇨🇳CN_413
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8205
+  port: 8107
   protocol: origin
-  server: cn06.closeai.one
+  server: cn02.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_477
+  name: 42,134,633,1038,2181,2787|Relay_-CN_472
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8206
+  port: 8110
   protocol: origin
-  server: cn07.closeai.one
+  server: cn02.closeai.one
   type: ssr
   udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7715(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7715
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2412(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2412
+  server: zx01.endhigh.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7716(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7716
+  server: cm01.newcome.xyz
+  type: ss
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_472
+  name: 42,134,633,1038,2181,2787|Relay_-CN_441
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
@@ -416,26 +347,496 @@ proxies:
   server: cn06.closeai.one
   type: ssr
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 807,2464,2465|广东省湛江市 移动
+  network: tcp
+  port: '55482'
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-092
+  password: 62TRHAZ070VS0QX3
+  port: 18009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2414(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2414
+  server: zx01.endhigh.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 71,145,692|Relay_CN-GB_279 | 4.76Mb
+  network: tcp
+  port: 14100
+  server: dxv4.pai50288.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_462
+  name: 42,134,633,1038,2181,2787|Relay_-CN_479
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8106
+  port: 8201
   protocol: origin
-  server: cn02.closeai.one
+  server: cn06.closeai.one
   type: ssr
   udp: true
 - alterId: 0
   cipher: auto
-  name: 807,2464,2465|🇨🇳 广东省广州市 移动
+  name: 1598,1868,2411,3482|中国【付费推荐：https://socks.news】2
+  network: ws
+  port: '25774'
+  server: tttxbmsm.fask511.cfd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=1024
+- cipher: chacha20-ietf-poly1305
+  name: 2415|CN-45.250.184.183-244
+  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  port: 6181
+  server: 45.250.184.183
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3712(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3712
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: 2416|[🇨🇳]data-hk-v2.shwjfkw.cn:5020...
+  network: ws
+  port: '50205'
+  server: data-hk-v2.shwjfkw.cn
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      host: data-hk-v2.shwjfkw.cn
+    path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_466
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8108
+  protocol: origin
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:205...
+  network: ws
+  port: '20598'
+  server: shct.xn--dlq110j6ul.cc
+  type: vmess
+  uuid: 26402d77-1c76-4a01-b1f3-5709a54d1a84
+  ws-opts:
+    headers:
+      host: shct.xn--dlq110j6ul.cc
+    path: /fly
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7714(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7714
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_443
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8301
+  protocol: origin
+  server: cn10.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_463
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8103
+  protocol: origin
+  server: cn01.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_742
+  obfs: plain
+  password: mblank1port
+  port: 562
+  protocol: auth_aes128_md5
+  server: initest08.initcloud.pro
+  type: ssr
+- cipher: aes-256-cfb
+  name: 1163,1800,2932|🇨🇳 上海专线1-01-Boss网-海沃2016
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41026
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 807,1868,2464,2465|广东省广州市 移动
+  network: tcp
+  port: '54082'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6714(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6714
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: aes-128-gcm
+  name: 3483|中国【付费推荐：https://socks.news】23
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 28164
+  server: 119.167.230.252
+  type: ss
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-091
+  password: F2KVLB8XGXPPA7OX
+  port: 15006
+  server: 219.135.227.210
+  type: ss
+- cipher: chacha20-ietf
+  name: 1038,2787|Relay_-🇨🇳CN_412
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8115
+  protocol: origin
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇳CN-🇨🇳CN_740
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 62301
+  protocol: auth_aes128_md5
+  protocol-param: 37380:k4VJ9SyAu3
+  server: sh163.safetelescope.cc
+  type: ssr
+- alterId: 64
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 1038,2787|🇨CN_756
+  network: tcp
+  port: 50002
+  server: 47.116.166.178
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_457
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8102
+  protocol: origin
+  server: cn01.closeai.one
+  type: ssr
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 1170,2411,2941|🔒 VM-WS-NA 🇨🇳 CN-183.232.155.4...
+  network: ws
+  port: '53236'
+  server: 183.232.155.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
+  ws-opts:
+    headers:
+      Host: bn1.hk.tifa.pro
+    path: /windows10
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-088
+  password: L1SLK5APNHD6Z7P0
+  port: 15013
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_465
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8204
+  protocol: origin
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6712(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6712
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 807,2464,2465|🇨🇳 广东省湛江市 移动
   network: ''
-  port: '51754'
-  server: 183.236.51.38
+  port: '55482'
+  server: 120.198.71.216
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3718(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3718
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:5714(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 5714
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_456
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8119
+  protocol: origin
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2416(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2416
+  server: zx01.endhigh.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_462
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8114
+  protocol: origin
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:5711(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 5711
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_744
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 25443:Jsnzkpg888
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_446
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8217
+  protocol: origin
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_448
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8303
+  protocol: origin
+  server: cn10.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6719(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6719
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6711(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6711
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_480
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8305
+  protocol: origin
+  server: cn10.closeai.one
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2411|中国 193 →
+  network: ws
+  port: '80'
+  server: hn.xn--wlqw1swrj04ju56d.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a93a616-6042-49af-800b-dbe8690801b4
+  ws-opts:
+    headers:
+      Host: hn.xn--wlqw1swrj04ju56d.com
+    path: /
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_478
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8215
+  protocol: origin
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_747
+  obfs: http_simple
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+  password: passwd
+  port: 8104
+  protocol: origin
+  server: cn02.mynode.me
+  type: ssr
+- cipher: chacha20-ietf
+  name: 42,134,421,633,1038,2181,2787|Relay_-CN_455
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8123
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: 71,122,134,145,633,692,1038,2181,2787,2817|Relay_CN-GB_268 | 7.20Mb
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52613
+  server: hk03.x.quickcht3.club
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2418(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2418
+  server: zx01.endhigh.xyz
+  type: ss
+- cipher: aes-128-gcm
+  name: 3483|中国【付费推荐：https://socks.news】9
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 22040
+  server: 119.167.230.252
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6718(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6718
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7719(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7719
+  server: cm01.newcome.xyz
+  type: ss
 - mux:
     enable: true
   name: 118|HongKong CN2 WS
@@ -452,14 +853,215 @@ proxies:
       Host: proxy.kenc.top
     path: /ws
 - cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7715(2vzh...
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6710(2vzh...
   password: 2vzho5
   plugin: obfs
   plugin-opts:
     host: 646bc62235.microsoft.com
     mode: http
-  port: 7715
+  port: 6710
   server: cm01.newcome.xyz
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:158...
+  network: ws
+  port: '15800'
+  server: shct.xn--dlq110j6ul.cc
+  type: vmess
+  uuid: 26402d77-1c76-4a01-b1f3-5709a54d1a84
+  ws-opts:
+    headers:
+      host: shct.xn--dlq110j6ul.cc
+    path: /fly
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6713(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6713
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6716(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6716
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_459
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8124
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 2415|CN-183.236.51.23-036
+  network: tcp
+  port: 53002
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_476
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8208
+  protocol: origin
+  server: cn07.closeai.one
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 807,2464,2465|🇨🇳 广东省广州市 移动
+  network: ''
+  port: '51754'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  country: 🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_746
+  obfs: http_simple
+  obfs-param: 18950-Guhaijun1979.download.microsoft.com
+  password: passwd
+  port: 8121
+  protocol: origin
+  server: cn05.mynode.me
+  type: ssr
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 42,71,104,134,341,421,633,692,1080,2085,2086,2181,2376,2411,2817,2842,2843|CN_737
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2415(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2415
+  server: zx01.endhigh.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:5715(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 5715
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:486...
+  network: ws
+  port: '48640'
+  server: shct.xn--dlq110j6ul.cc
+  type: vmess
+  uuid: f8de7b51-0288-4f97-b1a8-5ed97f1234a8
+  ws-opts:
+    headers:
+      host: shct.xn--dlq110j6ul.cc
+    path: /
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_488
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8109
+  protocol: origin
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6715(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 6715
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 308|Relay_-CN_772
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7710(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7710
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3716(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3716
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 807,2464,2465|🇨🇳 广东省广州市 移动 2
+  network: ''
+  port: '40165'
+  server: 120.232.153.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 2416|[🇨🇳]xiamen.onenovnode.org:1622...
+  password: a7ee983c-d688-49aa-9e2f-988f57cb5ade
+  port: 16223
+  server: xiamen.onenovnode.org
   type: ss
 - alterId: 0
   cipher: auto
@@ -474,117 +1076,76 @@ proxies:
   ws-headers:
     Host: cm1.awslcn.info
   ws-path: /
-- cipher: aes-256-cfb
-  name: 1163,1800,2932|🇨🇳 上海专线2-02-Boss网-海沃2017
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: CN
+  country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 42,71,104,122,134,421,633,692,1080,2085,2086,2181,2817,2834,2842,2843|CN_740
+  name: 42,71,91,122,134,145,421,443,633,692,1038,1170,2085,2086,2181,2411,2787,2817,2941|
+    CN_732
   network: tcp
   port: 50002
-  server: 47.104.186.133
-  servername: trojan.burgerip.co.uk
+  server: 120.26.55.225
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_767
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 62301
-  protocol: auth_aes128_md5
-  protocol-param: 37380:k4VJ9SyAu3
-  server: sh163.safetelescope.cc
-  type: ssr
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 1038,2787|Relay_-🇳CN_602
+  network: ws
+  port: 30000
+  server: 23.224.15.180
+  servername: www.15870563.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15870563.xyz
+    path: /path/191019072927
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_473
+  name: 42,134,633,1038,2181,2787|Relay_-CN_450
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8201
+  port: 8306
   protocol: origin
-  server: cn06.closeai.one
+  server: cn10.closeai.one
   type: ssr
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 807,2464,2465|🇨🇳 广东省江门市 移动
-  network: ''
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_469
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8121
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_454
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8214
+  protocol: origin
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
 - cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6719(2vzh...
+  name: 2416|[🇨🇳]cm01.newcome.xyz:6717(2vzh...
   password: 2vzho5
   plugin: obfs
   plugin-opts:
     host: 646bc62235.microsoft.com
     mode: http
-  port: 6719
+  port: 6717
   server: cm01.newcome.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '3483|中国【付费推荐：https://socks.news】2 #1'
-  network: ws
-  port: 25774
-  server: tttxbmsm.fask511.cfd
-  tls: false
-  type: vmess
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: tttxbmsm.fask511.cfd
-    path: /?ed=1024
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_474
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8232
-  protocol: origin
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_445
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8105
-  protocol: origin
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_442
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8116
-  protocol: origin
-  server: cn04.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-098
-  password: 71GJL31AYF3CXZ2K
-  port: 17007
-  server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - cipher: rc4-md5
   name: 2416|[🇨🇳]cm01.newcome.xyz:7713(2vzh...
@@ -596,180 +1157,6 @@ proxies:
   port: 7713
   server: cm01.newcome.xyz
   type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6718(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6718
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-050
-  password: 9OAJ48AFCGC9UHFK
-  port: 18003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 2415|CN-183.236.51.23-036
-  network: tcp
-  port: 53002
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.23
-  ws-path: /
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7717(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7717
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_443
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8101
-  protocol: origin
-  server: cn01.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_449
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8303
-  protocol: origin
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:486...
-  network: ws
-  port: '48640'
-  server: shct.xn--dlq110j6ul.cc
-  type: vmess
-  uuid: f8de7b51-0288-4f97-b1a8-5ed97f1234a8
-  ws-opts:
-    headers:
-      host: shct.xn--dlq110j6ul.cc
-    path: /
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1038,2787|Relay_-🇳CN_490
-  network: ws
-  port: 37001
-  server: 38.33.56.39
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24006857.xyz
-    path: /path/1738317565398
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_459
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8121
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '807,2464,2465,2817|广东省广州市 移动 #1'
-  network: tcp
-  port: '51754'
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_475
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8305
-  protocol: origin
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 91,443|CN_53
-  network: raw
-  port: 50002
-  server: 120.210.205.59
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 807,2464,2465|🇨🇳 广东省湛江市 移动
-  network: ''
-  port: '41259'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 807,1598,2464,2465,3482|广东省广州市 移动
-  network: tcp
-  port: '40165'
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  country: CN
-  name: 1038,2787|Relay_🇨CN-🇨CN_764
-  obfs: plain
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 34189:jsnzkpg
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.210-091
-  password: F2KVLB8XGXPPA7OX
-  port: 15006
-  server: 219.135.227.210
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 807,2464,2465|🇨🇳 广东省广州市 移动 3
-  network: ''
-  port: '40002'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: '0'
   cipher: auto
   name: 2416|[🇨🇳]dxshanghai.bpzhuanfa.com:2...
@@ -782,6 +1169,457 @@ proxies:
     headers:
       host: dxshanghai.bpzhuanfa.com
     path: /fly
+- cipher: aes-256-cfb
+  name: 1163,1800,2932|🇨🇳 上海专线2-01-Boss网-海沃2017
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41024
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2415|CN-124.225.164.24-094
+  password: f16d3752-7bae-474e-87dc-f892df2caeaf
+  port: 31620
+  server: ctmm.gscloud.bond
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 42,71,91,104,122,134,308,421,443,633,692,807,1080,1170,2085,2086,2181,2376,2411,2464,2465,2817,2842,2843,2941|CN_735
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.209-051
+  password: U177NTV9CLY0D3SP
+  port: 17002
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇳CN-🇨🇳CN_741
+  obfs: plain
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 34189:jsnzkpg
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_452
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8116
+  protocol: origin
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3719(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3719
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 1038,2787|Relay_-🇨🇳CN_410
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8112
+  protocol: origin
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3714(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3714
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_477
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8209
+  protocol: origin
+  server: cn08.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_748
+  obfs: plain
+  obfs-param: 23ffd711.microsoft.com
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 43697:SVIPTIZ8
+  server: 2cnrelay2.initcloud.pro
+  type: ssr
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-097
+  password: LQVGZB307SUYK23Y
+  port: 16009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '807,1598,2464,2465,3482|广东省广州市 移动 #1'
+  network: tcp
+  port: '40165'
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_468
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8207
+  protocol: origin
+  server: cn07.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_460
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8101
+  protocol: origin
+  server: cn01.closeai.one
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1598,2411,3482|中国【付费推荐：https://socks.news】34
+  network: ws
+  port: '25774'
+  server: kkkghdragxc.fask511.cfd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=1024
+- cipher: rc4-md5
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_750
+  obfs: http_simple
+  obfs-param: 18127-Tutaiming0321.download.microsoft.com
+  password: passwd
+  port: 8126
+  protocol: origin
+  server: cn05.mynode.me
+  type: ssr
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7712(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7712
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_438
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8211
+  protocol: origin
+  server: cn08.closeai.one
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 1038,2787|Relay_-🇳CN_586
+  network: ws
+  port: 30000
+  server: 23.224.15.181
+  servername: www.15870563.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15870563.xyz
+    path: /path/191019072927
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7711(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7711
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_453
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8105
+  protocol: origin
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_470
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8111
+  protocol: origin
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]zx01.endhigh.xyz:2419(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 2419
+  server: zx01.endhigh.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_449
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8126
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-050
+  password: 9OAJ48AFCGC9UHFK
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 807,1505,1868,2464,2465|广东省江门市 移动
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7717(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7717
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_442
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8104
+  protocol: origin
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2411|中国 207 →
+  network: ws
+  port: '80'
+  server: nb.xn--wlqw1swrj04ju56d.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a93a616-6042-49af-800b-dbe8690801b4
+  ws-opts:
+    headers:
+      Host: nb.xn--wlqw1swrj04ju56d.com
+    path: /
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_483
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8118
+  protocol: origin
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_440
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8213
+  protocol: origin
+  server: cn08.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_481
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8212
+  protocol: origin
+  server: cn08.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: 2415|CN-219.135.227.210-098
+  password: 71GJL31AYF3CXZ2K
+  port: 17007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_474
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8216
+  protocol: origin
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 42,71,91,104,122,134,421,443,633,692,807,1170,2085,2086,2181,2376,2411,2464,2465,2817,2842,2941|CN_736
+  network: tcp
+  port: 50004
+  server: 112.132.212.19
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  name: 2416|[🇨🇳]sqyd.biubiufly.monster:500...
+  network: tcp
+  port: '50021'
+  server: sqyd.biubiufly.monster
+  type: vmess
+  uuid: 242bf205-7fea-3667-b1e6-141327dd9225
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3713(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3713
+  server: cm01.newcome.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 2411|🔒 VM-RAW-NA 中国-112.132.212.19:...
+  network: raw
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_444
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8122
+  protocol: origin
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 1038,2787|Relay_🇳CN-🇨🇳CN_743
+  obfs: plain
+  obfs-param: VFdwT2JWcHRVVE5OVkVWMVlsZHNhbU50T1hwaU1sb3dURzFPZG1KUg
+  password: mblank1port
+  port: 562
+  protocol: auth_aes128_md5
+  protocol-param: 5435:SVIPTIZ6
+  server: initest08.initcloud.pro
+  type: ssr
+- alterId: 0
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 91,341,443|CN_54
+  network: raw
+  port: 50002
+  server: 120.210.205.59
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_467
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8233
+  protocol: origin
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:3717(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 3717
+  server: cm01.newcome.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 42,134,633,1038,2181,2787|Relay_-CN_485
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8113
+  protocol: origin
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1058,1074,2811,2830,2831|🇨🇳 CN-北京移动
@@ -796,481 +1634,54 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /wada12222
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3719(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3719
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,421,633,1038,2181,2747,2787|Relay_-CN_476
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8123
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 1038,2787|Relay_-🇨🇳CN_349
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8107
-  protocol: origin
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 145|CN_261
-  network: ws
-  port: 80
-  server: 111.47.212.184
-  servername: tms.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
-    path: /
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2416(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2416
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_463
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8125
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:5715(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 5715
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_447
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8114
-  protocol: origin
-  server: cn03.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2412(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2412
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_448
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8306
-  protocol: origin
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_471
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8104
-  protocol: origin
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_456
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8207
-  protocol: origin
-  server: cn07.closeai.one
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 807,2464,2465|🇨🇳 广东省广州市 移动 2
-  network: ''
-  port: '40165'
-  server: 120.232.153.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6715(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6715
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_484
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8302
-  protocol: origin
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_450
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8103
-  protocol: origin
-  server: cn01.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7710(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7710
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2415|CN-124.225.164.24-094
-  password: f16d3752-7bae-474e-87dc-f892df2caeaf
-  port: 31620
-  server: ctmm.gscloud.bond
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '807,2464,2465|🇨🇳 广东省湛江市 移动 #1'
-  network: ''
-  port: '55482'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 2416|[🇨🇳]sqyd.biubiufly.monster:500...
-  network: tcp
-  port: '50021'
-  server: sqyd.biubiufly.monster
-  type: vmess
-  uuid: 242bf205-7fea-3667-b1e6-141327dd9225
-- alterId: 2
-  cipher: auto
-  name: 1170,2941|🔒 VM-WS-NA 🇨🇳 CN-183.232.155.4...
-  network: ws
-  port: '53236'
-  server: 183.232.155.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
-  ws-opts:
-    headers:
-      Host: bn1.hk.tifa.pro
-    path: /windows10
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_460
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8111
-  protocol: origin
-  server: cn03.closeai.one
-  type: ssr
-  udp: true
 - cipher: aes-256-cfb
-  name: 1163,1800,2932|🇨🇳 上海专线1-01-Boss网-海沃2016
+  name: 1163,1800,2932|🇨🇳 上海专线1-02-Boss网-海沃2016
   obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41026
+  password: boss+haiwo.999
+  port: 2016
   protocol: origin
   server: 123.60.172.218
   type: ssr
   udp: true
 - cipher: rc4-md5
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_774
-  obfs: http_simple
-  obfs-param: 18127-Tutaiming0321.download.microsoft.com
-  password: passwd
-  port: 8104
-  protocol: origin
-  server: cn02.mynode.me
-  type: ssr
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_772
-  obfs: plain
-  obfs-param: 23ffd711.microsoft.com
-  password: mblank1port
-  port: 561
-  protocol: auth_aes128_md5
-  protocol-param: 51733:SVIPTIZ8
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
+  name: 2416|[🇨🇳]cm01.newcome.xyz:5713(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 5713
+  server: cm01.newcome.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 1598,3482|中国【付费推荐：https://socks.news】34
-  network: ws
-  port: '25774'
-  server: kkkghdragxc.fask511.cfd
+  name: 807,2464,2465|🇨🇳 广东省广州市 移动 4
+  network: ''
+  port: '54082'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=1024
-- cipher: chacha20-ietf
-  name: 1038,2787|Relay_-🇨🇳CN_358
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8112
-  protocol: origin
-  server: cn03.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3710(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3710
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2415|CN-45.250.184.183-244
-  password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  port: 6181
-  server: 45.250.184.183
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2417(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2417
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6717(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6717
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_765
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 25443:Jsnzkpg888
-  server: 2cnrelay2.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_480
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8218
-  protocol: origin
-  server: cn09.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_454
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8233
-  protocol: origin
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_777
-  obfs: http_simple
-  obfs-param: 18127-Tutaiming0321.download.microsoft.com
-  password: passwd
-  port: 8126
-  protocol: origin
-  server: cn05.mynode.me
-  type: ssr
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_467
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8216
-  protocol: origin
-  server: cn09.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_486
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8213
-  protocol: origin
-  server: cn08.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_444
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8304
-  protocol: origin
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 1038,2787|Relay_-🇨🇳CN_356
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8115
-  protocol: origin
-  server: cn03.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7719(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7719
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: 2415|CN-219.135.227.209-051
-  password: U177NTV9CLY0D3SP
-  port: 17002
-  server: w72tapyb.slashdevslashnetslashtun.net
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  country: 🇨CN
   h2-opts: {}
   http-opts: {}
-  name: 1038,2787|🇨🇳CN_781
-  network: tcp
-  port: 50002
-  server: 47.116.166.178
+  name: 1038,2787|Relay_-🇳CN_476
+  network: ws
+  port: 37001
+  server: 38.33.56.39
   skip-cert-verify: true
+  tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1738317565398
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_466
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8203
-  protocol: origin
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3713(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3713
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2414(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2414
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3717(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3717
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_468
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8208
-  protocol: origin
-  server: cn07.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_464
+  name: 42,134,633,1038,2181,2787|Relay_-CN_473
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
@@ -1279,18 +1690,42 @@ proxies:
   server: cn08.closeai.one
   type: ssr
   udp: true
-- alterId: '0'
+- alterId: 64
   cipher: auto
-  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:205...
-  network: ws
-  port: '20598'
-  server: shct.xn--dlq110j6ul.cc
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 42,71,91,104,122,421,443,692,1080,2085,2086,2376,2411,2817,2842,2843|CN_738
+  network: tcp
+  port: 50002
+  server: 47.92.152.169
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
   type: vmess
-  uuid: 26402d77-1c76-4a01-b1f3-5709a54d1a84
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 4
+  cipher: auto
+  name: 2032,2035|🇨🇳CN_34
+  network: ws
+  port: 2164
+  server: 117.28.242.156
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
-      host: shct.xn--dlq110j6ul.cc
-    path: /fly
+      Host: sxqxj.cn
+    path: /ws
+- cipher: rc4-md5
+  name: 2416|[🇨🇳]cm01.newcome.xyz:7718(2vzh...
+  password: 2vzho5
+  plugin: obfs
+  plugin-opts:
+    host: 646bc62235.microsoft.com
+    mode: http
+  port: 7718
+  server: cm01.newcome.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 2415|CN-223.109.230.9-090
@@ -1305,418 +1740,12 @@ proxies:
     Host: yoyo.cmyiphone.top
   ws-path: /
 - cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_440
+  name: 42,134,633,1038,2181,2787|Relay_-CN_486
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8214
-  protocol: origin
-  server: cn09.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 134,633,1038,2181,2787|Relay_-CN_171
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8217
-  protocol: origin
-  server: cn09.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_485
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8209
-  protocol: origin
-  server: cn08.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6711(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6711
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3712(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3712
-  server: cm01.newcome.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1598,1868,3482|中国【付费推荐：https://socks.news】2
-  network: ws
-  port: '25774'
-  server: tttxbmsm.fask511.cfd
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=1024
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:5711(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 5711
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6712(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6712
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 134,633,1038,2181,2747,2787|Relay_-CN_195
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8126
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 1038,2787|Relay_-🇨🇳CN_336
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8117
-  protocol: origin
-  server: cn04.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2415(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2415
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_483
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8120
-  protocol: origin
-  server: cn04.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:6714(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 6714
-  server: cm01.newcome.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 807,1505,1868,2464,2465,2817|广东省江门市 移动
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 42,71,91,122,134,145,308,341,421,443,633,692,1038,2085,2086,2181,2787,2817,2834|
-    CN_734
-  network: tcp
-  port: 50002
-  server: 120.26.55.225
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_481
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8113
-  protocol: origin
-  server: cn03.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7711(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7711
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3714(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3714
-  server: cm01.newcome.xyz
-  type: ss
-- alterId: 4
-  cipher: auto
-  name: 2032,2035|🇨🇳CN_34
-  network: ws
-  port: 2164
-  server: 117.28.242.156
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: sxqxj.cn
-    path: /ws
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_780
-  obfs: plain
-  password: mblank1port
-  port: 562
-  protocol: auth_aes128_md5
-  server: initest08.initcloud.pro
-  type: ssr
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_451
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8204
-  protocol: origin
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_489
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8211
-  protocol: origin
-  server: cn08.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 3483|中国【付费推荐：https://socks.news】23
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
-  type: ss
-- alterId: '1'
-  cipher: auto
-  name: 2416|[🇨🇳]data-hk-v2.shwjfkw.cn:5020...
-  network: ws
-  port: '50205'
-  server: data-hk-v2.shwjfkw.cn
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      host: data-hk-v2.shwjfkw.cn
-    path: /hls/cctv5phd.m3u8
-- alterId: '0'
-  cipher: auto
-  name: 2416|[🇨🇳]shct.xn--dlq110j6ul.cc:158...
-  network: ws
-  port: '15800'
-  server: shct.xn--dlq110j6ul.cc
-  type: vmess
-  uuid: 26402d77-1c76-4a01-b1f3-5709a54d1a84
-  ws-opts:
-    headers:
-      host: shct.xn--dlq110j6ul.cc
-    path: /fly
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_487
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8231
-  protocol: origin
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  country: CN
-  name: 42,71,91,101,122,134,145,308,419,421,443,633,692,1038,2181,2747,2787,2817|CN_736
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 36.134.115.217
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_478
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8118
-  protocol: origin
-  server: cn04.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_770
-  obfs: http_simple
-  obfs-param: 18950-Guhaijun1979.download.microsoft.com
-  password: passwd
-  port: 8121
-  protocol: origin
-  server: cn05.mynode.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 1598,3482|中国【付费推荐：https://socks.news】32
-  network: tcp
-  port: '11126'
-  server: 47.97.82.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d09cbc30-d3ac-4fd3-8de5-c5c10455fb40
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:5713(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 5713
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2419(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2419
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]zx01.endhigh.xyz:2418(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 2418
-  server: zx01.endhigh.xyz
-  type: ss
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:7716(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 7716
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_479
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8110
-  protocol: origin
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2787|Relay_-CN_453
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8108
-  protocol: origin
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:3718(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 3718
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_470
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8301
+  port: 8302
   protocol: origin
   server: cn10.closeai.one
   type: ssr
   udp: true
-- cipher: rc4-md5
-  name: 2416|[🇨🇳]cm01.newcome.xyz:5714(2vzh...
-  password: 2vzho5
-  plugin: obfs
-  plugin-opts:
-    host: 646bc62235.microsoft.com
-    mode: http
-  port: 5714
-  server: cm01.newcome.xyz
-  type: ss
-- cipher: chacha20-ietf
-  name: 42,134,633,1038,2181,2747,2787|Relay_-CN_482
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8122
-  protocol: origin
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 1038,2787|Relay_🇨🇳CN-🇨🇳CN_771
-  obfs: plain
-  obfs-param: VFdwT2JWcHRVVE5OVkVWMVlsZHNhbU50T1hwaU1sb3dURzFPZG1KUg
-  password: mblank1port
-  port: 562
-  protocol: auth_aes128_md5
-  protocol-param: 5435:SVIPTIZ6
-  server: initest08.initcloud.pro
-  type: ssr
