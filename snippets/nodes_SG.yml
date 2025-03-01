@@ -1,54 +1,60 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 40,203,236,244|SG_828
+  network: tcp
+  port: 27575
+  server: 194.233.72.228
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 45,154|Relay_ZZ-SG_412
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  servername: meat-newfoundland-loads-vegas.trycloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aab269af-a266-4d1b-b4ce-da36a4b0bdf0
+  ws-opts:
+    headers:
+      HOST: meat-newfoundland-loads-vegas.trycloudflare.com
+    path: /vmess-argo?ed=2048
 - cipher: aes-256-cfb
   country: SG
-  name: 11,40,45,154,199,203,206,210,236,243,244,245,250|SG_487 |89.48Mb
+  name: 40,45,199,203,236,244|SG_822
   password: amazonskr05
   port: 443
-  server: 54.255.224.231
+  server: 13.229.59.137
   type: ss
-- cipher: chacha20-ietf
-  country: 🇸SG
-  name: 210,245|Relay_🇸🇬SG-IR_1545
-  obfs: plain
-  obfs-param: 1ebc447023.microsoft.com
-  password: renzhecloud
-  port: 1063
-  protocol: auth_aes128_sha1
-  protocol-param: 47023:CzOvFg
-  server: f-sg-01.ninjanode.pro
-  type: ssr
 - cipher: aes-256-cfb
-  country: SG
-  name: 11,40,199,203,206,236,244|SG_1159 |20.69Mb
+  country: ' SG'
+  name: 156,199,244| SG_560
   password: amazonskr05
   port: 443
-  server: 54.254.62.242
+  server: 13.250.31.115
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' AU'
-  name: 11,31,32,36,40,154,199,203,206,210,236,245,250,251|Relay_ AU-SG_213 |10.18Mb
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 11,45,206|Relay_-SG_318 | 2.00Mb
-  password: b7e92acc-70e2-4945-9625-c909251ca5ee
-  port: 30001
-  server: gdgs.tarioblink.me
-  type: ss
-- cipher: chacha20-ietf
-  country: SG
-  name: 199,210,244,245|SG_459
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
+- cipher: rc4-md5
+  country: ' SG'
+  name: 156,199,244| SG_559
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.235.122
   type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 244|Relay_-SG_639 | 8.86Mb
+  name: 244|Relay_-SG_528 | 8.86Mb
   network: ws
   port: 443
   server: tls.95.node-for-bigairport.win
@@ -59,36 +65,10 @@ proxies:
     headers:
       Host: tls.95.node-for-bigairport.win
     path: /
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 40,203,210,236,244,245|SG_828
-  network: tcp
-  port: 27575
-  server: 194.233.72.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
-- cipher: rc4-md5
-  country: SG
-  name: 199,210,244,245|SG_458
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.235.122
-  type: ss
 - cipher: aes-256-gcm
   country: ' SG'
-  name: 36,40,154,199,203,210,236,245,250|ChatGPT  SG_391
+  name: 36,40,154,156,199,203,236,244,250|ChatGPT  SG_398
   password: 2UOL8ESS12X0J31P
   port: 16010
   server: 154.196.244.20
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 40,154,203,210,236,244,245|SG_822
-  password: amazonskr05
-  port: 443
-  server: 13.229.59.137
   type: ss

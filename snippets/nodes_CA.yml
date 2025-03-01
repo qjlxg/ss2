@@ -1,29 +1,53 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 244|Relay_-CA_534 |69.41Mb
+  network: ws
+  port: 443
+  server: cdncdncdn.aikunapp.com
+  tls: true
+  type: vmess
+  uuid: 96cad374-7573-4463-8804-4665c2c3d932
+  ws-opts:
+    headers:
+      Host: cdn-ca.sm-node.com
+    path: /vmess_ws/smjc/index?ed=8192
 - cipher: aes-256-gcm
   country: CA
-  name: 40,154,203,210,236,244,245|CA_320
+  name: 40,154,203,236,244|CA_320
   password: G2LC1BQ48SXSBKZX
   port: 20002
   server: 185.126.239.231
   type: ss
+- cipher: aes-256-cfb
+  country: CA
+  name: 40,154,203,236|CA_315
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.213.23.226
+  type: ss
 - alterId: 0
   cipher: auto
-  country: CA
   h2-opts: {}
   http-opts: {}
-  name: 40,154,203,210,236,244,245|CA_321
-  network: tcp
-  port: 14812
-  server: 38.111.114.153
-  skip-cert-verify: true
+  name: 244|Relay_-🇨🇦CA_546 |99.90Mb
+  network: ws
+  port: 38848
+  server: proxy.cc-la.152618.xyz
   type: vmess
-  uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
+  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  ws-opts:
+    headers:
+      Host: proxy.cc-la.152618.xyz
+    path: /6c8e5a1b
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 40,154,199,203,210,236,244,245|CA_322
+  name: 40,199,203,236,244|CA_322
   network: ws
   port: 38848
   server: 74.48.159.226
@@ -37,7 +61,52 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 40,199,203,210,236,244,245|CA_324
+  name: 40,154,199,203,236,244|CA_325
+  network: ws
+  port: 443
+  server: 172.111.36.108
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 154,199|CA_810
+  network: ws
+  port: 443
+  server: 15.235.83.228
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- cipher: aes-128-cfb
+  country: ' CA'
+  name: 36,40,199,203,236,244|ChatGPT  CA_09
+  obfs: http_post
+  password: $$Turb0VPN$$
+  port: 443
+  protocol: auth_aes128_md5
+  server: ssca.irundns.net
+  type: ssr
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 40,199,203,236,244|CA_324
   network: ws
   port: 443
   server: 134.195.198.147
@@ -50,25 +119,43 @@ proxies:
     headers:
       HOST: inna.cfd
     path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 31,32,36,40,154,156,199,203,210,236,245,251|Relay_CA-CA_191
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' CA'
+  h2-opts: {}
+  http-opts: {}
+  name: 31,40,154,199,203,236,244| CA_181
+  network: ws
+  port: 443
+  server: 68.168.31.196
+  servername: 68.168.31.196
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 68.168.31.196
+    path: /linkvws
 - cipher: aes-256-cfb
   country: CA
-  name: 40,154,203,210,236,245|CA_316
+  name: 40,154,203,236|CA_316
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.126.239.250
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' CA'
+  name: 30,31,32,36,40,154,198,199,203,236| CA_01
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: 142.4.216.225
   type: ss
 - alterId: 0
   cipher: auto
   country: ' CA'
   http-opts: {}
-  name: 156,213,251,252| CA_48
+  name: 156,213,241,252| CA_40
   network: ws
   port: 443
   server: 68.168.31.196
@@ -82,40 +169,22 @@ proxies:
   ws-path: /linkvws
 - alterId: 0
   cipher: auto
+  country: CA
   h2-opts: {}
   http-opts: {}
-  name: 210,244,245|Relay_-CA_599
-  network: ws
-  port: 38848
-  server: proxy.cc-la.152618.xyz
+  name: 40,154,203,236,244|CA_321
+  network: tcp
+  port: 14812
+  server: 38.111.114.153
   skip-cert-verify: true
   type: vmess
-  udp: true
-  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
-  ws-opts:
-    headers:
-      Host: proxy.cc-la.152618.xyz
-    path: /6c8e5a1b
-- cipher: chacha20-ietf-poly1305
-  country: ' CA'
-  name: 30,31,32,36,40,154,198,199,203,210,236,245,251| CA_01
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇦CA
-  name: 210,245|Relay_🇦CA-🇨🇦CA_854
-  password: sagUKO0ik5pepfC0
-  port: 8388
-  server: tor5.vpntype.dev
-  type: ss
+  uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 40,154,199,203,236|Relay_CA-CA_323
+  name: 40,199,203,236|Relay_CA-CA_323
   network: ws
   port: 38848
   server: proxy.cc-la.152618.xyz
@@ -127,80 +196,10 @@ proxies:
     headers:
       HOST: proxy.cc-la.152618.xyz
     path: /6c8e5a1b
-- alterId: 0
-  cipher: auto
-  country: ' CA'
-  h2-opts: {}
-  http-opts: {}
-  name: 31,40,154,199,203,210,236,244,245| CA_190
-  network: ws
-  port: 443
-  server: 68.168.31.196
-  servername: 68.168.31.196
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 68.168.31.196
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 210,244,245|Relay_-🇦CA_679
-  network: ws
-  port: 443
-  server: cdncdncdn.aikunapp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 96cad374-7573-4463-8804-4665c2c3d932
-  ws-opts:
-    headers:
-      Host: cdn-ca.sm-node.com
-    path: /vmess_ws/smjc/index?ed=8192
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   country: CA
-  name: 40,154,203,210,236,245|CA_315
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.213.23.226
+  name: 31,32,36,40,154,199,203,236|Relay_CA-CA_182
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
   type: ss
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 210,245|Relay_🏁ZZ-🇦CA_1991
-  network: ws
-  port: 443
-  server: cdncdncdn.aikunapp.com
-  servername: cdn-us.sm-node.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3060692-2ac4-4410-883b-7b5730531535
-  ws-opts:
-    headers:
-      HOST: cdn-us.sm-node.com
-    path: /vmess_ws/csjc/index?ed=8192
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 40,154,199,203,210,236,244,245|CA_325
-  network: ws
-  port: 443
-  server: 172.111.36.108
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
