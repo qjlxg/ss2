@@ -1,31 +1,74 @@
 proxies:
-- cipher: aes-256-cfb
-  country: SG
-  name: 45,154,199,210,244,245,250|SG_116
-  password: amazonskr05
-  port: 443
-  server: 13.229.63.223
-  type: ss
-- cipher: aes-256-gcm
-  country: ' SG'
-  name: 36,40,154,156,199,203,210,236,244,245,250|ChatGPT  SG_409
-  password: 2UOL8ESS12X0J31P
-  port: 16010
-  server: 154.196.244.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' SG'
-  name: 31,36,40,45,154,156,199,203,210,236,243,244,245,247,251| SG_372
-  password: RfoUaiaNlwZ8Oep5Xa8ros
-  port: 64013
-  server: 128.199.220.82
-  type: ss
 - alterId: 0
   cipher: auto
   country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: 31|Relay_ SG-BE_373
+  name: 36| SG_417
+  network: ws
+  port: 443
+  server: tls.94.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-path: /
+- cipher: aes-256-cfb
+  country: SG
+  name: 11,45,154,156,199,206,210,244,245,247|SG_437 | 8.44Mb
+  password: amazonskr05
+  port: 443
+  server: 13.229.63.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬SG
+  name: 210,245|Relay_🇸🇬SG-🇸🇬SG_1590
+  password: rcp5MwZnZk51FeB0Ke2GVC
+  port: 52252
+  server: sg.outlinekeys.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 244|Relay_-SG_600 |133.35Mb
+  network: ws
+  port: 443
+  server: tls.95.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.95.node-for-bigairport.win
+    path: /
+- cipher: aes-256-cfb
+  country: SG
+  name: 11,156,206,247|SG_436 | 5.12Mb
+  password: amazonskr05
+  port: 443
+  server: 13.229.213.8
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 210,245|Relay_🇸 SG-🇸SG_1577
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20001
+  server: 183.233.187.157
+  type: ss
+- cipher: rc4-md5
+  country: SG
+  name: 40,154,156,203,210,236,244,245|SG_889
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.235.122
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬 SG
+  h2-opts: {}
+  http-opts: {}
+  name: 251|🇬 SG_400
   network: ws
   port: 44443
   server: tls.13.node-for-bigairport.win
@@ -33,46 +76,27 @@ proxies:
   tls: true
   type: vmess
   uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf
-  country: 🇬SG
-  name: 210,245|Relay_🇸🇬SG-IR_1704
-  obfs: plain
-  obfs-param: 1ebc447023.microsoft.com
-  password: renzhecloud
-  port: 1063
-  protocol: auth_aes128_sha1
-  protocol-param: 47023:CzOvFg
-  server: f-sg-01.ninjanode.pro
-  type: ssr
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 11,31,32,36,45,154,199,206,210,243,244,245,247,251|Relay_-SG_68 |20.98Mb
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  country: SG
-  name: 40,154,199,203,236,244|SG_889
+  country: ' SG'
+  name: 36,40,154,199,203,210,236,244,245|ChatGPT  SG_409
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 68.183.235.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 210,245|🇸🇬SG_1703
-  password: xTssk75IaMbbreqbpmqpX4
-  port: 13926
-  server: 178.128.53.201
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 210,245|🇸🇬SG_1695
-  password: VZ8kRtdvlT39g2Q2ClYotg
-  port: 6454
-  server: 174.138.18.35
+  server: 68.183.227.4
   type: ss
 - cipher: aes-256-cfb
-  country: ' SG'
-  name: 156| SG_564
-  password: amazonskr05
-  port: 443
-  server: 18.143.187.178
+  country: SG
+  name: 115|SG_93
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  server: 139.162.5.19
   type: ss
 - cipher: aes-256-cfb
   country: SG
@@ -80,6 +104,41 @@ proxies:
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 139.162.41.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬SG
+  name: 210,245|🇬SG_1585
+  password: rcp5MwZnZk51FeB0Ke2GVC
+  port: 52252
+  server: 174.138.17.254
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬SG
+  name: 210,245|🇸🇬SG_1593
+  password: sorZsnwsYEwYU9vufDeNQk
+  port: 31675
+  server: 104.248.152.211
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 40,154,156,199,203,210,236,245|SG_893
+  password: amazonskr05
+  port: 443
+  server: 54.151.184.124
+  type: ss
+- cipher: aes-256-gcm
+  country: ' SG'
+  name: 36,40,154,156,199,203,210,236,244,245|ChatGPT  SG_415
+  password: 2UOL8ESS12X0J31P
+  port: 16010
+  server: 154.196.244.20
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' SG'
+  name: 31,36,40,45,154,156,199,203,210,236,243,244,245,247,251| SG_379
+  password: RfoUaiaNlwZ8Oep5Xa8ros
+  port: 64013
+  server: 128.199.220.82
   type: ss
 - alterId: 0
   cipher: auto
@@ -93,87 +152,102 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
-- cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 210,245|🇬SG_1694
-  password: rcp5MwZnZk51FeB0Ke2GVC
-  port: 52252
-  server: 174.138.17.254
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 210,245|Relay_🇸🇬SG-🇸🇬SG_1698
-  password: rcp5MwZnZk51FeB0Ke2GVC
-  port: 52252
-  server: sg.outlinekeys.net
-  type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 45,154,156,199,210,245|SG_118
+  name: 11,45,154,199,206,244,247|SG_1084 |10.89Mb
   password: amazonskr05
   port: 443
-  server: 13.229.55.109
+  server: 47.129.7.198
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
+  country: 🇸SG
+  name: 210,245|🇬SG_1587
+  password: CcRzdmvqAgkEI9VZOIQgga
+  port: 61487
+  server: 152.42.242.10
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇬SG
+  name: 210,245|Relay_🇸🇬SG-IR_1595
+  obfs: plain
+  obfs-param: 1ebc447023.microsoft.com
+  password: renzhecloud
+  port: 1063
+  protocol: auth_aes128_sha1
+  protocol-param: 47023:CzOvFg
+  server: f-sg-01.ninjanode.pro
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  country: 🇬SG
+  name: 210,245|🇸🇬SG_1589
+  password: VZ8kRtdvlT39g2Q2ClYotg
+  port: 6454
+  server: 174.138.18.35
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 199|Relay_SG-NL_492
+  network: ws
+  port: 443
+  server: tls.96.node-for-bigairport.win
+  servername: tls.96.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      HOST: tls.96.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
   country: ' SG'
-  name: 36,156,210,244,245|ChatGPT  SG_411
-  password: amazonskr05
+  h2-opts: {}
+  http-opts: {}
+  name: 36,247,251| SG_418
+  network: ws
   port: 443
-  server: 13.250.96.5
-  type: ss
+  server: tls.95.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-path: /
 - cipher: aes-256-cfb
   country: SG
-  name: 11,154,156,199,206,210,245,247|SG_474 | 7.82Mb
+  name: 11,154,206,210,245,247|SG_438 | 6.20Mb
   password: amazonskr05
   port: 443
   server: 13.229.59.137
   type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 11,40,154,199,203,206,210,236,243,245|SG_473 |11.52Mb
-  password: amazonskr05
-  port: 443
-  server: 54.255.224.231
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 40,154,199,203,210,236,244,245|SG_893
-  password: amazonskr05
-  port: 443
-  server: 54.151.184.124
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 210,245|🇬SG_1692
-  password: sorZsnwsYEwYU9vufDeNQk
-  port: 31675
-  server: 104.248.152.211
+  country: 🇸🇬SG
+  name: 210,245|🇸🇬SG_1584
+  password: CHuXaCXb2QLuvDUNNPUDNW
+  port: 62280
+  server: 165.232.167.25
   type: ss
 - cipher: chacha20-ietf
   country: SG
-  name: 40,45,154,199,203,210,236,245|SG_892
+  name: 40,154,156,199,203,210,236,245|SG_892
   password: asd123456
   port: 8388
   server: 202.162.109.169
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  name: 210,245|🇸🇬SG_1691
-  password: CcRzdmvqAgkEI9VZOIQgga
-  port: 61487
-  server: 152.42.242.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  name: 210,245|🇸🇬SG_1702
-  password: CHuXaCXb2QLuvDUNNPUDNW
-  port: 62280
-  server: 165.232.167.25
+  country: 🇬SG
+  name: 210,245|🇸🇬SG_1586
+  password: xTssk75IaMbbreqbpmqpX4
+  port: 13926
+  server: 178.128.53.201
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 115|SG_93
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.5.19
+  name: 247|SG_78 |25.25Mb
+  password: amazonskr05
+  port: 443
+  server: 47.129.48.255
   type: ss
