@@ -1,21 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 40,154,203,236,244|CA_275
-  network: tcp
-  port: 14812
-  server: 38.111.114.153
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
+  name: 31,32,36,40,154,156,199,203,236,251|Relay_CA-CA_173
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: ca225.vpnbook.com
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 244|Relay_-CA_615 |178.35Mb
+  name: 244|Relay_-🇦CA_599 |178.35Mb
   network: ws
   port: 38848
   server: proxy.cc-la.152618.xyz
@@ -25,18 +20,68 @@ proxies:
     headers:
       Host: proxy.cc-la.152618.xyz
     path: /6c8e5a1b
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   country: CA
-  name: 40,154,203,236,244|CA_274
-  password: G2LC1BQ48SXSBKZX
-  port: 20002
-  server: 185.126.239.231
+  h2-opts: {}
+  http-opts: {}
+  name: 154,199|CA_775
+  network: ws
+  port: 443
+  server: 15.235.83.228
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- cipher: aes-256-cfb
+  country: CA
+  name: 40,154,203,236|CA_273
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.213.23.226
   type: ss
+- cipher: aes-256-cfb
+  country: CA
+  name: 40,154,203,236|CA_269
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.126.239.250
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' CA'
+  name: 30,31,32,36,40,154,156,198,199,203,236,251| CA_01
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: 142.4.216.225
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 40,199,203,236,244|CA_277
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: inna.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 244|Relay_-🇦CA_635 |69.49Mb
+  name: 244|Relay_-🇨CA_576 |69.49Mb
   network: ws
   port: 443
   server: cdncdncdn.aikunapp.com
@@ -51,7 +96,7 @@ proxies:
   cipher: auto
   country: ' CA'
   http-opts: {}
-  name: 156,213,241,251,252| CA_63
+  name: 156,213,241,251,252| CA_60
   network: ws
   port: 443
   server: 68.168.31.196
@@ -63,21 +108,30 @@ proxies:
   ws-headers:
     HOST: 68.168.31.196
   ws-path: /linkvws
-- cipher: aes-128-cfb
-  country: ' CA'
-  name: 36,40,156,199,203,236,244|ChatGPT  CA_09
-  obfs: http_post
-  password: $$Turb0VPN$$
-  port: 443
-  protocol: auth_aes128_md5
-  server: ssca.irundns.net
-  type: ssr
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   country: CA
-  name: 40,154,203,236|CA_273
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.213.23.226
+  h2-opts: {}
+  http-opts: {}
+  name: 154,199,244|CA_778
+  network: ws
+  port: 443
+  server: 172.111.36.108
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: CA
+  name: 40,154,203,236,244|CA_274
+  password: G2LC1BQ48SXSBKZX
+  port: 20002
+  server: 185.126.239.231
   type: ss
 - alterId: 0
   cipher: auto
@@ -93,6 +147,24 @@ proxies:
   uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
   ws-opts:
     path: /6c8e5a1b
+- alterId: 0
+  cipher: auto
+  country: ' CA'
+  h2-opts: {}
+  http-opts: {}
+  name: 31,40,154,199,203,236,244| CA_172
+  network: ws
+  port: 443
+  server: 68.168.31.196
+  servername: 68.168.31.196
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 68.168.31.196
+    path: /linkvws
 - alterId: 0
   cipher: auto
   country: CA
@@ -115,55 +187,10 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 40,199,203,236,244|CA_277
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  servername: inna.cfd
+  name: 40,154,203,236,244|CA_275
+  network: tcp
+  port: 14812
+  server: 38.111.114.153
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: inna.cfd
-    path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  country: ' CA'
-  name: 30,31,32,36,40,154,156,198,199,203,236,251| CA_01
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' CA'
-  h2-opts: {}
-  http-opts: {}
-  name: 31,40,154,199,203,236,244| CA_174
-  network: ws
-  port: 443
-  server: 68.168.31.196
-  servername: 68.168.31.196
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 68.168.31.196
-    path: /linkvws
-- cipher: aes-256-cfb
-  country: CA
-  name: 40,154,203,236|CA_269
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.126.239.250
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 31,32,36,40,154,156,199,203,236,251|Relay_CA-CA_175
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: ca225.vpnbook.com
-  type: ss
+  uuid: 0146fc40-5962-4e9a-b36a-2b606d001467
