@@ -1,31 +1,24 @@
 proxies:
-- cipher: aes-256-gcm
-  country: ' SG'
-  name: 4,6,9,10,12,15,19,20|ChatGPT  SG_416
-  password: 2UOL8ESS12X0J31P
-  port: 16010
-  server: 154.196.244.20
-  type: ss
-- cipher: chacha20-ietf
-  country: SG
-  name: 12|SG_512
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 0,6,9,12,13,15,18,20|SG_402 | 8.95Mb
-  password: amazonskr05
-  port: 443
-  server: 54.255.224.231
-  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 19|Relay_-SG_685 |23.20Mb
+  network: ws
+  port: 40000
+  server: ml01.333210.xyz
+  type: vmess
+  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /bby
 - alterId: 0
   cipher: auto
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 12,20|Relay_SG-SG_525
+  name: 12|Relay_SG-SG_499
   network: ws
   port: 40000
   server: ml01.333210.xyz
@@ -37,121 +30,127 @@ proxies:
     headers:
       HOST: down.dingtalk.com
     path: /bby
-- cipher: aes-256-cfb
-  country: US
-  name: 7,9|netflix_SG
-  password: amazonskr05
-  port: 443
-  server: 47.129.168.96
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇸🇬SG
-  name: 20|Relay_🇸🇬SG-🇷IR_1781
-  obfs: plain
-  obfs-param: 1ebc447023.microsoft.com
-  password: renzhecloud
-  port: 1063
-  protocol: auth_aes128_sha1
-  protocol-param: 47023:CzOvFg
-  server: f-sg-01.ninjanode.pro
-  type: ssr
-- alterId: 0
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 0,7,13|disney_netflix_SG
-  network: tcp
-  port: 50028
-  server: 50028.baidu-cdn.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
-- cipher: aes-256-cfb
-  country: SG
-  name: 0,6,7,9,13,15,18,19,20|SG_404 |11.96Mb
-  password: amazonskr05
-  port: 443
-  server: 13.229.63.223
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 6,15,19,20|SG_894
-  network: tcp
-  port: 27575
-  server: 194.233.72.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
-- cipher: aes-256-gcm
-  country: ' SG'
-  name: 4,6,9,10,12,15,19,20,21|ChatGPT  SG_419
-  password: YHK82TR73114VN9O
-  port: 16016
-  server: 154.196.244.26
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 19|Relay_-SG_612 | 8.86Mb
-  network: ws
-  port: 443
-  server: tls.95.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      Host: tls.95.node-for-bigairport.win
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: SG
-  name: 6,15|Relay_SG-SG_885
-  password: 09e86b59-c965-4051-a1ce-d24f53bd6f7c
-  port: 20044
-  server: sg04.nicenode.cc
-  type: ss
 - cipher: rc4-md5
   country: SG
-  name: 6,9,12,15,19,20|SG_888
+  name: 6,9,12,19|SG_1017
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.235.122
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 6,9,12,15,19,20|SG_890
+  name: 0,6,7,9,12,13,18,19|SG_467 |11.41Mb
   password: amazonskr05
   port: 443
-  server: 13.229.59.137
+  server: 54.255.224.231
   type: ss
 - alterId: 0
   cipher: auto
-  country: CN
+  country: ' SG'
   h2-opts: {}
   http-opts: {}
-  name: '0,13|disney_netflix_SG #1'
-  network: tcp
-  port: 50012
-  server: 50012.baidu-cdn.top
+  name: 4|ChatGPT  SG_417
+  network: ws
+  port: 443
+  server: tls.94.node-for-bigairport.win
+  servername: tls.94.node-for-bigairport.win
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-headers:
+    HOST: tls.94.node-for-bigairport.win
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 7,10,12,19|netflix_SG
+  password: amazonskr05
+  port: 443
+  server: 47.129.7.198
+  type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 0,6,7,9,12,13,15,18,19,20|SG_401 |13.24Mb
+  name: 6,18|SG_1019
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 0,6,7,13,18,19|SG_473 | 8.93Mb
   password: amazonskr05
   port: 443
   server: 18.143.186.182
   type: ss
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 12|Relay_SG-SG_498
+  network: ws
+  port: 443
+  server: tls.95.node-for-bigairport.win
+  servername: tls.95.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      HOST: tls.95.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 19|Relay_-🇬SG_704 |133.35Mb
+  network: ws
+  port: 443
+  server: tls.95.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.95.node-for-bigairport.win
+    path: /
+- cipher: aes-256-gcm
+  country: ' SG'
+  name: 4,6,9,10,12,19|ChatGPT  SG_412
+  password: 2UOL8ESS12X0J31P
+  port: 16010
+  server: 154.196.244.20
+  type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 6,7,9,12,15,18,20|SG_886
+  name: 0,7,9,12,13,18|SG_468 |10.55Mb
+  password: amazonskr05
+  port: 443
+  server: 13.229.63.223
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|SG_1022
+  password: amazonskr05
+  port: 443
+  server: 13.229.59.137
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 9,18|SG_1223
   password: amazonskr05
   port: 443
   server: 54.151.184.124
   type: ss
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 6,19|SG_1025
+  network: tcp
+  port: 27575
+  server: 194.233.72.228
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16509262-dbe2-43ba-99ce-07913d2a18b4
