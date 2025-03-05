@@ -1,65 +1,55 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0,56,97,98,112,126,129,131,133,145,148,149,150,151,156,158,185,205,208,209,210,237,240,242,245,254,258,260,261,262,269,281,305|🇭🇰
-    香港|@ripaojiedian
-  password: 1e63e585ab2fef3adcc9ea75a62abc23
-  port: 443
-  server: 104.251.227.182
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 8,16|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港6|@ripaojiedian
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 8,16|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 102,213| HK
-  password: d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd
-  port: 27259
-  server: ktm.xn--pssp69cl6c.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 129,240|🇭🇰 公益路线1-香港HK 限速50MBPS-1H
-  password: 1f3b6d1d-e718-44bc-b904-8546a7cb79b4
-  port: 49709
-  server: jg647hf446ghvw.eucs.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港8|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK07
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 44244
-  server: 9fud864ad6of555z582ukzid5fvl2fnc.07.08.hk.6l6.site
-  tfo: false
-  type: ss
-- name: 148,185,258,305|🇺🇳HKG
+- alterId: 1
+  cipher: auto
+  name: 20|No.22_HK_x0.80_Azure_HK@chenc*...
   network: ws
-  password: trojan
-  port: 8443
-  server: cfyx.sbjc.shop
-  sni: main.xicun.us.kg
-  type: trojan
-  udp: true
+  port: 8090
+  server: tbxiqnheon.eastasia.cloudapp.azure.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
   ws-opts:
     headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK03
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 22299
+  server: c9qayob1sfx9z88ejmjbtoifqbt1hicf.08.03.hk.6l6.site
+  tfo: false
+  type: ss
+- down: 200
+  name: 29|[Hy2]香港 A2
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-hk-a-2.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-hk-a-2.testred.xyz
+  type: hysteria2
+  up: 200
 - alterId: 0
   cipher: auto
-  name: 146,255|🇭🇰 No.652_HK_x0.80_V.PS[cmi]_香...
+  name: 20|🇭🇰 No.652_HK_x0.80_V.PS[cmi]_香...
   network: ws
   port: 8080
   server: 149.62.46.53
@@ -72,45 +62,7 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- cipher: chacha20-ietf-poly1305
-  name: 129,240|🇭🇰 HK 04 BAGEVM
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34004
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 112,129,149,151,240,260,262|🇭🇰 香港02
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- down: 200
-  name: 166,278|[Hy2]香港 A2
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-hk-a-2.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-hk-a-2.testred.xyz
-  type: hysteria2
-  up: 200
-- cipher: chacha20-ietf-poly1305
-  name: 112,129,149,240,260|🇭🇰 香港01
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 34338
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港2|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- name: 190,309|香港
+- name: 38|香港
   password: 6a754044-3435-44c3-bc0b-31310c5c4ece
   port: 38546
   server: xxxg.bbgjc.cc
@@ -120,77 +72,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 146,255|🇭🇰 No.819_HK_x1.00_腾讯云_香港@be**...
-  network: ws
-  port: 8080
-  server: 101.33.120.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- cipher: chacha20-ietf-poly1305
-  name: 129,240|🇭🇰 HK 03 LAIN
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34003
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 129,240|🇭🇰 HK 01 ALICE
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34001
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 112|🇭🇰 香港直连2流媒体2x
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 20521
-  server: hkzl2.sulink.one
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK05
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 48464
-  server: kv2gi3g7m1xq4fc2w8s661elr2uyppwi.08.05.hk.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK04
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 49486
-  server: m8nbxa50xfqcjw47gm1iw4hm2j4e46nc.08.04.hk.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 112,129,149,240,260|🇭🇰 香港03
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- down: 200
-  name: 166,278|[Hy2]香港 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 53499
-  server: alipay-api-hk-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-hk-a-1.testred.xyz
-  type: hysteria2
-  up: 200
-- alterId: 0
-  cipher: auto
-  name: 146,255|No.721_HK_x1.00_GCP_HK@pixia**...
+  name: 20|No.721_HK_x1.00_GCP_HK@pixia**...
   network: ws
   port: 10086
   server: 34.92.212.7
@@ -203,9 +85,136 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 HK 03 LAIN
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34003
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 146,255|🇭🇰 No.329_HK_x0.50_Dmit_香港[CMI...
+  name: 20|No.373_HK_x1.00_腾讯云_HK@loc_l**...
+  network: ws
+  port: 9000
+  server: 43.154.53.65
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- name: 36|🇭🇰地上捡的
+  network: ws
+  password: trojan
+  port: 443
+  server: 47.57.13.107
+  sni: main.xicun.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK01
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 40803
+  server: h4uwi2jl1my103r8o95ahc2wtkbkylqs.08.01.hk.6l6.site
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 8,16|🇭🇰 香港10|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40208
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK09
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 24616
+  server: mpxpb99rhtxnp0hcryh6wza4729ha0j0.09.08.hk.6l6.site
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 HK 04 BAGEVM
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34004
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 12|🇭🇰 香港直连2流媒体2x
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 20521
+  server: hkzl2.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK08
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 44071
+  server: cq568galh4qichs9jup1jx75f6r4z0ai.08.08.hk.6l6.site
+  tfo: false
+  type: ss
+- name: 36|🇺🇳HKG
+  network: ws
+  password: trojan
+  port: 8443
+  server: cfyx.sbjc.shop
+  sni: main.xicun.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 HK 01 ALICE
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34001
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 20|🇭🇰 No.931_HK_x0.80_Evoxt_香港[CM...
+  network: ws
+  port: 8080
+  server: 166.88.77.31
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK06
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 37870
+  server: mb7oa1432h1cx1dfmmp0beyabl36lnw7.06.08.hk.6l6.site
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇭🇰 No.329_HK_x0.50_Dmit_香港[CMI...
   network: ws
   port: 8080
   server: 154.3.35.27
@@ -219,77 +228,29 @@ proxies:
       Host: download.windowsupdate.com
     path: /download
 - cipher: chacha20-ietf-poly1305
-  name: 102,213| HK2
-  password: d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd
-  port: 27263
-  server: ktm.xn--pssp69cl6c.xyz
+  name: 12,14,21,23|🇭🇰 香港02
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20035
+  server: gy.666666222.shop
   type: ss
-- name: 148,185,258,305|🇭🇰低延迟1
-  network: ws
-  password: trojan
-  port: 35500
-  server: 61.239.234.5
-  sni: main.xicun.us.kg
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 146,255|No.922_HK_x1.00_CTG@u*z_暂无评分
-  network: ws
-  port: 8080
-  server: 111.92.240.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK09
+  name: 18|🇭🇰 香港|HK04
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 24616
-  server: mpxpb99rhtxnp0hcryh6wza4729ha0j0.09.08.hk.6l6.site
+  port: 49486
+  server: m8nbxa50xfqcjw47gm1iw4hm2j4e46nc.08.04.hk.6l6.site
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 146,255|🇭🇰 No.347_HK_x0.50_Vmshell__香港...
-  network: ws
-  port: 8080
-  server: 156.251.176.167
-  skip-cert-verify: false
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 8,16|🇭🇰 香港6|@ripaojiedian
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 146,255|🇭🇰 No.895_HK_x0.50_Azure_香港@lr...
-  network: ws
-  port: 8080
-  server: 104.208.85.56
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- name: 148,185,258,305|🇭🇰天上掉的
+  type: ss
+- name: 36|🇭🇰天上掉的
   network: ws
   password: trojan
   port: 443
@@ -303,85 +264,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 154,265|HK | 香港 LB-1V
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: d1th2ch215a6xr.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3228e6e4-e6fd-4574-a6df-b8762489b682
-  ws-opts:
-    headers:
-      Host: d1th2ch215a6xr.cloudfront.net
-    path: /stream?ed=2048
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK01
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 40803
-  server: h4uwi2jl1my103r8o95ahc2wtkbkylqs.08.01.hk.6l6.site
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 146,255|No.373_HK_x1.00_腾讯云_HK@loc_l**...
-  network: ws
-  port: 9000
-  server: 43.154.53.65
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK03
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 22299
-  server: c9qayob1sfx9z88ejmjbtoifqbt1hicf.08.03.hk.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK08
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 44071
-  server: cq568galh4qichs9jup1jx75f6r4z0ai.08.08.hk.6l6.site
-  tfo: false
-  type: ss
-- name: 148,185,258,305|🇭🇰Hong Kong 2
-  network: ws
-  password: trojan
-  port: 443
-  server: 8.210.58.6
-  sni: main.xicun.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港7|@ripaojiedian
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 146,255|🇭🇰 No.931_HK_x0.80_Evoxt_香港[CM...
+  name: 20|🇭🇰 No.819_HK_x1.00_腾讯云_香港@be**...
   network: ws
   port: 8080
-  server: 166.88.77.31
+  server: 101.33.120.19
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -393,44 +279,17 @@ proxies:
     path: /download
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港5|@ripaojiedian
+  name: 8,16|🇭🇰 香港5|@ripaojiedian
   password: 2H98UZT9LT1TE3X9
   port: 15008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 251|🇭🇰 香港|HK06
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 37870
-  server: mb7oa1432h1cx1dfmmp0beyabl36lnw7.06.08.hk.6l6.site
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港10|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40208
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0,98,131,133,205,208,210,242,245|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- name: 148,185,258,305|🇭🇰地上捡的
+- name: 36|🇭🇰香港高位
   network: ws
   password: trojan
-  port: 443
-  server: 47.57.13.107
+  port: 8443
+  server: 104.17.128.0
   sni: main.xicun.us.kg
   type: trojan
   udp: true
@@ -438,12 +297,12 @@ proxies:
     headers:
       Host: main.xicun.us.kg
     path: /?ed=2560
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 146,255|No.22_HK_x0.80_Azure_HK@chenc*...
+  name: 20|🇭🇰 No.895_HK_x0.50_Azure_香港@lr...
   network: ws
-  port: 8090
-  server: tbxiqnheon.eastasia.cloudapp.azure.com
+  port: 8080
+  server: 104.208.85.56
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -453,11 +312,115 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: 148,185,258,305|🇭🇰香港高位
+- alterId: 0
+  cipher: auto
+  name: 20|🇭🇰 No.347_HK_x0.50_Vmshell__香港...
+  network: ws
+  port: 8080
+  server: 156.251.176.167
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- down: 200
+  name: 29|[Hy2]香港 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 53499
+  server: alipay-api-hk-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-hk-a-1.testred.xyz
+  type: hysteria2
+  up: 200
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 8,16|🇭🇰 香港8|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 公益路线1-香港HK 限速50MBPS-1H
+  password: 1f3b6d1d-e718-44bc-b904-8546a7cb79b4
+  port: 49709
+  server: jg647hf446ghvw.eucs.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK05
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 48464
+  server: kv2gi3g7m1xq4fc2w8s661elr2uyppwi.08.05.hk.6l6.site
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 8,16|🇭🇰 香港7|@ripaojiedian
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 12,14,21|🇭🇰 香港01
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港|HK07
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 44244
+  server: 9fud864ad6of555z582ukzid5fvl2fnc.07.08.hk.6l6.site
+  tfo: false
+  type: ss
+- name: 36|🇭🇰低延迟1
   network: ws
   password: trojan
-  port: 8443
-  server: 104.17.128.0
+  port: 35500
+  server: 61.239.234.5
+  sni: main.xicun.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 20|No.922_HK_x1.00_CTG@u*z_暂无评分
+  network: ws
+  port: 8080
+  server: 111.92.240.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: chacha20-ietf-poly1305
+  name: 12,14,21|🇭🇰 香港03
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 36|🇭🇰Hong Kong 2
+  network: ws
+  password: trojan
+  port: 443
+  server: 8.210.58.6
   sni: main.xicun.us.kg
   type: trojan
   udp: true
