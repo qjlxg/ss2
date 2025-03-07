@@ -1,30 +1,38 @@
 proxies:
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 39,79,87|🇺🇸 北美-US-圣何塞-2
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
+- name: 54,97,129|🇺🇸VISA-BR
+  network: ws
+  password: trojan
+  port: 2087
+  server: www.visa.com.br
+  sni: main.xicun.us.kg
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|DA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 15513
-  server: ftm3v8b1rwvl52o6rce5lcbsfm80tz8n.08.01.us.6l6.site
-  tfo: false
-  type: ss
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国01
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 50521
-  server: us01v6.sulink.one
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
+- down: 200
+  name: 117|[Hy2]美国 A2
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-2.testred.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: alipay-api-us-a-2.testred.xyz
   type: hysteria2
-  udp: true
+  up: 200
+- alterId: 0
+  cipher: auto
+  name: 62|🇺🇸 美国 - 水牛城 - HostPapa - 5
+  network: ws
+  port: 443
+  server: 104.18.23.19
+  servername: server2-2.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    path: /er5khymbnriysb?ed=2560
 - name: 54,97,129|🇺🇸三网优化
   network: ws
   password: trojan
@@ -37,151 +45,21 @@ proxies:
     headers:
       Host: main.xicun.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 96|🇺🇸 No.956_US_x1.00_Dmit_洛杉矶[三网...
-  network: ws
-  port: 9998
-  server: 154.17.25.217
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 96|🇺🇸 No.933_US_x1.00_MoeCloud_圣何...
-  network: ws
-  port: 8080
-  server: 103.136.185.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 104|🇺🇸 美国 | 01-1A
-  network: ws
-  port: 27302
-  server: 164.152.24.3
+- auth: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
+  name: 100|🇺🇸 美国-纽约-HY-F3-001
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
+  port: 33000
+  server: 166.1.228.231
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f78294cf-5c86-4412-a058-8128cef9ba01
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- name: 54,97,129|🇺🇸VISA-US
-  network: ws
-  password: trojan
-  port: 443
-  server: usa.visa.com
-  sni: main.xicun.us.kg
-  type: trojan
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
-- auth: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
-  name: 54,97,129|🇺🇸美国1
-  password: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
-  port: 8243
-  server: 64.23.178.208
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 62|🇺🇸 美国 - 洛杉矶 - HostPapa - 6
-  network: ws
-  port: 443
-  server: 104.18.24.41
-  servername: server9-3.998877.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-  ws-opts:
-    path: /rksdnuhgteb?ed=2560
-- cipher: aes-256-gcm
-  name: 62|🇺🇸 美国 - 達拉斯 - GTHost - 2
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.68.134.23
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 54,97,129|🇺🇸美国4
-  network: ws
-  port: 8443
-  server: 23.95.112.78
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
-  ws-opts:
-    headers:
-      Host: uswuxian.pai50288.uk
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|KS1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 14506
-  server: nnr1v1zh0l8h2uphnnpiiaiqaasrzfye.08.02.us.6l6.site
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 130|🇸 美国1-
-  network: ws
-  port: 80
-  server: cfyx.sbjc.shop
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
-  ws-opts:
-    headers:
-      Host: dous1.bitsbear.com
-    path: /fdsfDDDdgdfgdf
-- down: 200
-  name: 117|[Hy2]美国 A2
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-2.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-2.testred.xyz
-  type: hysteria2
-  up: 200
-- down: 200
-  name: 117|[Hy2]美国 A5
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-5.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-5.testred.xyz
-  type: hysteria2
-  up: 200
 - auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国02
+  name: 39,79|🇺🇸 美国01
   password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 10522
-  server: us02.sulink.one
+  port: 50521
+  server: us01v6.sulink.one
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
@@ -198,20 +76,179 @@ proxies:
     headers:
       Host: main.xicun.us.kg
     path: /?ed=2560
+- alpn:
+  - h3
+  name: 112|🇺🇸 RN-tuic
+  password: ''
+  port: 39234
+  server: 192.3.127.209
+  skip-cert-verify: true
+  type: tuic
+  uuid: e253c56a-b0c6-40d9-b8e1-f27b41ee6c5d
+- cipher: chacha20-ietf-poly1305
+  name: 34,65| USA
+  password: d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd
+  port: 27253
+  server: ktm.xn--pssp69cl6c.xyz
+  type: ss
+- down: 200
+  name: 117|[Hy2]美国 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-1.testred.xyz
+  type: hysteria2
+  up: 200
+- name: 131|美国1
+  password: 6a754044-3435-44c3-bc0b-31310c5c4ece
+  port: 38546
+  server: xxmg2.bbgjc.cc
+  skip-cert-verify: true
+  sni: xxmg2.bbgjc.cc
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 87|🇺🇸 美国-纽约-001-1E
+  name: 96|🇺🇸 No.933_US_x1.00_MoeCloud_圣何...
   network: ws
-  port: 443
-  server: fgukeyky.whmvmkwuey.store
-  tls: true
+  port: 8080
+  server: 103.136.185.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  udp: true
-  uuid: a64ee5da-bc11-48e8-8d84-01d65d976598
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
   ws-opts:
     headers:
-      Host: fgukeyky.whmvmkwuey.store
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: aes-256-gcm
+  name: 127|_US__2
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.86.135.223
+  type: ss
+- mux:
+    enable: true
+  name: 20|United States WS
+  network: ws
+  password: zjh94544549ok
+  port: 444
+  server: us.proxy.kenc.top
+  skip-cert-verify: true
+  sni: us.proxy.kenc.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: us.proxy.kenc.top
+    path: /ws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 130|🇸 美国1-
+  network: ws
+  port: 80
+  server: cfyx.sbjc.shop
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
+  ws-opts:
+    headers:
+      Host: dous1.bitsbear.com
+    path: /fdsfDDDdgdfgdf
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|KS1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 14506
+  server: nnr1v1zh0l8h2uphnnpiiaiqaasrzfye.08.02.us.6l6.site
+  tfo: false
+  type: ss
+- name: 54,97,129|🇺🇸VISA-MAM
+  network: ws
+  password: trojan
+  port: 8443
+  server: myanmar.visa.com
+  sni: main.xicun.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
+- down: 200
+  name: 117|[Hy2]美国 C2
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-c-2.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-c-2.testred.xyz
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  name: 96|No.963_US_x1.00_评分后5折:14時51分_V...
+  network: ws
+  port: 8552
+  server: 107.172.218.245
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: chacha20-ietf-poly1305
+  name: 87|🇺🇸 US 01 GGVISON
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34401
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|NY1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 49465
+  server: 4yk673hc5kvdzgpkjtgxi7h1e23lwnj8.08.03.us.6l6.site
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 100|🇺🇸 美国-纽约-F3-001
+  network: ws
+  port: 23000
+  server: 166.1.228.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
+  ws-opts:
     path: /
+- down: 200
+  name: 117|[Hy2]美国 C3
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-c-3.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-c-3.testred.xyz
+  type: hysteria2
+  up: 200
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇺🇸 美国02
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 10522
+  server: us02.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
   name: 62|🇺🇸 美国 - 洛杉矶 - HostPapa - 3
@@ -227,23 +264,18 @@ proxies:
     headers:
       Host: s1.db-link02.top
     path: /dabai.in172.67.75.187
-- name: 131|美国2
-  password: 6a754044-3435-44c3-bc0b-31310c5c4ece
-  port: 38546
-  server: xxmg.bbgjc.cc
-  skip-cert-verify: true
-  sni: xxmg.bbgjc.cc
-  type: hysteria2
+- name: 54,97,129|🇺🇸VISA-SIN
+  network: ws
+  password: trojan
+  port: 2096
+  server: www.visasoutheasteurope.com
+  sni: main.xicun.us.kg
+  type: trojan
   udp: true
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国04
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 32052
-  server: us04.sulink.one
-  skip-cert-verify: true
-  sni: us04.sulink.one
-  type: hysteria2
-  udp: true
+  ws-opts:
+    headers:
+      Host: main.xicun.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 87|🇺🇸 美国-1A
@@ -258,35 +290,6 @@ proxies:
     headers:
       Host: shhh001.oraclenat.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: 62|🇺🇸 美国 - 水牛城 - HostPapa - 5
-  network: ws
-  port: 443
-  server: 104.18.23.19
-  servername: server2-2.998877.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-  ws-opts:
-    path: /er5khymbnriysb?ed=2560
-- down: 200
-  name: 117|[Hy2]美国 C2
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-c-2.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-c-2.testred.xyz
-  type: hysteria2
-  up: 200
-- cipher: chacha20-ietf-poly1305
-  name: 87|🇺🇸 US 01 GGVISON
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34401
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 39,48,79,87,100,102|🇺🇸 美国 纽约01
   password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
@@ -294,64 +297,19 @@ proxies:
   server: gy.666666222.shop
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 87|🇺🇸 US 02 CCS
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34402
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 127|_US__1
-  password: amazonskr05
-  port: 443
-  server: 52.34.200.48
-  type: ss
-- name: 54,97,129|🇺🇸VISA-SIN
-  network: ws
-  password: trojan
-  port: 2096
-  server: www.visasoutheasteurope.com
-  sni: main.xicun.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 87|🇺🇸 US 03 CC
-  password: 333a425b-c159-4f38-8bb6-85d999f959f0
-  port: 34403
-  server: southvip1.pkyun.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 130|🇺🇸 美国2-优选
+  name: 62|🇺🇸 美国 - 洛杉矶 - HostPapa - 6
   network: ws
-  port: 8080
-  server: cfyx.sbjc.shop
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
-  ws-opts:
-    headers:
-      Host: dous1.bitsbear.com
-    path: /fdsfDDDdgdfgdf
-- auth: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
-  name: 100|🇺🇸 美国-纽约-HY-F3-001
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
-  port: 33000
-  server: 166.1.228.231
+  port: 443
+  server: 104.18.24.41
+  servername: server9-3.998877.best
   skip-cert-verify: true
-  type: hysteria2
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    path: /rksdnuhgteb?ed=2560
 - auth: 4a48871d49c3f20fd93d365c49e45f78
   name: 54,97,129|🇺🇸美国2
   password: 4a48871d49c3f20fd93d365c49e45f78
@@ -360,32 +318,11 @@ proxies:
   skip-cert-verify: true
   sni: v.ccs.vaala.cat
   type: hysteria2
-- cipher: aes-256-gcm
-  name: 62|🇺🇸 美国 - 達拉斯 - GTHost - 1
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.68.134.23
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 96|🇺🇸 No.936_US_x2.00_欧亚云美国9929@s...
-  network: ws
-  port: 8080
-  server: tmp9929.kkk.al
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- name: 54,97,129|🇺🇸VISA-MAM
+- name: 54,97,129|🇺🇸VISA-US
   network: ws
   password: trojan
-  port: 8443
-  server: myanmar.visa.com
+  port: 443
+  server: usa.visa.com
   sni: main.xicun.us.kg
   type: trojan
   udp: true
@@ -393,55 +330,14 @@ proxies:
     headers:
       Host: main.xicun.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 100|🇺🇸 美国-纽约-F3-001
-  network: ws
-  port: 23000
-  server: 166.1.228.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5d0d19e8-d57d-43f0-b80e-a9f9f8bc249c
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: 127|_US__3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.237.185.160
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇺🇸 美国|LA1
+  name: 92|🇺🇸 美国|DA1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 17201
-  server: pv9zvp9i2ocv4c3j482qljx780v0o7cm.08.04.us.6l6.site
+  port: 15513
+  server: ftm3v8b1rwvl52o6rce5lcbsfm80tz8n.08.01.us.6l6.site
   tfo: false
   type: ss
-- name: 131|美国1
-  password: 6a754044-3435-44c3-bc0b-31310c5c4ece
-  port: 38546
-  server: xxmg2.bbgjc.cc
-  skip-cert-verify: true
-  sni: xxmg2.bbgjc.cc
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 127|_US__2
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.86.135.223
-  type: ss
-- down: 200
-  name: 117|[Hy2]美国 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-1.testred.xyz
-  type: hysteria2
-  up: 200
 - alterId: 0
   cipher: auto
   name: 104|🇸 美国-加-001-1N
@@ -454,28 +350,6 @@ proxies:
   uuid: fb1726c8-66dd-45d7-a40b-431f713ff7b1
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 39,48,79,87,100,102|🇺🇸 美国 纽约2
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 96|🇺🇸 No.255_US_x1.00_Olink_圣何塞[9...
-  network: ws
-  port: 8080
-  server: 104.160.19.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
 - down: 200
   name: 117|[Hy2]美国 C1
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
@@ -485,14 +359,14 @@ proxies:
   sni: alipay-api-de-a-1.testred.xyz
   type: hysteria2
   up: 200
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|NY1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 49465
-  server: 4yk673hc5kvdzgpkjtgxi7h1e23lwnj8.08.03.us.6l6.site
-  tfo: false
-  type: ss
+- name: 131|美国2
+  password: 6a754044-3435-44c3-bc0b-31310c5c4ece
+  port: 38546
+  server: xxmg.bbgjc.cc
+  skip-cert-verify: true
+  sni: xxmg.bbgjc.cc
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
   name: 62|🇺🇸 美国 - 洛杉矶 - HostPapa - 47
@@ -508,6 +382,25 @@ proxies:
     headers:
       Host: us16.998998.best
     path: /rksdnuhgteb?ed=2560
+- cipher: aes-256-cfb
+  name: 127|_US__1
+  password: amazonskr05
+  port: 443
+  server: 52.34.200.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 39,48,79,87,100,102|🇺🇸 美国 纽约2
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 127|_US__3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.237.185.160
+  type: ss
 - alterId: 0
   cipher: auto
   name: 96|No.18_US_x0.50_Virmach_LAXA025...
@@ -525,10 +418,25 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 96|No.963_US_x1.00_评分后5折:14時51分_V...
+  name: 54,97,129|🇺🇸美国4
   network: ws
-  port: 8552
-  server: 107.172.218.245
+  port: 8443
+  server: 23.95.112.78
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  ws-opts:
+    headers:
+      Host: uswuxian.pai50288.uk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 96|🇺🇸 No.936_US_x2.00_欧亚云美国9929@s...
+  network: ws
+  port: 8080
+  server: tmp9929.kkk.al
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -538,6 +446,166 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- cipher: aes-256-gcm
+  name: 62|🇺🇸 美国 - 達拉斯 - GTHost - 2
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.68.134.23
+  type: ss
+- down: 200
+  name: 117|[Hy2]美国 A4
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-4.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-4.testred.xyz
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 130|🇺🇸 美国2-优选
+  network: ws
+  port: 8080
+  server: cfyx.sbjc.shop
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
+  ws-opts:
+    headers:
+      Host: dous1.bitsbear.com
+    path: /fdsfDDDdgdfgdf
+- cipher: aes-256-cfb
+  name: 127|_US__7
+  password: amazonskr05
+  port: 443
+  server: 54.244.204.173
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 87|🇺🇸 US 03 CC
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34403
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- down: 200
+  name: 117|[Hy2]美国 A3
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-3.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-3.testred.xyz
+  type: hysteria2
+  up: 200
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|LA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 17201
+  server: pv9zvp9i2ocv4c3j482qljx780v0o7cm.08.04.us.6l6.site
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 62|🇺🇸 美国 - 達拉斯 - GTHost - 1
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.68.134.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 87|🇺🇸 US 02 CCS
+  password: 333a425b-c159-4f38-8bb6-85d999f959f0
+  port: 34402
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  name: 39,79,87|🇺🇸 北美-US-圣何塞-2
+  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 96|🇺🇸 No.956_US_x1.00_Dmit_洛杉矶[三网...
+  network: ws
+  port: 9998
+  server: 154.17.25.217
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- down: 200
+  name: 117|[Hy2]美国 A5
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-5.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-5.testred.xyz
+  type: hysteria2
+  up: 200
+- auth: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
+  name: 54,97,129|🇺🇸美国1
+  password: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
+  port: 8243
+  server: 64.23.178.208
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇺🇸 美国04
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 32052
+  server: us04.sulink.one
+  skip-cert-verify: true
+  sni: us04.sulink.one
+  type: hysteria2
+  udp: true
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇺🇸 美国05
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 42052
+  server: us05.sulink.one
+  skip-cert-verify: true
+  sni: us05.sulink.one
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 62|🇺🇸 美国 - 休斯敦 - Snaju Developmen...
+  network: ws
+  port: 443
+  server: 104.18.29.104
+  servername: serverus1-1.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    path: /e56yglr4i8j7nk?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 104|🇸 美国 | 02-1C
+  network: ws
+  port: 49354
+  server: 192.9.147.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 631e29df-f528-4e37-b9b2-02bf6b29d38e
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
 - alterId: 0
   cipher: auto
   name: 62|🇺🇸 美国 - 水牛城 - HostPapa - 7
@@ -555,139 +623,49 @@ proxies:
     path: /er5khymbnriysb?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇺🇸 美国|SEA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 38322
-  server: ib4fy27ciyr9cpm3jg31fgocxz2jnb2b.08.07.us.6l6.site
-  tfo: false
-  type: ss
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国05
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 42052
-  server: us05.sulink.one
-  skip-cert-verify: true
-  sni: us05.sulink.one
-  type: hysteria2
-  udp: true
-- name: 54,97,129|🇺🇸VISA-BR
-  network: ws
-  password: trojan
-  port: 2087
-  server: www.visa.com.br
-  sni: main.xicun.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: main.xicun.us.kg
-    path: /?ed=2560
-- alpn:
-  - h3
-  name: 93,112|🇺🇸 RN-tuic
-  password: ''
-  port: 39234
-  server: 192.3.127.209
-  skip-cert-verify: true
-  type: tuic
-  uuid: e253c56a-b0c6-40d9-b8e1-f27b41ee6c5d
-- auth: 4a48871d49c3f20fd93d365c49e45f78
-  name: 54,97,129|🇺🇸美国3
-  password: 4a48871d49c3f20fd93d365c49e45f78
-  port: 443
-  server: v.mch.vaala.cat
-  skip-cert-verify: true
-  sni: v.mch.vaala.cat
-  type: hysteria2
-- down: 200
-  name: 117|[Hy2]美国 C3
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-c-3.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-c-3.testred.xyz
-  type: hysteria2
-  up: 200
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 92|🇺🇸 美国|PHX1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
   port: 34467
   server: kgou9oxzpkbeg9wm90bo73u9i0e8oo0n.08.06.us.6l6.site
   tfo: false
   type: ss
-- down: 200
-  name: 117|[Hy2]美国 A3
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-3.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-3.testred.xyz
-  type: hysteria2
-  up: 200
-- down: 200
-  name: 117|[Hy2]美国 A4
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-4.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-4.testred.xyz
-  type: hysteria2
-  up: 200
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 104|🇸 美国 | 02-1C
+  name: 96|🇺🇸 No.255_US_x1.00_Olink_圣何塞[9...
   network: ws
-  port: 49354
-  server: 192.9.147.146
-  skip-cert-verify: true
+  port: 8080
+  server: 104.160.19.22
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 631e29df-f528-4e37-b9b2-02bf6b29d38e
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- mux:
-    enable: true
-  name: 20|United States WS
-  network: ws
-  password: zjh94544549ok
-  port: 444
-  server: us.proxy.kenc.top
-  skip-cert-verify: true
-  sni: us.proxy.kenc.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: us.proxy.kenc.top
-    path: /ws
-- cipher: aes-256-cfb
-  name: 127|_US__7
-  password: amazonskr05
-  port: 443
-  server: 54.244.204.173
+      Host: download.windowsupdate.com
+    path: /download
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|SEA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 38322
+  server: ib4fy27ciyr9cpm3jg31fgocxz2jnb2b.08.07.us.6l6.site
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 62|🇺🇸 美国 - 休斯敦 - Snaju Developmen...
+  name: 87|🇺🇸 美国-纽约-001-1E
   network: ws
   port: 443
-  server: 104.18.29.104
-  servername: serverus1-1.998877.best
-  skip-cert-verify: true
+  server: fgukeyky.whmvmkwuey.store
   tls: true
   type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  udp: true
+  uuid: a64ee5da-bc11-48e8-8d84-01d65d976598
   ws-opts:
-    path: /e56yglr4i8j7nk?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 34,65| USA
-  password: d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd
-  port: 27253
-  server: ktm.xn--pssp69cl6c.xyz
-  type: ss
+    headers:
+      Host: fgukeyky.whmvmkwuey.store
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇺🇸 美国|SJ0
@@ -696,3 +674,25 @@ proxies:
   server: 5hgswhbns8qx1zm3shwiyixco3lmijcu.08.08.us.6l6.site
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 104|🇺🇸 美国 | 01-1A
+  network: ws
+  port: 27302
+  server: 164.152.24.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f78294cf-5c86-4412-a058-8128cef9ba01
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- auth: 4a48871d49c3f20fd93d365c49e45f78
+  name: 54,97,129|🇺🇸美国3
+  password: 4a48871d49c3f20fd93d365c49e45f78
+  port: 443
+  server: v.mch.vaala.cat
+  skip-cert-verify: true
+  sni: v.mch.vaala.cat
+  type: hysteria2
