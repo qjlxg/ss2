@@ -1,10 +1,10 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 96|🇰🇷 No.826_KR_x1.00_评分后5折:22時17...
+  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
   network: ws
   port: 8080
-  server: 64.110.66.235
+  server: 140.238.28.227
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -32,12 +32,30 @@ proxies:
   server: 113.44.67.62
   type: ssr
   udp: true
-- alterId: 1
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41026
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线1-02-Boss网-海沃2016
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
+  name: 96|🇰🇷 No.826_KR_x1.00_评分后5折:22時17...
   network: ws
   port: 8080
-  server: 140.238.28.227
+  server: 64.110.66.235
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -47,6 +65,12 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- cipher: chacha20-ietf
+  name: 54,97,129|🇨🇳深圳
+  password: asd123456
+  port: 8388
+  server: 103.36.90.195
+  type: ss
 - mux:
     enable: true
   name: 20|HongKong CN2 WS
@@ -62,24 +86,6 @@ proxies:
     headers:
       Host: proxy.kenc.top
     path: /ws
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线1-02-Boss网-海沃2016
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41026
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
   name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
@@ -109,9 +115,3 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /wada12222
-- cipher: chacha20-ietf
-  name: 54,97,129|🇨🇳深圳
-  password: asd123456
-  port: 8388
-  server: 103.36.90.195
-  type: ss
