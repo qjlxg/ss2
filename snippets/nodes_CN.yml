@@ -23,12 +23,30 @@ proxies:
   server: 113.44.67.62
   type: ssr
   udp: true
-- cipher: chacha20-ietf
-  name: 54,97,129|🇨🇳深圳
-  password: asd123456
-  port: 8388
-  server: 103.36.90.195
-  type: ss
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
+  network: ws
+  port: 8080
+  server: 140.238.28.227
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
 - mux:
     enable: true
   name: 20|HongKong CN2 WS
@@ -44,21 +62,6 @@ proxies:
     headers:
       Host: proxy.kenc.top
     path: /ws
-- alterId: 0
-  cipher: auto
-  name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
-  network: ws
-  port: 8080
-  server: 194.87.106.131
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
 - cipher: aes-256-cfb
   name: 61,108|🇨🇳 上海专线1-02-Boss网-海沃2016
   obfs: plain
@@ -68,12 +71,21 @@ proxies:
   server: 123.60.172.218
   type: ssr
   udp: true
-- alterId: 1
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41026
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
+  name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
   network: ws
   port: 8080
-  server: 140.238.28.227
+  server: 194.87.106.131
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -97,21 +109,9 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /wada12222
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41026
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
+- cipher: chacha20-ietf
+  name: 54,97,129|🇨🇳深圳
+  password: asd123456
+  port: 8388
+  server: 103.36.90.195
+  type: ss
