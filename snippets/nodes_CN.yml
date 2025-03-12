@@ -1,10 +1,10 @@
 proxies:
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
+  name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
   network: ws
   port: 8080
-  server: 140.238.28.227
+  server: 194.87.106.131
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -43,21 +43,15 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- mux:
-    enable: true
-  name: 20|HongKong CN2 WS
-  network: ws
-  password: zjh94544549ok
-  port: 443
-  server: proxy.kenc.top
-  skip-cert-verify: true
-  sni: proxy.kenc.top
-  type: trojan
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
   udp: true
-  ws-opts:
-    headers:
-      Host: proxy.kenc.top
-    path: /ws
 - cipher: aes-256-cfb
   name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
   obfs: plain
@@ -67,12 +61,21 @@ proxies:
   server: 123.60.172.218
   type: ssr
   udp: true
-- alterId: 0
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线2-01-Boss网-海沃2017
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41024
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
+- alterId: 1
   cipher: auto
-  name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
+  name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
   network: ws
   port: 8080
-  server: 194.87.106.131
+  server: 140.238.28.227
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -91,21 +94,18 @@ proxies:
   server: 123.60.172.218
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
+- mux:
+    enable: true
+  name: 20|HongKong CN2 WS
+  network: ws
+  password: zjh94544549ok
+  port: 443
+  server: proxy.kenc.top
+  skip-cert-verify: true
+  sni: proxy.kenc.top
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线2-01-Boss网-海沃2017
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41024
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
+  ws-opts:
+    headers:
+      Host: proxy.kenc.top
+    path: /ws
