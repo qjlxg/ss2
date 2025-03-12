@@ -1,27 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 39,79|🇨🇦 加拿大专线
-  network: ws
-  port: 30000
-  server: xr003.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0,89|🇨🇦 加拿大|@ripaojiedian
-  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
-  port: 8388
-  server: 95.217.158.231
-  tfo: false
-  type: ss
 - down: 200
   name: 117|[Hy2]加拿大 A1
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
@@ -31,12 +8,24 @@ proxies:
   sni: alipay-api-ca-a-1.testred.xyz
   type: hysteria2
   up: 200
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001-1A
+  network: ws
+  port: 20010
+  server: 141.195.112.53
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  name: 0,89|🇨🇦 加拿大|@ripaojiedian
+  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
+  port: 8388
+  server: 95.217.158.231
   tfo: false
   type: ss
 - alterId: 0
@@ -53,16 +42,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001-1A
+  name: 39,79|🇨🇦 加拿大专线
   network: ws
-  port: 20010
-  server: 141.195.112.53
-  tls: false
+  port: 30000
+  server: xr003.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
   type: vmess
   udp: true
-  uuid: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
+  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
   ws-opts:
-    path: /
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
 - auth: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
   name: 100|🇨🇦 加拿大-多伦多-HY-001-1A
   obfs: salamander
@@ -73,3 +65,11 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
