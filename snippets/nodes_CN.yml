@@ -1,4 +1,40 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线1-02-Boss网-海沃2016
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
+  obfs: plain
+  password: boss+haiwo.999
+  port: 2016
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41026
+  protocol: origin
+  server: 123.60.172.218
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 61,108|🇨🇳 上海专线2-01-Boss网-海沃2017
+  obfs: plain
+  password: Boss+Haiwo.2016
+  port: 41024
+  protocol: origin
+  server: 113.44.67.62
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   name: 96|🇷🇺 No.707_RU_x1.00_Justhost_CN...
@@ -14,24 +50,6 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线2-02-Boss网-海沃2017
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线1-02-Boss网-海沃2016
-  obfs: plain
-  password: boss+haiwo.999
-  port: 2016
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
 - alterId: 1
   cipher: auto
   name: 96|🇰🇷 No.50_KR_x1.00_Oracle_首尔[三网...
@@ -47,24 +65,20 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线2-01-Boss网-海沃2017
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41024
-  protocol: origin
-  server: 113.44.67.62
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 61,108|🇨🇳 上海专线1-01-Boss网-海沃2016
-  obfs: plain
-  password: Boss+Haiwo.2016
-  port: 41026
-  protocol: origin
-  server: 123.60.172.218
-  type: ssr
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 104|CN--1C
+  network: ws
+  port: 41241
+  server: 117.50.187.187
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 631e29df-f528-4e37-b9b2-02bf6b29d38e
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
 - mux:
     enable: true
   name: 20|HongKong CN2 WS
@@ -95,17 +109,3 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- alterId: 0
-  cipher: auto
-  name: 104|CN--1C
-  network: ws
-  port: 41241
-  server: 117.50.187.187
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 631e29df-f528-4e37-b9b2-02bf6b29d38e
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
