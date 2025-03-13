@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|KS1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 14506
+  server: nnr1v1zh0l8h2uphnnpiiaiqaasrzfye.08.02.us.6l6.site
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 100|🇺🇸 美国-纽约-F3-001-1F
@@ -11,15 +19,6 @@ proxies:
   uuid: f641a7fd-6efe-4a63-b81d-d896201b9a2c
   ws-opts:
     path: /
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国01
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 50521
-  server: us01v6.sulink.one
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇺🇸 美国|SJ0
@@ -28,96 +27,14 @@ proxies:
   server: 5hgswhbns8qx1zm3shwiyixco3lmijcu.08.08.us.6l6.site
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 100|🇺🇸 美国-纽约-001-1B
-  network: ws
-  port: 20010
-  server: 207.90.238.136
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 281927a3-e031-4154-988d-71dc4e37b957
-  ws-opts:
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 96|🇺🇸 No.255_US_x1.00_Olink_圣何塞[9...
-  network: ws
-  port: 8080
-  server: 104.160.19.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0,89|🇺🇸 美国5|@ripaojiedian
-  password: 3D5E3GR6BW1N99NI
-  port: 17006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,89|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-    mode: http
-  port: 8773
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇺🇸 美国|KS1
+  name: 92|🇺🇸 美国|SEA1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 14506
-  server: nnr1v1zh0l8h2uphnnpiiaiqaasrzfye.08.02.us.6l6.site
+  port: 38322
+  server: ib4fy27ciyr9cpm3jg31fgocxz2jnb2b.08.07.us.6l6.site
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,89|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- down: 200
-  name: 117|[Hy2]美国 A3
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-3.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-3.testred.xyz
-  type: hysteria2
-  up: 200
-- alterId: 0
-  cipher: auto
-  name: 104|🇺🇸 美国 | 01-1A
-  network: ws
-  port: 27302
-  server: 164.152.24.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f78294cf-5c86-4412-a058-8128cef9ba01
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
 - alterId: 0
   cipher: auto
   name: 96|No.18_US_x0.50_Virmach_LAXA025...
@@ -133,95 +50,15 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 39,79|🇺🇸 北美-US-圣何塞-2
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
+- alpn:
+  - h3
+  name: 93|🇺🇸 RN-tuic
+  password: ''
+  port: 39234
+  server: 192.3.127.209
   skip-cert-verify: true
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 130|🇺🇸 美国2-优选
-  network: ws
-  port: 8080
-  server: cfyx.sbjc.shop
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
-  ws-opts:
-    headers:
-      Host: dous1.bitsbear.com
-    path: /fdsfDDDdgdfgdf
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 130|🇸 美国1-
-  network: ws
-  port: 80
-  server: cfyx.sbjc.shop
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
-  ws-opts:
-    headers:
-      Host: dous1.bitsbear.com
-    path: /fdsfDDDdgdfgdf
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|LA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 17201
-  server: pv9zvp9i2ocv4c3j482qljx780v0o7cm.08.04.us.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|DA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 15513
-  server: ftm3v8b1rwvl52o6rce5lcbsfm80tz8n.08.01.us.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 39,48,79,100,101,102|🇺🇸 美国 纽约01
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- down: 200
-  name: 117|[Hy2]美国 C2
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-c-2.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-c-2.testred.xyz
-  type: hysteria2
-  up: 200
-- down: 200
-  name: 117|[Hy2]美国 C3
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-c-3.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-c-3.testred.xyz
-  type: hysteria2
-  up: 200
-- cipher: chacha20-ietf-poly1305
-  name: 39,48,79,100,101,102|🇺🇸 美国 纽约2
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
+  type: tuic
+  uuid: e253c56a-b0c6-40d9-b8e1-f27b41ee6c5d
 - auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
   name: 39,79|🇺🇸 美国02
   password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
@@ -231,73 +68,30 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇺🇸 美国05
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 42052
-  server: us05.sulink.one
-  skip-cert-verify: true
-  sni: us05.sulink.one
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 96|🇺🇸 No.936_US_x2.00_欧亚云美国9929@s...
-  network: ws
-  port: 8080
-  server: tmp9929.kkk.al
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
 - down: 200
-  name: 117|[Hy2]美国 A5
+  name: 117|[Hy2]美国 A3
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
   port: 443
-  server: alipay-api-us-a-5.testred.xyz
+  server: alipay-api-us-a-3.testred.xyz
   skip-cert-verify: true
-  sni: alipay-api-us-a-5.testred.xyz
+  sni: alipay-api-us-a-3.testred.xyz
   type: hysteria2
   up: 200
 - cipher: chacha20-ietf-poly1305
+  name: 39,48,79,100,101,102|🇺🇸 美国 纽约01
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇺🇸 美国|SEA1
+  name: 92|🇺🇸 美国|LA1
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 38322
-  server: ib4fy27ciyr9cpm3jg31fgocxz2jnb2b.08.07.us.6l6.site
+  port: 17201
+  server: pv9zvp9i2ocv4c3j482qljx780v0o7cm.08.04.us.6l6.site
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 100|🇺🇸 美国-拉斯维加斯-001-1A
-  network: ws
-  port: 443
-  server: biazh.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
-  ws-opts:
-    headers:
-      Host: biazh.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 104|🇸 美国-加-001-1N
-  network: ws
-  port: 61291
-  server: 166.88.159.225
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fb1726c8-66dd-45d7-a40b-431f713ff7b1
-  ws-opts:
-    path: /
 - name: 131|美国1
   password: 6a754044-3435-44c3-bc0b-31310c5c4ece
   port: 38546
@@ -306,20 +100,23 @@ proxies:
   sni: xxmg2.bbgjc.cc
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 104|🇸 美国 | 02-1C
-  network: ws
-  port: 49354
-  server: 192.9.147.146
+- down: 200
+  name: 117|[Hy2]美国 C1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-de-a-1.testred.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 631e29df-f528-4e37-b9b2-02bf6b29d38e
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
+  sni: alipay-api-de-a-1.testred.xyz
+  type: hysteria2
+  up: 200
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|PHX1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 34467
+  server: kgou9oxzpkbeg9wm90bo73u9i0e8oo0n.08.06.us.6l6.site
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 96|No.963_US_x1.00_评分后5折:14時51分_V...
@@ -335,12 +132,111 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- down: 200
+  name: 117|[Hy2]美国 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-1.testred.xyz
+  type: hysteria2
+  up: 200
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0,89|🇺🇸 美国3|@ripaojiedian
+  password: FKCY4YH4V4EKLDLC
+  port: 17002
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇺🇸 美国05
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 42052
+  server: us05.sulink.one
+  skip-cert-verify: true
+  sni: us05.sulink.one
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 39,48,79,100,101,102|🇺🇸 美国 纽约2
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- down: 200
+  name: 117|[Hy2]美国 A5
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-5.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-5.testred.xyz
+  type: hysteria2
+  up: 200
 - alterId: 0
   cipher: auto
-  name: 96|🇺🇸 No.933_US_x1.00_MoeCloud_圣何...
+  name: 100|🇺🇸 美国-拉斯维加斯-001-1A
+  network: ws
+  port: 443
+  server: biazh.mmzhk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
+  ws-opts:
+    headers:
+      Host: biazh.mmzhk.website
+    path: /
+- down: 200
+  name: 117|[Hy2]美国 A2
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-2.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-2.testred.xyz
+  type: hysteria2
+  up: 200
+- auth: 281927a3-e031-4154-988d-71dc4e37b957
+  name: 100|🇺🇸 美国-纽约-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
+  password: 281927a3-e031-4154-988d-71dc4e37b957
+  port: 30008
+  server: 207.90.238.136
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 0,89|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    mode: http
+  port: 8773
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 0,89|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 96|🇺🇸 No.255_US_x1.00_Olink_圣何塞[9...
   network: ws
   port: 8080
-  server: 103.136.185.166
+  server: 104.160.19.22
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -365,15 +261,29 @@ proxies:
     headers:
       Host: us.proxy.kenc.top
     path: /ws
-- down: 200
-  name: 117|[Hy2]美国 A4
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-4.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-us-a-4.testred.xyz
-  type: hysteria2
-  up: 200
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0,89|🇺🇸 美国5|@ripaojiedian
+  password: 3D5E3GR6BW1N99NI
+  port: 17006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 96|🇺🇸 No.936_US_x2.00_欧亚云美国9929@s...
+  network: ws
+  port: 8080
+  server: tmp9929.kkk.al
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
 - name: 131|美国2
   password: 6a754044-3435-44c3-bc0b-31310c5c4ece
   port: 38546
@@ -382,22 +292,6 @@ proxies:
   sni: xxmg.bbgjc.cc
   type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0,89|🇺🇸 美国3|@ripaojiedian
-  password: FKCY4YH4V4EKLDLC
-  port: 17002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇺🇸 美国|PHX1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 34467
-  server: kgou9oxzpkbeg9wm90bo73u9i0e8oo0n.08.06.us.6l6.site
-  tfo: false
-  type: ss
 - auth: 60e87d96-463f-41f3-a114-5c11703c6cec
   name: 100|🇺🇸 美国-纽约-HY-F3-001-1G
   obfs: salamander
@@ -408,31 +302,12 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
-- auth: 281927a3-e031-4154-988d-71dc4e37b957
-  name: 100|🇺🇸 美国-纽约-HY-001-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D
-  password: 281927a3-e031-4154-988d-71dc4e37b957
-  port: 30008
-  server: 207.90.238.136
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- down: 200
-  name: 117|[Hy2]美国 C1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-de-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-de-a-1.testred.xyz
-  type: hysteria2
-  up: 200
 - alterId: 0
   cipher: auto
-  name: 96|🇺🇸 No.956_US_x1.00_Dmit_洛杉矶[三网...
+  name: 96|🇺🇸 No.933_US_x1.00_MoeCloud_圣何...
   network: ws
-  port: 9998
-  server: 154.17.25.217
+  port: 8080
+  server: 103.136.185.166
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -451,23 +326,100 @@ proxies:
   tfo: false
   type: ss
 - down: 200
-  name: 117|[Hy2]美国 A1
+  name: 117|[Hy2]美国 C2
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
   port: 443
-  server: alipay-api-us-a-1.testred.xyz
+  server: alipay-api-us-c-2.testred.xyz
   skip-cert-verify: true
-  sni: alipay-api-us-a-1.testred.xyz
+  sni: alipay-api-us-c-2.testred.xyz
   type: hysteria2
   up: 200
-- alpn:
-  - h3
-  name: 112|🇺🇸 RN-tuic
-  password: ''
-  port: 39234
-  server: 192.3.127.209
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇺🇸 美国01
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 50521
+  server: us01v6.sulink.one
   skip-cert-verify: true
-  type: tuic
-  uuid: e253c56a-b0c6-40d9-b8e1-f27b41ee6c5d
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 96|🇺🇸 No.956_US_x1.00_Dmit_洛杉矶[三网...
+  network: ws
+  port: 9998
+  server: 154.17.25.217
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 100|🇺🇸 美国-纽约-001-1B
+  network: ws
+  port: 20010
+  server: 207.90.238.136
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 281927a3-e031-4154-988d-71dc4e37b957
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 130|🇺🇸 美国2-优选
+  network: ws
+  port: 8080
+  server: cfyx.sbjc.shop
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
+  ws-opts:
+    headers:
+      Host: dous1.bitsbear.com
+    path: /fdsfDDDdgdfgdf
+- down: 200
+  name: 117|[Hy2]美国 A4
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-a-4.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-a-4.testred.xyz
+  type: hysteria2
+  up: 200
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 130|🇸 美国1-
+  network: ws
+  port: 80
+  server: cfyx.sbjc.shop
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e5b20980-9c2f-4c08-9ab5-af2a5ca59b41
+  ws-opts:
+    headers:
+      Host: dous1.bitsbear.com
+    path: /fdsfDDDdgdfgdf
+- down: 200
+  name: 117|[Hy2]美国 C3
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-us-c-3.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-us-c-3.testred.xyz
+  type: hysteria2
+  up: 200
 - auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
   name: 39,79|🇺🇸 美国04
   password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
@@ -477,12 +429,20 @@ proxies:
   sni: us04.sulink.one
   type: hysteria2
   udp: true
-- down: 200
-  name: 117|[Hy2]美国 A2
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-us-a-2.testred.xyz
+- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  name: 39,79|🇺🇸 北美-US-圣何塞-2
+  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
   skip-cert-verify: true
-  sni: alipay-api-us-a-2.testred.xyz
+  sni: san-jose2.nodes.lanmaoyun.icu
   type: hysteria2
-  up: 200
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇺🇸 美国|DA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 15513
+  server: ftm3v8b1rwvl52o6rce5lcbsfm80tz8n.08.01.us.6l6.site
+  tfo: false
+  type: ss
