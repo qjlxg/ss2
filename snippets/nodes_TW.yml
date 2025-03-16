@@ -1,17 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 39,48,79,100,101,102|🇹🇼 台湾 1-1B
+  name: 39,48,79,100,101,102|🇹🇼 台湾01
   password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 20032
+  port: 47564
   server: gy.666666222.shop
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 96|🇹🇼 No.951_TW_x0.50_GCP_Taiwan@...
+  name: 96|🇹🇼 No.729_TW_x0.50_PQS_hinet台湾...
   network: ws
-  port: 8080
-  server: 34.81.49.231
+  port: 28080
+  server: tw-pqshi.vm.331331.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -21,12 +21,24 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0,89|🇹🇼 台湾2|@ripaojiedian
-  password: OOW5TZHO9I1OFBAF
-  port: 21001
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 92|🇹🇼 台湾|TW02
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 35805
+  server: 1w91dj53mb3tjunfqy7q3bdu1fo0sged.08.02.tw.6l6.site
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 0|🇹🇼 台湾4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
+    mode: http
+  port: 8745
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -44,64 +56,20 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- cipher: chacha20-ietf-poly1305
-  name: 39,48,79,100,101,102|🇹🇼 台湾01
-  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
-  port: 47564
-  server: gy.666666222.shop
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0,89|🇹🇼 台湾5|@ripaojiedian
-  password: 6VQE3NRIIDK656Q0
-  port: 21002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇹🇼 台湾-02-奈非
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 30001
-  server: tw02v6.sulian.life
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇹🇼 台湾|TW02
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 35805
-  server: 1w91dj53mb3tjunfqy7q3bdu1fo0sged.08.02.tw.6l6.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇹🇼 台湾|TW01
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 45614
-  server: u43jymjhccmf8ahbux6gnmtscnctt3gc.08.01.tw.6l6.site
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,89|🇹🇼 台湾3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
-    mode: http
-  port: 8746
-  server: cn01.efan8867801.xyz
+  name: 0|🇹🇼 台湾|@ripaojiedian
+  password: KM16ID6XDW3XRC7K
+  port: 21006
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 96|🇹🇼 No.729_TW_x0.50_PQS_hinet台湾...
+  name: 96|🇹🇼 No.951_TW_x0.50_GCP_Taiwan@...
   network: ws
-  port: 28080
-  server: tw-pqshi.vm.331331.xyz
+  port: 8080
+  server: 34.81.49.231
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -111,15 +79,39 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇹🇼 台湾-02-奈非
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 30001
+  server: tw02v6.sulian.life
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 0,89|🇹🇼 台湾4|@ripaojiedian
+  name: 0|🇹🇼 台湾3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
-  port: 8745
+  port: 8746
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 39,48,79,100,101,102|🇹🇼 台湾 1-1B
+  password: 0871a57c-64fd-44ff-a6aa-90d14d497b97
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇹🇼 台湾|TW01
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 45614
+  server: u43jymjhccmf8ahbux6gnmtscnctt3gc.08.01.tw.6l6.site
   tfo: false
   type: ss
