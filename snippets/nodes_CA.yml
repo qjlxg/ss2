@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 100|🇨🇦 加拿大-多伦多-001-1C
@@ -11,6 +19,25 @@ proxies:
   uuid: d7f2fa8d-f718-4d30-a0c7-9f3727aef4be
   ws-opts:
     path: /
+- auth: e6508903-3f6f-4326-931b-f0dc2612c442
+  name: 100|🇨🇦 加拿大-多伦多-HY-001-1A
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: e6508903-3f6f-4326-931b-f0dc2612c442
+  port: 30009
+  server: 141.195.112.53
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- down: 200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 200
 - alterId: 0
   cipher: auto
   name: 39,79|🇨🇦 加拿大专线
@@ -26,33 +53,6 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- auth: e6508903-3f6f-4326-931b-f0dc2612c442
-  name: 100|🇨🇦 加拿大-多伦多-HY-001-1A
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: e6508903-3f6f-4326-931b-f0dc2612c442
-  port: 30009
-  server: 141.195.112.53
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
-  tfo: false
-  type: ss
-- down: 200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 200
 - alterId: 0
   cipher: auto
   name: 104|🇦 加拿大--001-1M
