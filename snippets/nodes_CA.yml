@@ -1,4 +1,14 @@
 proxies:
+- auth: 46a9c548-0d99-48f2-a56d-e5f29af3ca62
+  name: 100|🇨🇦 加拿大-多伦多-HY-001-1B
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: 46a9c548-0d99-48f2-a56d-e5f29af3ca62
+  port: 30009
+  server: 141.195.112.53
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇨🇦 加拿大|CA1
@@ -22,6 +32,15 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
+- down: 200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 200
 - alterId: 0
   cipher: auto
   name: 104|🇦 加拿大--001-1M
@@ -34,22 +53,3 @@ proxies:
   uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
   ws-opts:
     path: /
-- auth: 4b812eb3-3d2a-4cd9-bee2-844044c867e8
-  name: 100|🇨🇦 加拿大-多伦多-HY-001
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: 4b812eb3-3d2a-4cd9-bee2-844044c867e8
-  port: 30009
-  server: 141.195.112.53
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- down: 200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 200
