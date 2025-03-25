@@ -1,34 +1,4 @@
 proxies:
-- auth: d7cc9bc2-8508-4123-98bf-fcc79b28e06f
-  name: 100|🇨🇦 加拿大-多伦多-HY-001-1A
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: d7cc9bc2-8508-4123-98bf-fcc79b28e06f
-  port: 30009
-  server: 141.195.112.53
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 104|🇦 加拿大--001-1M
-  network: ws
-  port: 61291
-  server: 141.195.112.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
-  ws-opts:
-    path: /
 - down: 1200
   name: 116|[Hy2]加拿大 A1
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
@@ -38,18 +8,14 @@ proxies:
   sni: alipay-api-ca-a-1.testred.xyz
   type: hysteria2
   up: 1200
-- alterId: 0
-  cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001-1D
-  network: ws
-  port: 20026
-  server: 141.195.112.53
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a96d1816-f6d7-4871-b192-4086603f9163
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 39,79|🇨🇦 加拿大专线
@@ -65,3 +31,37 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
+- auth: fcad1ca5-fe52-4bc4-81c3-f5224cc3067b
+  name: 100|🇨🇦 加拿大-多伦多-HY-001-1A
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: fcad1ca5-fe52-4bc4-81c3-f5224cc3067b
+  port: 30009
+  server: 50.114.177.96
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001-1E
+  network: ws
+  port: 20027
+  server: 50.114.177.96
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46a9c548-0d99-48f2-a56d-e5f29af3ca62
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 104|🇦 加拿大--001-1M
+  network: ws
+  port: 61291
+  server: 141.195.112.167
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
+  ws-opts:
+    path: /
