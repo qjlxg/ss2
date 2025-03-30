@@ -1,19 +1,29 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇩🇪 德国|FRA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 46247
-  server: o2gezzkrpq6zexxtckpfi8kh95dd52sj.08.01.de.6l6.site
-  tfo: false
-  type: ss
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇫🇷 法国IPV6-10
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 41148
-  server: fr10.sulink.one
+- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
+  name: 39,79|🇩🇪 德国-法兰克福-500M 1-1B
+  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
+  port: 23157
+  server: frankfurt2-500m.node.xn--l6qx3lcvp58x.com
+  skip-cert-verify: false
+  sni: 199.nodes.yljc.online
+  type: hysteria2
+  udp: true
+- auth: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
+  name: 39,79|🇩🇪 德国-法兰克福-1A
+  password: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
+  port: 22775
+  server: frankfurt1-2500m.node.xn--l6qx3lcvp58x.com
+  skip-cert-verify: false
+  sni: 1.nodes.yljc.online
+  type: hysteria2
+  udp: true
+- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  name: 39,79|🇩🇪 欧洲-法兰克福-1
+  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  port: 30001
+  server: oracle-arm-frankfurt1.lanmaoyun.icu
   skip-cert-verify: true
-  sni: fr10.sulink.one
+  sni: frankfurt1.nodes.lanmaoyun.icu
   type: hysteria2
   udp: true
 - alterId: 0
@@ -30,24 +40,32 @@ proxies:
     headers:
       Host: dibai.kxxd.site
     path: /ccc
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇫🇷 法国IPV6-09
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 40149
-  server: fr09.sulian.life
-  skip-cert-verify: true
-  sni: fr09.sulian.life
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 100|🇩🇪 德国-法兰克福-001-1G
+  network: ws
+  port: 20035
+  server: 5.39.252.72
+  tls: false
+  type: vmess
   udp: true
-- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  name: 39,79|🇩🇪 德国-法兰克福-1B
-  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  port: 21257
-  server: frankfurt1-2500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
+  uuid: a01e6b58-906f-465e-a938-d00900807102
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 100|🇩🇪 德国法兰克福
+  network: ws
+  port: 23451
+  server: frankfurt.faforex.eu.org
+  tls: false
+  type: vmess
   udp: true
+  uuid: 4631e125-3eea-44b7-a3b2-d7d61ae8d4f9
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
   name: 104|🇺 澳大利亚FREE
@@ -72,29 +90,6 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
-- auth: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  name: 39,79|🇩🇪 德国-法兰克福-500M 1-1A
-  password: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  port: 24680
-  server: frankfurt2-500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 199.nodes.yljc.online
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 100|🇩🇪 德国法兰克福
-  network: ws
-  port: 23451
-  server: frankfurt.faforex.eu.org
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4631e125-3eea-44b7-a3b2-d7d61ae8d4f9
-  ws-opts:
-    headers:
-      Host: us-new03.daluquan.top
-    path: /itdog?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇫🇷 法国|PAR1
@@ -104,41 +99,46 @@ proxies:
   tfo: false
   type: ss
 - auth: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  name: 39,79|🇩🇪 德国-法兰克福-1A
+  name: 39,79|🇩🇪 德国-法兰克福-500M 1-1A
   password: be9029b5-3f99-439f-b6f9-c6d3012a6a0c
-  port: 22775
-  server: frankfurt1-2500m.node.xn--l6qx3lcvp58x.com
-  skip-cert-verify: false
-  sni: 1.nodes.yljc.online
-  type: hysteria2
-  udp: true
-- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  name: 39,79|🇩🇪 德国-法兰克福-500M 1-1B
-  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
-  port: 23157
+  port: 24680
   server: frankfurt2-500m.node.xn--l6qx3lcvp58x.com
   skip-cert-verify: false
   sni: 199.nodes.yljc.online
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 100|🇩🇪 德国-法兰克福-001-1G
-  network: ws
-  port: 20035
-  server: 5.39.252.72
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a01e6b58-906f-465e-a938-d00900807102
-  ws-opts:
-    path: /
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 39,79|🇩🇪 欧洲-法兰克福-1
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-arm-frankfurt1.lanmaoyun.icu
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇫🇷 法国IPV6-10
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 41148
+  server: fr10.sulink.one
   skip-cert-verify: true
-  sni: frankfurt1.nodes.lanmaoyun.icu
+  sni: fr10.sulink.one
+  type: hysteria2
+  udp: true
+- auth: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
+  name: 39,79|🇩🇪 德国-法兰克福-1B
+  password: 9db6e682-262c-4212-8f49-ac6a3e0ce53d
+  port: 21257
+  server: frankfurt1-2500m.node.xn--l6qx3lcvp58x.com
+  skip-cert-verify: false
+  sni: 1.nodes.yljc.online
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇩🇪 德国|FRA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 46247
+  server: o2gezzkrpq6zexxtckpfi8kh95dd52sj.08.01.de.6l6.site
+  tfo: false
+  type: ss
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇫🇷 法国IPV6-09
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 40149
+  server: fr09.sulian.life
+  skip-cert-verify: true
+  sni: fr09.sulian.life
   type: hysteria2
   udp: true
