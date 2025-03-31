@@ -1,16 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001
-  network: ws
-  port: 20036
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
+- down: 1200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 1200
+- auth: ddc62306-b974-4b7a-96e9-de8f0167341e
+  name: 100|🇨🇦 加拿大-多伦多-HY-001-1B
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: ddc62306-b974-4b7a-96e9-de8f0167341e
+  port: 30032
   server: 141.195.112.33
-  tls: false
-  type: vmess
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: 79ca9c97-b868-49c6-89ce-4cff4b486b01
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 39,79|🇨🇦 加拿大专线
@@ -26,33 +41,18 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
-  tfo: false
-  type: ss
-- auth: 79ca9c97-b868-49c6-89ce-4cff4b486b01
-  name: 100|🇨🇦 加拿大-多伦多-HY-001
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: 79ca9c97-b868-49c6-89ce-4cff4b486b01
-  port: 30031
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001-1A
+  network: ws
+  port: 20037
   server: 141.195.112.33
-  skip-cert-verify: true
-  type: hysteria2
+  tls: false
+  type: vmess
   udp: true
-- down: 1200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 1200
+  uuid: 79ca9c97-b868-49c6-89ce-4cff4b486b01
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 104|🇦 加拿大--001-1M
