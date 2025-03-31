@@ -1,46 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
-  tfo: false
-  type: ss
-- auth: 3eb7b4e7-03ef-4480-8f47-278ed0ac8c44
-  name: 100|🇨🇦 加拿大-多伦多-HY-001-1L
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: 3eb7b4e7-03ef-4480-8f47-278ed0ac8c44
-  port: 30031
-  server: 141.195.112.33
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 39,79|🇨🇦 加拿大专线
-  network: ws
-  port: 30000
-  server: xr003.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- down: 1200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 1200
 - alterId: 0
   cipher: auto
   name: 100|🇨🇦 加拿大-多伦多-001-1H
@@ -65,3 +23,37 @@ proxies:
   uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 39,79|🇨🇦 加拿大专线
+  network: ws
+  port: 30000
+  server: xr003.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- down: 1200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 1200
+- auth: 3eb7b4e7-03ef-4480-8f47-278ed0ac8c44
+  name: 100|🇨🇦 加拿大-多伦多-HY-001-1L
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: 3eb7b4e7-03ef-4480-8f47-278ed0ac8c44
+  port: 30031
+  server: 141.195.112.33
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
