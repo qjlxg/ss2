@@ -1,6 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001
+  network: ws
+  port: 20036
+  server: 141.195.112.33
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79ca9c97-b868-49c6-89ce-4cff4b486b01
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 39,79|🇨🇦 加拿大专线
   network: ws
   port: 30000
@@ -14,6 +26,14 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
 - auth: 79ca9c97-b868-49c6-89ce-4cff4b486b01
   name: 100|🇨🇦 加拿大-多伦多-HY-001
   obfs: salamander
@@ -24,14 +44,6 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇨🇦 加拿大|CA1
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 19915
-  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
-  tfo: false
-  type: ss
 - down: 1200
   name: 116|[Hy2]加拿大 A1
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
@@ -51,17 +63,5 @@ proxies:
   tls: false
   type: vmess
   uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001
-  network: ws
-  port: 20036
-  server: 141.195.112.33
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 79ca9c97-b868-49c6-89ce-4cff4b486b01
   ws-opts:
     path: /
