@@ -1,4 +1,13 @@
 proxies:
+- down: 1200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 1200
 - auth: bfe0265f-a4a5-4830-aebe-c92bc8806565
   name: 100|🇨🇦 加拿大-多伦多-HY-001-1E
   obfs: salamander
@@ -19,18 +28,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001-1E
-  network: ws
-  port: 20050
-  server: 141.195.112.33
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bfe0265f-a4a5-4830-aebe-c92bc8806565
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 104|🇦 加拿大--001-1M
   network: ws
   port: 61291
@@ -39,6 +36,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001-1E
+  network: ws
+  port: 20050
+  server: 141.195.112.33
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bfe0265f-a4a5-4830-aebe-c92bc8806565
   ws-opts:
     path: /
 - alterId: 0
@@ -56,12 +65,3 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- down: 1200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 1200
