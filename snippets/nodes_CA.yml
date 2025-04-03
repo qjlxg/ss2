@@ -9,33 +9,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 39,79|🇨🇦 加拿大专线
-  network: ws
-  port: 30000
-  server: xr003.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001-1F
-  network: ws
-  port: 20051
-  server: 141.195.112.33
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ddc62306-b974-4b7a-96e9-de8f0167341e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 104|🇦 加拿大--001-1M
   network: ws
   port: 61291
@@ -56,6 +29,21 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 39,79|🇨🇦 加拿大专线
+  network: ws
+  port: 30000
+  server: xr003.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
 - down: 1200
   name: 116|[Hy2]加拿大 A1
   password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
@@ -65,3 +53,15 @@ proxies:
   sni: alipay-api-ca-a-1.testred.xyz
   type: hysteria2
   up: 1200
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001-1F
+  network: ws
+  port: 20051
+  server: 141.195.112.33
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ddc62306-b974-4b7a-96e9-de8f0167341e
+  ws-opts:
+    path: /
