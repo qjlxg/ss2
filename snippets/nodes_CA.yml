@@ -1,35 +1,36 @@
 proxies:
-- auth: be6f597a-db79-42d8-ae0f-04702cc2219d
-  name: 100|🇨🇦 加拿大-多伦多-HY-001-1E
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
-  password: be6f597a-db79-42d8-ae0f-04702cc2219d
-  port: 30033
-  server: 141.195.112.33
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇨🇦 加拿大|CA1
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 19915
+  server: 70luslivsskpwm855plfjwgt5h2atwvf.08.01.ca.6l6.site
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 100|🇨🇦 加拿大-多伦多-001-1A
+  name: 104|🇦 加拿大--001-1M
+  network: ws
+  port: 61291
+  server: 141.195.112.167
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 100|🇨🇦 加拿大-多伦多-001
   network: ws
   port: 20051
   server: 141.195.112.33
   tls: false
   type: vmess
   udp: true
-  uuid: e434beeb-d7b4-4620-ab48-fe3f39cd3b08
+  uuid: 18c5ff99-5e6f-4b69-bd5b-b28043003366
   ws-opts:
     path: /
-- down: 1200
-  name: 116|[Hy2]加拿大 A1
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-ca-a-1.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-ca-a-1.testred.xyz
-  type: hysteria2
-  up: 1200
 - alterId: 0
   cipher: auto
   name: 39,79|🇨🇦 加拿大专线
@@ -45,15 +46,22 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 104|🇦 加拿大--001-1M
-  network: ws
-  port: 61291
-  server: 141.195.112.167
+- auth: 18c5ff99-5e6f-4b69-bd5b-b28043003366
+  name: 100|🇨🇦 加拿大-多伦多-HY-001
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ%3D%3D
+  password: 18c5ff99-5e6f-4b69-bd5b-b28043003366
+  port: 30035
+  server: 141.195.112.33
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3993f9dd-93b4-434a-8b67-0fb2dfd5ba9a
-  ws-opts:
-    path: /
+  type: hysteria2
+  udp: true
+- down: 1200
+  name: 116|[Hy2]加拿大 A1
+  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+  port: 443
+  server: alipay-api-ca-a-1.testred.xyz
+  skip-cert-verify: true
+  sni: alipay-api-ca-a-1.testred.xyz
+  type: hysteria2
+  up: 1200
