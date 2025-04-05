@@ -1,18 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 100,104|🇸🇬 新加坡西部-1D
-  network: ws
-  port: 23452
-  server: westsg2-ddns.oraclenat.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d69f3f6b-78d9-44b2-8f71-febecf6ce172
-  ws-opts:
-    headers:
-      Host: westsg2-ddns.oraclenat.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 92|🇸🇬 新加坡|SG04
+  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
+  port: 43885
+  server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇸🇬 新加坡|SG01
@@ -21,20 +15,6 @@ proxies:
   server: bapss6r0ksj2is11odwsuqak1w9e0sk9.08.01.sg.6l6.site
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 39,79|🇸🇬 新加坡05极速节点|油管速度优化
-  network: ws
-  port: 80
-  server: yx.sulink.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  ws-opts:
-    headers:
-      Host: sg05.sulink.one
-    path: /
 - alterId: 0
   cipher: auto
   name: 49,106|SG | 新加坡 LB-1A
@@ -52,11 +32,18 @@ proxies:
       Host: d16henb377mok4.cloudfront.net
     path: /stream
 - cipher: chacha20-ietf-poly1305
+  name: 39,79|🇸🇬 新加坡1SS移动直连
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 12343
+  server: sg6.sulink.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇸🇬 新加坡|SG02
+  name: 92|🇸🇬 新加坡|SG08
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 14556
-  server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
+  port: 35197
+  server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -69,12 +56,44 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇸🇬 新加坡|SG04
+  name: 92|🇸🇬 新加坡|SG02
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 43885
-  server: 2f0oplec5f05yzzjf9dqvltj64qm2ltl.08.04.sg.6l6.site
+  port: 14556
+  server: hkzhikei6sxkexhg91sxtzzpqqa8ak1s.08.02.sg.6l6.site
   tfo: false
   type: ss
+- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  name: 39,79|🇸🇬 新加坡-1
+  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
+  port: 30001
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: main.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 100,104|🇸🇬 新加坡西部-1D
+  network: ws
+  port: 23452
+  server: westsg2-ddns.oraclenat.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d69f3f6b-78d9-44b2-8f71-febecf6ce172
+  ws-opts:
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+    path: /
+- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  name: 39,79|🇸🇬 新加坡07奈非
+  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  port: 32052
+  server: sg07v6.sulink.one
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 92|🇸🇬 新加坡|SG07
@@ -91,6 +110,14 @@ proxies:
   server: z7gfq8utflizatg56x6ghg8pzrr0fio4.08.09.sg.6l6.site
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0,89|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.61.152
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 104|🇬 新加坡西部-2F
@@ -105,40 +132,20 @@ proxies:
     headers:
       Host: xjp.daluquan.top
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0,89|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.61.152
-  tfo: false
-  type: ss
-- auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  name: 39,79|🇸🇬 新加坡07奈非
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 32052
-  server: sg07v6.sulink.one
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 39,79|🇸🇬 新加坡05极速节点|油管速度优化
+  network: ws
+  port: 80
+  server: yx.sulink.one
+  tls: false
+  type: vmess
   udp: true
-- auth: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  name: 39,79|🇸🇬 新加坡-1
-  password: 36771992-8df4-4d2c-b4f1-36f5c584f406
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 92|🇸🇬 新加坡|SG03
-  password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 24219
-  server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
-  tfo: false
-  type: ss
+  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
+  ws-opts:
+    headers:
+      Host: sg05.sulink.one
+    path: /
 - auth: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
   name: 39,79|🇸🇬 新加坡03奈非
   password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
@@ -157,17 +164,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39,79|🇸🇬 新加坡1SS移动直连
-  password: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  port: 12343
-  server: sg6.sulink.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 92|🇸🇬 新加坡|SG08
+  name: 92|🇸🇬 新加坡|SG03
   password: d9619e80-9c6f-4b9b-9af1-0c2eff2de795
-  port: 35197
-  server: n0yftbxv7dwy0daofr2gtrgr683b6w19.08.08.sg.6l6.site
+  port: 24219
+  server: crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site
   tfo: false
   type: ss
